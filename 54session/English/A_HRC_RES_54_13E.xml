@@ -1,0 +1,282 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/eng@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="AGEING PERSONS" href="http://metadata.un.org/thesaurus/1000115" showAs="AGEING PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="VIOLENCE" href="http://metadata.un.org/thesaurus/1006882" showAs="VIOLENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISCRIMINATION" href="http://metadata.un.org/thesaurus/1001697" showAs="DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-06" outcome="draftResolution" as="A/HRC/54/L.20" by="Albania, Andorra, Argentina, Austria, Brazil, Chile, Colombia, Costa Rica, Croatia, Dominican Republic, Ecuador, Gambia, Georgia, Greece, Ireland, Israel, Italy, Luxembourg, Malta, Mexico, Montenegro, North Macedonia, Paraguay, Peru, Philippines, Portugal, San Marino, Slovenia, Spain, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">Fifty-fourth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 September</date>
+          <date date="2023-10-13" refersTo="#endDate">13 October 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 11 October 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/13.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Human rights of older persons</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Reaffirming" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> the obligation of all States to respect, protect and fulfil all human rights and fundamental freedoms, and reaffirming also the Charter of the United Nations, the Universal Declaration of Human Rights, the International Covenant on Civil and Political Rights, the International Covenant on Economic, Social and Cultural Rights, the Convention on the Elimination of All Forms of Discrimination against Women, the Convention on the Rights of Persons with Disabilities, the International Convention on the Elimination of All Forms of Racial Discrimination and the Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment,</p>
+      </container>
+      <container name="Bearing in mind" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Bearing in mind</span> the United Nations Principles for Older Persons, the Political Declaration and Madrid International Plan of Action on Ageing, 2002, and all relevant General Assembly resolutions, including resolutions 65/182 of 21 December 2010, 66/127 of 19 December 2011, 70/164 of 17 December 2015, 75/131 of 14 December 2020, 76/138 of 16 December 2021 and 77/190 of 15 December 2022,</p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>that the 2030 Agenda for Sustainable Development stresses the need to ensure that no one is left behind, and in this regard recognizing the essential contribution that older persons make to the functioning of societies and to the achievement of the 2030 Agenda,</p>
+      </container>
+      <container name="Recalling also" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Recalling also</span> Human Rights Council resolutions 21/23 of 28 September 2012, 24/20 of 27 September 2013, 33/5 of 29 September 2016, 42/12 of 26 September 2019, 48/3 of 7 October 2021 and 51/4 of 6 October 2022 on the human rights of older persons, and all other relevant Council resolutions, including resolutions 39/18 of 28 September 2018 and 44/7 of 16 July 2020,</p>
+      </container>
+      <container name="Recognizing" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the work of the Independent Expert on the enjoyment of all human rights by older persons and the Open-ended Working Group on Ageing, and the contributions and support by the Office of the United Nations High Commissioner for Human Rights,</p>
+      </container>
+      <container name="Taking note with appreciation" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Taking note with appreciation</span> of the report of the Independent Expert on the enjoyment of all human rights by older persons on violence against and abuse and neglect of older persons,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	A/HRC/54/26.</p></authorialNote></p>
+      </container>
+      <container name="Noting with appreciation" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Noting with appreciation </span>the work of the special procedures of the Human Rights Council on older persons, and taking note of the relevant reports of, inter alia, the Independent Expert, the Working Group on discrimination against women and girls, the Special Rapporteur on the right of everyone to the enjoyment of the highest attainable standard of physical and mental health, the Special Rapporteur on the rights of persons with disabilities and the Special Rapporteur on the rights of Indigenous Peoples,</p>
+      </container>
+      <container name="Recognizing" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Recognizing </span>that older persons face a number of particular challenges in the enjoyment of their human rights, including, among others, in the areas of prevention of and protection against violence, abuse and neglect, social protection, food and housing, the right to work and access to the labour market, equality and non‑discrimination, access to justice, new technologies, education, training, health support, long-term care and support, palliative care, lifelong learning, participation, accessibility, equal pay for equal work, and unpaid care work,</p>
+      </container>
+      <container name="Emphasizing" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Emphasizing </span>the importance of promoting inclusive, age-friendly communities and environments and of providing a range of support services that promote the dignity, autonomy and independence of older persons, to enable older persons to remain in their homes as they age, with due regard to individual preferences,</p>
+      </container>
+      <container name="Noting" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Noting</span> that new and emerging technologies, and assistive technology, while respecting the autonomy of older persons, can enable and promote the inclusion, participation and engagement of older persons in all areas of society, including the political, economic and social spheres, which can be an important contributor in preventing violence against and abuse and neglect of older persons,</p>
+      </container>
+      <container name="Recognizing" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that ageism is a widely prevalent and prejudicial attitude that is a significant risk factor for abuse of older persons, and that age stereotypes play a key role in perpetuating abuse of older persons as well as in hindering their access to appropriate care and support and their free, full, active, inclusive and meaningful participation in all public decision-making processes, including the development of laws, policies and other measures to address violence and abuse, and their access to remedies and redress,</p>
+      </container>
+      <container name="Recognizing also" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Recognizing also</span> that all forms of violence against and abuse and neglect of older persons are pervasive around the world, and that an increase in violence against older persons has been seen during ongoing crises, such as the coronavirus disease (COVID‑19) pandemic, armed conflicts and climate change,</p>
+      </container>
+      <container name="Noting with concern" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Noting with concern</span> that violence against older persons remains overlooked and that the limited understanding of the phenomenon has far-reaching consequences for the mental and physical well-being of millions of older persons worldwide,</p>
+      </container>
+      <container name="Noting" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Noting</span> the conclusions of the Independent Expert that “most definitions recognize five forms of abuse of older persons, namely: (a) physical abuse; (b) psychological or emotional abuse; (c) sexual abuse; (d) financial or material abuse; and (e) neglect”, and noting also that “the Independent Expert recognizes an additional form, namely hate speech against older persons”,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	Ibid., para. 12.</p></authorialNote></p>
+      </container>
+      <container name="Stressing" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Stressing</span> that ageism and age discrimination are a root cause of and barrier to effectively combating violence against and abuse and neglect of older persons,</p>
+      </container>
+      <container name="Noting" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Noting</span> that all forms of violence against and abuse and neglect of older persons can take place in all settings, including public and private settings, both online and offline,</p>
+      </container>
+      <container name="Noting with concern" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Noting with concern </span>that older women often face discrimination, including multiple and intersecting forms of discrimination, and are at greater risk of violence, abuse and neglect, compounded by their gender, age, race or disability or on other grounds, which affects the enjoyment of their human rights,</p>
+      </container>
+      <container name="Noting" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Noting</span> that the lack of data on the prevalence of abuse of older persons generates considerable gaps in preventing human rights violations and that the actual numbers of older persons who suffer from abuse or violence are assumed to be significantly higher than the existing data show and that, due to the ageing of the world population, the number of victims will grow rapidly in the future if no measures are taken to effectively address the problem,</p>
+      </container>
+      <container name="Noting also" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Noting also</span> the fragmentation of international human rights law with regard to older persons and that there are no specific provisions addressing violence against and abuse and neglect of older persons and the unique risks faced by older persons, especially older women, in vulnerable situations in the current human rights framework,</p>
+      </container>
+      <container name="Taking note with appreciation" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Taking note with appreciation</span> of the report of the United Nations High Commissioner for Human Rights on normative standards and obligations under international law in relation to the promotion and protection of the human rights of older persons,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/HRC/49/70.</p></authorialNote> and noting the findings contained in the report on the gaps, limitations and deficiencies in the existing international human rights framework and that, in the report, the High Commissioner stresses the need to move expeditiously towards developing and adopting a coherent, comprehensive and integrated human rights framework,</p>
+      </container>
+      <container name="Noting with appreciation" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Noting with appreciation </span>the convening of a multi-stakeholder meeting, held on 29 and 30 August 2022, at which the report of the High Commissioner on normative standards and obligations under international law in relation to the promotion and protection of the human rights of older persons was discussed, and taking note of the summary report thereon, which includes recommendations on closing the existing gaps that negatively affect the lives of older persons,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		A/HRC/52/49.</p></authorialNote></p>
+      </container>
+      <container name="Taking note with appreciation" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Taking note with appreciation </span>of decision 13/1 adopted by the Open-ended Working Group on Ageing at its thirteenth session on the identification of possible gaps in the protection of the human rights of older persons and how best to address them, and its request to co-facilitators to submit proposed intergovernmental negotiated recommendations to be considered at its fourteenth session, in March 2024,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> 	<span class="italic">Condemns in the strongest possible terms</span> the persistence and pervasiveness of all forms of violence against and abuse and neglect of older persons worldwide, and reaffirms that all older persons should be able to live free from violence, abuse and neglect;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">Expresses deep concern</span> that all forms of discrimination and violence against older persons impair the full enjoyment by older persons of their human rights and fundamental freedoms and hinder their full, effective and meaningful participation in public and private life;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> 	<span class="italic">Recognizes </span>that the challenges relating to the enjoyment of civil, political, economic, social and cultural rights by older persons, including, among others, in the areas of prevention of and protection against violence, abuse and neglect, social protection, food and housing, the right to work and access to the labour market, equality and non‑discrimination, access to justice, new technologies, education, training, health support, long-term care and support, palliative care, unpaid care work, lifelong learning, participation, accessibility and equal pay for equal work, and the need to address them, require in-depth analysis and adequate action;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon </span>all States to prohibit all forms of discrimination against older persons and to adopt and implement non‑discriminatory policies, national strategies, action plans, legislation and regulations, including in response to violence, abuse and neglect, and to promote and ensure the full realization of all human rights and fundamental freedoms for older persons in, inter alia, employment, social protection, housing, education and training, access to technologies and the provision of financial, social, health-care, long-term support and palliative care services, while systematically providing for consultation with and the participation of older persons themselves, and their representative organizations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> all stakeholders, including States, the entities of the United Nations system, civil society, national human rights institutions and the private sector to combat ageism as a root cause of violence, abuse and neglect, as well as to eliminate violence, abuse and neglect in all their forms and to adopt a human rights-based approach in all programmes, campaigns and activities relating to ageing and older persons;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> all States to establish and/or enhance effective redress mechanisms and to ensure access to justice for, on an equal basis with others, all older persons who become victims and survivors of violence, abuse and neglect and for older persons subjected to discrimination based on age, gender, race or disability or on other grounds, including legal aid and support, as well as accessible and age-responsive legal proceedings;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve"> 	<span class="italic">Also calls upon</span> all States to take measures to raise awareness in society, including among public officials, the private sector and older persons themselves, about the meaning and consequences of violence against and abuse and neglect of older persons and about existing legal provisions and judicial remedies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> States to collect and analyse data disaggregated, as appropriate, by age, gender, disability, marital status, area of residence and other relevant criteria, in order to identify and render visible inequalities and discriminatory patterns, including structural aspects of discrimination, and to analyse the effectiveness of measures taken to promote equality, as well as to provide information on all forms of violence, abuse and neglect and their root causes, including ageism and discrimination, including multiple and intersecting forms of discrimination;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve"> 	<span class="italic">Invites</span> the Independent Expert on the enjoyment of all human rights by older persons to continue to raise awareness of the challenges that older persons face in the realization of their human rights in her annual reports;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> the Office of the United Nations High Commissioner for Human Rights to convene a meeting of human rights experts, fully accessible to persons with disabilities, with the participation of the Independent Expert and expert representatives of Member States, the treaty bodies and the special procedures, regional mechanisms, the United Nations system, academia, national human rights institutions and civil society, including with the meaningful and effective participation of older persons and their representative organizations, to discuss and draw up recommendations on the human rights obligations of States regarding violence against and abuse and neglect of older persons in all settings, to prepare a summary report, to be made available in accessible formats, including plain language and Easy Read, containing the conclusions and recommendations of the meeting, and to submit the report to the Human Rights Council by its fifty-seventh session.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46th" refersTo="#adoptionMeeting">46th meeting</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 October 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
