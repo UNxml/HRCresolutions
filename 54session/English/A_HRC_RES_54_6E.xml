@@ -1,0 +1,305 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/eng@/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="CAREGIVERS" href="http://metadata.un.org/thesaurus/1000830" showAs="CAREGIVERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CARE ECONOMY" showAs="CARE ECONOMY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN'S RIGHTS" href="http://metadata.un.org/thesaurus/1007035" showAs="WOMEN'S RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GENDER EQUALITY" href="http://metadata.un.org/thesaurus/1002612" showAs="GENDER EQUALITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-10" outcome="draftResolution" as="A/HRC/54/L.6/Rev.1" by="Albania, Argentina, Australia, Belgium, Canada, Chile, Colombia, Costa Rica, Cyprus, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Iceland, Ireland, Italy, Luxembourg, Malta, Mexico, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Paraguay, Peru, Portugal, San Marino, Slovenia, Spain, Sweden, United Kingdom of Great Britain and Northern Ireland and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-12" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-12" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-12" class="rightSmall" refersTo="#dateOfIssuance">12 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">Fifty-fourth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 September</date>
+          <date date="2023-10-13" refersTo="#endDate">13 October 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 11 October 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Centrality of care and support from a human rights perspective</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">		Guided </span>by the purposes and principles of the Charter of the United Nations,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>the obligation of all States to respect, protect and fulfil all human rights and fundamental freedoms, and reaffirming also the Universal Declaration of Human Rights, the International Covenant on Civil and Political Rights, the International Covenant on Economic, Social and Cultural Rights, the Convention on the Elimination of All Forms of Discrimination against Women, the Convention on the Rights of the Child, the Convention on the Rights of Persons with Disabilities and the International Convention on the Elimination of All Forms of Racial Discrimination,</p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>that gender equality is recognized in the Vienna Declaration and Programme of Action, the Programme of Action of the International Conference on Population and Development, the Beijing Declaration and Platform for Action and the outcome documents of their review conferences, as well as in the 2030 Agenda for Sustainable Development,</p>
+      </container>
+      <container name="Recalling also" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also</span> all relevant resolutions of the Human Rights Council, the Commission on Human Rights and the General Assembly and the relevant resolutions and agreed conclusions of the Commission on the Status of Women, and recalling further the recent proclamation by the General Assembly of the International Day of Care and Support,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	Resolution 77/317.</p></authorialNote> as well as relevant conventions and recommendations adopted by the International Labour Organization on the issue of discrimination against women,</p>
+      </container>
+      <container name="Recalling further" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling further </span>that all human rights are universal, indivisible, interdependent and interrelated, that gender equality must be promoted in a comprehensive and systematic manner, and that persistent discrimination against all women and girls within families, economies and societies has a debilitating impact on the equal enjoyment of their human rights in all aspects of life,</p>
+      </container>
+      <container name="Recalling" eId="container_7">
+        <p xml:space="preserve">		<span class="italic">Recalling</span> that the Universal Declaration of Human Rights proclaims that childhood is entitled to special care and assistance, and that the Convention on the Rights of the Child provides that States parties shall use their best efforts to ensure recognition of the principle that both parents have common responsibilities for the upbringing and development of the child, and to render appropriate assistance to parents and legal guardians in the performance of their child-rearing responsibilities and shall ensure the development of institutions, facilities and services for the care of children and support to their families, and considering that States should promote awareness among parents and caregivers of the need to respect children’s human rights and the right of all children to live within their families and their communities,</p>
+      </container>
+      <container name="Recognizing" eId="container_8">
+        <p xml:space="preserve">		<span class="italic">Recognizing</span> that older persons face a number of particular barriers to their enjoyment of human rights, including lack of access to quality health support, long-term care and support and palliative care, accessibility and unpaid care work, and emphasizing the importance of promoting inclusive, age-sensitive communities and environments and of providing a range of support services that promote the dignity, autonomy and independence of older persons to enable them to remain in their homes as they age, respecting their individual preferences,</p>
+      </container>
+      <container name="Taking into account" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">		Taking into account</span> the fact that support and care systems, comprising disability-inclusive policies and services, are essential for persons with disabilities to fully and effectively participate in society, with choices equal to others, to live with dignity, autonomy and independence, and to live independently in the community, as recognized in the Convention on the Rights of Persons with Disabilities,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">		Deeply concerned</span> that, owing to gender stereotypes and negative social norms, care work, whether paid or unpaid, is performed either solely or largely by women and girls, accordingly, exacerbating existing structural inequalities,</p>
+      </container>
+      <container name="Recognizing" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>that an equal and fair distribution of care is a prerequisite to ensuring that women fully enjoy, on an equal basis, economic, social and cultural rights, in particular the right to education, the right to work, the enjoyment of just and decent conditions of work, freedom of association, the right to organize and to bargain collectively,  an adequate standard of living, the enjoyment of the highest attainable standard of physical and mental health, and the right to take part in cultural life, and civil and political rights, such as the right to participate in political and public life,</p>
+      </container>
+      <container name="Recognizing also" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing also</span> that various international human rights treaties, including the International Covenant on Economic, Social and Cultural Rights, the Convention on the Elimination of All Forms of Discrimination against Women, the International Covenant on Civil and Political Rights, the Convention on the Rights of the Child and the Convention on the Rights of Persons with Disabilities, and various international labour standards and commitments establish legally binding obligations that should guide States to address the issue of unpaid care work,</p>
+      </container>
+      <container name="Expressing concern" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">		Expressing concern</span> that the difficulties, intensity and gendered distribution of unpaid care work create and perpetuate inequalities in the enjoyment of human rights, contribute to the perpetuation of the feminization of poverty and hinder gender equality, which prevents the full enjoyment of human rights, and constitute a barrier to women’s full, equal and meaningful involvement in the labour market, and to women’s economic opportunities, autonomy and entrepreneurial activities, restrict women’s ability to participate in decision-making processes and to exercise leadership positions, and pose significant constraints on women’s and girls’ education and training and their access to health services, including for sexual and reproductive health services, in particular for women and girls in vulnerable situations, women and girls in contexts of poverty, migrant women, rural women, Indigenous women, women of African descent, women with disabilities, older women, single mothers and widows, women deprived of liberty and refugee women, among others,</p>
+      </container>
+      <container name="Emphasizing" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">		Emphasizing </span>that the Beijing Platform for Action established as a strategic objective the promotion of the harmonization of work and family responsibilities and the commitment to recognize and value unpaid care and domestic work through the provision of public services, infrastructure and social protection policies and the promotion of shared responsibility within the household and the family, as nationally appropriate, as contained in target 5.4 of the Sustainable Development Goals,</p>
+      </container>
+      <container name="Stressing" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing</span> the need to adopt measures to adequately recognize and value care work in all its forms, and to redistribute it on a fair and equal basis, including by adopting measures to identify and measure the economic value of unpaid care work, and to reduce certain forms of care work while protecting access to quality care and support by those who require them and ensuring access to human rights-based care and support by persons with disabilities, children, older persons and other persons who require them,</p>
+      </container>
+      <container name="Stressing also" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing also </span>the need to adopt measures, with an intersectional approach, to recognize, value and redistribute on an equal and fair basis paid and unpaid care work, and to reduce unpaid care work, currently still disproportionately performed by women and girls, by promoting the equal sharing of responsibilities among family members, and among families, communities, the private sector and States, by prioritizing, inter alia, sustainable and accessible infrastructure, transport, social protection policies, affordable and quality social services, including care and support services and products, child care, and labour standards that provide for decent work and gender equality for all workers, including maternity, paternity or parental leave, equal pay for work of equal value, safe and healthy working conditions and freedom from violence and harassment in the world of work, including gender-based violence and harassment, freedom of association and the right to organize and bargain collectively,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">		Deeply concerned</span> that the coronavirus disease (COVID‑19) crisis has exacerbated pre‑existing forms of inequality and systemic discrimination faced by women and girls, including patriarchy, racism, stigma, xenophobia and socioeconomic inequalities, and has increased the occurrence of sexual and gender-based violence and harassment, women’s and girls’ disproportionate share of unpaid care and domestic work, as well as loss of employment and livelihoods, particularly among women who work in the informal sector,</p>
+      </container>
+      <container name="Highlighting" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">		Highlighting </span>the need to invest in the care economy and to create robust, resilient and gender-responsive, disability-inclusive and age-sensitive care and support systems with full respect for human rights, with a view to recognizing, valuing, reducing and redistributing unpaid care, domestic work and support,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the importance of respecting, protecting and fulfilling the human rights of paid and unpaid caregivers and care and support recipients;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Expresses deep concern</span> at the unequal distribution and organization of care and support work and their impact on the rights of all women and girls, in society and in the economy;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that the equal distribution of care and support work and resulting distribution of time is a fundamental basis to achieve gender equality;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>4.</num>
+        <list eId="para_25_list">
+          <intro eId="para_25_list_intro">
+            <p xml:space="preserve">	<span class="italic">Urges </span>States:</p>
+          </intro>
+          <point eId="para_25_list_point_a">
+            <num>(a)</num>
+            <content eId="para_25_list_point_a_content">
+              <p xml:space="preserve">	To implement all measures necessary to recognize and redistribute care work among individuals, as well as families, communities, the private sector and States, in a manner that promotes gender equality and the enjoyment of human rights by all;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_b">
+            <num>(b)</num>
+            <content eId="para_25_list_point_b_content">
+              <p xml:space="preserve">	To increase investment in care and support policies and infrastructure to ensure universal access to affordable and quality services for all, including childcare, and health and support services for persons with disabilities and older persons, and to ensure universal access to paid maternity, paternity and parental leave and social protection for all workers, including for both informal workers and those in non‑standard forms of employment;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_c">
+            <num>(c)</num>
+            <content eId="para_25_list_point_c_content">
+              <p xml:space="preserve">	To encourage and support research and surveys aimed at producing data disaggregated by income, sex, age, race, ethnicity, migratory status, civil status, disability, geographic location and other characteristics relevant in national contexts, and statistics on the extent and distribution of time use and care work and its providers and recipients, through regular time-use surveys and the establishment of satellite accounts to assess the contribution of such work to national income, and to quantify unpaid care work, and to include it in the gross national product for the purpose of designing, financing and assessing policies in this area;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_d">
+            <num>(d)</num>
+            <content eId="para_25_list_point_d_content">
+              <p xml:space="preserve">	To adopt all measures necessary to enable the full, equal, meaningful and inclusive participation of women, persons with disabilities and older persons, as well as children, in decision-making relevant to care and support, in both private and public life, including social dialogue and collective bargaining by paid care workers;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_e">
+            <num>(e)</num>
+            <content eId="para_25_list_point_e_content">
+              <p xml:space="preserve">	To raise awareness about the negative impact of gender, disability and age stereotypes in providing care and receiving care and support, and to develop programmes and policies to eliminate such stereotypes; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>5.</num>
+        <list eId="para_29_list">
+          <intro eId="para_29_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span>:</p>
+          </intro>
+          <point eId="para_29_list_point_a">
+            <num>(a)</num>
+            <content eId="para_29_list_point_a_content">
+              <p xml:space="preserve">	To request the United Nations High Commissioner for Human Rights to organize a two-day expert workshop, in an accessible format, with inputs from interested States, international organizations, the private sector and civil society, particularly women’s organizations, including grass-roots women’s organizations, organizations of persons with disabilities, child rights organizations, older persons and their representative organizations and representatives of employers’ and workers’ organizations, to address the human rights of women, persons with disabilities, children and older persons as caregivers, as well as receivers of care and support, and for their self-care from a gender equality and human rights perspective, with the objective of evaluating experiences, good practices and main challenges regarding the effective recognition of the rights of caregivers and those receiving care and support;</p>
+            </content>
+          </point>
+          <point eId="para_29_list_point_b">
+            <num>(b)</num>
+            <content eId="para_29_list_point_b_content">
+              <p xml:space="preserve">	Also to request the High Commissioner, based on the discussions at the aforementioned expert workshop and in consultation with States Members of the United Nations and other interested parties, to prepare a comprehensive thematic study on the human rights dimension of care and support, summarizing and compiling international standards and good practices and main challenges at the national level in care and support systems, and including recommendations on promoting and ensuring the human rights of caregivers and care and support recipients, requiring contributions to be submitted in an accessible format, and further to request that such stakeholder contributions, the study itself and an easy-to-read-version of it be made available on the website of the Office of the United Nations High Commissioner for Human Rights, in an accessible format, prior to the fifty-eighth session of the Human Rights Council;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Also decides </span>to review progress in the implementation of the present resolution as a matter of priority at its future sessions.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46th" refersTo="#adoptionMeeting">46th meeting</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 October 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
