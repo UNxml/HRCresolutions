@@ -1,0 +1,505 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/fra@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-03-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Expert Mechanism on the Rights of Indigenous Peoples" showAs="UN. Human Rights Council. Expert Mechanism on the Rights of Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Voluntary Fund for Indigenous Peoples" showAs="UN Voluntary Fund for Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Declaration on the Rights of Indigenous Peoples (2007)" showAs="UN Declaration on the Rights of Indigenous Peoples (2007)" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Decade of Indigenous Languages (2022–2032)" showAs="International Decade of Indigenous Languages (2022–2032)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INDIGENOUS PEOPLES" href="http://metadata.un.org/thesaurus/1003106" showAs="INDIGENOUS PEOPLES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANGUAGES" href="http://metadata.un.org/thesaurus/1003621" showAs="LANGUAGES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POPULAR PARTICIPATION" href="http://metadata.un.org/thesaurus/1005016" showAs="POPULAR PARTICIPATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-09" outcome="draftResolution" as="A/HRC/54/L.19" by="Australia, Bolivia (Plurinational State of), Brazil, Canada, Colombia, Costa Rica, Denmark, Ecuador, Finland, Guatemala, Iceland, Lithuania, Luxembourg, Mexico, New Zealand, Norway, Paraguay, Peru, Spain, Sweden and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/12</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 octobre 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French"> Français </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">Cinquante-quatrième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 septembre</date>
+          <date date="2023-10-13" refersTo="#endDate">13 octobre 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme,  civils, politiques, économiques, sociaux et culturels,  y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 11 octobre 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/12.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Droits de l’homme et peuples autochtones</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme,</span>
+        </p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> toutes les résolutions que l’Assemblée générale, la Commission des droits de l’homme et lui-même ont adoptées au sujet des droits de l’homme et des peuples autochtones,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> son soutien à la réalisation des objectifs de la Déclaration des Nations Unies sur les droits des peuples autochtones, adoptée par l’Assemblée générale dans sa résolution 61/295 du 13 septembre 2007,</p>
+      </container>
+      <container name="Conscient" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Conscient </span>que, depuis son adoption, la Déclaration des Nations Unies sur les droits des peuples autochtones a eu une influence positive sur la rédaction de plusieurs constitutions et lois aux niveaux national et local et a contribué au développement progressif de la jurisprudence et de politiques et de cadres juridiques nationaux et internationaux concernant les peuples autochtones,</p>
+      </container>
+      <container name="Se félicitant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Se félicitant </span>des efforts faits actuellement pour promouvoir, protéger et réaliser les droits des peuples autochtones, rappelant l’engagement pris à la réunion plénière de haut niveau de l’Assemblée générale connue sous l’intitulé de Conférence mondiale sur les peuples autochtones d’examiner les moyens de renforcer la participation des représentants des peuples autochtones et des institutions qu’ils ont dûment établies aux réunions des organes compétents de l’Organisation des Nations Unies portant sur les questions qui les concernent, et saluant la résolution 71/321 de l’Assemblée, du 8 septembre 2017,</p>
+      </container>
+      <container name="Saluant" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Saluant</span> la participation de représentants des peuples autochtones et des institutions qu’ils ont dûment établies aux réunions de divers organes de l’ONU et de leurs organes subsidiaires, en particulier à ses propres réunions et à celles du Mécanisme d’experts sur les droits des peuples autochtones, ainsi qu’à celles de l’Instance permanente sur les questions autochtones,</p>
+      </container>
+      <container name="Prenant note" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Prenant note</span> du document final de la Réunion de dialogue sur le renforcement de la participation des peuples autochtones aux Nations Unies organisée par des organisations et des institutions autochtones et tenue à Quito du 27 au 30 janvier 2020,</p>
+      </container>
+      <container name="Rappelant" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> le rapport de synthèse établi par le Haut-Commissariat des Nations Unies aux droits de l’homme sur le dialogue intersessions d’une demi-journée tenu le 15 juillet 2019 au sujet des moyens de renforcer la participation des représentants des peuples autochtones et de leurs institutions aux réunions du Conseil portant sur des questions qui les concernent<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	<a href="http://undocs.org/fr/A/HRC/44/35">A/HRC/44/35</a>.</p></authorialNote>, et le rapport du Haut-Commissariat sur la table ronde intersessions tenue le 16 juillet 2021 sur les moyens de renforcer la participation des représentants des peuples autochtones et de leurs institutions aux réunions du Conseil portant sur des questions qui les concernent<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	<a href="http://undocs.org/fr/A/HRC/49/69">A/HRC/49/69</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Conscient" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Conscient </span>de l’importance du Fonds de contributions volontaires des Nations Unies pour les peuples autochtones, qui aide les représentants des peuples autochtones et les institutions qu’ils ont dûment établies à participer aux réunions qui les concernent,</p>
+      </container>
+      <container name="Prenant note" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Prenant note </span>de l’étude du Mécanisme d’experts sur les droits des peuples autochtones portant sur l’incidence de la militarisation sur les droits des peuples autochtones<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/54/52">A/HRC/54/52</a>.</p></authorialNote> et du rapport du Mécanisme d’experts intitulé « Action menée aux fins de l’application de la Déclaration des Nations Unies sur les droits des peuples autochtones : mise en place aux échelons national et régional de mécanismes efficaces de suivi de l’application de la Déclaration<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	<a href="http://undocs.org/fr/A/HRC/EMRIP/2023/3">A/HRC/EMRIP/2023/3</a>.</p></authorialNote> », et engageant les États à envisager d’appliquer les conseils qui y sont formulés,</p>
+      </container>
+      <container name="Prenant note également" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Prenant note également</span> du rapport du Rapporteur spécial sur les droits des peuples autochtones intitulé « Le financement vert − une transition juste pour protéger les droits des peuples autochtones<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/54/31">A/HRC/54/31</a>.</p></authorialNote> », dans lequel le Rapporteur spécial a engagé tous les États à prendre en considération les recommandations qu’il y formulait, et saluant les efforts déployés par le Rapporteur spécial pour faire participer les peuples autochtones à l’élaboration des rapports annuels et des rapports par pays,</p>
+      </container>
+      <container name="Rappelant" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>le rapport du Haut-Commissariat sur la réunion-débat annuelle d’une demi‑journée sur les droits des peuples autochtones tenue le 28 septembre 2022, qui a été consacrée aux effets des plans de relèvement économique et social liés à la pandémie de maladie à coronavirus (COVID‑19) sur les peuples autochtones et a accordé une attention particulière à la question de la sécurité alimentaire<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	<a href="http://undocs.org/fr/A/HRC/53/43">A/HRC/53/43</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Prenant note" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Prenant note </span>de la recommandation générale n<sup>o</sup> 39 (2022) sur les droits des femmes et des filles autochtones, du Comité pour l’élimination de la discrimination à l’égard des femmes, et de l’observation générale n<sup>o</sup> 26 (2023) sur les droits de l’enfant et l’environnement, mettant l’accent en particulier sur les changements climatiques, du Comité des droits de l’enfant, et engageant les États à prendre en considération les conseils qui y sont formulés et à en faire traduire le texte dans les langues autochtones,</p>
+      </container>
+      <container name="Soulignant" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> qu’il importe d’accorder une attention particulière aux droits et aux besoins des femmes, des enfants, des jeunes, des personnes âgées, des personnes handicapées autochtones et des personnes autochtones en situation de vulnérabilité, et de redoubler d’efforts pour prévenir et éliminer toutes les formes de violence et de discrimination, comme cela est énoncé dans la Déclaration des Nations Unies sur les droits des peuples autochtones et le document final de la Conférence mondiale sur les peuples autochtones, que l’Assemblée générale a adopté par consensus en 2014<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Résolution <a href="http://undocs.org/fr/A/RES/69/2">69/2</a> de l’Assemblée générale.</p></authorialNote>,</p>
+      </container>
+      <container name="Conscient" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Conscient </span>que les peuples autochtones sont parmi les premiers à subir les conséquences directes des changements climatiques en raison des relations étroites qu’ils entretiennent avec l’environnement et les ressources naturelles, notamment pour les protéger, et saluant le rôle que jouent les peuples autochtones, et en particulier celui des femmes et des filles autochtones, qui font face avec résilience aux effets néfastes des changements climatiques, dans la réalisation des objectifs de la Convention-cadre des Nations Unies sur les changements climatiques, du but et des objectifs de l’Accord de Paris et des cibles et objectifs du Programme de développement durable à l’horizon 2030,</p>
+      </container>
+      <container name="Conscient également" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Conscient également </span>que les changements climatiques ont des effets de plus en plus marqués sur les droits de l’homme et des incidences particulières sur les droits et les modes de vie des peuples autochtones dans le monde entier, et rappelant le préambule de l’Accord de Paris et le préambule de la décision 1/CP.21 relative à l’adoption de l’Accord de Paris<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	 	<a href="http://undocs.org/fr/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>.</p></authorialNote>, dans lesquels il est dit que les États devraient, lorsqu’ils prennent des mesures face aux changements climatiques, respecter, promouvoir et prendre en considération leurs obligations respectives concernant les droits des peuples autochtones, le paragraphe 135 de la décision 1/CP.21, où est reconnue la nécessité de renforcer les connaissances, technologies, pratiques et activités des peuples autochtones destinées à faire face et à répondre aux changements climatiques, et le paragraphe 36 du document final de la Conférence mondiale sur les peuples autochtones,</p>
+      </container>
+      <container name="Conscient en outre" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Conscient en outre </span>que de nombreux écosystèmes, y compris des écosystèmes aquatiques, sont menacés par une mauvaise gestion et un développement non durable et font l’objet d’une incertitude croissante et de risques accrus dus aux changements climatiques et à d’autres facteurs, et exhortant les États à reconnaître, à respecter et à promouvoir les approches préconisées par les peuples autochtones en matière de gestion des écosystèmes, et le droit des peuples autochtones à la préservation et à la protection de leur environnement et de la capacité de production de leurs terres ou territoires et ressources, ainsi qu’il est énoncé à l’article 29 de la Déclaration des Nations Unies sur les droits des peuples autochtones, en garantissant leur participation pleine et effective,</p>
+      </container>
+      <container name="Ayant à l’esprit" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Ayant à l’esprit </span>que les peuples autochtones se heurtent à d’importants obstacles dans l’exercice de leur droit, énoncé à l’article 21 de la Déclaration des Nations Unies sur les droits des peuples autochtones, à l’amélioration de leur situation économique et sociale, y compris dans le domaine du logement, du fait de divers facteurs tels que la colonisation et la dépossession qu’ils ont subis, des taux démesurément élevés de sans-abrisme et de la vulnérabilité aux expulsions forcées, à l’accaparement des terres et aux effets néfastes des changements climatiques, et reconnaissant qu’il est nécessaire de veiller à ce qu’ils puissent vivre dans la paix, la sécurité et la dignité et jouir du droit à l’amélioration de leur situation économique et sociale, y compris dans le domaine du logement, sans discrimination,</p>
+      </container>
+      <container name="Soulignant" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Soulignant </span>que les sociétés transnationales et autres entreprises ont le devoir de respecter tous les droits de l’homme et devraient mettre en place des procédures de diligence raisonnable en matière de droits de l’homme afin de détecter, prévenir et atténuer les incidences négatives de leurs activités sur les droits de l’homme et de rendre compte de la façon dont elles y remédient, en accordant une attention particulière aux répercussions que leurs activités peuvent avoir sur les droits collectifs des peuples autochtones, et réaffirmant qu’il incombe au premier chef aux États de respecter, de protéger et de réaliser les droits de l’homme et qu’ils sont tenus de protéger les droits de l’homme sur leur territoire ou dans leur juridiction contre toute atteinte par des tierces parties, y compris les sociétés transnationales et autres entreprises, notamment en réglementant les activités de celles‑ci et en garantissant l’accès à des voies de recours efficaces en cas d’atteintes,</p>
+      </container>
+      <container name="Prenant note avec satisfaction" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Prenant note avec satisfaction </span>de la création par la Conférence des Parties à la Convention-cadre des Nations Unies sur les changements climatiques, à sa vingt-quatrième session, du Groupe de facilitation de la plateforme des communautés locales et des peuples autochtones, où les représentants des peuples autochtones et les Parties à la Convention-cadre disposent d’une participation égale, en vue de promouvoir les objectifs et l’exécution des fonctions de la plateforme, et prenant note du deuxième plan de travail triennal de la plateforme pour la période 2022-2024,</p>
+      </container>
+      <container name="Reconnaissant" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Reconnaissant </span>qu’il importe d’assurer la participation pleine et effective des peuples autochtones à la prise de décisions aux fins de l’application du Cadre mondial de la biodiversité de Kunming-Montréal adopté en vertu de la Convention sur la diversité biologique,</p>
+      </container>
+      <container name="Sachant" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Sachant </span>qu’il importe de donner des moyens d’action aux femmes, aux jeunes, aux personnes âgées, aux personnes handicapées, aux personnes en situation de vulnérabilité et aux enfants autochtones, eu égard à leur âge et à leur degré de maturité, et de renforcer leurs capacités, notamment leur aptitude à participer pleinement et activement à la prise des décisions qui les concernent directement, y compris, le cas échéant, au sujet des politiques, programmes et ressources visant à améliorer leur situations, en particulier dans les domaines de l’accès universel et équitable à un logement décent et à des services publics et des services de santé de qualité, à la santé mentale, à la sécurité alimentaire et à une meilleure nutrition, reposant notamment sur l’agriculture et la pêche familiales, à l’éducation, y compris l’éducation interculturelle et multilingue, à l’emploi et à la transmission des langues et des savoirs, innovations et pratiques traditionnels, et conscient qu’il faut prendre des mesures favorisant la connaissance et la compréhension de leurs droits,</p>
+      </container>
+      <container name="Prenant note avec satisfaction" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Prenant note avec satisfaction </span>de la résolution WHA76.16 intitulée « La santé des peuples autochtones », adoptée le 30 mai 2023 par l’Assemblée mondiale de la Santé à sa soixante-seizième session,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note </span>du rapport du Haut-Commissaire des Nations Unies aux droits de l’homme sur les droits des peuples autochtones<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/54/39">A/HRC/54/39</a>.</p></authorialNote>, et prie le Haut-Commissaire de continuer à lui soumettre un rapport annuel sur la question, en langue simplifiée et sous une forme facile à lire et à comprendre, comprenant des informations sur les éléments nouveaux pertinents ayant trait aux organes et mécanismes relatifs aux droits de l’homme, ainsi que sur les activités menées par le Haut-Commissariat au siège et sur le terrain qui contribuent à la promotion, au respect et à la pleine application des dispositions de la Déclaration des Nations Unies sur les droits des peuples autochtones, en soulignant les difficultés rencontrées et les principaux progrès accomplis, et sur le suivi de l’efficacité de la Déclaration ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note avec satisfaction </span>des activités menées par le Rapporteur spécial sur les droits des peuples autochtones et engage tous les gouvernements à coopérer pleinement avec lui dans l’accomplissement des tâches et devoirs qui lui incombent, notamment en envisageant sérieusement de répondre favorablement aux demandes de visite du titulaire du mandat, en fournissant tous les renseignements demandés dans ses communications et en réagissant promptement à ses appels urgents ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend également note avec satisfaction </span>des travaux du Mécanisme d’experts sur les droits des peuples autochtones, y compris son rapport annuel de 2023<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/54/64">A/HRC/54/64</a>.</p></authorialNote> et ses activités intersessions ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie </span>le Secrétaire général et le Haut-Commissariat des Nations Unies aux droits de l’homme de continuer à fournir au Mécanisme d’experts toute l’assistance humaine, technique et financière nécessaire à l’accomplissement plein et effectif de son mandat, y compris des services de diffusion sur Internet de ses réunions annuelles, avec sous-titrage en temps réel, et de veiller à ce que les rapports que lui soumet le Mécanisme d’experts soient traduits dans toutes les langues officielles de l’Organisation des Nations Unies et distribués en temps voulu, et à ce que les études et rapports du Mécanisme soient traduits en tant que documents d’avant-session, conformément à sa résolution 33/25 du 30 septembre 2016 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage vivement</span> toutes les parties prenantes, y compris les États et les peuples autochtones, à assister et à participer activement aux sessions du Mécanisme d’experts, à apporter leur contribution à ses études et rapports et à dialoguer avec lui, notamment dans ses activités intersessions ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> 	<span class="italic">Salue </span>les efforts que font les États, les peuples autochtones, les organismes des Nations Unies et d’autres parties prenantes pour collaborer avec le Mécanisme d’experts dans le cadre de son mandat actuel, qui consiste notamment à faciliter le dialogue, lorsque toutes les parties le souhaitent, et à fournir une assistance technique et des conseils en vue de la réalisation des objectifs de la Déclaration des Nations Unies sur les droits des peuples autochtones et aux fins de l’application des recommandations issues de l’Examen périodique universel et des observations finales des organes conventionnels sur la question des peuples autochtones, et les encourage vivement à poursuivre dans cette voie ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage </span>toutes les parties à envisager que le Mécanisme d’experts entreprenne des missions dans les pays à la demande des États et des peuples autochtones, à saisir les occasions de dialogue offertes par ces demandes et à faciliter l’organisation de missions dans les pays afin de permettre au Mécanisme d’experts de s’acquitter pleinement de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte </span>les États et invite les autres donateurs potentiels publics ou privés à contribuer au Fonds de contributions volontaires des Nations Unies pour les peuples autochtones, qui concourt largement à la promotion des droits des peuples autochtones partout dans le monde et à l’échelle du système des Nations Unies, et à soutenir le plan d’action à l’échelle du système visant à garantir l’unité de l’action menée pour atteindre les objectifs énoncés dans la Déclaration des Nations Unies sur les droits des peuples autochtones ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve"> 	<span class="italic">Rappelle </span>que la période 2022-2032 a été proclamée Décennie internationale des langues autochtones afin d’appeler l’attention sur le risque de disparition des langues autochtones et sur l’impérieuse nécessité de préserver, de revitaliser et de promouvoir ces langues, y compris les langues des signes, et de prendre sans délai des mesures à cette fin aux niveaux national et international<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Voir la résolution <a href="http://undocs.org/fr/A/RES/74/135">74/135</a> de l’Assemblée générale.</p></authorialNote>, rappelle la création, en collaboration avec les peuples autochtones, du Groupe de travail mondial pour une décennie d’action pour les langues autochtones, et demande aux États, aux organismes des Nations Unies et aux autres parties prenantes de faire en sorte que les peuples autochtones participent effectivement et utilement à la Décennie en dirigeant et en organisant des activités à cette occasion aux niveaux national et international ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note </span>du Plan d’action mondial de la Décennie internationale des langues autochtones et invite les États et les organismes des Nations Unies, en particulier l’Organisation des Nations Unies pour l’éducation, la science et la culture, à prendre des mesures concrètes pour l’appliquer aux niveaux local et national, en concertation avec les peuples autochtones, notamment en s’employant à assurer la participation pleine et entière des peuples autochtones à l’élaboration de stratégies, d’initiatives, des politiques et de lois puis à leur mise en œuvre et en engageant un dialogue fructueux et continu avec les autres parties prenantes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve"> 	<span class="italic">Rappelle </span>le droit des peuples autochtones à établir leurs propres médias dans leurs propres langues et à accéder à toutes les formes de médias non autochtones sans discrimination aucune, tel qu’il est énoncé à l’article 16 (par. 1) de la Déclaration des Nations Unies sur les droits des peuples autochtones, et demande aux États de promouvoir et d’examiner les politiques, les pratiques et les programmes de financement nationaux concernant les médias autochtones, y compris en ce qui concerne le renforcement des capacités et la production de contenu dans les langues autochtones par les créateurs de contenu et les professionnels des médias autochtones, en particulier les femmes autochtones, et de favoriser la coopération internationale, le partage des connaissances et la coopération entre les médias autochtones et avec d’autres partenaires, y compris les médias traditionnels et les gouvernements ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage </span>les États à faire traduire, interpréter et diffuser la Déclaration des Nations Unies sur les droits des peuples autochtones dans les langues autochtones, y compris les langues des signes, selon qu’il convient, et à coopérer avec le Haut-Commissariat, le Rapporteur spécial sur les droits des peuples autochtones et le Mécanisme d’experts pour faire traduire leurs rapports et les rendre accessibles aux peuples autochtones, notamment en les diffusant en langue simplifiée et sous une forme facile à lire et à comprendre ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide </span>que la table ronde annuelle d’une demi-journée consacrée aux droits des peuples autochtones qui se tiendra pendant sa cinquante-septième session aura pour thème les lois, politiques, décisions judiciaires et autres mesures adoptées par les États, conformément à l’article 38 de la Déclaration des Nations Unies sur les droits des peuples autochtones, pour atteindre les objectifs de la Déclaration, et prie le Haut-Commissariat d’encourager et de faciliter la participation des femmes autochtones, de faire en sorte que le débat soit pleinement accessible et ouvert aux personnes handicapées et d’établir un rapport de synthèse sur la tenue de ce débat en vue de le lui soumettre avant sa cinquante-neuvième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note avec satisfaction</span> de l’atelier d’experts de quatre jours convoqué par le Haut-Commissariat sur les moyens de renforcer la participation des peuples autochtones aux travaux du Conseil des droits de l’homme qui s’est tenu du 21 au 24 novembre 2022, notamment des débats qui y ont eu lieu et des recommandations qui en sont issues, dont il est rendu compte dans le rapport de synthèse établi par le Haut‑Commissariat<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	 	<a href="http://undocs.org/fr/A/HRC/53/44">A/HRC/53/44</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie </span>le Haut-Commissariat d’établir, en tenant compte des informations contenues dans les rapports du Secrétaire général sur le sujet publiés en 2012 et 2020<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/21/24">A/HRC/21/24</a> et <a href="http://undocs.org/fr/A/75/255">A/75/255</a>.</p></authorialNote> et la note du Président de l’Assemblée générale de 2016<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/70/990">A/70/990</a>.</p></authorialNote>, un rapport faisant le point sur les procédures existantes qui promeuvent la participation des peuples autochtones aux travaux de l’ONU et mettant en évidence les lacunes et les bonnes pratiques, et de lui présenter ce rapport à sa cinquante-septième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="SingleTxtG">
+        <num>16.</num>
+        <list eId="para_144_list">
+          <intro eId="para_144_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Décide d</span>e continuer d’examiner et de développer les moyens de faciliter encore la participation des représentants des peuples autochtones et des institutions qu’ils ont dûment établies à ses propres travaux, et, à cet égard :</p>
+          </intro>
+          <point eId="para_144_list_point_a">
+            <num>a)</num>
+            <content eId="para_144_list_point_a_content">
+              <p xml:space="preserve">  Décide d’organiser une réunion intersessions de deux jours, avant sa cinquante-septième session, et une autre réunion intersessions de deux jours, avant sa cinquante-huitième session, afin de permettre aux États, aux organismes, fonds et programmes des Nations Unies compétents, aux organisations internationales, aux peuples autochtones des sept régions socioculturelles autochtones, aux institutions nationales des droits de l’homme et aux organisations de la société civile de dialoguer sur les moyens concrets de renforcer la participation des peuples autochtones à ses propres travaux ;</p>
+            </content>
+          </point>
+          <point eId="para_144_list_point_b">
+            <num>b)</num>
+            <content eId="para_144_list_point_b_content">
+              <p xml:space="preserve">  Prie son président de désigner un représentant d’un État et un représentant des peuples autochtones en qualité de coanimateurs pour chacune des réunions intersessions ;</p>
+            </content>
+          </point>
+          <point eId="para_144_list_point_c">
+            <num>c)</num>
+            <content eId="para_144_list_point_c_content">
+              <p xml:space="preserve">  Décide que les coanimateurs et le Haut-Commissariat auront la responsabilité d’élaborer un rapport conjoint rendant compte des débats tenus au cours des réunions et de leurs résultats et contenant des recommandations spécifiques, et de le lui soumettre avant sa cinquante-neuvième session ;</p>
+            </content>
+          </point>
+          <point eId="para_144_list_point_d">
+            <num>d)</num>
+            <content eId="para_144_list_point_d_content">
+              <p xml:space="preserve">  Prie le Haut-Commissariat de fournir tous les services et toutes les facilités nécessaires pour que les débats qui se tiendront au cours des réunions intersessions de deux jours mentionnées ci-avant soient pleinement accessibles aux personnes handicapées ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve"> 	<span class="italic">Invite </span>le Fonds de contributions volontaires des Nations Unies pour les peuples autochtones, dans le cadre des règles et procédures établies du Fonds, à aider les représentants des peuples autochtones et des institutions qu’ils ont dûment établies à participer aux réunions intersessions susmentionnées, en garantissant une représentation équilibrée entre les régions, entre les sexes et entre les générations ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage </span>le Mécanisme d’experts à continuer de débattre de la question du renforcement de la participation des représentants des peuples autochtones et des institutions qu’ils ont dûment établies aux réunions du Conseil des droits de l’homme portant sur des questions qui les concernent ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage </span>les États à tenir dûment compte des droits des peuples autochtones et à accorder l’attention voulue à toutes les formes de violence et de discrimination, notamment les formes de discrimination multiples et croisées, auxquelles sont soumis les peuples et les personnes autochtones, ainsi qu’aux reculs et à l’aggravation des difficultés causés par la pandémie de maladie à coronavirus (COVID‑19), lorsque, pour s’acquitter des engagements souscrits au titre du Programme de développement durable à l’horizon 2030, ils élaborent des programmes internationaux et régionaux, ainsi que des plans d’action, stratégies et programmes nationaux, en appliquant le principe selon lequel nul ne doit être laissé de côté ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États à prendre des mesures appropriées pour protéger les enfants, en particulier les filles, et les jeunes autochtones contre toutes les formes de violence et pour faire en sorte que toutes les violations des droits de l’homme et toutes les atteintes à ces droits commis contre ces enfants et ces jeunes fassent l’objet d’une enquête, que les auteurs aient à répondre de leurs actes, que des mesures de prévention appropriées soient mises en place et que les victimes aient accès à des recours utiles et à des réparations ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande </span>aux États de reconnaître et d’appliquer comme il se doit les traités, accords et autres arrangements constructifs conclus entre les États et les peuples autochtones afin de faire progresser et de réaliser les droits des peuples autochtones, et encourage la conclusion de nouveaux traités, accords et arrangements constructifs dans le but de faire appliquer les droits affirmés dans la Déclaration des Nations Unies sur les droits des peuples autochtones ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_255" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_255__content">
+          <p xml:space="preserve"> 	<span class="italic">Salue</span> les efforts faits par le Mécanisme d’experts sur les droits des peuples autochtones, le Rapporteur spécial sur les droits des peuples autochtones et l’Instance permanente sur les questions autochtones pour renforcer la complémentarité et éviter les doubles emplois entre les rapports qu’ils établissent, les engage à renforcer leur coopération et leur coordination et à redoubler d’efforts pour promouvoir les droits des peuples autochtones, notamment dans le contexte de l’application des traités et de la Déclaration des Nations Unies sur les droits des peuples autochtones, ainsi que de la suite donnée à la Conférence mondiale sur les peuples autochtones, et les invite à continuer de collaborer étroitement avec tous ses mécanismes et avec les organes conventionnels, dans le cadre de leurs mandats respectifs ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie </span>son président d’organiser la participation des représentants des peuples autochtones et des institutions qu’ils ont dûment établies des sept régions socioculturelles autochtones, en consultation avec le Mécanisme d’experts sur les droits des peuples autochtones et avec l’appui du Haut-Commissariat, aux dialogues avec le Rapporteur spécial sur les droits des peuples autochtones et avec le Mécanisme d’experts sur les droits des peuples autochtones qui se tiendront à sa cinquante-septième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve"> 	<span class="italic">Préconise </span>l’élaboration d’un processus et d’un mécanisme visant à faciliter le rapatriement international des objets culturels et des restes humains des peuples autochtones, en coopération avec les peuples autochtones et avec la collaboration continue de l’Organisation des Nations Unies pour l’éducation, la science et la culture en particulier, de l’Organisation mondiale de la propriété intellectuelle, du Mécanisme d’experts sur les droits des peuples autochtones, du Rapporteur spécial sur les droits des peuples autochtones, de l’Instance permanente sur les questions autochtones, des États et de toutes les autres parties concernées, conformément à leurs mandats ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_324" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_324__content">
+          <p xml:space="preserve"> 	<span class="italic">Réaffirme </span>que les organes conventionnels de l’ONU sont des mécanismes importants pour la promotion et la protection des droits de l’homme et engage les États à accorder une attention particulière à leurs recommandations, notamment à celles concernant les peuples autochtones, dans le cadre de l’application des traités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_349" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_349__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite</span> de la contribution de l’Examen périodique universel à la réalisation des droits des peuples autochtones, recommande qu’une suite concrète soit donnée aux recommandations concernant les peuples autochtones qui ont été acceptées dans le cadre de l’Examen et invite les États à fournir, selon qu’il convient, au cours de l’Examen, des informations sur la situation des droits des peuples autochtones, y compris les mesures prises pour atteindre les objectifs énoncés dans la Déclaration des Nations Unies sur les droits des peuples autochtones ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_375" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_375__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande </span>aux États d’atteindre les objectifs de la Déclaration des Nations Unies sur les droits des peuples autochtones, notamment en prenant part à un dialogue de bonne foi et continu avec les peuples autochtones ainsi qu’avec la société civile, les universités, les autorités locales, les organismes des Nations Unies et les autres parties prenantes, ainsi qu’en adoptant et en appliquant des mesures, par exemple des plans d’action nationaux, des lois ou d’autres dispositifs, en concertation et en coopération avec les peuples autochtones et en tenant compte des langues qu’ils utilisent, et constate avec satisfaction que plusieurs États ont élaboré ou sont en train d’élaborer les plans d’action nationaux et la législation nationale voulus pour appliquer la Déclaration avec la participation pleine et entière des peuples autochtones ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_402" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_402__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande </span>aux États de toutes les régions qui n’ont pas encore ratifié la Convention de 1989 relative aux peuples indigènes et tribaux (n<sup>o</sup> 169) de l’Organisation internationale du Travail ou qui n’y ont pas encore adhéré d’envisager de le faire, compte tenu de la contribution de ce texte à la promotion et à la protection des droits des peuples autochtones ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_430" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_430__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite</span> du rôle que les institutions nationales des droits de l’homme créées conformément aux Principes concernant le statut des institutions nationales pour la promotion et la protection des droits de l’homme (Principes de Paris) jouent dans la promotion des questions autochtones et a conscience que ces institutions doivent développer et renforcer leurs capacités, selon qu’il convient, pour remplir efficacement ce rôle ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_459" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_459__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage</span> les États à recueillir et à diffuser en toute sécurité, compte tenu de la situation et des caractéristiques du pays concerné, des données ventilées selon l’appartenance ethnique, le niveau de revenu, le sexe, l’âge, la race, le statut migratoire, le handicap, l’emplacement géographique ou d’autres facteurs, selon qu’il conviendra, afin d’évaluer et d’améliorer les effets des politiques, stratégies et programmes de développement visant à améliorer la situation des peuples et des personnes autochtones, de combattre et d’éliminer toutes les formes de violence et de discrimination, y compris les formes multiples et croisées de discrimination, dont ils sont victimes, en tenant compte des besoins et des priorités des peuples autochtones dans les plans de relèvement de la COVID‑19, de favoriser la réalisation des objectifs de développement durable et du Programme 2030 et de travailler avec les peuples autochtones pour améliorer les technologies, les pratiques et les mesures visant à faire face et à répondre aux changements climatiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_489" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_489__content">
+          <p xml:space="preserve"> 	<span class="italic">Réaffirme </span>qu’il importe de renforcer le pouvoir d’action politique, social et économique des femmes et des filles autochtones, y compris celles qui sont handicapées, notamment en veillant à ce qu’elles aient accès à une éducation inclusive et de qualité, y compris l’éducation interculturelle et multilingue, et à ce qu’elles puissent véritablement participer à la vie économique, en s’attaquant aux formes multiples et croisées de discrimination qu’elles subissent et aux obstacles qu’elles rencontrent, dont la violence, et de favoriser la participation de ces femmes et de ces filles aux décisions qui les concernent, à tous les niveaux et dans tous les domaines, tout en respectant et en protégeant leurs savoirs traditionnels et ancestraux, compte tenu de l’importance que revêt pour elles la Déclaration des Nations Unies sur les droits des peuples autochtones, et engage les États à étudier de près les recommandations mentionnées plus haut, selon qu’il conviendra ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_520" class="SingleTxtG">
+        <num>32.</num>
+        <content eId="para_520__content">
+          <p xml:space="preserve"> 	<span class="italic">Condamne </span>les cas toujours plus fréquents d’intimidation, de harcèlement et de représailles à l’égard des défenseurs des droits de l’homme autochtones et des dirigeants autochtones, y compris les femmes autochtones, ainsi que des représentants des peuples autochtones participant aux réunions de l’ONU et des titulaires de mandat qui s’occupent des droits des peuples autochtones, et se déclare préoccupé par le fait que certains pays, y compris ceux accueillant des réunions sur les questions autochtones, refusent ou retardent intentionnellement ou de façon discriminatoire la délivrance de visas d’entrée aux titulaires de mandat ou aux représentants des peuples autochtones ou leur imposent des restrictions de voyage supplémentaires qui entravent, notamment, leur capacité d’y retourner ou de participer à ces réunions ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_552" class="SingleTxtG">
+        <num>33.</num>
+        <content eId="para_552__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte </span>les États à prendre, en concertation avec les peuples autochtones, toutes les mesures nécessaires et tous les dispositifs d’intervention en cas d’urgence, compte tenu des questions relatives au genre, pour garantir les droits, la protection et la sécurité des peuples autochtones et des défenseurs des droits de l’homme et dirigeants autochtones, y compris les défenseuses autochtones des droits de l’homme, et à faire en sorte que toutes les violations des droits de l’homme et toutes les atteintes à ces droits commis à leur encontre fassent l’objet d’une enquête, que les auteurs aient à répondre de leurs actes, que des mesures de prévention appropriées soient mises en place et que les victimes aient accès à des recours utiles et à des réparations, y compris des garanties de non-répétition ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_585" class="SingleTxtG">
+        <num>34.</num>
+        <content eId="para_585__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide </span>de rester saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46e" refersTo="#adoptionMeeting">46e séance</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 octobre 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
