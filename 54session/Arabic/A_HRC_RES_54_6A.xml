@@ -1,0 +1,295 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/ara@/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="CAREGIVERS" href="http://metadata.un.org/thesaurus/1000830" showAs="CAREGIVERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CARE ECONOMY" showAs="CARE ECONOMY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN'S RIGHTS" href="http://metadata.un.org/thesaurus/1007035" showAs="WOMEN'S RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GENDER EQUALITY" href="http://metadata.un.org/thesaurus/1002612" showAs="GENDER EQUALITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-10" outcome="draftResolution" as="A/HRC/54/L.6/Rev.1" by="Albania, Argentina, Australia, Belgium, Canada, Chile, Colombia, Costa Rica, Cyprus, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Iceland, Ireland, Italy, Luxembourg, Malta, Mexico, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Paraguay, Peru, Portugal, San Marino, Slovenia, Spain, Sweden, United Kingdom of Great Britain and Northern Ireland and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-12" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-12" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-12" class="rightSmall" refersTo="#dateOfIssuance">12 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic"> Arabic </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">الدورة الرابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 أيلول</date>
+          <date date="2023-10-13" refersTo="#endDate">13 تشرين الأول 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 11 تشرين الأول/أكتوبر 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/6</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	مركزية الرعاية والدعم من منظور حقوق الإنسان</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> التزام جميع الدول باحترام جميع حقوق الإنسان والحريات الأساسية وحمايتها والوفاء بها، وإذ يؤكد من جديد أيضاً الإعلان العالمي لحقوق الإنسان، والعهد الدولي الخاص بالحقوق المدنية والسياسية، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، واتفاقية القضاء على جميع أشكال التمييز ضد المرأة، واتفاقية حقوق الطفل، واتفاقية حقوق الأشخاص ذوي الإعاقة، والاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى الاعتراف بالمساواة بين الجنسين في إعلان وبرنامج عمل فيينا، وبرنامج عمل المؤتمر الدولي للسكان والتنمية، وإعلان ومنهاج عمل بيجين، والوثائق الختامية لمؤتمراتها الاستعراضية، وكذلك في خطة التنمية المستدامة لعام 2030،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى جميع القرارات ذات الصلة الصادرة عن مجلس حقوق الإنسان ولجنة حقوق الإنسان والجمعية العامة، وإلى القرارات والاستنتاجات المتفق عليها ذات الصلة الصادرة عن لجنة وضع المرأة، وإذ يشير كذلك إلى إعلان الجمعية العامة مؤخراً اليوم الدولي للرعاية والدعم<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	القرار 77/317. </p></authorialNote><sup>)</sup>، وإلى الاتفاقيات والتوصيات ذات الصلة التي اعتمدتها منظمة العمل الدولية في مسألة التمييز ضد المرأة،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير كذلك</span> إلى أن جميع حقوق الإنسان عالمية وغير قابلة للتجزئة ومترابطة ومتشابكة، وأنه يجب تعزيز المساواة بين الجنسين بطريقة شاملة ومنهجية، وأن استمرار التمييز ضد جميع النساء والفتيات داخل الأسر والاقتصادات والمجتمعات يوهن تمتعهن بحقوق الإنسان على قدم المساواة في جميع مناحي الحياة،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى أن الإعلان العالمي لحقوق الإنسان ينص على أن للطفولة الحق في رعاية ومساعدة خاصتين، وأن اتفاقية حقوق الطفل تنص على أن تبذل الدول الأطراف قصارى جهدها لضمان الاعتراف بالمبدأ القائل بأن كلا الوالدين يتحملان مسؤوليات مشتركة عن تنشئة الطفل ونمائه، وأن تقدم المساعدة الملائمة للوالدين والأوصياء القانونيين في الاضطلاع بمسؤوليات تربية الأطفال، وأن تكفل تطوير مؤسسات ومرافق وخدمات لرعاية الأطفال ودعم أسرهم، وإذ يرى أنه ينبغي للدول أن تعزز الوعي بين الآباء ومقدمي الرعاية بضرورة احترام حقوق الإنسان للأطفال، وحق جميع الأطفال في العيش في كنف أسرهم ومجتمعاتهم،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن كبار السن يواجهون عدداً من الحواجز الخاصة التي تحول دون تمتعهم بحقوق الإنسان، بما في ذلك عدم حصولهم على الدعم الصحي الجيد، والرعاية والدعم في المدى الطويل، والرعاية التلطيفية، وتسهيلات الحركة والوصول، وأعمال الرعاية غير المدفوعة الأجر، وإذ يشدد على أهمية التشجيع على إقامة مجتمعات وبيئات حاضنة للجميع ومواتية لكبار السن وعلى توفير طائفة من خدمات الدعم التي تحفظ كرامة كبار السن وتعزز اعتمادهم على أنفسهم واستقلالهم، مع مراعاة تفضيلاتهم الشخصية،</p>
+      </container>
+      <container name="وإذ يضع في اعتباره" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">وإذ يضع في اعتباره</span> أن نُظم الدعم والرعاية، التي تشمل سياسات وخدمات مراعية لمسائل الإعاقة، ضرورية لكي يشارك الأشخاص ذوو الإعاقة مشاركة كاملة وفعالة في المجتمع، بخيارات مساوية للآخرين، ويعيشوا بكرامة واستقلال وبالاعتماد على أنفسهم، وتكون لهم في المجتمع حياة مستقلة على نحو ما تعترف به اتفاقية حقوق الأشخاص ذوي الإعاقة،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يساوره بالغ القلق</span> لأن أعمال الرعاية، المدفوعة الأجر وغير المدفوعة الأجر، يقتصر أداؤها أو يكاد على النساء والفتيات، بسبب القوالب النمطية الجنسانية والأعراف الاجتماعية السلبية، ما يؤدي إلى تفاقم أوجه عدم المساواة الهيكلية القائمة،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن توزيع الرعاية توزيعاً متكافئاً ومنصفاً شرط أساسي لضمان تمتع المرأة تمتعاً كاملاً، على قدم المساواة، بالحقوق الاقتصادية والاجتماعية والثقافية، ولا سيما الحق في التعليم، والحق في العمل، والتمتع بشروط عمل عادلة ولائقة، وحرية تكوين الجمعيات، والحق في التنظيم والمفاوضة الجماعية، وفي مستوى معيشي لائق، وفي التمتع بأعلى مستوى ممكن من الصحة البدنية والعقلية، والحق في المشاركة في الحياة الثقافية، والحقوق المدنية والسياسية، مثل حق المشاركة في الحياة السياسية والعامة،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً</span> بأن مختلف المعاهدات الدولية لحقوق الإنسان، بما فيها العهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، واتفاقية القضاء على جميع أشكال التمييز ضد المرأة، والعهد الدولي الخاص بالحقوق المدنية والسياسية، واتفاقية حقوق الطفل، واتفاقية حقوق الأشخاص ذوي الإعاقة، ومختلف معايير والتزامات العمل الدولية تضع التزامات ملزمة قانوناً ينبغي أن تسترشد بها الدول في معالجة مسألة أعمال الرعاية غير المدفوعة الأجر،</p>
+      </container>
+      <container name="وإذ يعرب عن القلق" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن القلق</span> لأن ما يكتنف أعمال الرعاية غير المدفوعة الأجر من صعوبات وشدة وتوزيع مُجنسن ينشئ أوجهاً من عدم المساواة في التمتع بحقوق الإنسان ويديمها، كما يسهم في إدامة تأنيث الفقر ويعوق المساواة بين الجنسين، ما يحول دون التمتع الكامل بحقوق الإنسان، ويشكل حاجزاً أمام مشاركة المرأة مشاركةً كاملة ومتكافئة ومجدية في سوق العمل، وأمام استفادة المرأة من الفرص الاقتصادية واستقلالها الذاتي وأنشطة ريادة الأعمال، ويحد من قدرة المرأة على المشاركة في عمليات صنع القرار وتقلد المناصب القيادية، ويضع معوقات كبيرة أمام تعليم النساء والفتيات وتدريبهن وحصولهن على الخدمات الصحية، بما فيها خدمات الصحة الجنسية والإنجابية، ولا سيما النساء والفتيات اللائي يعشن في أوضاع هشة، والنساء والفتيات في سياقات الفقر، والمهاجرات، ونساء الأرياف، ونساء الشعوب الأصلية، والمنحدرات من أصل أفريقي، والنساء ذوات الإعاقة، وكبيرات السن، والأمهات العازبات والأرامل، والنساء المسلوبة حريتهن، واللاجئات، وغيرهن،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على أن منهاج عمل بيجين أرسى في عداد الأهداف الاستراتيجية تعزيز المواءمة بين مسؤوليات العمل والأسرة والالتزام بالاعتراف بأعمال الرعاية والعمل المنزلي غير المدفوعة الأجر وتقديرها من خلال توفير الخدمات العامة والبنى التحتية ووضع سياسات الحماية الاجتماعية وتعزيز تقاسم المسؤولية داخل الأسرة المعيشية والعائلة، حسبما يكون ذلك مناسباً على الصعيد الوطني، على النحو الوارد في الغاية 5-4 من أهداف التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد</span> ضرورة اعتماد تدابير للاعتراف بأعمال الرعاية بجميع أشكالها وتقديرها على نحو واف، وضرورة إعادة توزيعها على أساس عادل ومتكافئ، بسُبل منها اعتماد تدابير لتحديد وقياس القيمة الاقتصادية لأعمال الرعاية غير المدفوعة الأجر، والحد من أشكال معينة من أعمال الرعاية مع حماية إمكانية توفير خدمات الرعاية والدعم الجيدة لمن يحتاجون إليها، وضمان إمكانية توفير خدمات الرعاية والدعم القائمة على حقوق الإنسان للأشخاص ذوي الإعاقة والأطفال وكبار السن وغيرهم ممن يحتاجون إليها،</p>
+      </container>
+      <container name="وإذ يؤكد أيضاً" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد أيضاً</span> ضرورة اعتماد تدابير، باتباع نهج متقاطع، للاعتراف بأعمال الرعاية المدفوعة الأجر وغير المدفوعة الأجر وتقديرها وإعادة توزيعها على أساس متكافئ ومنصف، والحد من أعمال الرعاية غير المدفوعة الأجر، التي لا تزال تؤدي القسطَ الأكبر منها حالياً النساءُ والفتيات، وذلك من خلال تعزيز تقاسم المسؤوليات بصورة متكافئة بين أفراد الأسرة، وبين الأسر والمجتمعات المحلية والقطاع الخاص والدول، من خلال إعطاء الأولوية، في جملة أمور، للبنى التحتية المستدامة التي يسهل الوصول إليها، ووسائل النقل، وسياسات الحماية الاجتماعية، والخدمات الاجتماعية الجيدة والميسورة التكلفة، بما في ذلك خدمات ومنتجات الرعاية والدعم، ورعاية الأطفال، ومعايير العمل التي تنص على العمل اللائق والمساواة بين الجنسين لجميع العاملين والعاملات، بما في ذلك إجازة الأمومة أو الأبوة أو الإجازة الوالدية، والأجر المتساوي عن العمل المتساوي القيمة، وظروف العمل الآمنة والصحية، وعدم التعرض للعنف والتحرش في عالم العمل، بما في ذلك العنف والتحرش الجنسانيان، وحرية تكوين الجمعيات، والحق في التنظيم والمفاوضة الجماعية،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يساوره بالغ القلق</span> لأن أزمة مرض فيروس كورونا (كوفيد-19) أدت إلى تفاقم أشكال عدم المساواة والتمييز المنهجي الموجودة أصلاً أمام النساء والفتيات، بما في ذلك النظام الأبوي والعنصرية والوصم وكره الأجانب وأوجه عدم المساواة الاجتماعية والاقتصادية، وزادت من حدوث العنف والتحرش الجنسيين والجنسانيين، ونصيب النساء والفتيات غير المتناسب من أعمال الرعاية والعمل المنزلي غير المدفوعة الأجر، فضلاً عن فقدان العمل وسبل العيش، ولا سيما بين النساء العاملات في القطاع غير النظامي،</p>
+      </container>
+      <container name="وإذ يسلط الضوء" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلط الضوء</span> على ضرورة الاستثمار في اقتصاد الرعاية وإنشاء نُظم للرعاية والدعم قوية ومرنة ومراعية للمنظور الجنساني وشاملة لمسائل الإعاقة ومراعية للسن وتحترم حقوق الإنسان احتراماً كاملاً، بغية الاعتراف بأشكال الرعاية والعمل المنزلي والدعم غير المدفوعة الأجر وتقديرها والحد منها وإعادة توزيعها،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">يقر</span> بأهمية احترام حقوق الإنسان وحمايتها والوفاء بها لمقدمي الرعاية المدفوعة الأجر وغير المدفوعة الأجر ولمتلقي خدمات الرعاية والدعم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن بالغ القلق</span> إزاء عدم التكافؤ في توزيع أعمال الرعاية والدعم وتنظيمها وتأثير ذلك في حقوق جميع النساء والفتيات، في المجتمع وفي الاقتصاد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">يقر </span>بأن التوزيع المتكافئ لأعمال الرعاية والدعم وما يترتب على ذلك من توزيع للوقت يشكل ركيزة أساسية لتحقيق المساواة بين الجنسين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGA">
+        <num>4-</num>
+        <list eId="para_25_list">
+          <intro eId="para_25_list_intro">
+            <p xml:space="preserve">	<span class="italic">يحث </span>الدول على ما يلي:</p>
+          </intro>
+          <point eId="para_25_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_25_list_point_أ_content">
+              <p xml:space="preserve">	تنفيذ جميع التدابير اللازمة للاعتراف بأعمال الرعاية وإعادة توزيعها بين الأفراد، وكذلك بين الأسر والمجتمعات المحلية والقطاع الخاص والدول، على نحو يعزز المساواة بين الجنسين وتمتع الجميع بحقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_25_list_point_ب_content">
+              <p xml:space="preserve">	زيادة الاستثمار في السياسات والبنى التحتية لخدمات الرعاية والدعم لضمان حصول الجميع على خدمات جيدة وميسورة التكلفة، بما في ذلك رعاية الأطفال، وخدمات الصحة والدعم لذوي الإعاقة وكبار السن، وكفالة حصول الجميع على إجازة الأمومة والأبوة والإجازة الوالدية المدفوعة الأجر والحماية الاجتماعية لجميع العاملين والعاملات، بمن فيهم العاملون في القطاع غير النظامي والعاملون في أشكال العمل غير المعيارية؛</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_25_list_point_ج_content">
+              <p xml:space="preserve">	تشجيع ودعم البحوث والدراسات الاستقصائية الرامية إلى إنتاج بيانات مصنفة حسب الدخل والجنس والسن والانتماء العرقي والإثني والوضع من حيث الهجرة والحالة المدنية والإعاقة والموقع الجغرافي وغير ذلك من الخصائص ذات الصلة في السياقات الوطنية، وإحصاءات عن مدى وتوزيع استخدام الوقت وأعمال الرعاية ومقدميها ومتلقيها، من خلال إجراء دراسات استقصائية منتظمة لاستخدام الوقت وإنشاء حسابات فرعية لتقييم إسهام هذه الأعمال في الدخل القومي، وتحديد حجم أعمال الرعاية غير المدفوعة الأجر، وإدراجها في الناتج القومي الإجمالي لغرض تصميم سياسات في هذا المجال وتمويلها وتقييمها؛</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_د">
+            <num>(د)</num>
+            <content eId="para_25_list_point_د_content">
+              <p xml:space="preserve">	اعتماد جميع التدابير اللازمة لتمكين النساء والأشخاص ذوي الإعاقة وكبار السن، وكذلك الأطفال، من المشاركة الكاملة والمتكافئة والمجدية والشاملة في صنع القرارات ذات الصلة بالرعاية والدعم، في الحياة الخاصة والعامة على السواء، بما في ذلك مشاركة العاملين والعاملات في مجال الرعاية المدفوعة الأجر في الحوار الاجتماعي والمفاوضة الجماعية؛</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_ه">
+            <num>(ه)</num>
+            <content eId="para_25_list_point_ه_content">
+              <p xml:space="preserve">	زيادة الوعي بالتأثير السلبي للقوالب النمطية الجنسانية والعمرية والمتعلقة بالإعاقة في توفير الرعاية والدعم وتلقيهما، ووضع برامج وسياسات للقضاء على هذه القوالب النمطية؛ </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtGA">
+        <num>5-</num>
+        <list eId="para_29_list">
+          <intro eId="para_29_list_intro">
+            <p xml:space="preserve">	<span class="italic">يقرر</span> ما يلي:</p>
+          </intro>
+          <point eId="para_29_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_29_list_point_أ_content">
+              <p xml:space="preserve">	أن يطلب إلى مفوض الأمم المتحدة السامي لحقوق الإنسان تنظيم حلقة عمل للخبراء مدتها يومان، في شكل يسهل الاطلاع عليه، بمساهمات من الدول المهتمة والمنظمات الدولية والقطاع الخاص والمجتمع المدني، ولا سيما المنظمات النسائية، بما فيها المنظمات النسائية الشعبية، ومنظمات الأشخاص ذوي الإعاقة، ومنظمات حقوق الطفل، وكبار السن والمنظمات التي تمثلهم، وممثلو منظمات أصحاب العمل والعاملين، من أجل تناول حقوق الإنسان للنساء والأشخاص ذوي الإعاقة والأطفال وكبار السن بوصفهم مقدمين لخدمات الرعاية والدعم وبوصفهم متلقين لها، وتناول رعايتهم الذاتية من منظور المساواة بين الجنسين وحقوق الإنسان، بهدف تقييم التجارب والممارسات الجيدة والتحديات الرئيسية المتعلقة بالاعتراف الفعلي بحقوق مقدمي الرعاية ومتلقي الرعاية والدعم؛</p>
+            </content>
+          </point>
+          <point eId="para_29_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_29_list_point_ب_content">
+              <p xml:space="preserve">	أن يطلب أيضاً إلى المفوض السامي أن يعد، بالاستناد إلى المناقشات في حلقة عمل الخبراء المذكورة آنفاً وبالتشاور مع الدول الأعضاء في الأمم المتحدة وغيرها من الأطراف المهتمة، دراسة مواضيعية شاملة عن بُعد حقوق الإنسان في الرعاية والدعم، تلخص وتجمع المعايير والممارسات الجيدة على الصعيد الدولي والتحديات الرئيسية القائمة على الصعيد الوطني في نُظم الرعاية والدعم، بما يشمل توصيات بشأن تعزيز وضمان حقوق الإنسان لمقدمي الرعاية ومتلقي الرعاية والدعم، على أن يشترط تقديم المساهمات في شكل يسهل الاطلاع عليه، وأن يطلب كذلك إتاحة هذه المساهمات المقدمة من أصحاب المصلحة والدراسة نفسها وصيغة سهلة القراءة منها على الموقع الشبكي لمفوضية الأمم المتحدة السامية لحقوق الإنسان، في شكل يسهل الاطلاع عليه، قبل انعقاد الدورة الثامنة والخمسين لمجلس حقوق الإنسان؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">يقرر أيضاً </span>استعراض التقدم المحرز في تنفيذ هذا القرار على سبيل الأولوية في دوراته المقبلة.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46" refersTo="#adoptionMeeting">الجلسة 46</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 تشرين الأول/أكتوبر 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد بدون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

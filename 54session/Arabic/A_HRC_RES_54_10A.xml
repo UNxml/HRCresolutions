@@ -1,0 +1,299 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/ara@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Implications for Human Rights of the Environmentally Sound Management and Disposal of Hazardous Substances and Wastes" showAs="UN. Human Rights Council. Special Rapporteur on the Implications for Human Rights of the Environmentally Sound Management and Disposal of Hazardous Substances and Wastes" dictionary="DHLAUTH"></keyword>
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TOXIC WASTE MANAGEMENT" href="http://metadata.un.org/thesaurus/1006571" showAs="TOXIC WASTE MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTALLY HAZARDOUS SUBSTANCES" href="http://metadata.un.org/thesaurus/1002091" showAs="ENVIRONMENTALLY HAZARDOUS SUBSTANCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-09" outcome="draftResolution" as="A/HRC/54/L.13" by="Chile, Colombia, Costa Rica, Côte d’Ivoire, Ecuador, Peru and Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic"> Arabic </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">الدورة الرابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 أيلول</date>
+          <date date="2023-10-13" refersTo="#endDate">13 تشرين الأول 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 11 تشرين الأول/أكتوبر 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/10</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	ولاية المقرر الخاص المعني بالآثار المترتبة في مجال حقوق الإنسان على إدارة المواد والنفايات الخطرة والتخلص منها بطرق سليمة بيئياً</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بميثاق الأمم المتحدة، والإعلان العالمي لحقوق الإنسان، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، والعهد الدولي الخاص بالحقوق المدنية والسياسية، وإعلان وبرنامج عمل فيينا، وإعلان الحق في التنمية،</p>
+      </container>
+      <container name="وإذ يضع في اعتباره" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يضع في اعتباره</span> الفقرة 6 من قرار الجمعية العامة 60/251 المؤرخ 15 آذار/مارس 2006،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى القرار 5/1 بشأن بناء مؤسسات مجلس حقوق الإنسان، والقرار5/2 بشأن مدونة قواعد السلوك للمكلفين بولايات في إطار الإجراءات الخاصة لمجلس حقوق الإنسان، المؤرخين 18 حزيران/يونيه 2007، وإذ يؤكد أن على المكلف بالولاية أن يؤدي واجباته وفقاً لهذين القرارين ومرفقيهما،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى قراراته 9/1 المؤرخ 24 أيلول/سبتمبر 2008، و18/11 المؤرخ 29 أيلول/ سبتمبر 2011، و21/17 المؤرخ 27 أيلول/سبتمبر 2012، و27/23 المؤرخ 26 أيلول/سبتمبر 2014، و36/15 المؤرخ 28 أيلول/سبتمبر 2017، وجميع قرارات لجنة حقوق الإنسان بشأن هذا الموضوع،</p>
+      </container>
+      <container name="وإذ يضع" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يضع</span> في اعتباره الإعلان المتعلق بحق ومسؤولية الأفراد والجماعات وهيئات المجتمع في تعزيز وحماية حقوق الإنسان والحريات الأساسية المعترف بها عالمياً، الوارد في قرار الجمعية العامة 53/144 المؤرخ 9 كانون الأول/ديسمبر 1998،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى قرار الجمعية العامة 70/1 المؤرخ 25 أيلول/سبتمبر 2015، الذي اعتمدت الجمعية بموجبه خطة التنمية المستدامة لعام 2030، بما في ذلك الغاية 12-4 من أهداف التنمية المستدامة الرامية إلى تحقيق الإدارة السليمة بيئياً للنفايات والمواد الخطرة طوال دورة حياتها بحلول عام 2020، وفقاً للأطر الدولية المتفق عليها، فضلاً عن الغايتين 3-9 و3-6 من أهداف التنمية المستدامة، وإذ يؤكد أوجه الترابط والطابع المتكامل لجميع الأهداف،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى قرار مجلس حقوق الإنسان 48/13 المؤرخ 8 تشرين الأول/أكتوبر 2021 وقرار الجمعية العامة 76/300 المؤرخ 28 تموز/يوليه 2022، اللذين يعترفان فيهما بحق الإنسان في بيئة نظيفة وصحية ومستدامة،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه</span> إزاء النتيجة الرئيسية التي توصل إليها برنامج الأمم المتحدة للبيئة، الواردة في الموجز الموجه لواضعي السياسات بشأن التوقعات العالمية الثانية للمواد الكيميائية بأن الهدف العالمي المتمثل في التقليل إلى أدنى حد من الآثار الضارة للمواد الكيميائية والنفايات لن يتحقق بحلول عام 2020،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى قرار مجلس حقوق الإنسان 42/21 المؤرخ 26 أيلول/سبتمبر 2019 بشأن حماية حقوق العمال المعرضين للمواد والنفايات الخطرة، الذي شجع فيه المجلس الدول ومؤسسات الأعمال والجهات الفاعلة الأخرى على تنفيذ المبادئ الـ 15 المتعلقة بحقوق الإنسان وحماية العمال من التعرض للمواد السامة، من خلال الأطر القانونية والسياساتية لكل منها، لمساعدتها على حماية العمال من التعرض غير الآمن للمواد الخطرة وتوفير سبل الانتصاف من انتهاكات وتجاوزات حقوق العمال،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن الطريقة التي تدار بها المواد والنفايات الخطرة طوال دورة حياتها، بما في ذلك تصنيعها وتوزيعها واستخدامها والتخلص النهائي منها، قد يكون لها أثر ضار على التمتع الكامل بحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> بالعمل الذي اضطلع به المقرر الخاص المعني بالآثار المترتبة في مجال حقوق الإنسان على إدارة المواد والنفايات الخطرة والتخلص منها بطرق سليمة بيئياً، وفقاً لولايته، بما في ذلك بشأن الحق في العلم في سياق المواد السمية، وإذ يشير إلى تقاريره عن البلاستيك وحقوق الإنسان<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/76/207">A/76/207</a>. </p></authorialNote><sup>)</sup>؛ والشعوب الأصلية والمواد السامة<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/77/183">A/77/183</a>. </p></authorialNote><sup>)</sup>؛ والزئبق وتعدين الذهب الضيق النطاق وحقوق الإنسان<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/51/35">A/HRC/51/35</a>. </p></authorialNote><sup>)</sup>؛ وإزالة السموم وإزالة الكربون، والحاجة إلى حلول متكاملة<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/54/25">A/HRC/54/25</a>. </p></authorialNote><sup>)</sup>؛ والشحن والمواد السامة وحقوق الإنسان<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/54/25/Add.2">A/HRC/54/25/Add.2</a>. </p></authorialNote><sup>)</sup>؛ وقضايا حقوق الإنسان المتعلقة بجميع مؤسسات الأعمال، عبر الوطنية وغيرها، فيما يتعلق بالإدارة السليمة بيئياً للمواد والنفايات الخطرة والتخلص منها؛ وحق الإنسان في بيئة آمنة ونظيفة وصحية ومستدامة وغير سامة<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/49/53">A/HRC/49/53</a>. </p></authorialNote><sup>)</sup>،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxtGA">
+        <num>1-</num>
+        <list eId="para_13_list">
+          <intro eId="para_13_list_intro">
+            <p xml:space="preserve">	<span class="italic">يحيط علماً</span> بالتقرير الذي قدمه المقرر الخاص المعني بالآثار المترتبة في مجال حقوق الإنسان على إدارة المواد والنفايات الخطرة والتخلص منها بطرق سليمة بيئياً إلى مجلس حقوق الإنسان في هذه الدورة<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/54/25">A/HRC/54/25</a>. </p></authorialNote><sup>)</sup>، ويطلب إلى المقرر الخاص أن يواصل، وفقاً لولايته، تقديم معلومات مفصلة ومستكملة عن الآثار الضارة لإدارة المواد والنفايات الخطرة والتخلص منها بطريقة غير قانونية على التمتع الكامل بحقوق الإنسان، وربما معلومات عما يلي:</p>
+          </intro>
+          <point eId="para_13_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_13_list_point_أ_content">
+              <p xml:space="preserve">	الآثار الضارة على الأشخاص الذين يعيشون أوضاعاً هشة؛</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_13_list_point_ب_content">
+              <p xml:space="preserve">	هيئة التفاعل بين العلوم والسياسات فيما يتعلق بالشفافية بشأن المخاطر المرتبطة بدورة حياة المواد والنفايات الخطرة، بما في ذلك ما يهدد الحق في حرية التعبير، الذي يشمل حرية التماس المعلومات وتلقيها ونقلها، والحق في التمتع بفوائد التقدم العلمي؛</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_13_list_point_ج_content">
+              <p xml:space="preserve">	التطورات والثغرات وأوجه القصور في فعالية الآليات التنظيمية الدولية المتعلقة بالمواد والنفايات الخطرة وأثرها على التمتع بحقوق الإنسان، بما في ذلك فيما يخص القضايا الناشئة المتعلقة بإدارة المواد الكيميائية والنفايات والتخلص منها؛</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_د">
+            <num>(د)</num>
+            <content eId="para_13_list_point_د_content">
+              <p xml:space="preserve">	قضايا حقوق الإنسان المتعلقة بجميع مؤسسات الأعمال، سواء عبر الوطنية أو غيرها، فيما يتعلق بالإدارة السليمة بيئياً للمواد والنفايات الخطرة والتخلص منها؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يمدد لفترة ثلاث سنوات ولاية المقرر الخاص المعني بالآثار المترتبة في مجال حقوق الإنسان على إدارة المواد والنفايات الخطرة والتخلص منها بطريقة سليمة بيئياً، ويدعو صاحب الولاية إلى أن يقدم إليه تقارير وفقاً لبرنامج عمله وتقارير سنوية إلى الجمعية العامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> المقرر الخاص على مواصلة تعاونه الوثيق مع برنامج الأمم المتحدة للبيئة، وجمعية الأمم المتحدة للبيئة، والوكالات المتخصصة ذات الصلة في منظومة الأمم المتحدة، مثل منظمة الصحة العالمية ومنظمة العمل الدولية، وأمانات الاتفاقيات البيئية الدولية، بغية تعميم مراعاة حقوق الإنسان في عملها وتجنب الازدواجية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المقرر الخاص أن يشارك في محافل الأمم المتحدة وغيرها من المحافل الدولية ذات الصلة بشأن القضايا ذات الصلة بالولاية، حسب الاقتضاء، بما في ذلك في دورات جمعية الأمم المتحدة للبيئة، ومؤتمرات الأطراف في اتفاقيات بازل وروتردام واستكهولم، ومؤتمر الأطراف في اتفاقية ميناماتا بشأن الزئبق، وفي دورات لجنة التفاوض الحكومية الدولية لوضع صك دولي ملزم قانوناً بشأن التلوث البلاستيكي بما في ذلك التلوث في البيئة البحرية وفي المؤتمر الدبلوماسي الذي قد يعتمده، من أجل تعميم مراعاة حقوق الإنسان في هذه المناقشات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> المقرر الخاص على مواصلة مشاوراته مع وكالات الأمم المتحدة وهيئاتها المختصة ومع أمانات الاتفاقيات الدولية ذات الصلة كجزء من نهج متعمق متعدد التخصصات لمعالجة المشاكل القائمة بغية إيجاد حلول دائمة لإدارة هذه المواد والنفايات حتى يتمكن من أن يقدم إلى مجلس حقوق الإنسان، وفقاً لبرنامج عمله، تقارير سنوية عن تنفيذ القرارات التي اتخذها، فضلاً عن توصيات ومقترحات محددة بشأن الخطوات التي ينبغي اتخاذها فوراً من أجل معالجة الآثار الضارة للمواد والنفايات الخطرة على حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> جميع الدول ووكالات الأمم المتحدة وغيرها من المنظمات الدولية ذات الصلة، والجهات الفاعلة في المجتمع المدني، بما فيها المنظمات غير الحكومية، فضلاً عن القطاعين العام والخاص وجميع أصحاب المصلحة الآخرين على الدخول في عملية تشاور وحوار وتعاون مع المقرر الخاص لتمكينه من تقديم الإرشادات وفقاً لولايته؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> المقرر الخاص على أن يواصل، وفقاً لولايته، وبدعم ومساعدة من مفوضية الأمم المتحدة السامية لحقوق الإنسان، إتاحة فرص مناسبة للحكومات لكي ترد على الادعاءات التي تَرِد إليه ويُشار إليها في تقريره، وإيراد ملاحظات هذه الحكومات في تقريره إلى المجلس؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">يكرر</span> دعوته للدول وغيرها من الجهات صاحبة المصلحة أن تيسِّر عمل المقرر الخاص بتزويده بمعلومات ودعوته للقيام بزيارات قطرية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المقرر الخاص أن يبلغ الدول ووكالات الأمم المتحدة وغيرها من المنظمات الدولية ذات الصلة والمجتمع المدني وأصحاب المصلحة الآخرين بأثر الإدارة السليمة بيئياً للمواد والنفايات الخطرة والتخلص منها على حقوق الإنسان، بما في ذلك في تنفيذ خطة التنمية المستدامة لعام 2030، وأن يلتمس الآراء والمساهمات من الحكومات، ووكالات الأمم المتحدة والمنظمات الدولية الأخرى ذات الصلة، والمجتمع المدني، وأصحاب المصلحة الآخرين، وفقاً لولايته، للتحقيق في الجهود الوطنية والإقليمية والدولية فيما يتعلق بأهداف التنمية المستدامة، وأن يجري بحوثاً مواضيعية بشأن التنفيذ الفعال لخطة عام 2030؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المقرر الخاص أن يقدم، بناءً على طلبه، المساعدة التقنية والمشورة إلى الدول وغيرها من الجهات الفاعلة بشأن تنفيذ توصيات المقرر الخاص، وكذلك بشأن الإطار القانوني والسياساتي للامتثال للقانون الدولي لحقوق الإنسان والقانون البيئي الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المقرر الخاص أن يقوم، لدى اضطلاعه بولايته، بتعميم مراعاة منظور جنساني وعمري، بإيلاء اهتمام خاص لحقوق الإنسان والحريات الأساسية للنساء والفتيات، وبتعميم مراعاة حقوق الإنسان للأطفال وغيرهم من الأشخاص الذين يعيشون أوضاعاً هشة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">يكرر</span> دعوته إلى الأمين العام ومفوض الأمم المتحدة السامي لحقوق الإنسان أن يزود المقرر الخاص بكل ما يلزم من مساعدة لأداء ولايته بفعالية؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> مواصلة النظر في هذه المسألة في إطار البند نفسه من جدول الأعمال وفقاً لبرنامج عمله.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46" refersTo="#adoptionMeeting">الجلسة 46</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 تشرين الأول/أكتوبر 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمِد دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
