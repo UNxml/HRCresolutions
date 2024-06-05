@@ -1,0 +1,294 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/fra@/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="CAREGIVERS" href="http://metadata.un.org/thesaurus/1000830" showAs="CAREGIVERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CARE ECONOMY" showAs="CARE ECONOMY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN'S RIGHTS" href="http://metadata.un.org/thesaurus/1007035" showAs="WOMEN'S RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GENDER EQUALITY" href="http://metadata.un.org/thesaurus/1002612" showAs="GENDER EQUALITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-10" outcome="draftResolution" as="A/HRC/54/L.6/Rev.1" by="Albania, Argentina, Australia, Belgium, Canada, Chile, Colombia, Costa Rica, Cyprus, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Iceland, Ireland, Italy, Luxembourg, Malta, Mexico, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Paraguay, Peru, Portugal, San Marino, Slovenia, Spain, Sweden, United Kingdom of Great Britain and Northern Ireland and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-12" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-12" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-12" class="rightSmall" refersTo="#dateOfIssuance">12 octobre 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French"> Français </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">Cinquante-quatrième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 septembre</date>
+          <date date="2023-10-13" refersTo="#endDate">13 octobre 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme,  civils, politiques, économiques, sociaux et culturels,  y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme le 11 octobre 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	L’importance des soins et de l’assistance du point de vue  des droits de l’homme</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guidé</span> par les buts et principes énoncés dans la Charte des Nations Unies,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> l’obligation qu’ont tous les États de respecter, protéger et réaliser tous les droits de l’homme et toutes les libertés fondamentales, et réaffirmant aussi la Déclaration universelle des droits de l’homme, le Pacte international relatif aux droits civils et politiques, le Pacte international relatif aux droits économiques, sociaux et culturels, la Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes, la Convention relative aux droits de l’enfant, la Convention relative aux droits des personnes handicapées et la Convention internationale sur l’élimination de toutes les formes de discrimination raciale,</p>
+      </container>
+      <container name="Rappelant" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> que le principe de l’égalité des sexes est consacré par la Déclaration et le Programme d’action de Vienne, le Programme d’action de la Conférence internationale sur la population et le développement, la Déclaration et le Programme d’action de Beijing et les documents issus des conférences d’examen s’y rapportant, ainsi que par le Programme de développement durable à l’horizon 2030,</p>
+      </container>
+      <container name="Rappelant également" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> toutes ses résolutions et toutes les résolutions pertinentes de la Commission des droits de l’homme et de l’Assemblée générale, ainsi que les résolutions pertinentes et les conclusions concertées de la Commission de la condition de la femme, et rappelant également la récente proclamation par l’Assemblée générale de la Journée internationale des soins et de l’assistance<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Résolution 77/317.</p></authorialNote>, ainsi que les conventions et recommandations pertinentes adoptées par l’Organisation internationale du Travail sur la question de la discrimination à l’égard des femmes,</p>
+      </container>
+      <container name="Rappelant en outre" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Rappelant en outre</span> que tous les droits de l’homme sont universels, indissociables, interdépendants et intimement liés, que l’égalité des sexes doit être promue d’une manière globale et systématique et que la persistance de la discrimination à l’égard de toutes les femmes et filles au sein des familles, des économies et des sociétés est un frein à l’égale jouissance égale de leurs droits humains dans tous les aspects de la vie,</p>
+      </container>
+      <container name="Rappelant" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> que la Déclaration universelle des droits de l’homme proclame que les enfants ont droit à une attention et à une aide particulières et que la Convention relative aux droits de l’enfant dispose que les États parties s’emploient de leur mieux à assurer la reconnaissance du principe selon lequel les deux parents ont une responsabilité commune pour ce qui est d’élever l’enfant et d’assurer son développement, accordent l’aide appropriée aux parents et aux représentants légaux de l’enfant dans l’exercice de la responsabilité qui leur incombe d’élever l’enfant et assurent la mise en place d’institutions, d’établissements et de services chargés de veiller au bien-être des enfants et de fournir un soutien aux familles, et considérant que les États devraient sensibiliser les parents et les aidants à la nécessité de respecter les droits humains des enfants et le droit de tous les enfants de vivre dans leur famille et leur communauté,</p>
+      </container>
+      <container name="Sachant" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Sachant</span> que les personnes âgées se heurtent à un certain nombre d’obstacles particuliers à la jouissance de leurs droits de l’homme, notamment pour ce qui est de l’accès à des soins de santé de qualité, à des services à la personne et une assistance de longue durée et à des soins palliatifs, de l’accessibilité et de l’aide familiale non rémunérée, et soulignant qu’il importe de créer des communautés et des environnements inclusifs et adaptés aux personnes âgées et de fournir toute une gamme de services d’appui qui favorisent la dignité, l’autonomie et l’indépendance des personnes âgées afin qu’elles puissent vieillir chez elles, en respectant leurs préférences personnelles,</p>
+      </container>
+      <container name="Considérant" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> que des services à la personne et des dispositifs de soutien, y compris des politiques et des services qui tiennent compte du handicap, sont essentiels pour que les personnes handicapées puissent participer pleinement et efficacement à la société, avec la même liberté de choix que les autres, vivre dans la dignité, en toute autonomie et indépendance, et vivre de manière indépendante dans la communauté, comme le prévoit la Convention relative aux droits des personnes handicapées,</p>
+      </container>
+      <container name="Constatant avec une vive préoccupation" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Constatant avec une vive préoccupation</span> qu’en raison des stéréotypes de genre et des normes sociales négatives, ce sont uniquement ou principalement des femmes et des filles qui fournissent des services à la personne, de manière rémunérée ou non, situation qui exacerbe les inégalités structurelles existantes,</p>
+      </container>
+      <container name="Considérant" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> qu’une répartition égale et équitable des activités de services à la personne est une condition préalable pour que les femmes jouissent pleinement, sur un pied d’égalité, des droits économiques, sociaux et culturels, en particulier du droit à l’éducation, du droit au travail, de conditions de travail justes et décentes, de la liberté d’association, du droit d’organisation et de négociation collective, d’un niveau de vie suffisant, du meilleur état de santé physique et mentale possible et du droit de participer à la vie culturelle, ainsi que des droits civils et politiques, tels que le droit de participer à la vie politique et à la vie publique,</p>
+      </container>
+      <container name="Considérant également" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Considérant également</span> que divers instruments internationaux relatifs aux droits de l’homme, notamment le Pacte international relatif aux droits économiques, sociaux et culturels, la Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes, le Pacte international relatif aux droits civils et politiques, la Convention relative aux droits de l’enfant et la Convention relative aux droits des personnes handicapées, ainsi que diverses normes et engagements internationaux en matière de travail, établissent des obligations juridiquement contraignantes qui devraient aider les États à s’occuper de la question des activités non rémunérées de services à la personne,</p>
+      </container>
+      <container name="Constatant avec préoccupation" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Constatant avec préoccupation</span> que la difficulté, l’intensité et la répartition entre les sexes des activités non rémunérées de services à la personne créent et perpétuent des inégalités dans la jouissance des droits de l’homme, contribuent à maintenir les femmes dans la pauvreté et nuisent à l’égalité des sexes, ce qui compromet le plein exercice des droits de l’homme, font obstacle à la pleine et véritable participation des femmes, dans des conditions d’égalité, au marché du travail, limitent leurs perspectives économiques, leur autonomie et leurs activités entrepreneuriales, restreignent la capacité des femmes de participer à la prise des décisions et d’exercer des fonctions de direction, et empêchent les femmes et les filles de s’instruire et de se former ainsi que d’avoir accès à des services de santé, y compris des services de santé sexuelle et procréative, en particulier les femmes et les filles en situation de vulnérabilité et de pauvreté, les migrantes, les femmes rurales, les femmes autochtones, les femmes d’ascendance africaine, les femmes handicapées, les femmes âgées, les mères célibataires et les veuves, les femmes privées de liberté et les réfugiées,</p>
+      </container>
+      <container name="Soulignant" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> que le Programme d’action de Beijing fait de la conciliation des responsabilités professionnelles et familiales un objectif stratégique et rappelant l’engagement de faire une place aux soins et tâches domestiques non rémunérés et de les valoriser, par la mise en place de services publics, d’infrastructures et de politiques de protection sociale et par la promotion du partage des responsabilités dans le ménage et la famille, en fonction du contexte national, comme indiqué dans la cible 5.4 des objectifs de développement durable,</p>
+      </container>
+      <container name="Soulignant" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> qu’il faut adopter des mesures pour prendre bien en compte et valoriser les activités de services à la personne sous toutes leurs formes, et parvenir à une répartition juste et équitable de ces activités, notamment en s’employant à définir et mesurer la valeur économique des activités non rémunérées, et à réduire certaines formes d’activités tout en protégeant l’accès de ceux qui en ont besoin à des soins et à une assistance de qualité et en garantissant l’accès des personnes handicapées, des enfants, des personnes âgées et de ceux qui en ont besoin à des soins et à un appui fondés sur les droits de l’homme,</p>
+      </container>
+      <container name="Soulignant également" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Soulignant également</span> qu’il faut adopter des mesures, selon une approche intersectionnelle, pour prendre en compte et valoriser les activités rémunérées et non rémunérées de services à la personne, les répartir de façon plus juste et équitable, et réduire les activités non rémunérées, qui sont encore effectuées de manière disproportionnée par les femmes et les filles, en favorisant le partage égal des responsabilités entre les membres de la famille et entre les familles, les communautés, le secteur privé et les États, en donnant la priorité, entre autres, aux infrastructures durables et accessibles, aux transports, aux politiques de protection sociale, aux services sociaux abordables et de qualité, y compris les services et dispositifs de soins et de soutien, à la garde d’enfants, et aux normes de travail qui prévoient un travail décent et l’égalité des sexes pour tous les travailleurs, y compris un congé de maternité, de paternité ou parental, un salaire égal pour un travail de valeur égale, des conditions de travail sûres et saines et l’absence de violence et de harcèlement dans le monde du travail, notamment de violence et de harcèlement fondés sur le genre, la liberté d’association et le droit d’organisation et de négociation collective,</p>
+      </container>
+      <container name="Constatant avec une vive préoccupation" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Constatant avec une vive préoccupation</span> que la crise liée à la pandémie de maladie à coronavirus (COVID‑19) a exacerbé les formes préexistantes d’inégalité et de discrimination systémique auxquelles font face les femmes et les filles, notamment le patriarcat, le racisme, la stigmatisation, la xénophobie et les inégalités socioéconomiques, et a fait augmenter le nombre d’actes de violence et de harcèlement sexuels et fondés sur le genre, a encore alourdi la part disproportionnée des tâches domestiques et des services à la personne, rémunérés ou non, assumés par les femmes et les filles, et a entraîné la perte d’emplois et de moyens de subsistance, en particulier chez les femmes qui travaillent dans le secteur informel,</p>
+      </container>
+      <container name="Soulignant" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> qu’il faut investir dans l’économie des services à la personne et mettre en place des systèmes de soins et d’assistance qui soient solides et résilients et qui tiennent compte des questions de genre, du handicap et de l’âge, dans le plein respect des droits de l’homme, en vue de prendre en compte, de valoriser, de réduire et de répartir les services à la personne, les tâches domestiques et les activités d’assistance non rémunérés,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="italic">Considère</span> qu’il importe de respecter, de protéger et de réaliser les droits humains des aidants, qu’ils soient rémunérés ou non, et de ceux qui bénéficient des soins et des services d’assistance ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> 	<span class="italic">Se déclare profondément préoccupé</span> par la répartition inégale et l’organisation des activités de services à la personne et d’assistance et par les effets qu’elles ont sur les droits de toutes les femmes et de toutes les filles, dans la société et dans l’économie ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> 	<span class="italic">Constate</span> qu’il est essentiel de parvenir à une répartition égale des activités de services à la personne et d’assistance, et du temps qui est consacré à ces activités, si l’on veut garantir l’égalité des sexes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>4.</num>
+        <list eId="para_25_list">
+          <intro eId="para_25_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États à :</p>
+          </intro>
+          <point eId="para_25_list_point_a">
+            <num>a)</num>
+            <content eId="para_25_list_point_a_content">
+              <p xml:space="preserve">  Appliquer toutes les mesures nécessaires pour prendre en compte les activités de services à la personne et les répartir entre les individus, ainsi qu’entre les familles, les communautés, le secteur privé et les États, d’une manière qui favorise l’égalité des sexes et la jouissance des droits de l’homme par tous ;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_b">
+            <num>b)</num>
+            <content eId="para_25_list_point_b_content">
+              <p xml:space="preserve">  Investir davantage dans les politiques et les infrastructures de soins et d’assistance afin de garantir l’accès universel à des services abordables et de qualité pour tous, y compris des services de garde d’enfants et des services de santé et de soutien destinés aux personnes handicapées et aux personnes âgées, et garantir l’accès universel à des congés de maternité, de paternité et parentaux rémunérés et à une protection sociale pour tous les travailleurs, y compris les travailleurs informels et ceux qui exercent des formes d’emploi non conventionnelles ;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_c">
+            <num>c)</num>
+            <content eId="para_25_list_point_c_content">
+              <p xml:space="preserve">  Favoriser et soutenir les travaux de recherche et d’étude visant à produire des données ventilées par revenu, sexe, âge, race, appartenance ethnique, statut migratoire, état civil, handicap, situation géographique et autres caractéristiques pertinentes dans les contextes nationaux, ainsi que des statistiques sur l’étendue et la répartition des activités de services à la personne et le temps consacré à ces activités, ainsi que sur les aidants et les bénéficiaires, au moyen de la réalisation d’enquêtes régulières sur les budgets-temps et de l’établissement de comptes satellites permettant d’évaluer la contribution de ces activités au revenu national, de quantifier les activités de services à la personne non rémunérées et de les inclure dans le produit national brut aux fins de la conception, du financement et de l’évaluation des politiques dans ce domaine ;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_d">
+            <num>d)</num>
+            <content eId="para_25_list_point_d_content">
+              <p xml:space="preserve">  Adopter toutes les mesures nécessaires pour permettre la participation pleine, égale, véritable et inclusive des femmes, des personnes handicapées et des personnes âgées, ainsi que des enfants, à la prise de décisions concernant les soins et l’accompagnement, tant dans la vie privée que dans la vie publique, y compris le dialogue social et la négociation collective par les pourvoyeurs de soins rémunérés ;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_e">
+            <num>e)</num>
+            <content eId="para_25_list_point_e_content">
+              <p xml:space="preserve">  Sensibiliser l’opinion publique aux effets préjudiciables des stéréotypes liés au genre, au handicap et à l’âge dans le cadre de la fourniture de services à la personne et de l’assistance et de l’obtention de tels services, et élaborer des programmes et des politiques visant à éliminer ces stéréotypes ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>5.</num>
+        <list eId="para_29_list">
+          <intro eId="para_29_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Décide </span>:</p>
+          </intro>
+          <point eId="para_29_list_point_a">
+            <num>a)</num>
+            <content eId="para_29_list_point_a_content">
+              <p xml:space="preserve">  De prier le Haut-Commissaire des Nations Unies aux droits de l’homme d’organiser un atelier d’experts de deux jours, sous une forme accessible, avec des contributions des États intéressés, des organisations internationales, du secteur privé et de la société civile, en particulier des organisations de femmes, y compris des organisations féminines locales, des organisations de personnes handicapées, des organisations de défense des droits de l’enfant, des personnes âgées et des organisations qui les représentent, ainsi que des représentants d’organisations d’employeurs et de travailleurs, afin d’examiner les droits humains des femmes, des personnes handicapées, des enfants et des personnes âgées en tant qu’aidants et bénéficiaires de services à la personne et de l’assistance, et en tant que personnes à même de se prendre elles-mêmes en charge, du point de vue de l’égalité des sexes et des droits de l’homme, dans le but d’évaluer les données d’expérience, les bonnes pratiques et les principaux problèmes concernant la reconnaissance effective des droits des aidants et des bénéficiaires de services à la personne et de l’assistance ;</p>
+            </content>
+          </point>
+          <point eId="para_29_list_point_b">
+            <num>b)</num>
+            <content eId="para_29_list_point_b_content">
+              <p xml:space="preserve">  De prier également le Haut-Commissaire, en tenant compte des débats qui se tiendront dans le cadre de l’atelier d’experts susmentionné et en consultation avec les États Membres de l’Organisation des Nations Unies et d’autres parties prenantes, d’élaborer une étude thématique approfondie sur les services à la personne et l’assistance du point de vue des droits de l’homme, résumant et compilant les normes et les bonnes pratiques au niveau international ainsi que les principaux problèmes au niveau national concernant les dispositifs de services à la personne et d’assistance, et comprenant des recommandations sur la promotion et le respect des droits humains des aidants et des bénéficiaires des services et de l’assistance, de demander aux parties prenantes de fournir des contributions sous une forme accessible, et de faire en sorte que les contributions, l’étude à proprement dite et une version facile à lire de celle-ci puissent être consultées sur le site Web du Haut-Commissariat des Nations Unies aux droits de l’homme, sous une forme accessible, avant sa cinquante‑huitième session ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide aussi </span>d’examiner à titre prioritaire, à ses futures sessions, les progrès accomplis dans l’application de la présente résolution.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46e" refersTo="#adoptionMeeting">46e séance</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 octobre 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
