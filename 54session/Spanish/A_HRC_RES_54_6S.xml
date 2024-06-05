@@ -1,0 +1,294 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/spa@/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="CAREGIVERS" href="http://metadata.un.org/thesaurus/1000830" showAs="CAREGIVERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CARE ECONOMY" showAs="CARE ECONOMY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN'S RIGHTS" href="http://metadata.un.org/thesaurus/1007035" showAs="WOMEN'S RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GENDER EQUALITY" href="http://metadata.un.org/thesaurus/1002612" showAs="GENDER EQUALITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-10" outcome="draftResolution" as="A/HRC/54/L.6/Rev.1" by="Albania, Argentina, Australia, Belgium, Canada, Chile, Colombia, Costa Rica, Cyprus, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Iceland, Ireland, Italy, Luxembourg, Malta, Mexico, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Paraguay, Peru, Portugal, San Marino, Slovenia, Spain, Sweden, United Kingdom of Great Britain and Northern Ireland and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-12" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-12" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-12" class="rightSmall" refersTo="#dateOfIssuance">12 de octubre de 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">54º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 septiembre</date>
+          <date date="2023-10-13" refersTo="#endDate">13 octubre 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Tema 3 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promoción y protección de todos los derechos humanos,  civiles, políticos, económicos, sociales y culturales,  incluido el derecho al desarrollo</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos el 11 de octubre de 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Importancia de los cuidados y el apoyo desde una perspectiva de derechos humanos</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Guiado" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Guiado</span> por los propósitos y principios de la Carta de las Naciones Unidas,</p>
+      </container>
+      <container name="Reafirmando" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> la obligación de todos los Estados de respetar, proteger y hacer efectivos todos los derechos humanos y libertades fundamentales, y reafirmando también la Declaración Universal de Derechos Humanos, el Pacto Internacional de Derechos Civiles y Políticos, el Pacto Internacional de Derechos Económicos, Sociales y Culturales, la Convención sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer, la Convención sobre los Derechos del Niño, la Convención sobre los Derechos de las Personas con Discapacidad y la Convención Internacional sobre la Eliminación de Todas las Formas de Discriminación Racial,</p>
+      </container>
+      <container name="Recordando" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> que la igualdad de género está reconocida en la Declaración y el Programa de Acción de Viena, el Programa de Acción de la Conferencia Internacional sobre la Población y el Desarrollo, la Declaración y la Plataforma de Acción de Beijing y los documentos finales de sus conferencias de examen, así como en la Agenda 2030 para el Desarrollo Sostenible,</p>
+      </container>
+      <container name="Recordando también" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recordando también </span>todas las resoluciones pertinentes del Consejo de Derechos Humanos, la Comisión de Derechos Humanos y la Asamblea General, así como las resoluciones pertinentes y conclusiones convenidas de la Comisión de la Condición Jurídica y Social de la Mujer, y recordando además la reciente proclamación por la Asamblea General del Día Internacional de los Cuidados y el Apoyo<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Resolución 77/317.</p></authorialNote>, así como las recomendaciones y los convenios pertinentes aprobados por la Organización Internacional del Trabajo sobre la cuestión de la discriminación contra la mujer,</p>
+      </container>
+      <container name="Recordando además" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recordando además </span>que todos los derechos humanos son universales, indivisibles e interdependientes y están relacionados entre sí, que la igualdad de género debe promoverse de manera integral y sistemática y que la persistencia de la discriminación contra todas las mujeres y niñas en el seno de la familia, la economía y la sociedad tiene un efecto perjudicial sobre el disfrute de sus derechos humanos en condiciones de igualdad en todos los aspectos de la vida,</p>
+      </container>
+      <container name="Recordando" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>que la Declaración Universal de Derechos Humanos establece que la infancia tiene derecho a cuidados y asistencia especiales y que la Convención sobre los Derechos del Niño dispone que los Estados partes pondrán el máximo empeño en garantizar el reconocimiento del principio de que ambos padres tienen obligaciones comunes en lo que respecta a la crianza y el desarrollo del niño, prestarán a los padres y a los tutores legales la asistencia apropiada para el cumplimiento de sus responsabilidades en lo que respecta a la crianza del niño y velarán por la creación de instituciones, instalaciones y servicios para el cuidado de los niños y el apoyo a sus familias, y tomando en consideración que los Estados deben promover que los padres y cuidadores sean conscientes de la necesidad de respetar los derechos humanos de los niños y el derecho de todos los niños a vivir en el seno de su familia y su comunidad,</p>
+      </container>
+      <container name="Reconociendo" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que las personas de edad se enfrentan a una serie de obstáculos específicos para el disfrute de sus derechos humanos, entre ellos la falta de acceso a una asistencia sanitaria de calidad, a los cuidados y el apoyo a largo plazo y a los cuidados paliativos, la accesibilidad y el trabajo de cuidados no remunerado, y poniendo de relieve la importancia de promover comunidades y entornos inclusivos y favorables para las personas de edad y de proporcionar a estas personas diversos servicios de apoyo que promuevan su dignidad, autonomía e independencia para que puedan permanecer en su hogar a medida que envejecen, respetando sus preferencias personales,</p>
+      </container>
+      <container name="Teniendo en cuenta" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Teniendo en cuenta</span> que los sistemas de apoyo y cuidados, incluidos las políticas y los servicios inclusivos de la discapacidad, son esenciales para que las personas con discapacidad puedan participar de forma plena y efectiva en la sociedad, con opciones iguales a las de las demás personas, vivir con dignidad, autonomía e independencia, y vivir en forma independiente en la comunidad, como se establece en la Convención sobre los Derechos de las Personas con Discapacidad,</p>
+      </container>
+      <container name="Profundamente preocupado" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Profundamente preocupado</span> porque, debido a los estereotipos de género y las normas sociales negativas, las mujeres y las niñas son en gran medida, si no exclusivamente, las que realizan el trabajo de cuidados, remunerado o no, lo que exacerba las desigualdades estructurales existentes,</p>
+      </container>
+      <container name="Reconociendo" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> que la distribución equitativa y justa del trabajo de cuidados es una condición necesaria para que las mujeres disfruten plenamente, en igualdad de condiciones, de los derechos económicos, sociales y culturales, en particular el derecho a la educación, el derecho al trabajo, el derecho a disfrutar de condiciones de trabajo justas y decentes, la libertad de asociación, el derecho de sindicación y de negociación colectiva, el derecho a un nivel de vida adecuado, al disfrute del más alto nivel posible de salud física y mental y a participar en la vida cultural, así como de los derechos civiles y políticos, como el derecho a participar en la vida política y pública,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también </span>que diversos tratados internacionales de derechos humanos, entre ellos el Pacto Internacional de Derechos Económicos, Sociales y Culturales, la Convención sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer, el Pacto Internacional de Derechos Civiles y Políticos, la Convención sobre los Derechos del Niño y la Convención sobre los Derechos de las Personas con Discapacidad, así como diversos compromisos y normas laborales internacionales, establecen obligaciones jurídicamente vinculantes que deberían servir de guía a los Estados para abordar la cuestión del trabajo de cuidados no remunerado,</p>
+      </container>
+      <container name="Expresando preocupación" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Expresando preocupación </span>porque la dificultad y la intensidad del trabajo de cuidados no remunerado, y su distribución entre hombres y mujeres, crean desigualdades en el disfrute de los derechos humanos y las perpetúan, contribuyen a perpetuar la feminización de la pobreza y obstaculizan la igualdad de género, lo que impide el pleno disfrute de los derechos humanos, constituyen una barrera a la participación plena, igualitaria y efectiva de las mujeres en el mercado de trabajo, así como a sus oportunidades económicas, su autonomía y sus actividades empresariales, limitan la capacidad de las mujeres de participar en los procesos decisorios y ocupar puestos de liderazgo, y limitan de forma considerable la educación y la capacitación de las mujeres y las niñas y su acceso a los servicios de salud, incluidos los servicios de salud sexual y reproductiva, en particular para las mujeres y las niñas en situaciones de vulnerabilidad y de pobreza, las mujeres migrantes, las mujeres rurales, las mujeres indígenas, las mujeres afrodescendientes, las mujeres con discapacidad, las mujeres de edad, las madres solteras y las viudas, las mujeres privadas de libertad y las mujeres refugiadas, entre otras,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Poniendo de relieve </span>el objetivo estratégico de la Plataforma de Acción de Beijing de fomentar la armonización de las responsabilidades en lo que respecta al trabajo y la familia, así como el compromiso de reconocer y valorar los cuidados y el trabajo doméstico no remunerados mediante servicios públicos, infraestructuras y políticas de protección social, y promoviendo la responsabilidad compartida en el hogar y la familia, según proceda en cada país, que figura en la meta 5.4 de los Objetivos de Desarrollo Sostenible,</p>
+      </container>
+      <container name="Destacando" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Destacando</span> la necesidad de adoptar medidas para reconocer y valorar debidamente el trabajo de cuidados en todas sus formas, y redistribuirlo de forma justa y equitativa, entre otras cosas tomando disposiciones para determinar y medir el valor económico del trabajo de cuidados no remunerado, y para reducir determinadas formas de trabajo de cuidados y, al mismo tiempo, proteger el acceso a unos cuidados y un apoyo de calidad para aquellas personas que los necesiten y garantizar el acceso a servicios de apoyo y salud basados en los derechos humanos para las personas con discapacidad, los niños, las personas de edad y otras personas que los necesiten,</p>
+      </container>
+      <container name="Destacando también" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Destacando también</span> la necesidad de adoptar medidas, con un enfoque interseccional, para reconocer, valorar y redistribuir de forma justa y equitativa el trabajo de cuidados remunerado y no remunerado y reducir el trabajo no remunerado, que sigue siendo realizado de forma desproporcionada por mujeres y niñas, mediante el fomento del reparto equitativo de las responsabilidades entre los miembros de la familia, así como entre las familias, las comunidades, el sector privado y los Estados, dando prioridad, entre otras cosas, a la sostenibilidad y accesibilidad de las infraestructuras, el transporte, las políticas de protección social y la prestación de servicios sociales asequibles y de calidad, incluidos servicios y productos de cuidados y apoyo, el cuidado de los niños y las normas laborales que favorecen el trabajo decente y la igualdad de género para todos los trabajadores, incluidas las licencias de maternidad, paternidad o parentales, la igualdad de remuneración por el trabajo de igual valor, unas condiciones de trabajo seguras y saludables, la protección contra la violencia y el acoso en el mundo del trabajo, en particular el acoso y la violencia de género, la libertad de asociación y el derecho de sindicación y a la negociación colectiva,</p>
+      </container>
+      <container name="Profundamente preocupado" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Profundamente preocupado</span> por el hecho de que la crisis de la enfermedad por coronavirus (COVID‑19) haya exacerbado las formas preexistentes de desigualdad y discriminación sistémica a que hacen frente las mujeres y las niñas, como el patriarcado, el racismo, el estigma, la xenofobia y las desigualdades socioeconómicas, y haya aumentado la incidencia de la violencia y el acoso sexuales y por motivo de género, la proporción excesiva de mujeres y niñas que realizan trabajos de prestación de cuidados y domésticos no remunerados, así como la pérdida de empleo y de medios de vida, en particular entre las mujeres que trabajan en el sector informal,</p>
+      </container>
+      <container name="Resaltando" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Resaltando</span> la necesidad de invertir en la economía del cuidado y de crear sistemas de cuidados y apoyo que sean sólidos, resilientes, respondan a las cuestiones de género y de edad, sean inclusivos de la discapacidad y respeten plenamente los derechos humanos, con miras a reconocer, valorar, reducir y redistribuir el trabajo de cuidados, el trabajo doméstico y el apoyo no remunerados,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>la importancia de respetar, proteger y hacer efectivos los derechos humanos de los cuidadores remunerados y no remunerados y de las personas que reciben cuidados y apoyo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Expresa profunda preocupación </span>por la organización y el reparto desigual de los trabajos de cuidados y apoyo, y por las repercusiones que ello tiene en los derechos de todas las mujeres y las niñas en la sociedad y en la economía;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>que, para lograr la igualdad de género, es esencial distribuir equitativamente los trabajos de cuidados y apoyo y el tiempo dedicado a dichos trabajos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>4.</num>
+        <list eId="para_25_list">
+          <intro eId="para_25_list_intro">
+            <p xml:space="preserve">	<span class="italic">Insta</span> a los Estados a que:</p>
+          </intro>
+          <point eId="para_25_list_point_a">
+            <num>a)</num>
+            <content eId="para_25_list_point_a_content">
+              <p xml:space="preserve">	Apliquen todas las medidas necesarias para reconocer el trabajo de cuidados y redistribuirlo entre las personas, así como entre las familias, las comunidades, el sector privado y los Estados, de tal modo que se promueva la igualdad de género y el disfrute de los derechos humanos por todas las personas;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_b">
+            <num>b)</num>
+            <content eId="para_25_list_point_b_content">
+              <p xml:space="preserve">	Aumenten la inversión en políticas e infraestructuras de cuidados y apoyo a fin de garantizar el acceso universal a servicios asequibles y de calidad para todas las personas, incluidos servicios de cuidado de niños y servicios de salud y apoyo para las personas con discapacidad y las personas de edad, y de garantizar el acceso universal a licencias parentales, de maternidad y de paternidad y a la protección social para todos los trabajadores, tanto de los trabajadores del sector informal como de aquellos que trabajan en formas atípicas de empleo;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_c">
+            <num>c)</num>
+            <content eId="para_25_list_point_c_content">
+              <p xml:space="preserve">	Fomenten y apoyen las investigaciones y estudios encaminados a producir datos desglosados por ingresos, sexo, edad, raza, etnia, situación migratoria, estado civil, discapacidad, ubicación geográfica y otras características pertinentes en el contexto nacional, así como estadísticas sobre el alcance y la distribución del trabajo de cuidados y del tiempo que se le dedica, y sobre las personas que prestan estos cuidados y las que los reciben, mediante encuestas periódicas sobre el empleo del tiempo y el establecimiento de cuentas satélite para evaluar la contribución de ese trabajo a los ingresos nacionales y cuantificar el trabajo de cuidados no remunerado, a fin de incluirlos en el producto nacional bruto a los efectos de diseñar, financiar y evaluar políticas en este ámbito;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_d">
+            <num>d)</num>
+            <content eId="para_25_list_point_d_content">
+              <p xml:space="preserve">	Adopten todas las medidas necesarias para permitir la participación plena, igualitaria, genuina e inclusiva de las mujeres, las personas con discapacidad y las personas mayores, así como los niños, en la toma de decisiones relativas a los cuidados y el apoyo, tanto en la vida privada como pública, incluido el diálogo social y la negociación colectiva de los trabajadores asistenciales remunerados;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_e">
+            <num>e)</num>
+            <content eId="para_25_list_point_e_content">
+              <p xml:space="preserve">	Sensibilicen acerca de los impactos negativos que tienen los estereotipos relacionados con el género, la discapacidad y la edad a la hora de prestar y recibir cuidados y apoyo, y establezcan programas y políticas para eliminar esos estereotipos;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>5.</num>
+        <list eId="para_29_list">
+          <intro eId="para_29_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decide:</span></p>
+          </intro>
+          <point eId="para_29_list_point_a">
+            <num>a)</num>
+            <content eId="para_29_list_point_a_content">
+              <p xml:space="preserve">	Solicitar al Alto Comisionado de las Naciones Unidas para los Derechos Humanos que organice un taller de expertos de dos días de duración, en un formato accesible, con contribuciones de los Estados interesados, las organizaciones internacionales, el sector privado y la sociedad civil, en particular las organizaciones de mujeres, incluidas las organizaciones comunitarias, las organizaciones de personas con discapacidad, las organizaciones de defensa de los derechos del niño, las personas mayores y las organizaciones que las representan, y los representantes de organizaciones de empleadores y trabajadores, a fin de examinar la cuestión de los derechos humanos de las mujeres, las personas con discapacidad, los niños y las personas mayores en cuanto que personas que prestan y reciben cuidados y apoyo, y abordar su cuidado personal desde una perspectiva de la igualdad de género y los derechos humanos, con objeto de evaluar las experiencias, buenas prácticas y principales dificultades en relación con el reconocimiento efectivo de los derechos de las personas que prestan y reciben cuidados y apoyo;</p>
+            </content>
+          </point>
+          <point eId="para_29_list_point_b">
+            <num>b)</num>
+            <content eId="para_29_list_point_b_content">
+              <p xml:space="preserve">	Solicitar también al Alto Comisionado que, sobre la base de los debates en el taller de expertos mencionado y en consulta con los Estados Miembros de las Naciones Unidas y otras partes interesadas, prepare un estudio temático exhaustivo sobre la dimensión de derechos humanos de los cuidados y el apoyo, en el que se resuman y recopilen las normas y las buenas prácticas a nivel internacional y los principales retos a nivel nacional por lo que respecta a los sistemas de cuidados y apoyo, y se incluyan recomendaciones relativas a la promoción y el respeto de los derechos humanos de las personas que prestan y las que reciben cuidados y apoyo, pidiendo que las contribuciones se presenten en un formato accesible, y solicitar además que las contribuciones de las partes interesadas, el propio estudio y una versión de lectura fácil se publiquen en el sitio web de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, en un formato accesible, antes del 58º período de sesiones del Consejo de Derechos Humanos;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Decide también</span> examinar en sus futuros períodos de sesiones, con carácter prioritario, los progresos realizados en la aplicación de la presente resolución.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46º" refersTo="#adoptionMeeting">46º sesión</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 de octubre de 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

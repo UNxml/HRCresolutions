@@ -1,0 +1,298 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/spa@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Implications for Human Rights of the Environmentally Sound Management and Disposal of Hazardous Substances and Wastes" showAs="UN. Human Rights Council. Special Rapporteur on the Implications for Human Rights of the Environmentally Sound Management and Disposal of Hazardous Substances and Wastes" dictionary="DHLAUTH"></keyword>
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TOXIC WASTE MANAGEMENT" href="http://metadata.un.org/thesaurus/1006571" showAs="TOXIC WASTE MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTALLY HAZARDOUS SUBSTANCES" href="http://metadata.un.org/thesaurus/1002091" showAs="ENVIRONMENTALLY HAZARDOUS SUBSTANCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-09" outcome="draftResolution" as="A/HRC/54/L.13" by="Chile, Colombia, Costa Rica, Côte d’Ivoire, Ecuador, Peru and Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 de octubre de 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">54º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 septiembre</date>
+          <date date="2023-10-13" refersTo="#endDate">13 octubre 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Tema 3 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promoción y protección de todos los derechos humanos,  civiles, políticos, económicos, sociales y culturales,  incluido el derecho al desarrollo</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos el 11 de octubre de 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Mandato de la Relatoría Especial sobre las implicaciones para los derechos humanos de la gestión y eliminación ambientalmente racionales de las sustancias  y los desechos peligrosos</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Guiado" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Guiado </span>por la Carta de las Naciones Unidas, la Declaración Universal de Derechos Humanos, el Pacto Internacional de Derechos Económicos, Sociales y Culturales, el Pacto Internacional de Derechos Civiles y Políticos, la Declaración y el Programa de Acción de Viena y la Declaración sobre el Derecho al Desarrollo,</p>
+      </container>
+      <container name="Teniendo presente" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Teniendo presente </span>el párrafo 6 de la resolución 60/251 de la Asamblea General, de 15 de marzo de 2006,</p>
+      </container>
+      <container name="Recordando" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>sus resoluciones 5/1, sobre la construcción institucional del Consejo de Derechos Humanos, y 5/2, sobre el Código de Conducta para los Titulares de Mandatos de los Procedimientos Especiales del Consejo de Derechos Humanos, ambas de 18 de junio de 2007, y destacando que los titulares de mandatos deben desempeñar sus funciones de conformidad con esas resoluciones y sus anexos,</p>
+      </container>
+      <container name="Recordando también" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recordando también </span>sus resoluciones 9/1, de 24 de septiembre de 2008, 18/11, de 29 de septiembre de 2011, 21/17, de 27 de septiembre de 2012, 27/23, de 26 de septiembre de 2014, y 36/15, de 28 de septiembre de 2017, y todas las resoluciones de la Comisión de Derechos Humanos sobre este tema,</p>
+      </container>
+      <container name="Conocedor" eId="container_6">
+          <p xml:space="preserve">	<span class="italic">Conocedor </span>de la Declaración sobre el Derecho y el Deber de los Individuos, los Grupos y las Instituciones de Promover y Proteger los Derechos Humanos y las Libertades Fundamentales Universalmente Reconocidos, que figuraba en la resolución 53/144 de la Asamblea General, de 9 de diciembre de 1998,</p>
+      </container>
+      <container name="Recordando" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>la resolución 70/1 de la Asamblea General, de 25 de septiembre de 2015, en la que la Asamblea aprobó la Agenda 2030 para el Desarrollo Sostenible, incluida la meta 12.4 de los Objetivos de Desarrollo Sostenible, consistente en lograr, hasta 2020, la gestión ambientalmente racional de las sustancias y los desechos peligrosos a lo largo de su ciclo de vida, de conformidad con los marcos internacionales convenidos, así como las metas 3.9 y 6.3 de los Objetivos de Desarrollo Sostenible, y afirmando los vínculos y el carácter integrado de todos los Objetivos,</p>
+      </container>
+      <container name="Recordando también" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Recordando también </span>la resolución 48/13 del Consejo de Derechos Humanos, de 8 de octubre de 2021, y la resolución 76/300 de la Asamblea General, de 28 de julio de 2022, en las que reconocieron el derecho humano a un medio ambiente limpio, saludable y sostenible,</p>
+      </container>
+      <container name="Expresando preocupación" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Expresando preocupación </span>por la conclusión principal del Programa de las Naciones Unidas para el Medio Ambiente, expuesta en el resumen para responsables de políticas del informe Perspectivas de los productos químicos a nivel mundial II, de que la meta mundial de reducir al mínimo los efectos adversos de los productos químicos y los desechos no se alcanzaría para 2020,</p>
+      </container>
+      <container name="Recordando" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>la resolución 42/21 del Consejo de Derechos Humanos, de 26 de septiembre de 2019, sobre la protección de los derechos de los trabajadores expuestos a sustancias y desechos peligrosos, en la que el Consejo alentó a los Estados, las empresas y otros actores a que aplicaran los 15 principios sobre los derechos humanos y la protección de los trabajadores de la exposición a sustancias tóxicas, a través de sus respectivos marcos jurídicos y normativos, para ayudarlos a proteger a los trabajadores de la exposición en condiciones de riesgo a sustancias tóxicas y proporcionar recursos en caso de violaciones y conculcaciones de los derechos de los trabajadores,</p>
+      </container>
+      <container name="Reafirmando" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>que la forma en que se gestionan las sustancias y los desechos peligrosos a lo largo de su ciclo de vida, incluida su fabricación, distribución, utilización y eliminación final, puede tener efectos adversos en el pleno disfrute de los derechos humanos,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito </span>la labor realizada, de conformidad con su mandato, por el Relator Especial sobre las implicaciones para los derechos humanos de la gestión y eliminación ambientalmente racionales de las sustancias y los desechos peligrosos, entre otras cuestiones sobre el derecho a la ciencia en el contexto de las sustancias tóxicas, y haciendo notar sus informes sobre los plásticos y los derechos humanos<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		A/76/207.</p></authorialNote>; los Pueblos Indígenas y las sustancias tóxicas<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/77/183.</p></authorialNote>; el mercurio, la extracción de oro en pequeña escala y los derechos humanos<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		A/HRC/51/35.</p></authorialNote>; la desintoxicación y la descarbonización, y la necesidad de soluciones integradas<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/HRC/54/25.</p></authorialNote>; el transporte marítimo, las sustancias tóxicas y los derechos humanos<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		A/HRC/54/25/Add.2.</p></authorialNote>; las cuestiones de derechos humanos que conciernen a todas las empresas, tanto transnacionales como de otro tipo, en lo que respecta a la gestión y eliminación ambientalmente racionales de las sustancias y los desechos peligrosos; y el derecho humano a un medio ambiente seguro, limpio, saludable, sostenible y no tóxico<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		A/HRC/49/53.</p></authorialNote>,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxtG">
+        <num>1.</num>
+        <list eId="para_13_list">
+          <intro eId="para_13_list_intro">
+            <p xml:space="preserve">	<span class="italic">Toma nota </span>del informe presentado por el Relator Especial sobre las implicaciones para los derechos humanos de la gestión y eliminación ambientalmente racionales de las sustancias y los desechos peligrosos al Consejo de Derechos Humanos en su período de sesiones en curso<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		A/HRC/54/25.</p></authorialNote>, y solicita al Relator Especial que, de conformidad con su mandato, siga proporcionando información detallada y actualizada sobre las consecuencias adversas para el pleno disfrute de los derechos humanos de la gestión y eliminación de sustancias y desechos peligrosos de manera ilícita, lo que puede incluir información sobre:</p>
+          </intro>
+          <point eId="para_13_list_point_a">
+            <num>a)</num>
+            <content eId="para_13_list_point_a_content">
+              <p xml:space="preserve">	Las consecuencias adversas para las personas en situaciones vulnerables;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_b">
+            <num>b)</num>
+            <content eId="para_13_list_point_b_content">
+              <p xml:space="preserve">	La interfaz entre ciencia y políticas en lo que respecta a la transparencia sobre los riesgos asociados al ciclo de vida de las sustancias y los desechos peligrosos, entre ellos las amenazas al derecho a la libertad de expresión, que incluye la libertad de buscar, recibir y difundir información, y el derecho a disfrutar de los beneficios del progreso científico;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_c">
+            <num>c)</num>
+            <content eId="para_13_list_point_c_content">
+              <p xml:space="preserve">	Las novedades, lagunas y deficiencias en la eficacia de los mecanismos internacionales de regulación de las sustancias y los desechos peligrosos y sus efectos en el disfrute de los derechos humanos, en particular en lo que se refiere a las cuestiones emergentes relacionadas con la gestión y eliminación de productos químicos y desechos;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_d">
+            <num>d)</num>
+            <content eId="para_13_list_point_d_content">
+              <p xml:space="preserve">	Las cuestiones de derechos humanos que conciernen a todas las empresas, tanto transnacionales como de otro tipo, en lo que respecta a la gestión y eliminación ambientalmente racionales de las sustancias y los desechos peligrosos;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>prorrogar por un período de tres años el mandato de la Relatoría Especial sobre las implicaciones para los derechos humanos de la gestión y eliminación ambientalmente racionales de las sustancias y los desechos peligrosos, e invita a la persona titular del mandato a que informe al Consejo de Derechos Humanos de conformidad con su programa de trabajo, y a la Asamblea General con carácter anual;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>al Relator Especial a que continúe su estrecha colaboración con el Programa de las Naciones Unidas para el Medio Ambiente, la Asamblea de las Naciones Unidas sobre el Medio Ambiente, los organismos especializados pertinentes del sistema de las Naciones Unidas, como la Organización Mundial de la Salud y la Organización Internacional del Trabajo, y las secretarías de las convenciones internacionales sobre el medio ambiente, con miras a incorporar los derechos humanos en sus trabajos y evitar el solapamiento de actividades;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Relator Especial que participe en los foros pertinentes de las Naciones Unidas y otros foros internacionales sobre cuestiones relacionadas con el mandato, según proceda, como los períodos de sesiones de la Asamblea de las Naciones Unidas sobre el Medio Ambiente, las Conferencias de las Partes en los convenios de Basilea, Estocolmo y Rotterdam y la Conferencia de las Partes en el Convenio de Minamata sobre el Mercurio, así como en los períodos de sesiones del Comité Intergubernamental de Negociación para la elaboración de un instrumento internacional jurídicamente vinculante sobre la contaminación por plásticos, incluso en el medio marino, y en la conferencia diplomática que pueda aprobarlo, a fin de integrar los derechos humanos en estos debates;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>al Relator Especial a que prosiga sus consultas con los organismos y órganos competentes de las Naciones Unidas y con las secretarías de las convenciones internacionales pertinentes, adoptando un enfoque multidisciplinario y exhaustivo de los problemas existentes, con miras a que se puedan encontrar soluciones duraderas para la gestión de esas sustancias y desechos, a fin de presentar al Consejo de Derechos Humanos, en función de su programa de trabajo, un informe anual sobre la aplicación de las resoluciones que este haya aprobado, así como recomendaciones y propuestas concretas sobre las medidas que deberían adoptarse de inmediato para hacer frente a las implicaciones negativas para los derechos humanos de las sustancias y los desechos peligrosos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a todos los Estados, los organismos de las Naciones Unidas y otras organizaciones internacionales pertinentes, los actores de la sociedad civil, incluidas las organizaciones no gubernamentales, así como a los sectores público y privado y todos los demás interesados, a que participen en un proceso de consultas, diálogo y cooperación con el Relator Especial para que este pueda impartir orientación de conformidad con su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>al Relator Especial a que, en el marco de su mandato y con el apoyo y la ayuda de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, siga dando a los gobiernos, según corresponda, la posibilidad de responder a las denuncias que se le comuniquen y que mencione en su informe, y a que recoja sus observaciones en el informe que presente al Consejo de Derechos Humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Reitera </span>su llamamiento a los Estados y las demás partes interesadas para que faciliten la labor del Relator Especial brindándole información e invitándolo a que visite sus países;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Relator Especial que informe a los Estados, a los organismos de las Naciones Unidas y a otras organizaciones internacionales pertinentes, a la sociedad civil y a los demás interesados sobre las implicaciones para los derechos humanos de la gestión y eliminación ambientalmente racionales de las sustancias y los desechos peligrosos, también en el ámbito de la implementación de la Agenda 2030 para el Desarrollo Sostenible, que recabe opiniones y aportaciones de los Gobiernos, los organismos de las Naciones Unidas y otras organizaciones internacionales pertinentes, la sociedad civil y los demás interesados de conformidad con el mandato del Relator Especial, examine las iniciativas nacionales, regionales e internacionales relativas a los Objetivos de Desarrollo Sostenible y realice investigaciones temáticas sobre la implementación efectiva de la Agenda 2030;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Relator Especial que proporcione, previa petición, asistencia técnica y asesoramiento a los Estados y a otros actores sobre la aplicación de las recomendaciones del Relator Especial, así como sobre el marco jurídico y normativo relativo al cumplimiento del derecho internacional de los derechos humanos y el derecho internacional del medio ambiente;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Relator Especial que, en el cumplimiento de su mandato, incorpore una perspectiva de género y de edad prestando especial atención a los derechos humanos y las libertades fundamentales de las mujeres y las niñas e incorporando los derechos humanos de los niños y otras personas en situaciones vulnerables;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Reitera </span>su llamamiento al Secretario General y al Alto Comisionado de las Naciones Unidas para los Derechos Humanos a fin de que sigan proporcionando al Relator Especial toda la asistencia que necesite para desempeñar su mandato con eficacia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>seguir examinando esta cuestión en relación con el mismo tema de la agenda de conformidad con su programa de trabajo.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46ª" refersTo="#adoptionMeeting">46ª sesión</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 de octubre de 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

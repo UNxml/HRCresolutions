@@ -1,0 +1,346 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-8/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-8/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-8/spa@/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-8/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-8/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Promotion of Truth, Justice, Reparation and Guarantees of Non-Recurrence" showAs="UN. Human Rights Council. Special Rapporteur on the Promotion of Truth, Justice, Reparation and Guarantees of Non-Recurrence" dictionary="DHLAUTH"></keyword>
+        <keyword value="RIGHT TO THE TRUTH" href="http://metadata.un.org/thesaurus/1005569" showAs="RIGHT TO THE TRUTH" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSITIONAL JUSTICE" href="http://metadata.un.org/thesaurus/1006637" showAs="TRANSITIONAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPARATION" href="http://metadata.un.org/thesaurus/1005482" showAs="REPARATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-04" outcome="draftResolution" as="A/HRC/54/L.10" by="Albania, Andorra, Argentina, Armenia, Australia, Austria, Belgium, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Denmark, Ecuador, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Mexico, Montenegro, Morocco, Netherlands (Kingdom of the), North Macedonia, Norway, Paraguay, Peru, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom of Great Britain and Northern Ireland and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-12" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-12" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-12" class="rightSmall" refersTo="#dateOfIssuance">12 de octubre de 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">54º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 septiembre</date>
+          <date date="2023-10-13" refersTo="#endDate">13 octubre 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Tema 3 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promoción y protección de todos los derechos humanos,  civiles, políticos, económicos, sociales y culturales,  incluido el derecho al desarrollo</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos el 11 de octubre de 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/8.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Relatoría Especial sobre la promoción de la verdad,  la justicia, la reparación y las garantías de no  repetición</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Guiado" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Guiado</span> por los propósitos y principios de la Carta de las Naciones Unidas,</p>
+      </container>
+      <container name="Reafirmando" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando</span> la Declaración Universal de Derechos Humanos, el Pacto Internacional de Derechos Económicos, Sociales y Culturales, el Pacto Internacional de Derechos Civiles y Políticos, la Declaración y el Programa de Acción de Viena, los Convenios de Ginebra de 12 de agosto de 1949 y sus Protocolos Adicionales de 8 de junio de 1977, y otros instrumentos pertinentes de derecho internacional de los derechos humanos y de derecho internacional humanitario,</p>
+      </container>
+      <container name="Reafirmando también" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando también</span> la importancia de la Convención para la Prevención y la Sanción del Delito de Genocidio y recordando a este respecto la Convención sobre la Imprescriptibilidad de los Crímenes de Guerra y de los Crímenes de Lesa Humanidad como instrumentos internacionales eficaces para la prevención y la sanción del genocidio, los crímenes de guerra y los crímenes de lesa humanidad,</p>
+      </container>
+      <container name="Recordando" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> la Convención Internacional para la Protección de Todas las Personas contra las Desapariciones Forzadas, aprobada por la Asamblea General en su resolución 61/177, de 20 de diciembre de 2006, en cuyo artículo 24, párrafo 2, se reconoce el derecho de toda víctima a conocer la verdad sobre las circunstancias de la desaparición forzada, la marcha y los resultados de las investigaciones y la suerte de la persona desaparecida, y se establecen las obligaciones del Estado parte, que deberá tomar las medidas adecuadas a ese respecto, y en cuyo preámbulo se reafirma el derecho a la libertad de buscar, recibir y difundir informaciones a este fin,</p>
+      </container>
+      <container name="Recordando también" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando también</span> el conjunto de principios para la protección y la promoción de los derechos humanos mediante la lucha contra la impunidad<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	E/CN.4/Sub.2/1997/20/Rev.1, anexo II.</p></authorialNote>, así como la versión actualizada de esos principios<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	E/CN.4/2005/102/Add.1.</p></authorialNote>,</p>
+      </container>
+      <container name="Recordando además" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando además</span> la resolución 60/147 de la Asamblea General, de 16 de diciembre de 2005, en la que la Asamblea aprobó los Principios y Directrices Básicos sobre el Derecho de las Víctimas de Violaciones Manifiestas de las Normas Internacionales de Derechos Humanos y de Violaciones Graves del Derecho Internacional Humanitario a Interponer Recursos y Obtener Reparaciones,</p>
+      </container>
+      <container name="Recordando" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> las resoluciones de la Comisión de Derechos Humanos 2005/70, de 20 de abril de 2005, sobre los derechos humanos y la justicia de transición, 2005/81, de 21 de abril de 2005, sobre la impunidad, y 2005/66, de 20 de abril de 2005, sobre el derecho a la verdad, las resoluciones del Consejo de Derechos Humanos 9/10, de 24 de septiembre de 2008, 12/11, de 1 de octubre de 2009, 21/15, de 27 de septiembre de 2012, 33/19, de 30 de septiembre de 2016, 42/17, de 26 de septiembre de 2019, y 51/23, de 7 de octubre de 2022, sobre los derechos humanos y la justicia de transición, 9/11, de 18 de septiembre de 2008, 12/12, de 1 de octubre de 2009, y 21/7, de 27 de septiembre de 2012, sobre el derecho a la verdad, y 10/26, de 27 de marzo de 2009, y 15/5, de 29 de septiembre de 2010, sobre la genética forense y los derechos humanos, las decisiones del Consejo 2/105, de 27 de noviembre de 2006, sobre el derecho a la verdad, y 4/102, de 23 de marzo de 2007, sobre la justicia de transición, y la resolución 68/165 de la Asamblea General, de 18 de diciembre de 2013, sobre el derecho a la verdad,</p>
+      </container>
+      <container name="Reafirmando" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando</span> la resolución 18/7 del Consejo de Derechos Humanos, de 29 de septiembre de 2011, en la cual el Consejo decidió establecer el mandato de la Relatoría Especial sobre la promoción de la verdad, la justicia, la reparación y las garantías de no repetición,</p>
+      </container>
+      <container name="Recordando" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> el informe del Secretario General sobre el estado de derecho y la justicia de transición en las sociedades que sufren o han sufrido conflictos<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 		S/2004/616.</p></authorialNote> y su informe de seguimiento de 2011 sobre el mismo tema<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	S/2011/634.</p></authorialNote>, incluidas las recomendaciones pertinentes que en ellos figuran, así como sus informes publicados en 2006, 2012, 2013 y 2014<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	A/61/636-S/2006/980 y Corr.1, A/66/749, S/2013/341, A/68/213/Add.1 y A/69/181.</p></authorialNote>, en los que presenta un programa de acción para aumentar la eficacia del apoyo prestado por el sistema de las Naciones Unidas a la promoción del estado de derecho en situaciones de conflicto y posteriores a conflictos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> que la lucha contra la impunidad y la puesta en marcha de procesos de justicia de transición, lo que incluye la promoción de la verdad, la justicia, la reparación y las garantías de no repetición, pueden impedir la repetición de violaciones manifiestas de los derechos humanos y de vulneraciones graves del derecho internacional humanitario,</p>
+      </container>
+      <container name="Recordando" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> la resolución 70/262 de la Asamblea General, de 27 de abril de 2016, sobre el examen de la estructura de las Naciones Unidas para la consolidación de la paz, y la resolución 2282 (2016) del Consejo de Seguridad, de 27 de abril de 2016, en las que la Asamblea y el Consejo, entre otras cosas, destacaron que un enfoque amplio de la justicia de transición, que incluyese la promoción de la recuperación y la reconciliación, un sector de la seguridad que fuera profesional, rindiese cuentas y fuera eficaz, incluso mediante su reforma, y programas incluyentes y eficaces de desmovilización, desarme y reintegración que abarcasen la transición de la desmovilización y el desarme a la reintegración, eran esenciales para consolidar la paz y la estabilidad, promover la reducción de la pobreza, el estado de derecho, el acceso a la justicia y la buena gobernanza, ampliar la autoridad legítima del Estado y evitar la caída o recaída de los países en un conflicto,</p>
+      </container>
+      <container name="Observando con aprecio" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Observando con aprecio</span> la activa labor realizada por las Naciones Unidas, incluida la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, al prestar asistencia a los Estados para dar respuesta a las violaciones manifiestas de los derechos humanos y las vulneraciones graves del derecho internacional humanitario, en cooperación con los Estados y a solicitud de estos,</p>
+      </container>
+      <container name="Recordando" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> sus resoluciones 5/1, sobre la construcción institucional del Consejo de Derechos Humanos, y 5/2, sobre el Código de Conducta para los Titulares de Mandatos de los Procedimientos Especiales del Consejo de Derechos Humanos, ambas de 18 de junio de 2007, y destacando que el titular del mandato desempeñará sus funciones de conformidad con estas resoluciones y sus anexos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> que la Relatoría Especial sobre la promoción de la verdad, la justicia, la reparación y las garantías de no repetición seguirá ocupándose de situaciones en las que haya habido violaciones manifiestas de los derechos humanos y vulneraciones graves del derecho internacional humanitario,</p>
+      </container>
+      <container name="Subrayando" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Subrayando</span> que, al elaborar y aplicar estrategias, políticas y medidas para hacer frente a violaciones manifiestas de los derechos humanos y vulneraciones graves del derecho internacional humanitario, se debe tener en cuenta el contexto específico de cada situación a fin de evitar nuevas crisis y futuras conculcaciones de los derechos humanos, asegurar la cohesión social, la construcción nacional, la implicación en el proceso y la inclusión de todos a nivel nacional y local, y promover la reconciliación,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Poniendo de relieve</span> la importancia de un enfoque global que abarque toda la gama de medidas judiciales y no judiciales, como el enjuiciamiento de los autores de delitos, las reparaciones, la búsqueda de la verdad, la reforma institucional, la investigación de los antecedentes de los empleados o funcionarios públicos, las iniciativas de preservación de la memoria y los procesos para lograr planteamientos comunes, o una combinación apropiada de esas medidas, a fin de, entre otras cosas, garantizar la rendición de cuentas, hacer justicia, ofrecer reparación a las víctimas, fomentar la recuperación de la normalidad y la reconciliación, establecer entidades nacionales independientes que supervisen el sector de la seguridad, restablecer la confianza en las instituciones del Estado y promover el estado de derecho de conformidad con el derecho internacional de los derechos humanos, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota con aprecio</span> de los informes que presentó la Relatoría Especial sobre la promoción de la verdad, la justicia, la reparación y las garantías de no repetición al Consejo de Derechos Humanos en sus períodos de sesiones 48º, 51º y 54º<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		A/HRC/48/60, A/HRC/51/34 y A/HRC/54/24.</p></authorialNote>, así como de los presentados a la Asamblea General en sus períodos de sesiones septuagésimo quinto, septuagésimo sexto y septuagésimo séptimo<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	Véase A/75/174, A/76/180 y A/77/162.</p></authorialNote>, y exhorta a los Estados a que tengan debidamente en cuenta las recomendaciones que en ellos figuran al elaborar y aplicar estrategias, políticas y medidas para hacer frente a las violaciones manifiestas de los derechos humanos y las vulneraciones graves del derecho internacional humanitario en su contexto nacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la labor realizada por la Relatoría Especial en el desempeño de su mandato, las consultas amplias, transparentes e incluyentes celebradas con los actores pertinentes de todas las regiones para sus informes temáticos y la realización de visitas a los países;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito también</span> la cooperación brindada por los Estados que han recibido a la Relatoría Especial en su país, los que han aceptado las solicitudes de visita de esta y los que le han cursado invitaciones para que visite su país, así como los que han respondido a sus solicitudes de información; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>4.</num>
+        <list eId="para_24_list">
+          <intro eId="para_24_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decide</span> prorrogar por un período de tres años el mandato de la Relatoría Especial sobre la promoción de la verdad, la justicia, la reparación y las garantías de no repetición, que tendrá, entre otras, las funciones siguientes:</p>
+          </intro>
+          <point eId="para_24_list_point_a">
+            <num>a)</num>
+            <content eId="para_24_list_point_a_content">
+              <p xml:space="preserve">	Contribuir, cuando se le solicite, a la prestación de asistencia técnica o de servicios de asesoramiento sobre las cuestiones inherentes al mandato y, si procede, facilitarla;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_b">
+            <num>b)</num>
+            <content eId="para_24_list_point_b_content">
+              <p xml:space="preserve">	Reunir la información pertinente sobre las situaciones nacionales, incluidos los marcos normativos, las prácticas y las experiencias nacionales, tales como las comisiones de verdad y reconciliación y otros mecanismos, en relación con la promoción de la verdad, la justicia, la reparación y las garantías de no repetición para hacer frente a las violaciones manifiestas de los derechos humanos y a las vulneraciones graves del derecho internacional humanitario, estudiar las tendencias, las novedades y los problemas, y formular recomendaciones al respecto;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_c">
+            <num>c)</num>
+            <content eId="para_24_list_point_c_content">
+              <p xml:space="preserve">	Determinar, intercambiar y promover las buenas prácticas y las enseñanzas extraídas, e identificar posibles elementos adicionales con miras a recomendar modos y medios de mejorar y reforzar la promoción de la verdad, la justicia, la reparación y las garantías de no repetición;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_d">
+            <num>d)</num>
+            <content eId="para_24_list_point_d_content">
+              <p xml:space="preserve">	Entablar un diálogo continuado y cooperar, entre otras entidades, con los Gobiernos, las organizaciones internacionales y regionales, las instituciones nacionales de derechos humanos y las organizaciones no gubernamentales, así como con los órganos y mecanismos competentes de las Naciones Unidas;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_e">
+            <num>e)</num>
+            <content eId="para_24_list_point_e_content">
+              <p xml:space="preserve">	Formular recomendaciones sobre medidas judiciales y no judiciales, entre otras cosas, al elaborar y aplicar estrategias, políticas y medidas para hacer frente a las violaciones manifiestas de los derechos humanos y a las vulneraciones graves del derecho internacional humanitario;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_f">
+            <num>f)</num>
+            <content eId="para_24_list_point_f_content">
+              <p xml:space="preserve">	Continuar analizando la contribución de la justicia de transición a la prevención de las violaciones manifiestas de los derechos humanos y las vulneraciones graves del derecho internacional humanitario, como el genocidio, los crímenes de guerra, la depuración étnica y los crímenes de lesa humanidad, y su repetición;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_g">
+            <num>g)</num>
+            <content eId="para_24_list_point_g_content">
+              <p xml:space="preserve">	Hacer visitas a los países y responder con prontitud a las invitaciones de los Estados;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_h">
+            <num>h)</num>
+            <content eId="para_24_list_point_h_content">
+              <p xml:space="preserve">	Participar y hacer contribuciones en las conferencias y eventos internacionales pertinentes, con el fin de promover un enfoque sistemático y coherente de las cuestiones inherentes al mandato;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_i">
+            <num>i)</num>
+            <content eId="para_24_list_point_i_content">
+              <p xml:space="preserve">	Concienciar sobre el valor de un enfoque sistemático y coherente para hacer frente a las violaciones manifiestas de los derechos humanos y las vulneraciones graves del derecho internacional humanitario, y formular recomendaciones al respecto;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_j">
+            <num>j)</num>
+            <content eId="para_24_list_point_j_content">
+              <p xml:space="preserve">	Integrar una perspectiva de género en toda la labor del mandato;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_k">
+            <num>k)</num>
+            <content eId="para_24_list_point_k_content">
+              <p xml:space="preserve">	Integrar un enfoque centrado en las víctimas en toda la labor del mandato;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_l">
+            <num>l)</num>
+            <content eId="para_24_list_point_l_content">
+              <p xml:space="preserve">	Trabajar en estrecha coordinación, evitando las duplicaciones innecesarias, con la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, otras entidades competentes de la Secretaría de las Naciones Unidas, los organismos, fondos y programas pertinentes de las Naciones Unidas, las organizaciones intergubernamentales y no gubernamentales, otros procedimientos especiales del Consejo de Derechos Humanos y otros actores pertinentes;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a todos los Estados a que cooperen con la Relatoría Especial y le presten asistencia para que pueda cumplir eficazmente su mandato, entre otras formas respondiendo rápida y favorablemente a sus solicitudes de visita, teniendo presente que las visitas a los países son uno de los instrumentos fundamentales que facilitan a la Relatoría Especial el desempeño de su mandato, y a que le proporcionen oportunamente toda la información necesaria que solicite;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a la Relatoría Especial que siga presentando un informe anual al Consejo de Derechos Humanos y a la Asamblea General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General y al Alto Comisionado de las Naciones Unidas para los Derechos Humanos que presten a la Relatoría Especial toda la asistencia humana, técnica y financiera necesaria para el desempeño eficaz de su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> seguir examinando la cuestión en relación con el mismo tema de la agenda y de conformidad con su programa de trabajo.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46ª" refersTo="#adoptionMeeting">46ª sesión</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 de octubre de 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
