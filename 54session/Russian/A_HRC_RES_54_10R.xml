@@ -1,0 +1,299 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/rus@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Implications for Human Rights of the Environmentally Sound Management and Disposal of Hazardous Substances and Wastes" showAs="UN. Human Rights Council. Special Rapporteur on the Implications for Human Rights of the Environmentally Sound Management and Disposal of Hazardous Substances and Wastes" dictionary="DHLAUTH"></keyword>
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TOXIC WASTE MANAGEMENT" href="http://metadata.un.org/thesaurus/1006571" showAs="TOXIC WASTE MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTALLY HAZARDOUS SUBSTANCES" href="http://metadata.un.org/thesaurus/1002091" showAs="ENVIRONMENTALLY HAZARDOUS SUBSTANCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-09" outcome="draftResolution" as="A/HRC/54/L.13" by="Chile, Colombia, Costa Rica, Côte d’Ivoire, Ecuador, Peru and Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian"> Russian </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">Пятьдесят четвертая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 сентября</date>
+          <date date="2023-10-13" refersTo="#endDate">13 октября 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека,  гражданских, политических, экономических,  социальных и культурных прав,  включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека  11 октября 2023 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Мандат Специального докладчика по вопросу о последствиях  для прав человека экологически обоснованного регулирования  и удаления опасных веществ и отходов</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека,</span>
+        </p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">руководствуясь </span>Уставом Организации Объединенных Наций, Всеобщей декларацией прав человека, Международным пактом об экономических, социальных и культурных правах, Международным пактом о гражданских и политических правах и другими соответствующими международными договорами по правам человека, Венской декларацией и Программой действий и Декларацией о праве на развитие,</p>
+      </container>
+      <container name="учитывая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">учитывая </span>пункт 6 резолюции 60/251 Генеральной Ассамблеи от 15 марта 2006 года,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на резолюцию 5/1 об институциональном строительстве Совета по правам человека и резолюцию 5/2 о Кодексе поведения мандатариев специальных процедур Совета по правам человека от 18 июня 2007 года и подчеркивая, что мандатарий должен исполнять свои обязанности в соответствии с этими резолюциями и приложениями к ним,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также </span>на свои резолюции 9/1 от 24 сентября 2008 года,  18/11 от 29 сентября 2011 года, 21/17 от 27 сентября 2012 года, 27/23 от 26 сентября 2014 года и 36/15 от 28 сентября 2017 года и все резолюции Комиссии по правам человека по данному вопросу,</p>
+      </container>
+      <container name="учитывая" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">учитывая </span>Декларацию о праве и обязанности отдельных лиц, групп и органов общества поощрять и защищать общепризнанные права человека и основные свободы, принятую Генеральной Ассамблеей в ее резолюции 53/144 от 9 декабря 1998 года,</p>
+      </container>
+      <container name="ссылаясь" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюцию 70/1 Генеральной Ассамблеи от 25 сентября 2015 года, в которой Ассамблея приняла Повестку дня в области устойчивого развития на период до 2030 года, включая задачу 12.4 Целей в области устойчивого развития, касающуюся обеспечения экологически рационального использования химических веществ и отходов на протяжении всего их жизненного цикла в соответствии с согласованными международными принципами, а также задачи 3.9 и 6.3 Целей в области устойчивого развития, и подтверждая взаимосвязь и комплексный характер всех Целей,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на принятие резолюции 48/13 Совета по правам человека от 8 октября 2021 года и резолюции 76/300 Генеральной Ассамблеи от 28 июля 2022 года, в которых они признали право человека на чистую, здоровую и устойчивую окружающую среду,</p>
+      </container>
+      <container name="выражая озабоченность" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">выражая озабоченность</span> в связи с основным выводом Организации Объединенных Наций по окружающей среде, содержащимся в резюме для директивных органов доклада «Глобальная перспектива в области химических веществ — II», о том, что глобальная цель по минимизации негативного воздействия химических веществ и отходов не будет достигнута к 2020 году,</p>
+      </container>
+      <container name="ссылаясь" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюцию 42/21 Совета по правам человека от 26 сентября 2019 года о защите прав работников, подвергающихся воздействию опасных веществ и отходов, в которой он рекомендовал государствам, коммерческим предприятиям и другим субъектам соблюдать 15 принципов, касающихся прав человека и защиты работников от воздействия токсичных веществ, с учетом своей нормативно-правовой базы, с целью оказания им помощи в деле защиты трудящихся от небезопасного токсичного воздействия опасных веществ и с целью предоставления средств правовой защиты в связи с нарушениями и ущемлениями прав трудящихся,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span>, что способ регулирования опасных веществ и отходов на протяжении всего их жизненного цикла, включая производство, распределение, использование и окончательное удаление, может негативно сказываться на полноценной реализации прав человека,</p>
+      </container>
+      <container name="приветствуя" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">приветствуя</span> работу, проведенную в соответствии с его мандатом Специальным докладчиком по вопросу о последствиях для прав человека экологически обоснованного регулирования и удаления опасных веществ и отходов, и принимая к сведению его доклады о пластмассах и правах человека<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		A/76/207.</p></authorialNote>; коренных народах и токсичных веществах<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/77/183.</p></authorialNote>; ртути, мелкомасштабной золотодобыче и правах человека<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		A/HRC/51/35.</p></authorialNote>; детоксикации и декарбонизации и необходимости комплексных решений<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/HRC/54/25.</p></authorialNote>; судоходстве, токсичных веществах и правах человека<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		A/HRC/54/25/Add.2.</p></authorialNote>; вопросах прав человека, касающихся всех транснациональных и других предприятий в отношении экологически обоснованного регулирования и удаления опасных веществ и отходов; и праве человека на безопасную, чистую, здоровую и устойчивую окружающую среду; и праве человека на безопасную, чистую, здоровую и устойчивую окружающую среду<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		A/HRC/49/53.</p></authorialNote>,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxtG">
+        <num>1.</num>
+        <list eId="para_13_list">
+          <intro eId="para_13_list_intro">
+            <p xml:space="preserve">	<span class="italic">принимает к сведению</span> доклад, представленный Специальным докладчиком по вопросу о последствиях для прав человека экологически обоснованного регулирования и удаления опасных веществ и отходов Совету по правам человека на его нынешней сессии<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		A/HRC/54/25.</p></authorialNote>, и просит Специального докладчика в соответствии с его мандатом продолжать представлять подробную обновленную информацию о неблагоприятных последствиях для полного осуществления прав человека незаконного регулирования и удаления опасных веществ и отходов, которая может включать информацию о:</p>
+          </intro>
+          <point eId="para_13_list_point_a">
+            <num>a)</num>
+            <content eId="para_13_list_point_a_content">
+              <p xml:space="preserve">	неблагоприятных последствиях для лиц, находящихся в уязвимом положении;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_b">
+            <num>b)</num>
+            <content eId="para_13_list_point_b_content">
+              <p xml:space="preserve">	увязке науки с политикой в плане обеспечения прозрачности в отношении рисков, связанных с жизненным циклом опасных веществ и отходов, включая угрозы для права на свободу выражения мнений, которое включает свободу искать, получать и распространять информацию, а также право пользоваться благами научного прогресса;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_c">
+            <num>c)</num>
+            <content eId="para_13_list_point_c_content">
+              <p xml:space="preserve">	изменениях, пробелах и недостатках в эффективности международных механизмов регулирования опасных веществ и отходов и их влиянии на осуществление прав человека, в том числе в отношении новых вопросов регулирования химических веществ и утилизации и удаления отходов;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_d">
+            <num>d)</num>
+            <content eId="para_13_list_point_d_content">
+              <p xml:space="preserve">	вопросах прав человека, касающиеся всех коммерческих предприятий, как транснациональных, так и других, в отношении экологически обоснованного регулирования и удаления опасных веществ и отходов;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продлить сроком на три года мандат Специального докладчика по вопросу о последствиях для прав человека экологически обоснованного регулирования и удаления опасных веществ и отходов и предлагает данному мандатарию представлять доклады Совету по правам человека в соответствии с его программой работы и ежегодно Генеральной Ассамблее;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> Специального докладчика продолжать тесное сотрудничество с Программой Организации Объединенных Наций по окружающей среде, Ассамблеей Организации Объединенных Наций по окружающей среде, соответствующими специализированными учреждениями системы Организации Объединенных Наций, такими как Всемирная организация здравоохранения и Международная организация труда, и секретариатами международных природоохранных конвенций с целью учета прав человека в их работе и избежания дублирования;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">поручает</span> Специальному докладчику принимать участие в соответствующих форумах Организации Объединенных Наций и других международных форумах по вопросам, относящимся к его мандату, в соответствующих случаях, в том числе в сессиях Ассамблеи Организации Объединенных Наций по окружающей среде, Конференциях Сторон Базельской, Роттердамской и Стокгольмской конвенций, Конференции Сторон Минаматской конвенции по ртути, а также в сессиях Межправительственного комитета по ведению переговоров для разработки имеющего обязательную юридическую силу международного договора о борьбе с загрязнением пластмассами, в том числе в морской среде, и в дипломатической конференции, которая может его принять, с целью учета прав человека в этих обсуждениях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает </span>Специального докладчика продолжить консультации с компетентными учреждениями и органами Организации Объединенных Наций и секретариатами соответствующих международных конвенций в рамках междисциплинарного, углубленного подхода к решению существующих проблем с целью нахождения долгосрочных решений в области регулирования таких веществ и отходов, с тем чтобы он мог представлять Совету по правам человека, в соответствии с его программой работы, ежегодный доклад о выполнении принятых им резолюций, а также конкретные рекомендации и предложения относительно шагов, которые следует предпринять незамедлительно для устранения негативного воздействия опасных веществ и отходов на права человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> все государства, учреждения Организации Объединенных Наций и другие соответствующие международные организации, субъектов гражданского общества, включая неправительственные организации, а также государственный и частный секторы и все другие заинтересованные стороны принять участие в процессе консультаций, диалога и сотрудничества со Специальным докладчиком, чтобы он мог предоставлять рекомендации в соответствии со своим мандатом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> Специального докладчика в соответствии с его мандатом и при поддержке и содействии со стороны Управления Верховного комиссара Организации Объединенных Наций по правам человека и впредь предоставлять правительствам соответствующие возможности отвечать на утверждения, препровожденные ему и упоминаемые в его докладе, и отражать их замечания в своем докладе Совету по правам человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">вновь призывает</span> Стороны и других заинтересованных субъектов оказывать содействие Специальному докладчику в его работе, предоставляя ему информацию и направляя ему приглашения к посещению стран;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">поручает </span>Специальному докладчику информировать государства, учреждения Организации Объединенных Наций и другие соответствующие международные организации, гражданское общество и другие заинтересованные стороны о воздействии на права человека экологически обоснованного регулирования и удаления опасных веществ и отходов, в том числе в рамках реализации Повестки дня в области устойчивого развития на период до 2030 года, запрашивать мнения и материалы у правительств, учреждений Организации Объединенных Наций, других соответствующих международных организаций и неправительственных организаций в соответствии со своим мандатом, изучать национальные, региональные и международные усилия по достижению Целей в области устойчивого развития и проводить тематические исследования по вопросам эффективного осуществления Повестки дня на период до 2030 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">поручает</span> Специальному докладчику предоставлять, по запросу, техническую помощь и консультации государствам и другим субъектам по вопросам выполнения рекомендаций Специального докладчика, а также по вопросам правовой и директивной основы для соблюдения международного права прав человека и международного экологического права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">поручает</span> Специальному докладчику при выполнении своего мандата учитывать гендерные и возрастные аспекты, уделяя особое внимание правам человека и основным свободам женщин и девочек, а также учитывать права человека детей и других лиц, находящихся в уязвимом положении;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">вновь призывает</span> Генерального секретаря и Верховного комиссара Организации Объединенных Наций по правам человека оказывать Специальному докладчику всяческое содействие, необходимое для эффективного выполнения его мандата; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продолжить рассмотрение этого вопроса в рамках этого же пункта повестки дня в соответствии со своей программой работы.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46-е" refersTo="#adoptionMeeting">46‑е заседание</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 октября 2023 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

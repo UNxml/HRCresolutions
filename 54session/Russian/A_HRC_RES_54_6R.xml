@@ -1,0 +1,294 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/rus@/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-6/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="CAREGIVERS" href="http://metadata.un.org/thesaurus/1000830" showAs="CAREGIVERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CARE ECONOMY" showAs="CARE ECONOMY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN'S RIGHTS" href="http://metadata.un.org/thesaurus/1007035" showAs="WOMEN'S RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GENDER EQUALITY" href="http://metadata.un.org/thesaurus/1002612" showAs="GENDER EQUALITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-10" outcome="draftResolution" as="A/HRC/54/L.6/Rev.1" by="Albania, Argentina, Australia, Belgium, Canada, Chile, Colombia, Costa Rica, Cyprus, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Iceland, Ireland, Italy, Luxembourg, Malta, Mexico, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Paraguay, Peru, Portugal, San Marino, Slovenia, Spain, Sweden, United Kingdom of Great Britain and Northern Ireland and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-12" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-12" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-12" class="rightSmall" refersTo="#dateOfIssuance">12 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian"> Russian </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">Пятьдесят четвертая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 сентября</date>
+          <date date="2023-10-13" refersTo="#endDate">13 октября 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека, гражданских, политических, экономических, социальных и культурных прав, включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 11 октября 2023 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Центральная роль ухода и поддержки с точки зрения прав человека</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">руководствуясь</span> целями и принципами Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span>, что все государства обязаны уважать, защищать и осуществлять все права человека и основные свободы, и вновь подтверждая также Всеобщую декларацию прав человека, Международный пакт о гражданских и политических правах, Международный пакт об экономических, социальных и культурных правах, Конвенцию о ликвидации всех форм дискриминации в отношении женщин, Конвенцию о правах ребенка, Конвенцию о правах инвалидов и Международную конвенцию о ликвидации всех форм расовой дискриминации,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на то, что гендерное равноправие признано в Венской декларации и Программе действий, Программе действий Международной конференции по народонаселению и развитию, Пекинской декларации и Платформе действий и итоговых документах конференций по их обзору, а также в Повестке дня в области устойчивого развития на период до 2030 года,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на все соответствующие резолюции Совета по правам человека, Комиссии по правам человека и Генеральной Ассамблеи и соответствующие резолюции и согласованные выводы Комиссии по положению женщин и ссылаясь далее на недавнее провозглашение Генеральной Ассамблеей Международного дня ухода и поддержки<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Резолюция 77/317.</p></authorialNote>, а также на соответствующие конвенции и рекомендации, принятые Международной организацией труда по вопросу о дискриминации в отношении женщин,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">ссылаясь далее</span> на то, что все права человека являются универсальными, неделимыми, взаимозависимыми и взаимосвязанными, что гендерное равноправие должно поощряться всеобъемлющим и систематическим образом и что сохраняющаяся дискриминация в отношении всех женщин и девочек в семье, экономике и обществе оказывает пагубное воздействие на равное пользование их правами человека во всех аспектах жизни,</p>
+      </container>
+      <container name="ссылаясь" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на то, что во Всеобщей декларации прав человека заявлено, что младенчество дает право на особое попечение и помощь, и что в Конвенции о правах ребенка предусматривается, что государства-участники предпринимают все возможные усилия к тому, чтобы обеспечить признание принципа общей и одинаковой ответственности обоих родителей за воспитание и развитие ребенка, и оказывают родителям и законным опекунам надлежащую помощь в выполнении ими своих обязанностей по воспитанию детей и обеспечивают развитие учреждений, объектов и служб по уходу за детьми и оказанию поддержки их семьям, и учитывая, что государства должны содействовать осознанию родителями и лицами, осуществляющими уход, необходимости уважать права человека детей, а также право всех детей жить в своих семьях и своих общинах,</p>
+      </container>
+      <container name="признавая," eId="container_8">
+        <p xml:space="preserve">	<span class="italic">признавая,</span> что пожилые люди сталкиваются с рядом особых препятствий на пути к осуществлению ими прав человека, включая отсутствие доступа к качественной медицинской помощи, долгосрочному уходу и поддержке, паллиативной помощи, специальным возможностям и неоплачиваемым услугам по уходу, и особо отмечая важность усилий по содействию созданию инклюзивных, учитывающих возрастной фактор общин и среды, а также по оказанию ряда вспомогательных услуг, способствующих уважению достоинства, самостоятельности и независимости пожилых людей, чтобы они могли оставаться в своих домах по мере своего старения и с учетом их индивидуальных предпочтений,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание</span> тот факт, что системы поддержки и ухода, включающие в себя политику и услуги, учитывающие фактор инвалидности, необходимы для того, чтобы лица с инвалидностью могли полноценно и эффективно участвовать в жизни общества, при равных с другими людьми вариантах выбора, жить с достоинством, самостоятельно и независимо, а также жить независимо в общине, как это признано в Конвенции о правах инвалидов,</p>
+      </container>
+      <container name="будучи глубоко обеспокоен" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">будучи глубоко обеспокоен</span> тем, что в силу гендерных стереотипов и негативных социальных норм работа по уходу, как оплачиваемая, так и неоплачиваемая, выполняется либо исключительно, либо преимущественно женщинами и девочками, что, соответственно, усугубляет существующее структурное неравенство,</p>
+      </container>
+      <container name="признавая," eId="container_11">
+        <p xml:space="preserve">	<span class="italic">признавая,</span> что равное и справедливое распределение обязанностей по уходу является необходимым условием для обеспечения того, чтобы женщины в полной мере и на равной основе пользовались экономическими, социальными и культурными правами, в частности правом на образование, правом на труд, на справедливые и достойные условия труда, правом на свободу ассоциации, правом на организацию и на ведение коллективных переговоров, правом на достаточный уровень жизни, наивысший достижимый уровень физического и психического здоровья, правом на участие в культурной жизни, а также гражданскими и политическими правами, такими как право на участие в политической и общественной жизни,</p>
+      </container>
+      <container name="признавая также" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">признавая также</span>, что различными международными договорами по правам человека, включая Международный пакт об экономических, социальных и культурных правах, Конвенцию о ликвидации всех форм дискриминации в отношении женщин, Международный пакт о гражданских и политических правах, Конвенцию о правах ребенка и Конвенцию о правах инвалидов, а также различными международными трудовыми стандартами и обязательствами, закрепляются имеющие юридическую силу обязательства, которыми должны руководствоваться государства при решении проблемы неоплачиваемого труда по уходу,</p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">выражая обеспокоенность</span> тем, что трудности, сопряженные с неоплачиваемым трудом по уходу, его интенсивностью и обусловленным гендерным фактором распределением связанных с ним обязанностей, порождают и увековечивают неравенство в осуществлении прав человека, способствуют увековечению феминизации бедности и мешают обеспечению гендерного равноправия, что препятствует полному осуществлению прав человека, создают препятствие на пути к обеспечению полного, равного и значимого доступа женщин к рынку труда, а также экономическим возможностям, возможностям проявлять свою самостоятельность и заниматься предпринимательской деятельностью, сковывают способность женщин участвовать в процессах принятия решений и занимать руководящие должности, а также существенным образом ограничивают возможности женщин и девочек в сфере образования и профессиональной подготовки и их доступ к медицинским услугам, в том числе к услугам по охране сексуального и репродуктивного здоровья, в частности, среди прочих, женщин и девочек, находящихся в уязвимом положении, женщин и девочек, живущих в условиях бедности, женщин-мигрантов, сельских женщин, коренных женщин, женщин африканского происхождения, женщин с инвалидностью, пожилых женщин, матерей-одиночек и вдов, женщин, лишенных свободы, и женщин-беженок,</p>
+      </container>
+      <container name="особо отмечая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span>, что Пекинская платформа действий определила в качестве стратегической цели содействие гармонизации трудовых и семейных обязанностей и обязательство признавать и ценить неоплачиваемый труд по уходу и работу по ведению домашнего хозяйства, предоставляя государственные услуги, инфраструктуру и системы социальной защиты и поощряя принцип общей ответственности в ведении хозяйства и в семье, с учетом национальных условий, как это предусмотрено в задаче 5.4 Целей в области устойчивого развития,</p>
+      </container>
+      <container name="подчеркивая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> необходимость принятия мер по обеспечению того, чтобы труд по уходу во всех его формах адекватным образом признавался и ценился, и перераспределению на справедливой и равной основе связанных с ним обязанностей, в том числе путем принятия мер по определению и оценке экономической ценности неоплачиваемого труда по уходу, а также по ограничению определенных форм труда по уходу, наряду с осуществлением усилий по гарантированию доступа к качественным услугам по уходу и поддержке для тех, кто в них нуждается, и обеспечению доступа к основанным на соблюдении прав человека услугам по уходу и поддержке для лиц с инвалидностью, детей, пожилых людей и других лиц, которые в них нуждаются,</p>
+      </container>
+      <container name="подчеркивая также" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">подчеркивая также</span> необходимость принятия основанных на интерсекционном подходе мер по обеспечению того, чтобы оплачиваемый и неоплачиваемый труд по уходу признавался и ценился, а связанные с ним обязанности перераспределялись на равной и справедливой основе, и сокращения доли неоплачиваемого труда по уходу, которым в настоящее время в непропорционально большой степени по‑прежнему занимаются женщины и девочки, путем поощрения равного распределения обязанностей между членами семьи и между семьями, общинами, частным сектором и государствами, путем уделения приоритетного внимания, в частности, устойчивой и доступной инфраструктуре, транспорту, политике социальной защиты, недорогим и качественным социальным услугам, включая товары и услуги по уходу и поддержке, уходу за детьми и трудовым стандартам, обеспечивающим достойный труд и гендерное равноправие для всех работников, включая предоставление отпуска по беременности и родам, отпуска отцу по уходу за ребенком и родительского отпуска, равной оплате за труд равной ценности, безопасным и здоровым условиям труда и свободе от насилия и домогательств в сфере труда, включая гендерное насилие и домогательства, свободе ассоциации и праву на организацию и ведение коллективных переговоров,</p>
+      </container>
+      <container name="будучи глубоко обеспокоен" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">будучи глубоко обеспокоен</span> тем, что кризис, вызванный пандемией коронавирусной инфекции (COVID‑19), обострил ранее существовавшие формы неравенства и системной дискриминации, с которыми сталкиваются женщины и девочки, включая патриархат, расизм, стигматизацию, ксенофобию и социально-экономическое неравенство, и привел к росту числа случаев сексуального и гендерного насилия и домогательств, непропорционально высокой доле женщин и девочек среди тех, кому приходится заниматься неоплачиваемым трудом по уходу и работой по ведению домашнего хозяйства, а также потере ими работы и средств к существованию, особенно среди женщин, занятых в неформальном секторе,</p>
+      </container>
+      <container name="обращая особое внимание" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">обращая особое внимание</span> на необходимость инвестирования в экономику ухода и создания надежных, устойчивых и учитывающих гендерные и возрастные факторы и фактор инвалидности систем ухода и поддержки с полным соблюдением прав человека с целью обеспечения того, чтобы неоплачиваемый труд по уходу, работа по ведению домашнего хозяйства и услуги по поддержке признавались и ценились, их доля сокращалась, а связанные с ними обязанности перераспределялись,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="italic">признает</span> важность уважения, защиты и реализации прав человека лиц, осуществляющих оплачиваемый и неоплачиваемый уход, а также лиц, получающих услуги по уходу и поддержке;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> 	<span class="italic">выражает глубокую обеспокоенность</span> по поводу организации работы по уходу и поддержке и неравномерного распределения связанных с нею обязанностей и влияния этого на права всех женщин и девочек как в обществе, так и в экономике;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> 	<span class="italic">признает, </span>что равное распределение обязанностей по уходу и поддержке и связанное с этим распределение времени являются фундаментальной основой для достижения гендерного равноправия;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>4.</num>
+        <list eId="para_25_list">
+          <intro eId="para_25_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">настоятельно призывает </span>государства:</p>
+          </intro>
+          <point eId="para_25_list_point_a">
+            <num>a)</num>
+            <content eId="para_25_list_point_a_content">
+              <p xml:space="preserve"> 	принимать все меры, необходимые для признания и перераспределения обязанностей по уходу между людьми, а также семьями, общинами, частным сектором и государствами таким образом, чтобы это способствовало гендерному равноправию и осуществлению прав человека всеми людьми;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_b">
+            <num>b)</num>
+            <content eId="para_25_list_point_b_content">
+              <p xml:space="preserve"> 	увеличивать объем инвестиций в усилия по разработке политики и созданию инфраструктуры в области ухода и поддержки, чтобы обеспечивать всеобщий доступ к недорогим и качественным услугам для всех, включая уход за детьми, а также медицинским и вспомогательным услугам для лиц с инвалидностью и пожилых людей, и обеспечивать всеобщий доступ к оплачиваемому отпуску по беременности и родам, отпуску отцу по уходу за ребенком и родительскому отпуску, а также социальную защиту для всех работников, включая как работников, занятых в неформальном секторе, так и работников, занимающихся трудовой деятельностью в нестандартных формах;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_c">
+            <num>c)</num>
+            <content eId="para_25_list_point_c_content">
+              <p xml:space="preserve"> 	поощрять и поддерживать исследования и обследования, направленные на получение данных в разбивке по уровню дохода, полу, возрасту, расе, этнической принадлежности, миграционному статусу, гражданскому состоянию, инвалидности, географическому положению и другим признакам, актуальным для конкретной страны, и статистических данных о доле труда по уходу и раскладе, связанном с использованием времени, трудом по уходу, а также с теми, кто оказывает и получает услуги по уходу, путем проведения регулярных обследований использования времени и создания вспомогательных счетов для оценки вклада такого труда в исчисление национального дохода, количественной оценки неоплачиваемого труда по уходу и его отражения в валовом национальном продукте для целей разработки, финансирования и оценки стратегий в этой области;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_d">
+            <num>d)</num>
+            <content eId="para_25_list_point_d_content">
+              <p xml:space="preserve"> 	принимать все необходимые меры для обеспечения полного, равного, значимого и инклюзивного участия женщин, лиц с инвалидностью и пожилых людей, а также детей в принятии решений, касающихся ухода и поддержки, как в частной, так и в общественной жизни, включая социальный диалог и ведение коллективных переговоров теми, кто занимается оплачиваемым трудом по уходу;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_e">
+            <num>e)</num>
+            <content eId="para_25_list_point_e_content">
+              <p xml:space="preserve"> 	повышать осведомленность о негативном влиянии стереотипов, обусловленных гендерными и возрастными факторами и фактором инвалидности, при оказании и получении услуг по уходу и поддержке, а также разрабатывать программы и стратегии, направленные на устранение таких стереотипов; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <num>5.</num>
+        <list eId="para_29_list">
+          <intro eId="para_29_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">постановляет</span>:</p>
+          </intro>
+          <point eId="para_29_list_point_a">
+            <num>a)</num>
+            <content eId="para_29_list_point_a_content">
+              <p xml:space="preserve"> 	просить Верховного комиссара Организации Объединенных Наций по правам человека организовать двухдневное рабочее совещание экспертов в доступном формате с участием заинтересованных государств, международных организаций, частного сектора и гражданского общества, в частности женских организаций, включая низовые женские организации, организаций лиц с инвалидностью, организаций по защите прав детей, пожилых людей и представляющих их организаций, а также представителей организаций работодателей и работников, для рассмотрения прав человека женщин, лиц с инвалидностью, детей и пожилых людей как лиц, осуществляющих уход, а также получающих услуги по уходу и поддержке, чтобы они могли сами обеспечивать уход за собой с точки зрения гендерного равноправия и прав человека, с целью оценки опыта, передовой практики и основных вызовов, связанных с реальным признанием прав лиц, осуществляющих уход, и лиц, получающих услуги по уходу и поддержке;</p>
+            </content>
+          </point>
+          <point eId="para_29_list_point_b">
+            <num>b)</num>
+            <content eId="para_29_list_point_b_content">
+              <p xml:space="preserve"> 	также просить Верховного комиссара на основе обсуждений, состоявшихся на вышеупомянутом рабочем совещании экспертов, и в консультации с государствами — членами Организации Объединенных Наций и другими заинтересованными сторонами подготовить всеобъемлющее тематическое исследование по вопросу об уходе и поддержке в аспекте прав человека, составив резюме и подборку международных стандартов и видов передовой практики, а также основных вызовов, возникающих на национальном уровне при обеспечении функционирования систем ухода и поддержки, включая рекомендации по поощрению и обеспечению прав человека лиц, осуществляющих уход, и лиц, получающих услуги по уходу и поддержке, и предложив представлять материалы в доступном формате, и далее просить, чтобы такие материалы заинтересованных сторон, само исследование и его простая для чтения и понимания версия были размещены на веб-сайте Управления Верховного комиссара Организации Объединенных Наций по правам человека в доступном формате до начала пятьдесят восьмой сессии Совета по правам человека;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">также постановляет</span> рассматривать в приоритетном порядке на своих будущих сессиях ход выполнения настоящей резолюции.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46-е" refersTo="#adoptionMeeting">46‑е заседание</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 октября 2023 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
