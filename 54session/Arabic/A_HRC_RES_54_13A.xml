@@ -1,0 +1,309 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/ara@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="AGEING PERSONS" href="http://metadata.un.org/thesaurus/1000115" showAs="AGEING PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="VIOLENCE" href="http://metadata.un.org/thesaurus/1006882" showAs="VIOLENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISCRIMINATION" href="http://metadata.un.org/thesaurus/1001697" showAs="DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-06" outcome="draftResolution" as="A/HRC/54/L.20" by="Albania, Andorra, Argentina, Austria, Brazil, Chile, Colombia, Costa Rica, Croatia, Dominican Republic, Ecuador, Gambia, Georgia, Greece, Ireland, Israel, Italy, Luxembourg, Malta, Mexico, Montenegro, North Macedonia, Paraguay, Peru, Philippines, Portugal, San Marino, Slovenia, Spain, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic"> Arabic </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">الدورة الرابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 أيلول</date>
+          <date date="2023-10-13" refersTo="#endDate">13 تشرين الأول 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 11 تشرين الأول/أكتوبر 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/13</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	حقوق الإنسان لكبار السن</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يؤكد من جديد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يؤكد من جديد</span> التزام جميع الدول باحترام جميع حقوق الإنسان والحريات الأساسية وبحمايتها والوفاء بها، وإذ يؤكد من جديد أيضاً ميثاق الأمم المتحدة، والإعلان العالمي لحقوق الإنسان، والعهد الدولي الخاص بالحقوق المدنية والسياسية، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، واتفاقية القضاء على جميع أشكال التمييز ضد المرأة، واتفاقية حقوق الأشخاص ذوي الإعاقة، والاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري، واتفاقية مناهضة التعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة،</p>
+      </container>
+      <container name="وإذ يضع في اعتباره" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يضع في اعتباره</span> مبادئ الأمم المتحدة المتعلقة بكبار السن، والإعلان السياسي وخطة عمل مدريد الدولية للشيخوخة، 2002، وجميع قرارات الجمعية العامة ذات الصلة، بما فيها القرارات 65/182 المؤرخ 21 كانون الأول/ديسمبر 2010، و66/127 المؤرخ 19 كانون الأول/ديسمبر 2011، و70/164 المؤرخ 17 كانون الأول/ديسمبر 2015، و75/131 المؤرخ 14 كانون الأول/ديسمبر 2020، و76/138 المؤرخ 16 كانون الأول/ديسمبر 2021، و77/190 المؤرخ 15 كانون الأول/ديسمبر 2022،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى أن خطة التنمية المستدامة لعام 2030 تؤكد ضرورة كفالة عدم ترك أحد خلف الركب، مسلماً في هذا الصدد بما يقدمه كبار السن من مساهمة جوهرية في سير المجتمعات وفي تحقيق خطة عام 2030،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير أيضاً</span> إلى قرارات مجلس حقوق الإنسان بشأن حقوق الإنسان لكبار السن، 21/23 المؤرخ 28 أيلول/سبتمبر 2012، و24/20 المؤرخ 27 أيلول/سبتمبر 2013، و33/5 المؤرخ 29 أيلول/ سبتمبر 2016، و42/12 المؤرخ 26 أيلول/سبتمبر 2019، و48/3 المؤرخ 7 تشرين الأول/أكتوبر 2021، و51/4 المؤرخ 6 تشرين الأول/أكتوبر 2022 وإلى سائر قرارات المجلس ذات الصلة، بما فيها القراران 39/18 المؤرخ 28 أيلول/سبتمبر 2018، و44/7 المؤرخ 16 تموز/يوليه 2020،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بعمل الخبيرة المستقلة المعنية بتمتع كبار السن بجميع حقوق الإنسان وبعمل الفريق العامل المفتوح العضوية المعني بالشيخوخة، وبالإسهام والدعم اللذين قدمتهما مفوضية الأمم المتحدة السامية لحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يحيط علماً مع التقدير" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً مع التقدير</span> بتقرير الخبيرة المستقلة المعنية بتمتع كبار السن بجميع حقوق الإنسان عن العنف الذي يُمارس ضد كبار السن وإساءة معاملتهم وإهمالهم<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/54/26">A/HRC/54/26</a>. </p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يلاحظ مع التقدير" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ مع التقدير</span> العمل الذي تضطلع به الإجراءات الخاصة لمجلس حقوق الإنسان بشأن كبار السن، وإذ يحيط علماً بالتقارير ذات الصلة المقدمة من جهات منها الخبيرة المستقلة، والفريق العامل المعني بالتمييز ضد النساء والفتيات، والمقررة الخاصة المعنية بحق كل إنسان في التمتع بأعلى مستوى ممكن من الصحة البدنية والعقلية، والمقرر الخاص المعني بحقوق الأشخاص ذوي الإعاقة، والمقرر الخاص المعني بحقوق الشعوب الأصلية،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم </span>بأن كبار السن يواجهون عدداً من التحديات الخاصة في تمتعهم بحقوق الإنسان في مجالات منها منع العنف وسوء المعاملة والإهمال والحماية منها، والحماية الاجتماعية، والغذاء والسكن، والحق في العمل ودخول سوق العمل، والمساواة وعدم التمييز، وإمكانية اللجوء إلى العدالة، والتكنولوجيات الجديدة، والتعليم، والتدريب، والدعم الصحي، والرعاية والدعم في الأجل الطويل، والرعاية التلطيفية، والتعلم مدى الحياة، والمشاركة، وتسهيلات الحركة والوصول، والأجر المتساوي عن العمل المتساوي، وأعمال الرعاية غير المدفوعة الأجر،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشدد</span> على أهمية التشجيع على إقامة مجتمعات وبيئات حاضنة للجميع ومواتية لكبار السن وعلى توفير طائفة من خدمات الدعم التي تحفظ كرامة كبار السن وتعزز اعتمادهم على أنفسهم واستقلالهم لكي يتمكنوا من البقاء في بيوتهم في كِبرهم، مع مراعاة تفضيلاتهم الشخصية،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ</span> أن التكنولوجيات الجديدة والناشئة والتكنولوجيا المساعدة يمكنها، وهي تحترم اعتماد كبار السن على أنفسهم، أن تتيح وتعزز إدماجهم ومشاركتهم وانخراطهم في جميع جوانب المجتمع، بما في ذلك المجالات السياسية والاقتصادية والاجتماعية، ما قد يسهم إسهاماً مهماً في منع العنف ضد كبار السن وإساءة معاملتهم وإهمالهم،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بأن التمييز ضد كبار السن موقف متحيز ومنتشر على نطاق واسع ويشكل عامل خطر كبيراً لإساءة معاملة كبار السن، وبأن القوالب النمطية العمرية تؤدي دوراً رئيسياً في إدامة إساءة معاملة كبار السن، وكذلك في إعاقة حصولهم على الرعاية والدعم المناسبين ومشاركتهم الحرة والكاملة والنشطة والشاملة للجميع والمجدية في جميع عمليات صنع القرار العام، بما في ذلك وضع القوانين والسياسات وغيرها من التدابير للتصدي للعنف وسوء المعاملة، وإمكانية حصولهم على سبل الانتصاف والجبر،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم أيضاً</span> بأن جميع أشكال العنف ضد كبار السن وإساءة معاملتهم وإهمالهم منتشرة في جميع أنحاء العالم، وأن العنف ضد كبار السن ازداد خلال الأزمات المستمرة مثل جائحة مرض فيروس كورونا (كوفيد-19) والنزاعات المسلحة وتغير المناخ،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ بقلق</span> أن العنف ضد كبار السن لا يزال مهملاً وأن الفهم المحدود لهذه الظاهرة تترتب عليه عواقب بعيدة المدى على السلامة العقلية والبدنية لملايين كبار السن في جميع أنحاء العالم،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ</span> استنتاجات الخبيرة المستقلة ومفادها أن "معظم التعاريف تعترف بخمسة أشكال من إساءة معاملة كبار السن، وهي: (أ) الاعتداء البدني؛ و(ب) الإيذاء النفسي أو العاطفي؛ و(ج) الانتهاك الجنسي؛ و(د) الإيذاء المالي أو المادي؛ و(ه) الإهمال"، وإذ يلاحظ أيضاً أن "الخبيرة المستقلة تعترف بشكل آخر هو خطاب الكراهية الموجه إلى كبار السن"<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	المرجع نفسه، الفقرة 12. </p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد</span> أن التمييز ضد كبار السن والتمييز على أساس السن سببان جذريان للعنف ضد كبار السن وإساءة معاملتهم وإهمالهم وعائقان أمام مكافحة ذلك مكافحةً فعالة،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ</span> أن جميع أشكال العنف ضد كبار السن وإساءة معاملتهم وإهمالهم يمكن أن تحدث في جميع البيئات، بما في ذلك البيئات العامة والخاصة، وعلى شبكة الإنترنت أو خارجها،</p>
+      </container>
+      <container name="وإذ يشير بقلق" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير بقلق</span> إلى أن كبيرات السن كثيراً ما يواجهن التمييز، بما في ذلك أشكال التمييز المتعددة والمتقاطعة، وأنهن معرضات بدرجة أكبر للعنف وسوء المعاملة والإهمال، الذي يفاقمه نوع جنسهن أو سنهن أو انتماؤهن العرقي أو إعاقتهن أو أي سبب آخر، ما يؤثر في تمتعهن بحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ</span> أن عدم وجود بيانات عن مدى انتشار إساءة معاملة كبار السن يؤدي إلى ثغرات كبيرة في منع انتهاكات حقوق الإنسان، وأن الأعداد الفعلية لكبار السن الذين يعانون من سوء المعاملة أو العنف يُفترض أنها أعلى كثيراً مما تظهره البيانات القائمة، وأن عدد الضحايا سيزداد سريعاً في المستقبل، بسبب شيخوخة سكان العالم، ما لم تُتخذ تدابير لمعالجة المشكلة بفعالية،</p>
+      </container>
+      <container name="وإذ يلاحظ أيضاً" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ أيضاً</span> تجزؤ القانون الدولي لحقوق الإنسان فيما يتعلق بكبار السن، وأنه لا توجد في الإطار الحالي لحقوق الإنسان أحكام محددة تتناول العنف ضد كبار السن وإساءة معاملتهم وإهمالهم، والمخاطر الفريدة التي يواجهها كبار السن، ولا سيما كبيرات السن، الذين يعيشون في أوضاع هشة،</p>
+      </container>
+      <container name="وإذ يحيط علماً مع التقدير" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً مع التقدير</span> بتقرير مفوضة الأمم المتحدة السامية لحقوق الإنسان عن المعايير والالتزامات المعيارية بموجب القانون الدولي فيما يتعلق بتعزيز وحماية حقوق الإنسان لكبار السن<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/49/70">A/HRC/49/70</a>.</p></authorialNote><sup>)</sup>، وإذ يلاحظ النتائج الواردة في التقرير بشأن الثغرات والقيود وأوجه القصور في الإطار الدولي القائم لحقوق الإنسان، وأن المفوضة السامية تؤكد في التقرير ضرورة التحرك سريعاً نحو وضع واعتماد إطار متماسك وشامل ومتكامل لحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يلاحظ مع التقدير" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ مع التقدير </span>عقد اجتماع لأصحاب المصلحة المتعددين يومي 29 و30 آب/ أغسطس 2022، نوقش فيه تقرير المفوضة السامية عن المعايير والالتزامات المعيارية بموجب القانون الدولي فيما يتعلق بتعزيز وحماية حقوق الإنسان لكبار السن، وإذ يحيط علماً بالتقرير الموجز عن ذلك، الذي يتضمن توصيات بشأن سد الثغرات القائمة التي تؤثر سلباً على حياة كبار السن<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/52/49">A/HRC/52/49</a>. </p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يحيط علماً مع التقدير" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً مع التقدير </span>بالمقرر 13/1 الذي اعتمده الفريق العامل المفتوح العضوية المعني بالشيخوخة في دورته الثالثة عشرة بشأن تحديد الثغرات المحتملة في حماية حقوق الإنسان لكبار السن وأفضل السبل لمعالجتها، وبطلبه إلى الميسرين المتشاركين تقديم توصيات حكومية دولية مقترحة بعد التفاوض عليها للنظر فيها في دورته الرابعة عشرة، في آذار/مارس 2024،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">يدين</span> بأشد العبارات الممكنة استمرار وانتشار جميع أشكال العنف ضد كبار السن وإساءة معاملتهم وإهمالهم في جميع أنحاء العالم، ويؤكد من جديد أنه ينبغي أن يكون باستطاعة جميع كبار السن العيش في مأمن من العنف وسوء المعاملة والإهمال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن بالغ القلق</span> لأن جميع أشكال التمييز والعنف ضد كبار السن تعطل تمتعهم تمتعاً كاملاً بحقوق الإنسان والحريات الأساسية الواجبة لهم وتعوق مشاركتهم الكاملة والفعالة والمجدية في الحياة العامة والخاصة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">يسلم </span>بأن التحديات المتعلقة بتمتع كبار السن بالحقوق المدنية والسياسية والاقتصادية والاجتماعية والثقافية، في مجالات من بينها منع العنف وسوء المعاملة والإهمال والحماية منها، والحماية الاجتماعية، والغذاء والسكن، والحق في العمل والدخول إلى سوق العمل، والمساواة وعدم التمييز، وإمكانية اللجوء إلى العدالة، والتكنولوجيات الجديدة، والتعليم، والتدريب، والدعم الصحي، والرعاية والدعم في الأجل الطويل، والرعاية التلطيفية، والتعلم مدى الحياة، والمشاركة، وتسهيلات الحركة والوصول، والأجر المتساوي عن العمل المتساوي، ومعالجة هذه التحديات إنما تتطلب تحليلاً متعمقاً واتخاذ إجراءات مناسبة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">يهيب </span>بجميع الدول أن تحظر جميع أشكال التمييز ضد كبار السن وأن تعتمد وتنفذ سياسات واستراتيجيات وخطط عمل وتشريعات ولوائح وطنية غير تمييزية، بما في ذلك في التصدي للعنف وسوء المعاملة والإهمال، وأن تعزز وتضمن الإعمال التام لجميع حقوق الإنسان والحريات الأساسية لكبار السن في مجالات منها التوظيف، والحماية الاجتماعية، والسكن، والتعليم والتدريب، والحصول على التكنولوجيات، وتوفير الخدمات المالية والاجتماعية والرعاية الصحية والدعم الطويل الأجل وخدمات الرعاية التلطيفية، مع توخي استشارة كبار السن أنفسهم ومشاركتهم هم والمنظمات التي تمثلهم بصورة منهجية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بجميع أصحاب المصلحة، بما في ذلك الدول وكيانات منظومة الأمم المتحدة والمجتمع المدني والمؤسسات الوطنية لحقوق الإنسان والقطاع الخاص، أن يكافحوا التمييز ضد كبار السن بوصفه سبباً جذرياً للعنف وسوء المعاملة والإهمال، وأن يقضوا على العنف وسوء المعاملة والإهمال بجميع أشكالها، وأن يعتمدوا نهجاً قائماً على حقوق الإنسان في جميع البرامج والحملات والأنشطة المتعلقة بالشيخوخة وكبار السن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">يهيب </span>بجميع الدول أن تنشئ آليات جبر فعالة و/أو أن تعززها وأن تكفل إمكانية اللجوء إلى العدالة، على قدم المساواة مع الآخرين، لجميع كبار السن الذين يقعون ضحايا للعنف وسوء المعاملة والإهمال والناجين منها، ولكبار السن الذين يتعرضون للتمييز على أساس السن أو نوع الجنس أو العرق أو الإعاقة أو لأسباب أخرى، بما في ذلك المساعدة والدعم القانونيان، وكذلك الإجراءات القانونية الميسرة والمراعية للعمر؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">يهيب أيضاً</span> بجميع الدول أن تتخذ تدابير لإذكاء الوعي في المجتمع، بما في ذلك لدى الموظفين العموميين والقطاع الخاص وكبار السن أنفسهم، بما يعنيه العنف ضد كبار السن وإساءة معاملتهم وإهمالهم وبما يترتب على ذلك من عواقب، وبالأحكام القانونية المعمول بها وسبل الانتصاف القضائي المتاحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">يهيب </span>بالدول أن تقوم، حسب الاقتضاء، بجمع وتحليل بيانات مصنفة حسب السن ونوع الجنس والإعاقة والوضع العائلي ومنطقة الإقامة وغيرها من المعايير ذات الصلة، بغية تحديد أشكال عدم المساواة والأنماط التمييزية، بما فيها جوانب التمييز الهيكلية، وإبرازها، وبغية تحليل فعالية التدابير المتخذة لتعزيز المساواة، وتوفير معلومات عن جميع أشكال العنف وسوء المعاملة والإهمال وأسبابها الجذرية، بما في ذلك التمييز على أساس السن والتمييز، بما فيها أشكال التمييز المتعددة والمتقاطعة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">يدعو </span>الخبيرة المستقلة المعنية بتمتع كبار السن بجميع حقوق الإنسان إلى مواصلة التوعية في تقاريرها السنوية بالتحديات التي يواجهها كبار السن في إعمال حقوق الإنسان الواجبة لهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">يطلب </span>إلى مفوضية الأمم المتحدة السامية لحقوق الإنسان أن تعقد اجتماعاً لخبراء حقوق الإنسان، يكون متاحاً تماماً للأشخاص ذوي الإعاقة، بمشاركة الخبيرة المستقلة وخبراء ممثلين للدول الأعضاء، وهيئات المعاهدات والإجراءات الخاصة، والآليات الإقليمية، ومنظومة الأمم المتحدة، والأوساط الأكاديمية، والمؤسسات الوطنية لحقوق الإنسان، والمجتمع المدني، وبمشاركة كبار السن والمنظمات التي تمثلهم مشاركةً مجدية وفعالة، ومناقشة التزامات الدول في مجال حقوق الإنسان فيما يتعلق بالعنف ضد كبار السن وإساءة معاملتهم وإهمالهم في جميع الأوساط ووضع توصيات بشأنها، وإعداد تقرير موجز يتاح في أشكال يسهل الاطلاع عليها، بما في ذلك بلغة مبسطة وصيغة سهلة القراءة، ويتضمن استنتاجات الاجتماع وتوصياته، وتقديم التقرير إلى مجلس حقوق الإنسان بحلول موعد انعقاد دورته السابعة والخمسين.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46" refersTo="#adoptionMeeting">الجلسة 46</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 تشرين الأول/أكتوبر 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد بدون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

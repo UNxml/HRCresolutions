@@ -1,0 +1,527 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/ara@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-03-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Expert Mechanism on the Rights of Indigenous Peoples" showAs="UN. Human Rights Council. Expert Mechanism on the Rights of Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Voluntary Fund for Indigenous Peoples" showAs="UN Voluntary Fund for Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Declaration on the Rights of Indigenous Peoples (2007)" showAs="UN Declaration on the Rights of Indigenous Peoples (2007)" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Decade of Indigenous Languages (2022–2032)" showAs="International Decade of Indigenous Languages (2022–2032)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INDIGENOUS PEOPLES" href="http://metadata.un.org/thesaurus/1003106" showAs="INDIGENOUS PEOPLES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANGUAGES" href="http://metadata.un.org/thesaurus/1003621" showAs="LANGUAGES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POPULAR PARTICIPATION" href="http://metadata.un.org/thesaurus/1005016" showAs="POPULAR PARTICIPATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-09" outcome="draftResolution" as="A/HRC/54/L.19" by="Australia, Bolivia (Plurinational State of), Brazil, Canada, Colombia, Costa Rica, Denmark, Ecuador, Finland, Guatemala, Iceland, Lithuania, Luxembourg, Mexico, New Zealand, Norway, Paraguay, Peru, Spain, Sweden and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/12</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic"> Arabic </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">الدورة الرابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 أيلول</date>
+          <date date="2023-10-13" refersTo="#endDate">13 تشرين الأول 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 11 تشرين الأول/أكتوبر 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/12</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	حقوق الإنسان والشعوب الأصلية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يشير</span> إلى جميع قرارات الجمعية العامة ولجنة حقوق الإنسان ومجلس حقوق الإنسان المتعلقة بحقوق الإنسان والشعوب الأصلية،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> دعمه لتحقيق أهداف إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية، الذي اعتمدته الجمعية العامة في قرارها 61/295 المؤرخ 13 أيلول/سبتمبر 2007،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلّم</span> بأن إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية كان له، منذ اعتماده، تأثير إيجابي على صياغة عدة دساتير ونظم أساسية على الصعيدين الوطني والمحلي، وأسهم تدريجياً في وضع أطر قانونية واجتهادات قضائية وسياسات على الصعيدين الدولي والوطني بالتزامن مع تطبيق الإعلان على الشعوب الأصلية،</p>
+      </container>
+      <container name="وإذ يقدّر" eId="container_5">
+          <p xml:space="preserve">	<span class="italic">وإذ يقدّر</span> الجهود المبذولة حالياً في سبيل تعزيز حقوق الشعوب الأصلية وحمايتها وإعمالها، وإذ يشير إلى الالتزام في الاجتماع العام الرفيع المستوى للجمعية العامة، المعروف بالمؤتمر العالمي المعني بالشعوب الأصلية، بالنظر في سبل تعزيز مشاركة ممثلي الشعوب الأصلية والمؤسسات التي أنشأتها حسب الأصول في الاجتماعات التي تعقدها هيئات الأمم المتحدة ذات الصلة بشأن القضايا التي تمسها، وإذ يرحّب بقرار الجمعية العامة 71/321 المؤرخ 8 أيلول/سبتمبر 2017،</p>
+      </container>
+      <container name="وإذ يقرّ" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يقرّ</span> بمشاركة ممثلي الشعوب الأصلية والمؤسسات التي أنشأتها حسب الأصول في اجتماعات مختلف أجهزة الأمم المتحدة وهيئاتها الفرعية، وبخاصة اجتماعات مجلس حقوق الإنسان وآلية الخبراء المعنية بحقوق الشعوب الأصلية التابعة له، فضلاً عن المنتدى الدائم المعني بقضايا الشعوب الأصلية،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً</span> بالوثيقة الختامية لاجتماع الحوار بشأن تعزيز مشاركة الشعوب الأصلية في الأمم المتحدة الذي نظمته منظمات الشعوب الأصلية ومؤسساتها في كيتو في الفترة من 27 إلى 30 كانون الثاني/يناير 2020،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى التقرير الموجز الذي أعدته مفوضية الأمم المتحدة السامية لحقوق الإنسان عن جلسة التحاور المعقودة بين الدورات في 15 تموز/يوليه 2019، على امتداد نصف يوم، بشأن سبل تعزيز مشاركة ممثلي الشعوب الأصلية ومؤسساتها في اجتماعات مجلس حقوق الإنسان المتعلقة بالقضايا التي تمسها<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">() 	<a href="https://undocs.org/ar/A/HRC/44/35">A/HRC/44/35</a>. </p></authorialNote><sup>)</sup>، وإلى التقرير الذي أعدّته المفوضية السامية عن المائدة المستديرة المعقودة بين الدورات في 16 تموز/يوليه 2021 بشأن سبل تعزيز مشاركة ممثلي الشعوب الأصلية ومؤسساتها في اجتماعات المجلس المتعلقة بالقضايا التي تمسها<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">() 	<a href="https://undocs.org/ar/A/HRC/49/69">A/HRC/49/69</a>. </p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يقرّ" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يقرّ</span> بأهمية صندوق الأمم المتحدة للتبرعات لصالح الشعوب الأصلية في دعم مشاركة ممثلي الشعوب الأصلية والمؤسسات التي أنشأتها حسب الأصول في الاجتماعات المتعلقة بها،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يحيط علماً</span> بالدراسة التي أجرتها آلية الخبراء المعنية بحقوق الشعوب الأصلية بشأن أثر العسكرة على حقوق الشعوب الأصلية<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/54/52">A/HRC/54/52</a>. </p></authorialNote><sup>)</sup>، وبتقرير آلية الخبراء المعنون "الجهود المبذولة لتنفيذ إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية: إنشاء آليات رصد فعالة على الصعيدين الوطني والإقليمي لتنفيذ الإعلان"<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">() 	<a href="https://undocs.org/ar/A/HRC/EMRIP/2023/3">A/HRC/EMRIP/2023/3</a>. </p></authorialNote><sup>)</sup>، وإذ يشجع الدول على النظر في تنفيذ المشورة الواردة فيه،</p>
+      </container>
+      <container name="وإذ يحيط علماً أيضاً" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً أيضاً</span> بتقرير المقرر الخاص المعني بحقوق الشعوب الأصلية المعنون "التمويل الأخضر - انتقال عادل لحماية حقوق الشعوب الأصلية"<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/54/31">A/HRC/54/31</a>. </p></authorialNote><sup>)</sup>، الذي شجع فيه المقرر الخاص جميع الدول على النظر في التوصيات الواردة في التقرير، وإذ يسلّم بالجهود التي يبذلها المقرر الخاص لإشراك الشعوب الأصلية في إعداد التقارير السنوية والقطرية،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى تقرير المفوضية السامية عن حلقة النقاش السنوية بشأن حقوق الشعوب الأصلية، التي عُقدت في 28 أيلول/سبتمبر 2022 على امتداد نصف يوم، وتمحورت حول أثر خطط التعافي الاجتماعي والاقتصادي من جائحة مرض فيروس كورونا (كوفيد-19) على الشعوب الأصلية، مع التركيز بشكل خاص على الأمن الغذائي<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">() 	<a href="https://undocs.org/ar/A/HRC/53/43">A/HRC/53/43</a>. </p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً</span> بالتوصية العامة رقم 39(2022) بشأن حقوق نساء وفتيات الشعوب الأصلية، الصادرة عن اللجنة المعنية بالقضاء على التمييز ضد المرأة، وكذلك بالتعليق العام للجنة حقوق الطفل رقم 26(2023) بشأن حقوق الطفل والبيئة، مع التركيز بشكل خاص على تغير المناخ، وإذ يشجع الدول على النظر في المشورة الواردة فيه وكذلك ترجمتها إلى لغات الشعوب الأصلية،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد </span>ضرورة إيلاء اهتمام خاص لحقوق واحتياجات النساء والأطفال والشباب وكبار السن والأشخاص ذوي الإعاقة والأشخاص الذين يعيشون ظروفاً هشة من الشعوب الأصلية، وضرورة تكثيف الجهود الرامية إلى منع جميع أعمال العنف والتمييز في هذا الصدد والقضاء عليها، على النحو المبين في إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية وفي الوثيقة الختامية للمؤتمر العالمي المعني بالشعوب الأصلية التي اعتمدتها الجمعية العامة بتوافق الآراء عام 2014<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">()	قرار الجمعية العامة 69/2. </p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلّم</span> بأن الشعوب الأصلية تعدّ من أولى الجماعات المعرضة للآثار المباشرة لتغير المناخ بسبب اعتمادها على البيئة ومواردها وعلاقتها الوطيدة بهما، وإذ يرحّب بدور الشعوب الأصلية، ولا سيما دور نساء وفتيات هذه الشعوب اللاتي يصمدن في وجه الآثار السلبية لتغير المناخ، في تحقيق أهداف اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ، ومقاصد وأهداف اتفاق باريس، وغايات وأهداف خطة التنمية المستدامة لعام 2030،</p>
+      </container>
+      <container name="وإذ يسلّم أيضاً" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلّم أيضاً</span> بالتأثير المتزايد لتغير المناخ على التمتع بحقوق الإنسان وبتأثيره تحديداً على تمتع الشعوب الأصلية بحقوقها وعلى سبل عيشها في جميع أنحاء العالم، وإذ يشير إلى ديباجة اتفاق باريس وديباجة المقرر 1/م أ-21 بشأن اعتماد اتفاق باريس<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">() 	<a href="https://undocs.org/ar/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>. </p></authorialNote><sup>)</sup> التي تقرّ بأنه ينبغي للدول، عند اتخاذ إجراءات التصدي لتغير المناخ، أن تحترم ما يقع على كل منها من التزامات بشأن حقوق الشعوب الأصلية وأن تعززها وتراعيها، وإلى الفقرة 135 من المقرر 1/م أ-21 التي تسلّم بضرورة تعزيز معارف الشعوب الأصلية والتكنولوجيات والممارسات التي تعتمدها والجهود التي تبذلها بشأن التخفيف من آثار تغير المناخ والتكيف معه، وإلى الفقرة 36 من الوثيقة الختامية للمؤتمر العالمي المعني بالشعوب الأصلية،</p>
+      </container>
+      <container name="وإذ يسلّم كذلك" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلّم كذلك</span> بأن العديد من النظم الإيكولوجية، بما فيها النظم الإيكولوجية القائمة على المياه، مهددة بسوء الإدارة والتنمية غير المستدامة وتواجه مزيداً من عدم اليقين والمخاطر بسبب تغير المناخ وعوامل أخرى، وإذ يحث الدول على الاعتراف بالنُّهج التي تقودها الشعوب الأصلية إزاء إدارة النظم الإيكولوجية واحترامها وتعزيزها، فضلاً عن اعترافها بحق الشعوب الأصلية في حفظ وحماية البيئة والقدرة الإنتاجية لأراضيها أو أقاليمها ومواردها على النحو المنصوص عليه في المادة 29 من إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية، من خلال مشاركتها الكاملة والفعالة،</p>
+      </container>
+      <container name="وإذ يضع في اعتباره" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يضع في اعتباره</span> أن الشعوب الأصلية تواجه عقبات كبيرة تحول دون تمتعها بحقها في تحسين أحوالها الاقتصادية والاجتماعية، بما في ذلك في مجال الإسكان على النحو المبين في المادة 21 من إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية، بسبب عوامل مختلفة مثل الاستعمار التاريخي ونزع الملكية، وارتفاع معدلات التشرد بشكل غير متناسب، والتعرض لعمليات الإخلاء القسري والاستيلاء على الأراضي والآثار الضارة لتغير المناخ، وإذ يقرّ بالحاجة إلى ضمان تمكين الشعوب الأصلية من العيش في سلام وأمن وكرامة والتمتع بالحق في تحسين أحوالها الاقتصادية والاجتماعية، بما في ذلك في مجال السكن، دون تمييز،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشدد</span> على أن الشركات عبر الوطنية وغيرها من مؤسسات الأعمال تتحمل المسؤولية عن احترام جميع حقوق الإنسان وينبغي لها أن تضع عمليات للعناية الواجبة في مراعاة حقوق الإنسان لتحديد آثارها على حقوق الإنسان ومنعها والتخفيف من حدتها وتفسير كيفية معالجتها، فضلاً عن إيلاء اهتمام خاص لآثارها على الحقوق الجماعية للشعوب الأصلية، وإذ يؤكد من جديد المسؤولية الرئيسية للدول عن احترام حقوق الإنسان وحمايتها وإعمالها، وواجبها في الحماية من انتهاكات حقوق الإنسان داخل إقليمها و/أو ولايتها القضائية من جانب أطراف ثالثة، بما في ذلك الشركات عبر الوطنية وغيرها من مؤسسات الأعمال، بوسائل منها تنظيم مؤسسات الأعمال هذه وضمان الوصول إلى سبل انتصاف فعالة عند حدوث تجاوزات،</p>
+      </container>
+      <container name="وإذ يحيط علماً مع التقدير" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً مع التقدير</span> بإنشاء الفريق العامل التيسيري لمنبر المجتمعات المحلية والشعوب الأصلية من قبل مؤتمر الأطراف في اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ في دورته الرابعة والعشرين، الذي يشارك فيه بالتساوي ممثلو الشعوب الأصلية والأطراف في الاتفاقية الإطارية، من أجل المضي قدماً في تحقيق أهداف هذه الهيئة وفي تنفيذ مهامها، وإذ يحيط علماً بمرحلة السنوات الثلاث الثانية لخطة عمل المنبر للفترة 2022-2024،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلّم</span> بأهمية ضمان مشاركة الشعوب الأصلية بشكل كامل وفعال في عمليات اتخاذ القرار لتنفيذ إطار كونمينغ - مونتريال العالمي للتنوع البيولوجي في إطار اتفاقية التنوع البيولوجي،</p>
+      </container>
+      <container name="وإذ يضع في اعتباره" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يضع في اعتباره</span> أهميةَ دعم الجهود الرامية إلى تمكين النساء والشباب وكبار السن والأشخاص ذوي الإعاقة والأشخاص الذين يعيشون ظروفاً هشة والأطفال، وفقاً لسنهم ونضجهم، من الشعوب الأصلية، بما في ذلك مشاركتهم الكاملة والفعالة في عمليات اتخاذ القرار بشأن القضايا التي تمسهم بصفة مباشرة، بما يشمل، عند الاقتضاء، السياسات والبرامج والموارد التي ترمي إلى تحقيق رفاههم، ولا سيما في مجالات الوصول الشامل والمنصف إلى الخدمات العامة الجيدة، والسكن اللائق، والخدمات الصحية، والصحة العقلية، والأمن الغذائي، والتغذية المعززة، بطرق منها الأنشطة الأسرية المتعلقة بالزراعة وصيد الأسماك والتعليم، بما في ذلك التعليم المشترك بين الثقافات والمتعدد اللغات، والعمالة ونقل اللغات والمعارف والابتكارات والممارسات التقليدية، وإذ يضع في اعتباره أيضاً أهمية اتخاذ تدابير لإذكاء الوعي بحقوق أفراد الشعوب الأصلية وزيادة فهمها،</p>
+      </container>
+      <container name="وإذ يحيط علماً مع التقدير" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً مع التقدير</span> بالقرار ج ص ع 76-16 المعنون "صحة الشعوب الأصلية" الذي اعتمدته جمعية الصحة العالمية في 30 أيار/مايو 2023 في دورتها السادسة والسبعين،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">ينوّه</span> بتقرير مفوض الأمم المتحدة السامي لحقوق الإنسان عن حقوق الشعوب الأصلية<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/54/39">A/HRC/54/39</a>. </p></authorialNote><sup>)</sup>، ويطلب إليه المضي في تقديم تقرير سنوي عن حقوق الشعوب الأصلية إلى مجلس حقوق الإنسان، بلغة مبسَّطة وصيغة سهلة القراءة، يتضمن معلومات عن المستجدات ذات الصلة التي تشهدها هيئات وآليات حقوق الإنسان، وعن الأنشطة التي تضطلع بها المفوضية السامية في المقر وفي الميدان والتي تسهم في تعزيز أحكام إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية واحترامها وتطبيقها تطبيقاً كاملاً، مع إبراز التحديات المطروحة والإنجازات الرئيسية، كما يطلب إلى المفوض السامي الاستمرار في متابعة مدى فعالية الإعلان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">
+            <span class="italic">	يرحّب</span> بعمل المقرر الخاص المعني بحقوق الشعوب الأصلية ويشجّع جميع الحكومات على التعاون التام مع المقرّر الخاص في أداء المهام والواجبات الموكلة إليه، بطرق منها النظر بجدية في قبول طلبات الزيارة المقدمة من المكلف بالولاية، وتقديم جميع المعلومات المتاحة المطلوبة في رسائله، والاستجابة الفورية لنداءاته العاجلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">يرحب أيضاً</span> بعمل آلية الخبراء المعنية بحقوق الشعوب الأصلية، بما في ذلك تقريرها السنوي لعام 2023<sup>(</sup><authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/54/64">A/HRC/54/64</a>. </p></authorialNote><sup>)</sup> وأنشطتها فيما بين الدورات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى الأمين العام والمفوضية السامية مواصلة تقديم كل ما يلزم من مساعدة بشرية وتقنية ومالية لآلية الخبراء لتمكينها من الوفاء بولايتها على نحو كامل وفعال، بما في ذلك خدمات البث الشبكي لاجتماعاتها السنوية، مع إتاحة إمكانية الترجمة الفورية للاتصالات، فضلاً عن ترجمة تقاريرها في الوقت المناسب إلى جميع اللغات الرسمية للأمم المتحدة وتوزيعها على مجلس حقوق الإنسان وترجمة دراساتها وتقاريرها قبل الدورة، وفقاً لقرار المجلس 33/25 المؤرخ 30 أيلول/سبتمبر 2016؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">يحث بقوة</span> جميع الجهات صاحبة المصلحة المعنية، بما في ذلك الدول والشعوب الأصلية، على حضور دورات آلية الخبراء والمشاركة فيها بنشاط، وتقديم مساهمات في دراساتها وتقاريرها، والتحاور معها، بما في ذلك أثناء أنشطتها فيما بين الدورات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">يسلّم</span> بالجهود التي تبذلها الدول والشعوب الأصلية وكيانات الأمم المتحدة والجهات صاحبة المصلحة الأخرى للعمل مع آلية الخبراء في إطار ولايتها الحالية، ويشجعها بقوة على مواصلة هذه الجهود، بما في ذلك تيسير الحوار، عندما توافق جميع الأطراف على ذلك، وتقديم المساعدة والمشورة التقنيتين من أجل تحقيق غايات إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية، فضلاً عن تنفيذ الدول للتوصيات والملاحظات الختامية المقبولة المتعلقة بالشعوب الأصلية المنبثقة عن الاستعراض الدوري الشامل وهيئات المعاهدات، على التوالي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> جميع الأطراف على النظر في اضطلاع آلية الخبراء بمهام على الصعيد القُطري بناءً على طلب الدول والشعوب الأصلية، واغتنام فرصة الحوار التي تتيحها هذه الطلبات وتيسير ترتيبات بعثات المشاركة القطرية لتمكين آلية الخبراء من تنفيذ ولايتها على نحو شامل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على المساهمة في صندوق الأمم المتحدة للتبرعات لصالح الشعوب الأصلية كوسيلة هامة لتعزيز حقوق الشعوب الأصلية في جميع أنحاء العالم وداخل منظومة الأمم المتحدة، وعلى دعم خطة العمل على نطاق المنظومة لضمان اتباع نهج متسق لتحقيق غايات إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية، ويدعو باقي الجهات المانحة المحتملة من القطاع العام و/أو الخاص إلى القيام بذلك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">يشير</span> إلى إعلان الفترة 2022-2032 عقداً دولياً للغات الشعوب الأصلية للفت الانتباه إلى كارثة اندثار لغات الشعوب الأصلية، بما في ذلك لغات الإشارة، والحاجة الملحة إلى الحفاظ عليها وإحيائها وتعزيزها، ولاتخاذ خطوات عاجلة لهذا الغرض على الصعيدين الوطني والدولي<sup>(</sup><authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">()	قرار الجمعية العامة 74/135. </p></authorialNote><sup>)</sup>، ويشير أيضاً إلى إنشاء فرقة العمل العالمية المعنية بالعقد الدولي للغات الشعوب الأصلية، وذلك بالتعاون مع الشعوب الأصلية، ويدعو الدول وكيانات الأمم المتحدة والجهات الأخرى صاحبة المصلحة إلى تعزيز المشاركة الفعالة والهادفة للشعوب الأصلية من خلال قيادة وتنظيم أنشطة إحياء هذه المناسبة على الصعيدين الوطني والدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً</span> بخطة العمل العالمية للعقد الدولي للغات الشعوب الأصلية، ويهيب بالدول وكيانات الأمم المتحدة، وبخاصة منظمة الأمم المتحدة للتربية والعلم والثقافة، أن تتخذ تدابير ملموسة لتنفيذها، بالتعاون مع الشعوب الأصلية، على الصعيدين المحلي والوطني بطرق منها السعي إلى كفالة المشاركة الكاملة والهادفة للشعوب الأصلية في تصميم الاستراتيجيات والمبادرات والسياسات والتشريعات وتنفيذها لاحقاً، ومباشرة حوار مثمر ومستدام مع الجهات صاحبة المصلحة المعنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">
+            <span class="italic">	يشير</span> إلى حق الشعوب الأصلية في إنشاء وسائط الإعلام الخاصة بها بلغاتها وفي الوصول إلى جميع أشكال وسائط الإعلام غير التابعة للشعوب الأصلية دون تمييز، على النحو المنصوص عليه في المادة 16(1) من إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية، ويهيب بالدول أن تعزز وتدرس السياسات والممارسات وبرامج التمويل الوطنية المتعلقة بوسائط الإعلام الخاصة بالشعوب الأصلية، بما في ذلك بناء القدرات وإنتاج المحتوى بلغات الشعوب الأصلية من قبل منتجي المحتوى والمهنيين الإعلاميين من الشعوب الأصلية، ولا سيما نساء الشعوب الأصلية، وتعزيز التعاون الدولي وتبادل المعارف والتعاون بين وسائط الإعلام الخاصة بالشعوب الأصلية والشركاء الآخرين، بما في ذلك وسائط الإعلام الرئيسية والحكومات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="italic">يشجّع</span> الدول على القيام، حسب الاقتضاء، بترجمة إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية إلى لغات الشعوب الأصلية وتفسيره ونشره، بما في ذلك بلغات الإشارة الخاصة بالشعوب الأصلية، عند الاقتضاء، وعلى التعاون مع المفوضية السامية والمقرر الخاص المعني بحقوق الشعوب الأصلية وآلية الخبراء لترجمة تقارير هذه الجهات وجعلها في متناول الشعوب الأصلية، بطرق تشمل صياغتها بلغة مبسّطة وبصيغة سهلة القراءة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">
+            <span class="italic">	يقرّر</span> أن يكون موضوعُ حلقة النقاش السنوية المتعلقة بحقوق الشعوب الأصلية المزمع عقدها على امتداد نصف يوم أثناء دورة المجلس السابعة والخمسين هو القوانين والسياسات والقرارات القضائية والتدابير الأخرى التي اتخذتها الدول وفقاً للمادة 38 من إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية تحقيقاً لغايات الإعلان، ويطلب إلى المفوضية السامية أن تشجّع مشاركة نساء الشعوب الأصلية وتيسِّرها، وأن تتيح وصول الأشخاص ذوي الإعاقة إلى حلقة النقاش بشكل ميسّر وشامل، وأن تعدّ تقريراً موجزاً عنها وتقدّمه إلى المجلس قبل انعقاد دورته التاسعة والخمسين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">يرحب مع التقدير</span> بحلقة عمل الخبراء التي عقدتها المفوضية السامية على امتداد أربعة أيام، في الفترة من 21 إلى 24 تشرين الثاني/نوفمبر 2022، والتي تناولت السبل الممكنة لتعزيز مشاركة الشعوب الأصلية في أعمال مجلس حقوق الإنسان، بما في ذلك المناقشة التي جرت أثناء حلقة العمل والتوصيات المنبثقة عنها على النحو الوارد في التقرير الموجز الذي أعدته المفوضية السامية<sup>(</sup><authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">() 	<a href="https://undocs.org/ar/A/HRC/53/44">A/HRC/53/44</a>. </p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">
+            <span class="italic">	يطلب</span> إلى المفوضية السامية أن تعد تقريراً تقييمياً استناداً إلى عمليات التقييم السابقة الواردة في تقريري الأمين العام الصادريْن في 2012 و2020<sup>(</sup><authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/21/24">A/HRC/21/24</a> و<a href="https://undocs.org/ar/A/75/255">A/75/255</a>. </p></authorialNote><sup>)</sup> وفي مذكرة رئيس الجمعية العامة الصادرة في 2016<sup>(</sup><authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/70/990">A/70/990</a>. </p></authorialNote><sup>)</sup>، يكون بمثابة تجميع للإجراءات القائمة بشأن مشاركة الشعوب الأصلية في الأمم المتحدة، ويسلط الضوء على الثغرات والممارسات الجيدة القائمة، وأن يقدم التقرير إلى المجلس في دورته السابعة والخمسين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="SingleTxtGA">
+        <num>16-</num>
+        <list eId="para_144_list">
+          <intro eId="para_144_list_intro">
+            <p xml:space="preserve">	<span class="italic">يقرر</span> مواصلة مناقشة ووضع المزيد من الخطوات والتدابير اللازمة لتمكين وتيسير مشاركة ممثلي الشعوب الأصلية والمؤسسات التي أنشأتها حسب الأصول في أعمال مجلس حقوق الإنسان، وفي هذا الصدد:</p>
+          </intro>
+          <point eId="para_144_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_144_list_point_أ_content">
+              <p xml:space="preserve">	يقرر تنظيم اجتماع بين الدورتين لمدة يومين قبل انعقاد الدورة السابعة والخمسين لمجلس حقوق الإنسان واجتماع آخر بين الدورتين لمدة يومين أيضاً قبل الدورة الثامنة والخمسين، من أجل السماح للدول، ووكالات الأمم المتحدة وصناديقها وبرامجها ذات الصلة، والمنظمات الدولية، والشعوب الأصلية من المناطق الاجتماعية الثقافية السبع للشعوب الأصلية، والمؤسسات الوطنية لحقوق الإنسان، ومنظمات المجتمع المدني بإجراء حوار بشأن السبل الملموسة لتعزيز مشاركة الشعوب الأصلية في عمل مجلس حقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_144_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_144_list_point_ب_content">
+              <p xml:space="preserve">	يطلب إلى رئيس مجلس حقوق الإنسان أن يعيّن ميسراً مشاركاً من إحدى الدول وميسراً مشاركاً من الشعوب الأصلية لكل اجتماع يعقد بين الدورات؛</p>
+            </content>
+          </point>
+          <point eId="para_144_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_144_list_point_ج_content">
+              <p xml:space="preserve">	يقرر أن يكون الميسران المشاركان، إلى جانب المفوضية السامية، مسؤولين عن إعداد تقرير مشترك عن مناقشات الاجتماعات ونتائجها، بما في ذلك توصيات محددة، وعن عرضه على المجلس قبل دورته التاسعة والخمسين؛</p>
+            </content>
+          </point>
+          <point eId="para_144_list_point_د">
+            <num>(د)</num>
+            <content eId="para_144_list_point_د_content">
+              <p xml:space="preserve">	يطلب إلى المفوضية السامية أن توفر، فيما يتعلق بالاجتماعات المذكورة أعلاه التي تعقد على امتداد يومين بين الدورات، جميع الخدمات والتسهيلات اللازمة لجعل المناقشات في متناول الأشخاص ذوي الإعاقة بالكامل؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxtGA">
+        <num>17-</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> صندوق الأمم المتحدة للتبرعات لصالح الشعوب الأصلية إلى أن يقوم، في إطار قواعد الصندوق وإجراءاته المعمول بها، بتيسير مشاركة ممثلي الشعوب الأصلية والمؤسسات التي أنشأتها حسب الأصول، في الاجتماعات المذكورة أعلاه التي تُعقد فيما بين الدورات، وتعزيز التمثيل المتوازن بين الأقاليم وبين الجنسين وبين الأجيال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxtGA">
+        <num>18-</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="italic">يشجّع</span> آلية الخبراء على مواصلة مناقشاتها بشأن مسألة تعزيز مشاركة ممثلي الشعوب الأصلية والمؤسسات التي أنشأتها حسب الأصول في الاجتماعات ذات الصلة التي يعقدها مجلس حقوق الإنسان بشأن القضايا التي تمس هذه الشعوب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="SingleTxtGA">
+        <num>19-</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="italic">يشجّع</span> الدول على إيلاء الاعتبار الواجب لحقوق الشعوب الأصلية وجميع أشكال العنف والتمييز، بما فيها أشكال التمييز المتعددة والمتقاطعة، التي تواجهها هذه الشعوب وأفرادها، بما في ذلك الانتكاسات والمشاكل المتفاقمة بسبب جائحة مرض فيروس كورونا (كوفيد-19)، عند الوفاء بالالتزامات التي تعهّدت بها في خطة التنمية المستدامة لعام 2030، وعند وضع البرامج الدولية والإقليمية ذات الصلة، وكذا خطط العمل والاستراتيجيات والبرامج الوطنية، مطبِّقةً في ذلك مبدأ عدم ترك أحد خلف الركب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxtGA">
+        <num>20-</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على اتخاذ التدابير المناسبة لحماية أطفال الشعوب الأصلية، ولا سيما الفتيات والشباب، من جميع أشكال العنف، وضمان التحقيق في جميع انتهاكات حقوق الإنسان والتجاوزات المرتكبة ضدهم، ومحاسبة الجناة، واتخاذ التدابير الوقائية المناسبة، وإتاحة سبل الانتصاف والجبر الفعالة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxtGA">
+        <num>21-</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">
+            <span class="italic">	يدعو</span> الدول إلى الاعتراف على النحو الواجب بالمعاهدات والاتفاقات القائمة وغيرها من الترتيبات البناءة المبرمة بين الدول والشعوب الأصلية ومراعاتها وإنفاذها من أجل النهوض بحقوق الشعوب الأصلية وتحقيق إعمالها، ويشجع على إبرام معاهدات واتفاقات جديدة كوسيلة لإعمال الحقوق المؤكدة في إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_255" class="SingleTxtGA">
+        <num>22-</num>
+        <content eId="para_255__content">
+          <p xml:space="preserve">
+            <span class="italic">	يقرّ</span> بجهود آلية الخبراء المعنية بحقوق الشعوب الأصلية والمقرر الخاص المعني بحقوق الشعوب الأصلية والمنتدى الدائم المعني بقضايا الشعوب الأصلية من أجل تحسين التكامل وتجنب الازدواجية بين التقارير التي تصدر عن هذه الجهات ويشجعها على توطيد التعاون والتنسيق بينها وعلى تكثيف جهودها المبذولة لتعزيز حقوق الشعوب الأصلية، بما في ذلك في المعاهدات وفي إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية، بما يشمل متابعة المؤتمر العالمي المعني بالشعوب الأصلية، ويدعو هذه الجهات إلى مواصلة العمل بتعاون وثيق مع جميع آليات مجلس حقوق الإنسان وهيئات معاهدات حقوق الإنسان، كل في إطار ولايته؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxtGA">
+        <num>23-</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى رئيس مجلس حقوق الإنسان أن ينظم مشاركة ممثلي الشعوب الأصلية والمؤسسات التي أنشأتها حسب الأصول من المناطق الاجتماعية - الثقافية السبع للشعوب الأصلية، بالتشاور مع آلية الخبراء المعنية بحقوق الشعوب الأصلية وبدعم من المفوضية السامية، لإجراء جلسات تحاور مع المقرر الخاص المعني بحقوق الشعوب الأصلية ومع آلية الخبراء المعنية بحقوق الشعوب الأصلية في الدورة السابعة والخمسين للمجلس؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="SingleTxtGA">
+        <num>24-</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">	<span class="italic">يشجّع</span> على وضع عملية وإنشاء آلية تهدفان إلى تيسير العمل، على الصعيد الدولي، لإعادة الأغراض الثقافية للشعوب الأصلية ورفات موتاها إلى أوطانها الأصلية، وذلك بالتعاون مع هذه الشعوب، ومن خلال الجهد المتواصل لمنظمة الأمم المتحدة للتربية والعلم والثقافة بوجه الخصوص، والمنظمة العالمية للملكية الفكرية، وآلية الخبراء المعنية بحقوق الشعوب الأصلية، والمقرر الخاص المعني بحقوق الشعوب الأصلية، والمنتدى الدائم المعني بقضايا الشعوب الأصلية، والدول، وسائر الأطراف المعنية وفقاً لولاياتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_324" class="SingleTxtGA">
+        <num>25-</num>
+        <content eId="para_324__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> أن هيئات معاهدات الأمم المتحدة آلياتٌ ذات أهمية في تعزيز حقوق الإنسان وحمايتها، ويشجّع الدول على إيلاء اعتبار جدي لتوصياتها، بما فيها تلك المتعلقة بالشعوب الأصلية، في تطبيق المعاهدات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_349" class="SingleTxtGA">
+        <num>26-</num>
+        <content eId="para_349__content">
+          <p xml:space="preserve">	<span class="italic">يرحّب</span> بإسهام الاستعراض الدوري الشامل في إعمال حقوق الشعوب الأصلية، ويشجّع على المتابعة الفعالة لتوصيات الاستعراض المقبولة بشأن الشعوب الأصلية، ويدعو الدول إلى أن تقدم أثناء استعراض الحالة فيها، حسب الاقتضاء، معلومات عن حالة حقوق الشعوب الأصلية، بما فيها التدابير المتخذة لتحقيق غايات إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_375" class="SingleTxtGA">
+        <num>27-</num>
+        <content eId="para_375__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تسعى إلى تحقيق غايات إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية بسبل منها التعامل بحسن نية والتحاور المستدام مع الشعوب الأصلية، ومع المجتمع المدني والأوساط الأكاديمية والحكومات المحلية وهيئات الأمم المتحدة وسائر الجهات المعنية صاحبة المصلحة، وباعتماد تدابير تشمل خطط عمل أو تشريعات أو غيرها من الأطر الوطنية، حسب الاقتضاء، وتنفيذها بالتشاور والتعاون مع الشعوب الأصلية، مع مراعاة استخدام لغاتها، ويرحب بوضع عدد من الدول خطط عمل وطنية وتشريعات محلية لتنفيذ الإعلان بمشاركة الشعوب الأصلية مشاركةً كاملة وذات مغزى، أو بالعمل على وضعها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_402" class="SingleTxtGA">
+        <num>28-</num>
+        <content eId="para_402__content">
+          <p xml:space="preserve">
+            <span class="italic">	يهيب</span> بالدول في جميع المناطق التي لم تصدّق على اتفاقية منظمة العمل الدولية بشأن الشعوب الأصلية والقبلية لعام 1989 (رقم 169) أو لم تنضم إليها بعدُ، أن تنظر في القيام بذلك، مع مراعاة مساهمتها في تعزيز حقوق الشعوب الأصلية وحمايتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_430" class="SingleTxtGA">
+        <num>29-</num>
+        <content eId="para_430__content">
+          <p xml:space="preserve">	<span class="italic">يرحّب</span> بدور المؤسسات الوطنية لحقوق الإنسان المنشأة وفقاً للمبادئ المتعلقة بمركز المؤسسات الوطنية لتعزيز حقوق الإنسان وحمايتها (مبادئ باريس) في النهوض بقضايا الشعوب الأصلية، ويسلّم بأهمية تطوير تلك المؤسسات قدراتها وتعزيزها، عند الاقتضاء، لكي تؤدي هذا الدور بفعالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_459" class="SingleTxtGA">
+        <num>30-</num>
+        <content eId="para_459__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول على أن تقوم، وفقاً لسياقاتها وخصائصها الوطنية ذات الصلة، بجمع بيانات مصنفة بحسب الإثنية والدخل والنوع الاجتماعي والسن والعرق والوضع من حيث الهجرة والإعاقة والموقع الجغرافي أو غير ذلك من العوامل، حسبما يكون مناسباً، ونشرها نشراً آمناً من أجل رصد وتحسين آثار سياسات واستراتيجيات وبرامج التنمية الرامية إلى تحسين رفاه الشعوب الأصلية وأفرادها وإلى مكافحة جميع أشكال العنف والتمييز، بما فيها أشكال التمييز المتعددة والمتقاطعة، التي تستهدفهم والقضاء عليها، وأن تراعي الاحتياجات والأولويات الخاصة للشعوب الأصلية في خطط التعافي من جائحة كوفيد-19، وأن تدعم العمل الرامي إلى تحقيق أهداف التنمية المستدامة وخطة عام 2030، وأن تعمل مع الشعوب الأصلية من أجل تعزيز التكنولوجيات والممارسات والجهود ذات الصلة بمعالجة تغير المناخ والتصدي له؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_489" class="SingleTxtGA">
+        <num>31-</num>
+        <content eId="para_489__content">
+          <p xml:space="preserve">
+            <span class="italic">	يؤكد من جديد</span> أهمية زيادة تمكين نساء وفتيات الشعوب الأصلية، بمن فيهن النساء والفتيات ذوات الإعاقة، سياسياً واجتماعياً واقتصادياً، بطرق منها ضمان حصولهن على تعليم جيّد وشامل لهن، بما في ذلك التعليم المشترك بين الثقافات والمتعدد اللغات، ومن خلال مشاركتهن المجدية في الاقتصاد عن طريق التصدي لأشكال التمييز المتعددة والمتقاطعة وللعقبات التي تعترضهن، بما فيها العنف، كما يؤكد أهمية تعزيز مشاركتهن في عمليات اتخاذ القرار ذات الصلة على جميع المستويات وفي جميع المجالات، مع احترام وحماية معارفهن التقليدية والتراثية، لافتاً الانتباه إلى أهمية إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية بالنسبة إلى نساء وفتيات الشعوب الأصلية، ويشجع الدول على النظر بجدية في التوصيات المذكورة أعلاه، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_520" class="SingleTxtGA">
+        <num>32-</num>
+        <content eId="para_520__content">
+          <p xml:space="preserve">	<span class="italic">يدين</span> تزايد أعمال التخويف والمضايقة والانتقام التي تستهدف المدافعين عن حقوق الإنسان للشعوب الأصلية وزعماء هذه الشعوب، بمن فيهم نساء الشعوب الأصلية، وكذا ممثلي الشعوب الأصلية الذين يحضرون اجتماعات الأمم المتحدة والمكلفين بولايات الأمم المتحدة العاملين في مجال الدفاع عن حقوق الشعوب الأصلية، ويعرب عن قلقه إزاء الممارسة المتبعة في بعض البلدان، بما فيها البلدان التي تستضيف اجتماعات بشأن قضايا الشعوب الأصلية والمتمثلة في تأخير إصدار تأشيرات الدخول للمكلفين بولايات الأمم المتحدة أو ممثلي الشعوب الأصلية أو رفض إصدارها بشكل متعمد أو على أساس تمييزي، أو في تطبيق قيود إضافية على سفرهم، ما يؤثر في قدرتهم على المشاركة في هذه الاجتماعات أو العودة منها، في جملة أمور؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_552" class="SingleTxtGA">
+        <num>33-</num>
+        <content eId="para_552__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على أن تتخذ، بالتعاون مع الشعوب الأصلية، جميع التدابير اللازمة والاستجابات الطارئة، من منظور جنساني، وأن تضمن حقوق وحماية وسلامة الشعوب الأصلية وقادتها والمدافعين عن حقوق الإنسان لهذه الشعوب، بمن فيهم المدافعات، وأن تضمن منع جميع انتهاكات وتجاوزات حقوق الإنسان التي تستهدفهم والتحقيق فيها ومساءلة مرتكبيها، واتخاذ التدابير الوقائية المناسبة، وإتاحة إمكانية الوصول إلى سبل انتصاف وجبر فعالة، بما في ذلك ضمانات عدم التكرار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_585" class="SingleTxtGA">
+        <num>34-</num>
+        <content eId="para_585__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يبقي المسألة قيد نظره.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46" refersTo="#adoptionMeeting">الجلسة 46</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 تشرين الأول/أكتوبر 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد من دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
