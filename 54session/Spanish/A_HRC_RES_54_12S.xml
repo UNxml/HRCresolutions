@@ -1,0 +1,526 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/spa@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-03-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Expert Mechanism on the Rights of Indigenous Peoples" showAs="UN. Human Rights Council. Expert Mechanism on the Rights of Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Voluntary Fund for Indigenous Peoples" showAs="UN Voluntary Fund for Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Declaration on the Rights of Indigenous Peoples (2007)" showAs="UN Declaration on the Rights of Indigenous Peoples (2007)" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Decade of Indigenous Languages (2022–2032)" showAs="International Decade of Indigenous Languages (2022–2032)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INDIGENOUS PEOPLES" href="http://metadata.un.org/thesaurus/1003106" showAs="INDIGENOUS PEOPLES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANGUAGES" href="http://metadata.un.org/thesaurus/1003621" showAs="LANGUAGES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POPULAR PARTICIPATION" href="http://metadata.un.org/thesaurus/1005016" showAs="POPULAR PARTICIPATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-09" outcome="draftResolution" as="A/HRC/54/L.19" by="Australia, Bolivia (Plurinational State of), Brazil, Canada, Colombia, Costa Rica, Denmark, Ecuador, Finland, Guatemala, Iceland, Lithuania, Luxembourg, Mexico, New Zealand, Norway, Paraguay, Peru, Spain, Sweden and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/12</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 de octubre de 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">54º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 septiembre</date>
+          <date date="2023-10-13" refersTo="#endDate">13 octubre 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Tema 3 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promoción y protección de todos los derechos humanos,  civiles, políticos, económicos, sociales y culturales,  incluido el derecho al desarrollo</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos el 11 de octubre de 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/12.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Los derechos humanos y los Pueblos Indígenas</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>todas las resoluciones pertinentes de la Asamblea General, la Comisión de Derechos Humanos y el Consejo de Derechos Humanos sobre los derechos humanos y los Pueblos Indígenas,</p>
+      </container>
+      <container name="Reafirmando" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando </span>su apoyo al logro de los fines de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, aprobada por la Asamblea General en su resolución 61/295, de 13 de septiembre de 2007,</p>
+      </container>
+      <container name="Reconociendo" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que, desde su aprobación, la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas ha tenido una influencia positiva en la redacción de varias constituciones y leyes a nivel nacional y local, y ha contribuido al desarrollo progresivo de marcos jurídicos, jurisprudencia y políticas internacionales y nacionales en relación con los Pueblos Indígenas,</p>
+      </container>
+      <container name="Apreciando" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Apreciando </span>la labor que se está haciendo para promover, proteger y hacer efectivos los derechos de los Pueblos Indígenas, recordando el compromiso contraído en la reunión plenaria de alto nivel de la Asamblea General conocida como Conferencia Mundial sobre los Pueblos Indígenas de estudiar formas de reforzar la participación de representantes e instituciones de los Pueblos Indígenas debidamente establecidos por estos en las reuniones de los órganos pertinentes de las Naciones Unidas sobre asuntos que les conciernan, y acogiendo con beneplácito la resolución 71/321 de la Asamblea General, de 8 de septiembre de 2017,</p>
+      </container>
+      <container name="Reconociendo" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>la participación de representantes e instituciones de los Pueblos Indígenas debidamente establecidos por estos en las reuniones de diversos órganos de las Naciones Unidas y de sus órganos subsidiarios, en particular el Consejo de Derechos Humanos y su Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas, así como el Foro Permanente para las Cuestiones Indígenas,</p>
+      </container>
+      <container name="Tomando nota" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Tomando nota</span> del documento final de la Reunión de Diálogo sobre el Fortalecimiento de la Participación de los Pueblos Indígenas en las Naciones Unidas, organizada por instituciones y organizaciones indígenas y celebrada en Quito del 27 al 30 de enero de 2020,</p>
+      </container>
+      <container name="Recordando" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>el informe resumido de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos acerca del diálogo interactivo de medio día de duración celebrado entre períodos de sesiones el 15 de julio de 2019 sobre las maneras de reforzar la participación de representantes e instituciones de los Pueblos Indígenas en las sesiones del Consejo de Derechos Humanos sobre cuestiones que les conciernan<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		A/HRC/44/35.</p></authorialNote>, y el informe de la Oficina del Alto Comisionado acerca de la mesa redonda entre períodos de sesiones celebrada el 16 de julio de 2021 sobre las maneras de reforzar la participación de representantes e instituciones de los Pueblos Indígenas en las sesiones del Consejo sobre asuntos que les conciernan<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/HRC/49/69.</p></authorialNote>,</p>
+      </container>
+      <container name="Reconociendo" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>la importancia que tiene el Fondo de Contribuciones Voluntarias de las Naciones Unidas para los Pueblos Indígenas para apoyar la participación de representantes e instituciones de los Pueblos Indígenas debidamente establecidos por estos en las reuniones que les conciernan,</p>
+      </container>
+      <container name="Tomando nota" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Tomando nota</span> del estudio del Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas sobre el impacto de la militarización en los derechos de los Pueblos Indígenas<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		A/HRC/54/52.</p></authorialNote> y del informe del Mecanismo de Expertos titulado “Esfuerzos destinados a aplicar la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas: el establecimiento de mecanismos eficaces de vigilancia a nivel nacional y regional para la aplicación de la Declaración”<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/HRC/EMRIP/2023/3.</p></authorialNote>, y alentando a los Estados a que consideren la posibilidad de dar aplicación a las opiniones que en ellos figuran,</p>
+      </container>
+      <container name="Tomando nota también" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Tomando nota también</span> del informe del Relator Especial sobre los derechos de los Pueblos Indígenas titulado “Financiación verde, una transición justa para proteger los derechos de los Pueblos Indígenas”<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		A/HRC/54/31.</p></authorialNote>, en que el Relator Especial alienta a todos los Estados a que consideren las recomendaciones que en él figuran, y reconociendo los esfuerzos realizados por la Relatoría Especial para implicar a los Pueblos Indígenas en la preparación de los informes anuales y nacionales,</p>
+      </container>
+      <container name="Recordando" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>el informe de la Oficina del Alto Comisionado dedicado a la mesa redonda anual de medio día de duración sobre los derechos de los Pueblos Indígenas celebrada el 28 de septiembre de 2022, relativa a la repercusión en los Pueblos Indígenas de los planes de recuperación social y económica en el contexto de la pandemia de enfermedad por coronavirus (COVID‑19), con especial hincapié en la seguridad alimentaria<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		A/HRC/53/43.</p></authorialNote>,</p>
+      </container>
+      <container name="Tomando nota" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Tomando nota</span> de la recomendación general núm. 39 (2022), relativa a los derechos de las mujeres y las niñas indígenas, del Comité para la Eliminación de la Discriminación contra la Mujer, así como de la observación general núm. 26 (2023), relativa a los derechos del niño y el medio ambiente, con particular atención al cambio climático, del Comité de los Derechos del Niño, y alentando a los Estados a que consideren las recomendaciones que en ellas figuran y también a que las traduzcan a las lenguas indígenas,</p>
+      </container>
+      <container name="Destacando" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Destacando </span>la necesidad de prestar particular atención a los derechos y las necesidades de las mujeres, los niños, los jóvenes, las personas de edad, las personas con discapacidad y las personas en situación de vulnerabilidad indígenas, y de intensificar los esfuerzos para prevenir y eliminar todas las formas de violencia y discriminación a este respecto, como se establece en la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas y en el documento final de la Conferencia Mundial sobre los Pueblos Indígenas, que fue aprobado por consenso por la Asamblea General en 2014<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Resolución 69/2 de la Asamblea General.</p></authorialNote>,</p>
+      </container>
+      <container name="Reconociendo" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que los Pueblos Indígenas son de los primeros en tener que afrontar las consecuencias directas del cambio climático, habida cuenta de la protección que brindan al medio ambiente y a sus recursos y de su estrecha relación con ellos, y acogiendo con beneplácito el papel que desempeñan los Pueblos Indígenas, y en particular la participación de las mujeres y niñas indígenas, que se han enfrentado con resiliencia a los efectos adversos del cambio climático, en el logro del objetivo de la Convención Marco de las Naciones Unidas sobre el Cambio Climático, el propósito y los objetivos del Acuerdo de París y las metas y objetivos de la Agenda 2030 para el Desarrollo Sostenible,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo también</span> las repercusiones cada vez mayores del cambio climático en el disfrute de los derechos humanos y su impacto específico en el disfrute de los derechos y modos de vida de los Pueblos Indígenas de todo el mundo, y recordando los preámbulos del Acuerdo de París y de la decisión 1/CP.21 sobre la aprobación del Acuerdo de París<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		FCCC/CP/2015/10/Add.1.</p></authorialNote>, en los que se reconocía que los Estados, al adoptar medidas para hacer frente al cambio climático, debían respetar, promover y tomar en consideración sus respectivas obligaciones con respecto a los derechos de los Pueblos Indígenas, el párrafo 135 de la decisión 1/CP.21, en el que se reconocía la necesidad de reforzar los conocimientos, las tecnologías, las prácticas y los esfuerzos de los Pueblos Indígenas para hacer frente al cambio climático y darle respuesta, y el párrafo 36 del documento final de la Conferencia Mundial sobre los Pueblos Indígenas,</p>
+      </container>
+      <container name="Reconociendo además" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo además</span> que muchos ecosistemas, incluidos los ecosistemas acuáticos, están amenazados por la mala gestión y el desarrollo insostenible y afrontan mayor incertidumbre y riesgos debido al cambio climático y a otros factores, e instando a los Estados a que reconozcan, respeten y promuevan los enfoques encabezados por los Pueblos Indígenas en relación con la gestión de ecosistemas y el derecho de los Pueblos Indígenas a la conservación y protección del medio ambiente y de la capacidad productiva de sus tierras o territorios y recursos, conforme a lo estipulado en el artículo 29 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, por medio de su participación plena y efectiva,</p>
+      </container>
+      <container name="Teniendo presente" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Teniendo presente</span> que los Pueblos Indígenas se enfrentan a considerables obstáculos en lo que respecta al disfrute de su derecho al mejoramiento de sus condiciones económicas y sociales, entre otras esferas, en la vivienda, según lo establecido en el artículo 21 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, como consecuencia de distintos factores, como la historia de colonización y desposesión, las tasas desproporcionalmente elevadas de sinhogarismo y la vulnerabilidad a los desalojos forzosos, la usurpación de tierras y los efectos adversos del cambio climático, y reconociendo la necesidad de velar por que los Pueblos Indígenas puedan vivir en condiciones de paz, seguridad y dignidad y disfrutar del derecho al mejoramiento de sus condiciones económicas y sociales, entre otras esferas, en la vivienda, sin discriminación,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Poniendo de relieve</span> que las empresas transnacionales y otras empresas tienen la responsabilidad de respetar todos los derechos humanos y deben establecer procesos de diligencia debida en materia de derechos humanos para identificar, prevenir, mitigar y dar cuenta de cómo abordan los efectos de sus actividades sobre los derechos humanos, así como de prestar especial atención a los efectos de sus actividades en los derechos colectivos de los Pueblos Indígenas, y reafirmando la responsabilidad primordial de los Estados de respetar, proteger y hacer realidad los derechos humanos y su deber de proteger contra los abusos de los derechos humanos cometidos en su territorio o su jurisdicción por terceros, incluidas las empresas transnacionales y otras empresas, entre otras cosas regulando dichas empresas y garantizando el acceso a recursos efectivos en caso de abuso,</p>
+      </container>
+      <container name="Observando con aprecio" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	Observando con aprecio</span> el establecimiento por la Conferencia de las Partes en la Convención Marco de las Naciones Unidas sobre el Cambio Climático, en su 24º período de sesiones, del Grupo de Trabajo de Facilitación de la Plataforma de las Comunidades Locales y los Pueblos Indígenas, en la que participan en pie de igualdad representantes de los Pueblos Indígenas y de las partes en la Convención Marco, para promover los objetivos y el cumplimiento de sus funciones, y haciendo notar el segundo plan de trabajo trienal de la Plataforma para el período 2022-2024,</p>
+      </container>
+      <container name="Reconociendo" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> la importancia de garantizar la participación plena y efectiva de los Pueblos Indígenas en los procesos de toma de decisiones destinados a dar aplicación al Marco Mundial de Biodiversidad de Kunming-Montreal en virtud del Convenio sobre la Diversidad Biológica,</p>
+      </container>
+      <container name="Teniendo presente" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Teniendo presente</span> la importancia de apoyar el empoderamiento de las mujeres, los jóvenes, las personas de edad, las personas con discapacidad, las personas en situación de vulnerabilidad y los niños indígenas y de fomentar su capacidad, en función de su edad y madurez, entre otros fines para permitir su participación plena y efectiva en los procesos de adopción de decisiones sobre asuntos que les conciernan directamente, como políticas, programas y recursos, en su caso, que tengan por objeto fomentar su bienestar, en particular en los ámbitos del acceso equitativo y universal a servicios públicos de calidad, una vivienda adecuada, servicios de salud, la salud mental, la seguridad alimentaria y una mejor nutrición —entre otras cosas por medio de la agricultura familiar y la pesca—, la educación —incluida la educación intercultural y multilingüe—, el empleo y la transmisión de las lenguas y los conocimientos, innovaciones y prácticas tradicionales, y también la importancia de adoptar medidas para promover la conciencia y el entendimiento de sus derechos,</p>
+      </container>
+      <container name="Tomando nota con aprecio" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	Tomando nota con aprecio</span> de la resolución WHA76.16 titulada “La salud de los Pueblos Indígenas”, aprobada el 30 de mayo de 2023 por la 76ª Asamblea Mundial de la Salud,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Expresa su reconocimiento</span> por el informe del Alto Comisionado de las Naciones Unidas para los Derechos Humanos sobre los derechos de los Pueblos Indígenas<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		A/HRC/54/39.</p></authorialNote> y le solicita que siga presentando al Consejo de Derechos Humanos un informe anual sobre los derechos de los Pueblos Indígenas, en lenguaje sencillo y en formato de lectura fácil, con información sobre las novedades pertinentes de los órganos y mecanismos de derechos humanos y las actividades realizadas por la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, en su sede y sobre el terreno, que contribuyan a la promoción, el respeto y la plena aplicación de las disposiciones de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, poniendo de relieve los desafíos y los principales logros, y que haga un seguimiento de la efectividad de la Declaración;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la labor de la Relatoría Especial sobre los derechos de los Pueblos Indígenas y alienta a todos los Gobiernos a que cooperen plenamente con ella en el desempeño de las tareas y funciones previstas en su mandato, entre otras cosas considerando seriamente la posibilidad de dar una respuesta favorable a sus solicitudes de visita, facilitándole toda la información disponible que pida en sus comunicaciones y atendiendo con prontitud a sus llamamientos urgentes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito también</span> la labor del Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas, incluidos su informe anual para 2023<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		A/HRC/54/64.</p></authorialNote> y sus actividades entre períodos de sesiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Secretario General y a la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos que sigan proporcionando todos los medios de asistencia humanos, técnicos y financieros para que el Mecanismo de Expertos pueda cumplir su mandato de manera plena y efectiva, lo que incluye servicios de transmisión por Internet para sus reuniones anuales, con traducción en tiempo real para el acceso a la comunicación, y la traducción puntual a todos los idiomas oficiales de las Naciones Unidas y la distribución de los informes que el Mecanismo de Expertos presente al Consejo de Derechos Humanos, así como la traducción, antes de los períodos de sesiones, de sus estudios e informes, de conformidad con la resolución 33/25 del Consejo, de 30 de septiembre de 2016;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Alienta encarecidamente</span> a todas las partes interesadas, incluidos los Estados y los Pueblos Indígenas, a que estén presentes y participen activamente en los períodos de sesiones del Mecanismo de Expertos, hagan aportaciones a los estudios e informes elaborados por este y entablen un diálogo con él, también durante sus actividades entre períodos de sesiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>los esfuerzos de los Estados, los Pueblos Indígenas, las entidades de las Naciones Unidas y otras partes interesadas por colaborar con el Mecanismo de Expertos en el marco de su mandato actual, y los alienta encarecidamente a que sigan haciéndolo, entre otras cosas para facilitar el diálogo, cuando todas las partes lo consideren oportuno, y para prestar asistencia técnica y orientaciones para lograr los fines de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, así como la aplicación por los Estados de las recomendaciones que han aceptado en el marco del examen periódico universal y de las observaciones finales formuladas por los órganos de tratados en relación con los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a todas las partes a que consideren la posibilidad de que el Mecanismo de Expertos inicie sus actividades en los países a petición de los Estados y de los Pueblos Indígenas, a que aprovechen la oportunidad de diálogo que ofrecen esas solicitudes y a que faciliten los acuerdos de las misiones de colaboración con los países para que el Mecanismo de Expertos pueda cumplir plenamente su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados e invita a otros posibles donantes de carácter público o privado a que hagan aportaciones al Fondo de Contribuciones Voluntarias de las Naciones Unidas para los Pueblos Indígenas, que constituye un medio importante para promover los derechos de los Pueblos Indígenas en todo el mundo y dentro del sistema de las Naciones Unidas, y a que apoyen el plan de acción para todo el sistema a fin de asegurar un enfoque coherente para lograr los fines de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>la proclamación del período 2022-2032 como Decenio Internacional de las Lenguas Indígenas a fin de llamar la atención sobre la grave pérdida de lenguas de los Pueblos Indígenas, entre ellas las lenguas de señas, y la apremiante necesidad de conservarlas, revitalizarlas y promoverlas y de adoptar medidas urgentes con ese fin a nivel nacional e internacional<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Véase la resolución 74/135 de la Asamblea General.</p></authorialNote>, recuerda también el establecimiento, conjuntamente con los Pueblos Indígenas, del Equipo de Trabajo Mundial para un Decenio de Acción en favor de las Lenguas Indígenas, y exhorta a los Estados, las entidades de las Naciones Unidas y otras partes interesadas a que promuevan la participación efectiva y significativa de los Pueblos Indígenas en la dirección y celebración de las actividades de conmemoración del Decenio a nivel nacional e internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota </span>del Plan de Acción Mundial para el Decenio Internacional de las Lenguas Indígenas y exhorta a los Estados y a las entidades de las Naciones Unidas, en particular la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura, a que adopten medidas concretas para aplicarlo a nivel local y nacional, conjuntamente con los Pueblos Indígenas, entre otras cosas tratando de garantizar la participación plena y significativa de los Pueblos Indígenas en la elaboración y posterior aplicación de estrategias, iniciativas, políticas y leyes, y entablando un diálogo fructífero y continuado con otras partes interesadas pertinentes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>el derecho de los Pueblos Indígenas a establecer sus propios medios de información en sus propios idiomas y a acceder a todos los demás medios de información no indígenas sin discriminación, de acuerdo con lo estipulado en el artículo 16, párrafo 1, de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, y exhorta a los Estados a que promuevan y examinen las políticas, prácticas y programas de financiación nacionales relativos a los medios de información indígenas, entre otras cosas por lo que respecta al fomento de la capacidad y la producción de contenidos en las lenguas indígenas por parte de productores de contenidos y profesionales de los medios de información indígenas, en especial mujeres indígenas, y a que fomenten la cooperación internacional, el intercambio de conocimientos y la colaboración entre los medios de información indígenas y otros asociados, incluidos los medios de difusión generalistas y los Gobiernos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados a que traduzcan e interpreten a lenguas indígenas, incluidas las lenguas de señas, la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas y le den difusión, según proceda, y a que cooperen con la Oficina del Alto Comisionado, la Relatoría Especial sobre los derechos de los Pueblos Indígenas y el Mecanismo de Expertos en la traducción de sus informes para hacerlos accesibles a los Pueblos Indígenas, también publicándolos en lenguaje sencillo y en formato de lectura fácil;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>que el tema de la mesa redonda anual de medio día de duración sobre los derechos de los Pueblos Indígenas que se celebrará durante el 57º período de sesiones del Consejo de Derechos Humanos serán las leyes, políticas, decisiones judiciales y otras medidas que los Estados hayan adoptado, de conformidad con el artículo 38 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, para lograr los fines de la Declaración, y solicita a la Oficina del Alto Comisionado que aliente y facilite la participación en ella de las mujeres indígenas, que se asegure de que el debate sea totalmente accesible e inclusivo para las personas con discapacidad, y que prepare un informe resumido de los debates y lo presente al Consejo antes de su 59º período de sesiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con aprecio</span> el taller de expertos de cuatro días de duración organizado por la Oficina del Alto Comisionado sobre las posibles formas de mejorar la participación de los Pueblos Indígenas en la labor del Consejo de Derechos Humanos, que se celebró del 21 al 24 de noviembre de 2022, incluidos el debate y las recomendaciones resultantes del taller que se recogen en el informe resumido preparado por la Oficina del Alto Comisionado<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		A/HRC/53/44.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a la Oficina del Alto Comisionado que prepare un informe de balance, teniendo en cuenta los anteriores ejercicios de balance incluidos en los informes del Secretario General de 2012 y 2020<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		A/HRC/21/24 y A/75/255.</p></authorialNote> y en la nota del Presidente de la Asamblea General de 2016<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		A/70/990.</p></authorialNote>, en el que se recopilen los procedimientos vigentes en lo referente a la participación de los Pueblos Indígenas en las Naciones Unidas y se pongan de relieve las lagunas existentes y las buenas prácticas, y que presente dicho informe al Consejo de Derechos Humanos en su 57º período de sesiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="SingleTxtG">
+        <num>16.</num>
+        <list eId="para_144_list">
+          <intro eId="para_144_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decide </span>seguir examinando y formulando nuevas acciones y medidas que sean necesarias para posibilitar y facilitar la participación de representantes e instituciones de los Pueblos Indígenas debidamente establecidos por estos en la labor del Consejo de Derechos Humanos y, en este sentido:</p>
+          </intro>
+          <point eId="para_144_list_point_a">
+            <num>a)</num>
+            <content eId="para_144_list_point_a_content">
+              <p xml:space="preserve">	Decide organizar una reunión entre períodos de sesiones de dos días de duración antes del 57º período de sesiones del Consejo de Derechos Humanos y otra reunión entre períodos de sesiones de dos días de duración antes del 58º período de sesiones a fin de que los Estados, los organismos, fondos y programas pertinentes de las Naciones Unidas, las organizaciones internacionales, los Pueblos Indígenas de las siete regiones socioculturales indígenas, las instituciones nacionales de derechos humanos y las organizaciones de la sociedad civil puedan mantener un diálogo sobre maneras concretas de aumentar la participación de los Pueblos Indígenas en la labor del Consejo de Derechos Humanos;</p>
+            </content>
+          </point>
+          <point eId="para_144_list_point_b">
+            <num>b)</num>
+            <content eId="para_144_list_point_b_content">
+              <p xml:space="preserve">	Solicita a la Presidencia del Consejo de Derechos Humanos que designe un cofacilitador de los Estados y un cofacilitador de los Pueblos Indígenas para cada reunión entre períodos de sesiones;</p>
+            </content>
+          </point>
+          <point eId="para_144_list_point_c">
+            <num>c)</num>
+            <content eId="para_144_list_point_c_content">
+              <p xml:space="preserve">	Decide que los cofacilitadores, junto con la Oficina del Alto Comisionado, se encargarán de preparar un informe conjunto sobre los debates y los resultados de las reuniones, que incluya recomendaciones concretas, y de presentarlo al Consejo antes de su 59º período de sesiones;</p>
+            </content>
+          </point>
+          <point eId="para_144_list_point_d">
+            <num>d)</num>
+            <content eId="para_144_list_point_d_content">
+              <p xml:space="preserve">	Solicita a la Oficina del Alto Comisionado que proporcione, para las mencionadas reuniones entre períodos de sesiones de dos días de duración, todos los servicios e instalaciones necesarios para que los debates sean plenamente accesibles para las personas con discapacidad;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="italic">Invita </span>al Fondo de Contribuciones Voluntarias de las Naciones Unidas para los Pueblos Indígenas a que, en el marco de las normas y los procedimientos establecidos por el Fondo, facilite la participación de representantes e instituciones de los Pueblos Indígenas debidamente establecidos por estos en las mencionadas reuniones entre períodos de sesiones, promoviendo una representación regional, de género e intergeneracional equilibrada;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>al Mecanismo de Expertos a continuar sus debates sobre la forma de facilitar la participación de representantes e instituciones de los Pueblos Indígenas debidamente establecidos por estos en las sesiones del Consejo de Derechos Humanos en que se traten cuestiones que les conciernan;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados a que tengan debidamente en cuenta los derechos de los Pueblos Indígenas y todas las formas de violencia y discriminación, incluidas las formas múltiples e interseccionales de discriminación, a que se enfrentan los Pueblos Indígenas y las personas indígenas, entre las que cabe incluir los retrocesos y mayores obstáculos causados por la pandemia de enfermedad por coronavirus (COVID‑19), a la hora de cumplir los compromisos contraídos en la Agenda 2030 para el Desarrollo Sostenible y elaborar programas internacionales y regionales pertinentes, así como planes de acción, estrategias y programas nacionales, aplicando el principio de no dejar a nadie atrás;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados a que adopten las medidas adecuadas para proteger a los niños indígenas, en particular las niñas y los jóvenes indígenas, de todas las formas de violencia y a que velen por que se investiguen todas las violaciones y abusos de los derechos humanos que se cometan contra ellos, por que los autores de tales actos rindan cuentas, por que existan las medidas de protección adecuadas y por que se disponga de acceso a recursos efectivos y a reparación;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados a que reconozcan, acaten y hagan cumplir debidamente los tratados, acuerdos y otros arreglos constructivos vigentes suscritos entre los Estados y los Pueblos Indígenas con miras a promover los derechos de los Pueblos Indígenas y hacerlos efectivos, y alienta a que se establezcan nuevos instrumentos como medio para hacer realidad los derechos consagrados en la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_255" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_255__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>los esfuerzos realizados por el Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas, la Relatoría Especial sobre los derechos de los Pueblos Indígenas y el Foro Permanente para las Cuestiones Indígenas para aumentar la complementariedad y evitar duplicaciones en sus informes, los alienta a que intensifiquen su actual cooperación y coordinación y su labor en curso de promoción de los derechos de los Pueblos Indígenas, entre otras cosas en los tratados y en la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, incluido el seguimiento de la Conferencia Mundial sobre los Pueblos Indígenas, y los invita a que sigan trabajando en estrecha cooperación con todos los mecanismos del Consejo de Derechos Humanos y los órganos creados en virtud de tratados de derechos humanos en el marco de sus respectivos mandatos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a la Presidencia del Consejo de Derechos Humanos que organice la participación de representantes e instituciones de los Pueblos Indígenas de las siete regiones socioculturales indígenas debidamente establecidos por estos, en consulta con el Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas y con el apoyo de la Oficina del Alto Comisionado, en los diálogos interactivos que se celebren con el Relator Especial sobre los derechos de los Pueblos Indígenas y con el Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas en el 57º período de sesiones del Consejo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a que se establezca un proceso y un mecanismo destinados a facilitar la repatriación internacional de los restos mortales y bienes culturales de los Pueblos Indígenas, en cooperación con los Pueblos Indígenas y mediante la colaboración continua con la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura en particular, la Organización Mundial de la Propiedad Intelectual, el Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas, la Relatoría Especial sobre los derechos de los Pueblos Indígenas, el Foro Permanente para las Cuestiones Indígenas, los Estados y todas las demás partes interesadas pertinentes, de conformidad con sus mandatos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_324" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_324__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>que los órganos creados en virtud de tratados de las Naciones Unidas son mecanismos importantes para la promoción y protección de los derechos humanos, y alienta a los Estados a que, en la aplicación de los tratados, tengan debidamente en cuenta sus recomendaciones, incluidas las relacionadas con los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_349" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_349__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la contribución del examen periódico universal a la efectividad de los derechos de los Pueblos Indígenas, alienta a que se haga un seguimiento efectivo de las recomendaciones relativas a los Pueblos Indígenas aceptadas en el marco del examen e invita a los Estados a que durante sus exámenes aporten, según proceda, información sobre la situación de los derechos de los Pueblos Indígenas, incluidas las medidas adoptadas para lograr los fines de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_375" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_375__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados a que logren los fines de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, entre otras cosas colaborando de buena fe y manteniendo un diálogo con los Pueblos Indígenas, así como con la sociedad civil, los círculos académicos, los gobiernos locales, los órganos de las Naciones Unidas y otros interesados pertinentes, y adoptando y aplicando medidas, como planes de acción nacionales, instrumentos legislativos u otros marcos, según sea necesario, en consulta y cooperación con los Pueblos Indígenas, dando cabida al uso de sus lenguas, y acoge con beneplácito que varios Estados hayan elaborado o estén elaborando planes de acción nacionales y leyes internas para aplicar la Declaración con la participación plena y significativa de los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_402" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_402__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados de todas las regiones que todavía no lo hayan hecho a que consideren la posibilidad de ratificar el Convenio sobre Pueblos Indígenas y Tribales, 1989 (núm. 169), de la Organización Internacional del Trabajo, o de adherirse a él, habida cuenta de su contribución a la promoción y protección de los derechos de los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_430" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_430__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> el papel que tienen las instituciones nacionales de derechos humanos establecidas de conformidad con los principios relativos al estatuto de las instituciones nacionales de promoción y protección de los derechos humanos (Principios de París) en la promoción de las cuestiones indígenas, y reconoce la importancia de que tales instituciones desarrollen y refuercen su capacidad, según proceda, para desempeñar con efectividad dicho papel;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_459" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_459__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los Estados a que, en función de su contexto y sus características nacionales pertinentes, recopilen y difundan de manera segura datos desglosados por origen étnico, ingresos, género, edad, raza, condición migratoria, discapacidad, ubicación geográfica u otros factores, según proceda, a fin de someter a seguimiento y mejorar los efectos de las políticas, estrategias y programas de desarrollo que tengan por objeto aumentar el bienestar de los Pueblos Indígenas y las personas indígenas, combatir y eliminar todas las formas de violencia y discriminación, entre ellas las formas múltiples e interseccionales de discriminación, de que son objeto, integrar las necesidades y prioridades específicas de los Pueblos Indígenas en los planes de recuperación de la COVID‑19, apoyar la labor encaminada al logro de los Objetivos de Desarrollo Sostenible y la implementación de la Agenda 2030 y trabajar con los Pueblos Indígenas a fin de reforzar las tecnologías y las prácticas e intensificar los esfuerzos para hacer frente y responder al cambio climático;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_489" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_489__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>la importancia de promover el empoderamiento político, social y económico de las mujeres y las niñas indígenas, incluidas las mujeres y niñas indígenas con discapacidad, entre otras cosas garantizándoles el acceso a una educación de calidad e inclusiva, lo que incluye una educación intercultural y multilingüe, y la participación efectiva en la economía mediante la eliminación de las formas múltiples e interseccionales de discriminación y los obstáculos a que se enfrentan, incluida la violencia, y de promover su participación en los procesos pertinentes de adopción de decisiones a todos los niveles y en todos los ámbitos, respetando y protegiendo al mismo tiempo sus conocimientos tradicionales y ancestrales, dada la importancia que tiene para ellas la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, y alienta a los Estados a que consideren seriamente las recomendaciones mencionadas, según proceda;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_520" class="SingleTxtG">
+        <num>32.</num>
+        <content eId="para_520__content">
+          <p xml:space="preserve">	<span class="italic">Condena </span>el aumento de los casos de intimidación, acoso y represalias de que son objeto los defensores indígenas de los derechos humanos y los dirigentes indígenas, incluidas las mujeres indígenas, así como los representantes de los Pueblos Indígenas que asisten a las reuniones de las Naciones Unidas y los titulares de mandatos de las Naciones Unidas que se ocupan de los derechos de los Pueblos Indígenas, y expresa su preocupación ante el hecho de que algunos países, incluidos países que ejercen de anfitriones de reuniones dedicadas a las cuestiones indígenas, aplacen o denieguen intencionadamente o de manera discriminatoria la concesión de visados de entrada a los titulares de mandatos de las Naciones Unidas o los representantes de los Pueblos Indígenas o les apliquen restricciones adicionales de viaje que interfieren, entre otras cosas, en su capacidad para participar en esas reuniones o para regresar;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_552" class="SingleTxtG">
+        <num>33.</num>
+        <content eId="para_552__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados a que adopten, conjuntamente con los Pueblos Indígenas, todas las medidas necesarias y respuestas de emergencia, con perspectiva de género, para garantizar los derechos, la protección y la seguridad de los Pueblos Indígenas, los defensores indígenas de los derechos humanos, incluidas las defensoras indígenas de los derechos humanos, y los dirigentes indígenas, y para asegurar la investigación de todas las violaciones y abusos contra los derechos humanos de que estos sean objeto, la rendición de cuentas por los autores, el establecimiento de medidas adecuadas de prevención y el acceso a recursos efectivos y a reparación, incluidas garantías de no repetición;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_585" class="SingleTxtG">
+        <num>34.</num>
+        <content eId="para_585__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>seguir ocupándose de la cuestión.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46ª" refersTo="#adoptionMeeting">46ª sesión</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 de octubre de 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
