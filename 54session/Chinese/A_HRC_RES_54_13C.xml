@@ -1,0 +1,284 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/zho@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="AGEING PERSONS" href="http://metadata.un.org/thesaurus/1000115" showAs="AGEING PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="VIOLENCE" href="http://metadata.un.org/thesaurus/1006882" showAs="VIOLENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISCRIMINATION" href="http://metadata.un.org/thesaurus/1001697" showAs="DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-06" outcome="draftResolution" as="A/HRC/54/L.20" by="Albania, Andorra, Argentina, Austria, Brazil, Chile, Colombia, Costa Rica, Croatia, Dominican Republic, Ecuador, Gambia, Georgia, Greece, Ireland, Israel, Italy, Luxembourg, Malta, Mexico, Montenegro, North Macedonia, Paraguay, Peru, Philippines, Portugal, San Marino, Slovenia, Spain, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese"> Chinese </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">第五十四届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 九月</date>
+          <date date="2023-10-13" refersTo="#endDate">13 十月 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、 经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2023年10月11日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/13.</docNumber>
+        <docTitle refersTo="#resolutionTitle">老年人的人权</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="重申" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">重申</span>所有国家均有义务尊重、保护和落实所有人权和基本自由，并重申《联合国宪章》、《世界人权宣言》、《公民及政治权利国际公约》、《经济社会文化权利国际公约》、《消除对妇女一切形式歧视公约》、《残疾人权利公约》、《消除一切形式种族歧视国际公约》和《禁止酷刑和其他残忍、不人道或有辱人格的待遇或处罚公约》，</p>
+      </container>
+      <container name="铭记" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">铭记</span>《联合国老年人原则》、2002年《政治宣言》和《马德里老龄问题国际行动计划》以及大会所有相关决议，包括2010年12月21日第65/182号、2011年12月19日第66/127号、2015年12月17日第70/164号、2020年12月14日第75/131号、2021年12月16日第76/138号和2022年12月15日第77/190号决议，</p>
+      </container>
+      <container name="回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">回顾</span>《2030年可持续发展议程》强调需要确保不让任何一个人掉队，在这方面确认老年人对社会运转以及对实现《2030年议程》的重要贡献，</p>
+      </container>
+      <container name="又回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>人权理事会关于老年人的人权的2012年9月28日第21/23号、2013年9月27日第24/20号、2016年9月29日第33/5号、2019年9月26日第42/12号、2021年10月7日第48/3号和2022年10月6日第51/4号决议，以及理事会所有其他相关决议，包括2018年9月28日第39/18号和2020年7月16日第44/7号决议，</p>
+      </container>
+      <container name="承认" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">承认</span>老年人享有所有人权问题独立专家和老龄问题不限成员名额工作组的工作，以及联合国人权事务高级专员办事处的贡献与支持，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>老年人享有所有人权问题独立专家关于暴力侵害、虐待和忽视老年人问题的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	A/HRC/54/26.</p></authorialNote>，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>人权理事会关于老年人的特别程序开展的工作，并注意到独立专家、歧视妇女和女童问题工作组、人人有权享有能达到的最高标准身心健康特别报告员、残疾人权利特别报告员和土著人民权利特别报告员的相关报告，</p>
+      </container>
+      <container name="认识到" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">认识到</span>老年人在享有人权问题上面临许多特殊挑战，其中包括预防和保护不受暴力、虐待和忽视、社会保护、食物和住房、工作和进入劳动力市场的权利、平等和不歧视、诉诸司法、新技术、教育、培训、保健支助、长期照护与支助、姑息治疗、终身学习、参与、无障碍、同工同酬和无酬照护工作等领域的挑战，</p>
+      </container>
+      <container name="强调" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">强调</span>必须提倡对老年人友好的包容性社区和环境，并提供一系列支助服务，提升老年人的尊严、自主性和独立性，使老年人能够居家养老，同时适当考虑到他们的个人喜好，</p>
+      </container>
+      <container name="注意到" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">注意到</span>新技术和新兴技术以及辅助技术在尊重老年人的自主的同时，可在社会的所有领域，包括政治、经济和社会领域促成和促进老年人的融入和参与，这十分有助于防止暴力侵害、虐待和忽视老年人行为，</p>
+      </container>
+      <container name="认识到" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">认识到</span>年龄歧视是一种普遍存在的偏见态度，是导致虐待老年人的一大风险因素，并认识到年龄刻板印象有重大影响，导致虐待老年人的行为长期存在，阻碍老年人获得适当照护和支助，阻碍他们自由、充分、积极、包容和切实地参与所有公共决策进程，包括参与制定解决暴力和虐待问题的法律、政策和其他措施，并阻碍他们获得补救和补偿，</p>
+      </container>
+      <container name="又认识到" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>一切形式的暴力侵害、虐待和忽视老年人行为在全世界普遍存在，并认识到，在冠状病毒病大流行(COVID-19疫情)、武装冲突和气候变化等持续危机中，暴力侵害老年人行为有所增加，</p>
+      </container>
+      <container name="关切地注意到" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">关切地注意到</span>，暴力侵害老年人行为仍然被忽视，并且人们对这一现象了解有限，这对全世界千千万万老年人的身心福祉造成了深远影响，</p>
+      </container>
+      <container name="注意到" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">注意到</span>独立专家的结论，即“大多数定义承认虐待老年人的五种形式：(a)身体虐待；(b) 心理或情感虐待；(c) 性虐待：(d) 财务或物质虐待；以及(e) 忽视”，又指出“独立专家还注意到一种虐待形式，即针对老年人的仇恨言论”<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	同上，第12段。</p></authorialNote>，</p>
+      </container>
+      <container name="强调指出" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">强调指出</span>，年龄主义和年龄歧视是暴力侵害、虐待和忽视老年人的根本原因，是有效打击这些行为的障碍，</p>
+      </container>
+      <container name="注意到" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">注意到</span>一切形式的暴力侵害、虐待和忽视老年人行为可能发生在一切场合，包括公共和私人场合，无论是线上还是线下，</p>
+      </container>
+      <container name="关切地注意到" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">关切地注意到</span>老年妇女常常面临歧视，包括多重和交叉形式的歧视，她们遭受暴力、虐待和忽视的风险更大，加之性别、年龄、种族、残疾或其他原因，这影响到她们享有人权，</p>
+      </container>
+      <container name="注意到" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">注意到</span>由于缺乏关于虐待老年人行为普遍程度的数据，在防止侵犯人权行为方面存在相当大的差距，据认为遭受虐待或暴力的老年人实际人数远远高于现有数据，而且由于世界人口老龄化，如果不采取措施有效处理这一问题，今后受害者人数将迅速增加，</p>
+      </container>
+      <container name="又注意到" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">又注意到</span>关于老年人的国际人权法不成体系，在当前的人权框架中，没有具体条款处理暴力侵害、虐待和忽视老年人的问题，也没有具体条款处理处境脆弱的老年人、特别是老年妇女面临的独特风险，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>联合国人权事务高级专员关于国际法之下与促进和保护老年人的人权相关的规范标准和义务的报告<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/HRC/49/70.</p></authorialNote>，并注意到报告中关于现有国际人权框架中的差距、局限性和缺陷的结论，以及高级专员在报告中强调需要迅速着手制定和通过一项连贯、全面和综合的人权框架，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>2022年8月29日和30日召开了一次多利益攸关方会议，会上讨论了高级专员关于国际法之下与促进和保护老年人的人权相关的规范标准和义务的报告，并注意到会议的纪要报告，其中包含关于消除对老年人生活产生不利影响的现有差距的建议，<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		A/HRC/52/49.</p></authorialNote></p>
+      </container>
+      <container name="赞赏地注意到" eId="container_23">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>，老龄问题不限成员名额工作组第十三届会议通过了关于找出在保护老年人人权方面可能存在的差距以及确定如何最好地解决这些差距的第13/1号决定，并请共同召集人提交拟议的经政府间谈判形成的建议，供2024年3月工作组第十四届会议审议，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold">最强烈地谴责</span>世界各地长期普遍存在针对老年人的一切形式的暴力侵害、虐待和忽视行为，并重申所有老年人都应能够在生活中免遭暴力、虐待和忽视；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="bold">深表关切的是</span>，一切形式的歧视和暴力侵害老年人行为妨碍老年人充分享有其人权和基本自由，并阻碍他们充分、有效和切实参与公共和私人生活；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>需要深入分析与老年人享有公民权利、政治权利、经济、社会及文化权利相关的挑战，其中包括预防和保护不受暴力、虐待和忽视、社会保护、食物和住房、工作和进入劳动力市场的权利、平等和不歧视、诉诸司法、新技术、教育、培训、保健支助、长期照护与支助、姑息治疗、无酬照护工作、终身学习、参与、无障碍和同工同酬等领域的挑战以及应对这些挑战的必要性，并就此采取适当行动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>所有国家禁止对老年人的一切形式歧视，通过和实施不歧视政策、国家战略、行动计划和法律法规，包括应对暴力、虐待和忽视行为的政策、国家战略、行动计划和法律法规，在就业、社会保护、住房、教育与培训、获得新技术、提供资金支助、社会支助、保健支助、长期支助与姑息治疗服务等领域，促进和确保老年人充分享有所有人权和基本自由，同时在与老年人本人及其代表组织进行协商并让他们参与方面作出系统的规定；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>所有利益攸关方，包括各国、联合国系统各实体、民间社会、国家人权机构和私营部门，打击作为暴力、虐待和忽视行为根源的年龄歧视，消除一切形式的暴力、虐待和忽视行为，并在与老龄化和老年人有关的所有方案、运动和活动中采取立足人权的方针；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>所有国家建立和/或加强有效的补救机制，确保所有作为暴力、虐待和忽视行为受害者和幸存者的老年人以及因年龄、性别、种族、残疾或其他原因而遭受歧视的老年人能够在与其他人平等的基础上诉诸司法，包括获得法律援助和支持以及利用便捷且顾及年龄的法律程序；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold">又促请</span>所有国家采取措施，提高社会，包括公职人员、私营部门和老年人自身对暴力侵害、虐待和忽视老年人行为的含义和后果以及现有法律规定和司法补救措施的认识；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>各国收集和分析酌情按年龄、性别、残疾、婚姻状况、居住地和其他相关标准分列的数据，以便查明和揭示不平等和歧视模式，包括歧视的结构性方面，分析为促进平等而采取的措施之效力，并提供关于一切形式的暴力、虐待和忽视及其根本原因，包括年龄主义和歧视(包括多重和交叉形式歧视)的信息；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="bold">请</span>老年人享有所有人权问题独立专家在其年度报告中继续提高对老年人在实现人权方面所面临挑战的认识；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联合国人权事务高级专员办事处召集一次人权专家会议，残疾人可以完全无障碍参加，请独立专家以及会员国、条约机构和特别程序、区域机制、联合国系统、学术界、国家人权机构和民间社会的专家代表参加，包括请老年人及其代表组织切实有效地参加，以讨论发生在所有场合的暴力侵害、虐待和忽视老年人行为方面国家的人权义务并就此拟定建议，编写一份载有会议结论和建议的纪要报告，以浅白语言和易读版本等无障碍格式提供报告，并在人权理事会第五十七届会议之前向理事会提交该报告。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第46次" refersTo="#adoptionMeeting">第46次会议</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">2023年10月11日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,499 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/zho@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-12/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Expert Mechanism on the Rights of Indigenous Peoples" showAs="UN. Human Rights Council. Expert Mechanism on the Rights of Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Voluntary Fund for Indigenous Peoples" showAs="UN Voluntary Fund for Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Declaration on the Rights of Indigenous Peoples (2007)" showAs="UN Declaration on the Rights of Indigenous Peoples (2007)" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Decade of Indigenous Languages (2022–2032)" showAs="International Decade of Indigenous Languages (2022–2032)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INDIGENOUS PEOPLES" href="http://metadata.un.org/thesaurus/1003106" showAs="INDIGENOUS PEOPLES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANGUAGES" href="http://metadata.un.org/thesaurus/1003621" showAs="LANGUAGES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POPULAR PARTICIPATION" href="http://metadata.un.org/thesaurus/1005016" showAs="POPULAR PARTICIPATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-09" outcome="draftResolution" as="A/HRC/54/L.19" by="Australia, Bolivia (Plurinational State of), Brazil, Canada, Colombia, Costa Rica, Denmark, Ecuador, Finland, Guatemala, Iceland, Lithuania, Luxembourg, Mexico, New Zealand, Norway, Paraguay, Peru, Spain, Sweden and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/12</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese"> Chinese </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">第五十四届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 九月</date>
+          <date date="2023-10-13" refersTo="#endDate">13 十月 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、 经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2023年10月11日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/12.</docNumber>
+        <docTitle refersTo="#resolutionTitle">人权与土著人民</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会、人权委员会和人权理事会关于人权与土著人民的所有相关决议，</p>
+      </container>
+      <container name="重申" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">重申</span>支持实现大会在2007年9月13日第61/295号决议中通过的《联合国土著人民权利宣言》的目标，</p>
+      </container>
+      <container name="确认" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">确认</span>《联合国土著人民权利宣言》自通过以来，随着对土著人民的适用，对于在国家和地方各级起草若干宪法和法规产生了积极的影响，并对逐渐发展国际和国内法律框架、判例和政策起到了推动作用，</p>
+      </container>
+      <container name="赞赏" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">赞赏</span>当前为促进、保护和落实土著人民权利所作的努力；回顾在称为“世界土著人民大会”的大会高级别全体会议上作出承诺，要考虑如何促进土著人民代表和土著人民自行正式设立的机构参加联合国相关机构关于影响土著人民的问题的会议；并欣见大会2017年9月8日第71/321号决议，</p>
+      </container>
+      <container name="肯定" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">肯定</span>土著人民代表和土著人民自行正式设立的机构参加联合国各机关及其附属机构，尤其是人权理事会及其土著人民权利专家机制，以及土著问题常设论坛的会议，<span class="bold">注意到</span>土著组织和机构2020年1月27日至30日在基多举办的关于促进土著人民参与联合国工作的对话会议的成果文件，</p>
+      </container>
+      <container name="回顾" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">回顾</span>联合国人权事务高级专员办事处编写的关于2019年7月15日举行的为期半天的闭会期间互动对话的纪要报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/HRC/44/35。</p></authorialNote>，此次对话商讨如何促进土著人民代表和机构参加人权理事会讨论影响土著人民的问题的会议；并回顾高级专员办事处关于2021年7月16日举行的闭会期间圆桌会议的报告<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		A/HRC/49/69。</p></authorialNote>，此次会议商讨如何促进土著人民代表和机构参加人权理事会关于影响土著人民的问题的会议；</p>
+      </container>
+      <container name="肯定" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">肯定</span>联合国援助土著人民自愿基金对于支持土著人民代表和土著人民自行正式设立的机构参加有关土著人民的会议十分重要，</p>
+      </container>
+      <container name="注意到" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">注意到</span>土著人民权利专家机制关于军事化对土著人民权利的影响的研究报告<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/HRC/54/52。</p></authorialNote>，以及专家机制题为“努力落实《联合国土著人民权利宣言》：在国家和区域各级建立有效的监测机制以落实《宣言》”的报告<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		A/HRC/EMRIP/2023/3。</p></authorialNote>，并鼓励各国考虑落实其中的建议，</p>
+      </container>
+      <container name="又注意到" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">又注意到</span>土著人民权利特别报告员题为“绿色融资－保护土著人民权利的公正转型”的报告<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		A/HRC/54/31。</p></authorialNote>，其中特别报告员鼓励各国考虑报告所载建议；肯定特别报告员为让土著人民参与编写年度报告和国家报告所作的努力，</p>
+      </container>
+      <container name="回顾" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">回顾</span>高级专员办事处关于2022年9月28日举行的为期半天的土著人民权利问题年度小组讨论会的报告<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		A/HRC/53/43。</p></authorialNote>，小组讨论会主要讨论冠状病毒病大流行(COVID-19疫情)背景下的社会和经济复苏计划对土著人民的影响，并特别侧重于粮食安全问题，</p>
+      </container>
+      <container name="注意到" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">注意到</span>消除对妇女歧视委员会关于土著妇女和女童权利的第39号一般性建议(2022年)，以及儿童权利委员会关于儿童权利与环境特别是气候变化问题的第26号一般性意见(2023年)；鼓励各国考虑其中的建议，并将其翻译成土著语言，</p>
+      </container>
+      <container name="强调指出" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">强调指出</span>，需要按照《联合国土著人民权利宣言》和大会2014年协商一致通过的世界土著人民大会成果文件<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		大会第69/2号决议。</p></authorialNote> 的规定，特别关注土著妇女、儿童、青年、老年人、残疾人和处境脆弱者的权利和需求，并加紧努力，防止和消除这方面的一切形式的暴力和歧视，</p>
+      </container>
+      <container name="认识到" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">认识到</span>由于土著人民与环境及其资源的密切关系以及对环境及其资源的保护，因此他们首当其冲面临气候变化造成的直接后果；欢迎土著人民，特别是坚韧面对气候变化不利影响的土著妇女和女童，在实现《联合国气候变化框架公约》的目标、《巴黎协定》的宗旨和目的以及《2030年可持续发展议程》的具体目标和目标方面所发挥的作用，</p>
+      </container>
+      <container name="又认识到" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>气候变化对享有人权的影响日增，并对世界各地土著人民享有权利和自己的生活方式产生了特定影响；回顾《巴黎协定》序言部分和关于通过《巴黎协定》的第1/CP.21号决定<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		FCCC/CP/2015/10/Add.1。</p></authorialNote> 序言部分均确认，各国在采取行动应对气候变化时，应当尊重、促进和考虑它们各自对土著人民权利的义务；回顾第1/CP.21号决定第135段确认，需要加强土著人民在处理和应对气候变化方面的知识、技术、做法和努力；并回顾世界土著人民大会成果文件第36段，</p>
+      </container>
+      <container name="还认识到" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">还认识到</span>包括水基生态系统在内的许多生态系统因管理不善和不可持续发展而受到威胁，并因气候变化和其他因素而面临更大的不确定性和风险；敦促各国通过土著人民的充分有效参与，承认、尊重和促进由土著人民主导的生态系统管理办法，以及《联合国土著人民权利宣言》第29条规定的土著人民养护和保护环境及其土地或领土和资源的生产能力的权利，</p>
+      </container>
+      <container name="意识到" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">意识到</span>由于历史上的殖民和掠夺、无家可归率过高以及易遭受强迫迁离、土地掠夺和气候变化的不利影响等不同因素，土著人民在享有《联合国土著人民权利宣言》第21条所述改善其经济和社会状况的权利方面，包括在住房领域，面临重大障碍；承认需要确保土著人民能够和平、安全、有尊严地生活，并享有不受歧视地改善其经济和社会状况包括住房条件的权利，</p>
+      </container>
+      <container name="强调" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">强调</span>跨国公司和其他工商企业有责任尊重所有人权，并应建立人权尽责程序，以确定、防止、减轻和说明如何处理它们对人权的影响，并特别注意它们对土著人民集体权利的影响；重申各国对尊重、保护和实现人权负有主要责任，有义务防止包括跨国公司和其他工商企业在内的第三方在其领土和(或)管辖范围内践踏人权，主要措施是对这些工商企业进行监管并确保在侵权案件中受害者能够获得有效补救，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>《联合国气候变化框架公约》缔约方会议第二十四届会议设立了地方社区和土著人民平台促进工作组，负责在土著人民代表和《框架公约》缔约方代表平等参与的情况下，推动此平台实现目标和履行职能；并注意到该平台的第二个三年工作计划(2022-2024年)，</p>
+      </container>
+      <container name="认识到" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">认识到</span>必须确保土著人民充分切实地参与决策进程，以实施《生物多样性公约》下的《昆明－蒙特利尔全球生物多样性框架》，</p>
+      </container>
+      <container name="铭记" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">铭记</span>必须支持向土著妇女、青年人、老年人、残疾人、处境脆弱者和儿童(根据其年龄和成熟程度)赋权，提高其能力，包括让他们充分切实地参与对自身直接产生影响的各种事务的决策过程，所涉事项包括以增进其福祉为目标的相关政策、方案和资源，特别是在普及和公平获取优质公共服务、适当住房、卫生服务、精神健康、粮食保障和改善营养(包括通过家庭农业和渔业)、教育(包括跨文化和多语言教育)、就业、语言和传统知识的传播、创新和习俗等领域，还必须采取措施，提高他们对自身权利的认识和了解，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>世界卫生大会第七十六届会议2023年5月30日通过的题为“土著人民健康”的WHA76.16号决议，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_23" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="bold">感谢</span>联合国人权事务高级专员关于土著人民权利的报告<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		A/HRC/54/39。</p></authorialNote>；请高级专员继续以浅白语言和易读格式向人权理事会提交关于土著人民权利的年度报告，介绍各人权机构和机制内的相关动态以及联合国人权事务高级专员办事处在总部和外地开展的有助于促进、遵守和充分适用《联合国土著人民权利宣言》各项规定的活动，突出说明现有挑战和主要成就，并跟进《宣言》的实施效果；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>土著人民权利特别报告员的工作；鼓励各国政府在特别报告员履行法定任务和职责时与其充分合作，包括认真考虑积极回应任务负责人的访问请求，提供其信函中要求的一切现有资料，并对其紧急呼吁迅速作出反应；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="bold">又欢迎</span>土著人民权利专家机制的工作，包括2023年年度报告<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		A/HRC/54/64。</p></authorialNote> 以及闭会期间开展的活动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长和联合国人权事务高级专员办事处根据理事会2016年9月30日第33/25号决议继续为专家机制全面有效地履行任务提供一切必要的人力、技术和财政援助，包括为其年度会议提供网播服务，并提供信息传播实时转换，将其报告及时翻译成联合国所有正式语文并分发给人权理事会，并在会前完成其研究报告和其他报告的翻译工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="bold">大力鼓励</span>所有相关利益攸关方，包括各国和土著人民，出席并积极参加专家机制的届会，为专家机制的研究报告和其他报告提供材料，并与专家机制进行对话，包括在闭会期间开展的活动中进行对话；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="bold">肯定</span>各国、土著人民、联合国各实体和其他利益攸关方根据专家机制目前的任务努力与专家机制进行接触；大力鼓励它们继续这样做，包括在各方同意的情况下促进对话，提供技术援助和咨询意见，以实现《联合国土著人民权利宣言》的各项目标，并大力鼓励各国落实已接受的与土著人民有关的普遍定期审议建议和条约机构结论性意见；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>所有各方考虑专家机制应国家和土著人民的请求开始与国家接触的做法，利用此类请求提供的对话机会，为国家接触访问安排提供便利，使专家机制能够全面履行任务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国并请其他潜在的公共和(或)私人捐助方向联合国援助土著人民自愿基金捐款，作为在全世界和联合国系统内促进土著人民权利的重要手段，并支持全系统行动计划，以确保以协调一致的方式实现《联合国土著人民权利宣言》的各项目标；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>大会已宣布2022-2032年为“国际土著语言十年”，以提请人们注意土著人民语言严重丧失的问题以及保护、振兴和推广土著人民语言(包括手语)的迫切需要，并为此在国家和国际层面采取紧急举措；<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		大会第74/135号决议。</p></authorialNote>又回顾与土著人民一道设立了“开创为土著语言行动的十年”全球工作队；并吁请各国、联合国各实体和其他利益攸关方促进土著人民在国家和国际层面切实有效地参与主导和举办“十年”相关活动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>《国际土著语言十年全球行动计划》；吁请各国、联合国各实体特别是联合国教育、科学及文化组织采取具体措施，与土著人民一道在地方和国家层面实施这项计划，包括努力确保土著人民充分切实地参与战略、举措、政策和法律的制定及随后的实施工作，并与其他相关利益攸关方进行富有成果的持续对话；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>《联合国土著人民权利宣言》第16条第1款规定，土著人民有权以自己的语言建立自己的媒体，有权不受歧视地利用所有形式的非土著媒体；吁请各国促进和审查关于土著媒体的国家政策、做法和供资方案，包括在土著内容制作者和媒体专业人员(特别是土著妇女)的能力建设和土著语言内容制作方面的国家政策、做法和供资方案，并促进土著媒体与其他伙伴，包括主流媒体和各国政府之间的国际合作、知识共享与合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国酌情将《联合国土著人民权利宣言》翻译成土著语言，包括土著手语，进行解释并予以传播，并与高级专员办事处、土著人民权利特别报告员和专家机制合作，翻译它们的报告并使土著人民能够查阅，包括提供浅白语言和易读格式版本；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>将在人权理事会第五十七届会议期间举行的关于土著人民权利的年度半天小组讨论会的主题为“各国根据《联合国土著人民权利宣言》第38条为实现《宣言》目标而采取的法律、政策、司法判决和其他措施”；请高级专员办事处鼓励和便利土著妇女参与，确保讨论对残疾人具有包容性，让残疾人能够完全无障碍地参加讨论，并编写一份讨论纪要报告，在理事会第五十九届会议之前提交理事会；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_114__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地欢迎</span>高级专员办事处于2022年11月21日至24日举行的关于促进土著人民参与人权理事会工作的可能途径的为期四天的专家研讨会，包括高级专员办事处编写的纪要报告<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		A/HRC/53/44。</p></authorialNote>所载研讨会的讨论情况和建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxtGC">
+        <num>15.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="bold">请</span>高级专员办事处考虑到秘书长2012年和2020年的有关报告<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		A/HRC/21/24和A/75/255。</p></authorialNote>以及大会主席2016年的说明<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		A/70/990。</p></authorialNote> 所载的以往评估工作，编写一份评估报告，汇编关于土著人民参与联合国活动的现有程序，突出说明现有不足之处和良好做法，并向人权理事会第五十七届会议提交报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_143" class="SingleTxtGC">
+        <num>16.</num>
+        <list eId="para_143_list">
+          <intro eId="para_143_list_intro">
+            <p xml:space="preserve">	<span class="bold">决定</span>继续讨论和制定进一步的必要步骤和措施，使土著人民代表和土著人民自行正式设立的机构能够参与人权理事会的工作并为它们的参与提供便利，为此：</p>
+          </intro>
+          <point eId="para_143_list_point_a">
+            <num>(a)</num>
+            <content eId="para_143_list_point_a_content">
+              <p xml:space="preserve">	决定在人权理事会第五十七届会议之前组织一次为期两天的闭会期间会议，在第五十八届会议之前再组织一次为期两天的闭会期间会议，以便各国、联合国相关机构、基金和方案、国际组织、来自七个土著社会文化区域的土著人民、国家人权机构和民间社会组织进行对话，讨论促进土著人民参与人权理事会工作的具体方式；</p>
+            </content>
+          </point>
+          <point eId="para_143_list_point_b">
+            <num>(b)</num>
+            <content eId="para_143_list_point_b_content">
+              <p xml:space="preserve">	请人权理事会主席为每次闭会期间会议任命一名国家共同召集人和一名土著共同召集人；</p>
+            </content>
+          </point>
+          <point eId="para_143_list_point_c">
+            <num>(c)</num>
+            <content eId="para_143_list_point_c_content">
+              <p xml:space="preserve">	决定共同召集人应与高级专员办事处一道，负责编写一份关于会议讨论情况和成果的联合报告，包括具体建议，并在理事会第五十九届会议之前提交理事会；</p>
+            </content>
+          </point>
+          <point eId="para_143_list_point_d">
+            <num>(d)</num>
+            <content eId="para_143_list_point_d_content">
+              <p xml:space="preserve">	请高级专员办事处为上述为期两天的闭会期间会议提供一切必要的服务和便利，使残疾人能够完全无障碍地参加讨论；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_159" class="SingleTxtGC">
+        <num>17.</num>
+        <content eId="para_159__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联合国援助土著人民自愿基金在其规则和既定程序范围内，为土著人民代表和土著人民自行正式设立的机构参加上述闭会期间会议提供便利，促进均衡的区域、性别和代际代表性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="SingleTxtGC">
+        <num>18.</num>
+        <content eId="para_176__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>专家机制继续讨论促进土著人民代表和土著人民自行正式设立的机构参加人权理事会关于影响土著人民的问题的相关会议这一议题；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_194" class="SingleTxtGC">
+        <num>19.</num>
+        <content eId="para_194__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国在履行《2030年可持续发展议程》中所作承诺以及在拟订相关国际和区域方案及国家行动计划、战略和方案时，贯彻不让任何一个人掉队的原则，适当考虑到土著人民的权利以及土著人民和个人所面临的一切形式暴力和歧视，包括多重和交叉形式的歧视，其中包括冠状病毒病大流行(COVID-19疫情)造成的倒退和严重障碍；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="SingleTxtGC">
+        <num>20.</num>
+        <content eId="para_213__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国采取适当措施，保护土著儿童，特别是女童和青少年，使其免遭一切形式暴力，确保对所有侵犯和践踏土著儿童人权的行为进行调查，追究行为人的责任，采取适当的预防措施，确保受害者能够获得有效补救和赔偿；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_233" class="SingleTxtGC">
+        <num>21.</num>
+        <content eId="para_233__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国正式承认、遵守和执行国家与土著人民之间缔结的现有条约、协定和其他建设性安排，以推动和实现土著人民的权利；鼓励缔结新的条约、协定和安排，以此落实《联合国土著人民权利宣言》中所确认的权利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_254" class="SingleTxtGC">
+        <num>22.</num>
+        <content eId="para_254__content">
+          <p xml:space="preserve">	<span class="bold">肯定</span>土著人民权利专家机制、土著人民权利特别报告员和土著问题常设论坛为增强其报告之间的互补性、避免重复所作的努力；鼓励它们加强当前的合作与协调，加强为促进土著人民权利而作出的持续努力，包括在落实各项条约和《联合国土著人民权利宣言》方面的这种合作、协调和努力，其中包括土著人民世界大会的后续行动；请它们继续在各自任务范围内与人权理事会所有机制和人权条约机构密切合作开展工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_276" class="SingleTxtGC">
+        <num>23.</num>
+        <content eId="para_276__content">
+          <p xml:space="preserve">	<span class="bold">请</span>人权理事会主席与土著人民权利专家机制协商，并在高级专员办事处的支持下，安排来自七个土著社会文化区域的土著人民代表和土著人民自行正式设立的机构参加会议，在理事会第五十七届会议期间与土著人民权利特别报告员和土著人民权利专家机制进行互动对话；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_299" class="SingleTxtGC">
+        <num>24.</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>推进一项进程和一项机制，与土著人民合作，特别是通过联合国教育、科学及文化组织，并通过世界知识产权组织、土著人民权利专家机制、土著人民权利特别报告员、土著问题常设论坛、各国和所有其他相关方根据各自的任务持续参与相关活动，为跨国归还土著人民文物和遗骨提供便利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_323" class="SingleTxtGC">
+        <num>25.</num>
+        <content eId="para_323__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>联合国条约机构是促进和保护人权的重要机制；鼓励各国在适用条约的过程中认真考虑条约机构的建议，包括关于土著人民的建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_348" class="SingleTxtGC">
+        <num>26.</num>
+        <content eId="para_348__content">
+          <p xml:space="preserve">	<span class="bold">欣见</span>普遍定期审议对落实土著人民权利的贡献；鼓励切实跟进已接受的关于土著人民的普遍定期审议建议的落实情况；并请各国在接受审议期间酌情提供资料，介绍土著人民权利状况，包括为争取实现《联合国土著人民权利宣言》目标而采取的措施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_374" class="SingleTxtGC">
+        <num>27.</num>
+        <content eId="para_374__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国实现《联合国土著人民权利宣言》的各项目标，主要措施包括与土著人民并与民间社会、学术界、地方政府、联合国机构和其他相关利益攸关方进行真诚而持续的对话，视需要与土著人民协商与合作，通过和执行各项措施，包括国家行动计划、法律或其他框架，同时注意土著人民语言的使用；并欣见一些国家在土著人民充分切实的参与下，已经制定或正在制定执行《宣言》的国家行动计划和国内法律；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_401" class="SingleTxtGC">
+        <num>28.</num>
+        <content eId="para_401__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有区域尚未批准或加入国际劳工组织《1989年土著和部落人民公约》(第169号)的国家，鉴于该公约对促进和保护土著人民权利的贡献，考虑批准或加入该公约；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_429" class="SingleTxtGC">
+        <num>29.</num>
+        <content eId="para_429__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>依照《关于促进和保护人权的国家机构的地位的原则》(《巴黎原则》)建立的国家人权机构在推进土著事务方面发挥作用；认识到这些机构要有效发挥这一作用，就必须酌情培养和加强自身能力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_458" class="SingleTxtGC">
+        <num>30.</num>
+        <content eId="para_458__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国根据本国国情和特点，酌情收集并妥善传播按族裔、收入、性别、年龄、种族、移民身份、残疾状况、地理位置或其他要素分列的数据，以监测旨在改善土著人民和个人福祉的发展政策、战略和方案的影响并提高其效力，打击和消除针对他们的一切形式暴力和歧视，包括多重和交叉形式歧视，在COVID-19疫后恢复计划中顾及土著人民的具体需要和优先事项，为争取实现可持续发展目标和《2030年议程》的工作提供支持，并与土著人民一起加强与处理和应对气候变化有关的技术、做法和努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_488" class="SingleTxtGC">
+        <num>31.</num>
+        <content eId="para_488__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>必须促进对土著妇女和女童，包括对残疾土著妇女和女童的政治、社会和经济赋权，途径包括确保她们有机会获得优质全纳教育，包括跨文化和多语言教育，消除她们所面临的多重和交叉形式歧视和障碍，包括暴力，让她们切实参与经济活动，还必须促进她们参与各级各领域的相关决策进程，并尊重和保护其传统知识和祖传知识，同时注意到《联合国土著人民权利宣言》对土著妇女和女童的重要性；并鼓励各国酌情认真考虑上述建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_519" class="SingleTxtGC">
+        <num>32.</num>
+        <content eId="para_519__content">
+          <p xml:space="preserve">	<span class="bold">谴责</span>对土著人权维护者和土著领导人(包括土著妇女)以及出席联合国会议的土著人民代表和从事土著人民权利工作的联合国任务负责人进行恐吓、骚扰和报复的案件有所增加；对一些国家(包括主办土著问题会议的国家)的做法表示关切，这些国家故意或以歧视性方式拖延或拒绝向联合国任务负责人或土著人民代表发放入境签证，或对他们施加额外的旅行限制，从而影响他们参加此类会议或影响他们回国等等；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_551" class="SingleTxtGC">
+        <num>33.</num>
+        <content eId="para_551__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国与土著人民一道，采取一切必要措施和紧急应对办法，从性别平等角度出发，确保土著人民、土著人权维护者和土著领导人(包括土著妇女人权维护者)的权利、保护和安全，并确保对所有侵犯和践踏他们人权的行为进行调查，追究行为人的责任，采取适当的预防措施，确保受害者能够获得有效补救和赔偿，包括保证侵害行为不再发生；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_584" class="SingleTxtGC">
+        <num>34.</num>
+        <content eId="para_584__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续处理此事。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第46次" refersTo="#adoptionMeeting">第46次会议</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">2023年10月11日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
