@@ -1,0 +1,296 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/zho@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-10/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Implications for Human Rights of the Environmentally Sound Management and Disposal of Hazardous Substances and Wastes" showAs="UN. Human Rights Council. Special Rapporteur on the Implications for Human Rights of the Environmentally Sound Management and Disposal of Hazardous Substances and Wastes" dictionary="DHLAUTH"></keyword>
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TOXIC WASTE MANAGEMENT" href="http://metadata.un.org/thesaurus/1006571" showAs="TOXIC WASTE MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTALLY HAZARDOUS SUBSTANCES" href="http://metadata.un.org/thesaurus/1002091" showAs="ENVIRONMENTALLY HAZARDOUS SUBSTANCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-09" outcome="draftResolution" as="A/HRC/54/L.13" by="Chile, Colombia, Costa Rica, Côte d’Ivoire, Ecuador, Peru and Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+      <inline name="languageOfExpression" refersTo="#Chinese"> Chinese </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">第五十四届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 九月</date>
+          <date date="2023-10-13" refersTo="#endDate">13 十月 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权―― 公民权利、政治权利、 经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2023年10月11日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">危险物质及废物的无害环境管理和处置对人权的影响问题 特别报告员的任务</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">遵循</span>《联合国宪章》、《世界人权宣言》、《经济社会文化权利国际公约》、《公民及政治权利国际公约》、《维也纳宣言和行动纲领》和《发展权利宣言》，</p>
+      </container>
+      <container name="铭记" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">铭记</span>大会2 06年3月15日第60/251号决议第6段，</p>
+      </container>
+      <container name="回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">回顾</span>理事会2007年6月18日关于人权理事会体制建设的第5/1号决议和2007年6月18日关于人权理事会特别程序任务负责人行为守则的第5/2号决议，强调任务负责人应根据这两项决议及其附件履行职责，</p>
+      </container>
+      <container name="又回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>理事会2008年9月24日第9/1号、2011年9月29日第18/11号、2012年9月27日第21/17号、2014年9月26日第27/23号和2017年9月28日第36/15号决议，以及人权委员会关于这一主题的所有决议，</p>
+      </container>
+      <container name="认识到" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">认识到</span>大会1998年12月9日第53/144号决议所载《个人、群体和社会机构在促进和保护普遍公认的人权和基本自由方面的权利和义务宣言》，</p>
+      </container>
+      <container name="回顾" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会2015年9月25日第70/1号决议，其中大会通过了《2030年可持续发展议程》，包括可持续发展目标之具体目标12.4, 即到2020年按照商定的国际框架实现危险废物及物质全生命周期无害环境管理，还包括可持续发展目标之具体目标3.9和具体目标6.3, 并申明所有目标都相互关联并相辅相成，</p>
+      </container>
+      <container name="又回顾" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>人权理事会2021年10月8日第48/13号决议和大会2022年7月28日第76/300号决议，其中都承认享有清洁、健康和可持续环境的人权，</p>
+      </container>
+      <container name="表示关切" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">表示关切</span>的是，《全球化学品展望(第二版)》决策者摘要中所载联合国环境规划署的主要结论显示，到2020年将化学品和废物的不利影响降到最低的全球目标将不会实现，</p>
+      </container>
+      <container name="回顾" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">回顾</span>人权理事会2019年9月26日关于保护接触危险物质和废物的工人的权利的第42/21号决议，其中理事会鼓励各国、工商企业及其他行为体借助各自的法律和政策框架落实关于人权与保护工人免于接触有毒物质的15项原则，这些原则有助于保护工人免于接触危险物质并就侵犯和践踏工人权利的行为提供补救措施，</p>
+      </container>
+      <container name="重申" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">重申</span>危险物质及废物全生命周期的管理方式，包括制造、配送、使用和最终处置，可能给充分享有人权造成不利影响，</p>
+      </container>
+      <container name="欢迎" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>危险物质及废物的无害环境管理和处置对人权的影响问题特别报告员根据其任务开展的工作，包括有毒物质方面的科学权相关工作；并注意到特别报告员关于以下方面的报告：塑料与人权<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/76/207.</p></authorialNote>，土著人民与有毒物质<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		A/77/183.</p></authorialNote>，汞、小规模采金和人权<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/HRC/51/35.</p></authorialNote>，去毒化和脱碳以及综合解决方案的必要性<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		A/HRC/54/25.</p></authorialNote>，船运、有毒物质与人权<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		A/HRC/54/25/Add.2.</p></authorialNote>，危险物质及废物的无害环境管理和处置方面与所有跨国工商企业和其他工商企业相关的人权问题，以及享有安全、清洁、健康、可持续的无毒环境的人权<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		A/HRC/49/53.</p></authorialNote>，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxtGC">
+        <num>1.</num>
+        <list eId="para_13_list">
+          <intro eId="para_13_list_intro">
+            <p xml:space="preserve">	<span class="bold">注意到</span>危险物质及废物的无害环境管理和处置对人权的影响问题特别报告员向人权理事会本届会议提交的报告<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		A/HRC/54/25.</p></authorialNote>，并请特别报告员根据其任务规定，继续提供详细的最新情况，说明以非法方式管理和处置危险物质及废物对充分享有人权的不利影响，具体可包括以下方面的信息：</p>
+          </intro>
+          <point eId="para_13_list_point_a">
+            <num>(a)</num>
+            <content eId="para_13_list_point_a_content">
+              <p xml:space="preserve">	对处境脆弱者的不利影响；</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_b">
+            <num>(b)</num>
+            <content eId="para_13_list_point_b_content">
+              <p xml:space="preserve">	危险物质和废物生命周期相关风险之透明度方面的科学与政策衔接，包括对表达自由权(包括寻求、接受和传播信息的自由)以及对享受科学进步惠益的权利的威胁；</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_c">
+            <num>(c)</num>
+            <content eId="para_13_list_point_c_content">
+              <p xml:space="preserve">	关于危险物质和废物的国际监管机制在有效性方面的发展、差距和不足及其对享有人权的影响，包括在新出现的化学品和废物的管理和处置问题方面；</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_d">
+            <num>(d)</num>
+            <content eId="para_13_list_point_d_content">
+              <p xml:space="preserve">	危险物质及废物的无害环境管理和处置方面与所有跨国工商企业和其他工商企业相关的人权问题；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>将危险物质及废物的无害环境管理和处置对人权的影响问题特别报告员的任务延长三年，请任务负责人根据人权理事会的工作方案向理事会提交报告并向大会提交年度报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>特别报告员继续与联合国环境规划署、联合国环境大会、世界卫生组织和国际劳工组织等联合国系统相关专门机构以及各项国际环境公约的秘书处密切合作，以期将人权纳入它们的工作中并避免重复；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="bold">请</span>特别报告员酌情参加有关任务相关问题的联合国论坛和其他国际论坛，包括参加联合国环境大会、《巴塞尔公约》缔约方大会、《鹿特丹公约》缔约方大会和《斯德哥尔摩公约》缔约方大会以及《关于汞的水俣公约》缔约方大会的会议，参加政府间谈判委员会的会议，以制定一项关于塑料污染，包括海洋环境中的塑料污染的具有法律约束力的国际文书，并参加可能通过该文书的外交会议，以便将人权纳入这些讨论中；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>特别报告员，作为解决现有问题的多学科深入方针的一部分，继续与联合国主管机构和机关以及相关国际公约的秘书处协商，以期找到管理此类物质和废物的持久解决办法，使特别报告员能够根据人权理事会的工作方案向理事会提交年度报告，在报告中说明理事会通过的决议的执行情况，并就应立即采取哪些举措以应对危险物质及废物对人权的不利影响提出具体建议和提议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>所有国家、联合国机构和其他相关国际组织、包括非政府组织在内的民间社会行为体以及公共和私营部门和所有其他利益攸关方与特别报告员进行协商、对话与合作，以便特别报告员能够根据其任务规定提供指导意见；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>特别报告员根据其任务规定，在联合国人权事务高级专员办事处的支持和协助下，继续向有关政府提供适当机会，使它们对特别报告员收到的且在他报告中提及的指控作出答复，并鼓励特别报告员将有关政府的意见反映在他提交人权理事会的报告中；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="bold">再次呼吁</span>各国和其他利益攸关方为特别报告员的工作提供便利，向他提供信息并邀请他进行国别访问；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="bold">请</span>特别报告员向各国、联合国各机构和其他相关国际组织、民间社会和其他利益攸关方通报危险物质及废物的无害环境管理和处置对人权的影响，包括在执行《2030年可持续发展议程》过程中的影响，根据其任务规定向政府、联合国机构和其他相关国际组织、民间社会和其他利益攸关方征求意见和建议，调查国家、区域和国际层面在可持续发展目标方面的努力，并就《2030年议程》的有效执行开展专题研究；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="bold">请</span>特别报告员应请求，就落实特别报告员的建议以及用于遵守国际人权法和国际环境法的法律和政策框架，向各国和其他行为体提供技术援助和咨询意见；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="bold">请</span>特别报告员在履行任务时将性别平等和年龄平等视角纳入主流，特别关注妇女和女童的人权和基本自由，并将儿童和其他处境脆弱者的人权纳入主流；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="bold">再次呼吁</span>秘书长和联合国人权事务高级专员向特别报告员提供一切必要协助，以便特别报告员顺利履行任务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>按照理事会工作方案在同一议程项目下继续审议此事。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第46次" refersTo="#adoptionMeeting">第46次会议</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">2023年10月11日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

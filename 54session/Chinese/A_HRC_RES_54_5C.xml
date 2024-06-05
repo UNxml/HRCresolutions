@@ -1,0 +1,316 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-5/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-5/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-5/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-5/zho@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-5/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-5/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="EDUCATION" href="http://metadata.un.org/thesaurus/1001893" showAs="EDUCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EDUCATION FOR PEACE" href="http://metadata.un.org/thesaurus/1001894" showAs="EDUCATION FOR PEACE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TOLERANCE" href="http://metadata.un.org/thesaurus/1006544" showAs="TOLERANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHTS OF THE CHILD" href="http://metadata.un.org/thesaurus/1005573" showAs="RIGHTS OF THE CHILD" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EDUCATIONAL QUALITY" href="http://metadata.un.org/thesaurus/1001919" showAs="EDUCATIONAL QUALITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-10" outcome="draftResolution" as="A/HRC/54/L.4/Rev.1" by="Afghanistan, Albania, Algeria, Armenia, Austria, Azerbaijan, Belgium, Benin, Bulgaria, Chile, Costa Rica, Cyprus, Czechia, Denmark, Ecuador, Egypt, Estonia, Finland, Germany, Hungary, Ireland, Italy, Kazakhstan, Kyrgyzstan, Libya, Lithuania, Luxembourg, Malta, Montenegro, Netherlands (Kingdom of the), North Macedonia, Paraguay, Portugal, Romania, Singapore, Slovenia, Spain, Tajikistan, Turkmenistan, United Kingdom of Great Britain and Northern Ireland, Uzbekistan and Yemen" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/5</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese"> Chinese </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">第五十四届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 九月</date>
+          <date date="2023-10-13" refersTo="#endDate">13 十月 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、 经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2023年10月11日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/5.</docNumber>
+        <docTitle refersTo="#resolutionTitle">确保为每个儿童提供优质的和平与宽容教育</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">遵循</span>《联合国宪章》的宗旨和原则，</p>
+      </container>
+      <container name="确认" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">确认</span>教育的目的在于充分发展人的个性并加强对人权和基本自由的尊重，促进所有人，包括族裔、民族、宗教和语言少数群体以及土著人民之间的了解、和平、性别平等和友谊；在这方面回顾《世界人权宣言》、《经济社会文化权利国际公约》、《儿童权利公约》和《消除对妇女一切形式歧视公约》，</p>
+      </container>
+      <container name="回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">回顾</span>联合国教育、科学及文化组织《取缔教育歧视公约》及其《关于促进国际了解、合作与和平的教育以及关于人权与基本自由的教育的建议书》、《联合国人权教育和培训宣言》和联合国教育、科学及文化组织《宽容原则宣言》，</p>
+      </container>
+      <container name="又回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>大会在2004年12月10日第59/113号决议中宣布世界人权教育方案，该方案以五年为一个阶段，连续实施，以便在各个部门推进人权教育方案，包括儿童人权教育方案的实施，</p>
+      </container>
+      <container name="重申" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">重申</span>不歧视和平等的人权原则是充分实现联合国教育、科学及文化组织《取缔教育歧视公约》和《经济社会文化权利国际公约》所载受教育权的核心所在，强调人人有资格不受任何歧视地享有受教育权，</p>
+      </container>
+      <container name="确认" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">确认</span>享有受教育权对实现和平与安全的根本贡献，承认投资于全民、免费、可及、公平、包容的优质教育和培训是各国应为确保儿童的近期和长期发展作出的重要投资，重申提供包容、公平的优质正规和非正规教育是儿童获得相关技能并培养能力的一个关键因素，</p>
+      </container>
+      <container name="又确认" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">又确认</span>女童在失学儿童中所占比例过高，妇女在成年文盲中所占比例过高，主要原因如下：基于任何理由的歧视和暴力，特别是性暴力和性别暴力以及骚扰；缺乏安全的学习环境；童婚、早婚或强迫婚姻或意外怀孕；缺乏顾及妇女和女童隐私需求的安全和适当的水和卫生设施，缺乏经期保健和卫生用品；歧视性法律；性别成见；父权社会规范；缺少赋权，包括经济上的赋权，特别是缺乏免费教育，</p>
+      </container>
+      <container name="着重指出" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">着重指出</span>，在这方面必须实施《2030年可持续发展议程》和其中所载的可持续发展目标，以及为确保实现所有这些目标而通过的《第三次发展筹资问题国际会议亚的斯亚贝巴行动议程》；特别重申关于确保包容、公平的优质教育和让全民终身享有学习机会的目标4及其各项相互联系的具体目标，以及其他与教育有关的目标和具体目标；并回顾教育对于实现所有可持续发展目标的重要性，</p>
+      </container>
+      <container name="强烈谴责" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">强烈谴责</span>一再袭击学生、教师、大中小学以及将教育设施用于军事目的的行为，因为这种行为使学生和教育工作者受到伤害，剥夺了大量儿童和学生接受优质教育的权利，从而使社区失去建设未来的基础，</p>
+      </container>
+      <container name="确认" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">确认</span>各国需要营造一个有利和安全的线上和线下环境，以确保可以安全接受教育；回顾国际人道法规定的关于在武装冲突局势中保护学校和教育设施的义务，</p>
+      </container>
+      <container name="强烈谴责" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">强烈谴责</span>包括恐怖主义团体在内的非国家武装团体招募和在敌对行动中使用儿童的行为，以及国家和包括恐怖主义团体在内的武装团体在任何情况下实施的一切侵犯和残害儿童行为，包括杀害、致残、绑架和强奸，以及其他一切形式的暴力，包括性暴力和性别暴力；注意到此类侵犯和残害行为可构成战争罪或危害人类罪，</p>
+      </container>
+      <container name="回顾" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">回顾</span>各国应采取一切可行措施，实施有效措施，特别是通过教育，使曾被包括恐怖主义团体在内的非国家武装团体招募或使用的儿童在社会和身心方面得到康复，并重新融入社会，同时考虑到儿童的特殊脆弱处境和具体保护需求，以及女童的权利和具体需求；并确认这些措施有利于所有儿童，因为它们可以减少耻辱感，促进创造一种让儿童成为其自身康复的利益相关方的环境，</p>
+      </container>
+      <container name="承认" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">承认</span>这些情况下的性暴力对女童的影响尤其严重；关切地注意到因童婚、早婚和强迫婚姻或其他性剥削或有害习俗而受害的女童，包括属于族裔或宗教少数群体的女童，以及包括恐怖主义团体在内的武装团体内部性暴力和性别暴力的幸存者，可能容易遭到孤立或进一步的侵犯和践踏人权行为，包括在族群内部遭受性暴力和性虐待；在这方面确认需要确保所有社会和身心应对和康复方案采取综合办法，消除性别不平等的根源，并部署足够多的妇女担任工作人员，以确保女童在寻求现有帮助时感到安全舒适，</p>
+      </container>
+      <container name="确认" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">确认</span>国家有责任确保儿童得到生活安康所需的保护和照料，同时考虑到所有家庭成员的权利以及父母、法定监护人或其他对儿童负有法律责任者的义务，并为此采取一切适当的立法和行政措施，应对一切形式的暴力侵害儿童行为，</p>
+      </container>
+      <container name="又确认" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">又确认</span>家庭对养育和保护儿童负有主要责任，这符合儿童的最大利益，为了使儿童的个性得到充分、和谐的发展，儿童应在家庭环境里，在所有家庭成员的权利均得到承认的情况下，在幸福、友爱和理解的氛围中成长，</p>
+      </container>
+      <container name="承认" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">承认</span>确保一个没有暴力、尊重人和扶持性的儿童养育环境有助于儿童个性的实现，有助于为当地社区乃至整个社会培养关心社会、有责任心并积极奉献的公民；确认保护儿童免遭暴力侵害是减少和防止社会中一切形式暴力行为以及促进世界自由、正义与和平的一项关键战略，</p>
+      </container>
+      <container name="确认" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">确认</span>通过教育，包括人权教育和培训促进和平与宽容，是所有国家应当与包括非政府组织在内的民间社会和个人合作推进的一项目标，联合国人权事务高级专员办事处和联合国人权系统各机制在这方面可发挥重要作用，</p>
+      </container>
+      <container name="相信" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">相信</span>人权教育和培训是切实实现人权和基本自由所必不可少的，大大有助于促进宽容、不歧视、平等、预防冲突、防止侵犯和践踏人权、增进政治自由、参与和民主进程，以期形成人人受到珍视和尊重而不受任何歧视或区别对待的社会，</p>
+      </container>
+      <container name="注意到" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">注意到</span>虚假信息、错误信息、仇恨言论和网上骚扰在全球范围内增多，威胁到受教育权、民主与和平的实现；确认必须加紧努力，在全球范围内提高媒体和信息素养，</p>
+      </container>
+      <container name="确认" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">确认</span>优质教育的重要性，并确认父母、法定监护人、学校、民间社会、体育协会、青年、妇女、建设和平者及相关私营部门、学术界、智囊团、媒体(包括社交媒体等互联网平台)以及文化和宗教领袖，在促进宽容与和平共处以支持建设和平努力及维系和平方面发挥着重要作用，</p>
+      </container>
+      <container name="着重指出" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">着重指出</span>族裔、宗教和信仰群体人员及宗教领袖对预防冲突、解决冲突、和解、重建和建设和平以及消除冲突根源可能作出的贡献；强调促进宽容与和平共处举措，包括通过教育促进宽容与和平共处所作的积极贡献；并欢迎宗教领袖为促进宗教间对话与了解所作的努力，</p>
+      </container>
+      <container name="相信" eId="container_23">
+        <p xml:space="preserve">	<span class="bold">相信</span>为每个儿童提供优质的和平与宽容教育，即应倡导和平、正义和人类发展，推动族裔、民族和宗教宽容，促进对所有宗教、宗教价值观、信仰和文化的尊重，并切实消除有利于恐怖主义和助长恐怖主义的暴力极端主义蔓延、导致某些个人和群体特别是儿童更易受恐怖主义影响、被恐怖分子招募的条件，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold">申明</span>必须保护人权和基本自由，包括儿童权利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国按照国际人权法和适用标准，更加重视并扩大通过为每个儿童提供优质教育来促进和平与宽容的活动，并确保在各级促进和平与宽容；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>各国有各自的人权义务，促请各国确保为每个儿童提供平等权利和适当的保护标准，使每个儿童，不论身份如何，都能根据国际法不受任何歧视地享有安全有利的环境；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国支持优质和平教育，包括为此制定和执行政策，使教育系统促进可持续发展及性别平等，帮助防止一切形式的暴力，灌输宽容、尊重他人和文化多样性、不歧视以及宗教或信仰自由的原则；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGC">
+        <num>5.</num>
+        <list eId="para_34_list">
+          <intro eId="para_34_list_intro">
+            <p xml:space="preserve">	<span class="bold">吁请</span>所有国家：</p>
+          </intro>
+          <point eId="para_34_list_point_a">
+            <num>(a)</num>
+            <content eId="para_34_list_point_a_content">
+              <p xml:space="preserve">	继续采取一切适当措施，在校园内外预防和保护儿童免遭一切形式的暴力，无论是实体环境还是数字环境中的暴力；</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_b">
+            <num>(b)</num>
+            <content eId="para_34_list_point_b_content">
+              <p xml:space="preserve">	支持优质和平教育，灌输宽容和尊重他人的原则，包括为此实施世界人权教育方案，制定和执行政策，使教育系统除其他外促进人权、可持续发展和性别平等，帮助防止一切形式的暴力，包括性暴力和性别暴力，灌输宽容、尊重他人、尊重文化多样性以及宗教或信仰自由的原则；</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_c">
+            <num>(c)</num>
+            <content eId="para_34_list_point_c_content">
+              <p xml:space="preserve">	确保以儿童的最大利益为首要考虑，将受武装冲突影响的儿童和与武装团体或恐怖主义团体有关联或据称有关联的儿童首先视为受害者，而不是犯罪者，让他们有平等的机会获得包容、公平的优质教育，并根据适用的国际人道法和国际人权法，特别是《儿童权利公约》及其《关于儿童卷入武装冲突问题的任择议定书》的相关规定，采取措施，重点帮助儿童在有益身心健康、自尊和尊严的环境中康复并重返社会；</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_d">
+            <num>(d)</num>
+            <content eId="para_34_list_point_d_content">
+              <p xml:space="preserve">	创造真正对儿童友好的优质空间，特别强调纳入性别视角，以便提供有利环境，使儿童能够获得精神健康和社会心理支持并开展学习活动，使这种包容的安全空间和学习环境成为酌情转介其他服务的一个机制，帮助恢复正常感和连续感；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国和国际社会并鼓励民间社会及其他相关利益攸关方酌情采取措施，包括通过教育(如人权教育和培训)、提高认识举措和媒体宣传等，倡导和平、正义和人类发展，推动族裔、民族和宗教宽容，促进对所有宗教、宗教价值观、信仰和文化的尊重，切实消除有利于恐怖主义和助长恐怖主义的暴力极端主义蔓延、导致儿童更易受恐怖主义影响、被恐怖分子招募的条件；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold">请</span>各国考虑到联合国人权事务高级专员、负责暴力侵害儿童问题秘书长特别代表、负责儿童与武装冲突问题秘书长特别代表、儿童权利委员会以及其他人权机构和机制关于确保向每个儿童，包括受武装冲突影响或与武装团体或恐怖主义团体有关联的儿童，提供无障碍、包容、公平的优质教育的相关建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>在理事会第五十七届会议期间举行一次小组讨论会，讨论如何为每个儿童，特别是处境最脆弱的儿童，提供无障碍、包容、公平的优质和平与宽容教育；请联合国人权事务高级专员办事处组织这次小组讨论会，邀请各国、民间社会组织、联合国各机构、基金和方案、私营部门、学术界和其他相关利益攸关方处理各国履行国际人权法和国际人道法相关规定所规定义务的问题，讨论这方面的挑战和最佳做法，并请人权高专办确保小组讨论会完全无障碍；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="bold">请</span>高级专员办事处与所有相关利益攸关方协商，包括与联合国儿童基金会和联合国教育、科学及文化组织、联合国其他相关机构、基金和方案、负责儿童与武装冲突问题秘书长特别代表、儿童权利委员会、人权理事会相关特别程序、区域组织和人权机构以及民间社会协商，以无障碍格式编写一份综合报告，就如何根据本决议的规定，为每个儿童，特别是处境最脆弱的儿童，开展无障碍、包容、公平的优质和平与宽容教育，以及如何将其纳入教育方案提出具体建议，并在理事会第五十九届会议上介绍这份报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="bold">又请</span>高级专员办事处在编写上述综合报告时考虑小组讨论会的成果，并与所有相关利益攸关方密切合作，包括与各国、国际和区域组织、相关的人权理事会特别程序、条约机构、其他相关的联合国机构、基金和方案(在其各自任务范围内)、国家人权机构、民间社会、私营部门和学术界密切合作，并以无障碍和对儿童友好的格式提供该综合报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续处理此事。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第46次" refersTo="#adoptionMeeting">第46次会议</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">2023年10月11日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

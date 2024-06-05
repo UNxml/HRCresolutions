@@ -1,0 +1,328 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-8/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-8/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-8/zho@/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-8/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-8/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Promotion of Truth, Justice, Reparation and Guarantees of Non-Recurrence" showAs="UN. Human Rights Council. Special Rapporteur on the Promotion of Truth, Justice, Reparation and Guarantees of Non-Recurrence" dictionary="DHLAUTH"></keyword>
+        <keyword value="RIGHT TO THE TRUTH" href="http://metadata.un.org/thesaurus/1005569" showAs="RIGHT TO THE TRUTH" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSITIONAL JUSTICE" href="http://metadata.un.org/thesaurus/1006637" showAs="TRANSITIONAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPARATION" href="http://metadata.un.org/thesaurus/1005482" showAs="REPARATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-04" outcome="draftResolution" as="A/HRC/54/L.10" by="Albania, Andorra, Argentina, Armenia, Australia, Austria, Belgium, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Denmark, Ecuador, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Mexico, Montenegro, Morocco, Netherlands (Kingdom of the), North Macedonia, Norway, Paraguay, Peru, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom of Great Britain and Northern Ireland and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-12" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-12" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-12" class="rightSmall" refersTo="#dateOfIssuance">12 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese"> Chinese </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">第五十四届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 九月</date>
+          <date date="2023-10-13" refersTo="#endDate">13 十月 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、 经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2023年10月11日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/8.</docNumber>
+        <docTitle refersTo="#resolutionTitle">寻求真相、正义、赔偿和保证不再发生问题特别报告员</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve"> <span class="bold">遵循</span>《联合国宪章》的宗旨和原则，</p>
+      </container>
+      <container name="重申" eId="container_3">
+        <p xml:space="preserve"> <span class="bold">重申</span>《世界人权宣言》、《经济社会文化权利国际公约》、《公民及政治权利国际公约》、《维也纳宣言和行动纲领》、1949年8月12日日内瓦四公约及其1977年6月8日附加议定书以及其他相关国际人权法和国际人道法文书，</p>
+      </container>
+      <container name="又重申" eId="container_4">
+        <p xml:space="preserve"> <span class="bold">又重申</span>《防止及惩治灭绝种族罪公约》的重要性，并在这方面回顾《战争罪及危害人类罪不适用法定时效公约》是防止和惩治灭绝种族罪、战争罪和危害人类罪的有效国际文书，</p>
+      </container>
+      <container name="回顾" eId="container_5">
+        <p xml:space="preserve"> <span class="bold">回顾</span>大会2006年12月20日第61/177号决议通过的《保护所有人免遭强迫失踪国际公约》，其中第二十四条第二款规定，受害者有权了解强迫失踪案情的真相、调查的进展和结果以及失踪者的下落，并规定缔约国有义务在这方面采取适当措施，公约序言还确认为此目的自由查找、接受和传递信息的权利，</p>
+      </container>
+      <container name="又回顾" eId="container_6">
+        <p xml:space="preserve"> <span class="bold">又回顾</span>通过打击有罪不罚现象保护和促进人权的一套原则<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		E/CN.4/Sub.2/1997/20/Rev.1, 附件二。</p></authorialNote> 及其更新版本，<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		E/CN.4/2005/102/Add.1.</p></authorialNote></p>
+      </container>
+      <container name="还回顾" eId="container_7">
+        <p xml:space="preserve"> <span class="bold">还回顾</span>大会2005年12月16日第60/147号决议，其中通过了《严重违反国际人权法和严重违反国际人道主义法行为受害人获得补救和赔偿的权利基本原则和导则》，</p>
+      </container>
+      <container name="回顾" eId="container_8">
+        <p xml:space="preserve"> <span class="bold">回顾</span>人权委员会关于人权与过渡期正义的2005年4月20日第2005/70号决议、关于有罪不罚问题的2005年4月21日第2005/81号决议、关于了解真相权的2005年4月20日第2005/66号决议，人权理事会关于人权与过渡期正义的2008年9月24日第9/10号决议、2009年10月1日第12/11号决议、2012年9月27日第21/15号决议、2016年9月30日第33/19号决议、2019年9月26日第42/17号决议和2022年10月7日第51/23号决议，关于了解真相权的2008年9月18日第9/11号决议、2009年10月1日第12/12号决议和2012年9月27日第21/7号决议，关于法医遗传学与人权的2009年3月27日第10/26号决议和2010年9月29日第15/5号决议，理事会关于了解真相权的2006年11月27日第2/105号决定和关于过渡期正义的2007年3月23日第4/102号决定，以及大会关于了解真相权的2013年12月18日第68/165号决议，</p>
+      </container>
+      <container name="重申" eId="container_9">
+        <p xml:space="preserve"> <span class="bold">重申</span>人权理事会2011年9月29日第18/7号决议，其中理事会决定设立寻求真相、正义、赔偿和保证不再发生问题特别报告员的任务，</p>
+      </container>
+      <container name="回顾" eId="container_10">
+        <p xml:space="preserve"> <span class="bold">回顾</span>秘书长关于冲突和冲突后社会的法治和过渡期正义的报告<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		S/2004/616.</p></authorialNote> 及其2011年关于同一主题的后续报告<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		S/2011/634.</p></authorialNote>，包括其中所载相关建议，以及秘书长于2006年、2012年、2013年和2014年发布的报告<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		A/61/636-S/2006/980和Corr.1、A/66/749、S/2013/341、A/68/213/Add.1和A/69/181。</p></authorialNote>，其中概述了关于加强联合国系统提供支助的效果、在冲突和冲突后局势中促进法治的行动纲领，</p>
+      </container>
+      <container name="承认" eId="container_11">
+        <p xml:space="preserve"> <span class="bold">承认</span>打击有罪不罚现象和实施过渡期正义进程，包括寻求真相、正义、赔偿和保证不再发生，可防止严重侵犯人权和严重违反国际人道法行为再次发生，</p>
+      </container>
+      <container name="回顾" eId="container_12">
+        <p xml:space="preserve"> <span class="bold">回顾</span>大会2016年4月27日关于联合国建设和平架构审查的第70/262号决议和安全理事会2016年4月27日第2282(2016)号决议，大会和安理会在这些决议中特别强调，采用综合性方法处理过渡期正义问题，包括促进愈合创伤与和解，通过改革等办法建设一个专业、负责和有效的安全部门，执行包容和有效的解除武装、复员和重返社会方案，包括从复员和解除武装过渡到重返社会，对于巩固和平与稳定，推动减贫、法治、司法救助和善治，进一步扩展合法国家权力并防止国家陷入冲突或重蹈冲突覆辙至关重要，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_13">
+        <p xml:space="preserve"> <span class="bold">赞赏地注意到</span>联合国，包括联合国人权事务高级专员办事处，与各国合作并应其请求，积极参与协助各国处理严重侵犯人权和严重违反国际人道法行为，</p>
+      </container>
+      <container name="回顾" eId="container_14">
+        <p xml:space="preserve"> <span class="bold">回顾</span>理事会2007年6月18日关于人权理事会体制建设的第5/1号决议和关于人权理事会特别程序任务负责人行为守则的第5/2号决议，强调任务负责人应根据这两项决议及其附件履行职责，</p>
+      </container>
+      <container name="认识到" eId="container_15">
+        <p xml:space="preserve"> <span class="bold">认识到</span>寻求真相、正义、赔偿和保证不再发生问题特别报告员将继续处理严重侵犯人权和严重违反国际人道法的情况，</p>
+      </container>
+      <container name="着重指出" eId="container_16">
+        <p xml:space="preserve"> <span class="bold">着重指出</span>，在制订和执行各种战略、政策和措施以处理严重侵犯人权行为及严重违反国际人道法行为时，必须考虑到每种情况的具体特点，以防今后再次发生危机和侵犯人权行为，在国家和地方层面确保社会凝聚力、国家建设、自主决策和社会包容，并促进和解，</p>
+      </container>
+      <container name="强调" eId="container_17">
+        <p xml:space="preserve"> <span class="bold">强调</span>必须采用综合性方法，充分整合各种司法和非司法措施，其中包括个案起诉、赔偿、调查真相、体制改革、审查政府雇员和官员、举办纪念活动并开展形成共同叙事的进程，或将这些措施酌情组合，以确保追责、伸张正义、向受害者提供补救、促进创伤愈合与和解、确立国内对安全系统的独立监督、恢复对国家机构的信任并按照国际人权法促进法治，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> 	<span class="bold">赞赏地注意到</span>寻求真相、正义、赔偿和保证不再发生问题特别报告员向人权理事会第四十八届、第五十一届和第五十四届会议提交的报告<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		A/HRC/48/60、A/HRC/51/34和A/HRC/54/24。</p></authorialNote>，以及向大会第七十五届、第七十六届和第七十七届会议提交的报告<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		见A/75/174、A/76/180和A/77/162。</p></authorialNote>，吁请各国在制定和执行处理本国境内严重侵犯人权和严重违反国际人道法行为的战略、政策和措施时，适当考虑到这些报告所载的建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="bold">欢迎</span>特别报告员在执行任务方面开展工作，为编写专题报告与各区域的相关行为体进行全面、透明和包容各方的协商，以及进行国别访问；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> 	<span class="bold">又欢迎</span>已接待特别报告员访问的国家、接受特别报告员访问请求的国家、邀请特别报告员访问的国家以及对特别报告员索要资料的请求作出回应的国家给予的合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtGC">
+        <num>4.</num>
+        <list eId="para_24_list">
+          <intro eId="para_24_list_intro">
+            <p xml:space="preserve"> 	<span class="bold">决定</span>将寻求真相、正义、赔偿和保证不再发生问题特别报告员的任务延长三年，其任务包括：</p>
+          </intro>
+          <point eId="para_24_list_point_a">
+            <num>(a)</num>
+            <content eId="para_24_list_point_a_content">
+              <p xml:space="preserve"> 	协助并酌情促进就与任务有关的问题提供技术援助或咨询服务；</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_b">
+            <num>(b)</num>
+            <content eId="para_24_list_point_b_content">
+              <p xml:space="preserve"> 	收集关于国家情况的相关资料，包括关于在处理严重侵犯人权和严重违反国际人道法行为方面寻求真相、正义、赔偿和保证不再发生的规范性框架、国家做法和经验，如真相与和解委员会和其他机制，并研究趋势、动态和挑战，并就此提出建议；</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_c">
+            <num>(c)</num>
+            <content eId="para_24_list_point_c_content">
+              <p xml:space="preserve"> 	查明、交流和推广良好做法和经验教训，并确定潜在的其他要素，以期就如何改进和加强寻求真相、正义、赔偿和保证不再发生的工作提出建议；</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_d">
+            <num>(d)</num>
+            <content eId="para_24_list_point_d_content">
+              <p xml:space="preserve"> 	与各国政府、国际和区域组织、国家人权机构和非政府组织以及联合国相关机构和机制等定期开展对话与合作；</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_e">
+            <num>(e)</num>
+            <content eId="para_24_list_point_e_content">
+              <p xml:space="preserve"> 	在制订和执行处理严重侵犯人权和严重违反国际人道法行为的战略、政策和措施时，就司法和非司法措施提出建议；</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_f">
+            <num>(f)</num>
+            <content eId="para_24_list_point_f_content">
+              <p xml:space="preserve"> 	进一步探讨过渡期正义对防止严重侵犯人权和严重违反国际人道主义法行为，包括灭绝种族罪、战争罪、族裔清洗和危害人类罪及其再次发生的积极作用；</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_g">
+            <num>(g)</num>
+            <content eId="para_24_list_point_g_content">
+              <p xml:space="preserve"> 	进行国别访问并及时回复各国的邀请；</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_h">
+            <num>(h)</num>
+            <content eId="para_24_list_point_h_content">
+              <p xml:space="preserve"> 	参加相关国际会议和活动并提出意见建议，以便推动就自身任务的相关问题采取系统一致的方针；</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_i">
+            <num>(i)</num>
+            <content eId="para_24_list_point_i_content">
+              <p xml:space="preserve"> 	宣传在处理严重侵犯人权和严重违反国际人道法行为时采取系统一致方针的价值，并就此提出建议；</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_j">
+            <num>(j)</num>
+            <content eId="para_24_list_point_j_content">
+              <p xml:space="preserve"> 	在其任务工作中始终纳入性别平等视角；</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_k">
+            <num>(k)</num>
+            <content eId="para_24_list_point_k_content">
+              <p xml:space="preserve"> 	在其任务工作中始终纳入以受害者为中心的方针；</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_l">
+            <num>(l)</num>
+            <content eId="para_24_list_point_l_content">
+              <p xml:space="preserve"> 	与联合国人权事务高级专员办事处、联合国秘书处其他相关实体、联合国相关机构、基金和方案、政府间组织和非政府组织、人权理事会其他特别程序和其他相关行为体密切协调，同时避免不必要的重复；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="bold">促请</span>所有国家与特别报告员合作并向他提供协助，使他能够有效执行任务，包括考虑到国别访问是特别报告员履行任务的基本方法之一，迅速积极回应访问请求，并及时提供他索要的一切必要资料；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="bold">请</span>特别报告员继续每年向人权理事会和大会提交报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> 	<span class="bold">请</span>秘书长和联合国人权事务高级专员为特别报告员切实履行任务提供一切必要的人力、技术和资金协助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve"> 	<span class="bold">决定</span>根据理事会工作方案在同一议程项目下继续审议此事。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第46次" refersTo="#adoptionMeeting">第46次会议</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">2023年10月11日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
