@@ -1,0 +1,286 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/"></FRBRuri>
+          <FRBRdate date="2023-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/rus@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-11/54-13/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-05-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="AGEING PERSONS" href="http://metadata.un.org/thesaurus/1000115" showAs="AGEING PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="VIOLENCE" href="http://metadata.un.org/thesaurus/1006882" showAs="VIOLENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISCRIMINATION" href="http://metadata.un.org/thesaurus/1001697" showAs="DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-06" outcome="draftResolution" as="A/HRC/54/L.20" by="Albania, Andorra, Argentina, Austria, Brazil, Chile, Colombia, Costa Rica, Croatia, Dominican Republic, Ecuador, Gambia, Georgia, Greece, Ireland, Israel, Italy, Luxembourg, Malta, Mexico, Montenegro, North Macedonia, Paraguay, Peru, Philippines, Portugal, San Marino, Slovenia, Spain, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-13" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian"> Russian </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">Пятьдесят четвертая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 сентября</date>
+          <date date="2023-10-13" refersTo="#endDate">13 октября 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека,  гражданских, политических, экономических, социальных и культурных прав,  включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 11 октября 2023 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/13.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Права человека пожилых людей</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="вновь подтверждая" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">вновь подтверждая</span> обязательство всех государств уважать, защищать и осуществлять все права человека и основные свободы и вновь подтверждая также Устав Организации Объединенных Наций, Всеобщую декларацию прав человека, Международный пакт о гражданских и политических правах, Международный пакт об экономических, социальных и культурных правах, Конвенцию о ликвидации всех форм дискриминации в отношении женщин, Конвенцию о правах инвалидов, Международную конвенцию о ликвидации всех форм расовой дискриминации и Конвенцию против пыток и других жестоких, бесчеловечных или унижающих достоинство видов обращения и наказания,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">принимая во внимание</span> Принципы Организации Объединенных Наций в отношении пожилых людей, Политическую декларацию и Мадридский международный план действий по проблемам старения 2002 года и все соответствующие резолюции Генеральной Ассамблеи, включая резолюции <a href="http://undocs.org/ru/A/RES/65/182">65/182</a> от 21 декабря 2010 года, <a href="http://undocs.org/ru/A/RES/66/127">66/127</a> от 19 декабря 2011 года, <a href="http://undocs.org/ru/A/RES/70/164">70/164</a> от 17 декабря 2015 года, <a href="http://undocs.org/ru/A/RES/75/131">75/131</a> от 14 декабря 2020 года, <a href="http://undocs.org/ru/A/RES/76/138">76/138</a> от 16 декабря 2021 года и <a href="http://undocs.org/ru/A/RES/77/190">77/190</a> от 15 декабря 2022 года,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на то, что в Повестке дня в области устойчивого развития на период до 2030 года подчеркивается необходимость обеспечить, чтобы никто не был забыт,  и признавая в связи с этим важный вклад, который пожилые люди вносят в жизнь обществ и в выполнение Повестки дня на период до 2030 года,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также</span> на резолюции Совета по правам человека <a href="http://undocs.org/ru/A/HRC/RES/21/23">21/23</a> от 28 сентября 2012 года, <a href="http://undocs.org/ru/A/HRC/RES/24/20">24/20</a> от 27 сентября 2013 года, <a href="http://undocs.org/ru/A/HRC/RES/33/5">33/5</a> от 29 сентября 2016 года, <a href="http://undocs.org/ru/A/HRC/RES/42/12">42/12</a> от  26 сентября 2019 года, <a href="http://undocs.org/ru/A/HRC/RES/48/3">48/3</a> от 7 октября 2021 года и <a href="http://undocs.org/ru/A/HRC/RES/51/4">51/4</a> от 6 октября 2022 года о правах человека пожилых людей и все другие соответствующие резолюции Совета, включая резолюции <a href="http://undocs.org/ru/A/HRC/RES/39/18">39/18</a> от 28 сентября 2018 года и <a href="http://undocs.org/ru/A/HRC/RES/44/7">44/7</a> от 16 июля 2020 года,</p>
+      </container>
+      <container name="признавая" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">признавая</span> работу Независимого эксперта по вопросу об осуществлении пожилыми людьми всех прав человека и Рабочей группы открытого состава по проблемам старения, а также вклад и поддержку со стороны Управления Верховного комиссара Организации Объединенных Наций по правам человека,</p>
+      </container>
+      <container name="с удовлетворением принимая к сведению" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">с удовлетворением принимая к сведению</span> доклад Независимого эксперта по вопросу об осуществлении пожилыми людьми всех прав человека о насилии в отношении пожилых людей, жестоком обращении с ними и отсутствии заботы о них<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/HRC/54/26">A/HRC/54/26</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">с удовлетворением отмечая</span> работу специальных процедур Совета по правам человека по вопросам о пожилых людях и принимая к сведению соответствующие доклады, в частности, Независимого эксперта, Рабочей группы по вопросу о дискриминации в отношении женщин и девочек, Специального докладчика по вопросу о праве каждого человека на наивысший достижимый уровень физического и психического здоровья, Специального докладчика по вопросу о правах людей с инвалидностью и Специального докладчика по вопросу о правах коренных народов,</p>
+      </container>
+      <container name="признавая" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что при осуществлении своих прав человека пожилые люди сталкиваются с целым рядом особых проблем, в том числе, среди прочего, связанных с предупреждением и защитой от насилия, жестокого обращения и отсутствия заботы, социальной защитой, питанием и жильем, правом на труд и доступом на рынок труда, равенством и недискриминацией, доступом к правосудию, новыми технологиями, образованием, профессиональной подготовкой, оказанием медицинской помощи, обеспечением ухода и поддержки на долгосрочной основе, оказанием паллиативной помощи, обучением на протяжении всей жизни, участием, доступностью, равной оплатой за равный труд и неоплачиваемыми услугами по уходу,</p>
+      </container>
+      <container name="особо отмечая" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">особо отмечая</span> важность поощрения усилий по формированию инклюзивных и учитывающих возрастные особенности общин и условий и предоставления комплекса вспомогательных услуг, позволяющих обеспечивать достоинство, самостоятельность и независимость пожилых людей, с тем чтобы пожилые люди, старея, могли оставаться в своих домах, с должным учетом личных предпочтений,</p>
+      </container>
+      <container name="отмечая" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">отмечая</span>, что новые и появляющиеся технологии, а также ассистивные технологии, обеспечивая самостоятельность пожилых людей, могут открывать возможности и создавать условия для инклюзии, участия и вовлечения пожилых людей во все сферы жизни общества, в том числе в политическую, экономическую и социальную сферы, что может существенным образом способствовать  предотвращению насилия в отношении пожилых людей, жестокого обращения с ними и отсутствия заботы о них,</p>
+      </container>
+      <container name="признавая" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что эйджизм представляет собой широко распространенное и предвзятое отношение, которое является значительным фактором риска жестокого обращения с пожилыми людьми, и что возрастные стереотипы играют ключевую роль в увековечении жестокого обращения с пожилыми людьми, а также в препятствовании их доступу к надлежащему уходу и поддержке и их свободному, полноценному, активному, инклюзивному и значимому участию во всех процессах принятия государственных решений, включая разработку законов, политики и других мер по борьбе с насилием и жестоким обращением, а также их доступу к средствам правовой защиты и возмещению ущерба,</p>
+      </container>
+      <container name="признавая также" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">признавая также</span>, что все формы насилия в отношении пожилых людей, жестокого обращения с ними и отсутствия заботы о них широко распространены во всем мире и что рост насилия в отношении пожилых людей наблюдается в ходе текущих кризисов, таких как пандемия коронавирусной инфекции (COVID‑19), вооруженные конфликты и изменение климата,</p>
+      </container>
+      <container name="с обеспокоенностью отмечая" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">с обеспокоенностью отмечая</span>, что насилие в отношении пожилых людей по‑прежнему остается вне поля зрения и что ограниченное понимание этого явления имеет далеко идущие последствия для психического и физического благополучия миллионов пожилых людей во всем мире,</p>
+      </container>
+      <container name="отмечая" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">отмечая</span> выводы Независимого эксперта о том, что «в большинстве определений признаны пять форм жестокого обращения с пожилыми людьми, а именно: a) физическое насилие; b) психологическое или эмоциональное насилие; c) сексуальное насилие; d) финансовые или материальные злоупотребления; и e) отсутствие заботы», а также отмечая, что «Независимый эксперт признает наличие еще одной формы — языка ненависти в отношении пожилых людей»<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Там же, п. 12.</p></authorialNote>,</p>
+      </container>
+      <container name="подчеркивая" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span>, что эйджизм и дискриминация по возрастному признаку являются коренной причиной насилия в отношении пожилых людей, жестокого обращения с ними и отсутствия заботы о них и препятствием для ведения эффективной борьбы с этими явлениями,</p>
+      </container>
+      <container name="отмечая" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">отмечая</span>, что все формы насилия в отношении пожилых людей, жестокого обращения с ними и отсутствия заботы о них могут проявляться при любых обстоятельствах, в том числе в общественных местах и в частной сфере, как онлайн, так и офлайн,</p>
+      </container>
+      <container name="отмечая с обеспокоенностью" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">отмечая с обеспокоенностью</span>, что пожилые женщины часто сталкиваются с дискриминацией, включая множественные и интерсекционные формы дискриминации, и подвергаются угрозе стать жертвами насилия, жестокого обращения с ними и отсутствия заботы о них в силу их гендерной принадлежности, возраста, расовой принадлежности, инвалидности или по иным признакам, что влияет на осуществление их прав человека,</p>
+      </container>
+      <container name="отмечая" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">отмечая</span>, что отсутствие данных о распространенности жестокого обращения с пожилыми людьми порождает значительные пробелы в предотвращении нарушений прав человека, и предполагая, что реальное число пожилых людей, страдающих от жестокого обращения или насилия, значительно выше, чем на то указывают имеющиеся данные, и что в связи со старением населения планеты число жертв в будущем будет быстро возрастать, если не будут приняты меры по эффективному решению этой проблемы,</p>
+      </container>
+      <container name="отмечая также" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">отмечая также</span> фрагментарность международного права в области прав человека в отношении пожилых людей и отсутствие в действующей правозащитной системе конкретных положений, касающихся насилия в отношении пожилых людей, жестокого обращения с ними и отсутствия заботы о них, а также уникальные риски, которым подвергаются пожилые люди, особенно пожилые женщины, находящиеся в уязвимом положении, в рамках существующей системы прав человека,</p>
+      </container>
+      <container name="с удовлетворением принимая к сведению" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">с удовлетворением принимая к сведению</span> доклад Верховного комиссара Организации Объединенных Наций по правам человека о нормативных стандартах и обязательствах по международному праву в отношении поощрения и защиты прав человека пожилых людей<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/HRC/49/70">A/HRC/49/70</a>.</p></authorialNote> и отмечая содержащиеся в докладе выводы о пробелах, ограничениях и недостатках в существующей международной системе прав человека, а также то, что в этом докладе Верховный комиссар подчеркивает необходимость ускорения разработки и принятия последовательных, всеобъемлющих и комплексных рамок защиты прав человека,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">с удовлетворением отмечая</span> созыв 29 и 30 августа 2022 года многостороннего совещания, на котором обсуждался доклад Верховного комиссара о нормативных стандартах и обязательствах по международному праву в отношении поощрения и защиты прав человека пожилых людей, и принимая к сведению краткий доклад по нему, содержащий рекомендации по устранению имеющихся пробелов, негативно влияющих на жизнь пожилых людей<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/HRC/52/49">A/HRC/52/49</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="с удовлетворением принимая к сведению" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">с удовлетворением принимая к сведению </span> принятое Рабочей группой открытого состава по проблемам старения на ее тринадцатой сессии решение 13/1  о выявлении возможных пробелов в защите прав человека пожилых людей и оптимальных путях их устранения, а также ее просьбу к сокоординаторам представить предлагаемые согласованные на межправительственном уровне рекомендации для рассмотрения на ее четырнадцатой сессии в марте 2024 года,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> 	<span class="italic">самым решительным образом осуждает</span> сохраняющиеся и широко распространенные повсюду в мире все формы насилия в отношении пожилых людей, жестокого обращения с ними и отсутствия заботы о них и вновь подтверждает, что все пожилые люди должны иметь возможность жить, не подвергаясь насилию, жестокому обращению и отсутствию заботы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">выражает глубокую обеспокоенность</span> тем, что все формы дискриминации и насилия в отношении пожилых людей препятствуют полноценному осуществлению пожилыми людьми их прав человека и основных свобод и затрудняют их полноценное, эффективное и значимое участие в общественной и частной жизни;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> 	<span class="italic">признает</span> необходимость проведения углубленного анализа и принятия надлежащих мер для решения проблем, связанных с осуществлением пожилыми людьми гражданских, политических, экономических, социальных и культурных прав, в том числе, среди прочего, проблем, связанных с предупреждением и защитой от насилия, жестокого обращения и отсутствия заботы, социальной защитой, питанием и жильем, правом на труд и доступом на рынок труда, равенством и недискриминацией, доступом к правосудию, новыми технологиями, образованием, профессиональной подготовкой, оказанием медицинской помощи, уходом и поддержкой на долгосрочной основе, паллиативной помощью, неоплачиваемом трудом по уходу, обучением на протяжении всей жизни, участием, доступностью и равной оплатой за равный труд;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> все государства запрещать все формы дискриминации в отношении пожилых людей, принимать и осуществлять недискриминационные программы, национальные стратегии, планы действий, законы и подзаконные акты, в том числе в виде мер реагирования на насилие, жестокое обращение и отсутствие заботы, а также поощрять и обеспечивать полноценную реализацию пожилыми людьми всех прав человека и основных свобод, в частности, в сфере занятости, социальной защиты, жилья, образования и профессиональной подготовки, доступа к технологиям и оказания финансовых, социальных и медицинских услуг, услуг по обеспечению поддержки на долгосрочной основе и оказанию паллиативной помощи, систематически проводя при этом консультации с самими пожилыми людьми и представляющими их организациями и обеспечивая их участие в них;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> все заинтересованные стороны, включая государства, структуры системы Организации Объединенных Наций, гражданское общество, национальные правозащитные учреждения и частный сектор, вести борьбу с эйджизмом как коренной причиной насилия, жестокого обращения и отсутствия заботы, а также искоренять насилие, жестокое обращение и отсутствие заботы во всех их формах и применять правозащитный подход во всех программах, кампаниях и мероприятиях, связанных со старением и пожилыми людьми;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> все государства создавать механизмы возмещения ущерба и/или повышать их эффективность и обеспечивать наравне с другими доступ к правосудию для всех пожилых людей, ставших жертвами и пострадавших от насилия, жестокого обращения и отсутствия заботы, а также для пожилых людей, подвергшихся дискриминации по признакам возраста, гендерной принадлежности, расы или инвалидности или по другим признакам, включая правовую помощь и поддержку, а также доступное и учитывающее возрастные особенности судопроизводство;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает также</span> все государства принимать меры по повышению информированности общества, в том числе должностных лиц, представителей частного сектора и самих пожилых людей, о значении и последствиях насилия в отношении пожилых людей, жестокого обращения с ними и отсутствия заботы о них, а также о существующих правовых положениях и средствах судебной защиты;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> государства собирать и анализировать данные в разбивке, соответственно, по возрасту, гендерной принадлежности, инвалидности, семейному положению, району проживания и другим значимым критериям, с тем чтобы определять и выявлять неравенство и признаки дискриминации, в том числе структурные аспекты дискриминации, и анализировать эффективность мер, принимаемых в целях поощрения равенства, а также предоставлять информацию обо всех формах насилия, жестокого обращения и отсутствия заботы и их коренных причинах, включая эйджизм и дискриминацию, в том числе множественные и интерсекционные формы дискриминации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> Независимому эксперту по вопросу об осуществлении пожилыми людьми всех прав человека в ее ежегодных докладах продолжать повышать осведомленность о проблемах, с которыми сталкиваются пожилые люди при реализации своих прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve"> 	<span class="italic">просит</span> Управление Верховного комиссара Организации Объединенных Наций по правам человека созвать совещание экспертов по правам человека, полностью доступное для людей с инвалидностью, с участием независимого эксперта и представителей экспертов государств-членов, договорных органов и специальных процедур, региональных механизмов, системы Организации Объединенных Наций, научных кругов, национальных правозащитных учреждений и гражданского общества, в том числе при значимом и эффективном участии пожилых людей и представляющих их организаций, для обсуждения и выработки рекомендаций по правозащитным обязательствам государств, касающимся насилия в отношении пожилых людей, жестокого обращения с ними и отсутствия заботы о них при любых обстоятельствах, подготовить краткий доклад, который должен быть представлен в доступных форматах, включая простой язык и простой для чтения и понимания формат, и содержать выводы и рекомендации совещания, и представить этот доклад Совету по правам человека к его пятьдесят седьмой сессии.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46-е" refersTo="#adoptionMeeting">46‑е заседание</location>
+          <eol />
+          <docDate date="2023-10-11" refersTo="#adoptionDate">11 октября 2023 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
