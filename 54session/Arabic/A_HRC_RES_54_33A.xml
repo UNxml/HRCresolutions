@@ -1,0 +1,235 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/ara@/"></FRBRuri>
+          <FRBRdate date="2023-10-17" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="CARIBBEAN REGION" href="http://metadata.un.org/thesaurus/1000834" showAs="CARIBBEAN REGION" dictionary="UNBIS Thesaurus"/>
+        <keyword value="FIELD OFFICES" href="http://metadata.un.org/thesaurus/1002312" showAs="FIELD OFFICES" dictionary="UNBIS Thesaurus"/>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/54/1"/>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-11" outcome="draftResolution" as="A/HRC/54/L.35/Rev.1" by="Antigua and Barbuda, Bahamas, Barbados, Belize, Dominica, Grenada, Guyana, Haiti, Jamaica, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Suriname and Trinidad and Tobago"/>
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by=""/>
+        <step date="2023-10-17" outcome="recommendedForAdoption" by=""/>
+        <step date="2023-10-17" outcome="adopted" as="Adopted without vote, 48th meeting" by=""/>
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/33</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-17" class="rightSmall" refersTo="#dateOfIssuance">17 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic"> Arabic </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">الدورة الرابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 أيلول</date>
+          <date date="2023-10-13" refersTo="#endDate">13 تشرين الأول 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">البند 10 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المساعدة التقنية وبناء القدرات</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 12 تشرين الأول/أكتوبر 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/33</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	إنشاء مكتب إقليمي لمفوضية الأمم المتحدة السامية لحقوق الإنسان للجماعة الكاريبية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بالمبادئ الأساسية والعالمية المكرسة في ميثاق الأمم المتحدة، </p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعيد تأكيد</span> الإعلان العالمي لحقوق الإنسان، وإذ يشير إلى جميع معاهدات حقوق الإنسان ذات الصلة، بما فيها العهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، والعهد الدولي الخاص بالحقوق المدنية والسياسية،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى إعلان وبرنامج عمل فيينا لعام 1993 الذي كرر تأكيد ضرورة النظر في إمكانية وضع ترتيبات إقليمية ودون إقليمية لتعزيز حقوق الإنسان وحمايتها، حيثما لا توجد بالفعل ترتيبات من هذا القبيل، وإذ يعيد تأكيد عالمية جميع حقوق الإنسان، الاقتصادية والمدنية والثقافية والسياسية والاجتماعية، بما فيها الحق في التنمية، ويعيد تأكيد ترابطها وتشابكها وعدم قابليتها للتجزئة،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى قراري الجمعية العامة 32/127 المؤرخ 16 كانون الأول/ديسمبر 1977 و51/102 المؤرخ 12 كانون الأول/ديسمبر 1996، وقرار لجنة حقوق الإنسان 1993/51 المؤرخ 9 آذار/مارس 1993، وقرار مجلس حقوق الإنسان 43/17 المؤرخ 22 حزيران/يونيه 2022، وجميع القرارات اللاحقة الصادرة عن الجمعية والمجلس بشأن وضع ترتيبات إقليمية لتعزيز حقوق الإنسان وحمايتها،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن للتعاون الإقليمي دوراً أساسياً في تعزيز حقوق الإنسان وحمايتها، وهـو حـري بأن يوطـد حقوق الإنسان العالمية، على النحو الوارد في الصكوك الدولية لحقوق الإنسان، ويوطد حمايتها،</p>
+      </container>
+      <container name="وإذ يلتـزم" eId="container_7">
+          <p xml:space="preserve">	<span class="italic">وإذ يلتـزم</span> بتوثيـق عــرى التعاون دون الإقليمي والإقليمي والدولي من أجل تعزيز حقوق الإنسان والحريات الأساسية وحمايتها على الصعيد العالمي، تمشياً مع الالتـزامات الدولية، </p>
+      </container>
+      <container name="واقتنـاعاً منه" eId="container_8">
+          <p xml:space="preserve">	<span class="italic">واقتنـاعاً منه</span> بأن التعاون بين الأمم المتحدة والمبادرات الإقليمية في ميدان حقوق الإنسان يظل أمراً جوهرياً وداعماً، وبأن ثمــة إمكانيات لزيادة هذا التعاون، </p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن أنشطة التعاون التقني وبناء القدرات في ميدان حقوق الإنسان ينبغي أن تظل مستندة إلى التشاور مع الدول المعنية وموافقتها، وأن تراعي طلباتها واحتياجاتها وأولوياتها فضلاً عن كون جميع حقوق الإنسان عالمية ومترابطة ومتشابكة وغير قابلة للتجزئة، وأن تهدف إلى إحداث تأثير ملموس على أرض الواقع، </p>
+      </container>
+      <container name="وإذ يشير" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى قرارات الجمعية العامة بشأن التعاون بين الأمم المتحدة والجماعة الكاريبية،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> باستمرار التزام الدول الأعضاء في الجماعة الكاريبية تجاه الأمم المتحدة باعتبارها المنتدى الرئيسي للتعاون المتعدد الأطراف، </p>
+      </container>
+      <container name="وإذ يشير" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى اتفاق التعاون المبرم بين الأمانة العامة للأمم المتحدة وأمانة الجماعة الكاريبية، وإذ يضع في اعتباره أنشطة التعاون المضطلع بها عملاً بهذا الاتفاق، </p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">وإذ يساوره بالغ القلق</span> لأن جائحة مرض فيروس كورونا (كوفيد-19) والاختلالات الاقتصادية العالمية الخطيرة التي نجمت عنها تؤثران تأثيراً سلبياً كبيراً على التنمية المستدامة والاحتياجات الإنسانية للدول الأعضاء في الجماعة الكاريبية التي تعتمد على السياحة والسلع الأساسية واستقرار سلاسل الإمداد العالمية وعلى التحويلات، مما يطرح تحديات أمام التمتع الكامل بحقوق الإنسان ويزيد من صعوبة تحقيق خطة التنمية المستدامة لعام 2030، </p>
+      </container>
+      <container name="وإذ يدرك" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يدرك</span> التنوع الذي تتسم به الجماعة الكاريبية فضلاً عن التحديات الفريدة والجديدة والمستمرة، بما في ذلك تناقص الاستثمار الأجنبي المباشر، واختلال الميزان التجاري، وزيادة المديونية، وعدم كفاية شبكات البنى التحتية للنقل والطاقة وتكنولوجيا المعلومات والاتصالات، ومحدودية القدرات البشرية والمؤسسية، وعدم القدرة على الاندماج بفعالية في الاقتصاد العالمي، وأثر استراتيجيات تجنب المخاطر على المؤسسات المالية في الكاريبي، والديون المثقِلة، والخروج من الفئة المؤهلة للاستفادة من التمويل الإنمائي بشروط ميسرة، وانعدام سبل الحصول على الطاقة المستدامة والموثوقة والحديثة والميسورة التكلفة، والجريمة والعنف، والاتجار غير المشروع بالمخدرات والأسلحة، ولا سيما الأسلحة الصغيرة والأسلحة الخفيفة والذخيرة، وتهديد الإرهاب والتطرف العنيف المؤدي إلى الإرهاب، ومكافحة الأمراض السارية وغير السارية، وانعدام الأمن الغذائي، والكوارث الطبيعية والآثار الضارة لتغير المناخ، بما في ذلك الظواهر البطيئة الحدوث والظواهر السريعة الحدوث والأضرار المرتبطة بها، وكذلك ارتفاع تكلفة الطاقة المستوردة وتدهور النظم الإيكولوجية الساحلية والبحرية وارتفاع مستوى سطح البحر، وفقدان التنوع البيولوجي، وكلها عوامل أدت إلى تفاقم مواطن الضعف في الدول الأعضاء في الجماعة الكاريبية وإلى حدوث زيادة خطيرة في حدة التحديات الماثلة أمام تمتع جميع الأشخاص تمتعاً كاملاً بحقوق الإنسان وأمام جهود التنمية المستدامة التي تبذلها، وإذ يدرك أيضاً أهمية ضمان تعزيز وحماية وإعمال جميع حقوق الإنسان لجميع الأشخاص، مع إيلاء عناية خاصة للاحتياجات المحددة للأشخاص الذين يعيشون في أوضاع هشة،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى الطلب الذي قدمته الجمعية العامة في قرارها 75/323 إلى الأمين العام للأمم المتحدة والأمينة العامة للجماعة الكاريبية أن يواصلا، كل في إطار ولايته، تعاونهما وأن يعززا الاتساق في تواصلهما من أجل زيادة قدرة المنظمتين على تحقيق أهدافهما والسعي إلى إيجاد حلول للتحديات العالمية، بما فيها تغير المناخ، والحد من مخاطر الكوارث، والمساواة بين الجنسين وتمكين جميع النساء والفتيات، والتحديات الماثلة أمام التنمية المستدامة، ومنها الفقر وعدم المساواة، واستراتيجيات تجنب المخاطر المالية، والأمراض غير السارية، والجريمة المنظمة العابرة للحدود الوطنية، والإرهاب، </p>
+      </container>
+      <container name="وإذ يرحب" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> بإعراب مجلس العلاقات الخارجية وعلاقات الجماعة الكاريبية، عن طريق الأمينة العامة للجماعة الكاريبية، عن تأييد ودعم مفوضية الأمم المتحدة السامية لحقوق الإنسان في 4 تشرين الأول/أكتوبر 2023 في إنشاء مكتب إقليمي لمفوضية الأمم المتحدة السامية لحقوق الإنسان للجماعة الكاريبية، وفي استضافة جزر البهاما لهذا المكتب،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_17" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> باستمرار تعاون مفوضية الأمم المتحدة السامية لحقوق الإنسان واستمرار مساعداتها من أجل زيادة تمتين الترتيبات والآليات الإقليمية القائمة لتعزيز حقوق الإنسان وحمايتها، وبوجه خاص من خلال التعاون التقني الذي يهدف إلى بناء القدرات الوطنية، والإعلام والتثقيف، بغية تبادل المعلومات والخبرات في ميدان حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">يرحب أيضاً</span> بمبادرة حكومة جزر البهاما إلى استضافة مكتب إقليمي للمفوضية السامية للجماعة الكاريبية، تمشياً مع الولاية المنوطة بمفوضية الأمم المتحدة السامية لحقوق الإنسان بموجب قرار الجمعية العامة 48/141 المؤرخ 20 كانون الأول/ديسمبر 1993، يضطلع على وجه الخصوص بأنشطة المساعدة التقنية وبناء القدرات وفقاً للالتزامات الدولية لحقوق الإنسان، ودعم الجهود التي تبذلها حكومات الجماعة الكاريبية لتعزيز حقوق الإنسان وحمايتها وإعمالها داخل المنطقة، بمساعدة من المؤسسات الوطنية لحقوق الإنسان والمنظمات غير الحكومية، وفي ضوء التحديات الفريدة التي تواجهها الدول الجزرية الصغيرة النامية، بما في ذلك الآثار الضارة لتغير المناخ؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">يرحب كذلك</span> باستعداد مفوضة الأمم المتحدة السامية لحقوق الإنسان للعمل مع الجماعة الكاريبية على إبرام اتفاق مع البلد المضيف بشأن إنشاء مكتب إقليمي للمفوضية السامية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى الأمين العام أن يقدم جميع الموارد اللازمة لإنشاء مكتب المفوضية السامية الإقليمي وتشغيله؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يبقي المسألة قيد نظره.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48" refersTo="#adoptionMeeting">الجلسة 48</location>
+          <eol />
+          <docDate date="2023-10-12" refersTo="#adoptionDate">12 تشرين الأول/أكتوبر 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد بدون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

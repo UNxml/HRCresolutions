@@ -1,0 +1,571 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/ara@/"></FRBRuri>
+          <FRBRdate date="2023-10-16" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-03-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="RIGHT TO PRIVACY" href="http://metadata.un.org/thesaurus/1005566" showAs="RIGHT TO PRIVACY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL TECHNOLOGY" href="http://metadata.un.org/thesaurus/1001655" showAs="DIGITAL TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NEW TECHNOLOGIES" href="http://metadata.un.org/thesaurus/1004392" showAs="NEW TECHNOLOGIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS POLICY" href="http://metadata.un.org/thesaurus/1002983" showAs="HUMAN RIGHTS POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CORPORATE SOCIAL RESPONSIBILITY" href="http://metadata.un.org/thesaurus/1001316" showAs="CORPORATE SOCIAL RESPONSIBILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ELECTRONIC SURVEILLANCE" href="http://metadata.un.org/thesaurus/1001975" showAs="ELECTRONIC SURVEILLANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DATA PROTECTION" href="http://metadata.un.org/thesaurus/1001504" showAs="DATA PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISCRIMINATION" href="http://metadata.un.org/thesaurus/1001697" showAs="DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-10" outcome="draftResolution" as="A/HRC/54/L.12/Rev.1" by="Albania, Andorra, Austria, Belgium, Brazil, Bulgaria, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Marshall Islands, Mexico, Montenegro, North Macedonia, Norway, Paraguay, Peru, Portugal, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-16" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-16" outcome="adopted" as="Adopted without vote, 48th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/21</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-16" class="rightSmall" refersTo="#dateOfIssuance">16 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic"> Arabic </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">الدورة الرابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 أيلول</date>
+          <date date="2023-10-13" refersTo="#endDate">13 تشرين الأول 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 12 تشرين الأول/أكتوبر 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/21</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	الحق في الخصوصية في العصر الرقمي</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه،‏</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> حقوق الإنسان والحريات الأساسية المكرسة في الإعلان العالمي لحقوق الإنسان، والعهد الدولي الخاص بالحقوق المدنية والسياسية، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، وفي غير ذلك من الصكوك الدولية ذات الصلة المتعلقة بحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى جميع القرارات السابقة للجمعية العامة ومجلس حقوق الإنسان بشأن الحق في الخصوصية في العصر الرقمي، فضلاً عن القرارات الأخرى ذات الصلة،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب </span>بعمل مفوضية الأمم المتحدة السامية لحقوق الإنسان بشأن الحق في الخصوصية في العصر الرقمي، وإذ يرحب أيضاً بعمل مختلف المكلفين بولايات في إطار الإجراءات الخاصة لمجلس حقوق الإنسان بشأن الحق في الخصوصية ومساهماتهم في تعزيز وحماية الحق في الخصوصية،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> حق الإنسان في الخصوصية، الذي لا يجوز بمقتضاه تعريض أيٍّ كان لتدخل تعسفي أو غير قانوني في خصوصيته أو في شؤون أسرته أو بيته أو مراسلاته، وحقَّه في التمتع بحماية القانون من هذا التدخل، وإذ يسلّم بأن ممارسة الحق في الخصوصية أمر مهم لإعمال حقوق الإنسان الأخرى، بما فيها الحق في حرية التعبير وفي اعتناق الآراء دون تدخّل، والحق في حرية التجمع السلمي وتكوين الجمعيات، وبأن هذه الممارسة ركن من أركان أي مجتمع ديمقراطي،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن الحق في الخصوصية يرتبط ارتباطاً جوهرياً بالحماية الفعالة للبيانات الشخصية لكل فرد،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً</span> بأن من شأن الحق في الخصوصية أن يتيح تمتعَ الفرد بحقوق أخرى، ونماءَ شخصية وهويته بحرية، وقدرتَه على المشاركة في الحياة السياسية والاقتصادية والاجتماعية والثقافية،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن نفس الحقوق التي يتمتع بها الأشخاص خارج شبكة الإنترنت، ومنها الحق في الخصوصية، يجب حمايتها أيضاً على الإنترنت، وإذ يشير إلى أن تسريع تزامن الفضاءات على الإنترنت وخارجها قد يؤثر على الأفراد وعلى حقهم في الخصوصية،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ</span> أن من شأن عمليات اتخاذ القرار الخوارزمية أو الآلية على الإنترنت أن تؤثر على تمتع الأفراد بحقوقهم خارج الإنترنت،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بالحاجة إلى أن تتواصل، استناداً إلى القانون الدولي لحقوق الإنسان، مناقشةُ وتحليل المسائل ذات الصلة بتعزيز وحماية الحق في الخصوصية في العصر الرقمي والضمانات الإجرائية والرقابة وسبل الانتصاف المحلية الفعالة وتأثير المراقبة على التمتع بالحق في الخصوصية وغيره من حقوق الإنسان، فضلاً عن الحاجة إلى دراسة مبادئ عدم التعسف، والقانونية، والشرعية، والضرورة، والتناسب فيما يتعلق بممارسات المراقبة، والنظر فيما قد يترتب عليها من آثار تمييزية،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ</span> أن سرعة وتيرة التطور التكنولوجي تمكِّن الأفراد في جميع أنحاء العالم من استخدام تكنولوجيا المعلومات والاتصالات، وتزيد في الوقت نفسه قدرة الحكومات ومؤسسات الأعمال التجارية والأفراد على القيام بمهام مراقبة واعتراض واختراق وجمع بيانات قد تشكل انتهاكات أو تجاوزات لحقوق الإنسان، ولا سيما الحق في الخصوصية، وتشكل بالتالي مصدر قلق متزايد،</p>
+      </container>
+      <container name="وإذ يلاحظ أيضاً" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ أيضاً</span> أن انتهاكات وتجاوزات الحق في الخصوصية في العصر الرقمي يمكن أن تؤثر على جميع الأفراد، وأن تكون لها آثار خاصة على النساء والأطفال والأشخاص ذوي الإعاقة وكبار السن، فضلاً عن الأشخاص الذين يعيشون في أوضاع هشة والفئات المهمشة، وأن معالجة البيانات الشخصية يجب أن تخضع لضمانات وقيود حقوق الإنسان، ولا سيما بيانات الأشخاص الذين يعيشون أوضاعاً هشة،</p>
+      </container>
+      <container name="وإذ يلاحظ كذلك" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ كذلك</span> أن النساء والفتيات يتعرضن لانتهاكات وتجاوزات جنسانية لحقهن في الخصوصية، سواء على شبكة الإنترنت أو خارجها، فضلاً عن انتهاكات أو تجاوزات لها آثار جنسانية، وإذ يسلم بأن الطريقة التي يتم بها تصميم العديد من المنصات الرقمية وتسويقها وصيانتها وإدارتها يمكن أن تسفر عن معلومات مضللة ومعلومات مغلوطة وعن خطاب الكراهية، مما قد يتسبب في تفاقم القوالب النمطية الجنسانية، ويؤدي إلى العنف الجنسي والجنساني ويقوض حماية البيانات وإعمال جميع حقوق النساء والفتيات، ولا سيما حقهن في الخصوصية،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ</span> أن الأطفال يمكن أن يكونوا معرضين بوجه خاص لتجاوزات وانتهاكات حقهم في الخصوصية، بما في ذلك من خلال التسلط عبر الإنترنت، والمطاردة عبر الإنترنت، والاعتداء والاستغلال الجنسيين، وإذ يلاحظ أيضاَ أن على الدول الأطراف أن تنفذ اتفاقية حقوق الطفل فيما يتعلق بالبيئة الرقمية، بما في ذلك أهمية الخصوصية لإرادة الأطفال وكرامتهم وسلامتهم، ولممارسة حقوقهم،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بالحاجة إلى ممارسة العناية الواجبة المتعلقة بحقوق الإنسان عند تصور التكنولوجيات الجديدة والناشئة، كتلك التي تنطوي على الذكاء الاصطناعي، وعند تصميم هذه التكنولوجيات واستخدامها ونشرها ومواصلة تطويرها لأن من شأنها، في غياب الضمانات المناسبة، أن تؤثر على التمتع بالحق في الخصوصية وبغيره من حقوق الإنسان، وبأن من الممكن، بل ومن الواجب، تجنبُ المخاطر التي تحيق بهذه الحقوق أو التقليل منها إلى أدنى حد ممكن، بوسائل منها اتخاذُ تدابير لضمان هياكل أساسية للبيانات تتسم بالأمان والشفافية والمساءلة والأمن والجودة الرفيعة، عن طريق ممارسة العناية الواجبة والاستعراضات الدورية للتكنولوجيات التي سبق نشرها لأجل تقييم الآثار السلبية على حقوق الإنسان ومنعها وتخفيفها، وعن طريق توفير سبل انتصاف فعالة، بما فيها سبل الانتصاف القضائية وآليات جبر الضرر وإنشاء رقابة بشرية،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن استخدام نظم التكنولوجيات الرقمية والذكاء الاصطناعي التي تتطلب معالجة كميات كبيرة من البيانات، المتعلقة في كثير من الأحيان ببيانات شخصية، بما فيها تلك المتعلقة بسلوك الشخص وعلاقاته الاجتماعية وتفضيلاته الخاصة وهويته، ومنها البيانات الوصفية، يمكن أن يعرض الحق في الخصوصية لمخاطر شديدة، خاصة عندما تُستخدم لأغراض تحديد الهوية أو التعقُّب أو التنميط أو التعرّف على الوجه أو التنبؤ بالتصرفات أو حساب نقاط الأفراد، على الرغم مما لهذا الاستخدام من آثار إيجابية،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ</span> أن استخدام استخراج البيانات والخوارزميات لتوجيه المحتوى نحو مستخدمي الإنترنت قد يقوض إرادة هؤلاء المستخدمين وقدرتهم على الوصول إلى المعلومات عبر الإنترنت، فضلاً عن حقهم في حرية الرأي والتعبير، ويمكن أن يؤدي إلى تكثيف التهديدات الناجمة عن المعلومات المغلوطة والمعلومات المضللة وخطاب الكراهية، ولا سيما على منصات التواصل الاجتماعي، مما قد يؤدي إلى العنف، بما في ذلك العنف السياسي، وإذ يشير في هذا الصدد إلى خطة عمل الرباط بشأن حظر الدعوة إلى الكراهية القومية أو العرقية أو الدينية التي تشكل تحريضاً على التمييز أو العداوة أو العنف،</p>
+      </container>
+      <container name="وإذ يشير مع القلق" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير مع القلق</span> إلى الطابع الاقتحامي لممارسات جمع البيانات وأثرها، وما يتصل بذلك من آثار وأضرار ناجمة عن المراقبة وتزايد استخدام الخوارزميات التي ينطوي عليها تطبيق نظم الذكاء الاصطناعي، </p>
+      </container>
+      <container name="وإذ يشير مع القلق أيضاً" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير مع القلق أيضاً</span> أن بعض الخوارزميات التنبؤية والاستخدام المتزايد لتكنولوجيات التعرف على الوجه والمراقبة من المرجح أن يؤديا إلى التمييز، ولا سيما عندما تكون البيانات المستخدمة في تدريب الخوارزميات غير دقيقة وغير ذات صلة وغير تمثيلية وغير مدقَّقة لضمان خلوها من التحيز المشفر،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ</span> أن استخدام الذكاء الاصطناعي قد ينطوي، في غياب ضمانات حقوق الإنسان، على خطر ترسيخ التمييز، بما في ذلك أوجه اللامساواة الهيكلية، خاصة عند معالجة البيانات الحساسة، وإذ تسلم بأن النتائج التي تنطوي على التمييز لأسباب عنصرية أو لغيرها من الأسباب يجب منعها عند تصميم التكنولوجيات الرقمية الناشئة والجديدة وتطويرها وتطبيقها واستخدامها،</p>
+      </container>
+      <container name="وإذ يشير مع القلق" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير مع القلق</span> إلى التقارير التي تفيد بتدني دقة تحديد الهوية بواسطة البيانات البيومترية، بما في ذلك تكنولوجيات التعرف على الوجه التي تنطوي على تحيزات وتحاملات عنصرية في تحديد الهوية ضد النساء، بما في ذلك عند استخدام بيانات تدريب غير تمثيلية، وإلى أن من شأن استخدام التكنولوجيات الرقمية أن يكرر إنتاج مظاهر عدم المساواة العرقية والجنسانية ويرسخها، بل يزيد من تفاقمها، وإذ يسلم في هذا السياق بأهمية سبل الانتصاف الفعالة،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم </span>بأن البيانات الوصفية، وإن كانت قد توفر بعض الفوائد، فإن أنواعاً معينة منها يمكن، عند تجميعها، أن تكشف عن معلومات شخصية لا يمكن أن تكون أقل حساسية من المحتوى الفعلي للاتصالات ويمكن أن تعطي نظرة ثاقبة عن سلوك الفرد، بما في ذلك تحركاته وعلاقاته الاجتماعية وأنشطته السياسية وتفضيلاته الخاصة وهويته، وإذ يشير من ثم إلى أن مقدمي الخدمات ينبغي أن يتخذوا خطوات للتقليل إلى أدنى حد من البيانات الوصفية أو حجبها أو حذفها والحد من إمكانية تتبع البيانات الوصفية للمستخدمين من أجل تعزيز الحماية التي يوفرها التشفير وحماية الحق في الخصوصية،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن عدم الحصول على تكنولوجيات وخدمات ميسورة التكلفة وموثوقة لا يزال يشكل تحدياً حاسماً في العديد من البلدان النامية، ولا سيما لسد الفجوات الرقمية، فيما بين البلدان وداخلها على السواء، والفجوة الرقمية بين الجنسين، وللتعجيل بالتقدم نحو التنمية بمختلف أشكالها، بما في ذلك تحقيق أهداف التنمية المستدامة، وإذ يشدد في هذا الصدد على أن العديد من الدول، بما فيها الدول النامية، في جميع أنحاء العالم بحاجة إلى الدعم من أجل سد هذه الفجوات الرقمية وتحقيق أهداف التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ يسلّم أيضاً" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلّم أيضاً</span> بالحاجة إلى ضمان احترام القانون الدولي لحقوق الإنسان، بما في ذلك من خلال إجراء تقييمات للأثر على حقوق الإنسان عند وضع التصور المفاهيمي للتكنولوجيات القائمة على البيانات وتصميمها وتطويرها ونشرها وتقييمها وتنظيمها وتحديد معاييرها التقنية، وإلى كفالة إخضاعها لما يكفي من الضمانات والرقابة،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه</span> من أن الأفراد، ولا سيما الأطفال، لا يعطون و/أو لا يستطيعون في أحيان كثيرة أن يعطوا موافقتهم الحرة والصريحة والمستنيرة على جمع بياناتهم الشخصية ومعالجتها وتخزينها أو على إعادة استخدامها أو بيعها أو إعادة بيعها لمرات متعددة، لأن أعمال جمع البيانات الشخصية، بما في ذلك البيانات الحساسة، ومعالجتها واستعمالها وتخزينها وتبادلها زادت كثيراً في العصر الرقمي، ومن أن الكشف عن البيانات الشخصية والحساسة قد يتسبب في أضرار أو إصابات أو مشقات استثنائية للأفراد،</p>
+      </container>
+      <container name="وإذ يشير بوجه خاص" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير بوجه خاص</span> إلى أن مراقبة الاتصالات الرقمية يجب أن تكون متسقة مع الالتزامات الدولية في مجال حقوق الإنسان وأن تستند إلى إطار قانوني يكون متاحاً لعامة الجمهور وواضحاً وديقاً وشاملاً وغير تمييزي، وإلى أن أي تدخل في الحق في الخصوصية يجب أن يكون متسقاً مع مبادئ الشرعية والضرورة والتناسبية، مع مراعاة ما هو معقول فيما يتعلق بالسعي وراء أهداف مشروعة، وإذ يشير إلى أن الدول الأطراف في العهد الدولي الخاص بالحقوق المدنية والسياسية يجب أن تتخذ الخطوات اللازمة لاعتماد قوانين أو تدابير أخرى، حسب الاقتضاء، لإعمال الحقوق المعترف بها في العهد،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق بالغ" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ بقلق بالغ</span> أن من يعمل من الأفراد والمنظمات لتعزيز حقوق الإنسان والحريات الأساسية والدفاع عنها وتشجيع الصحفيين وغيرهم من العاملين في وسائط الإعلام والدفاع عنهم يمكن أن يواجهوا في أحيان كثيرة، في العديد من البلدان، تهديدات ومضايقات وأن يعانوا من انعدام الأمن، إضافة إلى المساس التعسفي وغير القانوني بحقهم في الخصوصية، بسبب أنشطتهم،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق بالغ أيضاً" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ بقلق بالغ أيضاً</span> استخدام الأدوات التكنولوجية التي طورتها صناعة أنظمة المراقبة الخاصة من جانب الجهات الفاعلة الخاصة أو العامة لأغراض الرقابة واختراق الأجهزة والشبكات، بما في ذلك من خلال استخدام البرامجيات الخبيثة، واعتراض الاتصالات وتعطيلها، وجمع البيانات، والتدخل في الحياة المهنية والخاصة للأفراد، بمن فيهم العاملون في مجال تعزيز حقوق الإنسان والحريات الأساسية والدفاع عنها وتشجيع الصحفيين وغيرهم من العاملين في وسائط الإعلام والدفاع عنهم، في انتهاك أو تجاوز لحقوق الإنسان الخاصة بهم، وتحديداً الحق في الخصوصية،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى أن مؤسسات الأعمال، بما فيها شركات التكنولوجيا، تتحمل مسؤولية احترام حقوق الإنسان على النحو المبين في المبادئ التوجيهية بشأن الأعمال التجارية وحقوق الإنسان: تنفيذ إطار الأمم المتحدة المعنون "الحماية والاحترام والانتصاف"، وأن واجب تعزيز حقوق الإنسان والحريات الأساسية وحمايتها والمسؤولية الأولى عن ذلك يقعان على عاتق الدولة، وإذ يرحب بالعمل الذي أنجزته المفوضية السامية لحقوق الإنسان بشأن تطبيق هذه المبادئ على التكنولوجيات الرقمية،</p>
+      </container>
+      <container name="وإذ يشدّد" eId="container_31">
+          <p xml:space="preserve">	<span class="italic">وإذ يشدّد</span> على أن الحلول التقنية التي تؤمِّن سرية الاتصالات الرقمية وتحميها، بما يشمل تدابير التشفير وإخفاء الهوية وإغفال الهوية، تكتسي أهمية - في العصر الرقمي - لكفالة التمتع بحقوق الإنسان، ولا سيما الحق في الخصوصية وفي حرية الرأي والتعبير والحق في حرية التجمع السلمي وتكوين الجمعيات، وإذ يسلم بأن الدول ينبغي أن تشجع هذه التدابير وتمتنع عن استخدام تقنيات المراقبة غير القانونية أو التعسفية، التي قد تشمل أشكالاً من القرصنة الإلكترونية والقيود المفروضة على الوصول إلى تكنولوجيا التشفير واستخدامها،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على ضرورة كفالة أن التدابير المتخذة في مجالي الأمن الوطني والصحة العامة، بما في ذلك تدابير استخدام التكنولوجيا لرصد الأمراض المعدية واحتواء انتشارها، تمتثل امتثالاً تاماً للالتزامات الملقاة على عاتق الدول بموجب القانون الدولي لحقوق الإنسان، وتتقيد بمبادئ القانونية والشرعية والمشروعية فيما يتعلق بالهدف المتوخى والضرورة والتناسب، والحاجة إلى حماية حقوق الإنسان، بما في ذلك الحق في الخصوصية، فضلاً عن حماية البيانات الشخصية في مواجهة الطوارئ الصحية وحالات الطوارئ الأخرى، وإذ يشدد أيضاً على الحاجة إلى حذف أو إغفال هوية البيانات المجمعة بمجرد انتهائها من الوفاء بالأغراض التي جُمِّعت لأجلها،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_33" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> الحقَّ في الخصوصية، الذي لا يجوز بموجبه تعريض أي شخص، ذكراً كان أو أنثى، لتدخل تعسفي أو غير قانوني في خصوصيته أو في شؤون أسرته أو بيته أو مراسلاته، والحقَّ في التمتع بحماية القانون من هذا التدخل، حسبما هو مبين في المادة 12 من الإعلان العالمي لحقوق الإنسان والمادة 17 من العهد الدولي الخاص بالحقوق المدنية والسياسية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">يشير إلى</span> أن الدول ينبغي أن تكفل في أي تدخّل يمس بالحق في الخصوصية الامتثال لمبادئ الشرعية والضرورة والتناسب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">يشير أيضاً</span> إلى ما للتكنولوجيات الجديدة والناشئة، مثل تلك التي استُحْدِثَت في ميادين المراقبة والذكاء الاصطناعي واتخاذ القرارات آلياً والتعلم الآلي، وما للتنميط والتتبع والبيانات البيومترية، بما في ذلك التعرف على الوجه، من دون ضمانات مناسبة، من أثر على التمتع الكامل بالحق في الخصوصية وغيره من حقوق الإنسان، ويقر بأن تطبيقات معينة قد لا تكون متلائمة مع القانون الدولي لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد</span> أن الحقوق نفسها التي يتمتع بها الناس خارج الإنترنت يجب أن تحظى بالحماية أيضاً على الإنترنت، بما في ذلك الحق في الخصوصية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد أيضاً</span> أن حماية الحق في الخصوصية واحترامه وتعزيزه يقتضي ألا تُجمَع البيانات الشخصية إلا لأغراض محددة وصريحة ومشروعة وأن معالجتها يجب أن تتم بشكل قانوني وعادل وبطريقة شفافة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">يشدد </span>على أن كل شخص ينبغي أن يكون قادراً على التأكد ممن يتحكم أو قد يتحكم في بياناته الشخصية من سلطات عامة أو أفراد أو هيئات خاصة، وأن أي تدخل في حماية البيانات يجب أن يكون قانونياً، وفقاً للقانون الدولي لحقوق الإنسان، بما في ذلك مبادئ الشرعية والتناسب والضرورة وعدم التمييز؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">يقر</span> بأن من الممكن، بل من الواجب، التقليل إلى أدنى حد من المخاطر المحيقة بالحق في الخصوصية وغيره من حقوق الإنسان عن طريق اعتماد لوائح ملائمة أو آليات مناسبة أخرى، وفقاً للالتزامات الواجبة التطبيق بموجب القانون الدولي لحقوق الإنسان، يُستند إليها في تصور التكنولوجيات الرقمية الجديدة والناشئة، كالذكاء الاصطناعي، وفي تصميمها واستخدامها ونقلها وبيعها ونشرها ومواصلة تطويرها، عن طريق ضمان هياكل أساسية للبيانات آمنة ومأمونة وعالية الجودة، وبذل العناية الواجبة لتقييم الآثار السلبية على حقوق الإنسان ومنعها وتخفيفها، وإنشاء رقابة بشرية، فضلاً عن آليات لجبر الضرر؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">يشدد </span>على أن الدول يجب أن تمتثل لالتزاماتها في مجال حقوق الإنسان وأن مؤسسات الأعمال، بما فيها شركات التكنولوجيا، ينبغي أن تحترم الحق في الخصوصية وغيره من حقوق الإنسان عند جمع البيانات الشخصية ومعالجتها وتبادلها وتخزينها، بسبل منها اعتماد سياسات وضمانات لحماية البيانات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">يشدد أيضاً</span> على أن نظم المراقبة البيومترية عن بعد، وبخاصة التعرف على الوجه، تثير شواغل جدية فيما يتعلق بتناسبها، نظراً لطبيعتها الاقتحامية للغاية وتأثيرها الواسع النطاق على أعداد كبيرة من الناس؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxtGA">
+        <num>10-</num>
+        <list eId="para_78_list">
+          <intro eId="para_78_list_intro">
+            <p xml:space="preserve">	<span class="italic">يهيب</span> بجميع الدول إلى ما يلي:</p>
+          </intro>
+          <point eId="para_78_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_78_list_point_أ_content">
+              <p xml:space="preserve">	أن تحترم الحق في الخصوصية وتحميه، حتى في سياق الاتصالات الرقمية والتكنولوجيات الرقمية الجديدة والناشئة؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_78_list_point_ب_content">
+              <p xml:space="preserve">	أن تتخذ التدابير اللازمة لوضع حد للانتهاكات والتجاوزات التي تمس بالحق في الخصوصية، وتهيئ الظروف المواتية لمنع هذه الانتهاكات والتجاوزات، بوسائل منها ضمان امتثال التشريعات الوطنية ذات الصلة مع التزاماتها بموجب القانون الدولي لحقوق الإنسان، ولا سيما في حالة الأشخاص الذين يعيشون في أوضاع هشة أو الفئات المهمشة؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_78_list_point_ج_content">
+              <p xml:space="preserve">	أن تستعرض بانتظام إجراءاتها وممارساتها وتشريعاتها المتعلقة بمراقبة الاتصالات، بما في ذلك المراقبة على نطاق واسع واعتراض البيانات الشخصية وجمعها، وكذلك تلك المتعلقة باستخدام التنميط واتخاذ القرارات آلياً والتعلم الآلي والتكنولوجيات البيومترية، بهدف صون الحق في الخصوصية عن طريق ضمان تنفيذ جميع التزاماتها بموجب القانون الدولي لحقوق الإنسان تنفيذاً كاملاً وفعالاً؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_د">
+            <num>(د)</num>
+            <content eId="para_78_list_point_د_content">
+              <p xml:space="preserve">	أن تحترم الالتزامات الدولية في مجال حقوق الإنسان، بما في ذلك الحق في الخصوصية، عندما تعترض الاتصالاتِ الرقمية للأفراد و/أو تجمع البيانات الشخصية، وعندما تتبادل المعلومات التي تُجمع بوسائل منها اتفاقات تبادل المعلومات والاستخبارات أو عندما توفر بشكل آخر إمكانية الاطلاع عليها، وعندما تطلب الإفصاح عن البيانات الشخصية من أطراف ثالثة، بما في ذلك من مؤسسات الأعمال التجارية؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_هـ">
+            <num>(هـ)</num>
+            <content eId="para_78_list_point_هـ_content">
+              <p xml:space="preserve">	أن تضمن أن كل ما يُتخذ من تدابير لمكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب والمتعارض مع الحق في الخصوصية منسجم مع مبادئ الشرعية والضرورة والتناسب ومتوافق مع التزاماتها بموجب القانون الدولي؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_و">
+            <num>(و)</num>
+            <content eId="para_78_list_point_و_content">
+              <p xml:space="preserve">	أن تضمن أن التكنولوجيات البيومترية لتحديد هوية الأشخاص والتعرف عليهم، بما فيها تكنولوجيات التعرف على الوجه التي تستخدمها جهات فاعلة عامة وخاصة، لا تتيح المراقبةَ التعسفية أو غير القانونية، بما فيها مراقبة أولئك الذين يمارسون حقهم في حرية التجمع السلمي؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_78_list_point_ز_content">
+              <p xml:space="preserve">	أن تكفل أن تصميم برامج الهوية الرقمية أو البيومترية وتنفيذها وتشغيلها يأتي بعد وضع الضمانات التقنية والتنظيمية والقانونية والأخلاقية المناسبة وبعد الامتثال التام لالتزامات الدول بموجب القانون الدولي لحقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_78_list_point_ح_content">
+              <p xml:space="preserve">	أن تسن تشريعات ملائمة، مع جزاءات وسبل انتصاف فعالة، تحمي الأفراد من الانتهاكات والتجاوزات المتعلقة بالحق في الخصوصية، خاصة من خلال جمع البيانات الشخصية أو معالجتها أو الاحتفاظ بها أو استخدامها من جانب الأفراد، أو الحكومات، أو مؤسسات الأعمال، أو المنظمات الخاصة دون موافقة حرة وصريحة ومستنيرة من الفرد، ما عدا إذا كان ذلك بطريقة قانونية ومطابقة للقانون الدولي لحقوق الإنسان، أو أن تبقي على هذه التشريعات والجزاءات وتنفذها؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_78_list_point_ط_content">
+              <p xml:space="preserve">	أن تنظر في اعتماد أو مواصلة إعمال تشريعات ولوائح تنظيمية وسياسات لحماية البيانات، بما في ذلك بشأن بيانات الاتصالات الرقمية، تمتثل لالتزاماتها الدولية في مجال حقوق الإنسان ويمكن أن تشمل أحكاماً عن حماية البيانات الشخصية الحساسة وإنشاء هيئات وطنية مستقلة لديها الصلاحيات والموارد اللازمة لرصدِ الممارسات المتعلقة بخصوصية البيانات، والتحقيقِ في الانتهاكات والتجاوزات، وتلقي البلاغات من الأفراد والمنظمات، وتوفير سبل الانتصاف المناسبة؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ي">
+            <num>(ي)</num>
+            <content eId="para_78_list_point_ي_content">
+              <p xml:space="preserve">	أن تنظر في اعتماد أو استعراض التشريعات أو اللوائح التنظيمية أو السياسات اللازمة لضمان قيام جميع مؤسسات الأعمال، بما في ذلك مؤسسات وسائل التواصل الاجتماعي وغيرها من المنصات الإلكترونية، بإدماج الحق في الخصوصية وغيره من حقوق الإنسان ذات الصلة إدماجاً كاملاً في تصميم التكنولوجيات وتطويرها ونشرها وتقييمها، بما في ذلك الذكاء الاصطناعي، وأن تأخذ الخطوات المناسبة لتحسين وتشجيع مساءلة الشركات، وأن تتيح للأفراد الذين قد تكون حقوقهم تعرضت للانتهاك أو التجاوز إمكانية الوصول إلى سبل انتصاف فعالة، بما في ذلك جبر الضرر وضمانات عدم التكرار؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ك">
+            <num>(ك)</num>
+            <content eId="para_78_list_point_ك_content">
+              <p xml:space="preserve">	أن تواصل، في هذا الصدد، وضع أو مواصلة إعمال تدابير وقائية وسبل انتصاف بشأن الانتهاكات والتجاوزات المتعلقة بالحق في الخصوصية في العصر الرقمي التي من شأنها أن تمس جميع الأفراد، بما في ذلك الحالات التي لها تداعيات خاصة على النساء أو الأطفال أو الأشخاص الذين يعيشون أوضاع هشة أو الفئات المهمشة؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ل">
+            <num>(ل)</num>
+            <content eId="para_78_list_point_ل_content">
+              <p xml:space="preserve">	أن تضع وتستعرض وتنفذ وتعزز سياساتٍ وبرامج مراعية للاعتبارات الجنسانية تساهم في تمكين جميع النساء والفتيات وتعزّز وتحمي حق جميع الأفراد في الخصوصية في العصر الرقمي؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_م">
+            <num>(م)</num>
+            <content eId="para_78_list_point_م_content">
+              <p xml:space="preserve">	أن توفر إرشادات فعالة ومحدثة لمؤسسات الأعمال بشأن كيفية احترام حقوق الإنسان عن طريق إسداء المشورة بشأن الأساليب المناسبة، بما في ذلك بذل العناية الواجبة المتعلقة بحقوق الإنسان، وبشأن كيفية النظر بفعالية في قضايا النوع الاجتماعي و/أو الهشاشة و/أو التهميش، والنظر في اتخاذ تدابير مناسبة تمكن مؤسسات الأعمال من اعتماد تدابير طوعية كافية لتحقيق الشفافية فيما يتعلق بالطلبات المقدمة من سلطات الدولة للحصول على بيانات ومعلومات المستعملين الخواص؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ن">
+            <num>(ن)</num>
+            <content eId="para_78_list_point_ن_content">
+              <p xml:space="preserve">	أن تمتنع عن استخدام تكنولوجيات المراقبة بطريقة تتنافى والالتزامات الدولية في مجال حقوق الإنسان، بما في ذلك عند استخدامها ضد المدافعين عن حقوق الإنسان، والصحفيين، وغيرهم من العاملين في وسائط الإعلام، وأن تتخذ إجراءات محددة للحماية من انتهاكات الحق في الخصوصية، بوسائل منها تنظيم بيع تكنولوجيات المراقبة ونقلها واستخدامها وتصديرها؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_س">
+            <num>(س)</num>
+            <content eId="para_78_list_point_س_content">
+              <p xml:space="preserve">	أن تعزز التعليم الجيد المتاح والشامل للجميع وفرص التعليم مدى الحياة للجميع من أجل تعزيز جملة أمور منها الإلمام بالثقافة الرقمية وثقافة البيانات والمهارات التقنية اللازمة لحماية خصوصيتهم بشكل فعال، بسبل منها توفير التدريب والتوجيه والتوعية في مجال السلامة على الإنترنت، وأن تضمن توافر التدريب المناسب لأصحاب المصلحة المعنيين في هذا المجال؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ع">
+            <num>(ع)</num>
+            <content eId="para_78_list_point_ع_content">
+              <p xml:space="preserve">	أن تمتنع عن إلزام مؤسسات الأعمال باتخاذ تدابير تتعارض مع الحق في الخصوصية بطريقة تعسفية أو غير قانونية، وأن تحمي الأفراد من الضرر، بما فيه الضرر الذي تتسبب فيه مؤسسات الأعمال من خلال جمع البيانات ومعالجتها وتخزينها وتبادلها وتنميطها، واستخدام العمليات الآلية والتعلم الآلي؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ف">
+            <num>(ف)</num>
+            <content eId="para_78_list_point_ف_content">
+              <p xml:space="preserve">	أن تعزز جهود مكافحة التمييز الناجم عن استخدام نظم الذكاء الاصطناعي بطرائق منها بذل العناية الواجبة لتقييم ما يترتب على نشرها من آثار سلبية في مجال حقوق الإنسان ولمنع تلك الآثار وتخفيفها؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxtGA">
+        <num>11-</num>
+        <list eId="para_88_list">
+          <intro eId="para_88_list_intro">
+            <p xml:space="preserve">	<span class="italic">يشجع</span> جميع مؤسسات الأعمال، ولا سيما تلك التي تقوم بجمع البيانات وتخزينها واستخدامها وتبادلها ومعالجتها، على ما يلي:</p>
+          </intro>
+          <point eId="para_88_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_88_list_point_أ_content">
+              <p xml:space="preserve">	استعراض نماذج أعمالها وضمان أن عمليات التصميم والتطوير والعمليات التجارية وجمع البيانات وممارسات معالجة البيانات تتماشى مع المبادئ التوجيهية بشأن الأعمال التجارية وحقوق الإنسان: تنفيذ إطار الأمم المتحدة المعنون "الحماية والاحترام والانتصاف"، والتأكيد على أهمية بذل العناية الواجبة المتعلقة بحقوق الإنسان لمنتجاتها، وعلى وجه الخصوص لدور الخوارزميات وأنظمة التصنيف؛</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_88_list_point_ب_content">
+              <p xml:space="preserve">	إبلاغ المستخدِمين بطريقة واضحة تراعي عامل السن ويسهل الوصول إليها، بما في ذلك على الأشخاص ذوي الإعاقة، بما يمكن أن يمس بحقهم في الخصوصية من جراء جمع بياناتهم واستخدامها وتبادلها والاحتفاظ بها، والامتناع عن فعل ذلك دون موافقتهم أو دون أساس قانوني، وانتهاج الشفافية واتباع سياسات تتيح للمستخدمين أن يعبروا عن موافقتهم الحرة والمستنيرة وذات المغزى؛</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_88_list_point_ج_content">
+              <p xml:space="preserve">	إدماج الحق في الخصوصية وغيره من حقوق الإنسان ذات الصلة في صنع السياسات الداخلية، وهندسة المنتجات، وتطوير الأعمال، وتدريب الموظفين، وغير ذلك من العمليات الداخلية ذات الصلة؛</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_د">
+            <num>(د)</num>
+            <content eId="para_88_list_point_د_content">
+              <p xml:space="preserve">	تنفيذ ضمانات إدارية وتقنية ومادية لكفالة معالجة البيانات بصورة قانونية، وكفالة أن هذه المعالجة ضرورية للأغراض المتوخاة منها، وأن مشروعية هذه الأغراض، ودقة المعالجة ونزاهتها وسريتها مضمونة، ومنع كشف البيانات أو استخدامها من دون إذن؛</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_هـ">
+            <num>(هـ)</num>
+            <content eId="para_88_list_point_هـ_content">
+              <p xml:space="preserve">	كفالة أن بإمكان الأفراد أن يصلوا إلى بياناتهم وأن بإمكانهم أن يعدلوا موافقتهم على استخدام بياناتهم وأن يصححوها ويحدثوها ويحذفوها ويسحبوها، ولا سيما إذا كانت البيانات غير صحيحة أو غير دقيقة، أو إذا تم الحصول عليها بطرق غير مشروعة أو استخدامها لأغراض تمييزية؛</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_و">
+            <num>(و)</num>
+            <content eId="para_88_list_point_و_content">
+              <p xml:space="preserve">	كفالة إدماج احترام الحق في الخصوصية وغيره من حقوق الإنسان ذات الصلة في تصميم تكنولوجيات اتخاذ القرار بطريقة آلية والتعلم الآلي وفي تشغيلها وتقييمها وتنظيمها، وإتاحة سبل انتصاف فعالة، بما في ذلك التعويض، بشأن تجاوزاتِ حقوق الإنسان التي تسببت فيها أو أسهمت فيها أو كانت لها علاقة بها؛</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_88_list_point_ز_content">
+              <p xml:space="preserve">	وضع ضمانات كافية تهدف إلى منع أو تخفيف الآثار السلبية على حقوق الإنسان المرتبطة ارتباطاً مباشراً بعملياتها أو منتجاتها أو خدماتها، بوسائل منها، عند الضرورة، وضع شروط تعاقدية، والإسراع بإبلاغ هيئات الرقابة المحلية أو الإقليمية أو الدولية المعنية بالتجاوزات أو الانتهاكات عندما يُكشف أمر إساءة استخدام منتجاتها وخدماتها؛</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_88_list_point_ح_content">
+              <p xml:space="preserve">	تعزيز الجهود الرامية إلى مكافحة التمييز الناجم عن استخدام نظم الذكاء الاصطناعي، بطرائق منها بذل العناية الواجبة المتعلقة بحقوق الإنسان ورصد نظم الذكاء الاصطناعي وتقييمها على مدى دورة حياتها، ومدى تأثير نشرها على حقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_88_list_point_ط_content">
+              <p xml:space="preserve">	تعزيز الشفافية وإمكانية التفسير الكافي لاتخاذ القرارات الخوارزمية والأنظمة الآلية والأنظمة التي تتطلب التدخل البشري، ولضمان أن البيانات المستخدمة لتدريب الخوارزميات تمثيلية ومجمعة بشكل قانوني؛</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_ي">
+            <num>(ي)</num>
+            <content eId="para_88_list_point_ي_content">
+              <p xml:space="preserve">	وضع تدابير وقائية مناسبة لضمان توافق توزيع ونقل البيانات داخل المنظمات وفيما بينها و/أو إعادة ترتيب البيانات، بما في ذلك من خلال الحوسبة السحابية ومجموعات البيانات غير المهيكلة وتكنولوجيا سلاسل الكتل والواقع المعزز وإنترنت الأشياء، مع حماية البيانات والحق في الخصوصية؛</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_ك">
+            <num>(ك)</num>
+            <content eId="para_88_list_point_ك_content">
+              <p xml:space="preserve">	اتخاذ التدابير المناسبة طوال دورة حياة أنظمة الذكاء الاصطناعي والتكنولوجيات الرقمية، بما في ذلك قبل البدء في تصميم وتطوير التطبيقات والبرامجيات التي تنطوي على معالجة البيانات الشخصية، بهدف إنشاء نظام لرصد المخاطر وإدارتها لضمان معالجة البيانات بشكل عادل وقانوني؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">يشجع </span>مؤسسات الأعمال، بما فيها الشركات التي تقدم خدمات الاتصالات، على العمل لأجل إيجاد حلول تحقق أمن الاتصالات والمعاملات الرقمية وحماية سريتها، ومن بينها تدابير التشفير وحجب الهوية وكتمان الهوية، وكفالة تنفيذ ضمانات الامتثال لحقوق الإنسان، ويهيب بالدول إلى تعزيز التدابير والحلول التقنية من أجل قوة التشفير وحجب الهوية وكتمان الهوية، وعدم التدخل في استخدام هذه الحلول التقنية عن طريق فرض أي قيود عليها بما يمتثل لالتزامات الدول بموجب القانون الدولي لحقوق الإنسان، وسن سياسات تحمي خصوصية الاتصالات الرقمية التي يقوم بها الأفراد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول، وعند الاقتضاء، مؤسسات الأعمال، على بذل العناية الواجبة المتعلقة بحقوق الإنسان بصورة منهجية طوال دورة حياة نظم الذكاء الاصطناعي التي تضع مفاهيمها أو تصمّمها أو تطوّرها أو تنشرها أو تبيعها أو تحصل عليها أو تشغِّلها، بما في ذلك من خلال إجراء تقييمات منتظمة وشاملة لأثرها على حقوق الإنسان ومشاركة جميع أصحاب المصلحة المعنيين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> جميع أصحاب المصلحة المعنيين على تعميم منظور جنساني في وضع مفاهيم التكنولوجيات الرقمية والسياسات المتصلة بها، وتطويرها وتنفيذها، وتعزيز مشاركة المرأة من أجل التصدي للعنف والتمييز ضد جميع النساء والفتيات اللذين يحدثان أو يُضخَّمان من خلال استخدام التكنولوجيا، بطرق منها تشجيع شركات التكنولوجيا الرقمية، بما فيها الشركات المقدمة لخدمات الإنترنت، على احترام المعايير وتنفيذ آليات إبلاغ شفافة يسهل الوصول إليها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى مفوضية الأمم المتحدة السامية لحقوق الإنسان أن تعد تقريراً بشأن التحديات والمخاطر المتعلقة بالتمييز وعدم المساواة في الحق في الخصوصية المرتبط بجمع البيانات ومعالجتها، بما فيها تلك التي يتناولها هذا القرار، وأن تحدد وتوضح المبادئ والضمانات وأفضل الممارسات ذات الصلة بحقوق الإنسان، وأن تقدم التقرير إلى مجلس حقوق الإنسان في دورته السابعة والخمسين، تعقُبه جلسة تحاور؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_153" class="SingleTxtGA">
+        <num>16-</num>
+        <content eId="para_153__content">
+          <p xml:space="preserve">	<span class="italic">يطلب أيضاً</span> إلى المفوضية السامية أن تلتمس، أثناء إعداد التقرير المذكور أعلاه، مدخلات من ذوي المصلحة المعنيين من مختلف المناطق الجغرافية، بما فيها الدول والمنظمات الدولية والإقليمية، والإجراءات الخاصة لمجلس حقوق الإنسان، وهيئات المعاهدات، وغير ذلك من مكاتب الأمم المتحدة ووكالاتها وصناديقها وبرامجها ذات الصلة، كل في نطاق ولايته، والمؤسسات الوطنية لحقوق الإنسان، والمجتمع المدني، والقطاع الخاص، والأوساط التقنية، والمؤسسات الأكاديمية، وأن تأخذ بعين الاعتبار ما سبق لذوي المصلحة أن أنجزوه من أعمال ذات صلة.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48" refersTo="#adoptionMeeting">الجلسة 48</location>
+          <eol />
+          <docDate date="2023-10-12" refersTo="#adoptionDate">12 تشرين الأول/أكتوبر 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمِد دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

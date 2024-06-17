@@ -1,0 +1,507 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/ara@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Team of International Experts on the Democratic Republic of the Congo" showAs="UN. Team of International Experts on the Democratic Republic of the Congo" dictionary="DHLAUTH"/>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"/>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO" href="http://metadata.un.org/thesaurus/1001559" showAs="DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="UNBIS Thesaurus"/>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="TRANSITIONAL JUSTICE" href="http://metadata.un.org/thesaurus/1006637" showAs="TRANSITIONAL JUSTICE" dictionary="UNBIS Thesaurus"/>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"/>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"/>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/54/1"/>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-06" outcome="draftResolution" as="A/HRC/54/L.38" by="Côte d’Ivoire"/>
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by=""/>
+        <step date="2023-10-13" outcome="recommendedForAdoption" by=""/>
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 48th meeting" by=""/>
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/34</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#french" name="originalLanguage">Original: French</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic"> Arabic </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">الدورة الرابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 أيلول</date>
+          <date date="2023-10-13" refersTo="#endDate">13 تشرين الأول 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">البند 10 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المساعدة التقنية وبناء القدرات</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 12 تشرين الأول/أكتوبر 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/34</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	المساعدة التقنية وبناء القدرات في ميدان حقوق الإنسان في جمهورية الكونغو الديمقراطية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يؤكد من جديد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يؤكد من جديد</span> أن جميع الدول ملزمة بتعزيز وحماية حقوق الإنسان والحريات الأساسية المكرسة في ميثاق الأمم المتحدة والإعلان العالمي لحقوق الإنسان، وبالوفاء بالتزاماتها بموجب العهدين الدوليين الخاصين بحقوق الإنسان وسائر الصكوك ذات الصلة التي هي طرف فيها،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى قرار الجمعية العامة <a href="http://undocs.org/ar/A/RES/60/251">60/251</a> المؤرخ 15 آذار/مارس 2006،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى قراراته <a href="http://undocs.org/ar/A/HRC/RES/5/1">5/1</a> المؤرخ 18 حزيران/يونيه 2007، و<a href="http://undocs.org/ar/A/HRC/RES/7/20">7</a><a href="http://undocs.org/ar/A/HRC/RES/7/20">/20</a> المؤرخ 27 آذار/ مارس 2008، و<a href="http://undocs.org/ar/A/RES/S-8/1">دإ</a><a href="http://undocs.org/ar/A/RES/S-8/1">-8/1</a> المؤرخ 1 كانون الأول/ديسمبر 2008،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير كذلك</span> إلى قراراته <a href="http://undocs.org/ar/A/HRC/RES/10/33">10/33</a> المؤرخ 27 آذار/مارس 2009، و<a href="http://undocs.org/ar/A/HRC/RES/13/22">13</a><a href="http://undocs.org/ar/A/HRC/RES/13/22">/22</a> المؤرخ 26 آذار/ مارس 2010، و<a href="http://undocs.org/ar/A/HRC/RES/16/35">16</a><a href="http://undocs.org/ar/A/HRC/RES/16/35">/35</a> المؤرخ 25 آذار/مارس 2011، و<a href="http://undocs.org/ar/A/HRC/RES/19/27">19</a><a href="http://undocs.org/ar/A/HRC/RES/19/27">/27</a> المؤرخ 23 آذار/مارس 2012، و<a href="http://undocs.org/ar/A/HRC/RES/24/27">24</a><a href="http://undocs.org/ar/A/HRC/RES/24/27">/27</a> المؤرخ 27 أيلول/سبتمبر 2013، و<a href="http://undocs.org/ar/A/HRC/RES/27/27">27</a><a href="http://undocs.org/ar/A/HRC/RES/27/27">/27</a> المؤرخ 26 أيلول/سبتمبر 2014، و<a href="http://undocs.org/ar/A/HRC/RES/30/26">30</a><a href="http://undocs.org/ar/A/HRC/RES/30/26">/26</a> المؤرخ 2 تشرين الأول/أكتوبر 2015، و<a href="http://undocs.org/ar/A/HRC/RES/33/29">33</a><a href="http://undocs.org/ar/A/HRC/RES/33/29">/29</a> المؤرخ 30 أيلول/سبتمبر 2016، و<a href="http://undocs.org/ar/A/HRC/RES/35/33">35</a><a href="http://undocs.org/ar/A/HRC/RES/35/33">/33</a> المؤرخ 23 حزيران/يونيه 2017، و<a href="http://undocs.org/ar/A/HRC/RES/36/30">36</a><a href="http://undocs.org/ar/A/HRC/RES/36/30">/30</a> المؤرخ 29 أيلول/سبتمبر 2017، و<a href="http://undocs.org/ar/A/HRC/RES/39/20">39</a><a href="http://undocs.org/ar/A/HRC/RES/39/20">/20</a> المؤرخ 28 أيلول/ سبتمبر 2018، و<a href="http://undocs.org/ar/A/HRC/RES/42/34">42</a><a href="http://undocs.org/ar/A/HRC/RES/42/34">/34</a> المؤرخ 27 أيلول/سبتمبر 2019، و<a href="http://undocs.org/ar/A/HRC/RES/45/34">45</a><a href="http://undocs.org/ar/A/HRC/RES/45/34">/34</a> المؤرخ 7 تشرين الأول/ أكتوبر 2020، و<a href="http://undocs.org/ar/A/HRC/RES/48/20">48</a><a href="http://undocs.org/ar/A/HRC/RES/48/20">/20</a> المؤرخ 11 تشرين الأول/أكتوبر 2021، و<a href="http://undocs.org/ar/A/HRC/RES/51/36">51</a><a href="http://undocs.org/ar/A/HRC/RES/51/36">/36</a> المؤرخ 7 تشرين الأول/ أكتوبر 2022، التي طلب فيها مجلس حقوق الإنسان إلى المجتمع الدولي أن يدعم ما تبذله جمهورية الكونغو الديمقراطية ومؤسساتها من جهود من أجل تحسين حالة حقوق الإنسان وأن يلبي طلباتها فيما يخص المساعدة التقنية،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً</span> بتقرير مفوض الأمم المتحدة السامي لحقوق الإنسان عن حالة حقوق الإنسان وأنشطة مكتب الأمم المتحدة المشترك لحقوق الإنسان في جمهورية الكونغو الديمقراطية<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="http://undocs.org/ar/A/HRC/54/73">A/HRC/54/73</a>.</p></authorialNote><sup>)</sup>، المقدم إلى مجلس حقوق الإنسان وفقاً لقراره <a href="http://undocs.org/ar/A/HRC/RES/51/36">51/36</a>،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يساوره بالغ القلق</span> إزاء استمرار انتهاكات وتجاوزات حقوق الإنسان المرتكبة ضد الأطفال والنساء في شرق البلد وبعض المناطق في غربه، كما يتضح من تقرير فريق الخبراء الدوليين في جمهورية الكونغو الديمقراطية<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	<a href="http://undocs.org/ar/A/HRC/54/76">A/HRC/54/76</a>.</p></authorialNote><sup>)</sup>، بما في ذلك العنف الجنسي والجنساني، وإذ يؤكد، من ناحية، وجوب منع جميع أشكال العنف ضد النساء والفتيات وإدانتها والقضاء عليها، ومن ناحية أخرى، وجوب إتاحة فرص اللجوء إلى العدالة ومساءلة الجناة عن هذه الانتهاكات،</p>
+      </container>
+      <container name="وإذ يساوره القلق" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يساوره القلق</span> إزاء تدهور الأوضاع الأمنية وتراجع احترام حقوق الإنسان في بعض المناطق في شرق جمهورية الكونغو الديمقراطية، واستمرار الحالة المقلقة، لا سيما في مقاطعات إيتوري وكيفو الشمالية وكيفو الجنوبية ومانيما وتنجانيقا،</p>
+      </container>
+      <container name="وإذ يساوره القلق أيضاً" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يساوره القلق أيضاً</span> إزاء خطاب التحريض على الكراهية، الذي يشكل انتهاكاً للفقرة 2 من المادة 20 من العهد الدولي الخاص بالحقوق المدنية والسياسية،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ</span> أوجه التقدم التي أحرزتها القوات المسلحة لجمهورية الكونغو الديمقراطية في منع وإنهاء تجنيد الأطفال واستخدامهم،</p>
+      </container>
+      <container name="وإذ يساوره القلق" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يساوره القلق</span> إزاء ما لأعمال العنف المرتكبة ضد السكان المدنيين، ولا سيما الأطفال والنساء، من عواقب إنسانية أدت إلى زيادة كبيرة في عدد النازحين داخلياً والمحتاجين إلى المساعدة الإنسانية،</p>
+      </container>
+      <container name="وإذ يلاحظ بارتياح" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ بارتياح</span> أوجه التقدم المحرز في السنوات الأخيرة، وكذلك التدابير التي اتخذها رئيس الجمهورية لمكافحة انتهاكات الحريات الأساسية وحقوق الإنسان في جمهورية الكونغو الديمقراطية،</p>
+      </container>
+      <container name="وإذ يدعو" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يدعو</span> حكومة جمهورية الكونغو الديمقراطية إلى مواصلة وتكثيف جهودها من أجل احترام وضمان جميع حقوق الإنسان والحريات الأساسية لكافة الناس، وفقاً لالتزاماتها الدولية، وإلى احترام سيادة القانون،</p>
+      </container>
+      <container name="وإذ يذكّر" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يذكّر</span> لا بضرورة ضمان الحق في المعارضة فحسب بل أيضاً بضرورة الممارسة الكاملة للولاية البرلمانية في نظام ديمقراطي،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ </span>تعاون حكومة جمهورية الكونغو الديمقراطية مع فريق الخبراء الدوليين، وذلك بالأخص عن طريق تيسير الوصول إلى البلد والمواقع والأشخاص،</p>
+      </container>
+      <container name="وإذ يلاحظ أيضاً" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ أيضاً</span> الجهود المبذولة في المنطقة، ولا سيما الجهود التي يبذلها الاتحاد الأفريقي والجماعة الإنمائية للجنوب الأفريقي والمؤتمر الدولي المعني بمنطقة البحيرات الكبرى، وكذلك الجهود التي تبذلها جماعة شرق أفريقيا من خلال عمليتي لواندا ونيروبي والتي تهدف إلى الإسهام في إحلال السلام والاستقرار في جمهورية الكونغو الديمقراطية،</p>
+      </container>
+      <container name="وإذ يلاحظ كذلك" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ كذلك</span> أوجه التقدم المحرز في مكافحة إفلات مرتكبي العنف الجنسي من العقاب، ولا سيما من خلال إصدار رئيس الجمهورية القانون رقم 22/065 المؤرخ 26 كانون الأول/ديسمبر 2022 الذي يحدد المبادئ الأساسية المتعلقة بتوفير الحماية والجبر لضحايا العنف الجنسي المتصل بالنزاع وضحايا الجرائم المخلة بسلم البشرية وأمنها،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق بالغ" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ بقلق بالغ </span>أن حالة النزاع الذي طال أمده في شرق جمهورية الكونغو الديمقراطية قد أدت إلى العديد من انتهاكات وتجاوزات حقوق الإنسان وإلى الاستغلال غير المشروع للموارد الطبيعية في ذلك الجزء من البلد، ومنعت السكان من التمتع الكامل بحقوقهم وحرياتهم،</p>
+      </container>
+      <container name="وإذ يدعو" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يدعو</span> حكومة جمهورية الكونغو الديمقراطية إلى التصدي للعنف الجنسي والجنساني ضد الأطفال بطريقة مستدامة من خلال تنفيذ خطة العمل لعام 2012 وإعطاء الأولوية لحصول الأطفال الناجين على الخدمات المناسبة،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ</span> الجهود التي تبذلها جمهورية الكونغو الديمقراطية لتنفيذ الالتزامات المنبثقة عن الاتفاق الإطاري بشأن السلام والأمن والتعاون لجمهورية الكونغو الديمقراطية والمنطقة، الموقَّع في أديس أبابا في 24 شباط/فبراير 2013،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_21" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">يدين</span> جميع انتهاكات حقوق الإنسان المرتكبة وكذلك الاستغلال غير المشروع للموارد الطبيعية، ولا سيما في المناطق المتأثرة بالنزاعات المسلحة والطائفية في شرق جمهورية الكونغو الديمقراطية، حيث لا تزال الحالة تؤدي إلى نزوح أعداد كبيرة من السكان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">يدين أيضاً</span> نشاط الجماعات المسلحة وعودة الهجمات ضد السكان المدنيين، والقوات الدولية التابعة لبعثة منظمة الأمم المتحدة لتحقيق الاستقرار في جمهورية الكونغو الديمقراطية، والجهات الفاعلة في المجال الإنساني، وكذلك ضد القوات المسلحة لجمهورية الكونغو الديمقراطية، التي ترتكبها الجماعات المتمردة والإرهابية، ولا سيما القوات الديمقراطية المتحالفة، والتعاونية من أجل تنمية الكونغو، وجماعات الدفاع الذاتي المسماة وازاليندو، والقوات الديمقراطية لتحرير رواندا، وحركة 23 مارس، فضلاً عن قيام هذه الجماعات باحتلال مناطق منها بوناغانا وبعض النواحي المجاورة الأخرى، حيث ترتكب يومياً تجاوزات وانتهاكات لحقوق الإنسان وانتهاكات خطيرة للقانون الدولي الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">يدين كذلك</span> الأعمال المزعجة والتخريبية التي يقوم بها أعضاء جماعات وازاليندو للدفاع الذاتي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">يدين بشدة</span> أي دعم يقدَّم من أي كان إلى هذه الجماعات المتمردة والإرهابية الناشطة في البلد على نحو فيه انتهاك صارخ للمبادئ المتعلقة بتعزيز وحماية حقوق الإنسان، ويطلب وقف هذا الدعم فوراً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">يدين</span> الهجوم على طائرة هليكوبتر تابعة لبعثة منظمة الأمم المتحدة لتحقيق الاستقرار في جمهورية الكونغو الديمقراطية الذي حدث في كيوانجا بمقاطعة كيفو الشمالية في 5 شباط/ فبراير 2023، ولا يزال يشعر بالقلق إزاء العواقب السلبية على السكان المدنيين، ويدعو إلى مكافحة إفلات مرتكبي هذا الهجوم من العقاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> بلدان المنطقة والمجتمع الدولي بأسره على دعم عمليتي لواندا ونيروبي من أجل عودة السلام الدائم إلى شرق جمهورية الكونغو الديمقراطية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ</span> الجهود التي تبذلها سلطات جمهورية الكونغو الديمقراطية لتقديم مرتكبي الجرائم الخطيرة المزعومين في جميع أنحاء البلد إلى العدالة، ويشجعها على تنفيذ جميع التدابير اللازمة لضمان وصول الناجين إلى العدالة وتقديم جميع الجناة المزعومين إلى العدالة، ويعرب عن ارتياحه لأحكام الإدانة التي صدرت من قبل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الجهود التي تبذلها الحكومة لتعزيز احترام سيادة القانون من أجل ضمان تمتع الجميع بحقوق الإنسان والحريات الأساسية، وفقاً للالتزامات الدولية للدول، وكذلك للتحقيق مع مرتكبي عمليات قتل المتظاهرين في غوما في 30 آب/أغسطس 2023 ومقاضاتهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ</span> وفاء رئيس الدولة الكونغولية بالالتزام الذي تعهد به في خطابه في الجزء الرفيع المستوى من الدورة الثانية والخمسين لمجلس حقوق الإنسان بتعزيز وحماية حقوق الإنسان في جمهورية الكونغو الديمقراطية، ويلاحظ على وجه التحديد الجهود الرامية إلى تنفيذ العدالة الانتقالية، بما في ذلك إنشاء الصندوق الوطني لتوفير الجبر لضحايا العنف الجنسي المتصل بالنزاع وغيره من الجرائم المخلة بسلم البشرية وأمنها في جمهورية الكونغو الديمقراطية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً</span> بأن القانون رقم 22/030، المؤرخ 15 تموز/يوليه 2022، بشأن حماية وتعزيز حقوق شعوب البيغمي الأصلية قد نُشر في الجريدة الرسمية، في 14 تشرين الثاني/نوفمبر 2022؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ</span> سير العملية الانتخابية لإجراء الانتخابات الرئاسية وكذلك الانتخابات التشريعية والمحلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> باعتماد مجلس الشيوخ والجمعية الوطنية القانون المتعلق بحماية المدافعين عن حقوق الإنسان ومساءلتهم في جمهورية الكونغو الديمقراطية، ويشجعهما على مواءمة آرائهما من أجل اعتماد الصيغة النهائية لهذا القانون في أقرب وقت ممكن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً</span> بقرار تفعيل وتنشيط وحدة الاتصال المعنية بحقوق الإنسان، ولا سيما من خلال تعيين وزير حقوق الإنسان بأمر وزاري، في أيار/مايو 2023، أعضاء الأمانة التقنية لآلية التعاون المحلية هذه بين الحكومة ومفوضية الأمم المتحدة السامية لحقوق الإنسان والمجتمع المدني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> حكومة جمهورية الكونغو الديمقراطية على تقديم تقاريرها الدورية السادس عشر والسابع عشر والثامن عشر عن تنفيذ الاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري في أقرب وقت ممكن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً</span> بتعيين ميسري الصندوق الوطني لتوفير الجبر لضحايا العنف الجنسي المتصل بالنزاع وغيره من الجرائم المخلة بسلم البشرية وأمنها في جمهورية الكونغو الديمقراطية، في 30 حزيران/يونيه 2023، وإنشاء اللجنة المشتركة بين المؤسسات لمساعدة الضحايا ودعم الإصلاحات، وهما آليتان مؤسسيتان تعبران عن استجابة الحكومة لهذه القضايا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_141" class="SingleTxtGA">
+        <num>16-</num>
+        <content eId="para_141__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ</span> التزام رئيس الجمهورية، في اجتماع مجلس الوزراء في 4 آب/أغسطس 2023، بأن يضمن شخصياً أن تكون لدى هذين الهيكلين القدرات البشرية والمادية الكاملة اللازمة لعملهما، وكذلك التعليمات الموجهة إلى الحكومة لكي تتخذ جميع التدابير الفعالة من أجل توفير الأموال الأولية والمرافق اللازمة لعمل الصندوق الوطني لتوفير الجبر لضحايا العنف الجنسي المتصل بالنزاع وغيره من الجرائم المخلة بسلم البشرية وأمنها في جمهورية الكونغو الديمقراطية ولعمل اللجنة المشتركة بين المؤسسات لمساعدة الضحايا ودعم الإصلاحات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxtGA">
+        <num>17-</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	<span class="italic">ويلاحظ أيضاً</span> مبادرة وزير حقوق الإنسان لوضع مشروع قانون بشأن إنشاء الآلية الوطنية لمنع التعذيب وتنظيمها وسير عملها، ويشجع على التعجيل بعملية اعتماده في البرلمان وتفعيل الآلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_174" class="SingleTxtGA">
+        <num>18-</num>
+        <content eId="para_174__content">
+          <p xml:space="preserve">	<span class="italic">يثني</span> على حكومة جمهورية الكونغو الديمقراطية لتقديمها تقاريرها الدورية من السادس إلى الثامن عن تنفيذ اتفاقية حقوق الطفل وتقاريرها الدورية بموجب البروتوكول الاختياري المتعلق ببيع الأطفال واستغلالهم في البغاء وفي المواد الإباحية والبروتوكول الاختياري المتعلق باشتراك الأطفال في المنازعات المسلحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_192" class="SingleTxtGA">
+        <num>19-</num>
+        <content eId="para_192__content">
+          <p xml:space="preserve">	<span class="italic">يثني أيضاً</span> على حكومة جمهورية الكونغو الديمقراطية لتقديمها تقريرها الأولي عن تنفيذ اتفاقية حقوق الأشخاص ذوي الإعاقة في 15 آذار/مارس 2023، وكذلك تقريرها الإضافي للتقرير الدوري الرابع بشأن تنفيذ العهد الدولي الخاص بالحقوق المدنية والسياسية في 4 أيلول/سبتمبر 2023؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_211" class="SingleTxtGA">
+        <num>20-</num>
+        <content eId="para_211__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً</span> بالتوقيع في 20 تشرين الأول/أكتوبر 2022 على المرسوم رقم <a href="http://undocs.org/ar/A/HRC/RES/22/36">22/36</a> بشأن تنظيم وسير عمل المجلس الوطني للطفل، وبإنشاء اللجنة المعنية برصد تنفيذ القرار 2250 بشأن الشباب والسلام والأمن، وبانضمام جمهورية الكونغو الديمقراطية إلى مبادرة المبادئ الطوعية بشأن الأمن وحقوق الإنسان في الصناعات الاستخراجية، ويشجع الحكومة على تفعيل المجلس الوطني للطفل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_231" class="SingleTxtGA">
+        <num>21-</num>
+        <content eId="para_231__content">
+          <p xml:space="preserve">	<span class="italic">يثني</span> على حكومة جمهورية الكونغو الديمقراطية لاعتمادها السياسة الوطنية للعدالة الانتقالية التي قُدمت في الاجتماع السادس والثمانين لمجلس الوزراء، برئاسة رئيس الجمهورية، في 13 شباط/فبراير 2023؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_252" class="SingleTxtGA">
+        <num>22-</num>
+        <content eId="para_252__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الحكومة على إنشاء لجان وطنية وإقليمية لرصد الاحتجاز السابق للمحاكمة، بما يتماشى مع سياستها الوطنية لإصلاح العدالة للفترة 2017-2026؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="SingleTxtGA">
+        <num>23-</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ</span> التقدم المحرز في المحاكمة المتعلقة باغتيال خبيرين من خبراء الأمم المتحدة أمام المحكمة العسكرية العليا، ويشجع على مواصلة هذه المحاكمة حتى إدانة جميع الجناة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="SingleTxtGA">
+        <num>24-</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً أيضاً</span> بعملية تعيين القضاة الذين اجتازوا الامتحان التنافسي الذي نظمه المجلس الأعلى للقضاء في 9 تشرين الأول/أكتوبر 2022، ويشجع المفوضية السامية على المساهمة في تعزيز قدراتهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_321" class="SingleTxtGA">
+        <num>25-</num>
+        <content eId="para_321__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ كذلك</span> قيام الوزارة المعنية بالأشخاص ذوي الإعاقة وغيرهم من الأشخاص الضعفاء بوضع الاستراتيجية الوطنية لتعميم واعتماد القانون الأساسي رقم 22/003، المؤرخ 3 أيار/ مايو 2022، بشأن حماية وتعزيز حقوق الأشخاص ذوي الإعاقة على أيدي الجهات الفاعلة العامة والخاصة، بغية تنسيق وتوجيه إجراءات وأنشطة جميع الجهات الفاعلة على نحو أفضل، ووضع عدد من مشاريع تدابير تنفيذ هذا القانون الأساسي المتمثلة في إصدار أوامر قانونية ومراسيم وأوامر مشتركة بين الوزارات، ووضع الصيغة النهائية للوثائق الاستراتيجية للوزارة المعنية بالأشخاص ذوي الإعاقة وغيرهم من الأشخاص الضعفاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="SingleTxtGA">
+        <num>26-</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ بارتياح</span> إنشاء الأمانة العامة للأشخاص ذوي الإعاقة وغيرهم من الأشخاص الضعفاء وخمسة هياكل متخصصة، وهي المركز المتخصص للبحوث ورعاية الأشخاص ذوي المهق؛ والمجلس الاستشاري الوطني للأشخاص ذوي الإعاقة، بالتشاور مع منظمات الأشخاص ذوي الإعاقة؛ وإطار التشاور الخاص بمنظمات الأشخاص ذوي الإعاقة؛ ومؤسسة تصنيع الكراسي المتحركة، وإعادة التأهيل البدني، والتشغيل التلقائي من خلال الرياضة، والثقافة والفنون المناسبة للأشخاص ذوي الإعاقة؛ وأكاديمية تطوير لغة الإشارة والكتابة بطريقة براي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_372" class="SingleTxtGA">
+        <num>27-</num>
+        <content eId="para_372__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> عملية وضع الاستراتيجية الوطنية للتعليم الجامع المتصلة بإمكانية توظيف الأشخاص ذوي الإعاقة، التي تتولاها الوزارة المعنية بالأشخاص ذوي الإعاقة وغيرهم من الأشخاص الضعفاء، بالتعاون مع الوزارات الأخرى المسؤولة عن التعليم والتوظيف والعمل وريادة الأعمال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_399" class="SingleTxtGA">
+        <num>28-</num>
+        <content eId="para_399__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ بارتياح</span> قيام اللجنة الانتخابية الوطنية المستقلة بإدماج لغة الإشارة في العملية الانتخابية في جمهورية الكونغو الديمقراطية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_427" class="SingleTxtGA">
+        <num>29-</num>
+        <content eId="para_427__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ أيضاً بارتياح</span> إنشاء المجموعة الرياضية الخاصة السادسة المسماة "الإعاقة"، التي أضيفت إلى المجموعات الرياضية الخمس القائمة في مشروع تعديل قانون الرياضة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_456" class="SingleTxtGA">
+        <num>30-</num>
+        <content eId="para_456__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بالتدابير التي اتخذتها حكومة جمهورية الكونغو الديمقراطية للحد من اكتظاظ السجون، بسبل منها العفو الرئاسي والإفراج المشروط، ويشجع الحكومة على مواصلة اتخاذ المزيد من الخطوات في هذا الصدد وضمان الإشراف القضائي على جميع أماكن الاحتجاز؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_486" class="SingleTxtGA">
+        <num>31-</num>
+        <content eId="para_486__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بعمل فريق الخبراء الدوليين في جمهورية الكونغو الديمقراطية وفريق المساعدة التقنية الذي نشرته المفوضية السامية لحقوق الإنسان لدعم الحكومة في مجالي العدالة الانتقالية والخبرة في مجال الطب الشرعي، ويرحب في هذا الصدد بتنظيم الندوة الدولية الأولى بشأن الطب الشرعي في جمهورية الكونغو الديمقراطية في الفترة من 17 إلى 19 تموز/يوليه 2023 في كينشاسا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_517" class="SingleTxtGA">
+        <num>32-</num>
+        <content eId="para_517__content">
+          <p xml:space="preserve">	<span class="italic">يثني</span> على المفوضية السامية لما تقدمه من دعم لحكومة جمهورية الكونغو الديمقراطية في مجال العدالة الانتقالية، ولا سيما المساعدة التقنية المقدمة إلى وزارة حقوق الإنسان واللجنة الإقليمية للحقيقة والعدالة والمصالحة في كاساي الوسطى، من خلال توفير أخصائيين اثنين في مجال العدالة الانتقالية، ويطلب إلى المفوضية مواصلة هذا الدعم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_549" class="SingleTxtGA">
+        <num>33-</num>
+        <content eId="para_549__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بالتقدم المحرز في تفعيل اللجنة الإقليمية للحقيقة والعدالة والمصالحة في كاساي الوسطى، بسبل منها المساعدة التقنية والمالية المقدمة من المفوضية السامية، ويدعو الجهات الفاعلة الدولية الأخرى إلى دعم التشغيل الفعال لهذه اللجنة من أجل المساهمة في إعمال حق الضحايا في معرفة الحقيقة والعدالة وضمانات عدم التكرار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_582" class="SingleTxtGA">
+        <num>34-</num>
+        <content eId="para_582__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> تجديد ولاية فريق الخبراء الدوليين في جمهورية الكونغو الديمقراطية لمدة سنة واحدة، ويطلب إليه تقديم الدعم التقني اللازم للحكومة في التنفيذ الفعال لسياستها الوطنية في مجال العدالة الانتقالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_616" class="SingleTxtGA">
+        <num>35-</num>
+        <content eId="para_616__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً</span> بتقرير فريق الخبراء الدوليين في جمهورية الكونغو الديمقراطية، الذي كلفه مجلس حقوق الإنسان بولاية في قراره <a href="http://undocs.org/ar/A/HRC/RES/51/36">51/36</a>، وكذلك باستنتاجاته وتوصياته، بما في ذلك أن تأخذ عمليتا نيروبي ولواندا بعين الاعتبار ما تتسم به النزاعات وحالة انعدام الأمن من طابع عابر للحدود، وأن تُحدَّد أسباب النزاعات ويُمنع تكرارها، وأن يجري تصميم وتنفيذ آليات للعدالة الانتقالية ولمكافحة الإفلات من العقاب، ويُشجِّعه على دعم الحكومة في هذا الصدد، لا سيما عن طريق اقتراح تدابير ملموسة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_651" class="SingleTxtGA">
+        <num>36-</num>
+        <content eId="para_651__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> على التعاون بين فريق الخبراء الدوليين والمبعوث الخاص للأمين العام لمنطقة البحيرات الكبرى؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_687" class="SingleTxtGA">
+        <num>37-</num>
+        <content eId="para_687__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى مفوض الأمم المتحدة السامي لحقوق الإنسان أن يواصل تزويد حكومة جمهورية الكونغو الديمقراطية بالمساعدة التقنية، بما في ذلك الخبرة اللازمة في مجال الطب الشرعي، لدعم السلطات القضائية في البلد في تحقيقاتها في الادعاءات المتعلقة بانتهاكات جسيمة وتجاوزات لحقوق الإنسان، بما في ذلك العنف الجنسي المتصل بالنزاع والانتهاكات الجسيمة لحقوق الطفل، بغية تقديم الجناة إلى العدالة، وأن يعزز فريق المساعدة التقنية بالوسائل التقنية والمالية اللازمة له لكي يساعد الحكومة في تنفيذ آليات فعالة لمكافحة الإفلات من العقاب، وفقاً للإرادة التي أعرب عنها رئيس الجمهورية في الجزء الرفيع المستوى من الدورة الثانية والخمسين لمجلس حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_724" class="SingleTxtGA">
+        <num>38-</num>
+        <content eId="para_724__content">
+          <p xml:space="preserve">	<span class="italic">يطلب أيضاً</span> إلى المفوض السامي أن يواصل دعم حكومة جمهورية الكونغو الديمقراطية في تطوير وتعزيز قدراتها في مجال الطب الشرعي، ولا سيما من خلال التنفيذ الفعال لخارطة الطريق والتوصيات الواردة في إعلان كينشاسا المعتمد في الندوة الدولية المتعلقة بالطب الشرعي في جمهورية الكونغو الديمقراطية، التي عُقدت في كينشاسا في الفترة من 17 إلى 19 تموز/يوليه 2023، مع إيلاء اهتمام خاص في هذا الصدد لإصلاح الإطار القانوني، وتدريب الخبرات الوطنية وتطوير الهياكل الأساسية الوطنية، وبالتالي مساعدة الحكومة في اكتساب المهارات اللازمة وأخصائيين كونغوليين في مجال الطب الشرعي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_762" class="SingleTxtGA">
+        <num>39-</num>
+        <content eId="para_762__content">
+          <p xml:space="preserve">	<span class="italic">يطلب كذلك</span> إلى المفوض السامي نشر خبراء إضافيين في مجال العدالة الانتقالية في مقاطعات تنجانيقا وكيفو الشمالية وكيفو الجنوبية وإيتوري لمساعدة الحكومة في دعم عمليات العدالة الانتقالية الجارية ومكافحة الإفلات من العقاب وتحقيق السلام المستدام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_801" class="SingleTxtGA">
+        <num>40-</num>
+        <content eId="para_801__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المفوض السامي أن يقدم المزيد من الدعم إلى اللجنة الإقليمية للحقيقة والعدالة والمصالحة في كاساي الوسطى، وذلك بسبل منها بالأخص أن يتيح لها فريقاً من المتخصصين في حقوق الإنسان والعدالة الانتقالية والعنف الجنسي والجنساني وحماية الضحايا والشهود والاتصال وتعبئة المجتمع، وأن يزودها بالموارد المادية والمالية اللازمة لمساعدتها على الاضطلاع بولايتها في الوقت المحدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_841" class="SingleTxtGA">
+        <num>41-</num>
+        <content eId="para_841__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> الجهات الفاعلة والشركاء الدوليين إلى القيام، تحت رعاية المفوضية السامية، بتوفير ما يلزم من الموارد المالية الإضافية والدعم التقني واللوجستي لحكومة جمهورية الكونغو الديمقراطية من أجل تعزيز جهودها في مجال العدالة الانتقالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_882" class="SingleTxtGA">
+        <num>42-</num>
+        <content eId="para_882__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المفوضية السامية أن تنظم، قبل دورته السابعة والخمسين، اجتماعاً لتقييم تنفيذ هذا القرار، يضم جميع الجهات الفاعلة ذات الصلة ويهدف إلى تقييم أوجه التقدم المحرز فيما يخص الخبرة في مجال الطب الشرعي والعدالة الانتقالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_924" class="SingleTxtGA">
+        <num>43-</num>
+        <content eId="para_924__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى فريق الخبراء الدوليين أن يقدم له تقريره النهائي في دورته السابعة والخمسين، في سياق جلسة تحاور معزز، وأن يقدم له تحديثاً شفوياً في دورته الخامسة والخمسين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_967" class="SingleTxtGA">
+        <num>44-</num>
+        <content eId="para_967__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المفوض السامي أن يعد تقريراً شاملاً عن حالة حقوق الإنسان في جمهورية الكونغو الديمقراطية وأن يقدمه له، في سياق جلسة تحاور معزز، في دورته السابعة والخمسين، وأن يقدم له تحديثاً شفوياً في دورته الخامسة والخمسين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1011" class="SingleTxtGA">
+        <num>45-</num>
+        <content eId="para_1011__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يبقي المسألة قيد نظره حتى دورته السابعة والخمسين.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48" refersTo="#adoptionMeeting">الجلسة 48</location>
+          <eol />
+          <docDate date="2023-10-12" refersTo="#adoptionDate">12 تشرين الأول/أكتوبر 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد بدون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
