@@ -1,0 +1,231 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/zho@/"></FRBRuri>
+          <FRBRdate date="2023-10-17" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="CARIBBEAN REGION" href="http://metadata.un.org/thesaurus/1000834" showAs="CARIBBEAN REGION" dictionary="UNBIS Thesaurus"/>
+        <keyword value="FIELD OFFICES" href="http://metadata.un.org/thesaurus/1002312" showAs="FIELD OFFICES" dictionary="UNBIS Thesaurus"/>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/54/1"/>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-11" outcome="draftResolution" as="A/HRC/54/L.35/Rev.1" by="Antigua and Barbuda, Bahamas, Barbados, Belize, Dominica, Grenada, Guyana, Haiti, Jamaica, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Suriname and Trinidad and Tobago"/>
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by=""/>
+        <step date="2023-10-17" outcome="recommendedForAdoption" by=""/>
+        <step date="2023-10-17" outcome="adopted" as="Adopted without vote, 48th meeting" by=""/>
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/33</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-17" class="rightSmall" refersTo="#dateOfIssuance">17 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese"> Chinese </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">第五十四届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 九月</date>
+          <date date="2023-10-13" refersTo="#endDate">13 十月 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">议程项目10</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">技术援助和能力建设</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2023年10月12日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/33.</docNumber>
+        <docTitle refersTo="#resolutionTitle">设立联合国人权事务高级专员办事处加勒比共同体区域办事处</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">遵循</span>《联合国宪章》所载的基本和普遍原则，</p>
+      </container>
+      <container name="重申" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">重申</span>《世界人权宣言》，并回顾所有相关人权条约，包括《经济社会文化权利国际公约》和《公民及政治权利国际公约》，</p>
+      </container>
+      <container name="回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">回顾</span>1993年《维也纳宣言和行动纲领》，其中重申需要考虑是否有可能在尚未建立区域及次区域促进和保护人权安排的地区建立此种安排，并重申包括发展权在内的经济、公民、文化、政治和社会权利等所有人权都是普遍、不可分割、相互依存和相互关联的，</p>
+      </container>
+      <container name="又回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>大会关于促进和保护人权的区域安排的1977年12月16日第32/127号决议和1996年12月12日第51/102号决议、人权委员会1993年3月9日第1993/51号决议、人权理事会2022年6月22日第43/17号决议及其后大会和理事会所有相关决议，</p>
+      </container>
+      <container name="重申" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">重申</span>区域合作在促进和保护人权方面发挥极其重要的作用，应有助于强化国际人权文书所载的普遍人权及其保护，</p>
+      </container>
+      <container name="承诺" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">承诺</span>加强次区域、区域和国际合作，以按照国际义务，推动在全世界促进和保护人权和基本自由，</p>
+      </container>
+      <container name="深信" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">深信</span>联合国与区域倡议在人权领域的合作仍然既具有实质意义又相辅相成，并存在着扩大合作的可能性，</p>
+      </container>
+      <container name="重申" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">重申</span>人权领域的技术合作和能力建设应继续在与相关国家协商并征得其同意的基础上进行，应考虑到这些国家的请求、需要和优先事项，还应考虑到所有人权都是普遍、不可分割、相互依存和相互关联的，并应争取在实地产生具体影响，</p>
+      </container>
+      <container name="回顾" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会关于联合国同加勒比共同体合作的所有决议，</p>
+      </container>
+      <container name="欢迎" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>加勒比共同体成员国继续承诺将联合国作为多边合作的主要论坛，</p>
+      </container>
+      <container name="回顾" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">回顾</span>联合国秘书处与加勒比共同体秘书处之间的合作协定，并铭记根据该协定开展的合作活动，</p>
+      </container>
+      <container name="深为关切" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">深为关切</span>冠状病毒病大流行(COVID-19疫情)及其对全球经济的严重扰乱，令依赖旅游业、商品、稳定的全球供应链和汇款的加勒比共同体成员国在可持续发展和人道主义需求方面遭受重大不利影响，对充分享有人权构成挑战，使实现《2030年可持续发展议程》的前景更不容乐观，</p>
+      </container>
+      <container name="意识到" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">意识到</span>加勒比共同体内部的多样性，以及各种独特、全新和持续的挑战，包括外国直接投资下降、贸易失衡、债务增加、缺乏足够的交通、能源及信息和通信技术基础设施网络、人力和机构能力有限、无法有效融入全球经济、去风险对加勒比地区金融机构造成影响、负债沉重、逐步取消优惠发展资金、无法获得负担得起、可靠和可持续的现代能源、犯罪和暴力猖獗、毒品和武器(特别是小武器和轻武器及弹药)的非法贸易、恐怖主义和助长恐怖主义的暴力极端主义威胁、传染性和非传染性疾病防治、粮食不安全、自然灾害和气候变化的不利影响(包括缓发和速发事件及相关损失和损害)，以及进口能源价格昂贵、沿海和海洋生态系统退化、海平面上升及生物多样性丧失，所有这些使加勒比共同体成员国变得更加脆弱，严重加剧了在实现人人充分享有人权以及可持续发展努力方面的挑战，又铭记必须确保促进、保护和落实所有人的所有人权，尤其要关注处境脆弱者的特定需要，</p>
+      </container>
+      <container name="回顾" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会在第75/323号决议中请联合国秘书长和加勒比共同体秘书长在其各自权限内继续合作并加强互动协作的一致性，以提高两个组织实现其目标的能力，努力提出各种全球性挑战的应对办法，包括气候变化、降低灾害风险、性别平等和增强所有妇女和女童权能以及可持续发展挑战，特别是贫困和不平等、去风险、非传染性疾病、跨国有组织犯罪和恐怖主义，</p>
+      </container>
+      <container name="欢迎" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>加勒比共同体外交与共同体关系理事会通过加勒比共同体秘书长于2023年10月4日向联合国人权事务高级专员表示赞同和支持设立联合国人权事务高级专员办事处加勒比共同体区域办事处，并由巴哈马担任办事处东道国，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_17" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>联合国人权事务高级专员办事处继续提供合作和援助，以进一步加强现有的促进和保护人权的区域安排和区域机制，特别是通过旨在加强国家能力建设、宣传和教育的技术合作，以期交流人权领域的信息和经验；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="bold">又欢迎</span>巴哈马政府主动提出将高级专员办事处加勒比共同体区域办事处设在该国，该办事处将根据大会1993年12月20日第48/141号决议所载联合国人权事务高级专员的任务，特别是依照国际人权义务开展技术援助和能力建设活动，支持加勒比共同体各国政府在国家人权机构和非政府组织的支持下，在考虑到小岛屿发展中国家面临的独特挑战，包括气候变化的不利影响的情况下，努力在该区域内促进、保护和落实人权；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="bold">还欢迎</span>联合国人权事务高级专员愿意与加勒比共同体接触，以便与东道国缔结一项关于设立高级专员办事处区域办事处的协定；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长为高级专员办事处区域办事处的设立和运作提供一切必要的资源；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续处理此事。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第48次" refersTo="#adoptionMeeting">第48次会议</location>
+          <eol />
+          <docDate date="2023-10-12" refersTo="#adoptionDate">2023年10月12日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

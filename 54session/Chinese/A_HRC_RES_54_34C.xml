@@ -1,0 +1,488 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/zho@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Team of International Experts on the Democratic Republic of the Congo" showAs="UN. Team of International Experts on the Democratic Republic of the Congo" dictionary="DHLAUTH"/>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"/>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO" href="http://metadata.un.org/thesaurus/1001559" showAs="DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="UNBIS Thesaurus"/>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="TRANSITIONAL JUSTICE" href="http://metadata.un.org/thesaurus/1006637" showAs="TRANSITIONAL JUSTICE" dictionary="UNBIS Thesaurus"/>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"/>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"/>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/54/1"/>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-06" outcome="draftResolution" as="A/HRC/54/L.38" by="Côte d’Ivoire"/>
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by=""/>
+        <step date="2023-10-13" outcome="recommendedForAdoption" by=""/>
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 48th meeting" by=""/>
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/34</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#french" name="originalLanguage">Original: French</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese"> Chinese </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">第五十四届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 九月</date>
+          <date date="2023-10-13" refersTo="#endDate">13 十月 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">议程项目10</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">技术援助和能力建设</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2023年10月12日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/34.</docNumber>
+        <docTitle refersTo="#resolutionTitle">向刚果民主共和国提供人权领域的技术援助和能力建设</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="重申" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">重申</span>所有国家都有义务促进和保护《联合国宪章》和《世界人权宣言》所载的各项人权和基本自由，并履行国际人权两公约和本国加入的其他相关文书所规定的义务，</p>
+      </container>
+      <container name="回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会2006年3月15日第<a href="http://undocs.org/ch/A/HRC/RES/60/251">6</a><a href="http://undocs.org/ch/A/HRC/RES/60/251">0/</a><a href="http://undocs.org/ch/A/HRC/RES/60/251">251</a>号决议，</p>
+      </container>
+      <container name="又回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>理事会2007年6月18日第<a href="http://undocs.org/ch/A/HRC/RES/5/1">5</a><a href="http://undocs.org/ch/A/HRC/RES/5/1">/</a><a href="http://undocs.org/ch/A/HRC/RES/5/1">1</a>号、2008年3月27日第<a href="http://undocs.org/ch/A/HRC/RES/7/20">7</a><a href="http://undocs.org/ch/A/HRC/RES/7/20">/</a><a href="http://undocs.org/ch/A/HRC/RES/7/20">2</a><a href="http://undocs.org/ch/A/HRC/RES/7/20">0</a>号和2008年12月1日<a href="http://undocs.org/ch/A/RES/S-8/1">S</a><a href="http://undocs.org/ch/A/RES/S-8/1">-</a><a href="http://undocs.org/ch/A/RES/S-8/1">8</a><a href="http://undocs.org/ch/A/RES/S-8/1">/</a><a href="http://undocs.org/ch/A/RES/S-8/1">1</a>号决议，</p>
+      </container>
+      <container name="还回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">还回顾</span>理事会2009年3月27日第<a href="http://undocs.org/ch/A/HRC/RES/10/33">1</a><a href="http://undocs.org/ch/A/HRC/RES/10/33">0/</a><a href="http://undocs.org/ch/A/HRC/RES/10/33">33</a>号、2010年3月26日第<a href="http://undocs.org/ch/A/HRC/RES/13/22">13</a><a href="http://undocs.org/ch/A/HRC/RES/13/22">/</a><a href="http://undocs.org/ch/A/HRC/RES/13/22">22</a>号、2011年3月25日第<a href="http://undocs.org/ch/A/HRC/RES/16/35">16</a><a href="http://undocs.org/ch/A/HRC/RES/16/35">/</a><a href="http://undocs.org/ch/A/HRC/RES/16/35">35</a>号、2012年3月23日第<a href="http://undocs.org/ch/A/HRC/RES/19/27">19</a><a href="http://undocs.org/ch/A/HRC/RES/19/27">/</a><a href="http://undocs.org/ch/A/HRC/RES/19/27">27</a>号、2013年9月27日第<a href="http://undocs.org/ch/A/HRC/RES/24/27">24</a><a href="http://undocs.org/ch/A/HRC/RES/24/27">/</a><a href="http://undocs.org/ch/A/HRC/RES/24/27">27</a>号、2014年9月26日第<a href="http://undocs.org/ch/A/HRC/RES/27/27">27</a><a href="http://undocs.org/ch/A/HRC/RES/27/27">/</a><a href="http://undocs.org/ch/A/HRC/RES/27/27">27</a>号、2015年10月2日第<a href="http://undocs.org/ch/A/HRC/RES/30/26">3</a><a href="http://undocs.org/ch/A/HRC/RES/30/26">0/</a><a href="http://undocs.org/ch/A/HRC/RES/30/26">26</a>号、2016年9月30日第<a href="http://undocs.org/ch/A/HRC/RES/33/29">33</a><a href="http://undocs.org/ch/A/HRC/RES/33/29">/</a><a href="http://undocs.org/ch/A/HRC/RES/33/29">29</a>号、2017年6月23日第<a href="http://undocs.org/ch/A/HRC/RES/35/33">35</a><a href="http://undocs.org/ch/A/HRC/RES/35/33">/</a><a href="http://undocs.org/ch/A/HRC/RES/35/33">33</a>号、2017年9月29日第<a href="http://undocs.org/ch/A/HRC/RES/36/30">36</a><a href="http://undocs.org/ch/A/HRC/RES/36/30">/</a><a href="http://undocs.org/ch/A/HRC/RES/36/30">3</a><a href="http://undocs.org/ch/A/HRC/RES/36/30">0</a>号、2018年9月28日第<a href="http://undocs.org/ch/A/HRC/RES/39/20">39</a><a href="http://undocs.org/ch/A/HRC/RES/39/20">/</a><a href="http://undocs.org/ch/A/HRC/RES/39/20">2</a><a href="http://undocs.org/ch/A/HRC/RES/39/20">0</a>号、2019年9月27日第<a href="http://undocs.org/ch/A/HRC/RES/42/34">42</a><a href="http://undocs.org/ch/A/HRC/RES/42/34">/</a><a href="http://undocs.org/ch/A/HRC/RES/42/34">34</a>号、2020年10月7日第<a href="http://undocs.org/ch/A/HRC/RES/45/34">45</a><a href="http://undocs.org/ch/A/HRC/RES/45/34">/</a><a href="http://undocs.org/ch/A/HRC/RES/45/34">34</a>号、2021年10月11日第<a href="http://undocs.org/ch/A/HRC/RES/48/20">48</a><a href="http://undocs.org/ch/A/HRC/RES/48/20">/</a><a href="http://undocs.org/ch/A/HRC/RES/48/20">2</a><a href="http://undocs.org/ch/A/HRC/RES/48/20">0</a>号和2022年10月7日第<a href="http://undocs.org/ch/A/HRC/RES/51/36">51</a><a href="http://undocs.org/ch/A/HRC/RES/51/36">/</a><a href="http://undocs.org/ch/A/HRC/RES/51/36">36</a>号决议，其中人权理事会呼吁国际社会支持刚果民主共和国及其国家机构改善人权状况的努力，并对其技术援助请求作出回应，</p>
+      </container>
+      <container name="注意到" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">注意到</span>联合国人权事务高级专员根据人权理事会第<a href="http://undocs.org/ch/A/HRC/RES/51/36">51</a><a href="http://undocs.org/ch/A/HRC/RES/51/36">/</a><a href="http://undocs.org/ch/A/HRC/RES/51/36">36</a>号决议提交理事会的关于刚果民主共和国的人权状况和联合国驻刚果民主共和国联合人权办公室开展的活动的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/ch/A/HRC/54/73">A/HRC/54/73</a>.</p></authorialNote>，</p>
+      </container>
+      <container name="深感关切" eId="container_7">
+          <p xml:space="preserve">	<span class="bold">深感关切</span>的是，依据刚果民主共和国问题国际专家组的报告<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="http://undocs.org/ch/A/HRC/54/76">A/HRC/54/76</a>.</p></authorialNote>，该国东部和该国西部某些地方持续存在针对儿童和妇女的侵犯和践踏人权行为，包括性暴力和性别暴力；申明一方面必须预防、谴责和消除一切形式的暴力侵害妇女和女童行为，另一方面必须确保诉诸司法的途径并履行对此类施害者追究责任的义务，</p>
+      </container>
+      <container name="感到关切的是" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">感到关切的是</span>，刚果民主共和国东部一些地区的安全局势和人权状况恶化，特别是伊图里、北基伍、南基伍、马涅马和坦噶尼喀等省的局势依然令人担忧，</p>
+      </container>
+      <container name="又感到关切的是" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">又感到关切的是</span>，存在违反《公民及政治权利国际公约》第二十条第二款的仇恨言论，</p>
+      </container>
+      <container name="注意" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">注意</span>到刚果民主共和国武装部队在防止和停止招募和使用儿童兵方面取得的进展，</p>
+      </container>
+      <container name="感到关切的是" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">感到关切的是</span>，影响平民，特别是影响儿童和妇女的暴力行为造成的人道后果导致境内流离失所和需要人道援助的人数大幅增加，</p>
+      </container>
+      <container name="欢迎" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>最近几年取得的进展，以及刚果民主共和国总统近年来为制止本国境内的侵犯基本自由和人权行为而采取的措施，</p>
+      </container>
+      <container name="吁请" eId="container_13">
+          <p xml:space="preserve">	<span class="bold">吁请</span>刚果民主共和国政府继续并加紧努力，按照其国际义务，尊重和保障每个人的所有人权和基本自由，并尊重法治，</p>
+      </container>
+      <container name="回顾" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">回顾</span>指出，不仅需要保障反对派的权利，而且也需要保障议会在民主制度中充分行使职权，</p>
+      </container>
+      <container name="注意到" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">注意到</span>刚果民主共和国政府特别是在便利国际专家组进入本国、前往有关地点和接触相关人员方面与专家组合作，</p>
+      </container>
+      <container name="又注意到" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">又注意到</span>该地区所作的努力，特别是非洲联盟、南部非洲发展共同体、大湖区问题国际会议以及东非共同体通过罗安达进程和内罗毕进程为促进刚果民主共和国和平与稳定所作的努力，</p>
+      </container>
+      <container name="还注意到" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">还注意到</span>在打击对性暴力犯罪者有罪不罚现象方面取得的进展，特别是刚果民主共和国总统于2022年12月26日颁布了第22/065号法律，确立了有关保护和赔偿与冲突有关的性暴力受害者和危害人类和平与安全罪受害者的基本原则，</p>
+      </container>
+      <container name="极为关切地注意到" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">极为关切地注意到</span>刚果民主共和国东部旷日持久的冲突局势导致了该国该地区众多侵犯和践踏人权以及非法开采自然资源的行为，妨碍了人民充分享有他们的权利和自由，</p>
+      </container>
+      <container name="吁请" eId="container_19">
+          <p xml:space="preserve">	<span class="bold">吁请</span>刚果民主共和国政府执行2012年行动计划并优先考虑向获救儿童提供相关服务，从而以可持续方式解决针对儿童的性暴力和性别暴力问题，</p>
+      </container>
+      <container name="注意到" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">注意到</span>刚果民主共和国努力履行2013年2月24日在亚的斯亚贝巴签署的《刚果民主共和国及该地区和平、安全与合作框架协定》中所作的承诺，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_21" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="bold">谴责</span>一切侵犯人权行为以及非法开采自然资源的行为，特别是在刚果民主共和国东部受武装冲突和部族间冲突影响地区的这种行为，这些地区的局势继续造成大量人口流离失所；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="bold">又谴责</span>武装团体的活动以及再次出现的针对平民、联合国组织刚果民主共和国稳定特派团国际部队、人道人员以及刚果民主共和国部队的袭击，这些袭击的发动者是各种叛乱团体和恐怖组织，主要是民主同盟军、刚果发展合作社“瓦扎伦多”自卫团体、解放卢旺达民主力量和“3·23运动”；并谴责这些团体和组织占领布纳加纳和一些邻近地方，他们在那里每天都在犯下践踏和侵犯人权以及严重违反国际人道法的行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold">还谴责</span>“瓦扎伦多”自卫团体成员的扰乱和颠覆行动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="bold">强烈谴责</span>任何人公然违反促进和保护人权的原则，向在该国境内流窜的反叛团体和恐怖组织提供任何支持；要求立即停止这种支持；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="bold">谴责</span>2023年2月5日在北基伍省基万贾发生的针对联合国组织刚果民主共和国稳定特派团一架直升机的袭击，仍然关注对平民造成的有害后果，并呼吁采取行动，不让发动这次袭击的凶手逃脱惩罚；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>该地区各国和整个国际社会支持罗安达进程和内罗毕进程，以在刚果民主共和国东部恢复持久和平；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>刚果民主共和国当局努力将被控在全国各地犯下严重罪行的犯罪人绳之以法；鼓励当局采取一切必要措施，使幸存者能够诉诸司法，将所有被控犯罪人绳之以法；并欢迎已宣布的定罪判决；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>政府按照各国承担的国际义务，努力尊重法治，保障每个人都享有各项人权和基本自由，并对2023年8月30日在戈马杀害示威者的凶手进行调查和起诉；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>刚果国家元首在人权理事会第五十二届会议高级别会议上发表的讲话中关于在刚果民主共和国促进和保护人权的承诺正在兑现，更具体地说，注意到为实施过渡期正义所做的努力，包括设立了刚果民主共和国与冲突有关的性暴力和其他危害人类和平与安全罪受害者国家赔偿基金；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>2022年11月14日在政府公报上公布了2022年7月15日关于保护和促进俾格米土著人民权利的第22/030号法律；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>举行了总统选举、议会选举和地方选举；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>参议院和国民议会通过刚果民主共和国人权维护者保护和责任法，并鼓励两院协调意见，以尽快通过该法的最终版本；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>关于启动和重振人权联络处的决定，特别是由人权部长通过2023年5月颁布部级法令，任命了该国政府、联合国人权事务高级专员办事处与民间社会之间的这一地方合作机制的技术秘书处成员；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>刚果民主共和国政府尽快提交关于《消除一切形式种族歧视国际公约》执行情况的第十六次、第十七次和第十八次定期报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxtGC">
+        <num>15.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>2023年6月30日任命了刚果民主共和国与冲突有关的性暴力和其他危害人类和平与安全罪受害者国家赔偿基金协调员，并建立了援助受害者和支持改革机构间委员会，这两项体制化机制反映了政府对这些问题的回应；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_141" class="SingleTxtGC">
+        <num>16.</num>
+        <content eId="para_141__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>刚果民主共和国总统在2023年8月4日部长会议期间承诺亲自确保这些机构拥有采取行动所需的充分人力和物力，并注意到发给政府的指示是，必须采取一切必要措施，使刚果民主共和国境内与冲突有关的性暴力和其他危害人类和平与安全罪行受害者国家赔偿基金以及援助和支持改革机构间委员会拥有开展活动的种子资金和设施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxtGC">
+        <num>17.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	<span class="bold">又注意到</span>人权部长发起的关于建立、组织和运行国家防止酷刑机制的法案的倡议；鼓励加快议会通过进程，使该机制尽快投入运作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_174" class="SingleTxtGC">
+        <num>18.</num>
+        <content eId="para_174__content">
+          <p xml:space="preserve">	<span class="bold">称赞</span>刚果民主共和国政府提交了关于《儿童权利公约》执行情况的第六至第八次合并定期报告以及关于《关于买卖儿童、儿童卖淫和儿童色情制品问题的任择议定书》和《关于儿童卷入武装冲突问题的任择议定书》的定期报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_192" class="SingleTxtGC">
+        <num>19.</num>
+        <content eId="para_192__content">
+          <p xml:space="preserve">	<span class="bold">又称赞</span>刚果民主共和国政府于2023年3月15日提交了关于《残疾人权利公约》执行情况的初次报告并于2023年9月4日提交了关于《公民及政治权利国际公约》执行情况的第四次定期报告增编；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_211" class="SingleTxtGC">
+        <num>20.</num>
+        <content eId="para_211__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>2022年10月20日签署了关于全国儿童委员会的组织和运作的第22/36号法令，设立了安全理事会关于青年、和平与安全的第2250(2015)号决议执行情况监测委员会，并注意到刚果民主共和国加入了《采掘业安全与人权自愿原则》倡议；鼓励政府将全国儿童委员会投入运作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_231" class="SingleTxtGC">
+        <num>21.</num>
+        <content eId="para_231__content">
+          <p xml:space="preserve">	<span class="bold">称赞</span>刚果民主共和国政府通过了2023年2月13日在总统主持的部长会议第八十六次会议上提出的“国家过渡期正义政策”；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_252" class="SingleTxtGC">
+        <num>22.</num>
+        <content eId="para_252__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>政府根据2017年至2026年国家司法改革政策，设立负责监测审前拘留的国家和省级委员会；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="SingleTxtGC">
+        <num>23.</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>高级军事法院审判谋杀两名联合国专家案的进展情况；鼓励继续进行这一审判，直至所有凶手都被定罪；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="SingleTxtGC">
+        <num>24.</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve">	<span class="bold">又注意到</span>通过了最高司法委员会2022年10月9日举办的竞争考试的治安法官的招聘程序，并鼓励高级专员办事处为加强这些法官的能力作出贡献；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_321" class="SingleTxtGC">
+        <num>25.</num>
+        <content eId="para_321__content">
+          <p xml:space="preserve">	<span class="bold">还注意到</span>负责残疾人和其他弱势群体的部委制定了推广和适用2022年5月3日关于公共和私人行为体保护和促进的残疾人权利的第22/003号组织法的国家战略，以更好地协调和指导所有行为体的行动和活动；注意到拟订了若干措施草案，从而以法令和部际命令的形式执行该组织法，并注意到最终确定了负责残疾人和其他弱势群体的部委的战略文件；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="SingleTxtGC">
+        <num>26.</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">	<span class="bold">满意地注意到</span>设立了残疾人和其他弱势群体总秘书处以及五个专门机构，即白化病患者研究和护理专门中心、与残疾人组织协商建立的国家残疾人咨询委员会、与残疾人组织协商框架、轮椅制造、肢体康复以及通过适合残疾人的体育、文化和艺术实现自立机制、手语和盲文发展研究院；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_372" class="SingleTxtGC">
+        <num>27.</num>
+        <content eId="para_372__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>负责残疾人和其他弱势群体的部委与负责教育、就业、劳工和创业的其他部委合作，制定与残疾人就业能力相关的国家全纳教育战略；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_399" class="SingleTxtGC">
+        <num>28.</num>
+        <content eId="para_399__content">
+          <p xml:space="preserve">	<span class="bold">满意地注意到</span>国家独立选举委员会将手语纳入刚果民主共和国的选举进程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_427" class="SingleTxtGC">
+        <num>29.</num>
+        <content eId="para_427__content">
+          <p xml:space="preserve">	<span class="bold">又满意地注意到</span>在《体育法》修正案草案中，在现有的五个体育组别之外，新设立了名为“残疾人”的第六个特定体育组别；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_456" class="SingleTxtGC">
+        <num>30.</num>
+        <content eId="para_456__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>刚果民主共和国政府为减少监狱拥挤状况而采取的措施，特别是总统赦免和有条件释放；鼓励该国在这方面继续采取其他措施，并确保所有拘留场所都受司法部门监督；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_486" class="SingleTxtGC">
+        <num>31.</num>
+        <content eId="para_486__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>刚果民主共和国问题国际专家组和高级专员办事处部署的技术援助小组为在过渡期正义和法医专业领域支持该国政府而开展的工作，并欢迎2023年7月17日至19日在金沙萨举行的刚果民主共和国第一届国际法医学会议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_517" class="SingleTxtGC">
+        <num>32.</num>
+        <content eId="para_517__content">
+          <p xml:space="preserve">	<span class="bold">称赞</span>高级专员办事处通过提供两名过渡期正义专家，在过渡期正义方面向刚果民主共和国政府提供支持，特别是向人权部和中开赛省真相、正义与和解委员会提供技术援助；请高级专员办事处继续提供这种支持；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_549" class="SingleTxtGC">
+        <num>33.</num>
+        <content eId="para_549__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>中开赛省真相、正义与和解委员会在运作方面取得的进展，特别是通过高级专员办事处的技术和财政援助取得的进展；请其他国际行为体支持该委员会的有效运作，以便帮助受害者实现了解真相、伸张正义和保证此类罪行不再发生的权利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_582" class="SingleTxtGC">
+        <num>34.</num>
+        <content eId="para_582__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>将刚果民主共和国问题国际专家组的任务延长一年，并请专家组向政府提供必要的技术支持，以有效实施国家过渡期正义政策；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_616" class="SingleTxtGC">
+        <num>35.</num>
+        <content eId="para_616__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>刚果民主共和国问题国际专家组根据人权理事会第<a href="http://undocs.org/ch/A/HRC/RES/51/36">51</a><a href="http://undocs.org/ch/A/HRC/RES/51/36">/</a><a href="http://undocs.org/ch/A/HRC/RES/51/36">36</a>号决议提交的报告及其结论和建议，尤其是内罗毕进程和罗安达进程应考虑到冲突和不安全问题的跨国性质，查明冲突根源并防止冲突再次发生，并设计和实施过渡期正义和打击有罪不罚机制；鼓励专家组支持政府在这方面的努力，特别是要提出具体措施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_651" class="SingleTxtGC">
+        <num>36.</num>
+        <content eId="para_651__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>国际专家组与秘书长大湖区问题特使合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_687" class="SingleTxtGC">
+        <num>37.</num>
+        <content eId="para_687__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联合国人权事务高级专员按照刚果民主共和国总统在人权理事会第五十二届会议高级别会议上表达的愿望，继续向刚果民主共和国政府提供技术援助，包括提供必要的法医专业知识，以支持该国司法当局调查严重侵犯和践踏人权的指控，包括与冲突有关的性暴力和严重侵犯儿童权利的行为，以便将犯罪者绳之以法，并通过必要的技术和财政手段加强技术援助小组，以便帮助政府实施有效机制打击有罪不罚现象；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_724" class="SingleTxtGC">
+        <num>38.</num>
+        <content eId="para_724__content">
+          <p xml:space="preserve">	<span class="bold">又请</span>高级专员继续支持刚果民主共和国政府发展和加强法医学领域的能力，特别是有效执行2023年7月17日至19日在金沙萨举行的刚果民主共和国法医学国际会议期间通过的《金沙萨宣言》中的路线图和建议，并在这方面特别关注改革法律框架、培养国家专业知识、发展国家基础设施，从而帮助政府获得法医学领域的必要技能和本国专家；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_762" class="SingleTxtGC">
+        <num>39.</num>
+        <content eId="para_762__content">
+          <p xml:space="preserve">	<span class="bold">还请</span>高级专员在坦噶尼喀、北基伍、南基伍和伊图里等省部署更多的过渡期正义专家，以帮助政府支持正在开展的过渡期正义进程，打击有罪不罚现象，建立持久和平；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_801" class="SingleTxtGC">
+        <num>40.</num>
+        <content eId="para_801__content">
+          <p xml:space="preserve">	<span class="bold">请</span>高级专员向中开赛省真相、正义与和解委员会提供更多支持，特别是为它提供一个由人权、过渡期正义、性暴力和性别暴力、受害者和证人保护、沟通、社区动员等方面的专家组成的团队，并向该委员会提供必要的物质和财政资源，以帮助它在规定的期限内完成任务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_841" class="SingleTxtGC">
+        <num>41.</num>
+        <content eId="para_841__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>国际行为体和合作伙伴在高级专员办事处的主持下，向刚果民主共和国政府提供必要的额外财政资源以及技术和后勤支持，以巩固它在过渡期正义领域所作的努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_882" class="SingleTxtGC">
+        <num>42.</num>
+        <content eId="para_882__content">
+          <p xml:space="preserve">	<span class="bold">请</span>高级专员办事处理事会在第五十七届会议之前组织一次会议，评估本决议的执行情况，召集所有相关行为体，目的是评估在法医学和过渡期正义方面取得的进展；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_924" class="SingleTxtGC">
+        <num>43.</num>
+        <content eId="para_924__content">
+          <p xml:space="preserve">	<span class="bold">请</span>国际专家组在强化互动对话的框架内向理事会第五十七届会议提交最后报告，并在理事会第五十五届会议上口头介绍最新情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_967" class="SingleTxtGC">
+        <num>44.</num>
+        <content eId="para_967__content">
+          <p xml:space="preserve">	<span class="bold">请</span>高级专员编写一份关于刚果民主共和国人权状况的全面报告，在强化互动对话的框架内向理事会第五十七届会议提交报告，并在理事会第五十五届会议上口头介绍最新情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1011" class="SingleTxtGC">
+        <num>45.</num>
+        <content eId="para_1011__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续处理此事，直至理事会第五十七届会议。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第48次" refersTo="#adoptionMeeting">第48次会议</location>
+          <eol />
+          <docDate date="2023-10-12" refersTo="#adoptionDate">2023年10月12日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
