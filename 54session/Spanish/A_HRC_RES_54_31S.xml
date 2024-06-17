@@ -1,0 +1,532 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-31/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-31/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-31/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-31/spa@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-31/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-31/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Multidimensional Integrated Stabilization Mission in the Central African Republic" showAs="UN Multidimensional Integrated Stabilization Mission in the Central African Republic" dictionary="DHLAUTH"/>
+        <keyword value="UN. Human Rights Council. Independent Expert on the Situation of Human Rights in the Central African Republic" showAs="UN. Human Rights Council. Independent Expert on the Situation of Human Rights in the Central African Republic" dictionary="DHLAUTH"/>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"/>
+        <keyword value="ADMINISTRATION OF JUSTICE" href="http://metadata.un.org/thesaurus/1000049" showAs="ADMINISTRATION OF JUSTICE" dictionary="UNBIS Thesaurus"/>
+        <keyword value="CENTRAL AFRICAN REPUBLIC" href="http://metadata.un.org/thesaurus/1000881" showAs="CENTRAL AFRICAN REPUBLIC" dictionary="UNBIS Thesaurus"/>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"/>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"/>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="CHILDREN IN ARMED CONFLICTS" href="http://metadata.un.org/thesaurus/1000956" showAs="CHILDREN IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"/>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/54/1"/>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-06" outcome="draftResolution" as="A/HRC/54/L.32" by="Côte d’Ivoire, France and Türkiye"/>
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by=""/>
+        <step date="2023-10-13" outcome="recommendedForAdoption" by=""/>
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 48th meeting" by=""/>
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="spanish" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/31</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 de octubre de 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#francés" name="originalLanguage">Original: francés</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">54º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 septiembre</date>
+          <date date="2023-10-13" refersTo="#endDate">13 octubre 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Tema 10 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Asistencia técnica y fomento de la capacidad</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos el 12 de octubre de 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/31.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Asistencia técnica y fomento de la capacidad en la esfera de los derechos humanos en la República Centroafricana</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Guiado" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Guiado</span> por los propósitos y principios de la Carta de las Naciones Unidas,</p>
+      </container>
+      <container name="Reafirmando" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> la Declaración Universal de Derechos Humanos,</p>
+      </container>
+      <container name="Recordando" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> la Carta Africana de Derechos Humanos y de los Pueblos y los demás instrumentos internacionales y africanos de protección de los derechos humanos,</p>
+      </container>
+      <container name="Recordando también" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recordando también</span> la resolución 60/251 de la Asamblea General, de 15 de marzo de 2006, y las resoluciones del Consejo de Derechos Humanos relativas a la asistencia técnica y el fomento de la capacidad en la esfera de los derechos humanos en la República Centroafricana,</p>
+      </container>
+      <container name="Recordando además" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recordando además</span> las resoluciones del Consejo de Seguridad sobre la situación en la República Centroafricana,</p>
+      </container>
+      <container name="Recordando" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> el comunicado conjunto firmado el 1 de junio de 2019 por la Representante Especial del Secretario General sobre la Violencia Sexual en los Conflictos y el Gobierno de la República Centroafricana, de conformidad con la resolución 2106 (2013) del Consejo de Seguridad, de 24 de junio de 2013,</p>
+      </container>
+      <container name="Reafirmando" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> que todos los Estados tienen la responsabilidad primordial de promover y proteger los derechos humanos y las libertades fundamentales consagrados en la Carta de las Naciones Unidas, la Declaración Universal de Derechos Humanos, los Pactos Internacionales de Derechos Humanos y los demás instrumentos internacionales y africanos de derechos humanos en que son partes,</p>
+      </container>
+      <container name="Recordando" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>que la República Centroafricana tiene la responsabilidad primordial de proteger a su población frente al genocidio, los crímenes de guerra, la depuración étnica y los crímenes de lesa humanidad,</p>
+      </container>
+      <container name="Recordando también" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Recordando también</span> la firma del Acuerdo Político para la Paz y la Reconciliación en la República Centroafricana, el 6 de febrero de 2019, así como la Hoja de Ruta Conjunta para la Paz en la República Centroafricana, aprobada el 16 de septiembre de 2021 en Luanda por la Conferencia Internacional sobre la Región de los Grandes Lagos,</p>
+      </container>
+      <container name="Recordando además" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Recordando además</span> las conclusiones de las consultas populares y del Foro de Bangui sobre la Reconciliación Nacional, que se celebró en 2015 y fue seguido de la aprobación del Pacto Republicano para la Paz, la Reconciliación Nacional y la Reconstrucción de la República Centroafricana y la firma de un acuerdo sobre desarme, desmovilización y reintegración por los representantes de las principales partes en el conflicto, recordando asimismo las recomendaciones del Diálogo Republicano de marzo de 2022, y subrayando la necesidad de aplicar efectivamente las recomendaciones y medidas que contienen,</p>
+      </container>
+      <container name="Reafirmando" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> su respaldo a la soberanía, la independencia, la unidad y la integridad territorial de la República Centroafricana,</p>
+      </container>
+      <container name="Profundamente preocupado" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Profundamente preocupado</span> por la situación de la seguridad en la República Centroafricana, que sigue siendo especialmente inestable, y condenando en particular las violaciones y conculcaciones de los derechos humanos y las vulneraciones del derecho internacional humanitario que siguen perpetrando las partes en el conflicto, incluidos los grupos armados y otro personal de seguridad, en Bangui y en el resto del país, en violación del Acuerdo de Paz de 6 de febrero de 2019, en especial los actos de violencia contra la población civil, los miembros de las fuerzas de mantenimiento de la paz de las Naciones Unidas, el personal humanitario, los periodistas y el personal sanitario,</p>
+      </container>
+      <container name="Condenando" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Condenando</span> el recrudecimiento de los ataques dirigidos contra el personal humanitario y médico, así como contra el material y las infraestructuras civiles y humanitarios, el cobro de impuestos ilegales a la ayuda humanitaria por los agentes armados, en un contexto en que el número de desplazados aumenta y el número de refugiados sigue siendo muy elevado, y el hecho de que la mitad de la población del país siga necesitando ayuda humanitaria para sobrevivir,</p>
+      </container>
+      <container name="Recordando" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>el objetivo de permitir el retorno voluntario seguro, digno y sostenible de los desplazados y los refugiados,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito </span>los esfuerzos realizados por las organizaciones subregionales en el proceso de mediación en curso, así como la asistencia humanitaria proporcionada por los Estados miembros de esas organizaciones a la población centroafricana,</p>
+      </container>
+      <container name="Recordando" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> los esfuerzos realizados por las misiones de formación militar no operacional y operacional para las Fuerzas Armadas de la República Centroafricana llevadas a cabo por la Unión Europea y la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana,</p>
+      </container>
+      <container name="Recordando también" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Recordando también</span> que las fuerzas internacionales presentes en la República Centroafricana deben actuar, en el cumplimiento de sus funciones, dentro del pleno respeto de las disposiciones aplicables del derecho internacional, en particular del derecho internacional humanitario, y deben respetar los derechos humanos y el principio de no devolución, expresando su preocupación por las denuncias de actos de violencia sexual y otras violaciones o abusos de los derechos humanos cometidos por las partes en el conflicto, tomando nota con satisfacción del establecimiento, por el Gobierno de la República Centroafricana, de una comisión especial para enjuiciar a los autores de actos de esa naturaleza, acogiendo con beneplácito el compromiso contraído por el Secretario General de aplicar estrictamente la política de las Naciones Unidas de tolerancia cero frente a la explotación y los abusos sexuales, y celebrando la firma, el 3 de septiembre de 2018, del protocolo de intercambio de información y señalamiento de denuncias de explotación y abuso sexuales,</p>
+      </container>
+      <container name="Deplorando" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Deplorando </span>los numerosos casos de abusos y violencia sexuales cometidos contra civiles, incluso por los grupos armados y otro personal de seguridad, como se documenta en varios informes de las Naciones Unidas, y por algunos elementos de la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana, y recordando la decisión del Secretario General de repatriar a una unidad militar o a una unidad de policía constituida cuando existan pruebas de casos generalizados o sistemáticos de explotación y abusos sexuales por esa unidad,</p>
+      </container>
+      <container name="Recordando" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> que los países que aportan contingentes o fuerzas de policía tienen la responsabilidad primordial de investigar las denuncias de explotación y abusos sexuales y de velar por que los autores rindan cuentas en procedimientos judiciales,</p>
+      </container>
+      <container name="Recordando también" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Recordando también</span> el informe conjunto de investigación publicado el 25 de julio de 2022 por la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana y la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos sobre las violaciones y conculcaciones de los derechos humanos y las vulneraciones del derecho internacional humanitario cometidas en la aldea de Boyo entre el 6 y el 13 de diciembre de 2021, en el que, entre otras cosas, se señala el reclutamiento, con la ayuda de personal militar y de otro personal de seguridad, de antiguos combatientes de la milicia antibalaka, así como de decenas de jóvenes,</p>
+      </container>
+      <container name="Subrayando" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Subrayando </span>que es urgente e imperativo poner fin a la impunidad en la República Centroafricana, enjuiciar a los autores de violaciones de los derechos humanos y del derecho internacional humanitario y rechazar toda amnistía general en favor de los autores de esas violaciones, y que es necesario reforzar los mecanismos judiciales nacionales e híbridos para que los autores rindan cuentas de sus actos,</p>
+      </container>
+      <container name="Recordando" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> que las autoridades nacionales tienen la responsabilidad primordial de crear las condiciones necesarias para que se lleven a cabo investigaciones diligentes, imparciales y transparentes, se incoen actuaciones penales creíbles, se dicten sentencias de manera eficaz e independiente y se proteja a las víctimas y las personas en situación de riesgo contra las represalias, y exhortando a los asociados internacionales, incluida la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana, en el marco de su mandato, a que apoyen a las autoridades de la República Centroafricana con ese objetivo,</p>
+      </container>
+      <container name="Recordando también" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Recordando también </span>que la comisión internacional encargada de investigar las denuncias de vulneraciones del derecho internacional humanitario y el derecho internacional de los derechos humanos y de violaciones de estos derechos en la República Centroafricana concluyó que, desde enero de 2013, las principales partes en el conflicto habían cometido vulneraciones y abusos que podían constituir crímenes de guerra y crímenes de lesa humanidad, y que el Consejo de Seguridad dispone de una lista de sanciones de personas y entidades que presuntamente han cometido crímenes de guerra y crímenes de lesa humanidad,</p>
+      </container>
+      <container name="Subrayando" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Subrayando</span> la importancia de seguir investigando las denuncias de vulneraciones del derecho internacional humanitario y el derecho internacional de los derechos humanos y de violaciones de estos derechos para completar los trabajos de la comisión internacional de investigación y el informe del proyecto Mapping, elaborado por la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana y la Oficina del Alto Comisionado con el objetivo de documentar las vulneraciones graves del derecho internacional de los derechos humanos y del derecho internacional humanitario cometidas en el territorio de la República Centroafricana entre enero de 2003 y diciembre de 2015,</p>
+      </container>
+      <container name="Observando" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Observando</span> la celebración del referéndum constitucional del 30 de julio de 2023 y su repercusión en el proceso de las elecciones locales y municipales, cuya organización ha sido aplazada,</p>
+      </container>
+      <container name="Reiterando" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Reiterando </span>la necesidad de crear, con el apoyo de los garantes y facilitadores del Acuerdo de Paz de 6 de febrero de 2019 y de los promotores de la Hoja de Ruta Conjunta de 16 de septiembre de 2021, así como de la comunidad internacional, las condiciones para celebrar unas elecciones locales y municipales verdaderamente inclusivas, transparentes y abiertas a las mujeres y los jóvenes,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Condena enérgicamente</span> todas las violaciones y conculcaciones de los derechos humanos y las vulneraciones del derecho internacional humanitario, como los asesinatos, los actos de tortura y otros tratos o penas crueles, inhumanos y degradantes, la violencia relacionada con el conflicto y la violencia sexual y otras formas de violencia de género, los secuestros, la privación de libertad y las reclusiones y detenciones arbitrarias, la extorsión y el pillaje, el reclutamiento y la utilización de niños, la ocupación de escuelas y los ataques contra escuelas, heridos y enfermos, personal médico, instalaciones de atención de la salud y medios de transporte sanitarios, así como los obstáculos a la ayuda humanitaria, la destrucción ilegal de bienes y todas las vulneraciones cometidas contra la población civil y, en particular, contra grupos en situación de vulnerabilidad, especialmente las mujeres, los niños y los desplazados, y subraya que los autores de esas vulneraciones y conculcaciones deben responder de sus actos y ser llevados ante la justicia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Condena enérgicamente también</span> los ataques de los grupos armados dirigidos específicamente contra civiles, personal humanitario, personal médico, material humanitario y personal de las Naciones Unidas, y exhorta a los grupos armados a observar un alto el fuego inmediato, conforme al compromiso que asumieron en virtud del Acuerdo de Paz de 6 de febrero de 2019 y de la Hoja de Ruta Conjunta de 16 de septiembre de 2021;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Pide nuevamente</span> que cesen de inmediato todas las violaciones y conculcaciones de los derechos humanos y las vulneraciones del derecho internacional humanitario cometidas por todas las partes, que se respeten estrictamente todos los derechos humanos y todas las libertades fundamentales, que las víctimas puedan acceder a la justicia y que se restablezca el estado de derecho en el país;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Expresa su profunda preocupación</span> por la situación humanitaria agravada por el conflicto en el Sudán, subraya que la falta de financiación y la inseguridad obstaculizan la distribución plena, segura y sin trabas de la ayuda humanitaria, pide a la comunidad internacional que apoye en mayor medida los esfuerzos humanitarios respaldando el plan de respuesta humanitaria y estabilización, exhorta a los organismos competentes a que lleven a cabo campañas de desminado en el noreste del país, y solicita a todas las partes que autoricen y faciliten el acceso rápido, pleno, seguro y sin trabas de la ayuda humanitaria y del personal humanitario a todo el territorio nacional, en particular reforzando la seguridad en las carreteras;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>al Gobierno de la República Centroafricana a que, con el apoyo de la comunidad internacional, cree las condiciones necesarias para el retorno seguro, digno y sostenible de los desplazados y refugiados que lo deseen, y le alienta a adoptar medidas de protección y de restitución de las tierras y otros bienes pertenecientes a estas poblaciones vulnerables, así como políticas de apoyo para iniciar proyectos agrícolas y ganaderos o actividades comerciales, y a organizar campañas de reconciliación entre los habitantes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Pide</span> al Gobierno de la República Centroafricana, los dirigentes políticos y religiosos y las organizaciones de la sociedad civil que lleven a cabo una acción pública coordinada para prevenir el discurso de odio y la incitación a la violencia en los medios de comunicación tradicionales o en las redes sociales, incluida la violencia por motivos étnicos o religiosos, y que adopten medidas para exigir responsabilidades a los autores de actos de violencia, incluidos los perpetrados por motivos étnicos y religiosos, y recuerda que las personas o entidades que cometan o apoyen actos que amenazan la paz, la estabilidad o la seguridad en la República Centroafricana, pongan en peligro o entorpezcan el proceso político de estabilización y reconciliación, perpetren ataques contra civiles o miembros de las fuerzas de mantenimiento de la paz, inciten a la violencia, incluida la violencia intercomunitaria, y al odio, en particular por motivos étnicos y religiosos, así como a la violencia de naturaleza sexual o sexista, preparen o cometan actos contrarios a los derechos humanos y al derecho internacional humanitario, u ordenen la comisión de tales actos, recluten niños en el contexto de los conflictos armados o pongan obstáculos a la entrega o la distribución de la ayuda humanitaria o al acceso a ella se exponen a sanciones del Consejo de Seguridad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con satisfacción</span> el informe del Experto Independiente sobre la situación de los derechos humanos en la República Centroafricana<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		A/HRC/54/77.</p></authorialNote> y las recomendaciones que contiene;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a las autoridades de la República Centroafricana y a la unidad mixta de intervención rápida y represión de la violencia sexual contra las mujeres y los niños a que lleven a la práctica, lo antes posible, los compromisos asumidos en 2019 en el marco del comunicado firmado conjuntamente por las Naciones Unidas y el Gobierno de la República Centroafricana para luchar contra la violencia sexual en tiempos de conflicto, así como las recomendaciones pertinentes del Experto Independiente;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a todas las partes que intervienen en la República Centroafricana a proteger a todos los civiles contra la violencia sexual y de género, prestando especial atención a las mujeres y los niños;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">Pide</span> a las autoridades de la República Centroafricana que presten apoyo al Observatorio Nacional de la Paridad entre Hombres y Mujeres y consoliden la organización y el funcionamiento de la Comisión Nacional de Derechos Humanos y Libertades Fundamentales, el Alto Consejo de la Comunicación, la Alta Autoridad para la Buena Gobernanza, el Consejo Económico, Social y Medioambiental y el Comité Nacional de Prevención y Represión del Crimen de Genocidio, los Crímenes de Guerra, los Crímenes de Lesa Humanidad y Todas las Formas de Discriminación, así como de las demás instituciones del Estado dedicadas a promover, proteger y hacer efectivos los derechos humanos, combatir la corrupción y promover la democracia y la buena gobernanza;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana a aplicar resueltamente, en apoyo de las autoridades de la República Centroafricana y de conformidad con su mandato, una estrategia proactiva y eficaz de protección de los civiles, y a prestar la asistencia necesaria para la continuación de la labor del Tribunal Penal Especial, de la Comisión de la Verdad, la Justicia, la Reparación y la Reconciliación, de las audiencias de delitos graves, de los Tribunales de Apelación y de los Tribunales Militares;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a las Naciones Unidas, a los países que aportan contingentes a la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana y a las fuerzas internacionales que operan bajo mandato del Consejo de Seguridad a que adopten las medidas necesarias para garantizar el pleno respeto de la política de las Naciones Unidas de tolerancia cero frente a la explotación y los abusos sexuales, y pide a los países que aportan contingentes y a las fuerzas internacionales que operan bajo mandato del Consejo de Seguridad que adopten las medidas necesarias para prevenir tales actos e impedir la impunidad de su personal, a fin de que se haga justicia a las víctimas, en particular, la realización sin demora de investigaciones en el ámbito nacional y el inicio de procedimientos judiciales contra los soldados que presuntamente hayan cometido abusos y violaciones, y que los resultados de los procedimientos se comuniquen debidamente a la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana en un plazo razonable;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="italic">Pide</span> a las autoridades de la República Centroafricana que, con el apoyo de la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana y el equipo de las Naciones Unidas en el país, reimpulsen el proceso de desarme, desmovilización, reintegración y repatriación, y solicita a los Estados Miembros y a las organizaciones internacionales que mantengan y refuercen su apoyo financiero para el proceso, así como para la puesta en marcha de la Comisión de la Verdad, la Justicia, la Reparación y la Reconciliación y para las iniciativas que promueven la paz, la seguridad, la reconciliación de la población y la estabilización del país;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="italic">Deplora</span> que los grupos armados sigan utilizando a niños como combatientes, escudos humanos, trabajadores domésticos o esclavos sexuales, y que haya aumentado el número de secuestros de niños, exhorta encarecidamente a los grupos armados a que liberen a los niños enrolados en sus filas, pongan fin al reclutamiento y la utilización de niños, así como a los matrimonios precoces y forzados, e impidan tales prácticas, y les pide, a este respecto, que cumplan los compromisos que varios de ellos contrajeron en virtud del Acuerdo de Paz de 6 de febrero de 2019;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>al Gobierno de la República Centroafricana a que apruebe rápidamente un plan nacional de protección de la infancia y a que considere la posibilidad de ratificar el Protocolo Facultativo de la Convención sobre los Derechos del Niño relativo a un procedimiento de comunicaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> al Gobierno de la República Centroafricana a poner en marcha, con el apoyo de asociados técnicos y financieros, una estrategia nacional de formación técnica y agrícola y de formación profesional como palanca social del proceso de transición en beneficio de los jóvenes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a todas las partes a proteger y a considerar como víctimas a los niños liberados o separados de las fuerzas y los grupos armados, y subraya la necesidad de proteger, liberar y reintegrar de manera sostenible a todos los niños vinculados a fuerzas y grupos armados y a poner en marcha programas de rehabilitación y reinserción que tengan en cuenta las necesidades específicas de las niñas, en particular de las que han sido víctimas de la violencia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_181" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_181__content">
+          <p xml:space="preserve">	<span class="italic">Sigue profundamente preocupado</span> por el alcance de los actos de violencia sexual relacionada con el conflicto perpetrados por las partes, en particular contra las mujeres, las niñas y los niños, insta a las autoridades y al Tribunal Penal Especial a que realicen un seguimiento sistemático de los casos de violencia sexual, para velar por que se enjuicie a los autores y se les impongan sanciones penales, y a que protejan y apoyen a las víctimas, recuerda a este respecto la creación de la unidad mixta de intervención rápida y represión de la violencia sexual contra las mujeres y los niños, y pide a las autoridades de la República Centroafricana que refuercen los medios necesarios para su funcionamiento y que garanticen, a través de los servicios competentes, la prestación de apoyo psicoterapéutico y socioeconómico a las víctimas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la renovación, en virtud de la Ley núm. 23.001 de 9 de enero de 2023, del mandato del Tribunal Penal Especial por otros cinco años y su primera decisión, de 31 de octubre de 2022, en la causa <span class="italic">Parquet spécial c. Adoum Issa Sallet alias Bozizé, Ousmane Yaouba et Tahir Mahamat</span>, por la que condenó a los tres miembros del grupo armado Retorno, Reclamación y Rehabilitación (3 R) a penas de prisión de entre 20 años y cadena perpetua por crímenes de lesa humanidad y crímenes de guerra cometidos en Kunyili y Lemuna, en la prefectura de Uham-Pendé, en mayo de 2019, así como la decisión de la Sala de Primera Instancia de 19 de junio de 2023 relativa a los intereses civiles, por la que concede a las 26 víctimas una indemnización de entre 200.000 y 1 millón de francos CFA en concepto de reparación por daños y perjuicios, e insta a las autoridades de la República Centroafricana, a los Estados vecinos, a la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana y a la comunidad internacional a que presten el apoyo necesario para la realización de las investigaciones, la obtención de acceso a los documentos pertinentes y la ejecución de las órdenes de detención;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_218__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito también</span> la detención, el 14 de marzo de 2022, de Maxime Mokom, Coordinador Nacional de las Operaciones Antibalaka, posteriormente transferido a la Corte Penal Internacional sobre la base de la investigación iniciada a petición de las autoridades de la República Centroafricana, y la detención, el 18 de marzo de 2023, del “General” Hissein Damboucha, comandante del Frente Popular para el Renacimiento de la República Centroafricana;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_238" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_238__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a los Estados vecinos de la República Centroafricana a cooperar en la lucha contra la inseguridad y contra la impunidad de los miembros de los grupos armados, en particular colaborando con los tribunales nacionales e internacionales y con la Comisión de la Verdad, la Justicia, la Reparación y la Reconciliación;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_259" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_259__content">
+          <p xml:space="preserve">	<span class="italic">Celebra</span> los esfuerzos de las autoridades de la República Centroafricana que condujeron a la puesta en funcionamiento del Tribunal Penal Especial, con competencia para juzgar las violaciones graves de los derechos humanos y las vulneraciones del derecho internacional humanitario, e insta al Gobierno de la República Centroafricana a que, con el apoyo de la comunidad internacional, siga cooperando con el Fiscal Especial del Tribunal para que todos los autores de crímenes internacionales, independientemente de su condición o afiliación, sean adecuadamente identificados, detenidos y enjuiciados a la mayor brevedad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_281" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_281__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la detención, el 4 de septiembre de 2023, de Abdoulaye Hissène, líder rebelde de Frente Popular para el Renacimiento de la República Centroafricana, acusado por el Tribunal Penal Especial de crímenes de guerra y crímenes de lesa humanidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_304" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_304__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a las autoridades de la República Centroafricana a que refuercen los recursos financieros y humanos destinados a restablecer la autoridad efectiva del Estado en todo el país, prosiguiendo la reinstauración de los servicios provinciales de administración pública, especialmente los de justicia penal y administración penitenciaria, a fin de luchar contra la impunidad y garantizar una gobernanza estable, responsable, inclusiva y transparente a nivel nacional y local;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_328" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_328__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a las autoridades de la República Centroafricana a que apliquen la estrategia nacional de protección de las víctimas y los testigos que intervienen en los procesos judiciales y a que establezcan programas adecuados para proporcionar a las víctimas de vulneraciones y a sus familiares reparaciones materiales y simbólicas, tanto individuales como colectivas, y alienta la creación de un fondo de reparación e indemnización para las víctimas con objeto de apoyar y complementar la labor del Tribunal Penal Especial, la Comisión de la Verdad, la Justicia, la Reparación y la Reconciliación y los tribunales nacionales en la lucha contra la impunidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_353" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_353__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a las autoridades a que completen la reforma del sector de la seguridad para constituir unas fuerzas de defensa nacional y de seguridad interior multiétnicas, profesionales, representativas y bien equipadas, y recuerda que esas fuerzas deben respetar el principio de rendición de cuentas y el estado de derecho a fin de granjearse y conservar la confianza de las comunidades locales, en particular incorporando al proceso de contratación del personal las necesarias verificaciones de seguridad previas relativas a los antecedentes, especialmente en relación con el respeto de los derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_379" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_379__content">
+          <p xml:space="preserve">	<span class="italic">Invita </span>a la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana a seguir aplicando una política de diligencia debida en materia de derechos humanos a fin de garantizar la vigilancia y la rendición de cuentas en relación con la conducta de las fuerzas de seguridad nacionales, del personal militar y las demás fuerzas de seguridad, así como a seguir publicando informes sobre la situación de los derechos humanos en el país, a fin de que la comunidad internacional pueda vigilar la situación;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_406" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_406__content">
+          <p xml:space="preserve">	<span class="italic">Subraya</span> la necesidad de brindar acceso efectivo a la atención de la salud, de garantizar el buen funcionamiento de las escuelas y los centros de formación profesional cuyas instalaciones están ocupadas por grupos armados o personal de seguridad o han sido destruidas o dañadas durante el conflicto, de garantizar el acceso a los servicios de saneamiento y al agua potable en los lugares en que las instalaciones de almacenamiento, tratamiento y distribución se hayan deteriorado como consecuencia del conflicto, de reimpulsar las actividades agropastorales que se han visto afectadas por la inseguridad y la pandemia de enfermedad por coronavirus (COVID‑19), de inscribir los nacimientos y los demás hechos pertinentes en el registro civil, y de garantizar la prestación de servicios de justicia de proximidad en el contexto de un restablecimiento insuficiente de la autoridad del Estado, y pide a los asociados de la República Centroafricana que ayuden al país a afrontar estos desafíos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_434" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_434__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a los Estados Miembros de las Naciones Unidas y a las organizaciones internacionales y regionales que presten apoyo urgentemente a las poblaciones locales para responder a la inseguridad alimentaria, que afecta a casi la mitad de la población, respaldando los esfuerzos de ayuda humanitaria y de estabilización y, a la vez, ampliando las competencias de la Comunidad Económica de los Estados de África Central en relación con los esfuerzos de paz y las cuestiones transfronterizas, en particular la trashumancia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_463" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_463__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a las autoridades de la República Centroafricana a que doten a la Comisión de la Verdad, la Justicia, la Reparación y la Reconciliación de todos los medios necesarios para el desempeño eficaz de su mandato, particularmente en lo que respecta a la lucha contra la impunidad y a la promoción de la reparación y las garantías de no repetición, como complemento a la labor del Tribunal Penal Especial y los tribunales ordinarios;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_493" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_493__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta también</span> a las autoridades de la República Centroafricana a proseguir de manera inclusiva, con el apoyo de la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana y los demás asociados internacionales, la puesta en práctica efectiva de los mecanismos de justicia transicional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_524" class="SingleTxtG">
+        <num>32.</num>
+        <content eId="para_524__content">
+          <p xml:space="preserve">	<span class="italic">Subraya </span>la necesidad de asociar a todos los sectores de la sociedad civil centroafricana y favorecer la participación plena y efectiva de las víctimas, las mujeres y los jóvenes en el diálogo establecido entre las autoridades de la República Centroafricana y los grupos armados en el contexto de la Iniciativa Africana para la Paz y la Reconciliación en la República Centroafricana y su hoja de ruta, marco principal para el logro de una solución política nacional, así como la necesidad de coordinar el proceso de paz con la justicia transicional a fin de favorecer la reconciliación nacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_556" class="SingleTxtG">
+        <num>33.</num>
+        <content eId="para_556__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a las autoridades de la República Centroafricana a que apliquen las recomendaciones del Diálogo Republicano;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_589" class="SingleTxtG">
+        <num>34.</num>
+        <content eId="para_589__content">
+          <p xml:space="preserve">	<span class="italic">Sigue preocupado</span> por el aumento del número de niños reclutados por los grupos armados, pide que se creen y apliquen programas de reinserción socioeconómica y apoyo psicológico para los menores víctimas de las seis vulneraciones más graves que se cometen contra los niños en los conflictos armados, recomienda que se intensifiquen las actividades de sensibilización destinadas a mejorar la protección de los niños en los conflictos armados, teniendo en cuenta también las necesidades específicas de las niñas, pide a los grupos armados que pongan fin a esos graves abusos y vulneraciones, y exhorta a las autoridades de la República Centroafricana a que velen por la aplicación del Código de Protección de la Infancia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_623" class="SingleTxtG">
+        <num>35.</num>
+        <content eId="para_623__content">
+          <p xml:space="preserve">	<span class="italic">Sigue profundamente preocupado</span> por las condiciones en que se encuentran los desplazados y los refugiados, e insta a la comunidad internacional a que ayude a las autoridades nacionales y los países de acogida a brindar protección y asistencia apropiadas a las víctimas de la violencia, en particular a las mujeres, los niños y las personas con discapacidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_658" class="SingleTxtG">
+        <num>36.</num>
+        <content eId="para_658__content">
+          <p xml:space="preserve">	<span class="italic">Pide </span>a las autoridades nacionales que garanticen la protección y la promoción del derecho a la libertad de circulación de todas las personas, incluidos los desplazados internos y los refugiados, sin distinción alguna, y que respeten su derecho a elegir su lugar de residencia, a regresar a sus hogares o a buscar protección en otros lugares;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_694" class="SingleTxtG">
+        <num>37.</num>
+        <content eId="para_694__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a los Estados Miembros de las Naciones Unidas, en el marco de la cooperación internacional, a los organismos competentes de las Naciones Unidas, a las instituciones financieras internacionales y a las demás organizaciones internacionales pertinentes, así como a los donantes, a que proporcionen a la República Centroafricana asistencia técnica y ayuda para el fomento de la capacidad, con el fin de promover el respeto de los derechos humanos y reformar los sectores de la justicia y la seguridad, y a que sigan movilizados para responder a las necesidades urgentes y las prioridades señaladas por la República Centroafricana;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_731" class="SingleTxtG">
+        <num>38.</num>
+        <content eId="para_731__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a que se aplique la política nacional de derechos humanos formulada por las autoridades de la República Centroafricana con el apoyo técnico y financiero de la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana, así como a que se apliquen las recomendaciones de los mecanismos de supervisión, para que la República Centroafricana pueda cumplir las obligaciones dimanantes de los instrumentos internacionales de derechos humanos que ha ratificado y del derecho internacional humanitario;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_769" class="SingleTxtG">
+        <num>39.</num>
+        <content eId="para_769__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> prorrogar por un año el mandato del Experto Independiente sobre la situación de los derechos humanos en la República Centroafricana, que consiste en evaluar y hacer un seguimiento de la situación de esos derechos en el país e informar al respecto, con el fin de formular recomendaciones sobre la asistencia técnica y el fomento de la capacidad en la esfera de los derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_808" class="SingleTxtG">
+        <num>40.</num>
+        <content eId="para_808__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Experto Independiente que preste especial atención a las violaciones y conculcaciones de los derechos humanos y las vulneraciones del derecho internacional humanitario presuntamente cometidas por todas las partes en el conflicto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_848" class="SingleTxtG">
+        <num>41.</num>
+        <content eId="para_848__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a todas las partes que colaboren plenamente con el Experto Independiente en el desempeño de su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_889" class="SingleTxtG">
+        <num>42.</num>
+        <content eId="para_889__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> organizar, en su 55º período de sesiones, un diálogo de alto nivel para evaluar la evolución de la situación de los derechos humanos sobre el terreno, prestando especial atención a la situación de las mujeres y las niñas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_931" class="SingleTxtG">
+        <num>43.</num>
+        <content eId="para_931__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Experto Independiente que trabaje en estrecha colaboración con la Misión Multidimensional Integrada de Estabilización de las Naciones Unidas en la República Centroafricana y las entidades de las Naciones Unidas, particularmente en el ámbito de la justicia transicional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_974" class="SingleTxtG">
+        <num>44.</num>
+        <content eId="para_974__content">
+          <p xml:space="preserve">	<span class="italic">Solicita también </span>al Experto Independiente que colabore estrechamente con todas las entidades de las Naciones Unidas, la Unión Africana y la Comunidad Económica de los Estados de África Central, así como con las demás organizaciones internacionales que proceda, la sociedad civil centroafricana y todos los mecanismos de derechos humanos pertinentes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1018" class="SingleTxtG">
+        <num>45.</num>
+        <content eId="para_1018__content">
+          <p xml:space="preserve">	<span class="italic">Solicita además</span> al Experto Independiente que colabore estrechamente con la Representante Especial del Secretario General sobre la Violencia Sexual en los Conflictos y la Representante Especial del Secretario General para la Cuestión de los Niños y los Conflictos Armados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1063" class="SingleTxtG">
+        <num>46.</num>
+        <content eId="para_1063__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Experto Independiente que le presente una actualización oral de su informe sobre la asistencia técnica y el fomento de la capacidad en la esfera de los derechos humanos en la República Centroafricana en su 56º período de sesiones, y que presente un informe por escrito en su 57º período de sesiones y en el septuagésimo noveno período de sesiones de la Asamblea General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1109" class="SingleTxtG">
+        <num>47.</num>
+        <content eId="para_1109__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Alto Comisionado de las Naciones Unidas para los Derechos Humanos que siga proporcionando al Experto Independiente todos los recursos técnicos, financieros y humanos necesarios para que pueda cumplir plenamente su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1156" class="SingleTxtG">
+        <num>48.</num>
+        <content eId="para_1156__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> seguir ocupándose de la cuestión.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48ª" refersTo="#adoptionMeeting">48ª sesión</location>
+          <eol />
+          <docDate date="2023-10-12" refersTo="#adoptionDate">12 de octubre de 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
