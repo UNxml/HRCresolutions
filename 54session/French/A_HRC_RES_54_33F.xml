@@ -1,0 +1,233 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/fra@/"></FRBRuri>
+          <FRBRdate date="2023-10-17" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-33/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="CARIBBEAN REGION" href="http://metadata.un.org/thesaurus/1000834" showAs="CARIBBEAN REGION" dictionary="UNBIS Thesaurus"/>
+        <keyword value="FIELD OFFICES" href="http://metadata.un.org/thesaurus/1002312" showAs="FIELD OFFICES" dictionary="UNBIS Thesaurus"/>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/54/1"/>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-11" outcome="draftResolution" as="A/HRC/54/L.35/Rev.1" by="Antigua and Barbuda, Bahamas, Barbados, Belize, Dominica, Grenada, Guyana, Haiti, Jamaica, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Suriname and Trinidad and Tobago"/>
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by=""/>
+        <step date="2023-10-17" outcome="recommendedForAdoption" by=""/>
+        <step date="2023-10-17" outcome="adopted" as="Adopted without vote, 48th meeting" by=""/>
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/33</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-17" class="rightSmall" refersTo="#dateOfIssuance">17 octobre 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French"> Français </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">Cinquante-quatrième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 septembre</date>
+          <date date="2023-10-13" refersTo="#endDate">13 octobre 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Point 10 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Assistance technique et renforcement des capacités</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 12 octobre 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/33.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Création d’un bureau régional du Haut-Commissariat  des Nations Unies aux droits de l’homme  pour la Communauté des Caraïbes</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Guidé</span> par les principes fondamentaux et universels consacrés par la Charte des Nations Unies, </p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> la Déclaration universelle des droits de l’homme, et rappelant tous les traités pertinents, notamment le Pacte international relatif aux droits économiques, sociaux et culturels et le Pacte international relatif aux droits civils et politiques, </p>
+      </container>
+      <container name="Rappelant" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> la Déclaration et le Programme d’action de Vienne de 1993, dans lesquels est réaffirmée la nécessité d’envisager la possibilité de créer là où il n’en existe pas encore des mécanismes régionaux et sous-régionaux pour la promotion et la protection des droits de l’homme, et réaffirmant le caractère universel, indivisible, interdépendant et indissociable de tous les droits de l’homme, économiques, civils, culturels, politiques et sociaux, y compris le droit au développement, </p>
+      </container>
+      <container name="Rappelant également" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> les résolutions de l’Assemblée générale 32/127 du 16 décembre 1977 et 51/102 du 12 décembre 1996, la résolution 1993/51 de la Commission des droits de l’homme, du 9 mars 1993, et sa propre résolution 43/17, du 22 juin 2022, et toutes les résolutions ultérieures de l’Assemblée et ses propres résolutions ultérieures concernant les arrangements régionaux pour la promotion et la protection des droits de l’homme,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant </span>que la coopération régionale joue un rôle fondamental dans la promotion et la protection des droits de l’homme et devrait renforcer les droits de l’homme universels énoncés dans les instruments internationaux relatifs aux droits de l’homme et contribuer à mieux assurer leur protection,</p>
+      </container>
+      <container name="Déterminé" eId="container_7">
+          <p xml:space="preserve">	<span class="italic">Déterminé</span> à renforcer la coopération aux niveaux sous-régional, régional et international pour favoriser la promotion et la protection des droits de l’homme et des libertés fondamentales, conformément aux obligations internationales, </p>
+      </container>
+      <container name="Convaincu" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Convaincu</span> que la coopération entre l’Organisation des Nations Unies et les initiatives régionales dans le domaine des droits de l’homme demeure à la fois effective et bénéfique et qu’il existe des possibilités de la renforcer, </p>
+      </container>
+      <container name="Réaffirmant" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> que les activités de coopération technique et de renforcement des capacités dans le domaine des droits de l’homme devraient continuer d’être menées en consultation avec les États concernés et avec leur consentement et devraient tenir compte des demandes, des besoins et des priorités de ces États et du fait que tous les droits de l’homme sont universels, indivisibles, interdépendants et indissociables, et devraient viser à avoir un effet concret sur le terrain, </p>
+      </container>
+      <container name="Rappelant" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> les résolutions de l’Assemblée générale sur la coopération entre l’Organisation des Nations Unies et la Communauté des Caraïbes,</p>
+      </container>
+      <container name="Se félicitant" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> de l’attachement durable des États membres de la Communauté des Caraïbes à l’Organisation des Nations Unies en tant que principale instance de coopération multilatérale, </p>
+      </container>
+      <container name="Rappelant" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>l’accord de coopération signé entre le Secrétariat de l’Organisation des Nations Unies et celui de la Communauté des Caraïbes, et ayant à l’esprit les activités de coopération entreprises dans ce contexte, </p>
+      </container>
+      <container name="Profondément préoccupé" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Profondément préoccupé</span> par le fait que la pandémie de maladie à coronavirus (COVID‑19) et les graves perturbations économiques qu’elle provoque dans le monde ont de fortes incidences négatives sur le développement durable et les besoins humanitaires des États membres de la Communauté des Caraïbes, qui dépendent du tourisme, des matières premières et de la stabilité des chaînes d’approvisionnement mondiales et des envois de fonds, ce qui compromet le plein exercice des droits de l’homme et les perspectives de réalisation du Programme de développement durable à l’horizon 2030, </p>
+      </container>
+      <container name="Conscient" eId="container_14">
+        <p xml:space="preserve">		<span class="italic">Conscient</span> de la diversité au sein de la Communauté des Caraïbes, ainsi que des difficultés particulières, nouvelles et persistantes, notamment la baisse de l’investissement étranger direct, les déséquilibres commerciaux, l’endettement croissant, le manque de réseaux adéquats de transport, d’énergie et d’infrastructures de technologie de l’information et des communications, l’insuffisance des moyens humains et institutionnels et le défaut d’intégration réelle dans l’économie mondiale, les conséquences des stratégies de réduction du risque pour les établissements financiers des Caraïbes, la lourdeur de la dette, le reclassement et ses incidences sur l’accès à des sources de financement du développement à des conditions favorables, le manque d’accès à une énergie abordable, fiable, durable et moderne, la criminalité et la violence, le commerce illicite de drogues et d’armes, en particulier d’armes légères et de petit calibre et de munitions, la menace du terrorisme et de l’extrémisme violent conduisant au terrorisme, la lutte contre les maladies transmissibles et non transmissibles, l’insécurité alimentaire et les effets néfastes des changements climatiques, dont les phénomènes à évolution lente ou rapide et les pertes et dommages qui y sont associés, ainsi que le coût élevé des importations énergétiques, la dégradation des écosystèmes côtiers et marins et l’élévation du niveau de la mer, et la perte de biodiversité, autant de facteurs qui accentuent les vulnérabilités, aggravent fortement les difficultés faisant obstacle au plein exercice des droits de l’homme par chacun et aux efforts de développement durable menés par les États membres de la Communauté des Caraïbes, et conscient également qu’il importe de garantir la promotion, la protection et la réalisation de tous les droits de l’homme pour tous, en accordant une attention particulière aux besoins spécifiques des personnes vulnérables,</p>
+      </container>
+      <container name="Rappelant" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> la demande faite par l’Assemblée générale au Secrétaire général de l’Organisation des Nations Unies et à la Secrétaire générale de la Communauté des Caraïbes, dans sa résolution 75/323, de poursuivre leur coopération et d’améliorer la cohérence du dialogue entre les deux organisations, dans le cadre de leur mandat respectif, afin que celles‑ci soient mieux à même d’atteindre leurs objectifs et d’apporter des réponses aux défis mondiaux comme les changements climatiques, la réduction des risques de catastrophe, l’égalité des sexes et l’autonomisation de toutes les femmes et de toutes les filles, et aux défis en matière de développement durable, dont la pauvreté et les inégalités, le désengagement face aux risques, les maladies non transmissibles, la criminalité transnationale organisée et le terrorisme, </p>
+      </container>
+      <container name="Se félicitant" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> de l’approbation et du soutien exprimés par le Conseil des relations étrangères et communautaires de la Communauté des Caraïbes, par l’intermédiaire de la Secrétaire générale de la Communauté des Caraïbes, au Haut-Commissaire des Nations Unies aux droits de l’homme, le 4 octobre 2023, en faveur de la création d’un bureau régional du Haut-Commissariat des Nations Unies aux droits de l’homme pour la Communauté des Caraïbes et de l’accueil de ce bureau par les Bahamas,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_17" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> que le Haut-Commissariat des Nations Unies aux droits de l’homme continue de mener des activités de coopération et d’assistance en vue de renforcer davantage les arrangements régionaux existants et les mécanismes régionaux de promotion et de protection des droits de l’homme, grâce en particulier à la coopération technique axée sur le renforcement des capacités nationales et l’information et l’éducation du public, afin de faciliter l’échange d’informations et de données d’expérience dans le domaine des droits de l’homme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite également</span> de l’initiative du Gouvernement des Bahamas d’accueillir un bureau régional du Haut-Commissariat pour la Communauté des Caraïbes, conformément au mandat du Haut-Commissaire des Nations Unies aux droits de l’homme figurant dans la résolution 48/141 de l’Assemblée générale, du 20 décembre 1993, consistant en particulier à entreprendre des activités d’assistance technique et de renforcement des capacités conformément aux obligations internationales en matière de droits de l’homme et à soutenir les efforts déployés par les gouvernements de la Communauté des Caraïbes, avec l’appui des institutions nationales des droits de l’homme et des organisations non gouvernementales, pour promouvoir, protéger et réaliser les droits de l’homme dans la région, à la lumière des défis particuliers auxquels sont confrontés les petits États insulaires en développement, y compris les effets néfastes des changements climatiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite en outre</span> de la volonté du Haut-Commissaire des Nations Unies aux droits de l’homme de dialoguer avec la Communauté des Caraïbes en vue de conclure un accord avec le pays hôte concernant la création d’un bureau régional du Haut-Commissariat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>le Secrétaire général de fournir toutes les ressources nécessaires à la création et au fonctionnement du bureau régional du Haut-Commissariat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de rester saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48e" refersTo="#adoptionMeeting">48e séance</location>
+          <eol />
+          <docDate date="2023-10-12" refersTo="#adoptionDate">12 octobre 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
