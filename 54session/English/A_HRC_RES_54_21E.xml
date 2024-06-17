@@ -1,0 +1,596 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/eng@/"></FRBRuri>
+          <FRBRdate date="2023-10-16" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="RIGHT TO PRIVACY" href="http://metadata.un.org/thesaurus/1005566" showAs="RIGHT TO PRIVACY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL TECHNOLOGY" href="http://metadata.un.org/thesaurus/1001655" showAs="DIGITAL TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NEW TECHNOLOGIES" href="http://metadata.un.org/thesaurus/1004392" showAs="NEW TECHNOLOGIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS POLICY" href="http://metadata.un.org/thesaurus/1002983" showAs="HUMAN RIGHTS POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CORPORATE SOCIAL RESPONSIBILITY" href="http://metadata.un.org/thesaurus/1001316" showAs="CORPORATE SOCIAL RESPONSIBILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ELECTRONIC SURVEILLANCE" href="http://metadata.un.org/thesaurus/1001975" showAs="ELECTRONIC SURVEILLANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DATA PROTECTION" href="http://metadata.un.org/thesaurus/1001504" showAs="DATA PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISCRIMINATION" href="http://metadata.un.org/thesaurus/1001697" showAs="DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-10" outcome="draftResolution" as="A/HRC/54/L.12/Rev.1" by="Albania, Andorra, Austria, Belgium, Brazil, Bulgaria, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Marshall Islands, Mexico, Montenegro, North Macedonia, Norway, Paraguay, Peru, Portugal, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-16" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-16" outcome="adopted" as="Adopted without vote, 48th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/21</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-16" class="rightSmall" refersTo="#dateOfIssuance">16 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">Fifty-fourth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 September</date>
+          <date date="2023-10-13" refersTo="#endDate">13 October 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 12 October 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/21.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Right to privacy in the digital age</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">		Guided </span>by the purposes and principles of the Charter of the United Nations,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>the human rights and fundamental freedoms enshrined in the Universal Declaration of Human Rights, the International Covenant on Civil and Political Rights, the International Covenant on Economic, Social and Cultural Rights and other relevant international human rights instruments,</p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>all previous General Assembly and Human Rights Council resolutions on the right to privacy in the digital age, as well as other relevant resolutions,</p>
+      </container>
+      <container name="Welcoming" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Welcoming </span>the work of the Office of the United Nations High Commissioner for Human Rights on the right to privacy in the digital age, and welcoming also the work of various special procedure mandate holders of the Human Rights Council on the right to privacy and their contributions to the promotion and protection of the right to privacy,</p>
+      </container>
+      <container name="Reaffirming" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>the human right to privacy, according to which no one shall be subjected to arbitrary or unlawful interference with their privacy, family, home or correspondence, and the right to the protection of the law against such interference, and recognizing that the exercise of the right to privacy is important for the realization of other human rights, including the right to freedom of expression and to hold opinions without interference, and the right to freedom of peaceful assembly and association, and is one of the foundations of a democratic society,</p>
+      </container>
+      <container name="Recognizing" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing</span> that the right to privacy is intrinsically linked to the effective protection of every individual’s personal data,</p>
+      </container>
+      <container name="Recognizing also" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing also </span>that the right to privacy can enable the enjoyment of other rights, the free development of an individual’s personality and identity and an individual’s ability to participate in political, economic, social and cultural life,</p>
+      </container>
+      <container name="Reaffirming" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming</span> that the same rights that people have offline must also be protected online, including the right to privacy, and noting that the accelerated synchronization of online and offline spaces can affect individuals, including their right to privacy,</p>
+      </container>
+      <container name="Noting" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">		Noting</span> that algorithmic or automated decision-making processes online can affect the enjoyment of individuals’ rights offline,</p>
+      </container>
+      <container name="Recognizing" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>the need to further discuss and analyse, on the basis of international human rights law, issues relating to the promotion and protection of the right to privacy in the digital age, procedural safeguards, effective domestic oversight and remedies and the impact of surveillance on the enjoyment of the right to privacy and other human rights, as well as the need to examine the principles of non‑arbitrariness, lawfulness, legality, necessity and proportionality in relation to surveillance practices and to consider potential discriminatory effects,</p>
+      </container>
+      <container name="Noting" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">		Noting </span>that the rapid pace of technological development enables individuals all over the world to use information and communications technology, and at the same time enhances the capacity of Governments, business enterprises and individuals to undertake surveillance, interception, hacking and data collection, which may violate or abuse human rights, in particular the right to privacy, and is therefore an issue of increasing concern,</p>
+      </container>
+      <container name="Noting also" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">		Noting also </span>that violations and abuses of the right to privacy in the digital age can affect all individuals, with particular effects on women, children, persons with disabilities and older persons, as well as persons in vulnerable situations and marginalized groups, and that the processing of personal data must be subject to human rights safeguards and restrictions, especially the data of persons in vulnerable situations,</p>
+      </container>
+      <container name="Noting further" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">		Noting further </span>that women and girls experience gender-specific violations and abuses of their right to privacy, both online and offline, as well as violations or abuses that have gender-specific impacts, and recognizing that the way in which many digital platforms are designed, commercialized, maintained and governed can give rise to disinformation, misinformation and hate speech, which can exacerbate gender stereotypes, result in sexual and gender-based violence and undermine the data protection and the fulfilment of all women’s and girls’ rights, in particular their right to privacy,</p>
+      </container>
+      <container name="Noting" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">		Noting </span>that children can be particularly vulnerable to abuses and violations of their right to privacy, including through cyberbullying, cyberstalking and sexual abuse and exploitation, and noting also that States parties must implement the Convention on the Rights of the Child in relation to the digital environment, including the importance of privacy to children’s agency, dignity and safety, and for the exercise of their rights,</p>
+      </container>
+      <container name="Acknowledging" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging</span> the need to exercise human rights due diligence in the conception, design, use, acquisition, transfer, sale, deployment and further development of new and emerging technologies, such as those that involve artificial intelligence, as they can, without appropriate safeguards, impact the enjoyment of the right to privacy and other human rights, and that the risks to these rights can and should be avoided or minimized, including by taking measures to ensure a safe, transparent, accountable, secure and high-quality data infrastructure, by exercising due diligence and periodic reviews of already deployed technologies to assess, prevent and mitigate adverse human rights impacts, and by providing effective remedies, including judicial remedies, and redress mechanisms and establishing human oversight,</p>
+      </container>
+      <container name="Recognizing" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>that, despite its positive effects, the use of digital technologies and artificial intelligence systems that require the processing of large amounts of data, often relating to personal data, including on an individual’s behaviour, social relationships, private preferences and identity, including metadata, can pose serious risks to the right to privacy, in particular when employed for identification, tracking, profiling, facial recognition, behavioural prediction or the scoring of individuals,</p>
+      </container>
+      <container name="Noting" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">		Noting </span>that the use of data extraction and algorithms to target content towards online users may undermine user agency and access to information online, as well as the right to freedom of opinion and expression, and can result in intensifying threats from misinformation, disinformation and hate speech, in particular on social media platforms, which may lead to violence, including political violence, and recalling in this regard the Rabat Plan of Action on the prohibition of advocacy of national, racial or religious hatred that constitutes incitement to discrimination, hostility or violence,</p>
+      </container>
+      <container name="Noting with concern" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">		Noting with concern</span> the intrusiveness and impact of data-gathering practices, the related impacts and harms stemming from surveillance and the increasing use of algorithms involved in the application of artificial intelligence systems, </p>
+      </container>
+      <container name="Noting with concern also" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">		Noting with concern also </span>that certain predictive algorithms and the increasing use of facial recognition and surveillance technologies are likely to result in discrimination, in particular when data used in the training of algorithms are not accurate, relevant and representative and audited against encoded bias,</p>
+      </container>
+      <container name="Noting" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">		Noting </span>that the use of artificial intelligence may, without human rights safeguards, pose the risk of reinforcing discrimination, including structural inequalities, especially when processing sensitive data, and recognizing that racially and otherwise discriminatory outcomes must be prevented in the design, development, implementation and use of new and emerging digital technologies,</p>
+      </container>
+      <container name="Noting with concern" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">		Noting with concern </span>reports indicating lower accuracy of biometric data identification, including facial recognition technologies that show racial identification biases and prejudices against women, including when non‑representative training data are used, and that the use of digital technologies can reproduce, reinforce and even exacerbate racial and gender inequalities, and recognizing in this context the importance of effective remedies,</p>
+      </container>
+      <container name="Acknowledging" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging </span>that, while metadata may provide benefits, certain types of metadata, when aggregated, can reveal personal information that can be no less sensitive than the actual content of communications and can give an insight into an individual’s behaviour, including their movements, social relationships, political activities, private preferences and identity, and as such recalling that service providers should take steps to minimize, obscure or delete metadata and to reduce the traceability of users’ metadata in order to strengthen the protections afforded by encryption and protect the right to privacy,</p>
+      </container>
+      <container name="Recognizing" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing</span> that a lack of access to affordable and reliable technologies and services remains a critical challenge in many developing countries, especially to bridging the digital divides, including both between and within countries and the gender digital divide, and to accelerating progress towards development in its various forms, including achieving the Sustainable Development Goals, and stressing in this regard that many States, including developing countries, all over the world need support to bridge these digital divides and to meet the Sustainable Development Goals,</p>
+      </container>
+      <container name="Recognizing also" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing also </span>the need to ensure that international human rights law is respected, including by conducting human rights impact assessments in the conception, design, development, deployment, evaluation, regulation and technical standard-setting of data-driven technologies, and to ensure that they are subject to adequate safeguards and oversight,</p>
+      </container>
+      <container name="Expressing concern" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">		Expressing concern </span>that individuals, in particular children, often do not and/or cannot provide their free, explicit and informed consent to the collection, processing and storage of their data or to the reuse, sale or multiple resale of their personal data, as the collecting, processing, use, storage and sharing of personal data, including sensitive data, have increased significantly in the digital age, and that if personal and sensitive data are disclosed, exceptional damage, injury or hardship may be caused to individuals,</p>
+      </container>
+      <container name="Noting in particular" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">		Noting in particular </span>that surveillance of digital communications must be consistent with international human rights obligations and must be conducted on the basis of a legal framework, which must be publicly accessible, clear, precise, comprehensive and non‑discriminatory, and that any interference with the right to privacy must be consistent with the principles of legality, necessity and proportionality, bearing in mind what is reasonable with regard to the pursuance of legitimate aims, and recalling that States that are parties to the International Covenant on Civil and Political Rights must take the steps necessary to adopt laws or other measures as may be necessary to give effect to the rights recognized in the Covenant,</p>
+      </container>
+      <container name="Noting with deep concern" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">		Noting with deep concern </span>that, in many countries, persons and organizations engaged in promoting and defending human rights and fundamental freedoms, journalists and other media workers may frequently face threats and harassment and suffer insecurity, as well as unlawful or arbitrary interference with their right to privacy, as a result of their activities,</p>
+      </container>
+      <container name="Noting with deep concern also" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">		Noting with deep concern also</span> the use of technological tools developed by the private surveillance industry by private or public actors to undertake surveillance, hacking of devices and systems, including through the use of malware or spyware, interception and disruption of communications, and data collection, interfering with the professional and private lives of individuals, including those engaged in the promotion and defence of human rights and fundamental freedoms, journalists and other media workers, in violation or abuse of their human rights, specifically the right to privacy,</p>
+      </container>
+      <container name="Recalling" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>that business enterprises, including technology companies, have a responsibility to respect human rights, as set out in the Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework, and that the obligation and the primary responsibility to promote and protect human rights and fundamental freedoms lie with the State, and welcoming the work of the Office of the High Commissioner on the application of these principles on digital technologies,</p>
+      </container>
+      <container name="Emphasizing" eId="container_31">
+        <p xml:space="preserve">
+          <span class="italic">		Emphasizing </span>that, in the digital age, technical solutions to secure and to protect the confidentiality of digital communications, including measures for encryption, pseudonymization and anonymity, are important to ensure the enjoyment of human rights, in particular the rights to privacy, to freedom of opinion and expression and to freedom of peaceful assembly and association, and recognizing that States must promote such measures and refrain from employing unlawful or arbitrary surveillance techniques, which may include forms of hacking and restrictions on accessing and using encryption technology,</p>
+      </container>
+      <container name="Stressing" eId="container_32">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing</span> the need to ensure that national security and public health measures, including the use of technology to monitor and contain the spread of infectious diseases, are in full compliance with the obligations of States under international human rights law and adhere to the principles of lawfulness, legality and legitimacy with regard to the aim pursued, necessity and proportionality and the need to protect human rights, including the right to privacy, as well as to protect personal data in the response to health or other emergencies, and stressing also the need to delete or anonymize the data gathered once they ceased to fulfil the purposes for which they were collected,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms </span>the right to privacy, according to which no one shall be subjected to arbitrary or unlawful interference with his or her privacy, family, home or correspondence, and the right to the protection of the law against such interference, as set out in article 12 of the Universal Declaration of Human Rights and article 17 of the International Covenant on Civil and Political Rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Recalls </span>that States should ensure that any interference with the right to privacy is consistent with the principles of legality, necessity and proportionality;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Also recalls </span>the increasing impact of new and emerging technologies, such as those developed in the fields of surveillance, artificial intelligence, automated decision-making and machine-learning, and of profiling, tracking and biometrics, including facial recognition, without human rights safeguards, present to the full enjoyment of the right to privacy and other human rights, and acknowledges that some applications may not be compatible with international human rights law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Affirms </span>that the same rights that people have offline must also be protected online, including the right to privacy;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Also affirms </span>that, in order to protect, respect and promote the right to privacy, personal data should only be collected for specified, explicit and legitimate purposes and must be processed lawfully, fairly and in a transparent manner;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Highlights</span> that every person should be able to ascertain which public authorities or private individuals or bodies control or may control their personal data, and that any interference with data protection must be lawful, in accordance with international human rights law, including the principles of legality, proportionality, necessity and non‑discrimination;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges </span>that risks to the right to privacy and other human rights can and should be minimized by adopting adequate regulations or other appropriate mechanisms, in accordance with applicable obligations under international human rights law, in the conception, design, use, acquisition, transfer, sale, deployment and further development of new and emerging digital technologies, such as artificial intelligence, by ensuring a safe, secure and high-quality data infrastructure, by exercising due diligence to assess, prevent and mitigate adverse human rights impacts, and by establishing human oversight, as well as redress mechanisms;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> that States must comply with their human rights obligations and that business enterprises, including technology companies, should respect the right to privacy and other human rights when collecting, processing, sharing and storing personal data by, inter alia, adopting data protection policies and safeguards;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Also stresses </span>that remote biometric surveillance systems, including facial recognition, raise serious concerns with regard to their proportionality, given their highly intrusive nature and broad impact on large numbers of people;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxtG">
+        <num>10.</num>
+        <list eId="para_78_list">
+          <intro eId="para_78_list_intro">
+            <p xml:space="preserve">	<span class="italic">Calls upon </span>all States:</p>
+          </intro>
+          <point eId="para_78_list_point_a">
+            <num>(a)</num>
+            <content eId="para_78_list_point_a_content">
+              <p xml:space="preserve">	To respect and protect the right to privacy, including in the context of digital communications and new and emerging digital technologies;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_b">
+            <num>(b)</num>
+            <content eId="para_78_list_point_b_content">
+              <p xml:space="preserve">	To take measures to end violations and abuses of the right to privacy and to create the conditions to prevent such violations and abuses, including by ensuring that relevant national legislation complies with their obligations under international human rights law, especially in the case of persons in vulnerable situations or marginalized groups;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_c">
+            <num>(c)</num>
+            <content eId="para_78_list_point_c_content">
+              <p xml:space="preserve">	To review, on a regular basis, their procedures, practices and legislation regarding the surveillance of communications, including mass surveillance and the interception and collection of personal data, as well as regarding the use of profiling, automated decision-making, machine learning and biometric technologies, with a view to upholding the right to privacy by ensuring the full and effective implementation of all their obligations under international human rights law;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_d">
+            <num>(d)</num>
+            <content eId="para_78_list_point_d_content">
+              <p xml:space="preserve">	To respect international human rights obligations, including the right to privacy, when States intercept digital communications of individuals and/or collect personal data, when they share or otherwise provide access to data collected through, inter alia, information- and intelligence-sharing agreements and when they require disclosure of personal data from third parties, including business enterprises;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_e">
+            <num>(e)</num>
+            <content eId="para_78_list_point_e_content">
+              <p xml:space="preserve">	To ensure that any measures taken to counter terrorism and violent extremism conducive to terrorism that interfere with the right to privacy are consistent with the principles of legality, necessity and proportionality and comply with their obligations under international law;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_f">
+            <num>(f)</num>
+            <content eId="para_78_list_point_f_content">
+              <p xml:space="preserve">	To ensure that biometric identification and recognition technologies, including facial recognition technologies by public and private actors, do not enable arbitrary or unlawful surveillance, including of those exercising their right to freedom of peaceful assembly;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_g">
+            <num>(g)</num>
+            <content eId="para_78_list_point_g_content">
+              <p xml:space="preserve">	To ensure that digital or biometric identity programmes are designed, implemented and operated after appropriate technical, regulatory, legal and ethical safeguards are in place and in full compliance with the obligations of States under international human rights law;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_h">
+            <num>(h)</num>
+            <content eId="para_78_list_point_h_content">
+              <p xml:space="preserve">	To develop or maintain and implement adequate legislation, with effective sanctions and remedies, that protects individuals against violations and abuses of the right to privacy, namely through the collection, processing, retention or use of personal data by individuals, Governments, business enterprises or private organizations without the individual’s free, explicit and informed consent or unless otherwise lawful, in accordance with international human rights law;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_i">
+            <num>(i)</num>
+            <content eId="para_78_list_point_i_content">
+              <p xml:space="preserve">	To consider adopting or maintaining data protection legislation, regulations and policies, including on digital communication data, that comply with their international human rights obligations and that could include provisions on sensitive personal data protection and the establishment of national independent authorities with the powers and resources to monitor data privacy practices, investigate violations and abuses and receive communications from individuals and organizations, and to provide appropriate effective remedies;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_j">
+            <num>(j)</num>
+            <content eId="para_78_list_point_j_content">
+              <p xml:space="preserve">	To consider adopting or reviewing legislation, regulations or policies to ensure that all business enterprises, including social media enterprises and other online platforms, fully incorporate the right to privacy and other relevant human rights into the design, development, deployment and evaluation of technologies, including artificial intelligence, to take appropriate steps to improve and encourage corporate accountability, and to provide individuals whose rights may have been violated or abused with access to an effective remedy, including reparation and guarantees of non‑repetition;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_k">
+            <num>(k)</num>
+            <content eId="para_78_list_point_k_content">
+              <p xml:space="preserve">	To further develop or maintain in this regard preventive measures and remedies for violations and abuses regarding the right to privacy in the digital age that may affect all individuals, including where there are particular effects for women, children, persons in vulnerable situations or marginalized groups;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_l">
+            <num>(l)</num>
+            <content eId="para_78_list_point_l_content">
+              <p xml:space="preserve">	To develop, review, implement and strengthen gender-responsive policies and programmes that contribute to the empowerment of all women and girls and promote and protect the right of all individuals to privacy in the digital age;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_m">
+            <num>(m)</num>
+            <content eId="para_78_list_point_m_content">
+              <p xml:space="preserve">	To provide effective and up-to-date guidance to business enterprises on how to respect human rights by advising on appropriate methods, including human rights due diligence, and on how to consider effectively issues of gender, vulnerability and/or marginalization, and to consider appropriate measures that would enable business enterprises to adopt adequate voluntary transparency measures with regard to requests by State authorities for access to private user data and information;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_n">
+            <num>(n)</num>
+            <content eId="para_78_list_point_n_content">
+              <p xml:space="preserve">	To refrain from the use of surveillance technologies in a manner that is not compliant with international human rights obligations, including when used against human rights defenders, journalists and other media workers, and to take specific actions to protect against violations of the right to privacy, including by regulating the sale, transfer, use and export of surveillance technologies;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_o">
+            <num>(o)</num>
+            <content eId="para_78_list_point_o_content">
+              <p xml:space="preserve">	To promote accessible, inclusive quality education and lifelong education opportunities for all to foster, inter alia, digital and data literacy and the technical skills, including by providing online safety training, guidance and awareness-raising, required to protect effectively their privacy, and to ensure the availability of appropriate training for relevant stakeholders in this area;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_p">
+            <num>(p)</num>
+            <content eId="para_78_list_point_p_content">
+              <p xml:space="preserve">	To refrain from requiring business enterprises to take steps that interfere with the right to privacy in an arbitrary or unlawful way, and to protect individuals from harm, including that caused by business enterprises through data collection, processing, storage and sharing and profiling, and the use of automated processes and machine learning;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_q">
+            <num>(q)</num>
+            <content eId="para_78_list_point_q_content">
+              <p xml:space="preserve">	To enhance efforts to combat discrimination resulting from the use of artificial intelligence systems, including by exercising due diligence to assess, prevent and mitigate the adverse human rights impacts of their deployment;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxtG">
+        <num>11.</num>
+        <list eId="para_88_list">
+          <intro eId="para_88_list_intro">
+            <p xml:space="preserve">	<span class="italic">Encourages </span>all business enterprises, in particular business enterprises that collect, store, use, share and process data:</p>
+          </intro>
+          <point eId="para_88_list_point_a">
+            <num>(a)</num>
+            <content eId="para_88_list_point_a_content">
+              <p xml:space="preserve">	To review their business models and ensure that their design and development processes, business operations, data collection and data processing practices are in line with the Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework, and to emphasize the importance of conducting human rights due diligence of their products, in particular of the role of algorithms and ranking systems;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_b">
+            <num>(b)</num>
+            <content eId="para_88_list_point_b_content">
+              <p xml:space="preserve">	To inform users, in a clear and age-appropriate way that is easily accessible, including for persons with disabilities, about the collection, use, sharing and retention of their data that may affect their right to privacy, to refrain from doing so without their consent or a legal basis, and to establish transparency and policies that allow for the free, informed and meaningful consent of users;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_c">
+            <num>(c)</num>
+            <content eId="para_88_list_point_c_content">
+              <p xml:space="preserve">	To integrate the right to privacy and other relevant human rights into internal policymaking, product engineering, business development, staff training and other relevant internal processes;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_d">
+            <num>(d)</num>
+            <content eId="para_88_list_point_d_content">
+              <p xml:space="preserve">	To implement administrative, technical and physical safeguards to ensure that data are processed lawfully, to ensure that such processing is necessary in relation to the purposes of the processing and that the legitimacy of such purposes, and the accuracy, integrity and confidentiality of the processing are ensured, and to prevent the unauthorized disclosure or use of data;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_e">
+            <num>(e)</num>
+            <content eId="para_88_list_point_e_content">
+              <p xml:space="preserve">	To ensure that individuals have access to their data and the possibility to amend, correct, update, delete and withdraw consent for the use of their data, in particular if the data are incorrect or inaccurate or if the data were obtained illegally or used for discriminatory purposes;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_f">
+            <num>(f)</num>
+            <content eId="para_88_list_point_f_content">
+              <p xml:space="preserve">	To ensure that respect for the right to privacy and other relevant human rights is incorporated into the design, operation, evaluation and regulation of automated decision-making and machine-learning technologies, and to provide effective remedies, including compensation, for human rights abuses that they have caused or to which they have contributed or been linked;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_g">
+            <num>(g)</num>
+            <content eId="para_88_list_point_g_content">
+              <p xml:space="preserve">	To put in place adequate safeguards that seek to prevent or mitigate adverse human rights impacts that are directly linked to their operations, products or services, including where necessary through contractual clauses, and to promptly inform relevant domestic, regional or international oversight bodies of abuses or violations when misuse of their products and services is detected;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_h">
+            <num>(h)</num>
+            <content eId="para_88_list_point_h_content">
+              <p xml:space="preserve">	To enhance efforts to combat discrimination resulting from the use of artificial intelligence systems, including through human rights due diligence and monitoring and evaluation of artificial intelligence systems across their life cycle, and the human rights impact of their deployment;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_i">
+            <num>(i)</num>
+            <content eId="para_88_list_point_i_content">
+              <p xml:space="preserve">	To promote the transparency and adequate explainability of algorithmic decision-making, automated systems and human-in-the-loop systems, and to ensure that data used for the training of algorithms are representative and legally collected;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_j">
+            <num>(j)</num>
+            <content eId="para_88_list_point_j_content">
+              <p xml:space="preserve">	To put in place appropriate safeguard measures to ensure that the distribution and transfer of data within and among organizations and/or the rearrangement of data, including through cloud computing, unstructured datasets, blockchain technology, augmented reality and the Internet of things, are compatible with data protection and the right to privacy;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_k">
+            <num>(k)</num>
+            <content eId="para_88_list_point_k_content">
+              <p xml:space="preserve">	To take appropriate measures throughout the life cycle of artificial intelligence systems and digital technologies, including before commencing the design and development of applications and software that involve processing personal data, with a view to establishing a risk monitoring and management system to ensure that data are processed fairly and lawfully;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>business enterprises, including communications service providers, to work towards enabling solutions to secure and protect the confidentiality of digital communications and transactions, including measures for encryption, pseudonymization and anonymity, and to ensure the implementation of human-rights compliant safeguards, and calls upon States to promote measures and technical solutions for strong encryption, pseudonymization and anonymity, not to interfere with the use of such technical solutions, with any restrictions thereon complying with States’ obligations under international human rights law, and to enact policies that protect the privacy of individuals’ digital communications;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> States and, where applicable, business enterprises to systematically conduct human rights due diligence throughout the life cycle of the artificial intelligence systems that they conceptualize, design, develop, deploy or sell or obtain and operate, including through regular and comprehensive human rights impact assessments and the participation of all relevant stakeholders;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> all relevant stakeholders to mainstream a gender perspective into the conceptualization, development and implementation of digital technologies and related policies and to promote the participation of women in order to address violence and discrimination against all women and girls that occur through or are amplified by the use of technology by, inter alia, encouraging digital technology companies, including Internet service providers, to respect standards and implement transparent and accessible reporting mechanisms;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Office of the United Nations High Commissioner for Human Rights to prepare a report on challenges and risks with regard to discrimination and unequal enjoyment of the right to privacy associated with the collection and processing of data, including those addressed in the present resolution, to identify and clarify related human rights principles, safeguards and best practices, and to present the report to the Human Rights Council at its fifty-seventh session, to be followed by an interactive dialogue;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_153" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_153__content">
+          <p xml:space="preserve">	<span class="italic">Also requests</span> the Office of the High Commissioner, when preparing the above-mentioned report, to seek input from and to take into account the work already done by relevant stakeholders from diverse geographical regions, including States, international and regional organizations, the special procedures of the Human Rights Council, the treaty bodies, other relevant United Nations offices, agencies, funds and programmes, within their respective mandates, national human rights institutions, civil society, the private sector, the technical community and academic institutions.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48th" refersTo="#adoptionMeeting">48th meeting</location>
+          <eol />
+          <docDate date="2023-10-12" refersTo="#adoptionDate">12 October 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

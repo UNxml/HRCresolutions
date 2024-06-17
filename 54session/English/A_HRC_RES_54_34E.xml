@@ -1,0 +1,486 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/eng@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Team of International Experts on the Democratic Republic of the Congo" showAs="UN. Team of International Experts on the Democratic Republic of the Congo" dictionary="DHLAUTH"/>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"/>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO" href="http://metadata.un.org/thesaurus/1001559" showAs="DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="UNBIS Thesaurus"/>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="TRANSITIONAL JUSTICE" href="http://metadata.un.org/thesaurus/1006637" showAs="TRANSITIONAL JUSTICE" dictionary="UNBIS Thesaurus"/>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"/>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"/>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/54/1"/>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-06" outcome="draftResolution" as="A/HRC/54/L.38" by="Côte d’Ivoire"/>
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by=""/>
+        <step date="2023-10-13" outcome="recommendedForAdoption" by=""/>
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 48th meeting" by=""/>
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/34</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#french" name="originalLanguage">Original: French</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">Fifty-fourth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 September</date>
+          <date date="2023-10-13" refersTo="#endDate">13 October 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Agenda item 10</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Technical assistance and capacity-building</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council on 12 October 2023</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/34.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Technical assistance and capacity-building in the field of human rights in the Democratic Republic of the Congo</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Reaffirming" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that all States have a responsibility to promote and protect the human rights and fundamental freedoms enshrined in the Charter of the United Nations and the Universal Declaration of Human Rights and to discharge their obligations under the International Covenants on Human Rights and other relevant instruments to which they are parties,</p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> General Assembly resolution <a href="http://undocs.org/en/A/RES/60/251">60/251</a> of 15 March 2006,</p>
+      </container>
+      <container name="Recalling also" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> its resolutions <a href="http://undocs.org/en/A/RES/5/1">5/1</a> of 18 June 2007, <a href="http://undocs.org/en/A/RES/7/20">7/20</a> of 27 March 2008 and <a href="http://undocs.org/en/A/RES/S-8/1">S-8/1</a> of 1 December 2008,</p>
+      </container>
+      <container name="Recalling further" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recalling further</span> its resolutions <a href="http://undocs.org/en/A/RES/10/33">10/33</a> of 27 March 2009, <a href="http://undocs.org/en/A/RES/13/22">13/22</a> of 26 March 2010, <a href="http://undocs.org/en/A/RES/16/35">16/35</a> of 25 March 2011, <a href="http://undocs.org/en/A/RES/19/27">19/27</a> of 23 March 2012, <a href="http://undocs.org/en/A/RES/24/27">24/27</a> of 27 September 2013, <a href="http://undocs.org/en/A/RES/27/27">27/27</a> of 26 September 2014, <a href="http://undocs.org/en/A/RES/30/26">30/26</a> of 2 October 2015, <a href="http://undocs.org/en/A/RES/33/29">33/29</a> of 30 September 2016, <a href="http://undocs.org/en/A/RES/35/33">35/33</a> of 23 June 2017, <a href="http://undocs.org/en/A/RES/36/30">36/30</a> of 29 September 2017, <a href="http://undocs.org/en/A/RES/39/20">39/20</a> of 28 September 2018, <a href="http://undocs.org/en/A/RES/42/34">42/34</a> of 27 September 2019, <a href="http://undocs.org/en/A/RES/45/34">45/34</a> of 7 October 2020, <a href="http://undocs.org/en/A/RES/48/20">48/20</a> of 11 October 2021 and <a href="http://undocs.org/en/A/RES/51/36">51/36</a> of 7 October 2022, in which the Human Rights Council called upon the international community to support the efforts of the Democratic Republic of the Congo and its institutions with a view to improving the situation of human rights and responding to its requests for technical assistance,</p>
+      </container>
+      <container name="Taking note" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the report of the United Nations High Commissioner for Human Rights on the human rights situation and the activities of the United Nations Joint Human Rights Office in the Democratic Republic of the Congo,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/en/A/HRC/54/73">A/HRC/54/73</a>.</p></authorialNote> submitted to the Human Rights Council in accordance with its resolution <a href="http://undocs.org/en/A/RES/51/36">51/36</a>,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Deeply concerned</span> about the continuing human rights violations and abuses being committed against children and women in the east and certain areas of the west of the country, in the light of the report by the team of international experts on the Democratic Republic of the Congo,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="http://undocs.org/en/A/HRC/54/76">A/HRC/54/76</a>.</p></authorialNote> including sexual and gender-based violence, and affirming the necessity of preventing, condemning and eliminating all forms of violence against women and girls, of ensuring access to justice and of meeting the obligation to bring the perpetrators of these violations to book,</p>
+      </container>
+      <container name="Concerned" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Concerned</span> by the deteriorating security and human rights conditions in some sectors in the eastern part of the Democratic Republic of the Congo, with a situation that continues to give cause for concern in Ituri, North Kivu, South Kivu, Maniema and Tanganyika in particular,</p>
+      </container>
+      <container name="Concerned also" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Concerned also</span> about the use of hate speech in contravention of article 20 (2) of the International Covenant on Civil and Political Rights,</p>
+      </container>
+      <container name="Noting" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the progress made by the Armed Forces of the Democratic Republic of the Congo in preventing and ending the recruitment and use of children,</p>
+      </container>
+      <container name="Concerned" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Concerned</span> about the humanitarian consequences of the violence affecting civilian populations, particularly children and women, which have led to a significant increase in the number of internally displaced persons and persons in need of humanitarian assistance,</p>
+      </container>
+      <container name="Welcoming" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the progress made in recent years and the measures taken by the President to combat the violations of fundamental freedoms and human rights in the Democratic Republic of the Congo,</p>
+      </container>
+      <container name="Calling on" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Calling on</span> the Government of the Democratic Republic of the Congo to continue and to step up its efforts to respect and uphold all human rights and fundamental freedoms for all, in accordance with its international obligations, and to respect the rule of law,</p>
+      </container>
+      <container name="Recalling" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the need to guarantee not only the right of opposition, but also the full exercise by Parliament of its mandate in a democratic system,</p>
+      </container>
+      <container name="Noting" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the cooperation between the Government of the Democratic Republic of the Congo and the team of international experts, including by facilitating access to the country, sites and persons,</p>
+      </container>
+      <container name="Noting also" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Noting also</span> the efforts made in the region, in particular by the African Union, the Southern African Development Community, the International Conference on the Great Lakes Region and the East African Community, through the Luanda and Nairobi processes, aimed at contributing to peace and stability in the Democratic Republic of the Congo,</p>
+      </container>
+      <container name="Noting further" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Noting further</span> the progress made in combating impunity for perpetrators of sexual violence, including through the promulgation by the President of Act No. 22/065 of 26 December 2022, which establishes the basic principles on protection and reparations for victims of conflict-related sexual violence and victims of crimes against the peace and security of mankind,</p>
+      </container>
+      <container name="Noting with great concern" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Noting with great concern</span> that the situation of prolonged conflict in the east of the Democratic Republic of the Congo has led to numerous human rights violations and abuses and to the illicit exploitation of natural resources in that part of the country and prevents the population from fully enjoying their rights and freedoms,</p>
+      </container>
+      <container name="Calling on" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Calling on</span> the Government of the Democratic Republic of the Congo to find a durable solution to the problem of sexual and gender-based violence against children by implementing the 2012 plan of action and by prioritizing the provision of services to child survivors,</p>
+      </container>
+      <container name="Noting" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the efforts of the Democratic Republic of the Congo to meet its commitments under the Peace, Security and Cooperation Framework for the Democratic Republic of the Congo and the Region, signed in Addis Ababa on 24 February 2013,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Condemns</span> all violations of human rights, as well as the illicit exploitation of natural resources, in particular in the areas affected by armed or intercommunal conflict in the eastern part of the Democratic Republic of the Congo, where the situation continues to lead to significant population displacement;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Also condemns</span> the activities of armed groups and the resurgence of attacks against civilians, the international forces of the United Nations Organization Stabilization Mission in the Democratic Republic of the Congo, humanitarian actors and the Armed Forces of the Democratic Republic of the Congo by rebel and terrorist groups, mainly those of the Allied Democratic Forces (ADF), the Cooperative for the Development of the Congo (CODECO), the “Wazalendo” self-defence groups, the Forces démocratiques de libération du Rwanda (FDLR) and the Mouvement du 23 mars, as well as the occupation by such groups, in particular, of Bunagana and a number of other nearby localities, where they commit daily atrocities and human rights abuses and serious violations of international humanitarian law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Further condemns</span> the disturbing and subversive actions of members of Wazalendo self-defence groups;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Strongly condemns</span> any support given by anyone to these rebel and terrorist groups that roam the country, in flagrant violation of the principles relating to the promotion and protection of human rights, and calls for such support to end immediately;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Condemns</span> the attack on a helicopter belonging to the United Nations Organization Stabilization Mission in the Democratic Republic of the Congo in Kiwanja, in the province of North Kivu, on 5 February 2023, remains concerned about the harmful consequences for the civilian population, and calls for action to be taken to combat impunity for the perpetrators of this attack;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the countries of the region and the international community as a whole to support the Luanda and Nairobi processes for the return of lasting peace in the eastern part of the Democratic Republic of the Congo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the efforts made by the authorities of the Democratic Republic of the Congo to bring to justice the alleged perpetrators of serious crimes committed throughout the country, encourages them to take all necessary measures to ensure that survivors have access to justice and that all the alleged perpetrators are brought to justice, and welcomes the convictions already pronounced;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Government’s efforts to uphold the rule of law to guarantee the enjoyment of human rights and fundamental freedoms by all, in accordance with the international obligations of States, as well as the investigation and prosecution of the perpetrators of the killings of demonstrators in Goma on 30 August 2023;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the materialization of the commitment made by the Congolese Head of State in his address to the high-level segment of the fifty-second session of the Human Rights Council with regard to the promotion and protection of human rights in the Democratic Republic of the Congo, and more specifically the efforts to implement transitional justice, including the establishment of the National Reparations Fund for Victims of Conflict-Related Sexual Violence and Other Crimes against the Peace and Security of Mankind in the Democratic Republic of the Congo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the publication in the Official Gazette, on 14 November 2022, of Act No. 22/030 of 15 July 2022 on the protection and promotion of the rights of Indigenous Pygmy Peoples;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the conduct of the electoral process for the presidential, legislative and local elections;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the adoption by the Senate and the National Assembly of the law on the protection and responsibility of human rights defenders in the Democratic Republic of the Congo, and encourages them to harmonize their views in order to achieve the adoption of the final version of the law as soon as possible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the decision to operationalize and revitalize the Human Rights Liaison Body, in particular through the appointment by ministerial decree of the Minister of Human Rights, in May 2023, of the members of the technical secretariat of this local mechanism for cooperation between the Government, the Office of the United Nations High Commissioner for Human Rights and civil society;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Government of the Democratic Republic of the Congo to submit its sixteenth, seventeenth and eighteenth periodic reports on the implementation of the International Convention on the Elimination of All Forms of Racial Discrimination as soon as possible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the appointment, on 30 June 2023, of the coordinators of the National Reparations Fund for Victims of Conflict-Related Sexual Violence and Other Crimes against the Peace and Security of Mankind in the Democratic Republic of the Congo and the establishment of the Inter-Institutional Commission for Assistance to Victims and Support for Reforms, institutional mechanisms that reflect the Government’s response to these issues;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_141" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_141__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the commitment made by the President, at the Council of Ministers meeting of 4 August 2023, to personally ensure that these mechanisms have the full human and material capacity needed for their work, as well as the instruction given to the Government to take all necessary steps to ensure that the National Reparations Fund for Victims of Conflict-Related Sexual Violence and Other Crimes against the Peace and Security of Mankind in the Democratic Republic of the Congo and the Inter-Institutional Commission for Assistance to Victims and Support for Reforms have access to seed funding and facilities for their operation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	<span class="italic">Also notes</span> the initiative launched by the Minister of Human Rights for a bill on the creation, organization and functioning of the national mechanism for the prevention of torture, and encourages the acceleration of the adoption process in Parliament and the operationalization of the mechanism;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_174" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_174__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the Government of the Democratic Republic of the Congo for the submission of its combined sixth to eighth periodic reports on the implementation of the Convention on the Rights of the Child, as well as its periodic reports on the Optional Protocol on the sale of children, child prostitution and child pornography and the Optional Protocol on the involvement of children in armed conflict;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_192" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_192__content">
+          <p xml:space="preserve">	<span class="italic">Also commends</span> the Government of the Democratic Republic of the Congo for the submission of its initial report on the implementation of the Convention on the Rights of Persons with Disabilities, on 15 March 2023, as well as its addendum to the fourth periodic report on the implementation of the International Covenant on Civil and Political Rights, on 4 September 2023;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_211" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_211__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the signing, on 20 October 2022, of Decree No. 22/36 on the organization and functioning of the National Children’s Council, the establishment of the monitoring committee for the implementation of Security Council resolution 2250 (2015) on youth, peace and security, and the adherence of the Democratic Republic of Congo to the initiative on the voluntary principles on security and human rights in the extractive industries, and encourages the Government to make the National Children’s Council operational;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_231" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_231__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the Government of the Democratic Republic of the Congo on the adoption of the National Transitional Justice Policy presented at the eighty-sixth meeting of the Council of Ministers, chaired by the President, on 13 February 2023;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_252" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_252__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Government to set up national and provincial committees to monitor pretrial detention, in accordance with its national policy on justice sector reform 2017–2026;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the progress of the trial in the case involving the assassination of two United Nations experts before the High Military Court, and encourages the continuation of the proceedings until all the perpetrators have been convicted;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve">	<span class="italic">Also notes</span> the recruitment process for judges who passed the competitive examination organized by the High Council of the Judiciary on 9 October 2022, and encourages the Office of the High Commissioner to contribute to building their capacities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_321" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_321__content">
+          <p xml:space="preserve">	<span class="italic">Further notes</span> the development by the Ministry responsible for persons with disabilities and other vulnerable persons of a national strategy to raise awareness and promote ownership of Organic Act No. 22/003 of 3 May 2022 on the protection and promotion of the rights of persons with disabilities by public and private stakeholders, to better coordinate and guide the actions and activities of all stakeholders, the development of several draft measures to implement the Organic Act, including ordinance-laws, decrees and interministerial orders, and the finalization of the strategic documents of the Ministry responsible for persons with disabilities and other vulnerable persons;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">	<span class="italic">Notes with satisfaction</span> the establishment of the General Secretariat for Persons with Disabilities and Other Vulnerable Persons, as well as five specialized structures, namely the Specialized Research and Treatment Centre for Persons with Albinism, the National Advisory Council for Persons with Disabilities, in consultation with organizations of persons with disabilities, the Framework for Dialogue with Organizations of Persons with Disabilities, the Facility for Wheelchair Manufacturing, Physical Rehabilitation and Empowerment through Sports, Culture and Arts Adapted for Persons with Disabilities, and the Academy for the Development of Sign Language and Braille;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_372" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_372__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the process of developing a national strategy for inclusive education linked to the employability of persons with disabilities by the Ministry responsible for persons with disabilities and other vulnerable persons, in collaboration with the ministries of education, employment, labour and entrepreneurship;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_399" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_399__content">
+          <p xml:space="preserve">	<span class="italic">Notes with satisfaction</span> the incorporation of sign language into the electoral process in the Democratic Republic of the Congo by the Independent National Electoral Commission;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_427" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_427__content">
+          <p xml:space="preserve">	<span class="italic">Also notes with satisfaction</span> the creation of a sixth specific sports grouping for persons with disabilities, which will be added to the five existing sports groupings mentioned in the draft amendment to the Sports Act;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_456" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_456__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the measures taken by the Government of the Democratic Republic of the Congo to reduce prison overcrowding, in particular through presidential pardons and conditional release, and encourages it to continue to take other measures in this regard and to ensure judicial oversight of all places of detention;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_486" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_486__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the work of the team of international experts on the Democratic Republic of the Congo and the technical assistance team deployed by the Office of the High Commissioner to support the Government in the fields of transitional justice and forensic medicine, and in this connection welcomes the organization of the first international symposium on forensic medicine in the Democratic Republic of the Congo, held in Kinshasa from 17 to 19 July 2023;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_517" class="SingleTxtG">
+        <num>32.</num>
+        <content eId="para_517__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the Office of the High Commissioner for its support of the Government of the Democratic Republic of the Congo in the field of transitional justice, in particular the technical assistance provided to the Ministry of Human Rights and to the Truth, Justice and Reconciliation Commission of Kasai-Central Province, through the provision of two transitional justice specialists, and requests the Office of the High Commissioner to continue to give this support;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_549" class="SingleTxtG">
+        <num>33.</num>
+        <content eId="para_549__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the progress made in the operationalization of the Truth, Justice and Reconciliation Commission of Kasai-Central Province, notably through the technical and financial assistance of the Office of the High Commissioner, and invites other international actors to support the effective operationalization of the Commission in order to contribute to the realization of the victims’ right to truth, justice and guarantees of non‑repetition;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_582" class="SingleTxtG">
+        <num>34.</num>
+        <content eId="para_582__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to renew, for one year, the mandate of the team of international experts in the Democratic Republic of the Congo, and requests the team to provide the necessary technical support to the Government in its effective implementation of the National Transitional Justice Policy;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_616" class="SingleTxtG">
+        <num>35.</num>
+        <content eId="para_616__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the report of the team of international experts on the Democratic Republic of the Congo, submitted in accordance with Human Rights Council resolution <a href="http://undocs.org/en/A/RES/51/36">51/36</a>, and of its conclusions and recommendations, in particular that the Nairobi and Luanda processes should take account of the cross-border nature of conflict and insecurity, identify the causes of conflict and prevent their recurrence, and design and implement mechanisms for transitional justice and the fight against impunity, and encourages it to support the Government in this regard, in particular by proposing concrete measures;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_651" class="SingleTxtG">
+        <num>36.</num>
+        <content eId="para_651__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> collaboration between the team of international experts and the Special Envoy of the Secretary-General for the Great Lakes Region;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_687" class="SingleTxtG">
+        <num>37.</num>
+        <content eId="para_687__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the United Nations High Commissioner for Human Rights to continue to provide the Government of the Democratic Republic of the Congo with technical assistance, including the necessary forensic expertise, to support the country’s judicial authorities in their investigations into allegations of serious human rights violations and abuses, including conflict-related sexual violence and grave violations of children’s rights, with a view to bringing the perpetrators to justice, and to strengthen the technical assistance team with the necessary technical and financial resources to help the Government implement effective mechanisms to combat impunity, in accordance with the wishes expressed by the President of the Republic during the high-level segment of the fifty-second session of the Human Rights Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_724" class="SingleTxtG">
+        <num>38.</num>
+        <content eId="para_724__content">
+          <p xml:space="preserve">	<span class="italic">Also requests</span> the High Commissioner to continue to support the Government of the Democratic Republic of the Congo in the development and strengthening of its forensic medicine capacities, in particular through the effective implementation of the road map and recommendations of the Kinshasa Declaration adopted at the international symposium on forensic medicine in the Democratic Republic of the Congo, held in Kinshasa from 17 to 19 July 2023, paying particular attention in this regard to the reform of the legal framework, the development of national expertise and national infrastructure, and thus to assist the Government in acquiring the necessary skills and Congolese specialists in the field of forensic medicine;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_762" class="SingleTxtG">
+        <num>39.</num>
+        <content eId="para_762__content">
+          <p xml:space="preserve">	<span class="italic">Further requests</span> the High Commissioner to deploy additional experts in transitional justice to the provinces of Tanganyika, North Kivu, South Kivu and Ituri, to assist the Government in supporting ongoing transitional justice processes, combating impunity and building sustainable peace;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_801" class="SingleTxtG">
+        <num>40.</num>
+        <content eId="para_801__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the High Commissioner to provide the Truth, Justice and Reconciliation Commission of Kasai-Central Province with increased support, in particular by making available a team of specialists in human rights, transitional justice, sexual and gender-based violence, victim and witness protection, communication and community mobilization, and by providing the material and financial resources needed to help it fulfil its mandate within the prescribed time frame;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_841" class="SingleTxtG">
+        <num>41.</num>
+        <content eId="para_841__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> international actors and partners, under the auspices of the Office of the High Commissioner, to provide the additional financial resources and technical and logistical support necessary for the Government of the Democratic Republic of the Congo to consolidate its efforts in the field of transitional justice;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_882" class="SingleTxtG">
+        <num>42.</num>
+        <content eId="para_882__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Office of the High Commissioner to organize, before its fifty-seventh session, a meeting to evaluate the implementation of the present resolution, bringing together all the actors involved and with the aim of assessing the progress made in the fields of forensic science and transitional justice;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_924" class="SingleTxtG">
+        <num>43.</num>
+        <content eId="para_924__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the team of international experts to submit its final report to the Council, in the framework of an enhanced interactive dialogue, at its fifty-seventh session, and to present it with an oral update at its fifty-fifth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_967" class="SingleTxtG">
+        <num>44.</num>
+        <content eId="para_967__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the High Commissioner to prepare a comprehensive report on the situation of human rights in the Democratic Republic of the Congo and to submit it to the Council, in the framework of an enhanced interactive dialogue, at its fifty-seventh session, and to present it with an oral update at its fifty-fifth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1011" class="SingleTxtG">
+        <num>45.</num>
+        <content eId="para_1011__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain seized of the matter until its fifty-seventh session.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48th" refersTo="#adoptionMeeting">48th meeting</location>
+          <eol />
+          <docDate date="2023-10-12" refersTo="#adoptionDate">12 October 2023</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
