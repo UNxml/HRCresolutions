@@ -1,0 +1,490 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/rus@/"></FRBRuri>
+          <FRBRdate date="2023-10-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-34/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-04-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Team of International Experts on the Democratic Republic of the Congo" showAs="UN. Team of International Experts on the Democratic Republic of the Congo" dictionary="DHLAUTH"/>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"/>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO" href="http://metadata.un.org/thesaurus/1001559" showAs="DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="UNBIS Thesaurus"/>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"/>
+        <keyword value="TRANSITIONAL JUSTICE" href="http://metadata.un.org/thesaurus/1006637" showAs="TRANSITIONAL JUSTICE" dictionary="UNBIS Thesaurus"/>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"/>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"/>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/54/1"/>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-06" outcome="draftResolution" as="A/HRC/54/L.38" by="Côte d’Ivoire"/>
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by=""/>
+        <step date="2023-10-13" outcome="recommendedForAdoption" by=""/>
+        <step date="2023-10-13" outcome="adopted" as="Adopted without vote, 48th meeting" by=""/>
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/34</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-13" class="rightSmall" refersTo="#dateOfIssuance">13 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#french" name="originalLanguage">Original: French</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian"> Russian </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">Пятьдесят четвертая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 сентября</date>
+          <date date="2023-10-13" refersTo="#endDate">13 октября 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Пункт 10 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Техническая помощь и создание потенциала</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 12 октября 2023 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/34.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Техническая помощь и создание потенциала в области прав человека в Демократической Республике Конго</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="вновь подтверждая" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span>, что все государства обязаны поощрять и защищать права человека и основные свободы, закрепленные в Уставе Организации Объединенных Наций и Всеобщей декларации прав человека, и соблюдать свои обязательства по Международным пактам о правах человека и другим соответствующим договорам, участниками которых они являются,</p>
+      </container>
+      <container name="ссылаясь" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюцию <a href="http://undocs.org/ru/A/RES/60/251">60/251</a> Генеральной Ассамблеи от 15 марта 2006 года,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на свои резолюции 5/1 от 18 июня 2007 года, 7/20 от 27 марта 2008 года и <a href="http://undocs.org/ru/A/RES/S-8/1">S-8/1</a> от 1 декабря 2008 года,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">ссылаясь далее</span> на свои резолюции 10/33 от 27 марта 2009 года, <a href="http://undocs.org/ru/A/HRC/RES/13/22">13/22</a> от 26 марта 2010 года, <a href="http://undocs.org/ru/A/HRC/RES/16/35">16/35</a> от 25 марта 2011 года, <a href="http://undocs.org/ru/A/HRC/RES/19/27">19/27</a> от 23 марта 2012 года, <a href="http://undocs.org/ru/A/HRC/RES/24/27">24/27</a> от 27 сентября 2013 года, <a href="http://undocs.org/ru/A/HRC/RES/27/27">27/27</a> от 26 сентября 2014 года, <a href="http://undocs.org/ru/A/HRC/RES/30/26">30/26</a> от 2 октября 2015 года, <a href="http://undocs.org/ru/A/HRC/RES/33/29">33/29</a> от 30 сентября 2016 года, <a href="http://undocs.org/ru/A/HRC/RES/35/33">35/33</a> от 23 июня 2017 года, <a href="http://undocs.org/ru/A/HRC/RES/36/30">36/30</a> от 29 сентября 2017 года, <a href="http://undocs.org/ru/A/HRC/RES/39/20">39/20</a> от 28 сентября 2018 года, <a href="http://undocs.org/ru/A/HRC/RES/42/34">42/34</a> от 27 сентября 2019 года, <a href="http://undocs.org/ru/A/HRC/RES/45/34">45/34</a> от  7 октября 2020 года, <a href="http://undocs.org/ru/A/HRC/RES/48/20">48/20</a> от 11 октября 2021 года и <a href="http://undocs.org/ru/A/HRC/RES/51/36">51/36</a> от 7 октября 2022 года, в которых Совет по правам человека призвал международное сообщество поддержать усилия Демократической Республики Конго и ее институтов с целью улучшения положения в области прав человека и отреагировать на ее просьбы о технической помощи,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> доклад Верховного комиссара Организации Объединенных Наций по правам человека о положении в области прав человека и деятельности Совместного отделения Организации Объединенных Наций по правам человека в Демократической Республике Конго<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/HRC/54/73">A/HRC/54/73</a>.</p></authorialNote>, представленный Совету по правам человека в соответствии с его резолюцией <a href="http://undocs.org/ru/A/HRC/RES/51/36">51/36</a>,</p>
+      </container>
+      <container name="будучи глубоко обеспокоен" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">будучи глубоко обеспокоен</span> продолжающимися нарушениями прав человека и ущемлениями этих прав, совершаемыми в отношении детей и женщин на востоке и в некоторых населенных пунктах запада страны, в свете доклада Группы международных экспертов в Демократической Республике Конго<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/HRC/54/76">A/HRC/54/76</a>.</p></authorialNote>, включая сексуальное и гендерное насилие, и подтверждая, что все формы насилия в отношении женщин и девочек должны предотвращаться, осуждаться и искореняться и что должен быть обеспечен доступ к правосудию и обязательное привлечение к ответственности виновных в таких нарушениях,</p>
+      </container>
+      <container name="будучи обеспокоен" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">будучи обеспокоен</span> ухудшением положения с обеспечением безопасности и соблюдением прав человека в некоторых районах восточной части Демократической Республики Конго, особенно в провинциях Итури, Северное Киву, Южное Киву, Маниема и Танганьика,</p>
+      </container>
+      <container name="будучи обеспокоен также" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">будучи обеспокоен также</span> ненавистническими высказываниями, противоречащими положениям пункта 2 статьи 20 Международного пакта о гражданских и политических правах,</p>
+      </container>
+      <container name="отмечая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> прогресс, достигнутый Вооруженными силами Демократической Республики Конго в предотвращении и прекращении вербовки и использования детей,</p>
+      </container>
+      <container name="будучи обеспокоен" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">будучи обеспокоен</span> гуманитарными последствиями насилия, затрагивающего гражданское население, в частности женщин и детей, что привело к существенному увеличению числа лиц, перемещенных внутри страны, и лиц, нуждающихся в гуманитарной помощи,</p>
+      </container>
+      <container name="отмечая с удовлетворением" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">отмечая с удовлетворением</span> прогресс, достигнутый в последние годы, а также по поводу мер, принятых президентом Республики для борьбы с посягательствами на основные свободы и права человека в Демократической Республике Конго,</p>
+      </container>
+      <container name="призывая" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">призывая </span>правительство Демократической Республики Конго продолжать и активизировать усилия для обеспечения уважения и гарантирования соблюдения всех прав человека и основных свобод для всех в соответствии со своими международными обязательствами и уважать принцип верховенства права,</p>
+      </container>
+      <container name="напоминая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о необходимости гарантировать не только право на оппозицию, но и полное осуществление парламентского мандата в рамках демократической системы,</p>
+      </container>
+      <container name="отмечая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> сотрудничество правительства Демократической Республики Конго с Группой международных экспертов, в частности путем облегчения доступа в страну, к объектам и людям,</p>
+      </container>
+      <container name="отмечая также" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">отмечая также</span> предпринимаемые в регионе усилия, в частности усилия Африканского союза, Сообщества по вопросам развития стран юга Африки и Международной конференции по району Великих озер, а также Восточноафриканского сообщества в рамках Луандского и Найробийского процессов, направленные на содействие миру и стабильности в Демократической Республике Конго,</p>
+      </container>
+      <container name="отмечая далее" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">отмечая далее</span> прогресс, достигнутый в борьбе с безнаказанностью лиц, совершивших акты сексуального насилия, в частности благодаря принятию Президентом Республики Закона № 22/065 от 26 декабря 2022 года, устанавливающего основополагающие принципы, касающиеся защиты жертв сексуального насилия в условиях конфликта и жертв преступлений против мира и безопасности человечества, а также возмещения им ущерба,</p>
+      </container>
+      <container name="отмечая с большой озабоченностью" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">отмечая с большой озабоченностью</span>, что ситуация затяжного конфликта на востоке Демократической Республики Конго является причиной многочисленных нарушений прав человека ущемлений этих прав, а также незаконной эксплуатации природных ресурсов в этой части страны и не позволяет населению в полной мере пользоваться своими правами и свободами,</p>
+      </container>
+      <container name="призывая" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">призывая </span>правительство Демократической Республики Конго к решению на устойчивой основе проблемы сексуального и гендерного насилия в отношении детей путем реализации плана действий 2012 года и уделения первоочередного внимания доступу к услугам для детей, переживших насилие,</p>
+      </container>
+      <container name="отмечая" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> усилия Демократической Республики Конго по выполнению обязательств, вытекающих из Рамочного соглашения о мире, безопасности и сотрудничестве для Демократической Республики Конго и региона, подписанного в Аддис-Абебе 24 февраля 2013 года,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">осуждает </span>все совершенные нарушения прав человека и незаконную эксплуатацию природных ресурсов, в частности в регионах, затронутых вооруженными и межобщинными конфликтами в восточной части Демократической Республики Конго, ситуация в которой продолжает приводить к значительным перемещениям населения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">осуждает также </span>деятельность вооруженных групп и возобновление нападений на гражданское население, международные силы Миссии Организации Объединенных Наций по стабилизации в Демократической Республике Конго, гуманитарные организации и вооруженные силы Демократической Республики Конго со стороны повстанческих и террористических групп, главным образом Альянса демократических сил (АДС), «Кооператива за развитие Конго» (КОДЕКО), группами самообороны, называемыми «вазалендо», Демократических сил освобождения Руанды (ДСОР) и Движения 23 марта (Д23), а также оккупацию такими группами, в частности Бунаганы и некоторых других соседних населенных пунктов, в которых они ежедневно совершают бесчинства и нарушения и ущемления прав человека и серьезные нарушения международного гуманитарного права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">осуждает далее</span> внушающие тревогу и подрывные действия членов групп самообороны «вазалендо»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">решительно осуждает</span> любую поддержку, оказываемую кем бы то ни было этим повстанческим и террористическим группам, которые занимаются разграблением страны, что является вопиющим нарушением принципов, касающихся поощрения и защиты прав человека, и призывает к немедленному прекращению такой поддержки;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">осуждает </span>нападение на вертолет Миссии Организации Объединенных Наций по стабилизации в Демократической Республике Конго в Кивандже, провинция Северное Киву, 5 февраля 2023 года, вновь выражает обеспокоенность пагубными последствиями для гражданского населения и призывает к борьбе с безнаказанностью лиц, совершивших это нападение;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>страны региона и международное сообщество в целом поддержать Луандский и Найробийский процессы для возвращения к прочному миру на востоке Демократической Республики Конго;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>усилия властей Демократической Республики Конго по привлечению к ответственности предполагаемых виновников серьезных преступлений, совершенных на территории страны, призывает их принять все необходимые меры для обеспечения доступа пострадавших к правосудию и привлечения к ответственности всех предполагаемых виновных и выражает удовлетворение по поводу уже вынесенных обвинительных приговоров;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">поощряет </span>усилия правительства по обеспечению верховенства закона, чтобы гарантировать осуществление всеми людьми прав человека и основных свобод в соответствии с международными обязательствами государств, а также по расследованию и судебному преследованию лиц, виновных в убийстве демонстрантов в Гоме 30 августа 2023 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> выполнение обязательств, взятых на себя главой конголезского государства в его выступлении на этапе заседаний высокого уровня пятьдесят второй сессии Совета по правам человека, в отношении поощрения и защиты прав человека в Демократической Республике Конго и, в частности, усилия по осуществлению правосудия переходного периода, включая создание Национального фонда возмещения ущерба жертвам сексуального насилия в условиях конфликта и других преступлений против мира и безопасности человечества в Демократической Республике Конго;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> публикацию в Официальном журнале от 14 ноября 2022 года Закона № 22/030 от 15 июля 2022 года о защите и поощрении прав коренных племен пигмеев;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>осуществление избирательного процесса президентских, парламентских и местных выборов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> принятие Сенатом и Национальной Ассамблеей закона о защите и ответственности правозащитников в Демократической Республике Конго и призывает их согласовать их позиции с целью скорейшего принятия окончательного варианта;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> решение о введении в действие и активизации деятельности Механизма связи по правам человека, в частности путем назначения в мае 2023 года Министром по правам человека членов Технического секретариата этого местного механизма сотрудничества между правительством, Управлением Верховного комиссара Организации Объединенных Наций по правам человека и гражданским обществом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> правительство Демократической Республики Конго как можно скорее представить шестнадцатый, семнадцатый и восемнадцатый периодические доклады об осуществлении Международной конвенции о ликвидации всех форм расовой дискриминации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> назначение 30 июня 2023 года уполномоченных Национального фонда возмещения ущерба жертвам сексуального насилия в условиях конфликта и других преступлений против мира и безопасности человечества в Демократической Республике Конго и создание Межведомственной комиссии по оказанию помощи жертвам и поддержке реформ, а также институциональных механизмов, занимающихся реагированием от имени правительства на эти проблемы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_141" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_141__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>взятое Президентом Республики на заседании Совета министров 4 августа 2023 года обязательство лично обеспечить наличие у этих структур полного кадрового и материального потенциала, необходимого для их деятельности, а также поручение правительству принять все необходимые меры для того, чтобы Национальный фонд возмещения ущерба жертвам сексуального насилия в условиях конфликта и других преступлений против мира и безопасности человечества в Демократической Республике Конго и Межведомственная комиссия по оказанию помощи жертвам и поддержке реформ имели в своем распоряжении стартовое финансирование и средства для своей работы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	<span class="italic">отмечает также </span>инициативу министра по правам человека по разработке законопроекта о создании, организации и функционировании национального механизма по предупреждению пыток и призывает ускорить процесс его принятия парламентом и введения в действие данного механизма;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_174" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_174__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает </span>представление правительством Демократической Республики Конго своих объединенных шестого–восьмого периодических докладов о выполнении Конвенции о правах ребенка, а также своих периодических докладов по Факультативному протоколу, касающемуся торговли детьми, детской проституции и детской порнографии, и Факультативному протоколу, касающемуся участия детей в вооруженных конфликтах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_192" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_192__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает также</span> представление правительством Демократической Республики Конго 15 марта 2023 года первоначального доклада об осуществлении Конвенции о правах инвалидов и 4 сентября 2023 года — дополнительного доклада к четвертому периодическому докладу об осуществлении Международного пакта о гражданских и политических правах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_211" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_211__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> подписание 20 октября 2022 года декрета № 22/36 об организации и функционировании Национального совета по защите прав ребенка, создание комитета по мониторингу осуществления резолюции 2250 о молодежи, мире и безопасности, а также присоединение Демократической Республики Конго к Добровольным принципам безопасности и прав человека в добывающей промышленности и призывает правительство обеспечить функционирование Национального совета по защите прав ребенка;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_231" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_231__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает </span>принятие правительством Демократической Республики Конго Национальной политики в области правосудия переходного периода, представленной на восемьдесят шестом заседании Совета министров, проходившего под председательством Президента Республики, 13 февраля 2023 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_252" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_252__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>правительство создать общенациональный комитет и комитеты на уровне провинций по мониторингу досудебного содержания под стражей в соответствии с национальной политикой реформирования системы правосудия на период с 2017 по 2026 год;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> ход рассмотрения дела об убийстве двух экспертов Организации Объединенных Наций в Высшем военном суде и призывает продолжать этот процесс до тех пор, пока не будут осуждены все виновные;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve">	<span class="italic">отмечает также </span>процесс набора судей, сдавших конкурсный экзамен, организованный Высшим судебным советом 9 октября 2022 года, и призывает Управление Верховного комиссара содействовать наращиванию их потенциала;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_321" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_321__content">
+          <p xml:space="preserve">	<span class="italic">отмечает далее</span> разработку Министерством по делам людей с инвалидностью и других уязвимых лиц Национальной стратегии по разъяснению и применению Органического закона № 22/003 от 3 мая 2022 года о защите и поощрении прав людей с инвалидностью государственными и частными субъектами с целью улучшения координации и руководства действиями и деятельностью всех субъектов, разработку ряда проектов мер по реализации данного Органического закона в виде постановлений, указов и межведомственных распоряжений, а также завершение работы над стратегическими документами Министерства по делам людей с инвалидностью и других уязвимых лиц;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">	<span class="italic">отмечает с удовлетворением </span>создание Генерального секретариата по делам людей с инвалидностью и других уязвимых лиц, а также пяти специализированных структур, в том числе Специализированного исследовательского центра по оказанию медицинской помощи лицам с альбинизмом, Национального консультативного совета в интересах людей с инвалидностью во взаимодействии с организациями людей с инвалидностью, Замочного механизма для проведения консультаций организаций людей с инвалидностью, учреждения по производству инвалидных колясок, физической реабилитации, автономизация через спорт, культуру и искусство, адаптированных для людей с инвалидностью, и Академии развития использования жестового языка жестов и шрифта Брайля;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_372" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_372__content">
+          <p xml:space="preserve">	<span class="italic">поощряет </span>процесс разработки Национальной стратегии инклюзивного образования, связанной с трудоустройством людей с инвалидностью, министерством, отвечающим за работу с людьми с инвалидностью и другими уязвимыми лицами, в сотрудничестве с другими министерствами, отвечающими за образование, занятость, труд и предпринимательство;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_399" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_399__content">
+          <p xml:space="preserve">	<span class="italic">отмечает с удовлетворением</span> интеграцию Независимой национальной избирательной комиссией жестового языка в избирательный процесс в Демократической Республике Конго;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_427" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_427__content">
+          <p xml:space="preserve">	<span class="italic">отмечает с удовлетворением также</span> создание шестой специальной спортивной группы «люди с инвалидностью» в дополнение к пяти существующим спортивным группам в проекте поправок к Закону о спорте;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_456" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_456__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> меры, принятые правительством Демократической Республики Конго для сокращения переполненности тюрем, в частности путем президентского помилования и условного освобождения, и призывает его продолжать принимать другие меры в этом направлении, а также обеспечить судебный надзор за всеми местами лишения свободы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_486" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_486__content">
+          <p xml:space="preserve">	<span class="italic">приветствует </span>работу Группы международных экспертов в Демократической Республике Конго и Группы технической помощи, созданной Управлением Верховного комиссара для оказания поддержки правительству в области правосудия переходного периода и судебной медицины, и в этой связи приветствует организацию 17–19 июля 2023 года в Киншасе первого международного симпозиума по судебной медицине в Демократической Республике Конго;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_517" class="SingleTxtG">
+        <num>32.</num>
+        <content eId="para_517__content">
+          <p xml:space="preserve">	<span class="italic">выражает признательность</span> Управлению Верховного комиссара за поддержку правительства Демократической Республики Конго в области правосудия переходного периода, в частности за техническую помощь, оказанную министерству по правам человека и комиссии по установлению истины, справедливости и примирению провинции Центральное Касаи путем предоставления двух специалистов по правосудию переходного периода, и призывает Управление Верховного комиссара продолжать эту поддержку;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_549" class="SingleTxtG">
+        <num>33.</num>
+        <content eId="para_549__content">
+          <p xml:space="preserve">	<span class="italic">приветствует </span>прогресс, достигнутый в работе комиссии по установлению истины, справедливости и примирению провинции Центральное Касаи, в частности благодаря технической и финансовой помощи Управления Верховного комиссара, и предлагает другим международным субъектам поддержать эффективное функционирование данной комиссии, чтобы способствовать реализации права жертв на установление истины, справедливость и гарантии неповторения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_582" class="SingleTxtG">
+        <num>34.</num>
+        <content eId="para_582__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продлить на один год мандат Группы международных экспертов в Демократической Республике Конго и просит ее оказать необходимую техническую поддержку правительству в эффективной реализации национальной политики по правосудию переходного периода;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_616" class="SingleTxtG">
+        <num>35.</num>
+        <content eId="para_616__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> доклад Группы международных экспертов в Демократической Республике Конго, мандат которой был определен Советом по правам человека в его резолюции <a href="http://undocs.org/ru/A/HRC/RES/51/36">51/36</a>, а также ее выводы и рекомендации, в частности о том, что в рамках Найробийского и Луандского процессов необходимо учитывать трансграничный характер конфликтов и отсутствие безопасности, выявлять причины конфликтов и предотвращать их повторение, разрабатывать и внедрять механизмы правосудия переходного периода и борьбы с безнаказанностью, и призывает оказывать поддержку правительству в этом отношении, в частности путем предложения конкретных мер;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_651" class="SingleTxtG">
+        <num>36.</num>
+        <content eId="para_651__content">
+          <p xml:space="preserve">	<span class="italic">поощряет</span> сотрудничество между Группой международных экспертов и Специальным посланником Генерального секретаря по району Великих озер;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_687" class="SingleTxtG">
+        <num>37.</num>
+        <content eId="para_687__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Верховного комиссара Организации Объединенных Наций по правам человека продолжать оказывать правительству Демократической Республики Конго техническую помощь, включая проведение необходимой судебно-медицинской экспертизы, для поддержки судебных органов страны в расследовании утверждений о серьезных нарушениях и ущемлениях прав человека, включая сексуальное насилие в условиях конфликта и серьезные нарушения прав детей, с целью привлечения виновных к ответственности, и укрепить группу технической помощи необходимыми техническими и финансовыми ресурсами, чтобы помочь правительству внедрить эффективные механизмы борьбы с безнаказанностью, в соответствии с пожеланиями, высказанными Президентом Республики в ходе этапа заседаний высокого уровня пятьдесят второй сессии Совета по правам человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_724" class="SingleTxtG">
+        <num>38.</num>
+        <content eId="para_724__content">
+          <p xml:space="preserve">	<span class="italic">просит также </span>Верховного комиссара продолжать поддерживать правительство Демократической Республики Конго в развитии и укреплении потенциала судебной медицины, в частности путем эффективной реализации «дорожной карты» и рекомендаций Киншасской декларации, принятых на международном симпозиуме по судебной медицине в Демократической Республике Конго, проходившем в Киншасе с 17 по 19 июля 2023 года, уделяя в этой связи особое внимание реформам правовой основы, подготовке национальных специалистов и развитию национальной инфраструктуры, и тем самым помогать правительству приобрести необходимые навыки и подготовить конголезских специалистов в области судебной медицины;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_762" class="SingleTxtG">
+        <num>39.</num>
+        <content eId="para_762__content">
+          <p xml:space="preserve">	<span class="italic">просит далее </span>Верховного комиссара направить дополнительных экспертов по правосудию переходного периода в провинции Танганьика, Северное Киву, Южное Киву и Итури для оказания помощи правительству в поддержке текущих процессов правосудия переходного периода, борьбы с безнаказанностью и обеспечении прочного мира;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_801" class="SingleTxtG">
+        <num>40.</num>
+        <content eId="para_801__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Верховного комиссара оказывать Комиссии по установлению истины, справедливости и примирению провинции Центральное Касаи усиленную поддержку, в частности предоставив в ее распоряжение группу специалистов по правам человека, правосудию переходного периода, сексуальному и гендерному насилию, защите жертв и свидетелей, коммуникации и взаимодействия с населением, а также обеспечить ее материальными и финансовыми ресурсами, необходимыми для выполнения ею своего мандата в установленные сроки;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_841" class="SingleTxtG">
+        <num>41.</num>
+        <content eId="para_841__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>международных субъектов и партнеров под эгидой Управления Верховного комиссара предоставить дополнительные финансовые ресурсы и материально-техническую поддержку, необходимую правительству Демократической Республики Конго для консолидации усилий в области правосудия переходного периода;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_882" class="SingleTxtG">
+        <num>42.</num>
+        <content eId="para_882__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Управление Верховного комиссара до начала пятьдесят седьмой сессии организовать совещание по оценке хода выполнения настоящей резолюции с участием всех заинтересованных сторон и с целью оценки прогресса, достигнутого в области судебной медицины и правосудия переходного периода;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_924" class="SingleTxtG">
+        <num>43.</num>
+        <content eId="para_924__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Группу международных экспертов представить свой заключительный доклад Совету на его пятьдесят седьмой сессии в рамках расширенного интерактивного диалога, а также обновленную информацию в устной форме на пятьдесят пятой сессии Совета.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_967" class="SingleTxtG">
+        <num>44.</num>
+        <content eId="para_967__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Верховного комиссара подготовить всеобъемлющий доклад о положении в области прав человека в Демократической Республике Конго и представить его Совету на его пятьдесят седьмой сессии в рамках расширенного интерактивного диалога, а также обновленную информацию в устной форме на его пятьдесят пятой сессии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1011" class="SingleTxtG">
+        <num>45.</num>
+        <content eId="para_1011__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продолжать заниматься этим вопросом до своей пятьдесят седьмой сессии.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48-е" refersTo="#adoptionMeeting">48‑е заседание</location>
+          <eol />
+          <docDate date="2023-10-12" refersTo="#adoptionDate">12 октября 2023 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

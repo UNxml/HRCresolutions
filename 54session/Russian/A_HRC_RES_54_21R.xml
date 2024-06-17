@@ -1,0 +1,569 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/"></FRBRuri>
+          <FRBRdate date="2023-10-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/rus@/"></FRBRuri>
+          <FRBRdate date="2023-10-16" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2023-10-12/54-21/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-03-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="RIGHT TO PRIVACY" href="http://metadata.un.org/thesaurus/1005566" showAs="RIGHT TO PRIVACY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL TECHNOLOGY" href="http://metadata.un.org/thesaurus/1001655" showAs="DIGITAL TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NEW TECHNOLOGIES" href="http://metadata.un.org/thesaurus/1004392" showAs="NEW TECHNOLOGIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS POLICY" href="http://metadata.un.org/thesaurus/1002983" showAs="HUMAN RIGHTS POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CORPORATE SOCIAL RESPONSIBILITY" href="http://metadata.un.org/thesaurus/1001316" showAs="CORPORATE SOCIAL RESPONSIBILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ELECTRONIC SURVEILLANCE" href="http://metadata.un.org/thesaurus/1001975" showAs="ELECTRONIC SURVEILLANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DATA PROTECTION" href="http://metadata.un.org/thesaurus/1001504" showAs="DATA PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISCRIMINATION" href="http://metadata.un.org/thesaurus/1001697" showAs="DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/54/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-10" outcome="draftResolution" as="A/HRC/54/L.12/Rev.1" by="Albania, Andorra, Austria, Belgium, Brazil, Bulgaria, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Marshall Islands, Mexico, Montenegro, North Macedonia, Norway, Paraguay, Peru, Portugal, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-10-16" outcome="recommendedForAdoption" by="" />
+        <step date="2023-10-16" outcome="adopted" as="Adopted without vote, 48th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/54/21</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-10-16" class="rightSmall" refersTo="#dateOfIssuance">16 October 2023</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian"> Russian </inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="54" eId="coverPage_1__session_1">Пятьдесят четвертая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2023-09-11" refersTo="#startDate">11 сентября</date>
+          <date date="2023-10-13" refersTo="#endDate">13 октября 2023</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека, гражданских, политических, экономических, социальных и культурных прав, включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 12 октября 2023 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>54/21.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Право на неприкосновенность частной жизни в цифровой век</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">руководствуясь</span> целями и принципами Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span> права человека и основные свободы, закрепленные во Всеобщей декларации прав человека, Международном пакте о гражданских и политических правах, Международном пакте об экономических, социальных и культурных правах и других соответствующих международных договорах по правам человека,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на все предыдущие резолюции Генеральной Ассамблеи и Совета по правам человека о праве на неприкосновенность частной жизни в цифровой век, а также на другие соответствующие резолюции,</p>
+      </container>
+      <container name="приветствуя" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">приветствуя </span>работу Управления Верховного комиссара Организации Объединенных Наций по правам человека по вопросу о праве на неприкосновенность частной жизни в цифровой век и также приветствуя работу различных мандатариев специальных процедур Совета по правам человека по вопросу о праве на неприкосновенность частной жизни и их вклад в поощрение и защиту права на неприкосновенность частной жизни,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая </span>право человека на неприкосновенность частной жизни, согласно которому никто не может подвергаться произвольному или противоправному вмешательству в личную и семейную жизнь, посягательствам на неприкосновенность жилища или тайну корреспонденции, и право на защиту закона от такого вмешательства и признавая, что осуществление права на неприкосновенность частной жизни имеет важное значение для реализации других прав человека, включая право свободно выражать свои мнения и беспрепятственно придерживаться их, а также право на свободу мирных собраний и ассоциации, и является одной из основ демократического общества,</p>
+      </container>
+      <container name="признавая" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что право на неприкосновенность частной жизни неразрывно связано с эффективной защитой персональных данных каждого человека,</p>
+      </container>
+      <container name="признавая также" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">признавая также</span>, что право на неприкосновенность частной жизни может способствовать осуществлению других прав, свободному развитию личности и самобытности человека и его способности участвовать в политической, экономической, социальной и культурной жизни,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span>, что те же права, которыми люди обладают офлайн, должны защищаться также онлайн, включая право на неприкосновенность частной жизни, и отмечая, что ускоренная синхронизация онлайновой и офлайновой сред может негативно сказаться на отдельных людях, в том числе на их праве на неприкосновенность частной жизни,</p>
+      </container>
+      <container name="отмечая," eId="container_10">
+        <p xml:space="preserve">	<span class="italic">отмечая,</span> что алгоритмические или автоматизированные процессы принятия решений в онлайновой среде могут повлиять на осуществление прав отдельных лиц в офлайновой среде,</p>
+      </container>
+      <container name="признавая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">признавая </span>необходимость дальнейшего обсуждения и анализа на основе международного права прав человека вопросов, касающихся поощрения и защиты права на неприкосновенность частной жизни в цифровой век, процессуальных гарантий, эффективного внутреннего надзора и средств правовой защиты и воздействия слежки на осуществление права на неприкосновенность частной жизни и других прав человека, а также необходимость изучения принципов, касающихся недопущения произвола, законности, правомерности, необходимости и соразмерности в отношении практики слежки, и рассмотрения потенциальных дискриминационных последствий,</p>
+      </container>
+      <container name="отмечая," eId="container_12">
+        <p xml:space="preserve">	<span class="italic">отмечая,</span> что быстрые темпы технологического развития позволяют людям во всем мире пользоваться информационно-коммуникационными технологиями и в то же время повышают способность правительств, коммерческих предприятий и физических лиц отслеживать и перехватывать информацию, совершать хакерские атаки и собирать данные, что может нарушать или ущемлять права человека, особенно право на неприкосновенность частной жизни, и что в силу этого данный вопрос вызывает все большую обеспокоенность,</p>
+      </container>
+      <container name="отмечая также" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">отмечая также</span>, что нарушения и ущемления права на неприкосновенность частной жизни в цифровой век могут затрагивать всех людей и иметь особые последствия для женщин, детей, лиц с инвалидностью и пожилых людей, а также лиц, находящихся в уязвимом положении и принадлежащих к маргинализированным группам, и что обработка персональных данных должна осуществляться с соблюдением гарантий прав человека и с определенными ограничениями, особенно данных лиц, находящихся в уязвимом положении,</p>
+      </container>
+      <container name="отмечая далее," eId="container_14">
+        <p xml:space="preserve">	<span class="italic">отмечая далее,</span> что женщины и девочки сталкиваются с обусловленными гендерным фактором нарушениями и ущемлениями их права на неприкосновенность частной жизни как в онлайновой, так и в офлайновой средах, а также с нарушениями и ущемлениями, имеющими обусловленные гендерным фактором последствия, и признавая, что то, каким образом проектируются, коммерциализируются, поддерживаются и регулируются многие цифровые платформы, может приводить к дезинформации, распространению заведомо ложной информации и ненавистнических высказываний, что может только усугублять гендерные стереотипы, приводить к сексуальному и гендерному насилию и подрывать защиту данных и реализацию всех прав женщин и девочек, в частности их права на неприкосновенность частной жизни,</p>
+      </container>
+      <container name="отмечая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что дети могут быть особенно уязвимы для ущемлений и нарушений их права на неприкосновенность частной жизни, в том числе в результате кибербуллинга, киберсталкинга, сексуального насилия и эксплуатации, и отмечая также, что государства-участники должны соблюдать Конвенцию о правах ребенка в отношении цифровой среды, в том числе учитывать важное значение неприкосновенности частной жизни для обеспечения агентности, достоинства и безопасности детей, а также для осуществления их прав,</p>
+      </container>
+      <container name="подтверждая" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">подтверждая </span>необходимость проявления должной осмотрительности в вопросах прав человека в процессе концептуальной проработки, проектирования, использования, приобретения, передачи, продажи, внедрения и дальнейшего развития новых и появляющихся технологий, таких как технологии, связанные с искусственным интеллектом, поскольку в отсутствие надлежащих гарантий они могут влиять на осуществление права на неприкосновенность частной жизни и других прав человека, и то, что риски для этих прав могут и должны устраняться или сводиться к минимуму, в том числе путем принятия мер по обеспечению безопасной, прозрачной, подотчетной, надежной и высококачественной инфраструктуры обработки данных, путем проявления должной осмотрительности и проведения периодических обзоров уже внедренных технологий для оценки, предотвращения и смягчения неблагоприятного воздействия на права человека, а также путем предоставления эффективных средств правовой защиты, включая средства судебной защиты, и механизмов возмещения ущерба и установления контроля со стороны человека,</p>
+      </container>
+      <container name="признавая" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что, несмотря на положительный эффект от использования цифровых технологий и систем на базе искусственного интеллекта, оно требует обработки больших массивов данных, часто относящихся к данным персонального характера, в том числе о поведении, социальных связях, индивидуальных предпочтениях и личности человека, включая метаданные, и может создавать серьезные риски для права на неприкосновенность частной жизни, в особенности при использовании для идентификации, отслеживания, профилирования, распознавания лиц, прогнозирования поведения или выставления оценок лицам,</p>
+      </container>
+      <container name="отмечая" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что использование извлеченных данных и алгоритмов для ориентации контента на онлайн-пользователей может подрывать агентность пользователей и их доступ к онлайновой информации, а также право на свободу мнений и их выражение и может приводить к усилению угроз дезинформации, распространения заведомо ложной информации и ненавистнических высказываний, в частности на платформах социальных сетей, что может приводить к насилию, в том числе политическому, и ссылаясь в этой связи на Рабатский план действий по запрещению пропаганды национальной, расовой или религиозной ненависти, представляющей собой подстрекательство к дискриминации, вражде или насилию,</p>
+      </container>
+      <container name="с обеспокоенностью отмечая" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">с обеспокоенностью отмечая </span>интрузивность и воздействие практики сбора данных, соответствующие последствия и вред, обусловленные слежкой, и все более широкое использование алгоритмов, задействованных в системах искусственного интеллекта, </p>
+      </container>
+      <container name="с обеспокоенностью отмечая также" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">с обеспокоенностью отмечая также</span>, что некоторые алгоритмы прогнозирования и все более широкое использование технологий распознавания лиц и слежки могут приводить к дискриминации, в частности когда данные, используемые при настройке алгоритмов, не являются точными, актуальными и репрезентативными и проверенными на предмет закодированной предвзятости,</p>
+      </container>
+      <container name="отмечая," eId="container_21">
+        <p xml:space="preserve">	<span class="italic">отмечая,</span> что использование искусственного интеллекта без гарантий соблюдения прав человека может создавать риск усиления дискриминации, включая структурное неравенство, особенно при обработке данных деликатного характера, и признавая, что при проектировании, разработке, внедрении и использовании новых и появляющихся цифровых технологий необходимо предотвращать расовую и иную дискриминацию,</p>
+      </container>
+      <container name="с обеспокоенностью отмечая" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">с обеспокоенностью отмечая </span>сообщения, указывающие на более низкую точность биометрической идентификации, включая технологии распознавания лиц, отражающие расовую предвзятость и расовые предубеждения при идентификации женщин, в том числе при использовании нерепрезентативных данных для настройки соответствующих систем, и то, что применение цифровых технологий может воспроизводить, усиливать и даже усугублять расовое и гендерное неравноправие, и признавая в этом контексте важность эффективных средств правовой защиты,</p>
+      </container>
+      <container name="констатируя" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">констатируя</span>, что, хотя метаданные могут приносить пользу, некоторые их виды при их агрегировании могут раскрывать информацию персонального характера, которая может носить не менее деликатный характер, чем содержание сообщений, и могут давать представление о поведении человека, включая его передвижения, социальные связи, политическую деятельность, индивидуальные предпочтения и личность, и в связи с этим напоминая, что провайдерам услуг следует принимать меры к тому, чтобы сводить к минимуму использование метаданных, скрывать или удалять их и сокращать возможности отслеживания метаданных пользователей в интересах усиления защиты, обеспечиваемой шифрованием, и защиты права на неприкосновенность частной жизни,</p>
+      </container>
+      <container name="признавая" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что отсутствие доступа к недорогим и надежным технологиям и услугам остается критической проблемой во многих развивающихся странах, особенно в контексте преодоления цифрового разрыва, в том числе между странами и внутри стран, а также гендерного цифрового разрыва, и в контексте ускорения прогресса в деле развития в различных его формах, включая достижение Целей в области устойчивого развития, и подчеркивая в этой связи, что многие государства, в том числе развивающиеся страны, во всем мире нуждаются в поддержке их усилий по преодолению этих цифровых разрывов и достижению Целей в области устойчивого развития,</p>
+      </container>
+      <container name="признавая также" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">признавая также </span>необходимость обеспечения соблюдения международного права прав человека в процессе концептуальной проработки, проектирования, разработки, внедрения, оценки, регулирования и технической стандартизации технологий, основанных на данных, а также обеспечения надлежащих гарантий и контроля за ними,</p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">выражая обеспокоенность </span>по поводу того, что люди, особенно дети, зачастую не дают и/или не могут дать своего свободного, явно выраженного и осознанного согласия на сбор, обработку и хранение своих персональных данных или на повторное использование, продажу или многократную перепродажу своих персональных данных, поскольку в цифровой век значительно возросли масштабы сбора, обработки, использования, хранения и распространения персональных данных, в том числе данных деликатного характера, и что в случае разглашения данных персонального и деликатного характера людям могут быть причинены исключительный ущерб, вред или неприятности,</p>
+      </container>
+      <container name="отмечая, в частности," eId="container_27">
+        <p xml:space="preserve">	<span class="italic">отмечая, в частности, </span>что отслеживание цифровых сообщений должно соответствовать международным правозащитным обязательствам и осуществляться с опорой на правовую базу, которая должна быть общедоступной, ясной, точной, всеобъемлющей и недискриминационной, и что любое вмешательство в осуществление права на неприкосновенность частной жизни должно согласовываться с принципами правомерности, необходимости и соразмерности, с учетом того, что является разумным в отношении достижения легитимных целей, и напоминая, что государства — участники Международного пакта о гражданских и политических правах должны предпринимать необходимые шаги для принятия законов или других мер, которые могут потребоваться для осуществления признаваемых в Пакте прав,</p>
+      </container>
+      <container name="с глубокой обеспокоенностью отмечая," eId="container_28">
+        <p xml:space="preserve">	<span class="italic">с глубокой обеспокоенностью отмечая,</span> что во многих странах лица и организации, занимающиеся поощрением и защитой прав человека и основных свобод, журналисты и другие работники средств массовой информации в связи со своей деятельностью зачастую могут становиться объектами угроз и преследований и рисковать своей безопасностью, а также сталкиваться с противоправным и произвольным вмешательством в осуществление их права на неприкосновенность частной жизни,</p>
+      </container>
+      <container name="с глубокой обеспокоенностью отмечая также" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">с глубокой обеспокоенностью отмечая также</span> использование частными или государственными субъектами технологических средств, разработанных частной индустрией слежки, для осуществления слежки, взлома устройств и систем, в том числе посредством использования вредоносных или шпионских программ, перехвата и прерывания связи, сбора данных, вмешательства в профессиональную и частную жизнь людей, включая тех, кто занимается поощрением и защитой прав человека и основных свобод, журналистов и других работников средств массовой информации, что представляет собой нарушение или ущемление их прав человека, в частности право на неприкосновенность частной жизни,</p>
+      </container>
+      <container name="напоминая" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о том, что коммерческие предприятия, в том числе технологические компании, несут ответственность за соблюдение прав человека, как это изложено в Руководящих принципах предпринимательской деятельности в аспекте прав человека: осуществление рамок Организации Объединенных Наций в отношении «защиты, соблюдения и средств правовой защиты», и что обязанность и главная ответственность за поощрение и защиту прав человека и основных свобод лежат на государстве, и приветствуя работу Управления Верховного комиссара Организации Объединенных Наций по правам человека по применению этих принципов к цифровым технологиям,</p>
+      </container>
+      <container name="особо отмечая" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span>, что в цифровой век технические решения по обеспечению безопасности и защиты конфиденциальности цифровых сообщений, в том числе меры по шифрованию, псевдонимизации и анонимизации, имеют важное значение для обеспечения осуществления прав человека, в частности прав на неприкосновенность частной жизни, свободу мнений и их выражения и свободу мирных собраний и ассоциации, и признавая, что государства должны поощрять принятие таких мер и воздерживаться от применения противоправных или произвольных методов слежки, которые могут включать формы хакерских атак и ограничения доступа, а также использование технологии шифрования,</p>
+      </container>
+      <container name="подчеркивая" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> необходимость обеспечения того, чтобы меры по обеспечению национальной безопасности и охране здоровья населения, включая использование технологий для мониторинга и сдерживания распространения инфекционных заболеваний, полностью соответствовали обязательствам государств по международному праву прав человека и отвечали принципам законности, правомерности и легитимности по отношению к преследуемой цели, необходимости и соразмерности, а также необходимость защищать права человека, включая право на неприкосновенность частной жизни, и персональные данные в процессе реагирования на чрезвычайные ситуации в сфере здравоохранения или другие чрезвычайные ситуации, и подчеркивая также необходимость удаления или анонимизации собранных данных после того, как они перестают соответствовать целям, ради которых они были собраны,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="italic">вновь подтверждает </span>право на неприкосновенность частной жизни, в соответствии с которым никто не должен подвергаться произвольному или противоправному вмешательству в его или ее частную и семейную жизнь и произвольным или противоправным посягательствам на неприкосновенность жилища или тайну корреспонденции, а также право на защиту закона от такого вмешательства или таких посягательств, как это предусмотрено в статье 12 Всеобщей декларации прав человека и статье 17 Международного пакта о гражданских и политических правах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">напоминает</span>, что государствам следует обеспечивать, чтобы при любом вмешательстве в осуществление права на неприкосновенность частной жизни соблюдались принципы правомерности, необходимости и соразмерности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> 	<span class="italic">также напоминает</span> о растущем воздействии новых и появляющихся технологий, таких как технологии, разработанные в области ведения слежки, искусственного интеллекта, автоматизированных процессов принятия решений и машинного обучения, а также профилирования, отслеживания и биометрии, включая распознавание лиц, в отсутствие гарантий прав человека, на полное осуществление права на неприкосновенность частной жизни и других прав человека и признает, что некоторые виды их применения могут быть несовместимы с международным правом прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> 	<span class="italic">подтверждает,</span> что те же права, которыми люди обладают офлайн, должны защищаться также онлайн, включая право на неприкосновенность частной жизни;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve"> 	<span class="italic">также подтверждает</span>, что в целях защиты, уважения и поощрения права на неприкосновенность частной жизни сбор персональных данных должен осуществляться только в определенных, явных и легитимных целях и что они должны обрабатываться законным, должным и прозрачным образом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve"> 	<span class="italic">обращает особое внимание</span> на то, что каждый человек должен иметь возможность выяснить, какие государственные органы, частные лица или организации контролируют или могут контролировать его персональные данные, и то, что любое вмешательство в защиту данных должно быть законным и соответствующим международному праву прав человека, включая принципы правомерности, соразмерности, необходимости и недискриминации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve"> 	<span class="italic">подтверждает</span>, что риски для права на неприкосновенность частной жизни и других прав человека могут и должны быть минимизированы путем принятия надлежащих нормативных положений или создания других соответствующих механизмов, согласно применимым обязательствам по международному праву прав человека, в процессе концептуальной проработки, проектирования, использования, приобретения, передачи, продажи, внедрения и дальнейшего развития новых и появляющихся цифровых технологий, таких как искусственный интеллект, путем обеспечения безопасной, надежной и высококачественной инфраструктуры обработки данных, проявления должной осмотрительности для оценки, предотвращения и смягчения неблагоприятного воздействия на права человека, установления контроля со стороны человека, а также создания механизмов правовой защиты;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve"> 	<span class="italic">подчеркивает</span>, что государства должны выполнять свои правозащитные обязательства и что коммерческим предприятиям, включая технологические компании, следует уважать право на неприкосновенность частной жизни и другие права человека при сборе, обработке, передаче и хранении персональных данных путем, в частности, введения в действие мер политики и гарантий в отношении защиты данных;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve"> 	<span class="italic">также подчеркивает</span>, что системы удаленного биометрического наблюдения, включая систему распознавания лиц, являются предметом серьезной озабоченности в плане соразмерности их использования, учитывая их крайне интрузивный характер и широкое воздействие, оказываемое на большое число людей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxtG">
+        <num>10.</num>
+        <list eId="para_78_list">
+          <intro eId="para_78_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">призывает</span> все государства:</p>
+          </intro>
+          <point eId="para_78_list_point_a">
+            <num>a)</num>
+            <content eId="para_78_list_point_a_content">
+              <p xml:space="preserve"> 	уважать и защищать право на неприкосновенность частной жизни, в том числе в контексте цифровых сообщений и новых и появляющихся цифровых технологий;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_b">
+            <num>b)</num>
+            <content eId="para_78_list_point_b_content">
+              <p xml:space="preserve"> 	принимать меры с целью положить конец нарушениям и ущемлениям права на неприкосновенность частной жизни и создавать условия для предотвращения таких нарушений и ущемлений, в том числе путем обеспечения соответствия национального законодательства в этой области обязательствам государства по международному праву прав человека, особенно в случае лиц, находящихся в уязвимом положении или принадлежащих к маргинализированным группам;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_c">
+            <num>c)</num>
+            <content eId="para_78_list_point_c_content">
+              <p xml:space="preserve"> 	регулярно пересматривать свои процедуры, практику и законодательство, касающиеся отслеживания сообщений, в том числе в массовом порядке, их перехвата и сбора персональных данных, а также использования технологий профилирования, автоматизированных процессов принятия решений, машинного обучения и биометрических технологий, в целях защиты права на неприкосновенность частной жизни путем обеспечения полного и эффективного выполнения всех своих обязательств по международному праву прав человека;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_d">
+            <num>d)</num>
+            <content eId="para_78_list_point_d_content">
+              <p xml:space="preserve"> 	выполнять международные правозащитные обязательства, касающиеся права на неприкосновенность частной жизни, при перехвате государствами цифровых сообщений частных лиц и/или сборе персональных данных, а также в случаях, когда они делятся собранными данными или иным образом предоставляют доступ к ним, в частности на основании соглашений об обмене информацией и разведывательными данными, или когда они требуют раскрытия персональных данных третьими сторонами, включая коммерческие предприятия;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_e">
+            <num>e)</num>
+            <content eId="para_78_list_point_e_content">
+              <p xml:space="preserve"> 	обеспечивать, чтобы любые меры по борьбе с терроризмом и насильственным экстремизмом, создающим питательную среду для терроризма, которые представляют собой вмешательство в осуществление права на неприкосновенность частной жизни, отвечали принципам правомерности, необходимости и соразмерности и соответствовали их обязательствам по международному праву;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_f">
+            <num>f)</num>
+            <content eId="para_78_list_point_f_content">
+              <p xml:space="preserve"> 	обеспечивать, чтобы технологии биометрической идентификации и распознавания, включая технологии распознавания лиц, используемые государственными и частными субъектами, не позволяли осуществлять произвольную или противоправную слежку, в том числе за теми, кто осуществляет свое право на свободу мирных собраний;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_g">
+            <num>g)</num>
+            <content eId="para_78_list_point_g_content">
+              <p xml:space="preserve"> 	обеспечивать, чтобы проектирование, внедрение и эксплуатация программ цифровой или биометрической идентификации осуществлялись при наличии соответствующих технических, нормативных, правовых и этических гарантий и в полном соответствии с обязательствами государств по международному праву прав человека;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_h">
+            <num>h)</num>
+            <content eId="para_78_list_point_h_content">
+              <p xml:space="preserve"> 	разрабатывать или продолжать применять и соблюдать надлежащие законы, подкрепленные эффективными санкциями и средствами правовой защиты, для защиты лиц от нарушений и ущемлений права на неприкосновенность частной жизни, выражающихся, в частности, в сборе, обработке, сохранении или использовании персональных данных физическими лицами, правительствами, коммерческими предприятиями или частными организациями без свободного, явно выраженного и осознанного согласия человека, если только это в противном случае не является законным, согласно международному праву прав человека;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_i">
+            <num>i)</num>
+            <content eId="para_78_list_point_i_content">
+              <p xml:space="preserve"> 	рассмотреть вопрос о принятии или сохранении в силе законов, нормативных положений и мер политики в области защиты данных, включая цифровые данные, которые соответствовали бы их международным правозащитным обязательствам и которые могли бы включать положения о защите персональных данных деликатного характера и создании независимых национальных органов, обладающих полномочиями и ресурсами для мониторинга практики обеспечения неприкосновенности данных, расследования нарушений и ущемлений, получения сообщений от частных лиц и организаций и предоставления соответствующих эффективных средств правовой защиты;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_j">
+            <num>j)</num>
+            <content eId="para_78_list_point_j_content">
+              <p xml:space="preserve"> 	рассмотреть возможность принятия или пересмотра законов, нормативных положений или мер политики для обеспечения того, чтобы все коммерческие предприятия, включая социальные сети и другие онлайн-платформы, в полной мере учитывали право на неприкосновенность частной жизни и другие соответствующие права человека при проектировании, разработке, внедрении и оценке технологий, включая искусственный интеллект, предпринимали соответствующие шаги для улучшения и поощрения корпоративной подотчетности и предоставляли лицам, права которых могли быть нарушены или ущемлены, доступ к эффективным средствам правовой защиты, включая возмещение ущерба и гарантии неповторения;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_k">
+            <num>k)</num>
+            <content eId="para_78_list_point_k_content">
+              <p xml:space="preserve"> 	продолжать разрабатывать или применять в этой связи превентивные меры и средства правовой защиты в связи с нарушениями и ущемлениями права на неприкосновенность частной жизни в цифровой век, которые могут затрагивать всех лиц, в том числе в тех случаях, когда это имеет особые последствия для женщин, детей и лиц, находящихся в уязвимом положении или принадлежащих к маргинализированным группам;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_l">
+            <num>l)</num>
+            <content eId="para_78_list_point_l_content">
+              <p xml:space="preserve"> 	разрабатывать, пересматривать, осуществлять и укреплять учитывающие гендерный фактор меры политики и программы, способствующие расширению прав и возможностей всех женщин и девочек и направленные на поощрение и защиту права всех людей на неприкосновенность частной жизни в цифровой век;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_m">
+            <num>m)</num>
+            <content eId="para_78_list_point_m_content">
+              <p xml:space="preserve"> 	предоставлять коммерческим предприятиям действенные и актуальные руководящие указания относительно того, как соблюдать права человека, на основе рекомендаций в отношении использования надлежащих методов, в том числе проявления должной осмотрительности в вопросах прав человека, и того, как эффективно учитывать вопросы, связанные с гендером, уязвимостью и/или маргинализацией, и рассмотреть вопрос о принятии соответствующих мер с целью дать коммерческим предприятиям возможность предпринимать надлежащие добровольные шаги для обеспечения прозрачности в отношении запросов государственных органов о предоставлении доступа к данным и информации о частных пользователях;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_n">
+            <num>n)</num>
+            <content eId="para_78_list_point_n_content">
+              <p xml:space="preserve"> 	воздерживаться от использования технологий ведения слежки в порядке, не соответствующем международным правозащитным обязательствам, в том числе при использовании против правозащитников, журналистов и других работников средств массовой информации, и предпринимать конкретные действия для защиты от нарушений права на неприкосновенность частной жизни, в том числе путем регулирования продажи, передачи, использования и экспорта технологий ведения слежки;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_o">
+            <num>o)</num>
+            <content eId="para_78_list_point_o_content">
+              <p xml:space="preserve"> 	содействовать расширению возможностей получения всеми доступного и инклюзивного качественного образования и обучения на протяжении всей жизни, в том числе для повышения уровня цифровой и информационной грамотности, а также приобретения технических навыков, включая проведение инструктажа, вынесение рекомендаций и повышение осведомленности в режиме онлайн в отношении мер безопасности, необходимых для эффективной защиты права на неприкосновенность частной жизни, и обеспечивать наличие у соответствующих заинтересованных сторон возможности пройти надлежащую подготовку в этой области;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_p">
+            <num>p)</num>
+            <content eId="para_78_list_point_p_content">
+              <p xml:space="preserve"> 	не требовать от коммерческих предприятий принятия мер, которые представляли бы собой произвольное или противоправное вмешательство в осуществление права на неприкосновенность частной жизни, и защищать отдельных лиц от вреда, в том числе причиняемого коммерческими предприятиями посредством сбора, обработки, хранения, передачи данных и профилирования, а также использования автоматизированных процессов и машинного обучения;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_q">
+            <num>q)</num>
+            <content eId="para_78_list_point_q_content">
+              <p xml:space="preserve"> 	активизировать усилия по борьбе с дискриминацией в результате использования систем искусственного интеллекта, в том числе путем проявления должной осмотрительности для оценки, предотвращения и смягчения негативного воздействия на права человека в результате их внедрения;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxtG">
+        <num>11.</num>
+        <list eId="para_88_list">
+          <intro eId="para_88_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">рекомендует</span> всем коммерческим предприятиям, в частности тем предприятиям, которые занимаются сбором, хранением, использованием, передачей и обработкой данных:</p>
+          </intro>
+          <point eId="para_88_list_point_a">
+            <num>a)</num>
+            <content eId="para_88_list_point_a_content">
+              <p xml:space="preserve"> 	осуществлять обзор своих бизнес-моделей и обеспечивать соответствие процессов проектирования и разработки, коммерческой деятельности и практики сбора и обработки данных Руководящим принципам предпринимательской деятельности в аспекте прав человека: осуществление рамок Организации Объединенных Наций, касающихся «защиты, соблюдения и средств правовой защиты, и уделять особое внимание важности проявления должной осмотрительности применительно к своим продуктам, в частности роли алгоритмов и систем ранжирования;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_b">
+            <num>b)</num>
+            <content eId="para_88_list_point_b_content">
+              <p xml:space="preserve"> 	информировать пользователей понятным и соответствующим возрасту способом, который был бы легко доступным, в том числе для лиц с инвалидностью, о сборе, использовании, передаче и сохранении их данных, которые могут затрагивать их право на неприкосновенность частной жизни, воздерживаться от таких действий без их согласия или законного основания, а также обеспечивать прозрачность и разрабатывать меры политики, позволяющие получать свободное, осознанное и значимое согласие пользователей;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_c">
+            <num>c)</num>
+            <content eId="para_88_list_point_c_content">
+              <p xml:space="preserve"> 	учитывать право на неприкосновенность частной жизни и другие соответствующие права человека во внутренних процессах выработки политики, проектирования своих продуктов, развития бизнеса, обучения персонала и в других соответствующих внутренних процессах;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_d">
+            <num>d)</num>
+            <content eId="para_88_list_point_d_content">
+              <p xml:space="preserve"> 	предусматривать административные, технические и физические гарантии того, чтобы обработка данных осуществлялась законно, чтобы необходимость такой обработки была обоснована ее целями и чтобы при этом обеспечивались легитимность этих целей, а также точность, добросовестность и конфиденциальность такой обработки, и не допускать несанкционированного раскрытия или использования данных;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_e">
+            <num>e)</num>
+            <content eId="para_88_list_point_e_content">
+              <p xml:space="preserve"> 	обеспечивать людям доступ к их данным, а также возможность изменять, исправлять, обновлять, удалять и отзывать согласие на использование их данных, в частности если данные являются неверными или неточными или если данные были получены незаконным образом или используются в дискриминационных целях;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_f">
+            <num>f)</num>
+            <content eId="para_88_list_point_f_content">
+              <p xml:space="preserve"> 	обеспечивать, чтобы требования, касающиеся соблюдения права на неприкосновенность частной жизни и других соответствующих прав человека, учитывались при проектировании, эксплуатации, оценке и регулировании технологий автоматизированного принятия решений и машинного обучения, и предусматривать эффективные средства правовой защиты, включая компенсацию за ущемления прав человека, к которым эти технологии привели, которым они способствовали или с которыми они связаны;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_g">
+            <num>g)</num>
+            <content eId="para_88_list_point_g_content">
+              <p xml:space="preserve"> 	предусматривать надлежащие гарантии предотвращения или смягчения неблагоприятного воздействия на права человека, которое непосредственно связано с их деятельностью, продукцией или услугами, в том числе, при необходимости, посредством подготовки договорных положений, и незамедлительно информировать соответствующие национальные, региональные или международные надзорные органы об ущемлениях или нарушениях при выявлении случаев использования их продукции и услуг не по назначению;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_h">
+            <num>h)</num>
+            <content eId="para_88_list_point_h_content">
+              <p xml:space="preserve"> 	активизировать усилия по борьбе с дискриминацией в результате использования систем искусственного интеллекта, в том числе посредством проявления должной осмотрительности в вопросах прав человека, мониторинга и оценки систем искусственного интеллекта на протяжении всего их жизненного цикла, а также воздействия их внедрения на права человека;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_i">
+            <num>i)</num>
+            <content eId="para_88_list_point_i_content">
+              <p xml:space="preserve"> 	содействовать обеспечению прозрачности и адекватной объяснимости алгоритмического принятия решений, автоматизированных систем и систем с присутствием человека в контуре управления, а также обеспечить репрезентативность и законность сбора данных, используемых для настройки алгоритмов;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_j">
+            <num>j)</num>
+            <content eId="para_88_list_point_j_content">
+              <p xml:space="preserve"> 	принимать надлежащие меры по обеспечению гарантий того, чтобы распределение и передача данных внутри организаций и между ними и/или перегруппировка данных, в том числе посредством применения облачных вычислений, неструктурированных наборов данных, технологии блокчейн, дополненной реальности и Интернета вещей, были совместимы с защитой данных и правом на неприкосновенность частной жизни;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_k">
+            <num>k)</num>
+            <content eId="para_88_list_point_k_content">
+              <p xml:space="preserve"> 	принимать надлежащие меры на протяжении всего жизненного цикла систем искусственного интеллекта и цифровых технологий, в том числе до начала проектирования и разработки приложений и программного обеспечения, предполагающих обработку персональных данных, с целью создания системы мониторинга рисков и управления ими для обеспечения того, чтобы данные обрабатывались должным и законным образом;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve"> 	<span class="italic">рекомендует</span> коммерческим предприятиям, в том числе провайдерам коммуникационных услуг, работать над поиском перспективных решений с целью обеспечения и защиты конфиденциальности цифровых сообщений и проводок, включая меры по шифрованию, псевдонимизации и анонимизации, и обеспечивать применение гарантий соблюдения прав человека и призывает государства содействовать принятию мер и поиску технических решений, способствующих надежному шифрованию, псевдонимизации и анонимизации, не препятствовать использованию таких технических решений и обеспечивать, чтобы любые ограничения в этом отношении соответствовали обязательствам государств по международному праву прав человека, и ввести в действие меры политики, защищающие конфиденциальность цифровых сообщений частных лиц;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve"> 	<span class="italic">рекомендует</span> государствам и, в соответствующих случаях, коммерческим предприятиям на систематической основе проявлять должную осмотрительность в вопросах прав человека на протяжении всего жизненного цикла систем искусственного интеллекта, которые они концептуально прорабатывают, проектируют, разрабатывают, внедряют, продают, получают или эксплуатируют, в том числе посредством проведения на регулярной основе всесторонних оценок их воздействия на права человека с участием всех соответствующих заинтересованных сторон;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve"> 	<span class="italic">рекомендует</span> всем соответствующим заинтересованным сторонам учитывать гендерную проблематику при концептуальной проработке, разработке и внедрении цифровых технологий и связанных с ними мер политики и поощрять участие женщин в целях борьбы с насилием и дискриминацией в отношении всех женщин и девочек, которые становятся возможными или усугубляются из‑за использования технологий, в частности рекомендуя компаниям, занимающимся цифровыми технологиями, включая провайдеров интернет-услуг, соблюдать стандарты и создавать прозрачные и доступные механизмы отчетности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve"> 	<span class="italic">просит </span>Управление Верховного комиссара Организации Объединенных Наций по правам человека подготовить доклад об обусловленных дискриминацией и неравным осуществлением права на неприкосновенность частной жизни вызовах и рисках, связанных со сбором и обработкой данных, включая те, которые рассматриваются в настоящей резолюции, определить и уточнить соответствующие правозащитные принципы, гарантии и передовую практику и представить этот доклад Совету по правам человека на его пятьдесят седьмой сессии с последующим проведением интерактивного диалога;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_153" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_153__content">
+          <p xml:space="preserve"> 	<span class="italic">просит также</span> Управление Верховного комиссара при подготовке вышеупомянутого доклада запросить мнения соответствующих заинтересованных сторон из различных географических регионов, включая государства, международные и региональные организации, мандатариев специальных процедур Совета по правам человека, договорные органы, другие соответствующие отделения, учреждения, фонды и программы Организации Объединенных Наций в рамках их соответствующих мандатов, национальные правозащитные учреждения, гражданское общество, частный сектор, техническое сообщество и научные учреждения, и принять во внимание уже проделанную ими работу.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48-е" refersTo="#adoptionMeeting">48‑е заседание</location>
+          <eol />
+          <docDate date="2023-10-12" refersTo="#adoptionDate">12 октября 2023 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
