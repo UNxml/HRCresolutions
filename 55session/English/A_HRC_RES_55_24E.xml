@@ -1,0 +1,283 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-24/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-24/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-24/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-24/eng@/"></FRBRuri>
+          <FRBRdate date="2024-04-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-24/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-24/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Expert on the Situation of Human Rights in Haiti" showAs="UN. Expert on the Situation of Human Rights in Haiti" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HAITI" href="http://metadata.un.org/thesaurus/1002808" showAs="HAITI" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CAPACITY BUILDING" href="http://metadata.un.org/thesaurus/1000797" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GANGS" href="http://metadata.un.org/thesaurus/1002588" showAs="GANGS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RULE OF LAW" href="http://metadata.un.org/thesaurus/1005619" showAs="RULE OF LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-22" outcome="draftResolution" as="A/HRC/55/L.23" by="Albania, Belgium, Chile, Colombia, Costa Rica, Croatia, Cyprus, Ecuador, Finland, France, Haiti, Italy, Luxembourg, Malta, Norway, Poland, Slovenia, Spain and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-08" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-08" outcome="adopted" as="Adopted without vote, 55th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/24</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-08" class="rightSmall" refersTo="#dateOfIssuance">8 April 2024</docDate>
+      </p>
+      <p>
+        <inline refersTo="#french" name="originalLanguage">Original: French</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">Fifty-fifth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 February</date>
+          <date date="2024-04-05" refersTo="#endDate">5 April 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Agenda item 10</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Technical assistance and capacity-building</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council on 4 April 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/24.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Technical assistance and capacity-building to improve the situation of human rights in Haiti, in connection with a request from the authorities of Haiti for coordinated and targeted international action</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Guided</span> by the purposes and principles of the Charter of the United Nations,</p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the Universal Declaration of Human Rights, the International Covenant on Civil and Political Rights, the International Covenant on Economic, Social and Cultural Rights, the Convention on the Elimination of All Forms of Discrimination against Women, the Convention on the Rights of the Child and its Optional Protocols, the Convention on the Rights of Persons with Disabilities, the International Convention on the Elimination of All Forms of Racial Discrimination and other relevant international human rights instruments,</p>
+      </container>
+      <container name="Recalling also" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> its resolution 52/39 of 4 April 2023, in which it requested the United Nations High Commissioner for Human Rights to appoint an independent expert on the situation of human rights in Haiti,</p>
+      </container>
+      <container name="Recalling further" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recalling further</span> Security Council resolution 2699 (2023) of 2 October 2023, which authorized the formation and deployment of a multinational security support mission in Haiti,</p>
+      </container>
+      <container name="Stressing" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> that the primary responsibility for respecting, promoting and protecting all human rights lies with States,</p>
+      </container>
+      <container name="Expressing grave concern" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Expressing grave concern</span> that the worsening of the violence perpetrated by the armed gangs that control most of the capital, Port-au-Prince, and parts of several towns in the provinces is creating a situation of alarming insecurity and a shortage of basic necessities and medical care, is undermining the human rights efforts of the Government of Haiti and is impeding the enjoyment of human rights by the Haitian people, including the right to life and to security of person, the right to education, the right to work, the right to enjoyment of the highest attainable standard of physical and mental health, the rights to adequate food, housing, security, clean water and sanitation as components of the right to an adequate standard of living, and the right to participate in the management of public affairs,</p>
+      </container>
+      <container name="Expressing grave concern also" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Expressing grave concern also</span> about the correlation that exists in Haiti between the power of the armed gangs and the systematic use of sexual and gender-based violence, which has a disproportionate impact on women and girls, leading to an increased risk of non‑communicable diseases, in particular anxiety disorders and post-traumatic stress disorder, and communicable diseases, in particular sexually transmitted diseases, which impedes the full realization and enjoyment of human rights by the Haitian people,</p>
+      </container>
+      <container name="Expressing grave concern further" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Expressing grave concern further</span> at human rights violations and abuses, physical attacks on individuals, abductions, torture, mutilation and massacres, the disproportionate impact of violence on women, children, particularly those recruited by gangs, persons with disabilities and older persons, as well as repeated attacks on the forces of law and order and the destruction of health and security infrastructure,</p>
+      </container>
+      <container name="Condemning" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> the violations and abuses committed against children in Haiti, including the recruitment and use, killing, maiming and abduction of children, rape and other forms of sexual violence against children, particularly girls, attacks on schools and hospitals and the denial of humanitarian access to children,</p>
+      </container>
+      <container name="Recalling" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> that the situation in Haiti has been added as a situation of concern in the 2023 report of the Secretary-General on children and armed conflict,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/en/A/77/895">A/77/895-S/2023/363</a>.</p></authorialNote></p>
+      </container>
+      <container name="Remaining deeply concerned" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Remaining deeply concerned</span> about the humanitarian crisis in Haiti, which has been exacerbated by armed gang violence and its consequences in terms of continual forced displacements, very limited access to basic services by most of the population and the blocking of humanitarian aid,</p>
+      </container>
+      <container name="Noting" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that, despite the efforts of its security forces, Haiti has neither the technical capacity nor the necessary resources to effectively combat the criminal actions of armed gangs on its territory and consolidate the progress made in human rights,</p>
+      </container>
+      <container name="Recalling" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the repeated requests by the Government of Haiti for coordinated and targeted international action to put an end to the multiple human rights abuses attributable to the armed gangs and to respond to the humanitarian crisis in Haiti,</p>
+      </container>
+      <container name="Recalling also" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> the activities carried out in Haiti by the Office of the United Nations High Commissioner for Human Rights, through the human rights component of the United Nations Integrated Office in Haiti, and by the independent expert,</p>
+      </container>
+      <container name="Recognizing" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the vital role of civil society in promoting and protecting human rights in Haiti and the importance of creating and maintaining a safe and enabling environment in which civil society can operate independently, protected from insecurity,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_17" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the reports prepared by the United Nations High Commissioner for Human Rights with the participation of the independent expert on the situation of human rights in Haiti;<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="http://undocs.org/en/A/HRC/54/79">A/HRC/54/79</a> and A/HRC/55/76.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Affirms</span> the importance of effectively combating armed gang violence in Haiti and its adverse impact on the realization and enjoyment of human rights by the people of Haiti;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Also affirms</span> the need for security to be restored in order to ensure the effectiveness of the humanitarian response, the organization of democratic elections and the restoration of democratic institutions in Haiti;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the efforts made by the Government of Haiti to restore security in the country and its renewed requests for coordinated and targeted international action to support its efforts;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> the Government of Haiti to step up its efforts to ensure respect for and the promotion and protection of human rights, to strengthen the rule of law, including the judicial and prison systems, and to combat gender-based violence and discrimination, as well as corruption and impunity, by supporting national human rights institutions and continuing to implement the recommendations made and accepted during the last cycle of the universal periodic review<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		See <a href="http://undocs.org/en/A/HRC/50/15">A/HRC/50/15</a> and <a href="http://undocs.org/en/A/HRC/50/15/Add.1">A/HRC/50/15/Add.1</a>.</p></authorialNote> and the recommendations of other United Nations bodies, in particular those relating to armed gang activity;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the Haitian authorities to continue to engage in an inclusive dialogue among all the Haitian stakeholders concerned, with the aim of finding a lasting solution to the multidimensional crisis that Haiti is experiencing, including by organizing free and transparent elections with a view to restoring democratic institutions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the States Members of the United Nations, the Office of the United Nations High Commissioner for Human Rights, relevant United Nations agencies and other stakeholders, within the framework of their mandates, to continue to support the measures taken and efforts made by the Government of Haiti to combat armed gang violence and the illicit sale, importation and circulation of firearms and to ensure respect for human rights in Haiti, responding in particular to the repeated requests of the Government of Haiti for coordinated and targeted international action, including through the provision of technical assistance and capacity-building;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Office of the High Commissioner to cooperate with the Government of Haiti by providing technical assistance and support for building the human rights promotion and protection capacities of the Haitian judiciary, security forces and prison administration, to enable it to pursue its strategy for combating armed gang activity and restoring the rule of law and to support the implementation of the recommendations made and accepted during the last cycle of the universal periodic review;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend, for a renewable period of one year, the mandate of the independent human rights expert appointed by the High Commissioner and tasked with undertaking, with the assistance of the Office of the High Commissioner and in collaboration with the United Nations Integrated Office in Haiti, the monitoring of the human rights situation in Haiti, ensuring, in particular, the inclusion of a gender perspective and of a special focus on the situation of children and of human trafficking in all of his work, and the provision of advice and technical assistance to the Government of Haiti, national human rights institutions and civil society organizations, including women’s rights organizations, to assist in their efforts to ensure respect for and the promotion and protection of human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the High Commissioner to provide to the Council, within the framework of an interactive dialogue with the participation of the independent human rights expert, an interim report on the situation of human rights in Haiti at its fifty-seventh session and a full report on the subject at its fifty-eighth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Haitian authorities and the Office of the High Commissioner to make progress on the issue of establishing a country office of the High Commissioner in Haiti, as suggested by the Government of Haiti during the High Commissioner’s visit to Haiti from 8 to 10 February 2023;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to make available to the Office of the High Commissioner the financial, technical and logistical support required for the establishment of an office of the High Commissioner in Haiti;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_95__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="55th" refersTo="#adoptionMeeting">55th meeting</location>
+          <eol />
+          <docDate date="2024-04-04" refersTo="#adoptionDate">4 April 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
