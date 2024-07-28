@@ -1,0 +1,507 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/"></FRBRuri>
+          <FRBRdate date="2024-04-05" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/eng@/"></FRBRuri>
+          <FRBRdate date="2024-04-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="RIGHTS OF THE CHILD" href="http://metadata.un.org/thesaurus/1005573" showAs="RIGHTS OF THE CHILD" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL SECURITY" href="http://metadata.un.org/thesaurus/1005985" showAs="SOCIAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POPULAR PARTICIPATION" href="http://metadata.un.org/thesaurus/1005016" showAs="POPULAR PARTICIPATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHILDREN IN ARMED CONFLICTS" href="http://metadata.un.org/thesaurus/1000956" showAs="CHILDREN IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-28" outcome="draftResolution" as="A/HRC/55/L.18/Rev.1" by="Albania, Armenia, Australia, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malawi, Malta, Monaco, Montenegro, Netherlands (Kingdom of the), North Macedonia, Norway, Poland, Portugal, Republic of Moldova, Romania, Slovakia, Slovenia, Spain, Sweden, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-12" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-12" outcome="adopted" as="Adopted without vote, 56th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/29</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-12" class="rightSmall" refersTo="#dateOfIssuance">12 April 2024</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">Fifty-fifth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 February</date>
+          <date date="2024-04-05" refersTo="#endDate">5 April 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 5 April 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/29.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Rights of the child: realizing the rights of the child and inclusive social protection</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Emphasizing" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">		Emphasizing </span>that the Convention on the Rights of the Child constitutes the international legal foundation for the respect, protection and fulfilment of the rights of the child, bearing in mind the importance of the Optional Protocols to the Convention, and calling for their universal ratification and effective implementation,</p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> all previous resolutions on the rights of the child of the General Assembly, the Commission on Human Rights and the Human Rights Council, the most recent being Assembly resolution 78/187 of 19 December 2023 and Council resolution 49/20 of 1 April 2022, and recalling also Council resolution 52/11 of 3 April 2023 focusing on the role of inclusive social protection for the realization of economic, social and cultural rights,</p>
+      </container>
+      <container name="Recalling also" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also </span>all relevant international human rights treaties, in particular the International Covenant on Economic, Social and Cultural Rights, the International Covenant on Civil and Political Rights, the Convention on the Elimination of All Forms of Discrimination against Women, the International Convention on the Elimination of All Forms of Racial Discrimination, the Convention on the Rights of Persons with Disabilities and the International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families, as well as other treaties, such as the Social Security (Minimum Standards) Convention, 1952 (No. 102), the Equality of Treatment (Social Security) Convention, 1962 (No. 118), and the Worst Forms of Child Labour Convention, 1999 (No. 182) of the International Labour Organization,</p>
+      </container>
+      <container name="Recalling further" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling further</span> General Assembly resolution 70/1 of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, in which the Assembly adopted the Sustainable Development Goals and targets, with a commitment to achieving sustainable development in a balanced and integrated manner and to realizing the human rights of all, and recalling in this regard the importance of inclusive social protection for the attainment of the Goals, including through the implementation of nationally appropriate inclusive social protection measures and systems, including floors, for all,</p>
+      </container>
+      <container name="Reaffirming" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming</span> that the general principles of the Convention on the Rights of the Child, including the best interests of the child, non‑discrimination, participation, survival and development, provide the framework for all actions concerning children,</p>
+      </container>
+      <container name="Recalling" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>that the Universal Declaration of Human Rights recognizes that all children have the right to social security and are entitled to special care and assistance,</p>
+      </container>
+      <container name="Welcoming" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">		Welcoming</span> the attention paid to the issue of inclusive social protection by the Committee on the Rights of the Child and the Committee on Economic, Social and Cultural Rights, including in relevant general comments,</p>
+      </container>
+      <container name="Welcoming also" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">		Welcoming also</span> the attention paid by the subsidiary mechanisms of the Human Rights Council, including the special procedures, and by the Office of the United Nations High Commissioner for Human Rights and the treaty bodies, to the rights of the child and inclusive social protection in the context of their respective mandates, as well as the contribution of children to the Office’s reports, and taking note of relevant guidance and recommendations on human rights-based approaches to inclusive social protection,</p>
+      </container>
+      <container name="Recalling with appreciation" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling with appreciation </span>the report of the Special Representative of the Secretary-General on Violence against Children,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/HRC/49/57.</p></authorialNote> which addressed investment in children and inclusive social protection,</p>
+      </container>
+      <container name="Recalling" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> that the Convention on the Rights of the Child recognizes the right of the child to preserve his or her identity, including nationality, name and family relations, as recognized by law, without unlawful interference, and noting that a lack of legal identity, adequate birth registration or nationality and identity documentation can bar children from inclusive social protection,</p>
+      </container>
+      <container name="Recalling also" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also</span> the multi-stakeholder initiatives aimed at universal inclusive social protection, including the International Labour Organization Global Flagship Programme on Building Social Protection Floors for All (2016–2030), the 2016 Global Partnership for Universal Social Protection to Achieve the Sustainable Development Goals and the 2021 Global Accelerator on Jobs and Social Protection for Just Transitions,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">		Deeply concerned</span> that inclusive social protection remains beyond the reach of more than 1.77 billion children globally, with significant regional disparities, and that this lack of access to inclusive social protection services may undermine the full enjoyment of a vast range of the rights of the child, inter alia, the rights to life, to education, to the enjoyment of the highest attainable standard of physical and mental health, including sexual and reproductive health, to an adequate standard of living, including food, housing, clothing, safe drinking water and sanitation, and rest and leisure, and to engage in play and recreational activities,</p>
+      </container>
+      <container name="Noting with serious concern" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">		Noting with serious concern</span> that the coronavirus disease (COVID‑19) pandemic, armed conflicts, economic downturns, humanitarian crises, food crises, the triple planetary crisis of climate change, pollution and biodiversity loss, and cost-of-living concerns have exacerbated pre‑existing forms of inequality and systemic discrimination faced by children, especially girls, including racism, gender inequality, stigma, xenophobia and socioeconomic inequalities, and have underlined the urgent need for resilient, inclusive and comprehensive social protection systems anchored in the rights of the child, ensuring adequate coverage for Indigenous Peoples and rural populations, </p>
+      </container>
+      <container name="Taking note with appreciation" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">		Taking note with appreciation</span> of general comment No. 26 (2023) of the Committee on the Rights of the Child on children’s rights and the environment, with a special focus on climate change, including a clean, healthy and sustainable environment, and noting with deep concern that the triple planetary crisis of climate change, pollution and biodiversity loss has put every child, especially girls and those from poor and developing countries, at severe risk, and that the lack of climate action is jeopardizing every child’s right to the highest attainable standard of physical and mental health, affordable and nutritious food, safe drinking water and sanitation, education and protection from all forms of violence, </p>
+      </container>
+      <container name="Noting with deep concern" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">		Noting with deep concern</span> that long-term gender inequalities are perpetuated by the fact that, worldwide, girls and women disproportionately undertake care responsibilities, mostly unpaid or underpaid, hampering their access to education and formal employment and jeopardizing their right to contributory social security, fair wages, safe and healthy working conditions and an adequate standard of living across the life cycle, </p>
+      </container>
+      <container name="Noting with deep concern also" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">		Noting with deep concern also</span> that significant gender gaps continue to exist in inclusive social protection coverage, adequacy and comprehensiveness, particularly in lower-income countries, with an impact on, inter alia, access to health care, including sexual and reproductive health information, education and care services, menstrual health and hygiene, as well as maternal health, services, such as prenatal and postnatal care and breastfeeding and nutrition services, and mental health services, despite increasing awareness of the need for gender-responsive and inclusive social protection, </p>
+      </container>
+      <container name="Expressing serious concern" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">		Expressing serious concern</span> that the absence of universal, non‑discriminatory, comprehensive, disability-inclusive and child rights-based inclusive social protection systems, including systems to address the needs of family members, including those with disabilities, in many countries means that the additional needs and support requirements of children with disabilities are frequently not met, and underscoring the need to prevent and eliminate discrimination arising from the way in which ableism and gender inequality interact and compound each other,</p>
+      </container>
+      <container name="Noting with concern" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">		Noting with concern</span> that multiple and intersecting forms of discrimination have a disproportionate impact on access to inclusive social protection by some children, including children with disabilities, internally displaced, refugee, migrant and asylum-seeking children, Indigenous children, children engaged in child labour, girls, children in early and forced marriage, children of African descent, children in street situations, children in alternative care and care-leavers, children deprived of their liberty, children in rural and remote areas, children affected by armed conflict and natural disasters, children from the poorest households and children whose parents or caregivers cannot work or work in the informal economy,</p>
+      </container>
+      <container name="Acknowledging" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging</span> that the benefits that children and their parents or caregivers receive are often inadequate to meet children’s individual needs, especially the individual needs of those furthest behind, and that universal child benefits, alongside the provision of complementary interventions, access to essential services and in-kind benefits, and other benefits received by the household, can improve children’s inclusive social protection and gender equality, reduce child poverty and support children’s development, </p>
+      </container>
+      <container name="Reaffirming" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>that children, for the full and harmonious development of their personalities, should grow up in a family environment, that the best interests shall be the guiding principle of those responsible for their nurture and protection and that families’ and caregivers’ capacities to provide the child with care and a safe environment should be promoted, and underscoring the importance of social protection in promoting and strengthening the capacities of parents, caregivers and legal guardians to care for their children,</p>
+      </container>
+      <container name="Recognizing" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>the obligations of States to ensure access to inclusive social protection, including by addressing the lack of integrated systems and poor coordination in design, implementation and monitoring across services responsible for inclusive social protection, rigid and fragmented systems, stigma and discrimination, the lack of relevant disaggregated data, the lack of clear, accessible, child-friendly information about social protection systems, the failure to meaningfully and safely engage children and the difficulty in accessing accountability mechanisms in cases of unfair denial of benefits, </p>
+      </container>
+      <container name="Reaffirming" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>that inclusive social protection, whether in cash or in kind, should be made available to ensure, inter alia, the full enjoyment of all human rights by all children, regardless of the situation of their parents or caregivers, including in relation to cases where a parent or caregiver lacks work-related income due to sickness, disability, maternity, employment injury, unemployment, old age or death of a family member, unaffordable access to health services or insufficient family support,</p>
+      </container>
+      <container name="Noting" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">		Noting</span> that qualifying conditions for inclusive social protection benefits must be reasonable, proportionate and transparent, that the direct and indirect costs associated with inclusive social protection coverage must be affordable for all and not compromise the realization of other economic, social and cultural rights, that social protection benefits should be provided in a timely manner and that beneficiaries should have physical access to social security services in order to have access to benefits and information, with particular attention paid to the most marginalized,</p>
+      </container>
+      <container name="Stressing" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing</span> the importance of ensuring that every child can benefit from inclusive social protection, and of ensuring the inclusive, effective and meaningful participation of children in decision-making affecting their lives, in accordance with the evolving capacities of the child, including in the development, implementation and evaluation of social protection measures,</p>
+      </container>
+      <container name="Stressing also" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing also</span> that child rights-compliant and inclusive social protection systems should adhere to the principles of substantive equality and non‑discrimination and specifically focus on ensuring equal, universal and comprehensive access and coverage for all children, including those with disabilities, by, inter alia, taking into account and addressing the root causes of pre‑existing gender inequality and the way in which it is compounded by other forms of discrimination, reaching those furthest behind, </p>
+      </container>
+      <container name="Acknowledging" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging</span> that, while inclusive social protection systems are tailored to the specific social, economic, cultural and political contexts of the country concerned, the core elements of a child rights-based approach to inclusive social protection apply to all States, with the rights of the child and State obligations at the centre of legislative and policy frameworks concerning inclusive social protection, and are anchored in human rights, and recognizing children’s specific vulnerabilities and needs according to their different levels of physical, cognitive, social and emotional development, </p>
+      </container>
+      <container name="Acknowledging also" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging also</span> that investment in children’s inclusive social protection is key to fulfilling State obligations regarding the realization of economic, social and cultural rights and has long-term economic, political and social benefits, especially for children, </p>
+      </container>
+      <container name="Acknowledging further" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging further</span> the pivotal role of inclusive social protection in fulfilling the rights of the child, preventing and alleviating child poverty and inequalities and advancing the 2030 Agenda for Sustainable Development, inter alia, in achieving targets 1.3 and 10.4 of the Sustainable Development Goals, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the work of the United Nations High Commissioner for Human Rights on the rights of the child, and takes note with appreciation of his report on the rights of the child and inclusive social protection;<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		A/HRC/54/36.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">
+            <span class="italic">	Calls upon </span>States to consider ratifying the Convention on the Rights of the Child and the optional protocols thereto, and calls for renewed efforts towards their full implementation by all parties;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="H23G">
+        <content eId="para_32__content">
+          <p xml:space="preserve">
+            <span class="bold">		Inclusive social protection</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> States to ensure that all children, in line with international human rights law, have access to inclusive social protection;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Also urges </span>States to put in place, if they have not yet done so, appropriate legislation, policies, systems and procedures to ensure that the best interests of the child are a primary consideration in all actions affecting children and in all decisions taken relating to their inclusive social protection; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States parties to the Convention on the Rights of the Child to take the measures necessary to achieve the full realization of the rights of the child to social security, including social insurance, in accordance with the Convention;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Urges </span>States to ensure the widest possible inclusive social protection and assistance for families, taking, where necessary, relevant special measures of protection and assistance on behalf of all children and ensuring that inclusive social protection measures are available, adequate and accessible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Also urges </span>States to invest in child rights-compliant inclusive social protection, including with a view to fulfilling the needs and human rights of all family members, which may have high economic and social returns and is a strategic choice that benefits all children, enabling them to realize their human rights and potential and to live in dignity, and a key component of strong economies and healthy societies; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Further urges</span> States to build and adapt inclusive social protection systems to meet the specific needs and capacities of children in forced displacement and migrant and refugee children, including by providing safety nets and child-friendly, accessible spaces that recognize the importance of play and recreational facilities, which can help to protect children and provide physical and psychological support for children affected by crises;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States to allocate sufficient resources to ensure effective inclusive social protection for children and the realization of their rights, including to social security; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>States to progressively move towards universal inclusive social protection coverage, including by implementing universal child benefits without discrimination of any kind and integrating them with complementary services;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Urges </span>States to ensure that inclusive social protection schemes offer adequate, adapted support for children with disabilities, including remuneration for individuals who provide their care, in a dignified manner reflecting special needs for assistance and support in order to promote the full and effective participation of children with disabilities in society on an equal basis with other children and to ensure the enjoyment of their rights in accordance with the Convention on the Rights of Persons with Disabilities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxtG">
+        <num>12.</num>
+        <list eId="para_78_list">
+          <intro eId="para_78_list_intro">
+            <p xml:space="preserve">	<span class="italic">Also urges</span> States to take the measures necessary to ensure the full enjoyment by all children of all their human rights and ensure access to inclusive social protection services through effective regulation and enforcement mechanisms, including by:</p>
+          </intro>
+          <point eId="para_78_list_point_a">
+            <num>(a)</num>
+            <content eId="para_78_list_point_a_content">
+              <p xml:space="preserve">	Enacting and implementing the necessary legal and policy frameworks anchored in human rights, particularly child rights obligations, to establish a comprehensive child rights-based approach to inclusive social protection as part of a life cycle and integrated systems approach, ensuring that no child is left behind, that inclusive social protection services include universal and comprehensive child and family benefits and financial and material support for parents or caregivers, such as parental leave and affordable, quality childcare, and that inclusive social protection services are accompanied by human rights-based care and support, as well as universal access to basic services, including health services, equal access to free, quality inclusive education, a safe digital environment, water and sanitation, affordable nutritious food and adequate housing;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_b">
+            <num>(b)</num>
+            <content eId="para_78_list_point_b_content">
+              <p xml:space="preserve">	Paying particular attention to mitigating the disproportionate impact on children in marginalized and vulnerable situations and facing multiple and intersecting forms of discrimination by developing a risk-informed approach addressing the root causes and risk factors of gender inequality to ensure that all children have access to age-, disability- and gender-responsive and inclusive social protection;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_c">
+            <num>(c)</num>
+            <content eId="para_78_list_point_c_content">
+              <p xml:space="preserve">	Ensuring meaningful consultation with children in inclusive social protection decisions concerning them and that information on social protection is child-friendly and accessible to all children in marginalized and vulnerable situations; </p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_d">
+            <num>(d)</num>
+            <content eId="para_78_list_point_d_content">
+              <p xml:space="preserve">	Conducting budget analyses to align budgets with children’s rights obligations and introducing the revenue streams necessary to ensure child rights-compliant financing of integrated, multi-stakeholder-inclusive social protection systems, and allocating sufficient and adequate human and financial resources to effectively implement them; </p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_e">
+            <num>(e)</num>
+            <content eId="para_78_list_point_e_content">
+              <p xml:space="preserve">	Collecting timely, quality, transparent and disaggregated data on children, covering all grounds of discrimination prohibited under international human rights law and establishing comprehensive and transparent monitoring and evaluation mechanisms to analyse inclusive social protection systems, identify gaps and inform evidence-based legislative processes and policymaking to ensure that social protection systems are truly inclusive, including through child rights impact assessments and evaluations in legislative, policy and programme design; </p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_f">
+            <num>(f)</num>
+            <content eId="para_78_list_point_f_content">
+              <p xml:space="preserve">	Considering inclusive social protection an integral part of the elimination of child labour;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_g">
+            <num>(g)</num>
+            <content eId="para_78_list_point_g_content">
+              <p xml:space="preserve">	Raising awareness and distributing clear, accessible and targeted information on available inclusive social protection support, eligibility criteria and how to apply; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">Further urges </span>States to ensure that all children have access to justice and timely, effective, inclusive, gender-, disability- and age-responsive and trauma-informed remedial victim support and reparation and guarantees of non‑repetition when their rights are violated in the context of inclusive social protection, ensuring the availability and accessibility of free-of-charge, safe, confidential, responsive and child-friendly reporting mechanisms, to uphold child-responsive due process guarantees in administrative and judicial proceedings, taking into account the best interests of the child as a primary consideration and that the child has the right to be provided the opportunity to be heard in such proceedings, either directly or through a representative or an appropriate body, and to provide the child with relevant information concerning violations and reparation mechanisms, access to effective legal representation and assistance adapted for children and, where relevant, for and through their parents, caregivers and legal guardians; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>States to adopt measures, with an intersectional approach, to recognize, value and redistribute on an equal and fair basis paid and unpaid care work and to reduce unpaid care work, which is currently still disproportionately performed by women and girls, hampers their access to formal employment and jeopardizes their right to contributory social security, by promoting the equal sharing of responsibilities among family members and among families, communities, the private sector and States and by prioritizing, inter alia, sustainable and accessible infrastructure and transport, affordable and quality social services, including care and support services and products, childcare and labour standards that provide for decent work and gender equality for all workers, including maternity, paternity or parental leave, equal pay for work of equal value, safe and healthy working conditions and freedom from violence and harassment in the world of work, including sexual and gender-based violence and harassment, freedom of association and the right to organize and bargain collectively;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">Urges </span>States to ensure that social protection coverage is gender-responsive and tailored to the needs of women and girls, including with regard to their right to the highest attainable standard of physical and mental health, including sexual and reproductive health information, education and care services, and menstrual health and hygiene, as well as maternal health, services, such as prenatal and postnatal care and breastfeeding and nutrition services; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">Also urges</span> States to comply with their obligations under international law, including international humanitarian law and international human rights law, particularly the Convention on the Rights of the Child and the optional protocols thereto, emphasizing the importance of accountability for all violations and abuses of the rights of the child; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="H23G">
+        <content eId="para_125__content">
+          <p xml:space="preserve">
+            <span class="bold">		Child rights mainstreaming</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	<span class="italic">Notes with appreciation </span>the Guidance Note of the Secretary-General on Child Rights Mainstreaming, which emphasizes the need to integrate a child rights perspective, including through the active and meaningful engagement of children, necessarily engaging those most at risk of being left behind, in all decision-making processes affecting the enjoyment of their human rights and sets out clear expectations for the entire United Nations system and United Nations entities, including the Office of the United Nations High Commissioner for Human Rights and human rights investigative and accountability mechanisms, to ensure the ethical, meaningful and safe participation of children in all relevant United Nations action and United Nations forums, as necessary to achieving the mainstreaming of child rights; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>States to take steps to establish structured and child-friendly modalities to promote the right of children to be heard in local, national, regional and international forums; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxtG">
+        <num>19.</num>
+        <list eId="para_129_list">
+          <intro eId="para_129_list_intro">
+            <p xml:space="preserve">	<span class="italic">Urges</span> States to support the role of the Office of the High Commissioner in mainstreaming child rights across the United Nations system in line with its mandate, and encourages them to affirm their commitment to increasing financial support for the Office’s thematic capacity, including its capacity:</p>
+          </intro>
+          <point eId="para_129_list_point_a">
+            <num>(a)</num>
+            <content eId="para_129_list_point_a_content">
+              <p xml:space="preserve">	To deliver, upon request, advisory and capacity-building activities to States and other relevant stakeholders on the full spectrum of child rights in line with international human rights law; </p>
+            </content>
+          </point>
+          <point eId="para_129_list_point_b">
+            <num>(b)</num>
+            <content eId="para_129_list_point_b_content">
+              <p xml:space="preserve">	To coordinate the implementation of and regularly monitor the progress made in mainstreaming the rights of the child across the United Nations system, in cooperation with the United Nations Children’s Fund;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_130" class="H23G">
+        <content eId="para_130__content">
+          <p xml:space="preserve">
+            <span class="bold">		Follow-up</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">
+            <span class="italic">	Requests</span> the Secretary-General to expand the capacities of the Office of the High Commissioner, to advance child rights mainstreaming, in particular child participation and child safeguarding, in the work of the Office and the human rights accountability and investigative mechanisms that it supports, and to provide advice and technical assistance on issues concerning the implementation of the human rights of children to States, upon request, and to all relevant United Nations organizations and bodies, as appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the High Commissioner to prepare a report on child rights mainstreaming across the United Nations, including on the implementation of the Guidance Note of the Secretary-General on Child Rights Mainstreaming, in consultation with all relevant stakeholders, including States, the United Nations Children’s Fund, the Special Representative of the Secretary-General on Violence against Children, the Special Representative of the Secretary-General for Children and Armed Conflict, the Committee on the Rights of the Child, relevant special procedure mandate holders, other relevant United Nations bodies and agencies, regional organizations and human rights bodies and civil society, including through consultations with children themselves, and to present the report to the Human Rights Council at its fifty-ninth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the special procedures and other human rights mechanisms of the Human Rights Council to continue to integrate a child rights perspective into the implementation of their mandates and to include in their reports information, qualitative analysis and recommendations on the rights of the child, paying attention to the adverse impact of the lack of inclusive social protection on the full enjoyment of the rights of the child; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> all human rights treaty bodies to continue to integrate the rights of the child into their work, in particular their concluding observations and general comments and recommendations, paying attention to the adverse impact of the lack of social protection on the full enjoyment of the rights of the child, and encourages them to consult children in an ethical, meaningful and safe manner; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_141" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_141__content">
+          <p xml:space="preserve">
+            <span class="italic">	Calls upon </span>all human rights mechanisms of the Human Rights Council, including subsidiary and advisory bodies, as relevant, to monitor and analyse more consistently the root causes of child rights violations and abuses, through disaggregated data, considering all children in marginalized and vulnerable situations, and to translate that analysis into specific and action-oriented recommendations for all relevant stakeholders to promote accountability for children’s rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to continue its consideration of the question of the rights of the child in accordance with its programme of work and its resolutions 7/29 of 28 March 2008 and 19/37 of 23 March 2012, and requests the Office of the High Commissioner to organize its annual full-day meeting on the rights of the child in 2025 on the theme of early childhood development, to ensure appropriate resources to support and facilitate the participation of children, ensuring that they have easy access to relevant premises, and to make the discussion fully accessible to children and to persons with disabilities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_152__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the High Commissioner to prepare a report on the rights of the child and violations of the human rights of children in armed conflicts, in close cooperation with all relevant stakeholders, including States, the United Nations Children’s Fund, the Special Representative of the Secretary-General on Violence against Children, the Special Representative of the Secretary-General for Children and Armed Conflict, relevant special procedure mandate holders, other relevant United Nations bodies and agencies, regional organizations and human rights bodies, national human rights institutions and civil society, including through consultations with children themselves, to make the report available in an accessible and child-friendly format and to present the report to the Human Rights Council at its sixtieth session, and requests the Office of the High Commissioner to organize the annual full-day meeting on the rights of the child in 2026 on the theme of the rights of the child and violations of the human rights of children in armed conflicts, to ensure appropriate resources to support the participation of children, ensuring that they have easy access to relevant premises, and to make the discussion fully accessible to children and to persons with disabilities.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="56th" refersTo="#adoptionMeeting">56th meeting</location>
+          <eol />
+          <docDate date="2024-04-05" refersTo="#adoptionDate">5 April 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
