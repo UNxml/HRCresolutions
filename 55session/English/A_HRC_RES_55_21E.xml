@@ -1,0 +1,612 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-21/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-21/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-21/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-21/eng@/"></FRBRuri>
+          <FRBRdate date="2024-04-09" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-21/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-21/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Commission of Inquiry on Human Rights in the Democratic People's Republic of Korea" showAs="UN. Human Rights Council. Commission of Inquiry on Human Rights in the Democratic People's Republic of Korea" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Human Rights Office in Seoul" showAs="UN Human Rights Office in Seoul" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Situation of Human Rights in the Democratic People's Republic of Korea" showAs="UN. Human Rights Council. Special Rapporteur on the Situation of Human Rights in the Democratic People's Republic of Korea" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" href="http://metadata.un.org/thesaurus/1001558" showAs="DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="4" showAs="Human rights situations that require the Council's attention." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-26" outcome="draftResolution" as="A/HRC/55/L.19" by="Albania, Andorra, Argentina, Australia, Austria, Belgium, Bulgaria, Canada, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Monaco, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Poland, Portugal, Republic of Korea, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-09" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-09" outcome="adopted" as="Adopted without vote, 55th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/21</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-09" class="rightSmall" refersTo="#dateOfIssuance">9 April 2024</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">Fifty-fifth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 February</date>
+          <date date="2024-04-05" refersTo="#endDate">5 April 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="4" name="agenda item">Agenda item 4</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Human rights situations that require the Council’s attention</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 4 April 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/21.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Situation of human rights in the Democratic People’s Republic of Korea</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">		Guided</span> by the Charter of the United Nations, the Universal Declaration of Human Rights, the International Covenants on Human Rights and other human rights instruments,</p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> all previous resolutions adopted by the Commission on Human Rights, the Human Rights Council and the General Assembly on the situation of human rights in the Democratic People’s Republic of Korea, including Council resolution 52/28 of 4 April 2023 and Assembly resolution 78/218 of 19 December 2023, and urging the implementation of those resolutions,</p>
+      </container>
+      <container name="Bearing in mind" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Bearing in mind</span> paragraph 3 of General Assembly resolution 60/251 of 15 March 2006,</p>
+      </container>
+      <container name="Recalling" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> its resolutions 5/1, on institution-building of the Human Rights Council, and 5/2, on the Code of Conduct for Special Procedure Mandate Holders of the Council, of 18 June 2007, and stressing that mandate holders shall discharge their duties in accordance with those resolutions and the annexes thereto,</p>
+      </container>
+      <container name="Stressing" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing</span> the importance of following up on the recommendations contained in the report of the commission of inquiry on human rights in the Democratic People’s Republic of Korea,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">			A/HRC/25/63.</p></authorialNote> which was welcomed by both the Human Rights Council and the General Assembly, and transmitted to the relevant bodies of the United Nations, including the Security Council,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">		Deeply concerned</span> about the systematic, widespread and gross human rights violations in the Democratic People’s Republic of Korea that, in many instances, constitute crimes against humanity, and the pervasive culture of impunity and lack of accountability for human rights violations and abuses in the Democratic People’s Republic of Korea, as described in the report of the commission of inquiry,</p>
+      </container>
+      <container name="Recalling" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> the responsibility of the Democratic People’s Republic of Korea to protect its population from crimes against humanity, and noting that the General Assembly, in its resolution 78/218, recalled that the commission of inquiry had urged the leadership of the Democratic People’s Republic of Korea to prevent and suppress crimes against humanity and to ensure that perpetrators were prosecuted and brought to justice,</p>
+      </container>
+      <container name="Concerned" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">		Concerned</span> that the precarious humanitarian situation in the country is exacerbated by the restrictions imposed by the Government of the Democratic People’s Republic of Korea on the free and unimpeded access for humanitarian agencies to all populations in need,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">		Deeply concerned </span>about the exacerbation of the humanitarian situation and the adverse impact on the situation of human rights in the Democratic People’s Republic of Korea of disproportionate and unnecessary measures taken following the global outbreak of the coronavirus disease (COVID‑19) pandemic and the national outbreak announced in May 2022, emphasizing the importance of timely assistance to the Democratic People’s Republic of Korea in addressing the humanitarian situation, and underlining in this regard the importance of allowing entry into and exit out of the country by international staff, free and unimpeded access to all populations in need and the import of materials necessary for assisting persons in vulnerable situations, in accordance with relevant Security Council resolutions,</p>
+      </container>
+      <container name="Recalling" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>that any restrictions on addressing the pandemic must be necessary, proportionate, non‑discriminatory, time-bound, transparent and strictly in line with international law, including the obligations of the Democratic People’s Republic of Korea under international human rights law and relevant Security Council resolutions,</p>
+      </container>
+      <container name="Condemning" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">		Condemning</span> the Democratic People’s Republic of Korea for national policies that continue to divert its resources into pursuing nuclear weapons and ballistic missiles over the welfare of its people and their access to food, and emphasizing the necessity for the Democratic People’s Republic of Korea to respect and ensure the welfare and inherent dignity of the people in the country, as referred to by the Security Council in its resolutions 2321 (2016) of 30 November 2016, 2371 (2017) of 5 August 2017, 2375 (2017) of 11 September 2017 and 2397 (2017) of 22 December 2017,</p>
+      </container>
+      <container name="Reaffirming" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming</span> that it is the responsibility of the Government of the Democratic People’s Republic of Korea to ensure the full enjoyment of all human rights and fundamental freedoms of its entire population, including the right to an adequate standard of living, including adequate food, and to respect, among other things, freedom of movement, freedom of religion or belief, freedom of association and of peaceful assembly, and freedom of expression, including the freedom to seek, receive and impart information,</p>
+      </container>
+      <container name="Recognizing" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing</span> that particular risk factors, such as neglect, abuse, exploitation and violence, affect all women, children, persons with disabilities and older persons, and the need to ensure their full enjoyment of all their human rights and fundamental freedoms, and recalling in this regard the concluding observations of the Committee on the Elimination of Discrimination against Women on the combined second to fourth periodic reports of the Democratic People’s Republic of Korea<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		CEDAW/C/PRK/CO/2-4.</p></authorialNote> and the concluding observations of the Committee on the Rights of the Child on the fifth periodic report of the Democratic People’s Republic of Korea,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		CRC/C/PRK/CO/5.</p></authorialNote></p>
+      </container>
+      <container name="Encouraging" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">		Encouraging</span> the Democratic People’s Republic of Korea to implement all of the recommendations made by the Special Rapporteur on the rights of persons with disabilities in her report on her visit to the Democratic People’s Republic of Korea, submitted to the Human Rights Council at its thirty-seventh session,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		A/HRC/37/56/Add.1.</p></authorialNote> recalling with appreciation the submission of the initial report of the Democratic People’s Republic of Korea on the implementation of the Convention on the Rights of Persons with Disabilities,<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		CRPD/C/PRK/1.</p></authorialNote> in December 2018, and taking note with appreciation of the submission by the Government of the Democratic People’s Republic of Korea, in December 2023, of the written replies<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		CRPD/C/PRK/RQ/1.</p></authorialNote> to the list of issues on that initial report,<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		CRPD/C/PRK/Q/1.</p></authorialNote></p>
+      </container>
+      <container name="Acknowledging" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging</span> the participation of the Democratic People’s Republic of Korea in the third cycle of the universal periodic review, recalling the acceptance by the Government of the Democratic People’s Republic of Korea of 132 of the 262 recommendations contained in the outcome of the review,<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		A/HRC/42/10 and A/HRC/42/10/Add.1.</p></authorialNote> and emphasizing the importance of the implementation of the recommendations in order to address the grave human rights violations in the country,</p>
+      </container>
+      <container name="Noting again with regret" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">		Noting again with regret</span> that independent civil society organizations cannot operate in the Democratic People’s Republic of Korea and that, as a result, no civil society organization based in the Democratic People’s Republic of Korea was able to submit a stakeholder report for the universal periodic review process,</p>
+      </container>
+      <container name="Stressing" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing</span> the importance of extending the cooperation of the Government of the Democratic People’s Republic of Korea to the Office of the United Nations High Commissioner for Human Rights,</p>
+      </container>
+      <container name="Recognizing" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing</span> the important work of the treaty bodies in monitoring the implementation of international human rights obligations, and emphasizing the need for the Democratic People’s Republic of Korea to comply with its human rights obligations and to ensure regular and timely reporting to the treaty bodies,</p>
+      </container>
+      <container name="Stressing again with grave concern" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing again with grave concern</span> the urgency and importance of the issue of international abductions, which involves a serious violation of human rights, and of the immediate return of all abductees, as they and their family members are aging and there is no time to lose, expressing grave concern at the long years of severe suffering experienced by abductees and their families, the lack of any concrete or positive action by the Democratic People’s Republic of Korea, notably since the investigations on all the Japanese nationals commenced on the basis of the government-level consultations held between the Democratic People’s Republic of Korea and Japan in May 2014, and the identical and non‑substantive replies by the Democratic People’s Republic of Korea to the numerous communications transmitted by the Working Group on Enforced or Involuntary Disappearances and the Working Group on Arbitrary Detention, and strongly demanding again that the Democratic People’s Republic of Korea sincerely listen to the victims and their families to address all allegations of enforced disappearances, clarify the fate and whereabouts of disappeared persons and faithfully provide accurate, detailed and full information promptly to the families of victims, and resolve immediately all issues relating to all abductees, in particular the realization of the immediate return of all abductees of Japan and the Republic of Korea,</p>
+      </container>
+      <container name="Noting with concern" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">		Noting with concern </span>the allegations of continued violations of the human rights of unrepatriated prisoners of war and their descendants, and the issue of nationals of other States Members of the United Nations detained in the Democratic People’s Republic of Korea, with no information available regarding their health or the conditions of their detention,</p>
+      </container>
+      <container name="Welcoming" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">		Welcoming</span> the readiness of the international community to engage in constructive diplomacy with the Democratic People’s Republic of Korea and stressing the importance of dialogue, including inter-Korean dialogue, engagement and cooperation aimed at improving the human rights and humanitarian situation in the Democratic People’s Republic of Korea,</p>
+      </container>
+      <container name="Stressing" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing</span> the urgency and importance of the issue of separated families, including affected Koreans worldwide, in this regard encouraging the resumption of reunions of separated families and in accordance with the commitments made on this issue at the inter-Korean summit held on 19 September 2018 to strengthen humanitarian cooperation to fundamentally resolve the issue of separated families, and highlighting the importance of allowing permanent regular reunions and contact between separated families, including through meetings at an easily accessible location and regular facility, regular written correspondence, video reunions and the exchange of video messages, in accordance with relevant Security Council resolutions,</p>
+      </container>
+      <container name="Stressing also" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing also </span>that the situation of human rights in the Democratic People’s Republic of Korea, including with respect to gender equality and the rights of all women and girls, including adolescent girls, is intrinsically linked to international peace and security, since the Government of the Democratic People’s Republic of Korea funds its unlawful nuclear weapons and ballistic missile programmes through human rights violations and abuse, such as forced labour, and noting with concern that a disproportionate amount of the State budget is allocated to military spending, resulting in failure to fully respect, protect and fulfil human rights, such as the right to an adequate standard of living and the right to the enjoyment of the highest attainable standard of physical and mental health,</p>
+      </container>
+      <container name="Reaffirming" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming</span> the importance of States engaging fully and constructively with the Human Rights Council, including with the universal periodic review process and other mechanisms of the Council, for the improvement of their situation of human rights,</p>
+      </container>
+      <container name="Noting" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">		Noting</span> recent indications of a gradual reopening of the country’s borders, and calling for the non‑discriminatory return of the diplomatic community, agencies, funds and programmes of the United Nations system, and civil society organizations, as well as for the resumption of a meaningful dialogue with the international community,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>1.</num>
+        <list eId="para_27_list">
+          <intro eId="para_27_list_intro">
+            <p xml:space="preserve">	<span class="italic">Condemns in the strongest terms</span> the long-standing and ongoing systematic, widespread and gross human rights violations and other human rights abuses committed in the Democratic People’s Republic of Korea, and expresses again its grave concern at the detailed findings made by the commission of inquiry in its report, in the ongoing monitoring and documentation work of the Office of the United Nations High Commissioner for Human Rights and the Special Rapporteur on the situation of human rights in the Democratic People’s Republic of Korea, and the developments since then, including:</p>
+          </intro>
+          <point eId="para_27_list_point_a">
+            <num>(a)</num>
+            <content eId="para_27_list_point_a_content">
+              <p xml:space="preserve">	The denial of the right to freedom of thought, conscience and religion, including the right to adopt a religion or belief, and of the rights to freedom of opinion, expression, and association, including the freedom to seek, receive and impart information and ideas of any kind, regardless of frontiers, either orally, in writing or in print, in the form of art, or through any other media of one’s choice, both online and offline, which is enforced through all-pervasive and severe restrictions, including an absolute monopoly on information and total control over organized social life, and arbitrary State surveillance that permeates the private lives of all citizens;</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_b">
+            <num>(b)</num>
+            <content eId="para_27_list_point_b_content">
+              <p xml:space="preserve">	Discrimination based on the <span class="italic">songbun</span> system, which classifies people on the basis of State-assigned social class and birth and also includes consideration of political opinions and religion, and which intersects with disability and with gender-based discrimination against women and girls, including unequal access to employment, discriminatory laws and regulations, and violence against women and girls, including sexual and gender-based violence;</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_c">
+            <num>(c)</num>
+            <content eId="para_27_list_point_c_content">
+              <p xml:space="preserve">	Violations of all aspects of the right to freedom of movement, including forced assignment to State-designated places of residence and employment, often based on the <span class="italic">songbun</span> system, and denial of the right to leave one’s own country;</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_d">
+            <num>(d)</num>
+            <content eId="para_27_list_point_d_content">
+              <p xml:space="preserve">	Systematic, widespread and grave violations of the right to adequate food and related aspects of the right to life, exacerbated by widespread hunger and malnutrition;</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_e">
+            <num>(e)</num>
+            <content eId="para_27_list_point_e_content">
+              <p xml:space="preserve">	Violations of the right to life and acts of extermination, murder, enslavement, torture and other cruel, inhuman and degrading treatment or punishment, imprisonment, rape and other grave forms of sexual and gender-based violence and persecution on any grounds, including on the grounds of political opinion, religion or belief and sexual orientation and gender identity, throughout the entire penal system and in all places of detention, including in prison camps, re-education camps, labour training camps, labour training centres, detention centres, holding centres and waiting rooms, and the widespread practice of collective punishment, with harsh sentences imposed on innocent individuals;</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_f">
+            <num>(f)</num>
+            <content eId="para_27_list_point_f_content">
+              <p xml:space="preserve">	Persistent violations and abuses of all rights of all women and girls, who remain the most vulnerable to trafficking for the purposes of sexual exploitation or domestic servitude and to child, early and forced marriage and other forms of sexual and gender-based violence;</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_g">
+            <num>(g)</num>
+            <content eId="para_27_list_point_g_content">
+              <p xml:space="preserve">	The enforced and involuntary disappearance of persons by arrest, detention or abduction against their will, the refusal to disclose the fate and whereabouts of the persons concerned and the refusal to acknowledge the deprivation of their liberty, which places persons subjected thereto outside the protection of the law and which has had the effect of inflicting severe suffering on them and their families;</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_h">
+            <num>(h)</num>
+            <content eId="para_27_list_point_h_content">
+              <p xml:space="preserve">	Systematic abduction, denial of repatriation and subsequent enforced disappearance of persons, including those from other States Members of the United Nations, on a large scale and as a matter of State policy;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>2.</num>
+        <list eId="para_28_list">
+          <intro eId="para_28_list_intro">
+            <p xml:space="preserve">	<span class="italic">Urges</span> the Government of the Democratic People’s Republic of Korea to acknowledge its crimes, abuses and human rights violations, in and outside of the country, and to take immediately all steps necessary to end all such crimes, abuses and violations through, inter alia, the implementation of relevant recommendations contained in the report of the commission of inquiry and in General Assembly resolution 78/218, including but not limited to the following steps:</p>
+          </intro>
+          <point eId="para_28_list_point_a">
+            <num>(a)</num>
+            <content eId="para_28_list_point_a_content">
+              <p xml:space="preserve">	Ensuring the right to freedom of thought, conscience and religion or belief and the rights to freedom of opinion, expression and association, both online and offline, including by permitting the establishment of independent newspapers and other media and repealing or reforming all practices and laws suppressing the aforementioned rights, including the Law on Rejecting Reactionary Thought and Culture, the Youth Education Guarantee Law and the Law on Protecting the Pyongyang Cultural Language;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_b">
+            <num>(b)</num>
+            <content eId="para_28_list_point_b_content">
+              <p xml:space="preserve">	Ending discrimination against citizens, including State-sponsored discrimination based on the <span class="italic">songbun</span> system, and taking immediate steps to ensure gender equality and the full enjoyment by all women and girls of their human rights and the protection of women and girls from all forms of violence, including sexual and gender-based violence;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_c">
+            <num>(c)</num>
+            <content eId="para_28_list_point_c_content">
+              <p xml:space="preserve">	Ensuring the right to freedom of movement, including the freedom to choose one’s place of residence and employment;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_d">
+            <num>(d)</num>
+            <content eId="para_28_list_point_d_content">
+              <p xml:space="preserve">	Promoting equal access to food, including by allowing humanitarian access to all persons in need and full transparency regarding the provision of humanitarian assistance so that such assistance is provided to persons in vulnerable situations, including persons with disabilities, older persons, individuals in detention, children, and women and girls, especially those who are pregnant and lactating;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_e">
+            <num>(e)</num>
+            <content eId="para_28_list_point_e_content">
+              <p xml:space="preserve">	Allowing humanitarian organizations and humanitarian personnel to carry out their activities, commencing with the immediate reopening of the national borders of the Democratic People’s Republic of Korea for the delivery of urgently required humanitarian goods, such as food, medicines and agricultural supplies;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_f">
+            <num>(f)</num>
+            <content eId="para_28_list_point_f_content">
+              <p xml:space="preserve">	Cooperating with the international community to respond constructively to all offers of assistance to ensure the timely delivery and equitable distribution of sufficient vaccine doses, and recognizing the right to the enjoyment of the highest attainable standard of physical and mental health and that access to vaccines is essential, including through the entry of international staff and the prioritization of the shipment of life-saving humanitarian assistance, in accordance with guidance and best practice provided by the World Health Organization;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_g">
+            <num>(g)</num>
+            <content eId="para_28_list_point_g_content">
+              <p xml:space="preserve">	Halting immediately all human rights violations in the entire penal system and in all places of detention, including in prison camps, re-education camps, labour training camps, labour training centres, detention centres, holding centres and waiting rooms, including the practice of forced labour and the use of torture and other cruel, inhuman and degrading treatment or punishment and sexual and gender-based violence, dismantling all political prison camps and releasing all political prisoners, immediately ceasing the practice of the arbitrary and summary execution of persons in custody, including public executions, and ensuring that justice sector reforms provide for protections for fair trials and due process;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_h">
+            <num>(h)</num>
+            <content eId="para_28_list_point_h_content">
+              <p xml:space="preserve">	Urgently resolving the issue of all persons who have been abducted or otherwise forcibly disappeared and their descendants by clarifying their fate and whereabouts, in good faith and with transparency, including by ensuring the realization of their immediate return, and engaging in constructive dialogue with the parties concerned;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_i">
+            <num>(i)</num>
+            <content eId="para_28_list_point_i_content">
+              <p xml:space="preserve">	Ensuring the immediate resumption of the reunions of separated families across the border, considering the advanced age of the family members concerned;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_j">
+            <num>(j)</num>
+            <content eId="para_28_list_point_j_content">
+              <p xml:space="preserve">	Abolishing immediately the practice of guilt-by-association punishment;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_k">
+            <num>(k)</num>
+            <content eId="para_28_list_point_k_content">
+              <p xml:space="preserve">	Ensuring that everyone within the territory of the Democratic People’s Republic of Korea enjoys the right to liberty of movement and is free to leave the country, including for the purpose of seeking asylum outside the Democratic People’s Republic of Korea, without interference by the authorities of the Democratic People’s Republic of Korea;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_l">
+            <num>(l)</num>
+            <content eId="para_28_list_point_l_content">
+              <p xml:space="preserve">	Providing nationals of other States Members of the United Nations detained in the Democratic People’s Republic of Korea with protections, including freedom of communication with and access to consular officers, in accordance with the Vienna Convention on Consular Relations, to which the Democratic People’s Republic of Korea is a party, and any other necessary arrangements to confirm their status and to communicate with their families;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_m">
+            <num>(m)</num>
+            <content eId="para_28_list_point_m_content">
+              <p xml:space="preserve">	Ensuring that citizens of the Democratic People’s Republic of Korea who have been expelled or repatriated to the Democratic People’s Republic of Korea are able to return in safety and dignity, are treated humanely and are not subjected to any kind of human rights violation, including enforced disappearance, arbitrary execution, torture and ill-treatment, as well as sexual and gender-based violence, and providing information on their status and treatment, in particular of women, children and persons with disabilities in detention;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> General Assembly resolution 78/218, in which the Assembly expressed its very serious concern at the violations of workers’ rights, including the right to freedom of association and effective recognition of the right to collective bargaining, the right to strike, and the prohibition of the economic exploitation of children and of any harmful or hazardous work of children, as well as at the exploitation of workers sent abroad from the Democratic People’s Republic of Korea to work under conditions that reportedly amount to forced labour, often for the purpose of generating income for the Government;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Also recalls</span> paragraph 11 of Security Council resolution 2371 (2017), paragraph 17 of Council resolution 2375 (2017) and in particular paragraph 8 of Council resolution 2397 (2017), in which the Council decided that States Members of the United Nations should repatriate to the Democratic People’s Republic of Korea all nationals of the Democratic People’s Republic of Korea earning income in their jurisdictions and all Democratic People’s Republic of Korea government safety oversight attachés monitoring Democratic People’s Republic of Korea workers abroad immediately, but no later than 24 months from 22 December 2017, urges all States to fully comply, especially as there are indications of transport routes reopening, unless the particular State determines that the national is a national of that State or is prohibited from repatriation under applicable national and international law, including international refugee law and international human rights law, and urges the Democratic People’s Republic of Korea to promote, respect and protect the human rights of workers, including workers who were repatriated to the Democratic People’s Republic of Korea by 22 December 2019 in accordance with paragraph 8 of Council resolution 2397 (2017);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Further recalls </span>paragraph 4 of General Assembly resolution 78/218, in which the Assembly underscored its very serious concern regarding reports of torture, cruel, inhuman and degrading treatment or punishment, summary executions, arbitrary detention, abductions and other forms of human rights violations and abuses that the Democratic People’s Republic of Korea commits against citizens of other States Members of the United Nations within and outside of its territory, and urged the Democratic People’s Republic of Korea to disclose all relevant information about such persons, including their fate and whereabouts, to bereaved families and relevant entities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates its deep concern</span> at the findings of the commission of inquiry and subsequent investigations of the Office of the United Nations High Commissioner for Human Rights concerning the situation of refugees and asylum-seekers returned to the Democratic People’s Republic of Korea and other citizens of the Democratic People’s Republic of Korea who have been repatriated from abroad and made subject to sanctions, including internment, torture, cruel, inhuman and degrading treatment or punishment, sexual and gender-based violence, enforced disappearance or the death penalty, in this regard strongly urges all States to respect the fundamental principle of non‑refoulement, especially in the light of the resumption of cross-border travel, including where the Government of the Democratic People’s Republic of Korea exerts pressure on returning States to effectuate such returns, to take action to counter acts of transnational repression by the Democratic People’s Republic of Korea, to treat humanely those who seek refuge and to ensure unhindered access to the Office of the United Nations High Commissioner for Refugees and the Office of the United Nations High Commissioner for Human Rights, with a view to protecting the human rights of those who seek refuge, and to ensure adequate international protection by refraining from sharing information about the contacts and conduct of refugees, asylum-seekers and other citizens of the Democratic People’s Republic of Korea with the Government of the Democratic People’s Republic of Korea, and once again urges States to comply with their obligations under international human rights law, including the Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment as well as the Convention relating to the Status of Refugees and the Protocol thereto, in relation to persons from the Democratic People’s Republic of Korea who are covered by those instruments;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Stresses and restates </span>its grave concern at the finding of the commission of inquiry that the body of testimony gathered and the information received provided reasonable grounds to believe that crimes against humanity have been committed in the Democratic People’s Republic of Korea, pursuant to policies established at the highest level of the State for decades and by institutions under the effective control of its leadership, and that the crimes against humanity entail extermination, murder, enslavement, torture and other cruel, inhuman and degrading treatment or punishment, imprisonment, rape, forced abortions and other forms of sexual and gender-based violence, persecution on political, religious, racial and gender-related grounds, the forcible transfer of populations, the enforced disappearance of persons and the inhumane act of knowingly causing prolonged starvation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> that the authorities of the Democratic People’s Republic of Korea continue to fail to hold accountable those responsible for crimes against humanity and other human rights violations and abuses, and encourages all States, the United Nations system, including relevant specialized agencies, regional intergovernmental organizations and forums, civil society organizations, foundations and other stakeholders to cooperate with accountability efforts, especially the efforts made by the Office of the United Nations High Commissioner for Human Rights, and to ensure that the crimes do not remain unpunished;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> General Assembly resolution 78/218, in which the Assembly welcomed the resumption of the Security Council discussion on the situation in the Democratic People’s Republic of Korea and encouraged the Council to continue its consideration of the relevant conclusions and recommendations of the commission of inquiry and to take appropriate action to ensure accountability, including through consideration of referral of the situation in the Democratic People’s Republic of Korea to the International Criminal Court and consideration of the further development of sanctions in order to target effectively those who appear to be most responsible for human rights violations that the commission has said may constitute crimes against humanity;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the Special Rapporteur on the situation of human rights in the Democratic People’s Republic of Korea for the activities undertaken to date and her continued efforts in the conduct of her mandate despite the lack of access to the country;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the report of the Special Rapporteur;<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		A/HRC/55/63.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the recommendations of the commission of inquiry and those contained in General Assembly resolution 78/218, and reiterates the importance of maintaining the grave situation of human rights in the Democratic People’s Republic of Korea high on the international agenda, including through sustained communications, advocacy and outreach initiatives, and requests the Office of the High Commissioner to strengthen those activities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes </span>the oral update of the High Commissioner, presented to the Human Rights Council pursuant to its resolution 52/28, on promoting accountability in the Democratic People’s Republic of Korea, and commends the Office of the High Commissioner, including its field-based structure in Seoul, for the efforts it has made to date, and encourages it to take into account the experience of other relevant mechanisms and to actively engage and cooperate with national, regional and international mechanisms, and civil society, victims and survivors, as appropriate, as part of its efforts to identify strategies for accountability, in accordance with international law standards;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">Also welcomes </span>the steps taken to continue to strengthen the capacity of the Office of the High Commissioner, including its field-based structure in Seoul, to allow the implementation of relevant recommendations made by the group of independent experts on accountability in its report, aimed at strengthening current monitoring and documentation efforts, compiling a central information and evidence repository and having experts in legal accountability assess all information and testimonies, with a view to developing possible strategies to be used in any future accountability process, and encourages cooperation with a wide range of stakeholders in the procurement of evidence that could be used in future criminal proceedings;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to this end to further strengthen the capacity of the Office of the High Commissioner, including its field-based structure in Seoul, with further additional resources and expertise for increasing the amount of first-hand information in the repository by expanding the number of interviews, and for the analysis of that information;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_147__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the High Commissioner to submit a comprehensive report containing an update on the situation of human rights in the Democratic People’s Republic of Korea since 2014, when the report of the commission of inquiry was published, and taking stock of the implementation of the commission’s recommendations, to the Human Rights Council at its sixtieth session, to be followed by an enhanced interactive dialogue;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">
+            <span class="italic">	Decides</span> to extend the mandate of Special Rapporteur on the situation of human rights in the Democratic People’s Republic of Korea, in accordance with Human Rights Council resolution 37/28, for a period of one year;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the High Commissioner to continue to explore options for strengthening, institutionalizing and further advancing work on accountability in the Democratic People’s Republic of Korea in the report to be submitted to the Human Rights Council at its fifty-eighth session pursuant to Council resolution 52/28;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Office of the High Commissioner to continue to organize a series of consultations and outreach activities with victims, affected communities and other relevant stakeholders with a view to ensuring a victim-centred approach to accountability and to including their views in avenues for accountability;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	<span class="italic">Calls again upon</span> all parties concerned, including United Nations bodies, to consider implementing the recommendations made by the commission of inquiry in its report in order to address the dire situation of human rights in the Democratic People’s Republic of Korea;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the field-based structure of the Office of the High Commissioner in Seoul to continue its endeavours, welcomes its regular reports to the Human Rights Council, and invites the High Commissioner to provide the Council with regular updates on the situation of human rights in the Democratic People’s Republic of Korea;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_258" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_258__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all States to undertake to ensure that the field-based structure of the Office of the High Commissioner can function with independence, that it has sufficient resources to fulfil its mandate, that it enjoys full cooperation with relevant States and that it is not subjected to any reprisals or threats;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_280" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_280__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Office of the High Commissioner to report on its follow-up efforts in the regular annual report of the Secretary-General submitted to the General Assembly on the situation of human rights in the Democratic People’s Republic of Korea;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_303" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_303__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Special Rapporteur to submit regular reports to the Human Rights Council and to the General Assembly on the implementation of the mandate, including on the follow-up efforts made in the implementation of the recommendations of the commission of inquiry;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_327" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_327__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the Government of the Democratic People’s Republic of Korea, through continuous dialogues, to invite and to cooperate fully with all special procedure mandate holders, especially the Special Rapporteur, to give the Special Rapporteur and supporting staff unrestricted access to visit the country, to provide them with all information necessary to enable them to fulfil such a mandate and to promote technical cooperation with the Office of the High Commissioner;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_352" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_352__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Government of the Democratic People’s Republic of Korea to extend an invitation to the Office of the High Commissioner to visit the country;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_378" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_378__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> the Government of the Democratic People’s Republic of Korea to fulfil its stated commitment to implement the accepted recommendations contained in the outcome reports of the previous cycles of the universal periodic review and to consider the possibility of implementing a further 56 recommendations made in the third cycle;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_405" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_405__content">
+          <p xml:space="preserve">	<span class="italic">Further encourages</span> the Government of the Democratic People’s Republic of Korea to provide comprehensive information detailing progress on the implementation of the recommendations it accepted in the previous cycles of the universal periodic review, including with regard to the ratification or accession to core international human rights instruments to which the Democratic People’s Republic of Korea is still not a party, in particular the Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment and the International Convention on the Elimination of All Forms of Racial Discrimination, to further expand cooperation with other United Nations human rights mechanisms in order to address all human rights violations and abuses in the country and to take all measures necessary to fully fulfil the obligations under international instruments to which the Democratic People’s Republic of Korea is a party, including the International Covenant on Civil and Political Rights, the International Covenant on Economic, Social and Cultural Rights, the Convention on the Elimination of All Forms of Discrimination against Women, the Convention on the Rights of the Child, the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography and the Convention on the Rights of Persons with Disabilities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_433" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_433__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Government of the Democratic People’s Republic of Korea to constructively engage and participate in the fourth cycle of the universal periodic review, and to allow independent civil society organizations to operate openly and to provide stakeholder submissions, in view of the adoption of the outcome report scheduled at the fifty-eighth session of the Human Rights Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_462" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_462__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the United Nations system, including its specialized agencies, States, regional intergovernmental organizations, interested institutions, independent experts and non‑governmental organizations to develop constructive dialogue and cooperation with special procedure mandate holders, including the Special Rapporteur, and the field-based structure of the Office of the High Commissioner;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_492" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_492__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> all States, the United Nations system, including its relevant specialized agencies, regional intergovernmental organizations and forums, civil society organizations, foundations and engaged business enterprises and other stakeholders towards which the commission of inquiry has directed recommendations to take those recommendations forward;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_523" class="SingleTxtG">
+        <num>32.</num>
+        <content eId="para_523__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> all States, the United Nations system, including its relevant specialized agencies, regional intergovernmental organizations and forums, civil society organizations, foundations and engaged business enterprises and other stakeholders to support efforts aimed at improving dialogue on and engagement with regard to the humanitarian and human rights situation, including international abductions, in the Democratic People’s Republic of Korea, and inter-Korean dialogue;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_555" class="SingleTxtG">
+        <num>33.</num>
+        <content eId="para_555__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the Democratic People’s Republic of Korea to refrain from the use of deadly and other excessive force at its borders and elsewhere, to work with the international community, including the United Nations system, and to facilitate conditions to alleviate the suffering of the citizens of the Democratic People’s Republic of Korea and to allow international staff to operate in the country so that the international community can provide assistance based on independent needs assessments, including of persons experiencing vulnerability in detention centres, and a monitoring capacity, consistent with international standards and humanitarian principles and in accordance with relevant Security Council resolutions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_588" class="SingleTxtG">
+        <num>34.</num>
+        <content eId="para_588__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the United Nations system as a whole to continue to address the grave situation of human rights in the Democratic People’s Republic of Korea in a coordinated and unified manner, including through consideration by the Security Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_622" class="SingleTxtG">
+        <num>35.</num>
+        <content eId="para_622__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> all States that have relations with the Democratic People’s Republic of Korea to use their influence to encourage it to take immediate steps to end all human rights violations and abuses, including by closing political prison camps and undertaking profound institutional reforms;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_657" class="SingleTxtG">
+        <num>36.</num>
+        <content eId="para_657__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to provide the Special Rapporteur and the Office of the High Commissioner with regard to the field-based structure with sufficient resources and the support necessary to carry out the mandate effectively, including to support the information and evidence repository, and to ensure that the mandate holder receives the support of the Office of the High Commissioner;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_693" class="SingleTxtG">
+        <num>37.</num>
+        <content eId="para_693__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to transmit all reports of the Special Rapporteur to all relevant bodies of the United Nations and to the Secretary-General for appropriate action.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="55th" refersTo="#adoptionMeeting">55th meeting</location>
+          <eol />
+          <docDate date="2024-04-04" refersTo="#adoptionDate">4 April 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
