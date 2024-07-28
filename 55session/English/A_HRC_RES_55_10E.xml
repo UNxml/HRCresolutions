@@ -1,0 +1,340 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/"></FRBRuri>
+          <FRBRdate date="2024-04-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/eng@/"></FRBRuri>
+          <FRBRdate date="2024-04-05" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISINFORMATION" showAs="DISINFORMATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF INFORMATION" href="http://metadata.un.org/thesaurus/1002525" showAs="FREEDOM OF INFORMATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF EXPRESSION" href="http://metadata.un.org/thesaurus/1002524" showAs="FREEDOM OF EXPRESSION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CORPORATE SOCIAL RESPONSIBILITY" href="http://metadata.un.org/thesaurus/1001316" showAs="CORPORATE SOCIAL RESPONSIBILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-22" outcome="draftResolution" as="A/HRC/55/L.11" by="Albania, Australia, Austria, Belgium, Bulgaria, Canada, Chile, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, France, Georgia, Germany, Greece, Iceland, Ireland, Israel, Italy, Japan, Latvia, Lithuania, Luxembourg, Malta, Marshall Islands, Mexico, Monaco, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Paraguay, Poland, Portugal, Romania, Slovenia, Spain, Sweden, Ukraine, United Kingdom of Great Britain and Northern Ireland, United States of America and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-05" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-05" outcome="adopted" as="Adopted without vote, 53rd meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-05" class="rightSmall" refersTo="#dateOfIssuance">5 April 2024</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">Fifty-fifth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 February</date>
+          <date date="2024-04-05" refersTo="#endDate">5 April 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council on 3 April 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Role of States in countering the negative impact of disinformation on the enjoyment and realization of human rights</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">		Guided </span>by the purposes and principles of the Charter of the United Nations,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>the Universal Declaration of Human Rights and the Vienna Declaration and Programme of Action, and the obligations of States under the International Covenant on Civil and Political Rights, the International Covenant on Economic, Social and Cultural Rights and other human rights instruments,</p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> relevant resolutions adopted by the General Assembly and the Human Rights Council, including Assembly resolution 76/227 of 24 December 2021, on countering disinformation for the promotion and protection of human rights and fundamental freedoms, and Council resolutions 44/12 of 16 July 2020 and 50/15 of 8 July 2022, on freedom of opinion and expression, 47/16 of 13 July 2021, on the promotion, protection and enjoyment of human rights on the Internet, and 49/21 of 1 April 2022, on the role of States in countering the negative impact of disinformation on the enjoyment and realization of human rights,</p>
+      </container>
+      <container name="Taking note with appreciation" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Taking note with appreciation </span>of the report of the Secretary-General on countering disinformation for the promotion and protection of human rights and fundamental freedoms<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	A/77/287.</p></authorialNote> and the reports of the Special Rapporteur on the promotion and protection of the right to freedom of opinion and expression on disinformation and freedom of opinion and expression,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	A/77/288 and A/78/288.</p></authorialNote> </p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>the Guiding Principles on Business and Human Rights,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/HRC/17/31, annex.</p></authorialNote> as endorsed by the Human Rights Council in its resolution 17/4 of 16 June 2011,</p>
+      </container>
+      <container name="Reiterating" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">		Reiterating</span> that all human rights are universal, indivisible, interrelated, interdependent and mutually reinforcing, and affirming that the same rights that people have offline must also be protected online,</p>
+      </container>
+      <container name="Concerned" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">		Concerned</span> by the increasing and far-reaching negative impact on the enjoyment and realization of human rights of the deliberate creation and dissemination of false or manipulated information intended to deceive and mislead audiences, either to cause harm or for personal, political or financial gain,</p>
+      </container>
+      <container name="Emphasizing" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">		Emphasizing</span> that disinformation can be designed and spread so as to mislead, and to violate and abuse human rights, including privacy and the freedom of individuals to seek, receive and impart information, including in times of emergency, crisis and armed conflict, when such information is vital,</p>
+      </container>
+      <container name="Stressing" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing</span> that condemning and countering disinformation should not be used as a pretext to restrict the enjoyment and realization of human rights or to justify censorship, including through vague and overly broad laws criminalizing disinformation, and that all policies or legislation undertaken to counter disinformation must be in compliance with States’ obligations under international human rights law, including the requirement that any restrictions on freedom of expression comply with the principles of legality and necessity, </p>
+      </container>
+      <container name="Emphasizing" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">		Emphasizing</span> that disinformation campaigns can be used to vilify individuals and groups, to exacerbate social divisions, to sow discord, to polarize societies, to spread hatred, misogyny, negative stereotyping, stigmatization, racism, racial discrimination, xenophobia and related intolerance and to incite violence, discrimination and hostility, and expressing particular concern at instances of incitement to crimes against humanity and other violations or abuses of human rights, </p>
+      </container>
+      <container name="Emphasizing also" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">		Emphasizing also </span>that disinformation is a threat to democracy that can suppress political engagement, including by engendering or deepening distrust towards democratic institutions and processes, including electoral processes, particularly in this global election year, and hinder the realization of informed participation in political and public affairs,</p>
+      </container>
+      <container name="Recognizing" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>the importance of protecting the space for scientific inquiry and evidence-based debate and decision-making for the enjoyment of the benefits of scientific progress and the need to address, in a manner that complies with international human rights law, targeted disinformation campaigns to discredit scientific research,</p>
+      </container>
+      <container name="Concerned" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">		Concerned</span> that the rapid evolution of generative artificial intelligence technologies could increase the speed and scale of information manipulation and the dissemination of disinformation and misinformation, and that advances may further facilitate the effectiveness thereof, eroding trust within societies, with potential adverse effects on electoral processes and public trust in democratic systems, while acknowledging many opportunities that new technologies, such as artificial intelligence, might provide for effective responses to disinformation and misinformation if used in compliance with international human rights law, </p>
+      </container>
+      <container name="Recognizing with concern" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing with concern </span>that online disinformation campaigns, particularly based on non‑consensual intimate content, and synthetic media are increasingly being used to deter women and girls from participating in the public sphere, and that women journalists, women politicians, women and girl human rights defenders and advocates for women’s rights and gender equality are particularly targeted, </p>
+      </container>
+      <container name="Noting with concern" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">		Noting with concern</span> that digital divides, including the gender digital divide, which disproportionately affect women and girls, may make those affected persons more vulnerable to disinformation than others and can amplify the negative impact of disinformation on their enjoyment and the realization of their human rights, </p>
+      </container>
+      <container name="Reaffirming" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming</span> the essential role that the exercise of the right to freedom of opinion and expression and full respect for the freedom to seek, receive and impart information play in strengthening democracy, promoting pluralism and multiculturalism, enhancing transparency and media freedom and countering disinformation, and that the exercise of the right to freedom of expression carries with it special duties and responsibilities, in accordance with article 19 of the International Covenant on Civil and Political Rights,</p>
+      </container>
+      <container name="Recognizing" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing</span> the importance of safeguarding free, independent, plural and diverse media, of ensuring the safety of journalists and media workers online and offline and of providing and promoting access to independent, factual and evidence-based information to counter disinformation,</p>
+      </container>
+      <container name="Recognizing also" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing also </span>the importance of the accessibility and availability of information and means of communication, as well as information and communications technology, systems and formats, to ensuring that all persons, in all their diversity, including persons with disabilities, are able to enjoy their right to freedom of expression, including the freedom to seek, receive and impart information, on an equal basis with others, without which persons with disabilities may be at an increased risk of the negative impact of disinformation,</p>
+      </container>
+      <container name="Noting" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">		Noting</span> that disinformation is part of a broader set of challenges that can accompany the development and use of information and communications technology, such as arbitrary or unlawful surveillance, technology-facilitated gender-based violence, sexual harassment and malign cyber activities, and can pose a threat to the enjoyment and realization of human rights, </p>
+      </container>
+      <container name="Recognizing" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing</span> a primary responsibility of States, as the main duty bearers, to promote and protect human rights online and offline, and the importance of their support to relevant multi-stakeholder efforts that strengthen the resilience of societies against the negative impact of disinformation at all levels, in particular through the development of media and information literacy, digital competencies for all, intercultural understanding, fact-checking and transparent and accountable technological solutions, </p>
+      </container>
+      <container name="Emphasizing" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">		Emphasizing</span> the role of States in promoting access to diverse and reliable information to counter disinformation, including by increasing their own transparency, proactively disclosing official data online and offline and reaffirming the commitment to media diversity and independence, and in ensuring the protection of the right to freedom of opinion and expression, including the freedom to seek, receive and impart information and ideas of all kinds, through any media,</p>
+      </container>
+      <container name="Expressing deep concern" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">		Expressing deep concern</span> at State restrictions on the freedom to seek, receive and impart information and the dissemination of disinformation through State institutions or proxies to promote false narratives, control public debate and limit the exercise of the rights to freedom of opinion and expression and to peaceful assembly,</p>
+      </container>
+      <container name="Stressing" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing</span> that the spread of disinformation often can be a transnational phenomenon and may be used by States and State-sponsored actors as part of hybrid influence operations that exploit and undermine the freedom of societies, and can accompany serious violations of international law,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">		Deeply concerned</span> about disinformation campaigns that are being used to aggravate or sustain violence, exacerbate human suffering, feed or incite hatred, and dehumanize individuals or groups in vulnerable situations, including in the context of armed conflict and when contrary to international humanitarian law,</p>
+      </container>
+      <container name="Strongly condemning" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">		Strongly condemning</span> the use of Internet shutdowns and restrictions to intentionally prevent or disrupt access to, or the dissemination of, information online, including as a means of countering disinformation, and stressing the importance of a free, open, interoperable, reliable and secure Internet,</p>
+      </container>
+      <container name="Underlining" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">		Underlining</span> that countering disinformation requires multidimensional and multi-stakeholder responses that are in compliance with international human rights law and the proactive engagement of international organizations, States, civil society, human rights defenders, academia, independent regulators and the private sector, including the media, online platforms and social media and technology companies, and that States are in a unique position to promote and facilitate cooperation among the parties involved,</p>
+      </container>
+      <container name="Emphasizing" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">		Emphasizing </span>the importance of information integrity online as a means to respond to the spread of disinformation online, in a way that is consistent with international law, including international human rights law, </p>
+      </container>
+      <container name="Recalling" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> article 20, paragraph 2 of the International Covenant on Civil and Political Rights, which states that any advocacy of national, racial or religious hatred that constitutes incitement to discrimination, hostility or violence shall be prohibited by law,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Affirms</span> that disinformation can negatively affect the enjoyment and realization of all human rights, and that States play a central role in countering disinformation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States to ensure that their responses to the spread of disinformation comply with international human rights law and that their efforts to counter disinformation promote, protect and respect individuals’ freedom of expression and freedom to seek, receive and impart information, as well as other human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> States to facilitate an environment supportive of countering disinformation through multidimensional and multi-stakeholder responses that are in compliance with international human rights law, including through enhanced cooperation with international organizations, civil society, the media, the private sector and other stakeholders;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> States to encourage business enterprises, including social media companies, to address disinformation while respecting human rights, including through the review of business models, in particular the role of algorithms and ranking systems in amplifying disinformation, enhancing transparency, enforcing all applicable legal protections for users and encouraging due diligence in line with the Guiding Principles on Business and Human Rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all States to refrain from conducting or sponsoring disinformation campaigns domestically or transnationally for political or other purposes, and encourages them to condemn such acts;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Commits</span> to the promotion of international cooperation to counter the negative impact of disinformation on the enjoyment and realization of human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Invites States</span> to improve access to diverse and verifiable sources of information, including through robust laws and policies that protect and enable access to information, transparency of governance and the promotion of independent, free, plural and diverse media, and to take measures to close digital divides, including the gender digital divide, and to ensure the safety of journalists and media workers online and offline; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Urges </span>States, civil society, industry, international organizations, the media and other stakeholders to recognize the compounding risks that disinformation could introduce to electoral and other democratic processes, and to work in a cross-sectoral manner to develop practical strategies, including through media and information literacy, to mitigate risks while ensuring the full enjoyment of human rights and freedoms; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Human Rights Council Advisory Committee to conduct a study and to prepare a report on the impact of disinformation on the enjoyment and realization of human rights, and to present it to the Human Rights Council at its sixty-first session; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Office of the United Nations High Commissioner for Human Rights, in consultation with the Special Rapporteur on the promotion and protection of the right to freedom of opinion and expression, to convene, before the fifty-ninth session of the Human Rights Council, a half-day expert workshop, open to the participation of States, members of civil society and the private sector, United Nations experts and all relevant stakeholders, to review the methods used to disseminate disinformation and to promote tools and approaches to counter these challenges while protecting and reinforcing human rights standards, and to make the workshop fully accessible to persons with disabilities, and requests the Advisory Committee to present an oral update on its preparation of the above-mentioned report during the expert workshop; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">Also requests</span> the Office of the High Commissioner to submit a summary report on the expert workshop to the Human Rights Council at its sixty-first session; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>to remain seized of the matter. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="53rd" refersTo="#adoptionMeeting">53rd meeting</location>
+          <eol />
+          <docDate date="2024-04-03" refersTo="#adoptionDate">3 April 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
