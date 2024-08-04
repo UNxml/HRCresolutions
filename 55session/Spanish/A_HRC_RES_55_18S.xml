@@ -1,0 +1,275 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-18/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-18/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-18/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-18/spa@/"></FRBRuri>
+          <FRBRdate date="2024-04-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-18/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-18/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Independent Expert on the Enjoyment of Human Rights by Persons with Albinism" showAs="UN. Human Rights Council. Independent Expert on the Enjoyment of Human Rights by Persons with Albinism" dictionary="DHLAUTH"></keyword>
+        <keyword value="ALBINISM" href="http://metadata.un.org/thesaurus/1000225" showAs="ALBINISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT TO HEALTH" href="http://metadata.un.org/thesaurus/1005560" showAs="RIGHT TO HEALTH" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-28" outcome="draftResolution" as="A/HRC/55/L.33/Rev.1" by="Albania, Andorra, Belgium, Costa Rica, Cyprus, Denmark, Finland, France, Gambia, Ireland, Italy, Lithuania, Luxembourg, Malta, Netherlands (Kingdom of the), Portugal, Slovakia, Slovenia, Spain and Sweden" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-08" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-08" outcome="adopted" as="Adopted without vote, 54th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="spanish" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/18</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-08" class="rightSmall" refersTo="#dateOfIssuance">8 de abril de 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">55º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 febrero</date>
+          <date date="2024-04-05" refersTo="#endDate">5 abril 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Tema 3 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promoción y protección de todos los derechos humanos, civiles, políticos, económicos, sociales y culturales, incluido el derecho al desarrollo</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos el 4 de abril de 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/18.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Mandato del Experto Independiente sobre el disfrute de los derechos humanos de las personas con albinismo</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Guiado" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Guiado </span>por los propósitos y principios de la Carta de las Naciones Unidas,</p>
+      </container>
+      <container name="Guiado también" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Guiado también</span> por la Declaración Universal de Derechos Humanos y recordando los tratados internacionales de derechos humanos pertinentes, en particular el Pacto Internacional de Derechos Civiles y Políticos, el Pacto Internacional de Derechos Económicos, Sociales y Culturales, la Convención sobre los Derechos de las Personas con Discapacidad, la Convención contra la Tortura y Otros Tratos o Penas Crueles, Inhumanos o Degradantes, la Convención Internacional sobre la Eliminación de Todas las Formas de Discriminación Racial, la Convención sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer y la Convención sobre los Derechos del Niño,</p>
+      </container>
+      <container name="Reafirmando" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>que todo individuo tiene derecho a la vida, a la libertad y a la seguridad de su persona y que nadie será sometido a torturas ni a otros tratos o penas crueles, inhumanos o degradantes,</p>
+      </container>
+      <container name="Recordando" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>la universalidad, indivisibilidad, interdependencia e interrelación de todos los derechos humanos y la necesidad de garantizar a las personas con albinismo el pleno disfrute de sus derechos y libertades sin discriminación,</p>
+      </container>
+      <container name="Recordando también" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recordando también </span>sus resoluciones 5/1, relativa a la construcción institucional del Consejo de Derechos Humanos, y 5/2, relativa al Código de Conducta para los Titulares de Mandatos de los Procedimientos Especiales del Consejo, de 18 de junio de 2007, y destacando que todos los titulares de mandatos deberán desempeñar sus funciones de conformidad con esas resoluciones y sus anexos,</p>
+      </container>
+      <container name="Recordando además" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recordando además</span> la Declaración y el Programa de Acción de Viena, y recordando también los derechos de toda persona al disfrute del más alto nivel posible de salud física y mental y a la educación, consagrados en el Pacto Internacional de Derechos Económicos, Sociales y Culturales y otros tratados internacionales de derechos humanos pertinentes,</p>
+      </container>
+      <container name="Profundamente preocupado" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Profundamente preocupado </span>porque, en distintas partes del mundo, las personas con albinismo siguen encontrando barreras para participar en la sociedad en igualdad de condiciones con los demás y siguen sufriendo violaciones y vulneraciones de sus derechos humanos, y consciente de que urge prestar mayor atención a esos problemas,</p>
+      </container>
+      <container name="Expresando gran preocupación" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Expresando gran preocupación </span>por el hecho de que se siguen cometiendo ataques y actos de violencia generalizados contra las personas con albinismo, en particular las mujeres y quienes se encuentran en situación de vulnerabilidad, como los niños, las personas que además tienen una discapacidad y las personas mayores,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito</span> todas las iniciativas y medidas adoptadas por todos los Estados para abordar y combatir todas las formas de violencia y discriminación contra las personas con albinismo,</p>
+      </container>
+      <container name="Acogiendo con beneplácito también" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito también</span>, a este respecto, la labor que está llevando a cabo la Experta Independiente para combatir las prácticas nocivas relacionadas con las acusaciones de brujería y los ataques rituales como una de las causas fundamentales de las violaciones y vulneraciones de los derechos humanos perpetradas contra las personas con albinismo, y para colaborar con las partes interesadas y realizar estudios analíticos con el fin de que los Estados puedan adoptar medidas eficaces,</p>
+      </container>
+      <container name="Invitando" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Invitando </span>a los Estados a que implementen de forma efectiva la Agenda 2030 para el Desarrollo Sostenible y su principio de no dejar a nadie atrás, y exhortándolos a que lleguen primero a los más rezagados, incluidas las personas con albinismo,</p>
+      </container>
+      <container name="Exhortando" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Exhortando </span>a los Estados a que garanticen la rendición de cuentas llevando a cabo investigaciones imparciales, prontas y efectivas de las agresiones a personas con albinismo, enjuicien a los responsables y velen por que los supervivientes y sus familiares tengan acceso a vías de reparación adecuadas,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito </span>las consultas realizadas por la Experta Independiente con las partes interesadas pertinentes en diversas regiones, entre ellas África, que en lo tocante a África culminaron con la elaboración de un plan de acción regional para poner fin a las vulneraciones cometidas contra las personas con albinismo y el posterior Plan de Acción de la Unión Africana para la Eliminación de los Ataques y Otras Violaciones de los Derechos Humanos Contra las Personas con Albinismo en África (2021-2031) como política para todo el continente,</p>
+      </container>
+      <container name="Observando con aprecio" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Observando con aprecio </span>la labor llevada a cabo por la Experta Independiente para preparar estudios analíticos y celebrar debates sobre las prácticas nocivas relacionadas con las acusaciones de brujería y los ataques rituales como un riesgo especial para las personas con albinismo en algunos países y una de las causas fundamentales de los ataques perpetrados contra ellas, así como los logros que ha obtenido en ese ámbito,</p>
+      </container>
+      <container name="Tomando nota con aprecio" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Tomando nota con aprecio</span> de los informes más recientes de la Experta Independiente para velar por que no se deje atrás a las personas con albinismo en los debates concernientes al disfrute de sus derechos, a saber, el informe presentado al Consejo de Derechos Humanos, relativo a los defensores de los derechos humanos con albinismo y/o que se ocupan del albinismo<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="http://undocs.org/sp/A/HRC/52/36">A/HRC/52/36</a>.</p></authorialNote>, y el informe presentado a la Asamblea General, relativo a las personas con albinismo en movimiento<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/sp/A/77/199">A/77/199</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Recordando" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>todas las resoluciones anteriores aprobadas por la Asamblea General y el Consejo de Derechos Humanos sobre el disfrute de los derechos humanos de las personas con albinismo,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Encomia </span>a la Experta Independiente sobre el disfrute de los derechos humanos de las personas con albinismo por la importante labor realizada para poner fin a los ataques contra las personas con albinismo y llevar a cabo actividades de concienciación al respecto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota con aprecio </span>del informe temático de la Experta Independiente relativo a los efectos del cambio climático en las personas con albinismo<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="http://undocs.org/sp/A/78/167">A/78/167</a>.</p></authorialNote>, en el que la titular del mandato destacó el aumento previsto de la incidencia del cáncer de piel, que afecta en especial a las personas con albinismo a causa de su susceptibilidad al cáncer de piel, y, a este respecto, exhorta a los Estados a que redoblen los esfuerzos para garantizar el derecho al disfrute del más alto nivel posible de salud física y mental de las personas con albinismo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados a que, en colaboración con la Organización Mundial de la Salud, adopten medidas eficaces para hacer frente a los efectos del cambio climático sobre la salud de las personas con albinismo, con miras a hacer efectivo su derecho al disfrute del más alto nivel posible de salud física y mental, en particular en lo que respecta a la alarmante incidencia del cáncer de piel en esta población, y a que apliquen las recomendaciones que formuló a este respecto la Experta Independiente en su informe;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota con aprecio </span>del informe temático de la Experta Independiente<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<a href="http://undocs.org/sp/A/HRC/55/45">A/HRC/55/45</a>.</p></authorialNote>, en el que la titular del mandato se ocupa, en particular, del derecho a la educación de las personas con albinismo y la importancia de eliminar los obstáculos al disfrute del derecho a la educación y de asegurar ajustes razonables para las personas con albinismo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>prorrogar el mandato de Experto Independiente sobre el disfrute de los derechos humanos de las personas con albinismo por un período de tres años, en los mismos términos previstos por el Consejo de Derechos Humanos en su resolución 46/12, de 23 de marzo de 2021;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al o la titular del mandato de Experto Independiente que incorpore perspectivas que tengan en cuenta la edad y el género, y sean inclusivas de la discapacidad, en todas las actividades de su mandato y preste especial atención a los problemas y las necesidades de las mujeres y las niñas a fin de hacer frente a las formas múltiples e interseccionales de discriminación que afrontan las mujeres y las niñas con albinismo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Invita </span>al o la titular del mandato de Experto Independiente a que preste atención a los desafíos y a las necesidades específicos de las personas con albinismo en todos los países, y a que se ocupe de los desafíos y las necesidades específicos de las personas con albinismo que viven en países de renta baja;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a todos los Estados a que cooperen plenamente con el o la titular del mandato de Experto Independiente en el desempeño de su mandato y a que consideren seriamente la posibilidad de dar una respuesta favorable a las solicitudes que les haga para visitar sus respectivos países, así como a que contemplen la aplicación de sus recomendaciones, le suministren toda la información necesaria en relación con su mandato y atiendan con prontitud sus comunicaciones y llamamientos urgentes a fin de que pueda cumplir eficazmente su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a las Naciones Unidas y sus organismos especializados, así como a las organizaciones regionales, las instituciones nacionales de derechos humanos, los expertos independientes, las organizaciones no gubernamentales —incluidas las organizaciones de personas con albinismo y sus familias—, el sector privado —en particular las empresas sociales— y las demás partes interesadas pertinentes, a que cooperen en la mayor medida posible con el o la titular del mandato de Experto Independiente en el desempeño de su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Secretario General y al Alto Comisionado de las Naciones Unidas para los Derechos Humanos que faciliten al o la titular del mandato de Experto Independiente todos los recursos humanos y financieros necesarios para el cumplimiento efectivo de su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>seguir examinando esta cuestión con arreglo a su programa de trabajo anual.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="54ª" refersTo="#adoptionMeeting">54ª sesión</location>
+          <eol />
+          <docDate date="2024-04-04" refersTo="#adoptionDate">4 de abril de 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

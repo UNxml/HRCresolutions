@@ -1,0 +1,377 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/spa@/"></FRBRuri>
+          <FRBRdate date="2024-04-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Programme of Action on a Culture of Peace (1999)" showAs="Programme of Action on a Culture of Peace (1999)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Declaration on a Culture of Peace (1999)" showAs="Declaration on a Culture of Peace (1999)" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACE" href="http://metadata.un.org/thesaurus/1004769" showAs="PEACE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEBUILDING" href="http://metadata.un.org/thesaurus/1004776" showAs="PEACEBUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EDUCATION FOR PEACE" href="http://metadata.un.org/thesaurus/1001894" showAs="EDUCATION FOR PEACE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" href="http://metadata.un.org/thesaurus/1001219" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-25" outcome="draftResolution" as="A/HRC/55/L.31" by="Bangladesh, Botswana, Chile, Colombia, Côte d’Ivoire, Dominican Republic, Ecuador, Gambia, Kazakhstan, Lesotho, Luxembourg, Malawi, Mozambique, Panama, Peru, South Sudan and Sudan" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-08" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-08" outcome="adopted" as="Adopted without vote, 54th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="spanish" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/17</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-08" class="rightSmall" refersTo="#dateOfIssuance">8 de abril de 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">55º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 febrero</date>
+          <date date="2024-04-05" refersTo="#endDate">5 abril 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Tema 3 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promoción y protección de todos los derechos humanos,  civiles, políticos, económicos, sociales y culturales,  incluido el derecho al desarrollo</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos  el 4 de abril de 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/17.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Derechos humanos y cultura de paz</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Guiado" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guiado </span>por los propósitos y principios de la Carta de las Naciones Unidas,</p>
+      </container>
+      <container name="Recordando" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Recordando </span>la Declaración Universal de Derechos Humanos, el Pacto Internacional de Derechos Civiles y Políticos, el Pacto Internacional de Derechos Económicos, Sociales y Culturales y otros instrumentos internacionales de derechos humanos pertinentes,</p>
+      </container>
+      <container name="Recordando también" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Recordando también </span>la Declaración y el Programa de Acción de Viena, la Declaración del Milenio de las Naciones Unidas, la Agenda 2030 para el Desarrollo Sostenible, la Declaración y la Plataforma de Acción de Beijing, la Declaración y el Programa de Acción de Durban y otras declaraciones pertinentes de las Naciones Unidas,</p>
+      </container>
+      <container name="Recordando además" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Recordando además</span> la resolución 53/243 de la Asamblea General, de 6 de octubre de 1999, relativa a la Declaración y el Programa de Acción sobre una Cultura de Paz, otras resoluciones pertinentes de la Asamblea, en particular las resoluciones 77/32, de 6 de diciembre de 2022, sobre el Año Internacional del Diálogo como Garantía de Paz (2023), y 77/296, de 14 de junio de 2023, sobre el seguimiento de la Declaración y el Programa de Acción sobre una Cultura de Paz, y todas las demás resoluciones pertinentes de las Naciones Unidas,</p>
+      </container>
+      <container name="Recordando" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Recordando </span>la resolución 71/189 de la Asamblea General, de 19 de diciembre de 2016, relativa a la Declaración sobre el Derecho a la Paz, y todas las demás resoluciones anteriores sobre el derecho a la paz aprobadas por la Asamblea, la Comisión de Derechos Humanos y el Consejo de Derechos Humanos,</p>
+      </container>
+      <container name="Recordando también" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Recordando también</span> la Declaración sobre el Derecho al Desarrollo, en particular sus artículos 5 y 7, aprobada por la Asamblea General en su resolución 41/128, de 4 de diciembre de 1986,</p>
+      </container>
+      <container name="Recordando además" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Recordando además</span> los diversos Foros de Alto Nivel de la Asamblea General sobre la Cultura de Paz, convocados por los Presidentes de la Asamblea, así como la labor de la Asamblea en la aplicación del Programa de Acción sobre una Cultura de Paz,</p>
+      </container>
+      <container name="Recordando" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Recordando </span>las resoluciones de la Asamblea General 66/137, de 19 de diciembre de 2011, relativa a la Declaración de las Naciones Unidas sobre Educación y Formación en materia de Derechos Humanos, y 72/130, de 8 de diciembre de 2017, en la que la Asamblea declaró el 16 de mayo Día Internacional de la Convivencia en Paz,</p>
+      </container>
+      <container name="Recordando también" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Recordando también</span> la resolución 2625 (XXV) de la Asamblea General, de 24 de octubre de 1970, relativa a la Declaración sobre los Principios de Derecho Internacional referentes a las Relaciones de Amistad y a la Cooperación entre los Estados de conformidad con la Carta de las Naciones Unidas,</p>
+      </container>
+      <container name="Tomando nota" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Tomando nota</span> de la Recomendación sobre la Educación para la Paz y los Derechos Humanos, la Comprensión Internacional, la Cooperación, las Libertades Fundamentales, la Ciudadanía Mundial y el Desarrollo Sostenible, aprobada por unanimidad por la Conferencia General de la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura el 20 de noviembre de 2023,</p>
+      </container>
+      <container name="Recordando" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Recordando </span>que la paz y la seguridad, el desarrollo y los derechos humanos son los pilares del sistema de las Naciones Unidas y los cimientos de la seguridad y el bienestar colectivos, reconociendo que la paz y la seguridad, el desarrollo y los derechos humanos están interrelacionados y se refuerzan mutuamente, y subrayando que la ausencia de paz aumenta la probabilidad de que se cometan abusos y violaciones de los derechos humanos y que el desarrollo de una cultura de paz está vinculado a la efectividad de todos los derechos humanos para todos,</p>
+      </container>
+      <container name="Reafirmando" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Reafirmando </span>que la cultura de paz es un conjunto de valores, actitudes, tradiciones, comportamientos y estilos de vida basados en, entre otras cosas, el respeto de la vida, la no discriminación, el fin de la violencia y la promoción y práctica de la no violencia mediante la educación, el diálogo y la cooperación, y el respeto pleno y la promoción de todos los derechos humanos y las libertades fundamentales, fomentados por un entorno nacional e internacional propicio para la paz,</p>
+      </container>
+      <container name="Reconociendo" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>que el desarrollo de una cultura de paz está íntegramente ligado al respeto por el fomento de la comprensión, la tolerancia y la solidaridad entre todas las civilizaciones, personas y culturas, incluidas las personas pertenecientes a minorías nacionales o étnicas, religiosas y lingüísticas, y que una cultura de paz y la educación de la humanidad para la justicia, la libertad, el respeto mutuo y la paz están interrelacionadas y se refuerzan mutuamente en lo que respecta a la dignidad de los seres humanos y la plena efectividad de todos los derechos humanos para todos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>que la paz no solo es la ausencia de conflictos, sino que también requiere un proceso inclusivo, positivo, dinámico y participativo en el que se promueva el diálogo intersectorial y se prevengan y resuelvan los conflictos en un espíritu de entendimiento y cooperación mutuos,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Reconociendo también</span> que la responsabilidad primordial de respetar, proteger y hacer efectivos los derechos humanos incumbe a los Estados, y que todos los Estados tienen un papel que desempeñar en la promoción y el fortalecimiento de una cultura de paz,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Poniendo de relieve </span>que el empoderamiento de las mujeres y las niñas y la igualdad de género inciden de forma decisiva en los esfuerzos por desarrollar una cultura de paz y que la participación plena, igualitaria, significativa y segura de las mujeres, así como de las niñas en función de su edad y madurez, es uno de los factores esenciales para el mantenimiento y la promoción de la paz y la seguridad internacionales, incluso en la planificación y la toma de decisiones en todas las etapas de los procesos de paz, la prevención y resolución de conflictos, la mediación, la reconstrucción después de los conflictos, la reconciliación, el mantenimiento de la paz, el establecimiento de la paz y la consolidación de la paz,</p>
+      </container>
+      <container name="Poniendo de relieve también" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Poniendo de relieve también</span> el importante papel que desempeñan los jóvenes en la promoción y el fortalecimiento de una cultura de paz, la prevención y resolución de conflictos, el desarrollo sostenible y los derechos humanos, y la importancia de que los jóvenes puedan participar de manera activa, amplia, plena, igualitaria, significativa y segura en todos los niveles pertinentes de adopción de decisiones y en la aplicación de los procesos de paz, la prevención y resolución de conflictos, la mediación, la reconstrucción después de los conflictos, la reconciliación, el mantenimiento de la paz, el establecimiento de la paz y la consolidación de la paz, y de que dispongan de espacios seguros para participar y de financiación específica para realizar su trabajo,</p>
+      </container>
+      <container name="Reconociendo" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>el importante vínculo que existe entre la promoción y el fortalecimiento de una cultura de paz, la plena efectividad de todos los derechos humanos para todos y la consecución de los Objetivos de Desarrollo Sostenible y sus metas,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Reconociendo también</span> que el racismo, la discriminación racial, la xenofobia y las formas conexas de intolerancia y la incitación al odio impiden la coexistencia pacífica y la armonía en las sociedades,</p>
+      </container>
+      <container name="Reafirmando" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Reafirmando </span>la importancia de la prevención de la violencia y los conflictos armados, de conformidad con los propósitos y principios de la Carta, para la promoción y el fortalecimiento de una cultura de paz y la plena efectividad de todos los derechos humanos para todos,</p>
+      </container>
+      <container name="Expresando profunda preocupación" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Expresando profunda preocupación</span> por la persistencia y la proliferación generalizadas de la violencia y los conflictos armados en el mundo, poniendo de relieve la urgencia de abordar sus causas profundas y destacando que solo las soluciones pacíficas pueden garantizar un futuro estable para todos,</p>
+      </container>
+      <container name="Haciendo notar" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Haciendo notar</span> el aumento de la desinformación, la información errónea, el discurso de odio y el acoso en línea en todo el mundo, que amenazan el disfrute y la efectividad plenos de todos los derechos humanos para todos y la promoción y el fortalecimiento de una cultura de paz, y reconociendo que es necesario redoblar los esfuerzos para mejorar la integridad de la información y la alfabetización mediática e informacional a nivel mundial,</p>
+      </container>
+      <container name="Reconociendo" eId="container_24">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>que la participación de la sociedad civil y de las instituciones nacionales de derechos humanos puede fomentar la participación democrática al reforzar la capacidad civil de mejorar la seguridad de las poblaciones vulnerables y promover el arreglo pacífico de las controversias, favoreciendo así la promoción de una cultura de paz, y acogiendo con beneplácito el importante papel y la contribución de la sociedad civil, incluidas las organizaciones de defensa de los derechos de las mujeres, las organizaciones dirigidas por jóvenes y las organizaciones que trabajan por la paz, las personas que se dedican a la consolidación de la paz, las instituciones nacionales de derechos humanos, el mundo académico y otras partes interesadas en la promoción y protección de todos los derechos humanos para todos, así como las importantes contribuciones que pueden realizar a la consolidación y la conservación de la paz, y al fortalecimiento de una cultura de paz,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_25">
+        <p xml:space="preserve"> <span class="italic">Reconociendo también</span> que la promoción de los derechos humanos y una cultura de la paz mediante la educación, incluidas la educación y la capacitación en derechos humanos, es un objetivo que deben promover todos los Estados en cooperación con la sociedad civil, incluidas las organizaciones no gubernamentales y los particulares, y que la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos y los mecanismos del sistema de derechos humanos de las Naciones Unidas tienen un importante papel que desempeñar a este respecto,</p>
+      </container>
+      <container name="Destacando" eId="container_26">
+        <p xml:space="preserve"> <span class="italic">Destacando </span>la necesidad de que los Estados, el sistema de las Naciones Unidas y otras organizaciones internacionales pertinentes asignen recursos a programas destinados a fortalecer una cultura de paz y a apoyar la concienciación sobre los derechos humanos mediante la formación, la enseñanza y la educación,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorta</span> a todos los Estados a que garanticen la plena efectividad de todos los derechos humanos y refuercen y promuevan una cultura de paz;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorta también</span> a todos los Estados a que reafirmen su compromiso con la paz y adopten medidas eficaces para mantener y promover la paz y la seguridad, el desarrollo y los derechos humanos, de conformidad con los propósitos y principios consagrados en la Carta de las Naciones Unidas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorta además</span> a todos los Estados a que apoyen y promuevan la Declaración y el Programa de Acción sobre una Cultura de Paz y a que hagan todo lo posible para promover y fortalecer una cultura de paz mediante la adopción de medidas apropiadas y eficaces en los planos nacional, regional e internacional, de conformidad con el derecho internacional de los derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="italic">Alienta </span>a todas las organizaciones internacionales pertinentes, incluidos los órganos de las Naciones Unidas, las organizaciones regionales y las organizaciones intergubernamentales y no gubernamentales, a que promuevan y apoyen la Declaración y el Programa de Acción sobre una Cultura de Paz y a que hagan todo lo posible para contribuir a la promoción y el fortalecimiento de una cultura de paz mediante la adopción de medidas apropiadas y eficaces, de conformidad con sus respectivos mandatos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> 	<span class="italic">Insta </span>a todos los Estados a que tengan en cuenta, en sus políticas nacionales de derechos humanos pertinentes, un enfoque que integre la promoción de una cultura de paz y a que garanticen que los esfuerzos desplegados en este sentido sean inclusivos, respondan a las necesidades de las personas afectadas y estén en consonancia con el derecho internacional de los derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve"> 	<span class="italic">Invita </span>a los Estados y a todos los interesados pertinentes, entre ellos las organizaciones internacionales y regionales, incluidos los órganos, organismos especializados, fondos y programas de las Naciones Unidas, en el marco de sus respectivos mandatos, los mecanismos internacionales de derechos humanos, las instituciones nacionales de derechos humanos, la sociedad civil y el sector privado, a que apoyen y promuevan las sinergias entre una cultura de paz y la promoción y protección de todos los derechos humanos para todos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorta </span>a todos los Estados a que garanticen que todas las personas, incluidas las pertenecientes a minorías nacionales o étnicas, religiosas y lingüísticas, tengan la oportunidad de contribuir a la promoción y el fortalecimiento de una cultura de paz;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve"> 	<span class="italic">Alienta </span>a los Estados y a las organizaciones regionales e internacionales a que reconozcan y apoyen el importante papel que desempeñan las instituciones nacionales de derechos humanos y la sociedad civil, incluidas las organizaciones dirigidas por mujeres y jóvenes, para que se impliquen plenamente en la promoción y el fortalecimiento de una cultura de paz y la educación en derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve"> 	<span class="italic">Alienta </span>a todos los Estados y a las organizaciones regionales e internacionales, incluidos los órganos de las Naciones Unidas, en particular la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, las organizaciones intergubernamentales y no gubernamentales y las instituciones nacionales de derechos humanos, a que contribuyan activamente a apoyar la educación para la paz y la educación en derechos humanos como instrumentos para promover una cultura de paz;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorta </span>a todos los Estados a que inviertan en la educación de la primera infancia como contribución fundamental al desarrollo de sociedades más pacíficas, y los insta a que impartan en las escuelas una educación apropiada para cada edad que fomente una cultura de paz y no violencia e incluya lecciones sobre comprensión mutua, respeto, tolerancia y derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorta también </span>a todos los Estados a que garanticen unos medios de comunicación libres, independientes, plurales y diversos y reconozcan y apoyen la función educativa e informativa que desempeñan a la hora de contribuir a la promoción de los derechos humanos y una cultura de paz, construir y apoyar el funcionamiento de sociedades del conocimiento y democracias inclusivas y pacíficas, una ciudadanía informada, el estado de derecho y la participación en los asuntos públicos, exigir responsabilidades a las instituciones y los funcionarios públicos y fomentar el diálogo intercultural, la paz y la buena gobernanza;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorta </span>a todos los Estados y al sistema de las Naciones Unidas a que garanticen la participación plena, igualitaria, significativa y segura de las mujeres y las niñas, así como de los jóvenes, en el fortalecimiento y la promoción de una cultura de paz;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve"> 	<span class="italic">Hace notar con aprecio</span> las iniciativas y medidas prácticas de los organismos competentes de las Naciones Unidas, como la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura, el Fondo de las Naciones Unidas para la Infancia, la Entidad de las Naciones Unidas para la Igualdad de Género y el Empoderamiento de las Mujeres y la Universidad para la Paz, así como sus actividades encaminadas a seguir promoviendo una cultura de paz, en particular la promoción de la educación para la paz y las actividades relacionadas con ámbitos concretos que se señalan en el Programa de Acción sobre una Cultura de Paz, y los alienta a que, en el marco de sus respectivos mandatos, prosigan esa labor, la fortalezcan y la amplíen aún más;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorta </span>a todos los Estados a que fomenten la sensibilización pública sobre la necesidad y el valor de la paz y la relación que existe entre la consecución de la paz y la seguridad, el desarrollo y los derechos humanos, y a que faciliten actividades, conmemoraciones e iniciativas que conciencien a la opinión pública sobre la paz y los derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve"> 	<span class="italic">Invita </span>a todos los órganos creados en virtud de tratados de derechos humanos competentes de las Naciones Unidas y a los procedimientos especiales del Consejo de Derechos Humanos, a los expertos designados, a los grupos de trabajo intergubernamentales y a los mecanismos de expertos, así como a la Oficina del Alto Comisionado, a que sigan teniendo presente el tema de la presente resolución en el marco de sus respectivos mandatos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxtG">
+        <num>16.</num>
+        <list eId="para_147_list">
+          <intro eId="para_147_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Solicita </span>al Alto Comisionado de las Naciones Unidas para los Derechos Humanos que organice en Ginebra dos talleres de media jornada, en un formato híbrido y plenamente accesible, sobre los derechos humanos y una cultura de paz, y que promueva la participación y las aportaciones de los Estados interesados, los organismos, fondos y programas pertinentes de las Naciones Unidas, los mecanismos internacionales de derechos humanos, las instituciones nacionales de derechos humanos, las organizaciones de la sociedad civil, el mundo académico y otros interesados pertinentes, con el fin de:</p>
+          </intro>
+          <point eId="para_147_list_point_a">
+            <num>a)</num>
+            <content eId="para_147_list_point_a_content">
+              <p xml:space="preserve"> 	Compartir experiencias, buenas prácticas, logros, retos y lecciones aprendidas en la aplicación de estrategias que permitan determinar cómo la protección y la promoción de los derechos humanos contribuyen a promover y fortalecer una cultura de paz, y viceversa;</p>
+            </content>
+          </point>
+          <point eId="para_147_list_point_b">
+            <num>b)</num>
+            <content eId="para_147_list_point_b_content">
+              <p xml:space="preserve"> 	Sugerir medidas concretas para movilizar a los Estados y a las organizaciones intergubernamentales y no gubernamentales en la promoción y el fortalecimiento de una cultura de paz y el ejercicio pleno de todos los derechos humanos y proponer medidas que intensifiquen los esfuerzos desplegados a nivel internacional y nacional para desarrollar una cultura de paz y hacer efectivos todos los derechos humanos para todos;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve"> 	<span class="italic">Solicita también </span>al Alto Comisionado que proporcione, para los dos talleres de media jornada mencionados, todos los servicios e instalaciones necesarios para que los debates sean híbridos y plenamente accesibles, y que proporcione servicios de transmisión por Internet para facilitar la participación activa a distancia de las delegaciones interesadas en Nueva York;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve"> 	<span class="italic">Solicita además</span> al Alto Comisionado que elabore un informe resumido de los talleres mencionados, que incluya las recomendaciones que de ellos se deriven, y lo presente al Consejo de Derechos Humanos en su 61<sup>er</sup> período de sesiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve"> 	<span class="italic">Decide </span>celebrar, en su 61<sup>er</sup> período de sesiones, una mesa redonda interactiva de expertos, plenamente accesible a las personas con discapacidad, sobre los derechos humanos y una cultura de paz, abierta a la participación de los Estados interesados, los organismos, fondos y programas pertinentes de las Naciones Unidas, los mecanismos internacionales de derechos humanos, las instituciones nacionales de derechos humanos, las organizaciones de la sociedad civil, el mundo académico y otras partes interesadas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve"> 	<span class="italic">Solicita </span>al Secretario General que señale la presente resolución y el informe mencionado a la atención de todos los Estados para su examen, en particular en el contexto del seguimiento dado por la Asamblea General a la Declaración y el Programa de Acción sobre una Cultura de Paz y del Foro de Alto Nivel de la Asamblea General sobre la Cultura de Paz;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve"> 	<span class="italic">Decide </span>seguir ocupándose de la cuestión.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="54ª" refersTo="#adoptionMeeting">54ª sesión</location>
+          <eol />
+          <docDate date="2024-04-04" refersTo="#adoptionDate">4 de abril de 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
