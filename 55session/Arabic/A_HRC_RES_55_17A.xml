@@ -1,0 +1,378 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/ara@/"></FRBRuri>
+          <FRBRdate date="2024-04-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Programme of Action on a Culture of Peace (1999)" showAs="Programme of Action on a Culture of Peace (1999)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Declaration on a Culture of Peace (1999)" showAs="Declaration on a Culture of Peace (1999)" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACE" href="http://metadata.un.org/thesaurus/1004769" showAs="PEACE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEBUILDING" href="http://metadata.un.org/thesaurus/1004776" showAs="PEACEBUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EDUCATION FOR PEACE" href="http://metadata.un.org/thesaurus/1001894" showAs="EDUCATION FOR PEACE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" href="http://metadata.un.org/thesaurus/1001219" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-25" outcome="draftResolution" as="A/HRC/55/L.31" by="Bangladesh, Botswana, Chile, Colombia, Côte d’Ivoire, Dominican Republic, Ecuador, Gambia, Kazakhstan, Lesotho, Luxembourg, Malawi, Mozambique, Panama, Peru, South Sudan and Sudan" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-08" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-08" outcome="adopted" as="Adopted without vote, 54th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/17</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-08" class="rightSmall" refersTo="#dateOfIssuance">8 April 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic"> Arabic </inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">الدورة الخامسة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 شباط</date>
+          <date date="2024-04-05" refersTo="#endDate">5 نيسان 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 4 نيسان/أبريل 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/17</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	حقوق الإنسان وثقافة السلام</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى الإعلان العالمي لحقوق الإنسان، والعهد الدولي الخاص بالحقوق المدنية والسياسية، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، وجميع الاتفاقيات والصكوك الدولية الأخرى ذات الصلة بحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى إعلان وبرنامج عمل فيينا، وإعلان الأمم المتحدة بشأن الألفية، وخطة التنمية المستدامة لعام 2030، وإعلان ومنهاج عمل بيجين، وإعلان وبرنامج عمل ديربان، وغير ذلك من إعلانات الأمم المتحدة ذات الصلة،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير كذلك</span> إلى قرار الجمعية العامة 53/243 المؤرخ 6 تشرين الأول/أكتوبر 1999 بشأن الإعلان وبرنامج العمل المتعلقين بثقافة السلام، وإلى قرارات الجمعية العامة الأخرى ذات الصلة، ولا سيما القرار 77/32 المؤرخ 6 كانون الأول/ديسمبر 2022 بشأن السنة الدولية للحوار كضمان للسلام، 2023، والقرار 77/296 المؤرخ 14 حزيران/يونيه 2023 بشأن متابعة تنفيذ الإعلان وبرنامج العمل المتعلقين بثقافة السلام، وإلى جميع قرارات الأمم المتحدة الأخرى ذات الصلة،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى قرار الجمعية العامة 71/189 المؤرخ 19 كانون الأول/ديسمبر 2016 بشأن إعلان الحق في السلام، وإلى جميع القرارات السابقة الأخرى بشأن الحق في السلام التي اعتمدتها الجمعية العامة، ولجنة حقوق الإنسان، ومجلس حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى إعلان الحق في التنمية، ولا سيما المادتان 5 و7 منه، الذي اعتمدته الجمعية العامة في قرارها 41/128 المؤرخ 4 كانون الأول/ديسمبر 1986،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير كذلك</span> إلى مختلف المنتديات الرفيعة المستوى للجمعية العامة بشأن ثقافة السلام، التي عقدها رؤساء الجمعية، وإلى أعمال الجمعية العامة في مجال تنفيذ برنامج العمل المتعلق بثقافة السلام،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى قرار الجمعية العامة 66/137 المؤرخ 19 كانون الأول/ديسمبر 2011 المتعلق بـإعلان الأمم المتحدة للتثقيف والتدريب في ميدان حقوق الإنسان، وقرار الجمعية 72/130 المؤرخ 8 كانون الأول/ديسمبر 2017، الذي أعلنت فيه الجمعية يوم 16 أيار/مايو يوماً دولياً للعيش معاً في سلام،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى قرار الجمعية العامة 2625(د-25) المؤرخ 24 تشرين الأول/أكتوبر 1970، بشأن إعلان مبادئ القانون الدولي المتعلقة بالعلاقات الودية والتعاون بين الدول وفقاً لميثاق الأمم المتحدة،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يحيط علماً</span> بالتوصية الخاصة بالتربية والتعليم من أجل السلام وحقوق الإنسان والتفاهم الدولي والتعاون والحريات الأساسية والمواطَنة العالمية والتنمية المستدامة، التي اعتمدها المؤتمر العام لمنظمة الأمم المتحدة للتربية والعلم والثقافة بالإجماع في 20 تشرين الثاني/نوفمبر 2023،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى أن السلام والأمن والتنمية وحقوق الإنسان تمثل الدعائم التي تقوم عليها منظومة الأمم المتحدة والأسس اللازمة للأمن والرفاه الجماعيين، وإذ يسلّم بأن السلام والأمن والتنمية وحقوق الإنسان هي أمور مترابطة يعزز بعضها بعضاً، وإذ يؤكد أن غياب السلام يزيد من احتمال حدوث انتهاكات وتجاوزات لحقوق الإنسان وأن تنمية ثقافة السلام ترتبط بإعمال جميع حقوق الإنسان للناس كافة،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن ثقافة السلام هي مجموعة من القيم والتقاليد وأنماط السلوك وأساليب الحياة تقوم على جملة أمور منها احترام الحياة، وعدم التمييز، ووضع حد للعنف، وممارسة اللاعنف والترويج له عن طريق التعليم والحوار والتعاون، والاحترام والتعزيز الكاملين لجميع حقوق الإنسان والحريات الأساسية، وهي تُعزَّز عن طريق بيئة وطنية ودولية مؤاتية تفضي إلى السلام،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن تنمية ثقافة السلام ترتبط ارتباطاً كلياً باحترام تعزيز التفاهم والتسامح والتضامن بين جميع الحضارات والأشخاص والثقافات، بما في ذلك تجاه الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، وبأن ثقافة السلام وتربية الإنسانية على العدالة والحرية والاحترام المتبادل والسلام أمران مترابطان يعزز كل منهما الآخر من حيث كرامة البشر والإعمال التام لجميع حقوق الإنسان للناس كافة،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن السلام لا يعني عدم نشوب النزاعات فحسب، بل يتطلب أيضاً عملية شاملة وإيجابية ودينامية تقوم على المشاركة وتشجع الحوار بين القطاعات وتمنع الصراعات وتسويها بروح من التفاهم والتعاون المتبادلين،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً</span> بأن المسؤولية الرئيسية عن احترام حقوق الإنسان وحمايتها وإعمالها تقع على عاتق الدول، وأن لجميع الدول دوراً في تشجيع وتعزيز ثقافة السلام،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على أن تمكين النساء والفتيات والمساواة بين الجنسين أمران حاسمان في الجهود الرامية إلى تنمية ثقافة السلام، وأن مشاركة النساء والفتيات مشاركة كاملة ومتساوية وهادفة وآمنة، وفقاً لسنهن ونضجهن، هي أحد العوامل الأساسية لصون السلام والأمن الدوليين وتعزيزهما، بما في ذلك التخطيط واتخاذ القرارات في جميع مراحل عمليات السلام، ومنع نشوب النزاعات وحلها، والوساطة، وإعادة الإعمار بعد انتهاء النزاع، والمصالحة، وحفظ السلام، وصنع السلام، وبناء السلام،</p>
+      </container>
+      <container name="وإذ يشدد أيضاً" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد أيضاً</span> على الدور الهام الذي يؤديه الشباب في تشجيع وتعزيز ثقافة السلام، ومنع نشوب النزاعات وحلها، والتنمية المستدامة، وحقوق الإنسان، وأهمية مشاركة الشباب مشاركة نشطة وواسعة النطاق وكاملة ومتساوية وهادفة وآمنة على جميع المستويات ذات الصلة في صنع القرار وتنفيذ عمليات السلام، ومنع نشوب النزاعات وتسويتها، والوساطة وإعادة الإعمار بعد انتهاء النزاع، والمصالحة، وحفظ السلام وصنعه وبنائه، وتزويد الشباب بمساحات آمنة للمشاركة وبتمويل مخصص لعملهم،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأهمية الصلة بين تشجيع وتعزيز ثقافة السلام، والإعمال الكامل لجميع حقوق الإنسان للناس كافة، وتحقيق أهداف التنمية المستدامة وغاياتها،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً</span> بأن العنصرية والتمييز العنصري وكره الأجانب وما يتصل بذلك من تعصب والتحريض على الكراهية تعوق التعايش السلمي والوئام داخل المجتمعات،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أهمية منع العنف والنزاعات المسلحة وفقاً لمقاصد الميثاق ومبادئه في تشجيع وتعزيز ثقافة السلام والإعمال التام لجميع حقوق الإنسان للناس كافة،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن بالغ القلق</span> إزاء انتشار العنف والنزاعات المسلحة على نطاق واسع في العالم، وإذ يشدد على الحاجة الملحة إلى معالجة أسبابهما الجذرية، وإذ يؤكد أن الحلول السلمية هي وحدها التي يمكن أن تكفل مستقبلاً مستقراً للجميع،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ</span> تزايد المعلومات المضللة والمعلومات المغلوطة وخطاب الكراهية والمضايقة عبر الإنترنت، مما يهدد التمتع الكامل بجميع حقوق الإنسان وإعمالها للجميع، ويعوق تشجيع وتعزيز ثقافة السلام، وإذ يسلم بضرورة توطيد الجهود الرامية إلى تعزيز سلامة المعلومات وتعزيز الدراية الإعلامية والمعلوماتية عالمياً،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن إشراك المجتمع المدني والمؤسسات الوطنية لحقوق الإنسان يمكن أن يعزز المشاركة الديمقراطية عن طريق زيادة القدرات المدنية على تعزيز سلامة السكان الضعفاء وتشجيع تسوية المنازعات بالوسائل السلمية، مما يعزز الترويج لثقافة السلام، وإذ يرحب بأهمية دور ومساهمة المجتمع المدني، بما في ذلك حقوق المرأة والمنظمات التي يقودها الشباب ومنظمات السلام، وبناة السلام، والمؤسسات الوطنية لحقوق الإنسان، والأوساط الأكاديمية، وأصحاب المصلحة الآخرين في تعزيز وحماية جميع حقوق الإنسان للناس كافة، والمساهمات الهامة التي يمكن أن يقدموها في بناء السلام وصونه وفي تعزيز ثقافة السلام،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً</span> بأن حقوق الإنسان وثقافة السلام عن طريق التعليم، بما في ذلك التثقيف والتدريب في ميدان حقوق الإنسان، هدف ينبغي أن تنهض به جميع الدول بالتعاون مع المجتمع المدني، بما في ذلك المنظمات غير الحكومية والأفراد، وبأن لمفوضية الأمم المتحدة السامية لحقوق الإنسان وآليات منظومة الأمم المتحدة لحقوق الإنسان دوراً هاماً تؤديه في هذا الصدد،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على الحاجة إلى أن تخصص الدول ومنظومة الأمم المتحدة وغيرها من المنظمات الدولية ذات الصلة موارد للبرامج الرامية إلى تعزيز ثقافة السلام وإذكاء الوعي بحقوق الإنسان عن طريق التدريب والتعليم والتثقيف،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_27" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بجميع الدول أن تكفل الإعمال الكامل لجميع حقوق الإنسان وأن تعزز ثقافة السلام وتشجعها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">يهيب أيضاً</span> بجميع الدول أن تؤكد من جديد التزامها بالسلام وأن تتخذ تدابير فعالة لدعم وتعزيز السلام والأمن والتنمية وحقوق الإنسان، بما يتفق مع المقاصد والمبادئ المكرسة في ميثاق الأمم المتحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">يهيب كذلك</span> بجميع الدول أن تدعم الإعلان وبرنامج العمل المتعلقين بثقافة السلام وتروج لهما، وأن تبذل قصارى جهدها للترويج لثقافة السلام وتعزيزها من خلال اعتماد تدابير مناسبة وفعالة على الصعد الوطنية والإقليمية والدولية، تمشياً مع القانون الدولي لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> جميع المنظمات الدولية ذات الصلة، بما فيها هيئات الأمم المتحدة، والمنظمات الإقليمية، والمنظمات الحكومية الدولية، والمنظمات غير الحكومية على تعزيز ودعم الإعلان وبرنامج العمل المتعلقين بثقافة السلام، وعلى بذل قصارى جهدها للمساهمة في تشجيع وتعزيز ثقافة السلام من خلال اتخاذ التدابير المناسبة والفعالة، بما يتماشى مع ولاية كل منها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> جميع الدول على أن تراعي، في سياساتها الوطنية ذات الصلة في مجال حقوق الإنسان، نهجاً يدمج تشجيع ثقافة السلام، وأن تكفل أن تكون الجهود المبذولة في هذا الصدد شاملة للجميع ومستجيبة لاحتياجات الأشخاص المتضررين ومتوائمة مع القانون الدولي لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> الدول وجميع أصحاب المصلحة المعنيين، بما في ذلك المنظمات الدولية والإقليمية، ومنها هيئات الأمم المتحدة ووكالاتها المتخصصة وصناديقها وبرامجها، كل في إطار ولايته، والآليات الدولية لحقوق الإنسان، والمؤسسات الوطنية لحقوق الإنسان، والمجتمع المدني، والقطاع الخاص، إلى دعم وتعزيز الروابط المتداعمة بين ثقافة السلام وتعزيز وحماية جميع حقوق الإنسان للناس كافة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بجميع الدول أن تكفل لجميع الأشخاص، بمن فيهم المنتمون إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، فرصة الإسهام في تشجيع وتعزيز ثقافة السلام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول والمنظمات الإقليمية والدولية على الاعتراف بالدور الهام الذي تضطلع به المؤسسات الوطنية لحقوق الإنسان والمجتمع المدني، بما في ذلك المنظمات التي تقودها النساء والشباب، ودعمها للمشاركة الكاملة في تشجيع وتعزيز ثقافة السلام والتثقيف في مجال حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> جميع الدول والمنظمات الإقليمية والدولية، بما فيها هيئات الأمم المتحدة، ولا سيما مفوضية الأمم المتحدة السامية لحقوق الإنسان، والمنظمات الحكومية الدولية، والمنظمات غير الحكومية، والمؤسسات الوطنية لحقوق الإنسان، على المساهمة بنشاط في دعم التثقيف من أجل السلام والتثقيف في مجال حقوق الإنسان بوصفهما أداتين لتعزيز ثقافة السلام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بجميع الدول أن تستثمر في التعليم في مرحلة الطفولة المبكرة كمساهمة أساسية في إقامة مجتمعات أكثر سلاماً، ويحثها على أن توفر في مدارس الأطفال تعليماً يناسب أعمارهم ويبني ثقافة السلام واللاعنف ويشمل دروساً في التفاهم والاحترام والتسامح وحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">يهيب أيضاً</span> بجميع الدول أن تكفل وجود وسائط إعلام حرة ومستقلة وتعددية ومتنوعة، وأن تعترف بدورها التثقيفي والإعلامي في الإسهام في تعزيز حقوق الإنسان وثقافة السلام، وفي بناء مجتمعات وديمقراطيات سلمية قائمة على المعرفة وشاملة للجميع ودعم أدائها، وبناء مواطن مستنير، وتعزيز سيادة القانون، والمشاركة في الشؤون العامة، ومساءلة المؤسسات العامة والمسؤولين الحكوميين، وتعزيز الحوار بين الثقافات، والسلام، والحكم الرشيد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بجميع الدول ومنظومة الأمم المتحدة أن تكفل المشاركة الكاملة والمتساوية والهادفة والآمنة للنساء والفتيات، فضلاً عن الشباب، في تعزيز ثقافة السلام وتشجيعها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ مع التقدير</span> المبادرات والإجراءات العملية التي تقوم بها هيئات الأمم المتحدة ذات الصلة، بما في ذلك منظمة الأمم المتحدة للتربية والعلم والثقافة، ومنظمة الأمم المتحدة للطفولة، وهيئة الأمم المتحدة للمساواة بين الجنسين وتمكين المرأة، وجامعة السلام، وكذلك الأنشطة التي اضطلعت بها للترويج بقدر أكبر لثقافة السلام، ولا سيما تشجيع التثقيف في مجال السلام والأنشطة المتصلة بمجالات معينة حُددت في برنامج العمل المتعلق بثقافة السلام، ويشجع هذه الهيئات على مواصلة جهودها وزيادة تعزيزها وتوسيع نطاقها في سياق ولاية كل منها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بجميع الدول أن تذكي الوعي العام بالحاجة إلى السلام وبقيمته وبالعلاقة بين تحقيق السلام والأمن والتنمية وحقوق الإنسان، وأن تيسر الأنشطة والاحتفالات والمبادرات التي تنمي الوعي العام بالسلام وحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> جميع الهيئات المعنية المنشأة بموجب معاهدات الأمم المتحدة لحقوق الإنسان والإجراءات الخاصة لمجلس حقوق الإنسان، والخبراء المعينين، والأفرقة العاملة الحكومية الدولية، وآليات الخبراء، فضلاً عن المفوضية السامية، إلى مواصلة مراعاة موضوع هذا القرار في إطار ولاية كل منها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxtGA">
+        <num>16-</num>
+        <list eId="para_147_list">
+          <intro eId="para_147_list_intro">
+            <p xml:space="preserve">	<span class="italic">يطلب</span> إلى مفوض الأمم المتحدة السامي لحقوق الإنسان أن ينظم حلقتي عمل مدة كل منهما نصف يوم في جنيف، في شكل هجين وسهل المنال بالكامل، بشأن حقوق الإنسان وثقافة السلام، وأن يشجع الدول المهتمة ووكالات الأمم المتحدة وصناديقها وبرامجها ذات الصلة، والآليات الدولية لحقوق الإنسان، والمؤسسات الوطنية لحقوق الإنسان، ومنظمات المجتمع المدني، والأوساط الأكاديمية، وأصحاب المصلحة الآخرين ذوي الصلة على المشاركة وتقديم الإسهامات، من أجل:</p>
+          </intro>
+          <point eId="para_147_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_147_list_point_أ_content">
+              <p xml:space="preserve">	تقاسم الخبرات والممارسات الجيدة والإنجازات والتحديات والدروس المستفادة بشأن الاستراتيجيات المتعلقة بكيفية مساهمة حماية وتعزيز حقوق الإنسان في تشجيع وتعزيز ثقافة السلام، والعكس بالعكس؛</p>
+            </content>
+          </point>
+          <point eId="para_147_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_147_list_point_ب_content">
+              <p xml:space="preserve">	اقتراح إجراءات ملموسة لاستنهاض الدول والمنظمات الحكومية الدولية والمنظمات غير الحكومية من أجل تشجيع وتعزيز ثقافة السلام والإعمال الكامل لجميع حقوق الإنسان، واقتراح تدابير تعزز الجهود الدولية والوطنية الرامية إلى تنمية ثقافة السلام وإعمال جميع حقوق الإنسان للناس كافة؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxtGA">
+        <num>17-</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	<span class="italic">يطلب أيضاً</span> إلى المفوض السامي أن يوفر لحلقتي العمل المذكورتين أعلاه، التي تستغرق كل منهما نصف يوم، جميع الخدمات والتسهيلات اللازمة لجعل المناقشات مختلطة ومتاحة بالكامل، وأن يوفر خدمات البث الشبكي لتيسير المشاركة النشطة عن بعد للوفود المهتمة في نيويورك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxtGA">
+        <num>18-</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="italic">يطلب كذلك</span> إلى المفوض السامي أن يعد تقريراً موجزاً عن حلقتي العمل المذكورتين أعلاه يشمل أي توصيات تنبثق عنهما، وأن يقدمه إلى مجلس حقوق الإنسان في دورته الحادية والستين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="SingleTxtGA">
+        <num>19-</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يعقد حلقة نقاش تفاعلية للخبراء، في دورته الحادية والستين، تكون متاحة بالكامل للأشخاص ذوي الإعاقة، بشأن حقوق الإنسان وثقافة السلام، وأن يفتح باب المشاركة فيها أمام الدول المهتمة، ووكالات الأمم المتحدة وصناديقها وبرامجها ذات الصلة، والآليات الدولية لحقوق الإنسان، والمؤسسات الوطنية لحقوق الإنسان، ومنظمات المجتمع المدني، والأوساط الأكاديمية، وأصحاب المصلحة الآخرين المعنيين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxtGA">
+        <num>20-</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	<span class="italic">يرجو</span> من الأمين العام أن يوجه انتباه جميع الدول إلى هذا القرار وإلى التقرير المذكور أعلاه للنظر فيهما، بما في ذلك في سياق متابعة الجمعية العامة للإعلان وبرنامج العمل المتعلقين بثقافة السلام والمنتدى الرفيع المستوى للجمعية العامة بشأن ثقافة السلام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxtGA">
+        <num>21-</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يبقي المسألة قيد نظره.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="54" refersTo="#adoptionMeeting">الجلسة 54</location>
+          <eol />
+          <docDate date="2024-04-04" refersTo="#adoptionDate">4 نيسان/أبريل 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتمد بدون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,210 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-3/"></FRBRuri>
+          <FRBRdate date="2024-04-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-3/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-3/ara@/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-3/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-3/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Right to Privacy" showAs="UN. Human Rights Council. Special Rapporteur on the Right to Privacy" dictionary="DHLAUTH"></keyword>
+        <keyword value="RIGHT TO PRIVACY" href="http://metadata.un.org/thesaurus/1005566" showAs="RIGHT TO PRIVACY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-21" outcome="draftResolution" as="A/HRC/55/L.2" by="Albania, Armenia, Australia, Austria, Belgium, Brazil, Bulgaria, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, France, Georgia, Germany, Honduras, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Mexico, Monaco, Montenegro, Netherlands (Kingdom of the), North Macedonia, Norway, Paraguay, Peru, Poland, Portugal, Romania, San Marino, Slovenia, Spain, Sweden, Switzerland, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-04" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-04" outcome="adopted" as="Adopted without vote, 53rd meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-04" class="rightSmall" refersTo="#dateOfIssuance">4 April 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic"> Arabic </inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">الدورة الخامسة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 شباط</date>
+          <date date="2024-04-05" refersTo="#endDate">5 نيسان 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 3 نيسان/أبريل 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/3</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	ولاية المقرر الخاص المعني بالحق في الخصوصية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> حقوق الإنسان والحريات الأساسية المكرسة في الإعلان العالمي لحقوق الإنسان، والعهد الدولي الخاص بالحقوق المدنية والسياسية، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، واتفاقية القضاء على جميع أشكال التمييز ضد المرأة، واتفاقية حقوق الطفل، واتفاقية حقوق الأشخاص ذوي الإعاقة،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى جميع القرارات السابقة التي اعتمدتها الجمعية العامة ومجلس حقوق الإنسان بشأن الحق في الخصوصية في العصر الرقمي والقرارات الأخرى ذات الصلة، بما فيها القرارات المتعلقة بتعزيز حقوق الإنسان وحمايتها والتمتع بها في شبكة الإنترنت وبشأن التكنولوجيات الرقمية الجديدة والناشئة وحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى أن مؤسسات الأعمال تتحمل المسؤولية عن احترام حقوق الإنسان على النحو المبين في المبادئ التوجيهية بشأن الأعمال التجارية وحقوق الإنسان: تنفيذ إطار الأمم المتحدة المعنون "الحماية والاحترام والانتصاف"، وأن واجب تعزيز حقوق الإنسان والحريات الأساسية وحمايتها والمسؤولية الأولى عن ذلك يقعان على عاتق الدولة،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> بعمل مفوضية الأمم المتحدة السامية لحقوق الإنسان بشأن الحق في الخصوصية في العصر الرقمي وبعمل المقرر الخاص المعني/المقررة الخاصة المعنية بالحق في الخصوصية،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بما للتكنولوجيات الجديدة والناشئة، مثل تلك التي استُحْدِثَت في ميادين المراقبة، والذكاء الاصطناعي، واتخاذ القرارات آلياً، والتعلم الآلي، وما للتنميط والتتبع والبيانات البيومترية، بما في ذلك التعرف على الوجه، دون ضمانات مناسبة، من أثر على التمتع الكامل بالحق في الخصوصية وغيره من حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى قراريْه <a href="https://undocs.org/ar/A/HRC/RES/5/1">5/1</a> بشأن بناء مؤسسات مجلس حقوق الإنسان و<a href="https://undocs.org/ar/A/HRC/RES/5/2">5/2</a> بشأن مدونة قواعد السلوك لأصحاب الولايات في إطار الإجراءات الخاصة لمجلس حقوق الإنسان، المؤرخين 18 حزيران/ يونيه 2007، وإذ يشدد على أن يضطلع جميع المكلفين بولايات بواجباتهم وفقاً للقرارين ومرفقيهما،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> تمديد ولاية المقرر الخاص المعني/المقررة الخاصة المعنية بالحق في الخصوصية لفترة ثلاث سنوات بموجب نفس الشروط المنصوص عليها في قرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/46/16">46/16</a> المؤرخ 23 آذار/مارس 2021؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">يناشد</span> جميع الدول أن تتعاون تعاوناً تاماً مع المقرر الخاص/المقررة الخاصة وأن تساعده/تساعدها على أداء ولايته/ولايتها، وأن تزوِّده/تزودها بكل المعلومات اللازمة التي يطلبها/تطلبها، وأن تستجيب فوراً لما يوجِّهه/توجِّهه من نداءاتٍ عاجلة وغيرها من البلاغات، وأن تنظر بإيجابية فيما يقدِّمه صاحب الولاية/تقدِّمه صاحبة الولاية من طلباتٍ للقيام بزيارات ولتنفيذِ التوصيات التي يقدمها صاحب الولاية/تقدِّمها صاحبة الولاية في تقاريره/تقاريرها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> جميع الجهات صاحبة المصلحة ذات الصلة، بما فيها الأمم المتحدة ووكالاتها وبرامجها وصناديقها، والآليات الإقليمية لحقوق الإنسان، والمؤسسات الوطنية لحقوق الإنسان، والمجتمع المدني، والقطاع الخاص على أن تتعاون تعاوناً تاماً مع المقرر الخاص/المقررة الخاصة لتمكينه/تمكينها من إنجاز الولاية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى الأمين العام ومفوض الأمم المتحدة السامي لحقوق الإنسان تزويد المقرر الخاص/المقررة الخاصة بجميع الموارد البشرية والمالية اللازمة لتنفيذ الولاية بشكل فعال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> مواصلة نظره في هذه المسألة في إطار البند نفسه من جدول الأعمال.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="53" refersTo="#adoptionMeeting">الجلسة 53</location>
+          <eol />
+          <docDate date="2024-04-03" refersTo="#adoptionDate">3 نيسان/أبريل 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد من دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

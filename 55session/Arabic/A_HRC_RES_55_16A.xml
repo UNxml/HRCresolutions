@@ -1,0 +1,461 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-15/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-15/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-15/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-15/ara@/"></FRBRuri>
+          <FRBRdate date="2024-04-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-15/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-15/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Forum on Minority Issues" showAs="Forum on Minority Issues" dictionary="DHLAUTH"></keyword>
+        <keyword value="Declaration on the Rights of Persons belonging to National or Ethnic, Religious and Linguistic Minorities (1992)" showAs="Declaration on the Rights of Persons belonging to National or Ethnic, Religious and Linguistic Minorities (1992)" dictionary="DHLAUTH"></keyword>
+        <keyword value="MINORITIES" href="http://metadata.un.org/thesaurus/1004179" showAs="MINORITIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL INTEGRATION" href="http://metadata.un.org/thesaurus/1005967" showAs="SOCIAL INTEGRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS POLICY" href="http://metadata.un.org/thesaurus/1002983" showAs="HUMAN RIGHTS POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-25" outcome="draftResolution" as="A/HRC/55/L.22" by="Albania, Armenia, Australia, Austria, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, Georgia, Germany, Hungary, Iceland, Ireland, Italy, Liechtenstein, Luxembourg, Mexico, Montenegro, North Macedonia, Norway, Paraguay, Peru, Poland, Slovenia, Sweden, Switzerland, Ukraine, United States of America and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-08" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-08" outcome="adopted" as="Adopted without vote, 54th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/15</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-08" class="rightSmall" refersTo="#dateOfIssuance">8 April 2024</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">الدورة الخامسة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 شباط</date>
+          <date date="2024-04-05" refersTo="#endDate">5 نيسان 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline name="agenda item"></inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 4 نيسان/أبريل 2024</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/15</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	حقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يشير</span> إلى الإعلان العالمي لحقوق الإنسان، والعهد الدولي الخاص بالحقوق المدنية والسياسية، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، واتفاقية حقوق الطفل، واتفاقية القضاء على جميع أشكال التمييز ضد المرأة، والاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري، واتفاقية حقوق الأشخاص ذوي الإعاقة، وإعلان حقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية الذي اعتمدته الجمعية العامة بتوافق الآراء بموجب قرارها <a href="https://undocs.org/ar/A/RES/47/135">47/135</a> المؤرخ 18 كانون الأول/ديسمبر 1992،</p>
+      </container>
+      <container name="وإذ يضع في اعتباره" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يضع في اعتباره</span> المادة 27 من العهد الدولي الخاص بالحقوق المدنية والسياسية والمادة 30 من اتفاقية حقوق الطفل،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى جميع القرارات السابقة التي اعتمدتها الجمعية العامة، ولجنة حقوق الإنسان ومجلس حقوق الإنسان بشأن حقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير أيضاً</span> إلى الفقرات التي يتضمنها إعلان وبرنامج عمل فيينا وإعلان وبرنامج عمل ديربان وتتناول حقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، وإلى المعايير الدولية الأخرى ذات الصلة،</p>
+      </container>
+      <container name="وإذ يعيد التأكيد" eId="container_6">
+          <p xml:space="preserve">
+            <span class="italic">	وإذ يعيد التأكيد</span> على خطة التنمية المستدامة لعام 2030، التي تشكّل خطة عمل أديس أبابا الصادرة عن المؤتمر الدولي الثالث لتمويل التنمية جزءاً لا يتجزأ منها، وإذ يشير إلى أن أهداف وغايات التنمية المستدامة تسعى إلى إعمال حقوق الإنسان للجميع، وإذ يشدّد على ضرورة أن تقوم الدول بإدماج خطة عام 2030 في سياساتها الوطنية وأطرها الإنمائية، حسب الاقتضاء، بما يعزّز تنفيذ خطة عام 2030 ومتابعتها واستعراضها بفعاليةٍ تكفل عدم ترك أحد خلف الركب،</p>
+      </container>
+      <container name="وإذ يشدّد" eId="container_7">
+          <p xml:space="preserve">
+            <span class="italic">	وإذ يشدّد</span> على ضرورة تعزيز الجهود المبذولة لتحقيق الهدف المتمثل في ضمان تمتع الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية تمتعاً كاملاً بحقوقهم، بسبل منها معالجة أوضاعهم الاقتصادية والاجتماعية والتصدي لتهميشهم، وفي وضع حد لأي شكل من أشكال التمييز ضدهم،</p>
+      </container>
+      <container name="وإذ يحيط علما مع التقدير" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علما مع التقدير</span> بالاجتماع الرفيع المستوى الذي عقده رئيس الجمعية العامة أثناء المناقشة العامة للجمعية في دورتها السابعة والسبعين للاحتفال بالذكرى السنوية الثلاثين لاعتماد الإعلان المتعلق بحقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، والذي كان فرصة للدول للتفكير في الثغرات التي تشوب التنفيذ، وتبادل أفضل الممارسات، وإعلان التزامات طوعية لتعزيز تنفيذ الإعلان،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً</span> بباقي المبادرات المتعددة الأطراف المتخذة على المستوى الإقليمي ودون الإقليمي والوطني للاحتفال بالذكرى السنوية الثلاثين للإعلان وللمضي قُدماً في تنفيذه،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/76/6">76/6</a> المؤرخ 15 تشرين الثاني/نوفمبر 2021، الذي رحبت فيه الجمعية بتقرير الأمين العام المعنون "خطتنا المشتركة"<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/75/982">A/75/982</a>. </p></authorialNote><sup>)</sup>، كأساس لإمعان الدول الأعضاء النظر في الموضوع، بما في ذلك النداء لاتباع نُهج جديدة لتعزيز مشاركة الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية في الشؤون العامة،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً</span> بالمنشور المعنون <span class="italic">"حماية الأقليات: دليل عملي لإعداد تشريعات شاملة من أجل مكافحة التمييز"</span> والصادر عن مفوضية الأمم المتحدة السامية لحقوق الإنسان<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	منشورات الأمم المتحدة، 2023. </p></authorialNote><sup>)</sup>، </p>
+      </container>
+      <container name="وإذ يشدد" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشدد</span> على أن تعزيز وحماية حقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية يسهمان في الاستقرار والتلاحم على المستوى السياسي والاجتماعي،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ بقلق</span> أن تجاهل هوية الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، وتهميشهم سياسياً واجتماعياً واقتصادياً، وخطاب التحريض على كراهيتهم، وإنكار حقوق الإنسان الواجبة لهم، هي أمورٌ كثيراً ما تسبق العنف ضدهم، وينبغي، من ثم، أن تكون بمثابة علامات إنذار مبكر بخطر وقوع جرائم جسيمة ونشوب نزاع،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى المبادئ التوجيهية بشأن الأعمال التجارية وحقوق الإنسان، بالصيغة التي أيدّها مجلس حقوق الإنسان في قراره <a href="https://undocs.org/ar/A/HRC/RES/17/4">17/4</a> المؤرخ 16 حزيران/يونيه 2011، وإذ يشجع الدول التي تتحمل المسؤولية الرئيسية ومؤسسات الأعمال، بما فيها شركات وسائط التواصل الاجتماعي، على تنفيذ المبادئ التوجيهية من أجل تعزيز احترام حقوق الإنسان على الإنترنت وخارجها، في سياقات منها التصدي لخطاب الكراهية،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعرب عن قلقه</span> إزاء تواتر وشدة المنازعات والنزاعات التي تتعلق بالأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، وإزاء الآثار الجائرة التي تلحقها النزاعات بهؤلاء الأشخاص في أغلب الأحيان، مما يؤدي إلى انتهاك حقوق الإنسان الخاصة بهم، وإزاء تعرّضهم على وجه الخصوص لأخطار التشريد القسري بطرق منها نقل السكان وإلغاء وثائق الهوية التي كانت بحوزتهم سابقاً، وتدفق اللاجئين وإعادة التوطين قسراً،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى أنه ينبغي للدول أن تتخذ التدابير اللازمة لتهيئة الظروف المؤاتية لتمكين الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية من التعبير عن خصائصهم وتنمية ثقافتهم ولغتهم ودينهم وتقاليدهم وعاداتهم، وإذ يشدد، في هذا الصدد، على أهمية تقديم الخدمات الحكومية، بما في ذلك التعليم، بلغاتهم الخاصة، بما فيها اللغات المنطوقة ولغات الإشارة، عند الاقتضاء،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلّم</span> بأن الغالبية العظمى من الأشخاص عديمي الجنسية هم أشخاص ينتمون إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، وإذ يشدد، في هذا الصدد، على ضرورة ضمان توفير خدمات تسجيل المواليد والتسجيل المدني وإصدار وثائق الهوية الوطنية دون تمييز على أي أساس، بما في ذلك العرق أو الإثنية أو الدين أو اللغة، تماشياً مع خطة عام 2030، ولا سيما الغاية 16-9 منها، التي تتوخّى توفير هوية قانونية للجميع، وإذ يلاحظ، في هذا الصدد، إطلاق التحالف العالمي لإنهاء حالات انعدام الجنسية التابع لمفوضية الأمم المتحدة لشؤون اللاجئين، وإذ يشير إلى أن الحملة العالمية لإنهاء حالات انعدام الجنسية في غضون عقد من الزمن، التي أُطلقت في عام 2014، ستنتهي في عام 2024،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشدد</span> على أهمية مشاركة الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، بمن فيهم النساء والشباب والأشخاص ذوو الإعاقة وممثلوهم، مشاركةً كاملة وفعلية على قدم المساواة مع غيرهم في جميع مستويات صنع السياسات واتخاذ القرارات، وفي جهود منع نشوب النزاعات وحلها، والوساطة، وإعادة الإعمار بعد انتهاء النزاع، وحفظ السلام وصنعه وبنائه، وإذ يؤكد ضرورة رفع الحواجز المستمرة التي تحول دون تنفيذ قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/1325(2000)">1325(2000)</a> المؤرخ 31 تشرين الأول/ أكتوبر 2000 تنفيذاً كاملاً،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxtGA">
+        <content eId="para_19__content">
+          <p xml:space="preserve">
+            <span class="italic">	وإذ يشدّد</span> على أهمية الإقرار بوجود أشكال متعددة ومتفاقمة ومتداخلة من التمييز ضد الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية وبتأثيرها السلبي المضاعَف في تمتعهم بحقوقهم، وعلى أهمية التصدي لأشكال التمييز تلك،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtGA">
+        <content eId="para_20__content">
+          <p xml:space="preserve">
+            <span class="italic">	وإذ يشدّد أيضاً</span> على الأهمية الأساسية للتثقيف والتدريب والتعلّم في مجال حقوق الإنسان، وعلى أهمية الحوار، بما في ذلك الحوار بين الثقافات والأديان، والتفاعل بين جميع الجهات المعنية صاحبة المصلحة وأفراد المجتمع بشأن تعزيز وحماية حقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية باعتبار ذلك جزءاً لا يتجزأ من نمو المجتمع ككل، بسبل منها تبادل الممارسات الفضلى المتصلة، في جملة أمور، بتعزيز الفهم المتبادل لقضايا الأقليات، وإدارة التنوع من خلال الاعتراف بوجود هويات متعددة، وتشجيع إقامة مجتمعات شاملة للجميع وعادلة ومستقرة وتشجيع التماسك الاجتماعي،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحيط علماً</span> بتقرير المقرر الخاص المعني بقضايا الأقليات<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/55/51">A/HRC/55/51</a>. </p></authorialNote><sup>)</sup>، وبتقريره عن توصيات المنتدى المعني بقضايا الأقليات في دورته السادسة عشرة<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/55/70">A/HRC/55/70</a>. </p></authorialNote><sup>)</sup>، وبالتقرير المقدّم من صاحب الولاية السابق إلى الجمعية العامة في دورتها الثامنة والسبعين<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/78/195">A/78/195</a>. </p></authorialNote><sup>)</sup>؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحيط علماً</span> باختتام أعمال الدورة السادسة عشرة للمنتدى المعني بقضايا الأقليات، في كانون الأول/ديسمبر 2023، بشأن موضوع "الأقليات والمجتمعات المتماسكة: المساواة والإدماج الاجتماعي والمشاركة الاجتماعية الاقتصادية" والتي شكلت، من خلال المشاركة الواسعة للجهات صاحبة المصلحة، منبراً مهماً لتعزيز الحوار حول ذاك الموضوع، ويشجِّع الدول على مراعاة توصيات المنتدى ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">
+            <span class="italic">	يرحب</span> بتقرير مفوضية الأمم المتحدة السامية لحقوق الإنسان عن حقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/55/35">A/HRC/55/35</a>. </p></authorialNote><sup>)</sup>؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">
+            <span class="italic">	يشيد</span> بالمقرر الخاص المعني بقضايا الأقليات لما قام به من عمل ولدوره المهم في إذكاء الوعي بحقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية وفي تسليط مزيد من الضوء على هذه الحقوق، ولدوره التوجيهي في التحضير للمنتدى المعني بقضايا الأقليات وفي أعمال المنتدى، مما يسهم في جهود تعزيز التعاون فيما بين جميع آليات الأمم المتحدة المعنية بحقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">
+            <span class="italic">	يهيب</span> بالدول أن تتخذ مبادرات تكفل وعي الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية بحقوقهم، وقدرتهم على ممارسة هذه الحقوق على النحو المبيّن في إعلان حقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية وفي غير ذلك من التعهدات والالتزامات الدولية في مجال حقوق الإنسان، ويوصي بأن يتم، إلى أقصى حد ممكن، وضعُ جميع التدابير اللازمة لتنفيذ الإعلان وتصميمُها وتنفيذُها واستعراضُها على نحو يشارك فيه الأشخاص المنتمون إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية مشاركة كاملة وفعالة ومتكافئة مع غيرهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtGA">
+        <num>6-</num>
+        <list eId="para_36_list">
+          <intro eId="para_36_list_intro">
+            <p xml:space="preserve">
+              <span class="italic">	يحث</span> الدول على اتخاذ التدابير الملائمة بهدف تعزيز تنفيذ الإعلان وضمان تمتع الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية تمتعاً كاملاً بحقوقهم، واضعاً في اعتباره موضوع الدورة السادسة عشرة للمنتدى المعني بقضايا الأقليات، وذلك بوسائل منها ما يلي:</p>
+          </intro>
+          <point eId="para_36_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_36_list_point_أ_content">
+              <p xml:space="preserve">	النظر في التصديق على صكوك حقوق الإنسان الدولية والإقليمية ذات الصلة التي تحمي وتعزز حقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، والانضمام إليها والتقيد بها؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_36_list_point_ب_content">
+              <p xml:space="preserve">	تعزيز إدماج الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية ومشاركتهم الفعلية كوسيلة للاعتراف بالتنوع الاجتماعي وتقديره، وكعامل رئيسي لتعزيز التماسك الاجتماعي وتعزيز حق هؤلاء الأشخاص في التمتع بثقافاتهم والاعتراف بمساهماتهم الفريدة؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_36_list_point_ج_content">
+              <p xml:space="preserve">	مضاعفة الجهود لمنع وإنهاء حالات انعدام الجنسية في صفوف الأشخاص المنتمين إلى أقليات إثنية أو قومية وإلى أقليات دينية ولغوية، دون تمييز، بطرق منها تعزيز الحق في الجنسية؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_د">
+            <num>(د)</num>
+            <content eId="para_36_list_point_د_content">
+              <p xml:space="preserve">	تهيئة الظروف المواتية لتعزيز هوية الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية من خلال تدابير تشمل تزويدهم بفرص التعليم الجيد على قدم المساواة مع غيرهم؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ه">
+            <num>(ه)</num>
+            <content eId="para_36_list_point_ه_content">
+              <p xml:space="preserve">	وضع نُظم تعليمية شاملة، بما في ذلك للتدريب المهني، بهدف ضمان تكافؤ فرص اكتساب الجميع المهارات اللازمة للمشاركة الهادفة، ودون تمييز، في جميع جوانب الحياة السياسية والاقتصادية والاجتماعية والدينية والثقافية للمجتمع وفي التقدم والتنمية الاقتصاديين في بلدانهم، وتطبيق منظور جنساني عند القيام بذلك؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_و">
+            <num>(و)</num>
+            <content eId="para_36_list_point_و_content">
+              <p xml:space="preserve">	اعتماد تشريعات وسياسات وبرامج من أجل التصدي للتمييز ضد النساء والفتيات المنتميات إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية والتصدي لاستبعادهن، ودعم تمكينهن، وتيسير المساواة الجنسانية، وتعزيز المجتمعات المحلية؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_36_list_point_ز_content">
+              <p xml:space="preserve">	التسليم بأهمية الإدماج الاقتصادي للأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، وتشجعيه، من أجل تحقيق الاستقرار الاجتماعي والإعمال الكامل للحق في التعليم والعمل وفي التمتع بأعلى مستوى ممكن من الصحة البدنية والعقلية وفي مستوى معيشي لائق، وفي المشاركة في الحياة العامة، دون تمييز، مع احترام تنوعهم الثقافي؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_36_list_point_ح_content">
+              <p xml:space="preserve">	تنظيم حملات توعية وأنشطة لبناء القدرات مكيّفة مع اللغة والثقافة لضمان تمتع جميع الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية بحقوقهم؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_36_list_point_ط_content">
+              <p xml:space="preserve">	تشجيع وضع سياسات شاملة لمعالجة الأسباب الجذرية مثل الفقر وعدم المساواة والتمييز، وتشجيع تعزيز البنية التحتية لضمان وصول الجميع إلى أسباب الراحة الأساسية دون تمييز؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ي">
+            <num>(ي)</num>
+            <content eId="para_36_list_point_ي_content">
+              <p xml:space="preserve">	جمع بيانات موثوقة ومصنفة، عند الاقتضاء، لتحسين فهم وتقييم أثر التمييز والمشاكل المرتبطة بالإدماج الاجتماعي وبتمتع الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية بالحقوق الاقتصادية والاجتماعية والثقافية؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ك">
+            <num>(ك)</num>
+            <content eId="para_36_list_point_ك_content">
+              <p xml:space="preserve">	المضي قدماً في اعتماد وتنفيذ قوانين شاملة لمكافحة التمييز ووضع وتنفيذ تدابير وسياسات فعالة لمكافحة التمييز من أجل القضاء الفعال على جميع أشكال التمييز ضد الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، وتعزيز الدعوة لمكافحة التمييز؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ل">
+            <num>(ل)</num>
+            <content eId="para_36_list_point_ل_content">
+              <p xml:space="preserve"> تهيئة بيئة آمنة ومواتية لممثلي المجتمع المدني والمحامين والصحفيين والإعلاميين والعاملين في المجال الإنساني والمدافعين عن حقوق الإنسان المختصين بحقوق الإنسان للأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، بما في ذلك إبان النزاعات المسلحة؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_م">
+            <num>(م)</num>
+            <content eId="para_36_list_point_م_content">
+              <p xml:space="preserve">	توجيه إدانة قوية لأي دعوة إلى الكراهية القومية أو العرقية أو الدينية تشكل تحريضاً على التمييز أو العداء أو العنف واتخاذ وتنفيذ تدابير لتجريم التحريض على عنف وشيك يُرتكب على أساس الجنسية أو العرق أو الدين أو المعتقد، سواء في نطاق الإنترنت أم خارجها، مع احترام جميع حقوق الإنسان والحريات الأساسية المعترف بها دولياً؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ن">
+            <num>(ن)</num>
+            <content eId="para_36_list_point_ن_content">
+              <p xml:space="preserve">	ضمان مشاركة الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، بمن فيهم النساء والشباب والأشخاص ذوو الإعاقة، مشاركةً كاملة وفعلية على قدم المساواة مع غيرهم في جميع مستويات صنع السياسات واتخاذ القرارات، وفي منع نشوب النزاعات وحلها، وفي جهود الوساطة، وإعادة الإعمار بعد انتهاء النزاع، وحفظ السلام وصُنعه وبنائه؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_س">
+            <num>(س)</num>
+            <content eId="para_36_list_point_س_content">
+              <p xml:space="preserve">	تعزيز تنفيذ اتفاقية القضاء على جميع أشكال التمييز ضد المرأة وقرارات هيئات الأمم المتحدة ذات الصلة، بما في ذلك القرارات التي تتناول حالات النزاع المسلح؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ع">
+            <num>(ع)</num>
+            <content eId="para_36_list_point_ع_content">
+              <p xml:space="preserve">	جمع بيانات موثوقة ومصنفة، حسب الاقتضاء، لتحديد وتقييم تأثير العنف المستمر على الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، بما في ذلك عدد الأشخاص الذين قتلوا أو أصيبوا أو سُلبوا حريتهم أو شُردوا أو تعرضوا للعنف الجنسي والعنف الجنساني؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ف">
+            <num>(ف)</num>
+            <content eId="para_36_list_point_ف_content">
+              <p xml:space="preserve">	ضمان محاسبة المسؤولين عن انتهاكات وتجاوزات حقوق الإنسان المرتكبة في حق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، والتحقيق في أسبابها الجذرية ومعالجتها، وحصول الضحايا على سبل الانتصاف والمساعدة الكافية؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ص">
+            <num>(ص)</num>
+            <content eId="para_36_list_point_ص_content">
+              <p xml:space="preserve">	وضع سياسات للمصالحة وإحياء الذكرى تقوم على الحوار الشامل وتُعالج ما تعرض له الأشخاص المنتمون إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية من عنفٍ واضطهاد في الماضي، كوسيلة للإدماج الاجتماعي؛</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_ق">
+            <num>(ق)</num>
+            <content eId="para_36_list_point_ق_content">
+              <p xml:space="preserve">	تهيئة الظروف المواتية لإقامة حوار بين الثقافات والأديان من أجل الاعتراف بالتنوع وتعزيزه واحترامه، بما في ذلك باعتباره أداة لا غنى عنها لتشجيع التفاهم وتعزيز السلام، والتنمية المستدامة، والتعايش السلمي، ومنع نشوب النزاعات، وعمليات المصالحة في المجتمعات الخارجة من النزاع؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">
+            <span class="italic">	يدعو</span> المنظمات الدولية والإقليمية إلى أن تكثّف ما تبذله من جهود في إطار ولاياتها من أجل تعزيز حقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، والمساعدة في حمايتها، وإلى أن تُراعي، في هذا الصدد، التوصيات ذات الصلة الصادرة عن المنتدى المعني بقضايا الأقليات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">
+            <span class="italic">	يُرحّب</span> بتوفير خدمة الترجمة الفورية بلغة الإشارة طيلة فترة المنتدى السادس عشر المعني بقضايا الأقليات، ويشدد على أهمية أن تظل المناقشات في المنتدى شاملةً ومتاحةً بالكامل للأشخاص ذوي الإعاقة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">
+            <span class="italic">	يدعو</span> مفوضية حقوق الإنسان وهيئات الأمم المتحدة والدول إلى تقديم الدعم والتعاون من أجل تنظيم المنتديات الإقليمية المعنية بقضايا الأقليات بهدف تكملة وإثراء العمل الذي يضطلع به المنتدى المعني بقضايا الأقليات والتوصيات التي تصدر عنه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">
+            <span class="italic">	يرحب</span> بالتعاون بين وكالات الأمم المتحدة وصناديقها وبرامجها بشأن قضايا الأقليات، بقيادة مفوضية الأمم المتحدة السامية لحقوق الإنسان، ويحث هذه الوكالات والصناديق والبرامج على مواصلة زيادة تنسيقها وتعاونها بوسائل منها وضع سياسات تتعلق بتعزيز وحماية حقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية، مع الاستفادة أيضاً من النتائج التي توصل إليها المنتدى المعني بقضايا الأقليات في هذا الصدد، ومع مراعاة عمل المنظمات الإقليمية ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحيط علماً بوجه خاص</span> في هذا الصدد بمبادرات وأنشطة شبكة الأمم المتحدة المعنية بالتمييز العنصري وحماية الأقليات، التي تشترك في قيادتها مفوضية حقوق الإنسان وإدارة التواصل العالمي بالأمانة العامة، والتي تهدف إلى تعزيز الحوار والتعاون بين وكالات الأمم المتحدة وصناديقها وبرامجها المعنية، ويدعو الشبكة إلى مواصلة التعاون مع المقرر الخاص المعني بقضايا الأقليات، والمقررة الخاصة المعنية بحرية الدين أو المعتقد، والمقررة الخاصة المعنية بالأشكال المعاصرة للعنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب وغيرهم من آليات الإجراءات الخاصة وهيئات المعاهدات ذات الصلة، وإلى التشاور والتواصل مع الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية ومع الأطراف الفاعلة في المجتمع المدني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحيط علماً</span> ببرنامج المنح الدراسية للأقليات التابع للمفوضية، ويشجّع المقرر الخاص وخريجي البرنامج على تعزيز تعاونهم بغية البحث عن حلول محددة لقضايا الأقليات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">
+            <span class="italic">	يشجع</span> الدول، وشبكة الأمم المتحدة المعنية بالتمييز العنصري وحماية الأقليات، ومنظمات المجتمع المدني، وأصحاب المصلحة الآخرين على تعزيز ودعم مشاركة الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية في اجتماعات آليات الأمم المتحدة لحقوق الإنسان وعملياتها ذات الصلة، للنهوض بالعمل الرامي إلى مكافحة العنصرية والتمييز العنصري وكره الأجانب وما يتصل بذلك من تعصب، وتعزيز حماية الأقليات الوطنية أو الاثنية والدينية واللغوية في برامج مجموع منظومة الأمم المتحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">
+            <span class="italic">	يطلب</span> إلى مفوضة الأمم المتحدة السامية لحقوق الإنسان أن تستمر في موافاة مجلس حقوق الإنسان بتقرير سنوي يتضمن معلومات عن التطورات ذات الصلة التي تشهدها هيئات وآليات حقوق الإنسان التابعة للأمم المتحدة، وعن الأنشطة التي تضطلع بها المفوضية في المقر وفي الميدان وتسهم في تعزيز أحكام إعلان حقوق الأشخاص المنتمين إلى أقليات قومية أو إثنية وإلى أقليات دينية ولغوية واحترامها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">
+            <span class="italic">	يقرّر</span> مواصلة النظر في هذه المسألة وفقاً لبرنامج عمله.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="54" refersTo="#adoptionMeeting">الجلسة 54</location>
+          <eol />
+          <docDate date="2024-04-04" refersTo="#adoptionDate">4 نيسان/أبريل 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد القرار بدون تصويت]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

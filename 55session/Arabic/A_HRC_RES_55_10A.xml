@@ -1,0 +1,325 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/"></FRBRuri>
+          <FRBRdate date="2024-04-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/ara@/"></FRBRuri>
+          <FRBRdate date="2024-04-05" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISINFORMATION" showAs="DISINFORMATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF INFORMATION" href="http://metadata.un.org/thesaurus/1002525" showAs="FREEDOM OF INFORMATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF EXPRESSION" href="http://metadata.un.org/thesaurus/1002524" showAs="FREEDOM OF EXPRESSION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CORPORATE SOCIAL RESPONSIBILITY" href="http://metadata.un.org/thesaurus/1001316" showAs="CORPORATE SOCIAL RESPONSIBILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-22" outcome="draftResolution" as="A/HRC/55/L.11" by="Albania, Australia, Austria, Belgium, Bulgaria, Canada, Chile, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, France, Georgia, Germany, Greece, Iceland, Ireland, Israel, Italy, Japan, Latvia, Lithuania, Luxembourg, Malta, Marshall Islands, Mexico, Monaco, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Paraguay, Poland, Portugal, Romania, Slovenia, Spain, Sweden, Ukraine, United Kingdom of Great Britain and Northern Ireland, United States of America and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-05" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-05" outcome="adopted" as="Adopted without vote, 53rd meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>      
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-05" class="rightSmall" refersTo="#dateOfIssuance">5 April 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic"> Arabic </inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">الدورة الخامسة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 شباط</date>
+          <date date="2024-04-05" refersTo="#endDate">5 نيسان 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 3 نيسان/أبريل 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/10</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	دور الدول في مكافحة الأثر السلبي للتضليل الإعلامي على التمتع بحقوق الإنسان وإعمالها</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> الإعلان العالمي لحقوق الإنسان وإعلان وبرنامج عمل فيينا، والتزامات الدول بموجب العهد الدولي الخاص بالحقوق المدنية والسياسية والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، وصكوك حقوق الإنسان الأخرى،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى القرارات ذات الصلة التي اعتمدتها الجمعية العامة ومجلس حقوق الإنسان، بما في ذلك قرار الجمعية <a href="https://undocs.org/ar/A/RES/76/227">76/227</a> المؤرخ 24 كانون الأول/ديسمبر 2021، بشأن مكافحة التضليل الإعلامي من أجل تعزيز وحماية حقوق الإنسان والحريات الأساسية، وقرارات المجلس <a href="https://undocs.org/ar/A/HRC/RES/44/12">44/12</a> المؤرخ 16 تموز/ يوليه 2020 و<a href="https://undocs.org/ar/A/HRC/RES/50/15">50/15</a> المؤرخ 8 تموز/يوليه 2022، بشأن حرية الرأي والتعبير، و<a href="https://undocs.org/ar/A/HRC/RES/47/16">47/16</a> المؤرخ 13 تموز/يوليه 2021، بشأن تعزيز حقوق الإنسان وحمايتها والتمتع بها على الإنترنت، و<a href="https://undocs.org/ar/A/HRC/RES/49/21">49/21</a> المؤرخ 1 نيسان/أبريل 2022، بشأن دور الدول في مكافحة الأثر السلبي للتضليل الإعلامي على التمتع بحقوق الإنسان وإعمالها، </p>
+      </container>
+      <container name="وإذ يحيط علماً مع التقدير" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يحيط علماً مع التقدير</span> بتقرير الأمين العام بشأن مكافحة التضليل الإعلامي من أجل تعزيز وحماية حقوق الإنسان والحريات الأساسية<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/77/287">A/77/287</a>. </p></authorialNote><sup>)</sup>، وبتقريري المقررة الخاصة المعنية بتعزيز وحماية الحق في حرية الرأي والتعبير بشأن التضليل الإعلامي وحرية الرأي والتعبير<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/77/288">A/77/288</a> و<a href="https://undocs.org/ar/A/78/288">A/78/288</a>. </p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى المبادئ التوجيهية المتعلقة بالأعمال التجارية وحقوق الإنسان<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/17/31">A/HRC/17/31</a>، المرفق. </p></authorialNote><sup>)</sup> بالصيغة التي أيدها مجلس حقوق الإنسان في قراره <a href="https://undocs.org/ar/A/HRC/RES/17/4">17/4</a> المؤرخ 16 حزيران/يونيه 2011، </p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن جميع حقوق الإنسان هي حقوق عالمية غير قابلة للتجزئة مترابطة متشابكة يعزز كل منها الآخر، وإذ يؤكد أن الحقوق نفسها التي يتمتع بها الأشخاص خارج شبكة الإنترنت يجب أن تحظى بالحماية أيضاً على الإنترنت،</p>
+      </container>
+      <container name="وإذ يساوره القلق" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يساوره القلق</span> إزاء الأثر السلبي المتزايد والبعيد المدى الناشئ على صعيد التمتع بحقوق الإنسان وإعمالها نتيجةً لاختلاق ونشر معلومات كاذبة ومحوَّرة عمداً قصد خداع الجماهير وتضليلها، إما بدافع الإيذاء أو تحقيق مكاسب شخصية أو سياسية أو مالية،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على أن المعلومات المضللة هي معلومات يمكن تصميمها ونشرها لغرض التضليل وانتهاك حقوق الإنسان والعبث بها، وهذا يشمل خصوصية الفرد وحريته في التماس المعلومات وتلقيها ونقلها، بما في ذلك في أوقات الطوارئ والأزمات والنزاعات المسلحة، حيث تكون هذه المعلومات بالغة الأهمية،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد</span> أنه ينبغي عدم التذرع بشجب التضليل الإعلامي أو بمكافحته لتقييد التمتع بحقوق الإنسان وإعمالها أو لتبرير فرض الرقابة، بسبل منها اللجوء إلى قوانين غامضة وفضفاضة لتجريم التضليل الإعلامي، وأنه يتعين أن تكون جميع السياسات أو التشريعات المعتمدة لمكافحة التضليل الإعلامي ممتثِلة لالتزامات الدول بموجب أحكام القانون الدولي لحقوق الإنسان، بما في ذلك الشرط الذي ينص على الامتثال لمبدأي الشرعية والضرورة عند فرض أي قيود على حرية التعبير، </p>
+      </container>
+      <container name="وإذ يشدد" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد </span>على أن حملات التضليل الإعلامي يمكن أن تُستخدم بدافع تشويه سمعة الأفراد والجماعات، وتأجيج الانقسامات الاجتماعية، وزرع الفتنة، واستقطاب المجتمعات، ونشر الكراهية، ومعاداة المرأة، والقولبة السلبية، والوصم، والعنصرية، والتمييز العنصري، وكره الأجانب وما يتصل بذلك من تعصب، والتحريض على العنف والتمييز والعداوة، وإذ يعرب عن قلقه بوجه خاص إزاء حالات التحريض على ارتكاب جرائم ضد الإنسانية وغير ذلك من انتهاكات حقوق الإنسان أو تجاوزاتها، </p>
+      </container>
+      <container name="وإذ يشدد كذلك" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشدد كذلك</span> على أن التضليل الإعلامي يمثّل تهديداً للديمقراطية ويمكن أن يقمع المشاركة السياسية بوسائل منها خلق أو تعميق الشعور بعدم الثقة إزاء المؤسسات والعمليات الديمقراطية، بما في ذلك العمليات الانتخابية ولا سيما في العام الحالي الذي ستتخلله انتخابات على الصعيد العالمي، ويعرقل تحقيق المشاركة المستنيرة في الشؤون السياسية والعامة،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلّم</span> بأهمية حماية مجال البحث العلمي والنقاش القائم على الأدلة واتخاذ القرارات من أجل التمتع بفوائد التقدم العلمي، وبضرورة التصدي لحملات التضليل الإعلامي الرامية إلى المساس بمصداقية البحث العلمي، وذلك في ظل الامتثال للقانون الدولي لحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يساوره القلق" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يساوره القلق</span> من أن التطور السريع لتكنولوجيات الذكاء الاصطناعي التوليدي يمكن أن يزيد من سرعة وحجم التلاعب بالمعلومات ونشر المعلومات الخاطئة والمعلومات المضللة، ومن أن أوجه التقدم قد تظل تُيسِّر فعالية هذه العملية، مما يؤدي إلى تقويض الثقة داخل المجتمعات، مع ما قد يترتب على ذلك من آثار سلبية على العمليات الانتخابية وثقة الجمهور في الأنظمة الديمقراطية، ومع الاعتراف في الوقت نفسه بالفرص الكثيرة التي قد تتيحها التكنولوجيات الجديدة من قبيل الذكاء الاصطناعي في الرد بفعالية على المعلومات الخاطئة والمعلومات المضللة، في حال استخدامها في ظل الامتثال للقانون الدولي لحقوق الإنسان، </p>
+      </container>
+      <container name="وإذ يدرك مع القلق" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يدرك مع القلق</span> أن حملات التضليل الإعلامي على الإنترنت، وبخاصة الحملات القائمة على نشر المحتوى الحميم دون موافقة الطرف الآخر، ووسائل الإعلام التركيبية، تُستخدم على نحو متزايد لردع النساء والفتيات عن المشاركة في المجال العام، وأن الصحفيات والسياسيات والنساء والفتيات المدافعات عن حقوق الإنسان والمناصرات لحقوق المرأة والمساواة بين الجنسين يُستهدفن بوجه خاص، </p>
+      </container>
+      <container name="وإذ يلاحظ مع القلق" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ مع القلق</span> أن الفجوات الرقمية، بما في ذلك الفجوة الرقمية بين الجنسين، التي تؤثر بشكل غير متناسب على النساء والفتيات، قد تجعل الأشخاص المتأثرين أكثر عرضةً للتضليل الإعلامي من غيرهم ويمكن أن تؤدي إلى تضخيم الأثر السلبي للتضليل الإعلامي على تمتعهم بحقوق الإنسان الخاصة بهم وإعمالها، </p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن ممارسة الحق في حرية الرأي والتعبير والاحترام الكامل لحرية التماس المعلومات وتلقيها ونقلها يؤديان دوراً أساسياً في إرساء الديمقراطية والتشجيع على التعددية وتعدد الثقافات وتعزيز الشفافية وحرية الإعلام ومكافحة التضليل الإعلامي، وأن ممارسة الحق في حرية التعبير تنطوي على واجبات ومسؤوليات خاصة وفقاً للمادة 19 من العهد الدولي الخاص بالحقوق المدنية والسياسية،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلّم</span> بأهمية حماية حرية وسائط الإعلام واستقلالها وتعددها وتنوعها، وضمان سلامة الصحفيين والعاملين في الحقل الإعلامي على شبكة الإنترنت وخارجها، وإتاحة الحصول على المعلومات المستقلة القائمة على الوقائع والأدلة وتعزيز الحصول عليها قصد مكافحة التضليل الإعلامي،</p>
+      </container>
+      <container name="وإذ يسلّم أيضاً" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلّم أيضاً</span> بأهمية إمكانية الحصول على المعلومات ووسائل الاتصال وتوافرها، فضلاً عن تكنولوجيا المعلومات والاتصالات ونُظمها وأشكالها، لضمان تمكين جميع الأشخاص بكل تنوعهم، بما في ذلك الأشخاص ذوو الإعاقة، من التمتع بحقهم في حرية التعبير، بما يشمل حرية التماس المعلومات وتلقيها ونقلها على قدم المساواة مع الآخرين، فمن دون ذلك قد يكون الأشخاص ذوو الإعاقة عرضةً بشكل أكبر للأثر السلبي الناجم عن التضليل الإعلامي،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير </span>إلى أن التضليل الإعلامي هو جزء من مجموعة أكبر من التحديات التي يمكن أن تصاحب تطوير واستخدام تكنولوجيا المعلومات والاتصالات، مثل المراقبة التعسفية أو غير القانونية، والعنف الجنساني الذي تيسّره التكنولوجيا، والمضايقة الجنسية، وأنشطة الفضاء الإلكتروني الضارة، ويمكن أن تشكل خطراً على التمتع بحقوق الإنسان وإعمالها، </p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلّم</span> بالمسؤولية الرئيسية الواقعة على عاتق الدول بوصفها الجهات المسؤولة الأولى عن تعزيز وحماية حقوق الإنسان على شبكة الإنترنت وخارجها، وبأهمية دعمها للجهود ذات الصلة التي يبذلها أصحاب المصلحة المتعددون لتعزيز قدرة المجتمعات على الصمود في وجه الأثر السلبي للتضليل الإعلامي على جميع المستويات، ولا سيما عن طريق تطوير الدراية الإعلامية والمعلوماتية، والكفاءات الرقمية للجميع، والتفاهم بين الثقافات، والتدقيق في الوقائع، والحلول التكنولوجية الشفافة والخاضعة للمساءلة، </p>
+      </container>
+      <container name="وإذ يشدد" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد </span>على دور الدول في تعزيز الحصول على معلومات متنوعة وموثوقة لمكافحة التضليل الإعلامي، بطرق منها زيادة الشفافية، والإفصاح عن البيانات الرسمية على نحو استباقي على شبكة الإنترنت وخارجها، وإعادة تأكيد الالتزام بتنوع وسائط الإعلام واستقلالها، ودور الدول في ضمان حماية الحق في حرية الرأي والتعبير، بما في ذلك حرية التماس جميع أنواع المعلومات والأفكار وتلقيها ونقلها إلى الآخرين، باستخدام أي وسيلة،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ قلقه" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعرب عن بالغ قلقه</span> إزاء القيود التي تفرضها الدول على حرية التماس المعلومات وتلقيها ونقلها، ونشر المعلومات المضللة عن طريق مؤسسات الدولة أو وكلائها، بهدف الترويج لروايات كاذبة، والتحكم في النقاش العام، وتقييد ممارسة الحق في حرية الرأي والتعبير وفي التجمع السلمي،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد</span> أن انتشار المعلومات المضللة يمكن أن يمثّل في أحيان كثيرة ظاهرة عابرة للحدود الوطنية، وقد تستخدمه الدول وجِهات برعاية الدول في سياق عمليات التأثير الهجينة التي تستغل حرية المجتمعات وتقوّضها، ويمكن أن يقترن بانتهاكات خطيرة للقانون الدولي، </p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">وإذ يساوره بالغ القلق</span> إزاء حملات التضليل الإعلامي التي تُستخدم لتأجيج العنف أو إدامته، وزيادة حدة المعاناة الإنسانية، وتغذية الكراهية أو التحريض عليها، وتجريد الجماعات أو الأفراد الذين يواجهون أوضاعاً هشة من إنسانيتهم، بما في ذلك في سياق النزاعات المسلحة وعلى نحو يتعارض مع القانون الدولي الإنساني، </p>
+      </container>
+      <container name="وإذ يدين بقوة" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">وإذ يدين بقوة</span> اللجوء إلى عمليات قطع خدمة الإنترنت وفرض القيود لمنع إمكانية الحصول على المعلومات أو نشرها على الإنترنت، أو لتعطيل هذه الإمكانية عمداً، بما في ذلك باعتبار هذه العمليات وسيلة لمكافحة التضليل الإعلامي، وإذ يؤكد على أهمية إتاحة شبكة الإنترنت بطريقة حرة ومفتوحة وقابلة للتشغيل المتبادل وموثوقة وآمنة،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد </span>أن مكافحة التضليل الإعلامي تتطلب استجابات متعددة الأبعاد يشارك فيها أصحاب المصلحة المتعددون، وتمتثل للقانون الدولي لحقوق الإنسان وتستوعب المشاركة الاستباقية للمنظمات الدولية والدول والمجتمع المدني والمدافعين عن حقوق الإنسان والأوساط الأكاديمية والهيئات التنظيمية المستقلة والقطاع الخاص، بما في ذلك وسائط الإعلام والمنصات القائمة على الإنترنت ووسائل التواصل الاجتماعي وشركات التكنولوجيا، وأن الدول تتمتع بوضع فريد يمكّنها من تعزيز التعاون وتيسير سبله بين الأطراف المعنية،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد </span>على أهمية سلامة المعلومات المتاحة على شبكة الإنترنت باعتبارها وسيلة للتصدي لانتشار المعلومات المضللة على الإنترنت، على نحو يتسق مع القانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان، </p>
+      </container>
+      <container name="وإذ يشير" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير </span>إلى الفقرة 2 من المادة 20 من العهد الدولي الخاص بالحقوق المدنية والسياسية التي تنص على حظر القانون لجميع الدعوات إلى الكراهية القومية أو العنصرية أو الدينية التي تشكل تحريضاً على التمييز أو العداوة أو العنف،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد </span>أن التضليل الإعلامي يمكن أن يؤثر سلباً على التمتع بجميع حقوق الإنسان وإعمالها، وأن الدول تضطلع بدور محوري في مكافحة التضليل الإعلامي؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">يهيب </span>بالدول أن تكفل الامتثال للقانون الدولي لحقوق الإنسان في استجاباتها لانتشار المعلومات المضللة، وأن تتوخى في جهودها المبذولة لمكافحة التضليل الإعلامي تعزيز وحماية واحترام حرية الأفراد في التعبير وحريتهم في التماس المعلومات وتلقيها ونقلها، فضلاً عن حقوق الإنسان الأخرى؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على تيسير بيئة ملائمة لمكافحة التضليل الإعلامي عن طريق استجابات متعددة الأبعاد يشارك فيها أصحاب المصلحة المتعددون، وتمتثل للقانون الدولي لحقوق الإنسان، بسبل منها تعزيز التعاون مع المنظمات الدولية والمجتمع المدني ووسائط الإعلام والقطاع الخاص وأصحاب المصلحة الآخرين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> الدول إلى تشجيع مؤسسات الأعمال، بما في ذلك شركات وسائل التواصل الاجتماعي، على التصدي للتضليل الإعلامي في ظل احترام حقوق الإنسان، بطرق منها استعراض نماذج الأعمال ولا سيما دور الخوارزميات وأنظمة التصنيف في تضخيم المعلومات المضللة، وتعزيز الشفافية، وإنفاذ جميع تدابير الحماية القانونية التي تنطبق على المستخدمين، والتشجيع على بذل العناية الواجبة تمشياً مع المبادئ التوجيهية المتعلقة بالأعمال التجارية وحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">يهيب </span>بجميع الدول أن تمتنع عن شنّ أو رعاية حملات التضليل الإعلامي على الصعيد المحلي أو عبر - الوطني لأغراض سياسية أو لأغراض أخرى، ويشجعها على إدانة هذه الأعمال؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">يلتزم</span> بتعزيز التعاون الدولي لمكافحة الأثر السلبي للتضليل الإعلامي على التمتع بحقوق الإنسان وإعمالها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">يدعو </span>الدول إلى تحسين إمكانية الحصول على مصادر معلومات متنوعة ويمكن التحقق منها، بوسائل منها اعتماد قوانين وسياسات متينة لحماية المعلومات وإتاحة إمكانية الحصول عليها، وكفالة الشفافية في تسيير هذه العملية، وتعزيز وسائط الإعلام المستقلة والحرة والتعددية والمتنوعة، واتخاذ تدابير لسد الفجوات الرقمية، بما في ذلك الفجوة الرقمية بين الجنسين، وضمان سلامة الصحفيين والعاملين في الحقل الإعلامي على شبكة الإنترنت وخارجها؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول والمجتمع المدني وقطاع الصناعة والمنظمات الدولية ووسائط الإعلام وأصحاب المصلحة الآخرين على الاعتراف بالمخاطر المضاعَفة التي يمكن أن تسببها المعلومات المضللة بالنسبة للعمليات الانتخابية وغيرها من العمليات الديمقراطية، وعلى العمل بطريقة شاملة لعدة قطاعات بغية وضع استراتيجيات عملية المنحى، بسبل منها الدراية الإعلامية والمعلوماتية، سعياً إلى التخفيف من المخاطر في ظل التمتع الكامل بحقوق الإنسان والحريات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">يطلب </span>إلى اللجنة الاستشارية لمجلس حقوق الإنسان أن تُجري دراسة وأن تعد تقريراً عن أثر التضليل الإعلامي على التمتع بحقوق الإنسان وإعمالها، وأن تقدم التقرير إلى مجلس حقوق الإنسان في دورته الحادية والستين؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">يطلب </span>إلى مفوضية الأمم المتحدة السامية لحقوق الإنسان أن تعقد، بالتشاور مع المقررة الخاصة المعنية بتعزيز وحماية الحق في حرية الرأي والتعبير، قبل موعد انعقاد الدورة التاسعة والخمسين لمجلس حقوق الإنسان، حلقة عمل للخبراء لمدة نصف يوم، على أن تكون مفتوحة لمشاركة الدول وأعضاء المجتمع المدني والقطاع الخاص وخبراء الأمم المتحدة وجميع أصحاب المصلحة المعنيين، من أجل استعراض الأساليب المستخدمة لنشر المعلومات المضللة وتعزيز الأدوات والنهوج الكفيلة بالتصدي لهذه التحديات في ظل حماية معايير حقوق الإنسان والنهوض بها، وإتاحة إمكانية الوصول الكاملة للأشخاص ذوي الإعاقة إلى حلقة العمل، ويطلب إلى اللجنة الاستشارية أن تقدم إحاطة شفوية بالمستجدات ذات الصلة بإعداد التقرير المذكور أعلاه أثناء حلقة عمل الخبراء؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">يطلب أيضاً</span> إلى المفوضية السامية أن تقدم تقريراً موجزاً عن حلقة عمل الخبراء إلى مجلس حقوق الإنسان في دورته الحادية والستين؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يبقي المسألة قيد نظره. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="53" refersTo="#adoptionMeeting">الجلسة 53</location>
+          <eol />
+          <docDate date="2024-04-03" refersTo="#adoptionDate">3 نيسان/أبريل 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

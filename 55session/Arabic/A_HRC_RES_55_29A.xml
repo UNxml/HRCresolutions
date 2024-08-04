@@ -1,0 +1,531 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/"></FRBRuri>
+          <FRBRdate date="2024-04-05" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/ara@/"></FRBRuri>
+          <FRBRdate date="2024-04-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="RIGHTS OF THE CHILD" href="http://metadata.un.org/thesaurus/1005573" showAs="RIGHTS OF THE CHILD" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL SECURITY" href="http://metadata.un.org/thesaurus/1005985" showAs="SOCIAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POPULAR PARTICIPATION" href="http://metadata.un.org/thesaurus/1005016" showAs="POPULAR PARTICIPATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHILDREN IN ARMED CONFLICTS" href="http://metadata.un.org/thesaurus/1000956" showAs="CHILDREN IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-28" outcome="draftResolution" as="A/HRC/55/L.18/Rev.1" by="Albania, Armenia, Australia, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malawi, Malta, Monaco, Montenegro, Netherlands (Kingdom of the), North Macedonia, Norway, Poland, Portugal, Republic of Moldova, Romania, Slovakia, Slovenia, Spain, Sweden, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-12" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-12" outcome="adopted" as="Adopted without vote, 56th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>        
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/29</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-12" class="rightSmall" refersTo="#dateOfIssuance">12 April 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic"> Arabic </inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">الدورة الخامسة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 شباط</date>
+          <date date="2024-04-05" refersTo="#endDate">5 نيسان 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline name="agenda item"></inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 5 نيسان/أبريل 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/29</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	حقوق الطفل: إعمال حقوق الطفل والحماية الاجتماعية الشاملة</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يؤكد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يؤكد</span> أن اتفاقية حقوق الطفل تشكل الأساس القانوني الدولي الذي يقوم عليه احترام حقوق الطفل وحمايتها وإعمالها، وإذ يضع في اعتباره أهمية البروتوكولات الاختيارية للاتفاقية، ويدعو إلى التصديق العالمي عليها وتنفيذها تنفيذاً فعالاً،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى جميع القرارات السابقة المتعلقة بحقوق الطفل الصادرة عن الجمعية العامة ولجنة حقوق الإنسان ومجلس حقوق الإنسان، وأحدثها قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/78/187">78/187</a> المؤرخ 19 كانون الأول/ديسمبر 2023 وقرار المجلس <a href="https://undocs.org/ar/A/HRC/RES/49/20">49/20</a> المؤرخ 1 نيسان/أبريل 2022، وإذ يشير أيضاً إلى قرار المجلس <a href="https://undocs.org/ar/A/HRC/RES/52/11">52/11</a> المؤرخ 3 نيسان/أبريل 2023 الذي يركز على دور الحماية الاجتماعية الشاملة في إعمال الحقوق الاقتصادية والاجتماعية والثقافية،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير أيضاً</span> إلى جميع معاهدات حقوق الإنسان الدولية ذات الصلة، ولا سيما العهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، والعهد الدولي الخاص بالحقوق المدنية والسياسية، واتفاقية القضاء على جميع أشكال التمييز ضد المرأة، والاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري، واتفاقية حقوق الأشخاص ذوي الإعاقة، والاتفاقية الدولية لحماية حقوق جميع العمال المهاجرين وأفراد أسرهم، فضلاً عن معاهدات أخرى، مثل اتفاقيات منظمة العمل الدولية بشأن الضمان الاجتماعي (المعايير الدنيا) لعام 1952 (رقم 102)، وبشأن المساواة في المعاملة (الضمان الاجتماعي) لعام 1962 (رقم 118)، وبشأن أسوأ أشكال عمل الأطفال لعام 1999 (رقم 182)،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير كذلك</span> إلى قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/1">70/1</a> المؤرخ 25 أيلول/سبتمبر 2015 والمعنون "تحويل عالمنا: خطة التنمية المستدامة لعام 2030"، الذي اعتمدت فيه الجمعية أهداف وغايات التنمية المستدامة، مع الالتزام بتحقيق التنمية المستدامة بطريقة متوازنة ومتكاملة وبإعمال حقوق الإنسان للجميع، وإذ يشير في هذا الصدد إلى أهمية الحماية الاجتماعية الشاملة من أجل تحقيق الأهداف، بسُبل منها تنفيذ تدابير ووضع نُظم مناسبة وطنياً لتحقيق الحماية الاجتماعية الشاملة، بما في ذلك إقرار حدود دنيا من هذه الحماية، لصالح الجميع،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> أن المبادئ العامة لاتفاقية حقوق الطفل، بما فيها مصالح الطفل الفضلى وعدم التمييز والمشاركة والبقاء والنمو، تتيح إطاراً يستوعب جميع الإجراءات المتعلقة بالأطفال،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى أن الإعلان العالمي لحقوق الإنسان يعترف بأن لجميع الأطفال الحق في الضمان الاجتماعي وبأن لهم الحق في رعاية ومساعدة خاصتين،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يرحب</span> بالاهتمام الذي توليه لجنة حقوق الطفل واللجنة المعنية بالحقوق الاقتصادية والاجتماعية والثقافية لمسألة الحماية الاجتماعية الشاملة، بما في ذلك في التعليقات العامة ذات الصلة،</p>
+      </container>
+      <container name="وإذ يرحب أيضاً" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يرحب أيضاً</span> بالاهتمام الذي توليه الآليات الفرعية لمجلس حقوق الإنسان، بما في ذلك الإجراءات الخاصة، وتوليه مفوضية الأمم المتحدة السامية لحقوق الإنسان وهيئات المعاهدات، لحقوق الطفل والحماية الاجتماعية الشاملة، كل في سياق ولايته، وكذلك بمساهمة الأطفال في تقارير المفوضية، وإذ يحيط علماً بالتوجيهات والتوصيات المناسبة المتعلقة باتباع نُهج قائمة على حقوق الإنسان إزاء الحماية الاجتماعية الشاملة،</p>
+      </container>
+      <container name="وإذ يشير مع التقدير" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير مع التقدير</span> إلى تقرير الممثلة الخاصة للأمين العام المعنية بالعنف ضد الأطفال<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/49/57">A/HRC/49/57</a>. </p></authorialNote><sup>)</sup>، الذي يتناول مسألة الاستثمار في الأطفال والحماية الاجتماعية الشاملة،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى أن اتفاقية حقوق الطفل تعترف بحق الطفل في الحفاظ على هويته، بما في ذلك جنسيته واسمه وعلاقاته الأسرية، على النحو المعترف به في القانون، بدون تدخل غير مشروع، وإذ يلاحظ أن الافتقار إلى الهوية القانونية أو إلى تسجيل المواليد على نحو واف أو إلى وثائق الجنسية والهوية يمكن أن يحول دون حصول الأطفال على الحماية الاجتماعية الشاملة،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير أيضاً</span> إلى مبادرات الجهات المتعددة صاحبة المصلحة الرامية إلى توفير الحماية الاجتماعية العامة الشاملة، بما في ذلك البرنامج العالمي الرائد لمنظمة العمل الدولية بشأن بناء أرضيات الحماية الاجتماعية للجميع (2016-2030)، والشراكة العالمية من أجل الحماية الاجتماعية الشاملة لتحقيق أهداف التنمية المستدامة لعام 2016، والمسرِّع العالمي لعام 2021 بشأن الوظائف والحماية الاجتماعية من أجل تحقيق انتقال عادل،</p>
+      </container>
+      <container name="وإذ يساوره شديد القلق" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يساوره شديد القلق</span> لأن الحماية الاجتماعية الشاملة لا تزال بعيدة عن متناول أكثر من 1,77 بليون طفل على الصعيد العالمي، مع وجود تفاوتات إقليمية كبيرة، ولأن هذا الحرمان من إمكانية الاستفادة من خدمات الحماية الاجتماعية الشاملة قد يقوض التمتع الكامل بطائفة واسعة من حقوق الطفل، بما في ذلك الحق في الحياة والتعليم والتمتع بأعلى مستوى ممكن من الصحة البدنية والعقلية، بما في ذلك الصحة الجنسية والإنجابية، والحق في مستوى معيشي لائق، بما في ذلك الغذاء والمسكن والملبس ومياه الشرب المأمونة والصرف الصحي، والراحة وأوقات الفراغ، وممارسة أنشطة اللعب والترفيه،</p>
+      </container>
+      <container name="وإذ يلاحظ ببالغ القلق" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ ببالغ القلق</span> أن جائحة مرض فيروس كورونا (كوفيد-19)، والنزاعات المسلحة، ودورات التراجع الاقتصادي، والأزمات الإنسانية، والأزمات الغذائية، وأزمة الكوكب الثلاثية المتمثلة في تغير المناخ والتلوث وفقدان التنوع البيولوجي، والشواغل المتعلقة بتكلفة المعيشة، قد أدت إلى تفاقم أشكال عدم المساواة والتمييز النُظمي القائمة أصلاً والتي يواجهها الأطفال، ولا سيما الفتيات، بما في ذلك العنصرية وعدم المساواة بين الجنسين والوصم وكراهية الأجانب وأوجه عدم المساواة الاجتماعية والاقتصادية، وأكدت الحاجة الملحة إلى نُظم حماية اجتماعية مرنة وجامعة وشاملة ترتكز على حقوق الطفل، وتضمن توفير تغطية كافية للشعوب الأصلية وسكان الأرياف،</p>
+      </container>
+      <container name="وإذ يحيط علماً مع التقدير" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً مع التقدير</span> بالتعليق العام رقم 26(2023) للجنة حقوق الطفل بشأن حقوق الطفل والبيئة، الذي يركز بوجه خاص على تغير المناخ، بما في ذلك تهيئة بيئة نظيفة وصحية ومستدامة، وإذ يلاحظ بشديد القلق أن أزمة الكوكب الثلاثية المتمثلة في تغير المناخ والتلوث وفقدان التنوع البيولوجي تعرض كل طفل، ولا سيما الفتيات والأطفال الذين ينتمون إلى البلدان الفقيرة والنامية، لخطر شديد، وأن عدم اتخاذ إجراءات مناخية يهدد حق كل طفل في التمتع بأعلى مستوى ممكن من الصحة البدنية والعقلية، وفي الأغذية المغذية الميسورة التكلفة، ومياه الشرب المأمونة والصرف الصحي، والتعليم والحماية من جميع أشكال العنف،</p>
+      </container>
+      <container name="وإذ يلاحظ بشديد القلق" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ بشديد القلق</span> أن أوجه عدم المساواة الطويلة الأجل بين الجنسين يديمها اضطلاع الفتيات والنساء بصورة غير متناسبة في جميع أنحاء العالم بمسؤوليات رعاية، معظمها بلا أجر أو بأجر منخفض، مما يعوق حصولهن على التعليم وفرص العمل في القطاع الرسمي ويهدد حقهن في الضمان الاجتماعي القائم على الاشتراكات، والأجور العادلة، وظروف العمل المأمونة والصحية، وفي مستوى معيشي لائق طوال دورة الحياة،</p>
+      </container>
+      <container name="وإذ يلاحظ بشديد القلق أيضاً" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ بشديد القلق أيضاً</span> استمرار وجود فجوات كبيرة بين الجنسين في تغطية الحماية الاجتماعية الشاملة وكفايتها وشموليتها، ولا سيما في البلدان المتدنية الدخل، مما يؤثر في جملة أمور منها الحصول على الرعاية الصحية، بما في ذلك خدمات الإعلام والتثقيف والرعاية في مجال الصحة الجنسية والإنجابية، والصحة والنظافة الصحية أثناء دورة الطمث، فضلاً عن خدمات صحة الأم، مثل الرعاية قبل الولادة وبعدها، وخدمات الرضاعة الطبيعية والتغذية، وخدمات الصحة النفسية، على الرغم من الوعي المتزايد بالحاجة إلى حماية اجتماعية مراعية للمنظور الجنساني وشاملة للجميع،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعرب عن بالغ القلق</span> لأن عدم وجود نُظم حماية اجتماعية عامة وغير تمييزية وشاملة ومراعية لمسائل الإعاقة وقائمة على حقوق الطفل، بما فيها نُظم تلبي احتياجات أفراد الأسرة، بما يشمل ذوي الإعاقة، في بلدان كثيرة يعني عدم تلبية الاحتياجات الإضافية للأطفال ذوي الإعاقة ومتطلبات دعمهم في كثير من الأحيان، وإذ يؤكد على ضرورة منع وإزالة التمييز الناشئ عن طريقة التفاعل بين التمييز لصالح الأشخاص غير ذوي الإعاقة وعدم المساواة بين الجنسين ومفاقمة أحدهما الآخر،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ بقلق</span> أن لأشكال التمييز المتعددة والمتداخلة تأثيراً غير متناسب في إمكانية حصول بعض الأطفال على الحماية الاجتماعية الشاملة، بمن فيهم الأطفال ذوو الإعاقة، والأطفال النازحون داخلياً واللاجئون والمهاجرون وملتمسو اللجوء، وأطفال الشعوب الأصلية، والأطفال العاملون، والفتيات، والأطفال ضحايا الزواج المبكر والقسري، والأطفال المنحدرون من أصل أفريقي، والأطفال المرتبطة أوضاعهم بالشوارع، والأطفال المودعون في مؤسسات الرعاية البديلة وتاركو الرعاية، والأطفال المسلوبة حريتهم، والأطفال في المناطق الريفية والنائية، والأطفال المتضررون من النزاعات المسلحة والكوارث الطبيعية، والأطفال المنتمون إلى أفقر الأسر المعيشية، والأطفال الذين لا يستطيع آباؤهم أو مقدمو الرعاية لهم العمل أو يعملون في الاقتصاد غير الرسمي،</p>
+      </container>
+      <container name="وإذ يدرك" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يدرك</span> أن الاستحقاقات التي يحصل عليها الأطفال وآباؤهم أو مقدمو الرعاية لهم كثيراً ما تكون غير كافية لتلبية الاحتياجات الفردية للأطفال، ولا سيما الاحتياجات الفردية لأكثرهم بُعداً عن الركب، وأن استحقاقات الأطفال الشاملة، مقرونةً بتوفير تدابير تكميلية، وإمكانية الحصول على الخدمات الأساسية والاستحقاقات العينية، وغير ذلك من الاستحقاقات التي تتلقاها الأسرة المعيشية، يمكن أن تحسن الحماية الاجتماعية الشاملة للأطفال والمساواة بين الجنسين والحد من فقر الأطفال ودعم نموهم،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> أن تكوين شخصية الطفل بصورة كاملة ومتناسقة يستوجب تنشئته في بيئة أسرية، وجعل مصالحه الفضلى المبدأ الموجِّه للأشخاص المسؤولين عن تنشئته وحمايته، وأنه ينبغي تعزيز قدرات الأسر ومقدمي الرعاية على توفير الرعاية والبيئة الآمنة للطفل، وإذ يشدد على أهمية الحماية الاجتماعية في تشجيع وتعزيز قدرات الوالدين ومقدمي الرعاية والأوصياء الشرعيين لرعاية أطفالهم،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بالتزامات الدول بضمان توفير الحماية الاجتماعية الشاملة، بسُبل منها معالجة الافتقار إلى نُظم متكاملة وضعف التنسيق في التصميم والتنفيذ والرصد عبر الخدمات المسؤولة عن الحماية الاجتماعية الشاملة، وجمود النُظم وتجزئها، والوصم والتمييز، والافتقار إلى بيانات مصنفة مناسبة، والافتقار إلى معلومات واضحة وسهلة المنال وملائمة للأطفال عن نُظم الحماية الاجتماعية، وعدم إشراك الأطفال بشكل مجد وآمن، وصعوبة الاستفادة من آليات المساءلة في حالات الحرمان غير العادل من المزايا،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> أنه ينبغي إتاحة الحماية الاجتماعية الشاملة، نقدية كانت أم عينية، لكفالة جملة أمور منها تمتع جميع الأطفال تمتعاً كاملاً بجميع حقوق الإنسان، بصرف النظر عن حالة والديهم أو مقدمي الرعاية لهم، بما في ذلك في الحالات التي لا يحصل فيها أحد الوالدين أو مقدم الرعاية على دخل مرتبط بالعمل بسبب المرض أو العجز أو الأمومة أو إصابات العمل أو البطالة أو الشيخوخة أو وفاة أحد أفراد الأسرة، أو عدم القدرة على الحصول على الخدمات الصحية أو عدم كفاية الدعم الأسري،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ</span> أن الشروط المؤهِّلة للحصول على استحقاقات الحماية الاجتماعية الشاملة يجب أن تكون معقولة ومتناسبة وشفافة، وأن التكاليف المباشرة وغير المباشرة المرتبطة بتغطية الحماية الاجتماعية الشاملة يجب أن تكون في متناول الجميع وألا تمس بإعمال الحقوق الاقتصادية والاجتماعية والثقافية الأخرى، وأنه ينبغي توفير استحقاقات الحماية الاجتماعية في أوانها، وأنه ينبغي أن تتاح للمستفيدين إمكانية الوصول المادي إلى خدمات الضمان الاجتماعي من أجل الحصول على الاستحقاقات والمعلومات، مع إيلاء أكثر الفئات تهميشاً اهتماماً خاصاً،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد</span> أهمية ضمان استفادة كل طفل من الحماية الاجتماعية الشاملة، وأهمية ضمان مشاركة الأطفال مشاركة شاملة وفعلية ومجدية في صنع القرارات التي تؤثر في حياتهم، وفقاً لقدرات الطفل المتطورة، بما في ذلك في وضع تدابير الحماية الاجتماعية وتنفيذها وتقييمها،</p>
+      </container>
+      <container name="وإذ يؤكد أيضاً" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد أيضاً</span> أن نُظم الحماية الاجتماعية المراعية لحقوق الطفل والشاملة ينبغي أن تتقيد بمبدأي المساواة الفعلية وعدم التمييز، وأن تركز تحديداً على كفالة إمكانية استفادة جميع الأطفال وتغطيتهم على قدم المساواة وعلى نحو عام وشامل، بمن فيهم الأطفال ذوو الإعاقة، بوسائل منها مراعاة ومعالجة الأسباب الجذرية لعدم المساواة بين الجنسين القائمة من قبل وكيفية تفاقمها بفعل أشكال التمييز الأخرى، وبلوغ أكثرهم بُعداً عن الركب،</p>
+      </container>
+      <container name="وإذ يدرك" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يدرك</span> أنه في حين أن نُظم الحماية الاجتماعية الشاملة مصممة وفقاً للسياقات الاجتماعية والاقتصادية والثقافية والسياسية الخاصة بكل بلد معني، فإن العناصر الأساسية لنهج قائم على حقوق الطفل إزاء الحماية الاجتماعية الشاملة تنطبق على كل الدول، بحيث توضع حقوق الطفل والتزامات الدول في صميم الأطر التشريعية وأطر السياسات المتعلقة بالحماية الاجتماعية الشاملة، وترتكز على حقوق الإنسان، وإذ يسلم بأوجه الضعف والاحتياجات الخاصة للأطفال المختلفة باختلاف مستويات نموهم البدني والمعرفي والاجتماعي والعاطفي،</p>
+      </container>
+      <container name="وإذ يدرك أيضاً" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يدرك أيضاً</span> أن الاستثمار في توفير الحماية الاجتماعية الشاملة للأطفال أمر أساسي للوفاء بالتزامات الدول فيما يتعلق بإعمال الحقوق الاقتصادية والاجتماعية والثقافية وله فوائد اقتصادية وسياسية واجتماعية طويلة الأمد، لا سيما لصالح الأطفال،</p>
+      </container>
+      <container name="وإذ يدرك كذلك" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يدرك كذلك</span> الدور المحوري الذي تؤديه الحماية الاجتماعية الشاملة في إعمال حقوق الطفل، ومنع الفقر وعدم المساواة بين الأطفال والتخفيف من حدتهما، والنهوض بخطة التنمية المستدامة لعام 2030، بما في ذلك تحقيق الغايتين 1-3 و10-4 من أهداف التنمية المستدامة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">
+            <span class="italic">	يرحب</span> بعمل مفوض الأمم المتحدة السامي لحقوق الإنسان بشأن حقوق الطفل، ويحيط علماً مع التقدير بتقريره عن حقوق الطفل والحماية الاجتماعية الشاملة<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/54/36">A/HRC/54/36</a>. </p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">
+            <span class="italic">	يهيب</span> بالدول أن تنظر في التصديق على اتفاقية حقوق الطفل والبروتوكولات الاختيارية الملحقة بها، ويدعو جميع الأطراف إلى تجديد الجهود من أجل تنفيذها تنفيذاً كاملاً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="H23GA">
+        <content eId="para_32__content">
+          <p xml:space="preserve">
+            <span class="bold">		الحماية الاجتماعية الشاملة</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحث</span> الدول على ضمان حصول جميع الأطفال، تماشياً مع القانون الدولي لحقوق الإنسان، على الحماية الاجتماعية الشاملة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحث أيضاً</span> الدول على أن تضع تشريعات وسياسات ونُظماً وإجراءات ملائمة، إن لم تكن قد فعلت ذلك بعد، لضمان إيلاء مصالح الطفل الفضلى الاعتبار الأول في جميع الإجراءات التي تمس الأطفال وفي جميع القرارات المتخذة فيما يتعلق بتوفير الحماية الاجتماعية الشاملة لهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">
+            <span class="italic">	يهيب</span> بالدول الأطراف في اتفاقية حقوق الطفل أن تتخذ التدابير اللازمة لتحقيق الإعمال الكامل لحقوق الطفل في الضمان الاجتماعي، بما في ذلك التأمين الاجتماعي، وفقاً للاتفاقية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحث</span> الدول على ضمان توفير حماية ومساعدة اجتماعيتين شاملتين للأسر على أوسع نطاق ممكن، والقيام، عند الاقتضاء، باتخاذ تدابير خاصة مناسبة لتوفير الحماية والمساعدة لصالح جميع الأطفال، وضمان أن تكون تدابير الحماية الاجتماعية الشاملة متاحة وكافية وفي المتناول؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحث أيضاً</span> الدول على الاستثمار في الحماية الاجتماعية الشاملة المراعية لحقوق الطفل، بغية تحقيق أمور منها تلبية احتياجات جميع أفراد الأسرة وإعمال حقوقهم الإنسانية، مما قد يكون له عوائد اقتصادية واجتماعية عالية ويمثل خياراً استراتيجياً يفيد جميع الأطفال، بما يمكنهم من إعمال حقوقهم الإنسانية وتحقيق طاقاتهم والعيش بكرامة، وتكون عنصراً رئيسياً في الاقتصادات القوية والمجتمعات الصحية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحث كذلك</span> الدول على بناء وتكييف نُظم الحماية الاجتماعية الشاملة لتلبية الاحتياجات والقدرات المحددة للأطفال النازحين قسراً والمهاجرين واللاجئين، بسُبل منها توفير شبكات أمان ومساحات ملائمة للأطفال يسهل الوصول إليها وتعترف بأهمية مرافق اللعب والترفيه، وهو ما من شأنه أن يساعد على حماية الأطفال وتوفير الدعم البدني والنفسي للأطفال المتضررين من الأزمات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">
+            <span class="italic">	يهيب</span> بالدول أن تخصص موارد كافية لضمان توفير الحماية الاجتماعية الفعالة الشاملة للأطفال وإعمال حقوقهم، بما في ذلك الحق في الضمان الاجتماعي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">
+            <span class="italic">	يشجع</span> الدول على التحرك تدريجياً نحو توفير تغطية بالحماية الاجتماعية الشاملة، بسُبل منها الوفاء باستحقاقات الطفل العامة دون تمييز من أي نوع وإضافة خدمات تكميلية إليها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحث</span> الدول على ضمان أن توفر خطط الحماية الاجتماعية الشاملة دعماً وافياً ومكيفاً للأطفال ذوي الإعاقة، بما في ذلك دفع أجر للأفراد الذين يقدمون لهم الرعاية، بطريقة كريمة تراعي الاحتياجات الخاصة من المساعدة والدعم من أجل تعزيز مشاركة الأطفال ذوي الإعاقة مشاركة كاملة وفعالة في المجتمع على قدم المساواة مع سائر الأطفال وضمان تمتعهم بحقوقهم وفقاً لاتفاقية حقوق الأشخاص ذوي الإعاقة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxtGA">
+        <num>12-</num>
+        <list eId="para_78_list">
+          <intro eId="para_78_list_intro">
+            <p xml:space="preserve">
+              <span class="italic">	يحث أيضاً</span> الدول على اتخاذ التدابير اللازمة لضمان تمتع جميع الأطفال تمتعاً كاملاً بكل حقوقهم الإنسانية وضمان حصولهم على خدمات الحماية الاجتماعية الشاملة من خلال آليات تنظيم وإنفاذ فعالة، بسُبل منها:</p>
+          </intro>
+          <point eId="para_78_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_78_list_point_أ_content">
+              <p xml:space="preserve">	سن وتنفيذ الأطر القانونية والسياساتية اللازمة المرتكزة على حقوق الإنسان، ولا سيما الالتزامات في مجال حقوق الطفل، لوضع نهج شامل قائم على حقوق الطفل إزاء الحماية الاجتماعية الشاملة كجزء من دورة الحياة ونهج النُظم المتكاملة، وضمان عدم ترك أي طفل خلف الركب، وتضمين خدمات الحماية الاجتماعية الشاملة استحقاقات للطفل والأسرة عامة وشاملة، وتوفير الدعم المالي والمادي للوالدين أو مقدمي الرعاية، مثل الإجازة الوالدية ورعاية الأطفال الجيدة والميسورة التكلفة، واقتران خدمات الحماية الاجتماعية الشاملة برعاية ودعم قائمين على حقوق الإنسان، فضلاً عن حصول الجميع على الخدمات الأساسية، بما في ذلك الخدمات الصحية، والحصول على قدم المساواة على تعليم مجاني جيد وشامل للجميع، وبيئة رقمية آمنة، وعلى المياه والصرف الصحي، والأغذية المغذية بأسعار معقولة، والسكن اللائق؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_78_list_point_ب_content">
+              <p xml:space="preserve">	إيلاء اهتمام خاص للتخفيف من الأثر غير المتناسب على الأطفال الذين يعيشون في أوضاع من التهميش والهشاشة ويواجهون أشكالاً متعددة ومتقاطعة من التمييز، عن طريق وضع نهج يدرك المخاطر ويعالج الأسباب الجذرية وعوامل الخطر لعدم المساواة بين الجنسين لضمان حصول جميع الأطفال على حماية اجتماعية شاملة مراعية للسن والإعاقة والمنظور الجنساني؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_78_list_point_ج_content">
+              <p xml:space="preserve">	ضمان التشاور مع الأطفال تشاوراً مجدياً في قرارات الحماية الاجتماعية الشاملة المتعلقة بهم وجعل المعلومات المتعلقة بالحماية الاجتماعية مناسبة ومتاحة لجميع الأطفال الذين يعيشون في أوضاع من التهميش والهشاشة؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_د">
+            <num>(د)</num>
+            <content eId="para_78_list_point_د_content">
+              <p xml:space="preserve">	إجراء تحليلات للميزانيات لمواءمتها مع الالتزامات في مجال حقوق الطفل واعتماد تدفقات الإيرادات اللازمة لضمان تمويل نُظم الحماية الاجتماعية المتكاملة والشاملة للجهات المتعددة صاحبة المصلحة تمويلاً مراعياً لحقوق الطفل، وتخصيص موارد بشرية ومالية كافية ووافية لتنفيذها بفعالية؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ه">
+            <num>(ه)</num>
+            <content eId="para_78_list_point_ه_content">
+              <p xml:space="preserve">	جمع بيانات عن الأطفال جيدة وشفافة ومصنفة وفي أوانها تغطي جميع أسباب التمييز المحظورة بموجب القانون الدولي لحقوق الإنسان، وإنشاء آليات رصد وتقييم شاملة وشفافة لتحليل نُظم الحماية الاجتماعية الشاملة، وتحديد الثغرات وتوجيه العمليات التشريعية والسياسات القائمة على الأدلة لضمان أن تكون نُظم الحماية الاجتماعية شاملة حقاً، بوسائل منها إجراء عمليات تقييم الأثر على حقوق الطفل في وضع التشريعات والسياسات والبرامج؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_و">
+            <num>(و)</num>
+            <content eId="para_78_list_point_و_content">
+              <p xml:space="preserve">	اعتبار الحماية الاجتماعية الشاملة جزءاً لا يتجزأ من القضاء على عمل الأطفال؛</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_78_list_point_ز_content">
+              <p xml:space="preserve">	إذكاء الوعي وتوزيع معلومات واضحة وسهلة المنال وهادفة بشأن خدمات الحماية الاجتماعية الشاملة المتاحة ومعايير الأهلية للحصول عليها وكيفية طلبها؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحث كذلك</span> الدول على ضمان وصول جميع الأطفال إلى العدالة وسبل الانتصاف الداعمة للضحايا المناسبة التوقيت والفعالة والشاملة للجميع والمراعية للمنظور الجنساني والإعاقة والسن والصدمات النفسية وجبر الضرر وضمانات عدم التكرار عند انتهاك حقوقهم في سياق الحماية الاجتماعية الشاملة، وضمان توافر آليات إبلاغ مجانية وآمنة وسرية وسريعة الاستجابة وملائمة للأطفال وإمكانية الوصول إليها، وتدعيم ضمانات احترام الأصول القانونية المراعية للطفل في الإجراءات الإدارية والقضائية، على أن تولي مصالح الطفل الفضلى الاعتبار الأول وتراعي أن للطفل الحق في أن تتاح له فرصة الاستماع إليه في هذه الإجراءات، إما بصفة مباشرة وإما عن طريق ممثل أو هيئة مناسبة، وتزويد الطفل وكذلك، عند الاقتضاء، والديه ومقدمي الرعاية والأوصياء القانونيين وعن طريقهم، بالمعلومات المناسبة بشأن الانتهاكات وآليات جبر الضرر، وحصولهم على تمثيل ومساعدة قانونيين فعالين مكيفين مع احتياجات الطفل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تتخذ تدابير، باتباع نهج متقاطع، للاعتراف بأعمال الرعاية المدفوعة الأجر وغير المدفوعة الأجر وتقديرها وإعادة توزيعها على أساس متكافئ ومنصف، والحد من أعمال الرعاية غير المدفوعة الأجر، التي لا تزال تؤدي القسطَ الأكبر منها حالياً النساءُ والفتيات وتعوق وصولهن إلى قطاع العمل الرسمي وتهدد حقهن في الضمان الاجتماعي القائم على الاشتراكات، وذلك من خلال تعزيز تقاسم المسؤوليات بصورة متكافئة بين أفراد الأسرة، وفيما بين الأسر والمجتمعات المحلية والقطاع الخاص والدول، ومن خلال إعطاء الأولوية، في جملة أمور، للبنى التحتية المستدامة التي يسهل الوصول إليها، ووسائل النقل، والخدمات الاجتماعية الجيدة والميسورة التكلفة، بما في ذلك خدمات ومنتجات الرعاية والدعم، ورعاية الأطفال، ومعايير العمل التي تنص على العمل اللائق والمساواة بين الجنسين لجميع العاملين والعاملات، بما في ذلك إجازة الأمومة أو الأبوة أو الإجازة الوالدية، والأجر المتساوي عن العمل المتساوي القيمة، وظروف العمل الآمنة والصحية، وعدم التعرض للعنف والتحرش في عالم العمل، بما في ذلك العنف والتحرش القائمان على نوع الجنس والنوع الاجتماعي، وحرية تكوين الجمعيات، والحق في التنظيم والمفاوضة الجماعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحث</span> الدول على ضمان أن تكون تغطية الحماية الاجتماعية مراعية للمنظور الجنساني ومصممة لتلبية احتياجات النساء والفتيات، فيما يتعلق بأمور منها حقهن في التمتع بأعلى مستوى ممكن من الصحة البدنية والعقلية، بما في ذلك خدمات الإعلام والتثقيف والرعاية في مجال الصحة الجنسية والإنجابية، والصحة والنظافة الصحية أثناء دورة الطمث، فضلاً عن خدمات صحة الأم، مثل الرعاية قبل الولادة وبعدها وخدمات الرضاعة الطبيعية والتغذية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxtGA">
+        <num>16-</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحث أيضاً</span> الدول على امتثال التزاماتها بموجب القانون الدولي، بما في ذلك القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان، وخاصة اتفاقية حقوق الطفل والبروتوكولات الاختيارية الملحقة بها، مع التأكيد على أهمية المساءلة عن جميع انتهاكات وتجاوزات حقوق الطفل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="H23GA">
+        <content eId="para_125__content">
+          <p xml:space="preserve">
+            <span class="bold">		تعميم مراعاة حقوق الطفل</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxtGA">
+        <num>17-</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">
+            <span class="italic">	يلاحظ مع التقدير</span> المذكرة الإرشادية للأمين العام بشأن تعميم مراعاة حقوق الطفل، التي تؤكد ضرورة الأخذ بمنظور حقوق الطفل، بسُبل منها إشراك الأطفال بصورة نشطة ومجدية، ولزوماً الأطفال الأكثر عرضة لخطر التخلف عن الركب، في جميع عمليات صنع القرار التي تؤثر في تمتعهم بحقوقهم الإنسانية، وتحدد توقعات واضحة لمنظومة الأمم المتحدة بأسرها وجميع كياناتها، بما في ذلك مفوضية الأمم المتحدة السامية لحقوق الإنسان وآليات التحقيق والمساءلة في مجال حقوق الإنسان، لضمان مشاركة الأطفال مشاركة أخلاقية ومجدية وآمنة في جميع إجراءات الأمم المتحدة ومحافل الأمم المتحدة ذات الصلة، حسبما تقتضيه الضرورة لتحقيق تعميم مراعاة حقوق الطفل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxtGA">
+        <num>18-</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">
+            <span class="italic">	يشجع</span> الدول على اتخاذ خطوات لوضع طرائق منظمة وملائمة للأطفال، من أجل تعزيز حقهم في الاستماع إليهم في المحافل المحلية والوطنية والإقليمية والدولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxtGA">
+        <num>19-</num>
+        <list eId="para_129_list">
+          <intro eId="para_129_list_intro">
+            <p xml:space="preserve">
+              <span class="italic">	يحث</span> الدول على دعم دور المفوضية السامية في تعميم مراعاة حقوق الطفل على نطاق منظومة الأمم المتحدة بما يتماشى مع ولايتها، ويشجعها على تأكيد التزامها بزيادة الدعم المالي لقدرات المفوضية في المسائل المواضيعية، بما في ذلك قدراتها على ما يلي:</p>
+          </intro>
+          <point eId="para_129_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_129_list_point_أ_content">
+              <p xml:space="preserve">	تقديم أنشطة استشارية وأنشطة لبناء القدرات إلى الدول وغيرها من الجهات المعنية صاحبة المصلحة، بناءً على طلبها، بشأن النطاق الكامل لحقوق الطفل بما يتماشى مع القانون الدولي لحقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_129_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_129_list_point_ب_content">
+              <p xml:space="preserve">	تنسيق تنفيذ التقدم في تعميم مراعاة حقوق الطفل على نطاق منظومة الأمم المتحدة، ورصده بانتظام، بالتعاون مع منظمة الأمم المتحدة للطفولة؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_130" class="H23GA">
+        <content eId="para_130__content">
+          <p xml:space="preserve">
+            <span class="bold">		المتابعة</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxtGA">
+        <num>20-</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">
+            <span class="italic">	يطلب</span> إلى الأمين العام أن يوسع قدرات المفوضية السامية للنهوض بتعميم مراعاة حقوق الطفل، ولا سيما مشاركة الأطفال وحمايتهم، في عمل المفوضية وآليات المساءلة والتحقيق في مجال حقوق الإنسان التي تدعمها، وأن يسدي المشورة والمساعدة التقنية في المسائل المتعلقة بإعمال حقوق الإنسان للأطفال إلى الدول، بناءً على طلبها، وإلى جميع منظمات الأمم المتحدة وهيئاتها ذات الصلة، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxtGA">
+        <num>21-</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">
+            <span class="italic">	يطلب</span> إلى المفوض السامي أن يعد تقريراً عن تعميم مراعاة حقوق الطفل على نطاق الأمم المتحدة، بوسائل منها تنفيذ المذكرة الإرشادية للأمين العام بشأن تعميم مراعاة حقوق الطفل، بالتشاور مع جميع الجهات المعنية صاحبة المصلحة، بما في ذلك الدول، ومنظمة الأمم المتحدة للطفولة، والممثلة الخاصة للأمين العام المعني بالعنف ضد الأطفال، والممثلة الخاصة للأمين العام المعنية بالأطفال والنزاع المسلح، ولجنة حقوق الطفل، والمكلفون بولايات ذات صلة في إطار الإجراءات الخاصة، وسائر هيئات الأمم المتحدة ووكالاتها ذات الصلة، والمنظمات الإقليمية، وهيئات حقوق الإنسان، والمجتمع المدني، بسُبل منها التشاور مع الأطفال أنفسهم، وأن يقدم التقرير إلى مجلس حقوق الإنسان في دورته التاسعة والخمسين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxtGA">
+        <num>22-</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">
+            <span class="italic">	يشجع</span> الإجراءات الخاصة وغيرها من آليات حقوق الإنسان التابعة لمجلس حقوق الإنسان على أن تواصل إدماج منظور حقوق الطفل في تنفيذ ولاياتها، وأن تدرج في تقاريرها معلومات وتحليلات نوعية وتوصيات بشأن حقوق الطفل، مع إيلاء الاهتمام لما للافتقار إلى الرعاية الاجتماعية الشاملة من تأثير سلبي في التمتع الكامل بحقوق الطفل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxtGA">
+        <num>23-</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve">
+            <span class="italic">	يدعو</span> جميع هيئات معاهدات حقوق الإنسان إلى مواصلة إدماج حقوق الطفل في أعمالها، وبصفة خاصة في ملاحظاتها الختامية وتعليقاتها العامة وتوصياتها، مع إيلاء الاهتمام لما للافتقار إلى الرعاية الاجتماعية الشاملة من تأثير سلبي في التمتع الكامل بحقوق الطفل، ويشجعها على التشاور مع الأطفال تشاوراً أخلاقياً ومجدياً وآمناً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_141" class="SingleTxtGA">
+        <num>24-</num>
+        <content eId="para_141__content">
+          <p xml:space="preserve">
+            <span class="italic">	يهيب</span> بجميع آليات حقوق الإنسان التابعة لمجلس حقوق الإنسان، بما في ذلك الهيئات الفرعية والاستشارية، حسب الاقتضاء، أن ترصد وتحلل الأسباب الجذرية لانتهاكات وتجاوزات حقوق الطفل على نحو أكثر اتساقاً، من خلال إعداد بيانات مصنفة مع مراعاة جميع الأطفال الذين يعيشون في أوضاع من التهميش والهشاشة، وترجمة هذا التحليل إلى توصيات محددة وعملية المنحى لجميع الجهات المعنية صاحبة المصلحة من أجل تعزيز المساءلة في مجال حقوق الطفل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxtGA">
+        <num>25-</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve">
+            <span class="italic">	يقرر</span> مواصلة نظره في مسألة حقوق الطفل وفقاً لبرنامج عمله وقراريه <a href="https://undocs.org/ar/A/HRC/RES/7/29">7/29</a> المؤرخ 28 آذار/مارس 2008 و<a href="https://undocs.org/ar/A/HRC/RES/19/37">19/37</a> المؤرخ 23 آذار/مارس 2012، ويطلب إلى مفوضية حقوق الإنسان أن تنظم اجتماعها السنوي لمدة يوم كامل بشأن حقوق الطفل في عام 2025 عن موضوع النمو في مرحلة الطفولة المبكرة، وأن تكفل توافر موارد ملائمة لدعم وتيسير مشاركة الأطفال، مع ضمان سهولة وصولهم إلى المباني المعنية، وأن تجعل المناقشة متاحة بشكل كامل للأطفال وللأشخاص ذوي الإعاقة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="SingleTxtGA">
+        <num>26-</num>
+        <content eId="para_152__content">
+          <p xml:space="preserve">
+            <span class="italic">	يطلب</span> إلى المفوض السامي أن يعد تقريراً عن حقوق الطفل وانتهاكات حقوق الإنسان للأطفال في النزاعات المسلحة، بالتعاون الوثيق مع جميع الجهات المعنية صاحبة المصلحة، بما في ذلك الدول، ومنظمة الأمم المتحدة للطفولة، والممثلة الخاصة للأمين العام المعنية بالعنف ضد الأطفال، والممثلة الخاصة للأمين العام المعنية بالأطفال والنزاع المسلح، والمكلفون بولايات ذات صلة في إطار الإجراءات الخاصة، وسائر هيئات الأمم المتحدة ووكالاتها ذات الصلة، والمنظمات الإقليمية وهيئات حقوق الإنسان، والمؤسسات الوطنية لحقوق الإنسان، والمجتمع المدني، بسُبل منها التشاور مع الأطفال أنفسهم، وأن يتيح التقرير في شكل يسهل الاطلاع عليه ومناسب للأطفال، وأن يقدمه إلى مجلس حقوق الإنسان في دورته الستين، ويطلب إلى المفوضية السامية أن تنظم الاجتماع السنوي ليوم كامل بشأن حقوق الطفل في عام 2026 عن موضوع حقوق الطفل وانتهاكات حقوق الإنسان للأطفال في النزاعات المسلحة، وأن تكفل توافر موارد ملائمة لدعم مشاركة الأطفال، مع ضمان سهولة وصولهم إلى المباني المعنية، وأن تجعل المناقشة متاحة بشكل كامل للأطفال وللأشخاص ذوي الإعاقة.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="56" refersTo="#adoptionMeeting">الجلسة 56</location>
+          <eol />
+          <docDate date="2024-04-05" refersTo="#adoptionDate">5 نيسان/أبريل 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد بدون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
