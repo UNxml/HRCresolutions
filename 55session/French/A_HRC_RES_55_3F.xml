@@ -1,0 +1,209 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-3/"></FRBRuri>
+          <FRBRdate date="2024-04-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-3/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-3/fra@/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-3/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-3/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Right to Privacy" showAs="UN. Human Rights Council. Special Rapporteur on the Right to Privacy" dictionary="DHLAUTH"></keyword>
+        <keyword value="RIGHT TO PRIVACY" href="http://metadata.un.org/thesaurus/1005566" showAs="RIGHT TO PRIVACY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-21" outcome="draftResolution" as="A/HRC/55/L.2" by="Albania, Armenia, Australia, Austria, Belgium, Brazil, Bulgaria, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, France, Georgia, Germany, Honduras, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Mexico, Monaco, Montenegro, Netherlands (Kingdom of the), North Macedonia, Norway, Paraguay, Peru, Poland, Portugal, Romania, San Marino, Slovenia, Spain, Sweden, Switzerland, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-04" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-04" outcome="adopted" as="Adopted without vote, 53rd meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-04" class="rightSmall" refersTo="#dateOfIssuance">4 avril 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French"> Français </inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">Cinquante-cinquième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 février</date>
+          <date date="2024-04-05" refersTo="#endDate">5 avril 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme,  civils, politiques, économiques, sociaux et culturels,  y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 3 avril 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Mandat de Rapporteur spécial sur le droit à la vie privée</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Guidé </span>par les buts et principes énoncés dans la Charte des Nations Unies,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> les droits de l’homme et les libertés fondamentales consacrés par la Déclaration universelle des droits de l’homme, le Pacte international relatif aux droits civils et politiques, le Pacte international relatif aux droits économiques, sociaux et culturels, la Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes, la Convention relative aux droits de l’enfant et la Convention relative aux droits des personnes handicapées,</p>
+      </container>
+      <container name="Rappelant" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>toutes les résolutions adoptées par l’Assemblée générale, et ses propres résolutions, sur le droit à la vie privée à l’ère du numérique et les autres résolutions pertinentes, notamment celles sur la promotion, la protection et l’exercice des droits de l’homme sur Internet et sur les nouvelles technologies numériques et les droits de l’homme,</p>
+      </container>
+      <container name="Rappelant" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>que les entreprises sont tenues de respecter les droits de l’homme, comme le prévoient les principes intitulés « Principes directeurs relatifs aux entreprises et aux droits de l’homme : mise en œuvre du cadre de référence “protéger, respecter et réparer” des Nations Unies », et que c’est à l’État qu’il incombe au premier chef de promouvoir et de protéger les droits de l’homme et les libertés fondamentales,</p>
+      </container>
+      <container name="Saluant" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Saluant </span>les travaux du Haut-Commissariat des Nations Unies aux droits de l’homme sur le droit à la vie privée à l’ère numérique, ainsi que les travaux de la Rapporteuse spéciale sur le droit à la vie privée,</p>
+      </container>
+      <container name="Constatant" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Constatant </span>que les technologies nouvelles et émergentes, telles que celles qui sont développées dans les domaines de la surveillance, de l’intelligence artificielle, de la prise de décisions automatisée, de l’apprentissage automatique, du profilage, du suivi et de la biométrie, notamment la reconnaissance faciale, sans garanties appropriées, ont des incidences croissantes sur l’exercice du droit à la vie privée et des autres droits de l’homme,</p>
+      </container>
+      <container name="Rappelant" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> ses résolutions 5/1, sur la mise en place de ses institutions, et 5/2, sur le Code de conduite pour les titulaires de mandat au titre des procédures spéciales, en date du 18 juin 2007, et soulignant que tous les titulaires de mandat doivent s’acquitter de leurs obligations conformément à ces résolutions et à leurs annexes,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de prolonger pour une durée de trois ans le mandat du Rapporteur spécial sur le droit à la vie privée, selon les conditions définies dans sa résolution 46/16 du 23 mars 2021 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à tous les États de coopérer pleinement avec la Rapporteuse spéciale dans l’exercice de son mandat et de lui prêter leur concours, notamment de lui communiquer tous les renseignements qu’elle sollicite, de répondre rapidement à ses appels urgents et à ses autres communications, de donner une suite favorable à ses demandes de visite dans le pays et d’envisager d’appliquer les recommandations qu’elle formule dans ses rapports ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> toutes les parties prenantes concernées, notamment les organismes, programmes et fonds des Nations Unies, les mécanismes régionaux relatifs aux droits de l’homme, les institutions nationales des droits de l’homme, la société civile et le secteur privé à coopérer pleinement avec la Rapporteuse spéciale pour lui permettre de s’acquitter de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général et le Haut-Commissaire des Nations Unies aux droits de l’homme de fournir à la Rapporteuse spéciale toutes les ressources humaines et financières dont elle a besoin pour s’acquitter efficacement de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de poursuivre l’examen de cette question au titre du même point de l’ordre du jour.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="53e" refersTo="#adoptionMeeting">53e séance</location>
+          <eol />
+          <docDate date="2024-04-03" refersTo="#adoptionDate">3 avril 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

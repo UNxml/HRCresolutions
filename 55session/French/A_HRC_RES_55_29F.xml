@@ -1,0 +1,480 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/"></FRBRuri>
+          <FRBRdate date="2024-04-05" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/fra@/"></FRBRuri>
+          <FRBRdate date="2024-04-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="RIGHTS OF THE CHILD" href="http://metadata.un.org/thesaurus/1005573" showAs="RIGHTS OF THE CHILD" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL SECURITY" href="http://metadata.un.org/thesaurus/1005985" showAs="SOCIAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POPULAR PARTICIPATION" href="http://metadata.un.org/thesaurus/1005016" showAs="POPULAR PARTICIPATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHILDREN IN ARMED CONFLICTS" href="http://metadata.un.org/thesaurus/1000956" showAs="CHILDREN IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-28" outcome="draftResolution" as="A/HRC/55/L.18/Rev.1" by="Albania, Armenia, Australia, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malawi, Malta, Monaco, Montenegro, Netherlands (Kingdom of the), North Macedonia, Norway, Poland, Portugal, Republic of Moldova, Romania, Slovakia, Slovenia, Spain, Sweden, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-12" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-12" outcome="adopted" as="Adopted without vote, 56th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/29</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-12" class="rightSmall" refersTo="#dateOfIssuance">12 avril 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French"> Français </inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">Cinquante-cinquième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 février</date>
+          <date date="2024-04-05" refersTo="#endDate">5 avril 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme,  civils, politiques, économiques, sociaux et culturels,  y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 5 avril 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/29.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Droits de l’enfant : réalisation des droits de l’enfant et protection sociale inclusive</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Soulignant" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> que la Convention relative aux droits de l’enfant constitue le fondement juridique international du respect, de la protection et de la réalisation des droits de l’enfant, ayant à l’esprit l’importance des Protocoles facultatifs à la Convention et demandant que la Convention et les Protocoles soient universellement ratifiés et effectivement appliqués,</p>
+      </container>
+      <container name="Rappelant" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> toutes les résolutions sur les droits de l’enfant que l’Assemblée générale, la Commission des droits de l’homme et lui-même ont adoptées précédemment, les plus récentes étant la résolution 78/187 de l’Assemblée, du 19 décembre 2023, et sa propre résolution 49/20, du 1<sup>er</sup> avril 2022, et rappelant également sa résolution 52/11, du 3 avril 2023, qui met l’accent sur le rôle que joue la protection sociale inclusive dans la réalisation des droits économiques, sociaux et culturels,</p>
+      </container>
+      <container name="Rappelant également" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> tous les instruments internationaux pertinents relatifs aux droits de l’homme, en particulier le Pacte international relatif aux droits économiques, sociaux et culturels, le Pacte international relatif aux droits civils et politiques, la Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes, la Convention internationale sur l’élimination de toutes les formes de discrimination raciale, la Convention relative aux droits des personnes handicapées et la Convention internationale sur la protection des droits de tous les travailleurs migrants et des membres de leur famille, ainsi que d’autres instruments comme la Convention de 1952 concernant la sécurité sociale (norme minimum) (n<sup>o</sup> 102), la Convention de 1962 sur l’égalité de traitement (sécurité sociale) (n<sup>o</sup> 118) et la Convention de 1999 sur les pires formes de travail des enfants (n<sup>o</sup> 182) de l’Organisation internationale du Travail,</p>
+      </container>
+      <container name="Rappelant en outre" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Rappelant en outre</span> la résolution 70/1 de l’Assemblée générale, du 25 septembre 2015, intitulée « Transformer notre monde : le Programme de développement durable à l’horizon 2030 », dans laquelle l’Assemblée a adopté les objectifs et les cibles de développement durable, en exprimant la volonté de parvenir à un développement durable d’une manière qui soit équilibrée et intégrée et de réaliser les droits humains de tous, et rappelant à cet égard l’importance d’une protection sociale inclusive pour la réalisation des objectifs, notamment la mise en place de mesures et de systèmes de protection sociale inclusifs adaptés au contexte national, y compris des socles de protection sociale, pour tous,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> que les principes généraux énoncés dans la Convention relative aux droits de l’enfant, notamment les principes de l’intérêt supérieur de l’enfant, de la non‑discrimination, de la participation, de la survie et du développement, sont le cadre dans lequel doivent s’inscrire toutes les décisions qui concernent les enfants,</p>
+      </container>
+      <container name="Rappelant" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> que la Déclaration universelle des droits de l’homme consacre le droit de tous les enfants à la sécurité sociale ainsi qu’à une aide et à une assistance spéciales,</p>
+      </container>
+      <container name="Se félicitant" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Se félicitant</span> de l’attention portée à la question de la protection sociale inclusive par le Comité des droits de l’enfant et le Comité des droits économiques, sociaux et culturels, notamment dans leurs observations générales pertinentes,</p>
+      </container>
+      <container name="Se félicitant également" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Se félicitant également</span> de l’attention que ses mécanismes subsidiaires, y compris les titulaires de mandat au titre des procédures spéciales, ainsi que le Haut‑Commissariat des Nations Unies aux droits de l’homme et les organes créés en vertu d’instruments internationaux relatifs aux droits de l’homme portent aux droits de l’enfant et à la protection sociale inclusive dans le cadre de leurs mandats respectifs, ainsi que de la contribution d’enfants aux rapports du Haut-Commissariat, et prenant note des orientations et des recommandations pertinentes portant sur des approches de la protection sociale inclusive fondées sur les droits de l’homme,</p>
+      </container>
+      <container name="Rappelant avec satisfaction" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Rappelant avec satisfaction</span> le rapport de la Représentante spéciale du Secrétaire général chargée de la question de la violence contre les enfants<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/49/57">A/HRC/49/57</a>.</p></authorialNote>, qui traitait de la nécessité d’investir dans les enfants et la protection sociale inclusive,</p>
+      </container>
+      <container name="Rappelant" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> que la Convention relative aux droits de l’enfant consacre le droit de l’enfant de préserver son identité, y compris sa nationalité, son nom et ses relations familiales, tels qu’ils sont reconnus par la loi, sans ingérence illégale, et notant que l’absence d’identité légale, d’enregistrement adéquat de la naissance ou de documents relatifs à la nationalité et à l’identité peut empêcher les enfants de bénéficier d’une protection sociale inclusive,</p>
+      </container>
+      <container name="Rappelant également" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> les initiatives multipartites visant à garantir la protection sociale inclusive universelle, y compris le programme-phare mondial de l’Organisation internationale du Travail sur la mise en place de socles de protection sociale pour tous (2016‑2030), le Partenariat mondial pour une protection sociale universelle en vue d’atteindre les objectifs de développement durable, lancé en 2016, et l’Accélérateur mondial pour l’emploi et la protection sociale et des transitions justes, lancé en 2021,</p>
+      </container>
+      <container name="Profondément préoccupé" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Profondément préoccupé</span> par le fait que plus de 1,77 milliard d’enfants dans le monde n’ont toujours pas accès à une protection sociale inclusive, qu’il existe d’importantes disparités régionales en la matière, et que ce manque d’accès à des services de protection sociale inclusifs peut compromettre la pleine jouissance par les enfants d’un large éventail de droits qui leur sont reconnus, notamment le droit à la vie, le droit à l’éducation, le droit de jouir du meilleur état de santé physique et mentale possible, y compris la santé sexuelle et procréative, le droit à un niveau de vie suffisant, y compris l’alimentation, le logement, l’habillement, l’eau potable et l’assainissement, ainsi que le droit au repos et aux loisirs, et le droit de se livrer au jeu et à des activités récréatives,</p>
+      </container>
+      <container name="Notant avec une vive préoccupation" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Notant avec une vive préoccupation</span> que la pandémie de maladie à coronavirus (COVID‑19), les conflits armés, les ralentissements économiques, les crises humanitaires, les crises alimentaires, la triple crise planétaire causée par les changements climatiques, la pollution et la perte de biodiversité, et les problèmes liés au coût de la vie ont exacerbé les formes préexistantes d’inégalité et de discrimination systémique auxquelles se heurtent les enfants, en particulier les filles, notamment le racisme, les inégalités entre les sexes, la stigmatisation, la xénophobie et les inégalités socioéconomiques, et ont mis en évidence l’urgente nécessité de mettre en place des systèmes de protection sociale résilients, inclusifs et complets, reposant sur les droits de l’enfant et garantissant une couverture adéquate pour les peuples autochtones et les populations rurales,</p>
+      </container>
+      <container name="Prenant note avec satisfaction" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Prenant note avec satisfaction</span> de l’observation générale n<sup>o</sup> 26 (2023) du Comité des droits de l’enfant sur les droits de l’enfant et l’environnement, mettant l’accent en particulier sur les changements climatiques, y compris un environnement propre, sain et durable, et notant avec une profonde préoccupation que la triple crise planétaire causée par les changements climatiques, la pollution et la perte de biodiversité a mis chaque enfant, en particulier les filles et les enfants des pays pauvres ou en développement, en grand danger, et que l’absence d’action climatique met en péril le droit de chaque enfant au meilleur état de santé physique et mentale possible, à une alimentation abordable et nutritive, à l’eau potable et à l’assainissement, à l’éducation et à la protection contre toutes les formes de violence,</p>
+      </container>
+      <container name="Notant avec une profonde préoccupation" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Notant avec une profonde préoccupation</span> que les inégalités de genre à long terme sont perpétuées par le fait que, dans le monde entier, les filles et les femmes assument une part disproportionnée des responsabilités familiales, tâche qui est le plus souvent non rémunérée ou sous-payée, ce qui entrave leur accès à l’éducation et à l’emploi formel et porte atteinte à leur droit d’avoir accès à des systèmes de sécurité sociale contributifs, à des salaires équitables, à des conditions de travail sûres et saines et à un niveau de vie adéquat tout au long de leur vie,</p>
+      </container>
+      <container name="Notant également avec une profonde préoccupation" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Notant également avec une profonde préoccupation</span> que des écarts importants continuent d’exister entre les femmes et les hommes en ce qui concerne la couverture, l’adéquation et l’exhaustivité de la protection sociale inclusive, en particulier dans les pays à faible revenu, et qu’ils ont des effets sur, entre autres choses, l’accès aux soins de santé, y compris les services d’information, d’éducation et de soins relatifs à la santé sexuelle et procréative, la santé et l’hygiène menstruelles, et l’accès aux services de santé maternelle, comme les soins prénatals et postnatals, aux services liés à l’allaitement et à la nutrition, et aux services de santé mentale, malgré une prise de conscience croissante de la nécessité d’une protection sociale inclusive tenant compte du genre, </p>
+      </container>
+      <container name="Se déclarant gravement préoccupé" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Se déclarant gravement préoccupé</span> par le fait que l’absence, dans de nombreux pays, de systèmes de protection sociale universels, non discriminatoires, complets, tenant compte du handicap et fondés sur les droits de l’enfant, y compris de systèmes visant à répondre aux besoins des membres de la famille, notamment de ceux qui ont un handicap, signifie que les besoins supplémentaires et les besoins d’accompagnement des enfants handicapés ne sont souvent pas satisfaits, et soulignant la nécessité de prévenir et d’éliminer la discrimination résultant de la manière dont le capacitisme et les inégalités de genre interagissent et s’aggravent mutuellement, </p>
+      </container>
+      <container name="Notant avec préoccupation" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Notant avec préoccupation</span> que les formes multiples et croisées de discrimination ont des effets disproportionnés sur l’accès à une protection sociale inclusive de certains enfants, notamment les enfants handicapés, les enfants déplacés, réfugiés, migrants ou demandeurs d’asile, les enfants autochtones, les enfants qui travaillent, les filles, les enfants victimes de mariages précoces ou forcés, les enfants d’ascendance africaine, les enfants en situation de rue, les enfants faisant l’objet d’une protection de remplacement et ceux qui sortent du système de protection de remplacement, les enfants privés de liberté, les enfants des zones rurales et reculées, les enfants touchés par des conflits armés ou des catastrophes naturelles, les enfants des ménages les plus pauvres et les enfants qui vivent avec des parents ou d’autres personnes ayant leur charge qui ne peuvent pas travailler ou travaillent dans l’économie informelle,</p>
+      </container>
+      <container name="Sachant" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Sachant</span> que les prestations que les enfants et leurs parents ou les personnes qui ont leur charge reçoivent ne suffisent souvent pas à répondre aux besoins individuels des enfants, notamment des enfants les plus démunis, et que des allocations universelles pour enfants à charge, parallèlement à des interventions complémentaires, à l’accès aux services essentiels et à des prestations en nature, ainsi qu’à d’autres prestations perçues par le ménage, peuvent améliorer la protection sociale inclusive des enfants et l’égalité entre les sexes, réduire la pauvreté touchant les enfants et soutenir le développement des enfants,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> que les enfants devraient grandir dans un milieu familial pour que leur personnalité puisse s’épanouir pleinement et de manière harmonieuse, que leur intérêt supérieur doit être le principe guidant les personnes chargées de les élever et de les protéger et qu’il faudrait développer la capacité des familles et des autres personnes ayant la charge d’enfants de prendre soin des enfants et de leur assurer un environnement sûr, et soulignant que la protection sociale joue un rôle important dans la promotion et le renforcement de la capacité des parents, des autres personnes ayant la charge d’enfants et des représentants légaux de prendre soin des enfants</p>
+      </container>
+      <container name="Notant" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Notant</span> que les États ont l’obligation de garantir l’accès à une protection sociale inclusive, notamment en remédiant à l’absence de systèmes intégrés et à l’insuffisance de la coordination entre les services responsables de la protection sociale inclusive s’agissant de la conception, de l’application et du suivi, à la rigidité et à la fragmentation des systèmes, à la stigmatisation et à la discrimination, à l’absence de données ventilées pertinentes, au manque d’informations claires, accessibles et adaptées aux enfants sur les systèmes de protection sociale, au manque de participation réelle, dans des conditions de sécurité, des enfants et aux difficultés d’accès à des mécanismes de responsabilisation en cas de refus injuste de prestations, </p>
+      </container>
+      <container name="Réaffirmant" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> qu’une protection sociale inclusive, en espèces ou en nature, devrait être offerte pour garantir, entre autres, la pleine jouissance de tous les droits de l’homme par tous les enfants, quelle que soit la situation de leurs parents ou des personnes qui ont leur charge, y compris dans les cas où le parent ou la personne qui a la charge de l’enfant n’a pas de revenu lié au travail en raison d’une maladie, d’un handicap, d’une maternité, d’un accident du travail ou une maladie professionnelle, du chômage, de la vieillesse ou du décès d’un membre de la famille, du caractère inabordable des services de santé ou de l’insuffisance du soutien de la famille,</p>
+      </container>
+      <container name="Notant" eId="container_24">
+        <p xml:space="preserve"> <span class="italic">Notant</span> que les conditions d’accès aux prestations de protection sociale inclusive doivent être raisonnables, proportionnées et transparentes, que les coûts directs et indirects liés à la couverture sociale inclusive doivent être abordables pour tous et ne pas compromettre la réalisation d’autres droits économiques, sociaux et culturels, que les prestations de protection sociale devraient être fournies en temps utile et que les bénéficiaires devraient avoir physiquement accès aux services de sécurité sociale afin d’accéder aux prestations et à l’information, une attention particulière étant accordée aux personnes les plus marginalisées,</p>
+      </container>
+      <container name="Soulignant" eId="container_25">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> qu’il importe de veiller à ce que chaque enfant puisse bénéficier d’une protection sociale inclusive et d’assurer la participation inclusive, effective et véritable des enfants à la prise de décisions qui ont des effets sur leur vie, conformément au développement de leurs capacités, y compris à l’élaboration, à l’application et à l’évaluation des mesures de protection sociale,</p>
+      </container>
+      <container name="Soulignant également" eId="container_26">
+        <p xml:space="preserve"> <span class="italic">Soulignant également</span> que des systèmes de protection sociale inclusifs et conformes aux droits de l’enfant devraient respecter les principes de l’égalité réelle et de la non‑discrimination et viser particulièrement à assurer un accès et une couverture complets et universels, dans des conditions d’égalité, à tous les enfants, y compris ceux qui sont handicapés, notamment en tenant compte des causes profondes des inégalités de genre préexistantes et de la manière dont celles‑ci sont aggravées par d’autres formes de discrimination, et en s’y attaquant, </p>
+      </container>
+      <container name="Sachant" eId="container_27">
+        <p xml:space="preserve"> <span class="italic">Sachant</span> que, si les systèmes de protection sociale inclusive sont adaptés au contexte social, économique, culturel et politique de chaque pays, les principes fondamentaux d’une approche de la protection sociale inclusive fondée sur les droits de l’enfant s’appliquent à tous les États, et les droits de l’enfant et les obligations de l’État doivent être au centre des cadres législatifs et stratégiques relatifs à la protection sociale inclusive, qui est fondée sur les droits de l’homme et tient compte des vulnérabilités et des besoins particuliers des enfants, en fonction de leur niveau de développement physique, cognitif, social et émotionnel,</p>
+      </container>
+      <container name="Sachant également" eId="container_28">
+        <p xml:space="preserve"> <span class="italic">Sachant également</span> que l’investissement dans la protection sociale inclusive des enfants est essentiel à l’exécution par les États de leurs obligations relatives à la réalisation des droits économiques, sociaux et culturels et présente des avantages économiques, politiques et sociaux à long terme, en particulier pour les enfants,</p>
+      </container>
+      <container name="Sachant en outre" eId="container_29">
+        <p xml:space="preserve"> <span class="italic">Sachant en outre</span> que la protection sociale inclusive joue un rôle central dans la réalisation des droits de l’enfant, dans la prévention et l’atténuation de la pauvreté touchant les enfants et des inégalités et dans l’accomplissement de progrès en ce qui concerne l’application du Programme de développement durable à l’horizon 2030, y compris la réalisation des cibles 1.3 et 10.4 des objectifs de développement durable, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">Salue</span> le travail accompli par le Haut-Commissaire des Nations Unies aux droits de l’homme sur la question des droits de l’enfant, et prend note avec satisfaction de son rapport sur les droits de l’enfant et la protection sociale inclusive<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/54/36">A/HRC/54/36</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> aux États d’envisager de ratifier la Convention relative aux droits de l’enfant et les Protocoles facultatifs s’y rapportant, et demande à toutes les parties de redoubler d’efforts pour que ces instruments soient pleinement appliqués ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="H23G">
+        <content eId="para_32__content">
+          <p xml:space="preserve">
+            <span class="bold">		Protection sociale inclusive</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États à veiller à ce que tous les enfants, conformément au droit international des droits de l’homme, aient accès à une protection sociale inclusive ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte également</span> les États, s’ils ne l’ont pas déjà fait, à se doter de lois, de politiques, de systèmes et de procédures appropriés pour faire en sorte que l’intérêt supérieur de l’enfant soit une considération primordiale dans toutes les actions qui ont des effets sur les enfants et dans toutes les décisions relatives à leur protection sociale inclusive ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> aux États parties à la Convention relative aux droits de l’enfant de prendre les mesures nécessaires pour assurer la pleine réalisation du droit des enfants à la sécurité sociale, y compris l’assurance sociale, conformément à la Convention ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États à assurer une protection et une assistance sociales inclusives aussi larges que possible aux familles, en prenant, si nécessaire, des mesures spéciales de protection et d’assistance en faveur de tous les enfants, et en veillant à ce que des mesures de protection sociale inclusives, adéquates et accessibles soient disponibles ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte également</span> les États à investir dans une protection sociale inclusive respectueuse des droits de l’enfant qui vise y compris à répondre aux besoins de tous les membres de la famille et à réaliser leurs droits humains, ce qui peut être économiquement et socialement très rentable et est un choix stratégique qui profite à tous les enfants, car une telle protection leur permet de réaliser leurs droits humains et leur potentiel et de vivre dans la dignité, et constitue un pilier des économies fortes et des sociétés saines ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte en outre</span> les États à élaborer et à adapter des systèmes de protection sociale inclusifs afin de répondre aux besoins particuliers des enfants en situation de déplacement forcé et des enfants migrants ou réfugiés en tenant compte de leurs capacités spécifiques, notamment en mettant en place des filets de sécurité et des espaces accessibles et adaptés aux enfants, qui prennent en considération l’importance du jeu et des équipements récréatifs, qui peuvent contribuer à protéger les enfants et à apporter un soutien physique et psychologique aux enfants touchés par les crises ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> aux États d’allouer des ressources suffisantes, y compris à la sécurité sociale, pour assurer la protection sociale effective et inclusive des enfants et la réalisation de leurs droits ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage</span> les États à s’orienter progressivement vers une couverture sociale universelle et inclusive, notamment en mettant en place des allocations pour enfants à charge qui soient universelles et non discriminatoires et en les associant à des services complémentaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États à veiller à ce que des régimes de protection sociale inclusifs offrent un soutien adéquat et adapté aux enfants handicapés, y compris assurent une rémunération aux personnes qui s’occupent de ces enfants, dans le respect de la dignité, en tenant compte des besoins particuliers de ces enfants en matière d’assistance et de soutien, afin de promouvoir la participation pleine et effective des enfants handicapés à la société sur la base de l’égalité avec les autres enfants et de garantir la jouissance de leurs droits conformément à la Convention relative aux droits des personnes handicapées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxtG">
+        <num>12.</num>
+        <list eId="para_78_list">
+          <intro eId="para_78_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Exhorte également</span> les États à prendre les mesures nécessaires pour garantir à tous les enfants la pleine jouissance de tous leurs droits humains et à assurer l’accès à des services de protection sociale inclusifs au moyen de la réglementation et de mécanismes efficaces d’application, et notamment :</p>
+          </intro>
+          <point eId="para_78_list_point_a">
+            <num>a)</num>
+            <content eId="para_78_list_point_a_content">
+              <p xml:space="preserve">  D’adopter et d’appliquer les cadres juridiques et stratégiques nécessaires, reposant sur les droits de l’homme, en particulier sur les obligations relatives aux droits de l’enfant, afin de mettre en place une approche globale, fondée sur les droits de l’enfant, de la protection sociale inclusive, tout au long du cycle de vie et dans le cadre de systèmes intégrés, en veillant à ce qu’aucun enfant ne soit laissé de côté, à ce que les services de protection sociale inclusifs comprennent des allocations pour enfants à charge et des allocations familiales universelles et globales ainsi qu’un soutien financier et matériel pour les parents ou les personnes qui ont la charge d’enfants, comme le congé parental et des services de garde d’enfants abordables et de qualité, et à ce que les services de protection sociale inclusifs s’accompagnent d’une prise en charge et d’un soutien fondés sur les droits de l’homme, ainsi que d’un accès universel aux services de base, y compris les services de santé, l’accès dans des conditions d’égalité à une éducation inclusive gratuite et de qualité, à un environnement numérique sûr, à l’eau et à l’assainissement, à une alimentation nutritive abordable et à un logement adéquat ;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_b">
+            <num>b)</num>
+            <content eId="para_78_list_point_b_content">
+              <p xml:space="preserve">  D’accorder une attention particulière à l’atténuation des effets disproportionnés sur les enfants en situation de marginalisation et de vulnérabilité et exposés à des formes multiples et croisées de discrimination, en élaborant une approche tenant compte des risques qui s’attaque aux causes profondes des inégalités entre les sexes et aux facteurs de risque, afin de garantir que tous les enfants ont accès à une protection sociale inclusive qui soit adaptée à leur âge, à leur handicap et à leur genre ;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_c">
+            <num>c)</num>
+            <content eId="para_78_list_point_c_content">
+              <p xml:space="preserve">  De veiller à ce que les enfants soient véritablement consultés dans le cadre des décisions relatives à la protection sociale inclusive qui les concernent et à ce que les informations sur la protection sociale soient adaptées aux enfants et accessibles à tous les enfants en situation de marginalisation et de vulnérabilité ; </p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_d">
+            <num>d)</num>
+            <content eId="para_78_list_point_d_content">
+              <p xml:space="preserve">  De procéder à des analyses budgétaires pour que les budgets tiennent compte des obligations relatives aux droits de l’enfant et de mobiliser les sources de revenu nécessaires pour assurer un financement conforme aux droits de l’enfant de systèmes de protection sociale inclusifs qui soient intégrés et multipartites, et d’allouer des ressources humaines et financières suffisantes et adéquates pour assurer leur bon fonctionnement ; </p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_e">
+            <num>e)</num>
+            <content eId="para_78_list_point_e_content">
+              <p xml:space="preserve">  De collecter des données de qualité actualisées, transparentes et ventilées sur les enfants, couvrant tous les motifs de discrimination interdits par le droit international des droits de l’homme, et d’établir des mécanismes de suivi et d’évaluation complets et transparents pour analyser les systèmes de protection sociale inclusifs, repérer leurs lacunes et éclairer l’élaboration de lois et de politiques fondées sur des données probantes afin de garantir que les systèmes de protection sociale sont réellement inclusifs, notamment au moyen d’études d’impact et d’évaluations des droits de l’enfant menées lors de l’élaboration des lois, des politiques et des programmes ; </p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_f">
+            <num>f)</num>
+            <content eId="para_78_list_point_f_content">
+              <p xml:space="preserve">  De considérer la protection sociale inclusive comme faisant partie intégrante de l’élimination du travail des enfants ;</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_g">
+            <num>g)</num>
+            <content eId="para_78_list_point_g_content">
+              <p xml:space="preserve">  De faire connaître les programmes de protection sociale inclusive disponibles, les critères d’admission et la marche à suivre pour en bénéficier, et de diffuser des informations claires, accessibles et ciblées à ce sujet ; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte en outre</span> les États à faire en sorte que tous les enfants aient accès à la justice et à une aide aux victimes qui soit opportune, efficace, inclusive et adaptée au genre, au handicap et à l’âge des intéressés et qui tienne compte des traumatismes, ainsi qu’à une réparation et à des garanties de non-répétition, lorsque leurs droits sont violés dans le contexte de la protection sociale inclusive, en veillant à ce que des mécanismes de signalement gratuits, sûrs, respectueux de la confidentialité, réactifs et adaptés aux enfants soient disponibles et accessibles, de manière à faire respecter les garanties d’une procédure régulière adaptée aux enfants dans les procédures administratives et judiciaires, en tenant compte de l’intérêt supérieur de l’enfant en tant que considération primordiale et du fait que l’enfant a le droit d’avoir la possibilité d’être entendu dans le cadre de ces procédures, soit directement, soit par l’intermédiaire d’un représentant ou d’un organisme approprié, et à fournir à l’enfant des informations pertinentes au sujet des violations et des mécanismes de réparation et à assurer à l’enfant, directement ou par l’intermédiaire de ses parents, des personnes qui ont sa charge ou de ses représentants légaux et, si nécessaire, à ceux-ci, l’accès à une représentation et une assistance juridiques efficaces ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> aux États d’adopter des mesures, selon une approche intersectionnelle, pour prendre en compte et valoriser les activités rémunérées et non rémunérées de services à la personne, les répartir de façon plus juste et équitable, et réduire les activités non rémunérées de services à la personne, qui sont encore effectuées de manière disproportionnée par les femmes et les filles et qui entravent leur accès à l’emploi formel et portent atteinte à leur droit d’accéder aux systèmes contributifs de sécurité sociale, en favorisant le partage égal des responsabilités entre les membres de la famille et entre les familles, les communautés, le secteur privé et les États, et en donnant la priorité, entre autres, aux infrastructures durables et accessibles, aux transports, aux politiques de protection sociale, à des services sociaux abordables et de qualité, y compris des services et dispositifs de prise en charge et de soutien, à la garde d’enfants, et aux normes de travail qui garantissent un travail décent et l’égalité des sexes pour tous les travailleurs, y compris un congé de maternité, un congé de paternité ou un congé parental, un salaire égal pour un travail de valeur égale, des conditions de travail sûres et saines et la protection contre la violence et le harcèlement au travail, notamment contre la violence et le harcèlement fondés sur le genre, la liberté d’association et le droit d’organisation et de négociation collective ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États à veiller à ce que la couverture de la protection sociale tienne compte du genre et soit adaptée aux besoins des femmes et des filles, notamment en ce qui concerne leur droit au meilleur état de santé physique et mentale possible, y compris les services d’information, d’éducation et de soins relatifs à la santé sexuelle et procréative, la santé et l’hygiène menstruelles et les services de santé maternelle, tels que les soins prénatals et postnatals et les services liés à l’allaitement maternel et à la nutrition ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte également</span> les États à se conformer à leurs obligations au regard du droit international, notamment du droit international humanitaire et du droit international des droits de l’homme, en particulier de la Convention relative aux droits de l’enfant et des Protocoles facultatifs s’y rapportant, et insiste sur l’importance de l’établissement des responsabilités pour toutes les violations des droits de l’enfant et atteintes à ces droits ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="H23G">
+        <content eId="para_125__content">
+          <p xml:space="preserve">
+            <span class="bold">		Transversalisation des droits de l’enfant</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note avec satisfaction</span> de la note d’orientation du Secrétaire général sur la transversalisation des droits de l’enfant, qui souligne la nécessité d’intégrer une perspective fondée sur les droits de l’enfant, notamment au moyen de la participation active et effective des enfants, et nécessairement de ceux qui risquent le plus d’être laissés de côté, à tous les processus de prise de décision ayant des effets sur la jouissance de leurs droits humains, et définit des attentes claires à l’égard de l’ensemble du système des Nations Unies et des entités des Nations Unies, y compris le Haut-Commissariat des Nations Unies aux droits de l’homme et les mécanismes d’enquête et de responsabilisation relatifs aux droits de l’homme s’agissant de garantir, dans des conditions de sécurité, la participation éthique et effective des enfants à toutes les actions et dans toutes les instances pertinentes de l’Organisation des Nations Unies, selon que nécessaire pour parvenir à la transversalisation des droits de l’enfant ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage</span> les États à prendre des mesures pour établir des modalités structurées et adaptées aux enfants visant à promouvoir le droit des enfants d’être entendus dans les instances locales, nationales, régionales et internationales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxtG">
+        <num>19.</num>
+        <list eId="para_129_list">
+          <intro eId="para_129_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États à appuyer le rôle que joue le Haut-Commissariat dans la transversalisation des droits de l’enfant dans l’ensemble du système des Nations Unies, conformément à son mandat, et les engage à affirmer leur détermination à accroître leur soutien financier aux capacités thématiques du Haut-Commissariat, y compris à sa capacité :</p>
+          </intro>
+          <point eId="para_129_list_point_a">
+            <num>a)</num>
+            <content eId="para_129_list_point_a_content">
+              <p xml:space="preserve">  De mener, pour les États et les autres parties prenantes qui en font la demande, des activités de conseil et de renforcement des capacités sur l’ensemble des droits de l’enfant, conformément au droit international des droits de l’homme ;</p>
+            </content>
+          </point>
+          <point eId="para_129_list_point_b">
+            <num>b)</num>
+            <content eId="para_129_list_point_b_content">
+              <p xml:space="preserve">  De coordonner la transversalisation des droits de l’enfant dans l’ensemble du système des Nations Unies, en coopération avec le Fonds des Nations Unies pour l’enfance, et de suivre régulièrement les progrès réalisés dans ce domaine ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_130" class="H23G">
+        <content eId="para_130__content">
+          <p xml:space="preserve">
+            <span class="bold">		Suivi</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie</span> le Secrétaire général de renforcer les capacités du Haut-Commissariat, de faire progresser la transversalisation des droits de l’enfant, en particulier la participation et la protection des enfants, dans les travaux du Haut-Commissariat et des mécanismes d’enquête et de responsabilisation en matière de droits de l’homme qu’il soutient, et de fournir des conseils et une assistance technique sur les questions relatives à la réalisation des droits humains des enfants aux États qui en font la demande, ainsi qu’à tous les organismes et organes compétents des Nations Unies, selon que de besoin ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie</span> le Haut-Commissaire d’établir un rapport sur la transversalisation des droits de l’enfant dans l’ensemble du système des Nations Unies, y compris sur l’application de la note d’orientation du Secrétaire général sur la transversalisation des droits de l’enfant, en consultation avec toutes les parties prenantes, notamment les États, le Fonds des Nations Unies pour l’enfance, la Représentante spéciale du Secrétaire général chargée de la question de la violence contre les enfants, la Représentante spéciale du Secrétaire général pour la question des enfants et des conflits armés, le Comité des droits de l’enfant, les titulaires de mandat au titre des procédures spéciales, les autres organes et organismes compétents des Nations Unies, les organisations régionales et les organes chargés des droits de l’homme ainsi que la société civile, y compris par la voie de consultations avec les enfants eux-mêmes, et de lui présenter ce rapport à sa cinquante-neuvième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage</span> les titulaires de mandat au titre des procédures spéciales et ses autres mécanismes relatifs aux droits de l’homme à continuer de tenir compte des droits de l’enfant dans le cadre de l’application de leurs mandats respectifs, et à faire figurer, dans les rapports qu’ils établissent, des informations, des analyses qualitatives et des recommandations portant sur les droits de l’enfant, en prêtant attention aux effets néfastes de l’absence de protection sociale inclusive sur la pleine jouissance de ces droits ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve"> 	<span class="italic">Invite</span> tous les organes créés en vertu d’instruments internationaux relatifs aux droits de l’homme à continuer de tenir compte des droits de l’enfant dans leurs travaux, en particulier dans leurs observations finales et dans leurs observations et recommandations générales, en prêtant attention aux effets néfastes de l’absence de protection sociale inclusive sur la pleine jouissance des droits de l’enfant, et les engage à consulter effectivement les enfants, de manière éthique et en assurant leur sécurité ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_141" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_141__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> à tous ses mécanismes relatifs aux droits de l’homme, y compris les organes subsidiaires et consultatifs, selon les cas, de surveiller et d’analyser plus systématiquement les causes profondes des violations des droits de l’enfant et des atteintes à ces droits, en utilisant des données ventilées et en tenant compte de tous les enfants en situation de marginalisation et de vulnérabilité, et de s’appuyer sur cette analyse pour formuler des recommandations précises et orientées vers l’action à l’intention de toutes les parties prenantes afin de promouvoir la responsabilisation en matière de droits de l’enfant ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide</span> de poursuivre l’examen de la question des droits de l’enfant conformément à son programme de travail et à ses résolutions 7/29 du 28 mars 2008 et 19/37 du 23 mars 2012, et prie le Haut-Commissaire de consacrer, en 2025, sa réunion annuelle d’une journée sur les droits de l’enfant au thème du développement de la petite enfance, d’allouer des ressources suffisantes au soutien et à la facilitation de la participation des enfants, en veillant à ce que ceux-ci aient facilement accès aux locaux, et de rendre les débats pleinement accessibles aux personnes handicapées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_152__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie</span> le Haut-Commissaire d’établir un rapport sur les droits de l’enfant et les violations des droits humains des enfants dans les conflits armés, en étroite collaboration avec toutes les parties concernées, à savoir les États, le Fonds des Nations Unies pour l’enfance, la Représentante spéciale du Secrétaire général chargée de la question de la violence contre les enfants, la Représentante spéciale du Secrétaire général pour la question des enfants et des conflits armés, les titulaires de mandat au titre des procédures spéciales concernés, les autres organes et organismes des Nations Unies pertinents, les organisations régionales, les organismes régionaux chargés des droits de l’homme, les institutions nationales des droits de l’homme et la société civile, y compris par la voie de consultations avec les enfants eux-mêmes, de diffuser ce rapport sous une forme accessible et adaptée aux enfants, et de le lui présenter à sa soixantième session, et prie le Haut-Commissariat aux droits de l’homme de consacrer, en 2026, sa réunion annuelle d’une journée sur les droits de l’enfant au thème des droits de l’enfant et des violations des droits humains des enfants dans les conflits armés, d’allouer des ressources suffisantes au soutien de la participation des enfants, en veillant à ce que ceux-ci aient facilement accès aux locaux, et de rendre les débats pleinement accessibles aux enfants et aux personnes handicapées.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="56e" refersTo="#adoptionMeeting">56e séance</location>
+          <eol />
+          <docDate date="2024-04-05" refersTo="#adoptionDate">5 avril 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

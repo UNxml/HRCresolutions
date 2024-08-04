@@ -1,0 +1,432 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-25/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-25/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-25/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-25/fra@/"></FRBRuri>
+          <FRBRdate date="2024-04-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-25/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-25/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Independent Expert on the Situation of Human Rights in Mali" showAs="UN. Human Rights Council. Independent Expert on the Situation of Human Rights in Mali" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSITIONAL JUSTICE" href="http://metadata.un.org/thesaurus/1006637" showAs="TRANSITIONAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MALI" href="http://metadata.un.org/thesaurus/1003856" showAs="MALI" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COUNTER-TERRORISM" href="http://metadata.un.org/thesaurus/1001346" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-25" outcome="draftResolution" as="A/HRC/55/L.32" by="Gambia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-08" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-08" outcome="adopted" as="Adopted without vote, 55th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/25</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-08" class="rightSmall" refersTo="#dateOfIssuance">8 avril 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French"> Français </inline>
+      </p>
+      <p>
+        <inline refersTo="#français" name="originalLanguage">Original: français</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">Cinquante-cinquième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 février</date>
+          <date date="2024-04-05" refersTo="#endDate">5 avril 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Point 10 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Assistance technique et renforcement des capacités</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 4 avril 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/25.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Assistance technique et renforcement des capacités dans le domaine des droits de l’homme au Mali</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve">		<span class="italic">Guidé </span>par les buts et principes de la Charte des Nations Unies,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Réaffirmant </span>la Déclaration universelle des droits de l’homme et les autres instruments internationaux pertinents relatifs aux droits de l’homme,</p>
+      </container>
+      <container name="Rappelant" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Rappelant </span>la résolution 60/251 de l’Assemblée générale en date du 15 mars 2006,</p>
+      </container>
+      <container name="Rappelant également" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Rappelant également </span>ses propres résolutions 5/1 relative à la mise en place des institutions du Conseil et 5/2 relative au Code de conduite pour les titulaires de mandat au titre des procédures spéciales du Conseil, toutes deux en date du 18 juin 2007,</p>
+      </container>
+      <container name="Rappelant en outre" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">		Rappelant en outre </span>ses résolutions 20/17 du 6 juillet 2012 relative à la situation des droits de l’homme au Mali, 22/18 du 21 mars 2013 portant création d’un mandat d’expert indépendant sur la situation des droits de l’homme au Mali, 25/36 du 28 mars 2014, 31/28 du 24 mars 2016, 34/39 du 24 mars 2017, 37/39 du 23 mars 2018, 40/26 du 22 mars 2019, 43/38 du 22 juin 2020, 46/28 du 24 mars 2021, 49/34 du 1<sup>er</sup> avril 2022 et 52/42 du 4 avril 2023 par lesquelles il a prorogé le mandat de l’Expert indépendant,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">		Réaffirmant </span>la responsabilité première des États de promouvoir, de protéger et de mettre en œuvre les droits de l’homme et les libertés fondamentales consacrés dans la Charte, la Déclaration universelle des droits de l’homme, les Pactes internationaux relatifs aux droits de l’homme et les autres instruments internationaux pertinents relatifs aux droits de l’homme auxquels ils sont parties,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">		Réaffirmant également </span>son attachement à la souveraineté, à l’indépendance, à l’unité et à l’intégrité territoriale du Mali,</p>
+      </container>
+      <container name="Prenant note" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">		Prenant note </span>du rapport de l’Expert indépendant sur la situation des droits de l’homme au Mali<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/HRC/55/79.</p></authorialNote>,</p>
+      </container>
+      <container name="Notant" eId="container_10">
+        <p xml:space="preserve">		<span class="italic">Notant</span> la promulgation, le 22 juillet 2023, de la nouvelle Constitution issue du référendum du 18 juin 2023, et prenant note de l’annonce faite par le Gouvernement de transition malien le 25 septembre 2023 de reporter les élections générales, y compris l’élection présidentielle initialement prévue en février 2024,</p>
+      </container>
+      <container name="Demeurant préoccupé" eId="container_11">
+          <p xml:space="preserve">		<span class="italic">Demeurant préoccupé</span> par la persistance des problèmes de sécurité et d’extrémisme violent ainsi que par la poursuite des activités terroristes, la prolifération des armes légères, le trafic de drogues et de migrants, la traite des êtres humains et d’autres formes de criminalité transnationale organisée, en dépit des progrès tangibles enregistrés dans ces domaines,</p>
+      </container>
+      <container name="Demeurant préoccupé également" eId="container_12">
+          <p xml:space="preserve">
+            <span class="italic">		Demeurant préoccupé également </span>par la poursuite des violations des droits de l’homme et des atteintes à ces droits, incluant des exactions, des violences sexuelles et basées sur le genre liées au conflit, des violations à l’encontre des enfants et d’autres groupes vulnérables, et des violations du droit international humanitaire, ayant un grave impact sur les populations civiles, malgré une réduction notable de ces cas de violations,</p>
+      </container>
+      <container name="Rappelant" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">		Rappelant</span> qu’il importe que tous les auteurs de tels actes soient amenés à en répondre devant les juridictions compétentes,</p>
+      </container>
+      <container name="Demeurant préoccupé" eId="container_14">
+          <p xml:space="preserve">
+            <span class="italic">		Demeurant préoccupé</span> par la crise alimentaire et la situation de besoin d’assistance humanitaire des populations touchées par le conflit, y compris les réfugiés et les personnes déplacées au sein de leur propre pays, par le faible niveau récurrent du financement de la réponse humanitaire et par l’insécurité qui continue d’entraver l’accès humanitaire, soulignant que la situation humanitaire difficile a un impact disproportionné sur les femmes et les filles, et condamnant les attaques dirigées contre le personnel humanitaire,</p>
+      </container>
+      <container name="Notant" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">		Notant </span>la volonté des autorités de transition maliennes de privilégier le dialogue inter-Maliens à travers l’appropriation nationale du processus de paix et de réconciliation au Mali, par suite de la dénonciation par lesdites autorités de l'Accord pour la paix et la réconciliation au Mali issu du processus d’Alger,</p>
+      </container>
+      <container name="Notant également" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">		Notant également</span> la volonté du Gouvernement et du peuple malien, exprimée en diverses circonstances, notamment lors de la Conférence d’entente nationale suivie de l’adoption d’une loi d’entente nationale, du dialogue national inclusif, des concertations nationales et des assises nationales de la refondation, de privilégier le dialogue et la réconciliation dans le règlement de la crise,</p>
+      </container>
+      <container name="Appelant" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">		Appelant </span>les autorités de transition maliennes à intensifier leurs efforts pour renforcer l’état de droit et lutter efficacement contre l’impunité,</p>
+      </container>
+      <container name="Saluant" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">		Saluant </span>la coopération du Mali avec les mécanismes internationaux des droits de l’homme et sa participation au quatrième cycle de l’Examen périodique universel en mai 2023, et encourageant le pays à adresser des invitations à l’endroit des titulaires de mandat au titre des procédures spéciales du Conseil,</p>
+      </container>
+      <container name="Notant" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">		Notant </span>le renforcement du cadre institutionnel en matière de droits de l’homme avec la création et l’opérationnalisation de la Direction nationale des droits de l’homme,</p>
+      </container>
+      <container name="Rappelant" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">		Rappelant</span> les conclusions du Groupe de travail du Conseil de sécurité sur les enfants et les conflits armés concernant la situation au Mali<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		S/AC.51/2023/3.</p></authorialNote>,</p>
+      </container>
+      <container name="Prenant note" eId="container_21">
+        <p xml:space="preserve">		<span class="italic">Prenant note</span> de la décision du retrait du Mali de la Communauté économique des États de l’Afrique de l’Ouest,</p>
+      </container>
+      <container name="Prenant note également" eId="container_22">
+        <p xml:space="preserve">		<span class="italic">Prenant note également</span> de la fin du mandat de la Mission multidimensionnelle intégrée des Nations Unies pour la stabilisation au Mali, conformément à la résolution 2690 (2023) du Conseil de sécurité en date du 30 juin 2023, à la demande des autorités de transition maliennes,</p>
+      </container>
+      <container name="Restant convaincu" eId="container_23">
+          <p xml:space="preserve">		<span class="italic">Restant convaincu</span> que la coopération et l’intégration régionales constituent des leviers indispensables pour garantir la paix et la sécurité, et renforcer le développement humain, social et économique,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement </span>les violations des droits de l’homme et atteintes à ces droits et les violations du droit international humanitaire, les violations des droits des enfants et atteintes à ces droits, en particulier le recrutement et l’utilisation d’enfants, en violation du droit international, ainsi que les exécutions extrajudiciaires et sommaires, les disparitions forcées, les arrestations et détentions arbitraires, les actes de torture et les mauvais traitements infligés aux personnes en détention, le meurtre, la mutilation, ainsi que les attaques dirigées contre les écoles et les hôpitaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement également</span> les violations des droits de l’homme, dont celles impliquant les violations des droits des femmes et des filles et les atteintes à ces droits, y compris la violence sexuelle ou basée sur le genre, et salue l’adoption du Programme national pour l’abandon des violences basées sur le genre et la création d’un cadre de réflexion sur les violences basées sur le genre en mai 2022, ainsi que la prise en compte spécifique et la répression des violences basées sur le genre dans le cadre du processus de relecture du Code pénal, du Code de procédure pénale et du Code de justice militaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>à toutes les parties de respecter le caractère civil des écoles en tant que telles, conformément au droit international humanitaire, exhorte toutes les parties à mettre fin aux violations et atteintes perpétrées contre les écoles et à s’acquitter des obligations que leur impose le droit international applicable, y compris le droit international des droits de l’homme et le droit international humanitaire, salue à cet égard l’endossement par les autorités maliennes de la Déclaration sur la sécurité dans les écoles, en février 2019, et les encourage à y donner suite, notamment en dressant une liste des écoles fermées en raison de menaces directes ou de l’insécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> à cet égard que tous les auteurs de tels actes doivent être amenés à en répondre devant les juridictions compétentes, au niveau tant national qu’international ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement </span>les attaques, y compris les attaques terroristes, contre les civils, les représentants d’institutions locales, régionales et centrales, ainsi que les Forces de défense et de sécurité maliennes, souligne l’importance de traduire en justice les auteurs, commanditaires et organisateurs de ces actes et ceux qui les ont financés, et exhorte le Gouvernement de transition malien à intensifier ses efforts pour s’assurer que les auteurs de ces actes soient poursuivis, le cas échéant ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement également </span>les attaques contre la population civile menées dans le cadre des violences intercommunautaires, et appelle le Gouvernement de transition malien, avec l’appui de la communauté internationale, à renforcer ses efforts en faveur de la réconciliation nationale et en vue de prévenir les violences dans les foyers de tensions identifiés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Renouvelle </span>son appel à l’arrêt immédiat des violations des droits de l’homme et des atteintes à ces droits, et des violations du droit international humanitaire, ainsi qu’au strict respect des droits de l’homme et des libertés fondamentales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>à toutes les parties de permettre, conformément aux dispositions applicables du droit international humanitaire et au respect des principes humanitaires, un accès humanitaire sûr, complet, immédiat et sans entrave, de faciliter le libre passage en toute sécurité et sans restriction de l’aide humanitaire afin qu’elle puisse être rapidement distribuée à tous ceux qui en ont besoin sur tout le territoire malien, et d’assurer la sécurité et la protection des civils qui la reçoivent et celles du personnel humanitaire et de santé travaillant au Mali ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les autorités de transition maliennes à poursuivre la mise en œuvre des recommandations acceptées lors du quatrième cycle de l’Examen périodique universel du Mali, appelle notamment à l’adoption d’une loi contre les violences basées sur le genre ainsi qu’à la poursuite des efforts de lutte contre l’esclavage, notamment par l’adoption d’une loi spécifique et complète érigeant en infractions l’esclavage par ascendance et les pratiques analogues, conformément aux instruments internationaux et régionaux applicables, et salue les avancées judiciaires réalisées à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>la communauté internationale à poursuivre son soutien aux efforts des autorités de transition pour une meilleure implication des femmes dans le processus de réconciliation nationale et dans toutes les structures de décision du processus de paix, ainsi que pour leur autonomisation politique à tous les niveaux, encourage également les autorités de transition et les parties maliennes à renforcer leurs efforts en la matière, et se félicite de l’adoption de la feuille de route sur le genre, les élections et les réformes assortie d’un plan d’action pour la période de 2024 à 2026 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>les autorités de transition maliennes à poursuivre les actions nécessaires visant à prévenir le recrutement et l’utilisation d’enfants en violation du droit international, à faire cesser ces pratiques, à mettre en œuvre des programmes durables de réintégration et de réhabilitation, y compris en prenant en compte la dimension de genre, et à adopter la loi sur la protection de l’enfant ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="italic">Encourage également</span> les autorités de transition maliennes à mettre en place toutes les mesures utiles au respect du Protocole facultatif à la Convention relative aux droits de l’enfant, concernant l’implication d’enfants dans les conflits armés et, en particulier, à renforcer les mesures pour la poursuite de la mise en œuvre du Protocole relatif à la libération et au transfert des enfants associés aux forces et groupes armés signé par l’Organisation des Nations Unies et le Gouvernement malien en 2013, ainsi qu’à renforcer les programmes de formation des Forces de défense et de sécurité maliennes en la matière, et appelle les partenaires à soutenir les autorités de transition maliennes en vue d’assurer un meilleur accès à la justice, et aux services sociaux, médicaux et psychosociaux à toutes les survivantes et à tous les survivants de violences sexuelles et basées sur le genre ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="italic">Appelle </span>les autorités de transition maliennes à traduire devant les juridictions compétentes tous les auteurs de violations des droits de l’homme et d’atteintes à ces droits, et de violations du droit international humanitaire, et exhorte les autorités de transition à intensifier leur action en matière de lutte contre l’impunité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte </span>les autorités de transition maliennes à garantir que les mesures prises pour favoriser l’entente nationale soient élaborées de manière inclusive, et salue à cet égard l’organisation de la Semaine nationale de la réconciliation, du 15 au 21 septembre 2023 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement </span>les exécutions sommaires d’individus, encourage les autorités de transition à mener à bien les enquêtes judiciaires ouvertes et à venir afin de traduire en justice les responsables de ces graves violations des droits de l’homme, salue la tenue au cours de 2023 et de 2024 des sessions d’assises pour juger notamment des crimes de terrorisme, des crimes transnationaux organisés et des infractions liées à la délinquance économique et financière, ainsi que le jugement de plusieurs cas d’infractions relevant de leur compétence par les tribunaux militaires, et encourage les autorités de transition maliennes à finaliser le processus d’adoption et de promulgation du projet de loi portant Code pénal et du projet de loi portant Code de procédure pénale adoptés en Conseil des ministres le 11 octobre 2023 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	<span class="italic">Salue</span> la mise en œuvre de la politique en matière de réparations, notamment l’opérationnalisation de l’Autorité de gestion des réparations en faveur des victimes des crises au Mali, y compris pour les victimes de violations graves des droits de l’homme, la nomination des membres du Comité d’orientation ainsi que du Secrétaire permanent de l’Autorité, ainsi que la tenue, le 29 décembre 2023, de la première session du Comité d’orientation, qui prévoit le début des réparations en 2024 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>les autorités de transition maliennes, et tous les acteurs régionaux et internationaux, à poursuivre leurs efforts pour l’instauration de la paix et de la sécurité au Mali ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="italic">Note</span> les efforts des autorités de transition maliennes pour rétablir l’autorité de l’État et l’état de droit dans l’ensemble du pays ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>à toutes les parties de respecter les droits de l’homme et de veiller au strict respect du droit international des droits de l’homme et du droit international humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">Salue</span> les efforts déployés par les autorités de transition en vue du retour effectif de l’administration, notamment judiciaire, et des services sociaux de base dans le centre et le nord du pays, et les exhorte à œuvrer au rétablissement des conditions requises pour assurer un niveau de sécurité acceptable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="italic">Note </span>la volonté du Gouvernement de transition malien d’assurer un retour à l’ordre constitutionnel, à travers l’organisation d’une élection présidentielle juste, libre, transparente, inclusive et crédible, et l’exhorte à communiquer le chronogramme de cette élection ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_255" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_255__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les autorités de transition maliennes à renforcer la collaboration avec l’Expert indépendant sur la situation des droits de l’homme au Mali dans le cadre de l’accomplissement du mandat qui a été confié à ce dernier, et appelle les autorités de transition à mettre en œuvre ses recommandations ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="italic">Décide </span>de proroger d’un an le mandat de l’Expert indépendant sur la situation des droits de l’homme au Mali afin de lui permettre de continuer l’évaluation de la situation des droits de l’homme dans le pays et de fournir son assistance pour assurer la promotion, la protection et la mise en œuvre des droits de l’homme et renforcer la primauté du droit ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">	<span class="italic">Engage </span>toutes les parties au Mali à collaborer pleinement avec l’Expert indépendant et à l’assister dans l’exercice de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_324" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_324__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>à l’Expert indépendant, dans le cadre de son mandat, de travailler en étroite collaboration avec tous les organes des Nations Unies, l’Union africaine, les États voisins et toute autre organisation internationale intéressée, ainsi qu’avec la société civile malienne ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_349" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_349__content">
+          <p xml:space="preserve">	<span class="italic">Demande également </span>à l’Expert indépendant de lui faire rapport sur la situation des droits de l’homme à sa cinquante-huitième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_375" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_375__content">
+          <p xml:space="preserve">	<span class="italic">Décide </span>de tenir à sa cinquante-huitième session un dialogue en présence de l’Expert indépendant et des représentants du Gouvernement de transition malien afin d’évaluer l’évolution de la situation des droits de l’homme dans le pays, en s’attachant particulièrement à la question de la protection des civils dans le contexte de la lutte contre le terrorisme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_402" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_402__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> le Secrétaire général et le Haut-Commissaire des Nations Unies aux droits de l’homme à continuer d’apporter à l’Expert indépendant toute l’assistance dont il a besoin pour s’acquitter de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_430" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_430__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> au Haut-Commissariat des Nations Unies aux droits de l’homme de continuer à fournir l’assistance technique sollicitée par le Gouvernement de transition malien afin de renforcer les capacités de la Commission nationale des droits de l’homme du Mali ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_459" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_459__content">
+          <p xml:space="preserve">	<span class="italic">Engage instamment </span>la communauté internationale à continuer d’apporter au Mali l’assistance nécessaire pour assurer sa stabilité en vue de promouvoir le respect de tous les droits de l’homme et de lutter résolument contre l’impunité, ce qui favorisera la réconciliation nationale, la paix et la cohésion sociale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_489" class="MercuryDocument">
+        <num>31.</num>
+        <content eId="para_489__content">
+          <p xml:space="preserve">	<span class="italic">Décide </span>de demeurer saisi de cette question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="55e" refersTo="#adoptionMeeting">55e séance</location>
+          <eol />
+          <docDate date="2024-04-04" refersTo="#adoptionDate">4 avril 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
