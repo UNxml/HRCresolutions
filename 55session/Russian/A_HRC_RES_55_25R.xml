@@ -1,0 +1,417 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-25/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-25/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-25/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-25/rus@/"></FRBRuri>
+          <FRBRdate date="2024-04-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-25/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-25/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Independent Expert on the Situation of Human Rights in Mali" showAs="UN. Human Rights Council. Independent Expert on the Situation of Human Rights in Mali" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSITIONAL JUSTICE" href="http://metadata.un.org/thesaurus/1006637" showAs="TRANSITIONAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MALI" href="http://metadata.un.org/thesaurus/1003856" showAs="MALI" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COUNTER-TERRORISM" href="http://metadata.un.org/thesaurus/1001346" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-25" outcome="draftResolution" as="A/HRC/55/L.32" by="Gambia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-08" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-08" outcome="adopted" as="Adopted without vote, 55th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/25</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-08" class="rightSmall" refersTo="#dateOfIssuance">8 April 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#french" name="originalLanguage">Original: French</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">Пятьдесят пятая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 февраля</date>
+          <date date="2024-04-05" refersTo="#endDate">5 апреля 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Пункт 10 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Техническая помощь и создание потенциала</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека  4 апреля 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/25.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Техническая помощь и создание потенциала в области прав человека в Мали</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека,</span>
+        </p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve">		<span class="italic">руководствуясь</span> целями и принципами Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_3">
+        <p xml:space="preserve">		<span class="italic">вновь подтверждая</span> Всеобщую декларацию прав человека и другие соответствующие международные договоры по правам человека,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">		<span class="italic">ссылаясь</span> на резолюцию <a href="http://undocs.org/ru/A/RES/60/251">60/251</a> Генеральной Ассамблеи от 15 марта 2006 года,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_5">
+        <p xml:space="preserve">		<span class="italic">ссылаясь также</span> на резолюции Совета по правам человека 5/1 об институциональном строительстве Совета и 5/2 о Кодексе поведения мандатариев специальных процедур Совета от 18 июня 2007 года,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_6">
+        <p xml:space="preserve">		<span class="italic">ссылаясь далее </span>на свои резолюции <a href="http://undocs.org/ru/A/HRC/RES/20/17">20/17</a> от 6 июля 2012 года о положении в области прав человека в Мали, <a href="http://undocs.org/ru/A/HRC/RES/22/18">22/18</a> от 21 марта 2013 года об учреждении мандата независимого эксперта по вопросу о положении в области прав человека в Мали, <a href="http://undocs.org/ru/A/HRC/RES/25/36">25/36</a> от 28 марта 2014 года, <a href="http://undocs.org/ru/A/HRC/RES/31/28">31/28</a> от 24 марта 2016 года, <a href="http://undocs.org/ru/A/HRC/RES/34/39">34/39</a> от 24 марта 2017 года, <a href="http://undocs.org/ru/A/HRC/RES/37/39">37/39</a> от 23 марта 2018 года, <a href="http://undocs.org/ru/A/HRC/RES/40/26">40/26</a> от 22 марта 2019 года, <a href="http://undocs.org/ru/A/HRC/RES/43/38">43/38</a> от 22 июня 2020 года, <a href="http://undocs.org/ru/A/HRC/RES/46/28">46/28</a> от 24 марта 2021 года, <a href="http://undocs.org/ru/A/HRC/RES/49/34">49/34</a> от 1 апреля 2022 года и <a href="http://undocs.org/ru/A/HRC/RES/52/42">52/42</a> от 4 апреля 2023 года о продлении мандата Независимого эксперта,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_7">
+        <p xml:space="preserve">		<span class="italic">вновь подтверждая </span>главную ответственность государств за поощрение, защиту и осуществление прав человека и основных свобод, закрепленных в Уставе, Всеобщей декларации прав человека, Международных пактах о правах человека и других соответствующих международных договорах по правам человека, участниками которых они являются,</p>
+      </container>
+      <container name="вновь подтверждая также" eId="container_8">
+        <p xml:space="preserve">		<span class="italic">вновь подтверждая также</span> свою приверженность суверенитету, независимости, единству и территориальной целостности Мали,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_9">
+        <p xml:space="preserve">		<span class="italic">принимая к сведению </span>доклад Независимого эксперта по вопросу о положении в области прав человека в Мали<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/HRC/55/79">A/HRC/55/79</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="отмечая" eId="container_10">
+        <p xml:space="preserve">		<span class="italic">отмечая </span>введение в действие 22 июля 2023 года новой Конституции в результате референдума 18 июня 2023 года и принимая к сведению заявление переходного правительства Мали от 25 сентября 2023 года о переносе всеобщих выборов, включая президентские выборы, первоначально запланированные на февраль 2024 года,</p>
+      </container>
+      <container name="будучи по‑прежнему озабочен" eId="container_11">
+          <p xml:space="preserve">		<span class="italic">будучи по‑прежнему озабочен</span> сохранением проблем безопасности и насильственного экстремизма, а также продолжающейся террористической деятельностью, распространением стрелкового оружия, незаконным оборотом наркотиков, незаконным провозом мигрантов, торговлей людьми и другими формами транснациональной организованной преступности, несмотря на ощутимый прогресс в этих областях,</p>
+      </container>
+      <container name="будучи по‑прежнему озабочен также" eId="container_12">
+          <p xml:space="preserve">		<span class="italic">будучи по‑прежнему озабочен также</span> продолжающимися нарушениями и ущемлениями прав человека, включая издевательства, сексуальное и гендерное насилие в условиях конфликта, насилие в отношении детей и других уязвимых групп, а также нарушениями международного гуманитарного права, оказывающими серьезное воздействие на гражданское население, несмотря на существенное снижение числа случаев таких нарушений,</p>
+      </container>
+      <container name="напоминая" eId="container_13">
+        <p xml:space="preserve">		<span class="italic">напоминая </span>о важности привлечения всех лиц, совершивших такие акты, к ответственности в компетентных судебных органах,</p>
+      </container>
+      <container name="будучи по‑прежнему озабочен" eId="container_14">
+          <p xml:space="preserve">		<span class="italic">будучи по‑прежнему озабочен </span>продовольственным кризисом и ситуацией, связанной с потребностью в оказании гуманитарной помощи затронутому конфликтом населению, включая беженцев и внутренне перемещенных лиц, все столь же низким уровнем финансирования мер гуманитарного реагирования и отсутствием безопасности, продолжающим затруднять гуманитарный доступ, подчеркивая, что сложная гуманитарная ситуация оказывает несоразмерное воздействие на женщин и девочек, и осуждая нападения на гуманитарный персонал,</p>
+      </container>
+      <container name="отмечая" eId="container_15">
+        <p xml:space="preserve">		<span class="italic">отмечая </span>стремление переходных органов власти Мали отдать приоритет межмалийскому диалогу посредством принятия национальной ответственности за мирный процесс и процесс примирения в Мали после денонсации указанными властями Соглашения о мире и примирении в Мали, ставшего результатом Алжирского процесса,</p>
+      </container>
+      <container name="отмечая также" eId="container_16">
+        <p xml:space="preserve">		<span class="italic">отмечая также</span> стремление правительства и народа Мали, выраженное в различных обстоятельствах, в частности в ходе Конференции по национальному примирению, за которой последовали принятие закона о национальном примирении, инклюзивный национальный диалог, национальные консультации и национальный диалог по вопросам реформы, уделять приоритетное внимание диалогу и примирению в процессе урегулирования кризиса,</p>
+      </container>
+      <container name="призывая" eId="container_17">
+        <p xml:space="preserve">		<span class="italic">призывая </span>переходные органы власти Мали активизировать их усилия по укреплению верховенства права и эффективной борьбе с безнаказанностью,</p>
+      </container>
+      <container name="приветствуя" eId="container_18">
+        <p xml:space="preserve">		<span class="italic">приветствуя </span>сотрудничество Мали с международными правозащитными механизмами и его участие в четвертом цикле универсального периодического обзора в мае 2023 года, а также призывая страну направить приглашения мандатариям специальных процедур Совета,</p>
+      </container>
+      <container name="отмечая" eId="container_19">
+        <p xml:space="preserve">		<span class="italic">отмечая </span>укрепление институциональной базы в области прав человека благодаря созданию и началу работы Национального управления по правам человека,</p>
+      </container>
+      <container name="напоминая" eId="container_20">
+        <p xml:space="preserve">		<span class="italic">напоминая </span>о выводах Рабочей группы Совета Безопасности по вопросу о детях и вооруженных конфликтах относительно ситуации в Мали<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/ru/S/AC.51/2023/3">S/AC.51/2023/3</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_21">
+        <p xml:space="preserve">		<span class="italic">принимая к сведению </span>решение Мали о выходе из Экономического сообщества западноафриканских государств,</p>
+      </container>
+      <container name="принимая к сведению также" eId="container_22">
+        <p xml:space="preserve">		<span class="italic">принимая к сведению также </span>прекращение действия мандата Многопрофильной комплексной миссии Организации Объединенных Наций по стабилизации в Мали в соответствии с резолюцией <a href="http://undocs.org/ru/S/RES/2690(2023)">2690 (2023)</a> Совета Безопасности от 30 июня 2023 года по просьбе переходного правительства Мали,</p>
+      </container>
+      <container name="будучи по‑прежнему убежден" eId="container_23">
+          <p xml:space="preserve">		<span class="italic">будучи по‑прежнему убежден</span>, что региональные сотрудничество и интеграция являются важнейшими рычагами для обеспечения мира и безопасности, а также укрепления человеческого, социального и экономического развития,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">решительно осуждает </span>нарушения и ущемления прав человека и нарушения международного гуманитарного права, нарушения и ущемления прав детей, в частности вербовку и использование детей, в нарушение норм международного права, а также внесудебные казни и казни без надлежащего судебного разбирательства, насильственные исчезновения, произвольные задержания и содержание под стражей, акты пыток и жестокое обращение с лицами, содержащимися под стражей, убийства, калечение, а также нападения на школы и больницы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">решительно осуждает также</span> нарушения прав человека, включая нарушения и ущемления прав женщин и девочек, в том числе сексуальное и гендерное насилие, и приветствует принятие Национальной программы по отказу от гендерного насилия и создание рамочной основы для анализа проблемы гендерного насилия в мае 2022 года, а также особый учет и наказание гендерного насилия в рамках процесса пересмотра Уголовного кодекса, Уголовно-процессуального кодекса и Кодекса военной юстиции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>все стороны уважать гражданский характер школ как таковых в соответствии с международным гуманитарным правом, настоятельно призывает все стороны положить конец нарушениям и противоправным действиям, совершаемым против школ, и выполнять их обязательства в соответствии с применимыми нормами международного права, включая нормы международного права прав человека и международного гуманитарного права, приветствует в этой связи одобрение властями Мали в феврале 2019 года Декларации о безопасности в школах и рекомендует им осуществлять ее, в частности путем составления списка школ, закрытых из‑за прямых угроз или отсутствия безопасности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">напоминает </span>в этой связи, что все, кто совершал подобные деяния, должны предстать перед компетентными судами как на национальном, так и на международном уровнях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">решительно осуждает</span> нападения, включая террористические нападения, на гражданских лиц, представителей местных, региональных и центральных государственных органов, а также Сил обороны и безопасности Мали и подчеркивает важность предания суду тех, кто исполнял, направлял и организовывал эти акты, и тех, кто их финансировал, и настоятельно призывает переходное правительство Мали активизировать усилия по обеспечению того, чтобы лица, виновные в этих нападениях, подверглись судебному преследованию в соответствующих случаях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">решительно осуждает также </span>нападения на гражданское население в рамках межобщинного насилия и призывает переходное правительство Мали, опираясь на поддержку международного сообщества, активизировать его усилия по национальному примирению и предотвращению насилия в выявленных очагах напряженности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">вновь обращается </span>с призывом немедленно положить конец нарушениям и ущемлениям прав человека и нарушениям международного гуманитарного права, а также обеспечить строгое соблюдение прав человека и основных свобод;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> все стороны разрешить в соответствии с применимыми положениями международного гуманитарного права и во имя уважения гуманитарных принципов безопасный, полный, незамедлительный и беспрепятственный гуманитарный доступ, содействовать безопасной и беспрепятственной доставке гуманитарной помощи, с тем чтобы ее можно было быстро распределять среди всех нуждающихся на всей территории Мали, и обеспечить безопасность и защиту гражданских лиц, которые ее получают, и безопасность и защиту гуманитарного и медицинского персонала, работающего в Мали;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>переходным органам власти Мали продолжать выполнять рекомендации, принятые в ходе четвертого цикла универсального периодического обзора Мали, в частности призывает принять закон о борьбе с гендерным насилием и продолжать прилагать усилия по борьбе с рабством, в частности путем принятия отдельного и всеобъемлющего закона, устанавливающего уголовную ответственность за преступление наследственного рабства и аналогичную практику, в соответствии с применимыми международными и региональными документами, и приветствует достигнутый в этом отношении прогресс в судебной сфере;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>международное сообщество продолжать поддерживать усилия переходных органов власти по обеспечению более широкого участия женщин в процессе национального примирения и во всех директивных органах в рамках мирного процесса, а также расширению их политических прав и возможностей на всех уровнях и далее призывает переходные органы власти и стороны в Мали активизировать их усилия в этом направлении, а также приветствует принятие дорожной карты в отношении гендерных вопросов, выборов и реформ и соответствующего плана действий на период 2024–2026 годов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> переходным органам власти Мали продолжать необходимые действия по предотвращению вербовки и использования детей в нарушение международного права, положить конец такой практике, осуществлять долгосрочные программы реинтеграции и реабилитации, в том числе с учетом гендерных аспектов, и принять закон о защите детей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует также</span> переходным органам власти Мали принять все надлежащие меры по обеспечению соблюдения Факультативного протокола к Конвенции о правах ребенка, касающегося участия детей в вооруженных конфликтах, и, в частности, активизировать меры по дальнейшему осуществлению Протокола об освобождении и передаче детей, ранее связанных с вооруженными силами и группами, подписанного Организацией Объединенных Наций и правительством Мали в 2013 году, а также укрепить учебные программы Сил обороны и безопасности Мали по этим вопросам и призывает партнеров оказать поддержку малийским переходным органам власти, с тем чтобы обеспечить более широкий доступ к правосудию и социальным, медицинским и психосоциальным услугам для всех лиц, ставших жертвами сексуального и гендерного насилия;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> переходные органы власти Мали обеспечить, чтобы все лица, совершившие нарушения и ущемления прав человека и нарушения международного гуманитарного права, предстали перед компетентными судебными органами, и настоятельно призывает переходные органы власти активизировать усилия по борьбе с безнаказанностью;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает </span>переходные органы власти Мали обеспечить, чтобы меры в целях содействия национальному примирению разрабатывались на инклюзивной основе, и приветствует в этой связи проведение Национальной недели примирения с 15 по 21 сентября 2023 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="italic">решительно осуждает </span>казни лиц без надлежащего судебного разбирательства, рекомендует переходным органам власти довести до конца уже открытые и будущие судебные расследования в целях привлечения к ответственности лиц, виновных в этих серьезных нарушениях прав человека, приветствует проведение в 2023 и 2024 годах специальных судебных сессий для рассмотрения, в частности, дел, касающихся преступлений терроризма, транснациональной организованной преступной деятельности и противоправных деяний, связанных с экономической и финансовой преступностью, а также рассмотрение военными судами ряда дел о преступлениях, в которых они компетентны, и рекомендует переходным органам власти Мали завершить процесс принятия и введения в действие законопроекта об Уголовном кодексе и законопроекта об Уголовно-процессуальном кодексе, утвержденных Советом министров 11 октября 2023 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	<span class="italic">приветствует </span>реализацию политики по возмещению ущерба, в частности начало работы Управления по возмещению ущерба пострадавшим в результате кризисов в Мали, включая жертв серьезных нарушений прав человека, назначение членов Руководящего комитета и Постоянного секретаря Управления, а также проведение 29 декабря 2023 года первого заседания Руководящего комитета, который планирует начало предоставления возмещения в 2024 году;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>переходным органам власти Мали и всем региональным и международным заинтересованным сторонам продолжать прилагать усилия для установления мира и безопасности в Мали;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>усилия переходных органов власти Мали по восстановлению государственной власти и верховенства права на всей территории страны;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>все стороны соблюдать права человека и обеспечивать строгое соблюдение норм международного права прав человека и международного гуманитарного права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">приветствует </span>усилия переходных органов власти, направленные на действительное восстановление государственного управления, в частности органов судебной власти, и основных социальных служб в центральных и северных областях страны и настоятельно призывает их продолжать прилагать усилия для восстановления условий, необходимых для обеспечения приемлемого уровня безопасности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>стремление переходного правительства Мали обеспечить возвращение к конституционному порядку путем организации справедливых, свободных, прозрачных, инклюзивных и заслуживающих доверия президентских выборов и настоятельно призывает его сообщить график проведения этих выборов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_255" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_255__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> переходным органам власти Мали усилить сотрудничество с Независимым экспертом по вопросу о положении в области прав человека в Мали в рамках деятельности по выполнению возложенного на него мандата и призывает переходные органы власти выполнить его рекомендации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="italic">постановляет </span>продлить на один год мандат Независимого эксперта по вопросу о положении в области прав человека в Мали, с тем чтобы позволить ему продолжить оценку положения в области прав человека в Мали и оказывать помощь для обеспечения поощрения, защиты и осуществления прав человека и укрепления верховенства права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>все стороны в Мали в полной мере сотрудничать с Независимым экспертом и оказывать ему содействие в выполнении его мандата;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_324" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_324__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Независимого эксперта в рамках его мандата работать в тесном сотрудничестве со всеми структурами Организации Объединенных Наций, Африканским союзом, соседними государствами и любыми другими заинтересованными международными организациями, а также с гражданским обществом Мали;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_349" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_349__content">
+          <p xml:space="preserve">	<span class="italic">просит также</span> Независимого эксперта представить доклад Совету по правам человека на его пятьдесят восьмой сессии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_375" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_375__content">
+          <p xml:space="preserve">	<span class="italic">постановляет </span>провести на своей пятьдесят восьмой сессии диалог в присутствии Независимого эксперта и представителей переходного правительства Мали, чтобы оценить эволюцию положения в области прав человека в этой стране, уделив особое внимание вопросу защиты гражданских лиц в условиях борьбы с терроризмом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_402" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_402__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>Генеральному секретарю и Верховному комиссару Организации Объединенных Наций по правам человека продолжать оказывать Независимому эксперту любую помощь, необходимую для выполнения им его мандата;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_430" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_430__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Управление Верховного комиссара Организации Объединенных Наций по правам человека продолжать оказывать техническую помощь, запрашиваемую переходным правительством Мали, в целях укрепления потенциала Национальной комиссии по правам человека Мали;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_459" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_459__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает </span>международное сообщество продолжать оказывать Мали необходимую помощь с целью обеспечения стабильности в стране для поощрения уважения всех прав человека и решительной борьбы с безнаказанностью, что будет способствовать национальному примирению, миру и социальной сплоченности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_489" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_489__content">
+          <p xml:space="preserve">	<span class="italic">постановляет </span>продолжать заниматься этим вопросом.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="55-е" refersTo="#adoptionMeeting">55‑е заседание</location>
+          <eol />
+          <docDate date="2024-04-04" refersTo="#adoptionDate">4 апреля 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

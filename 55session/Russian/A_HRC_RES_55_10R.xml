@@ -1,0 +1,316 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/"></FRBRuri>
+          <FRBRdate date="2024-04-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/rus@/"></FRBRuri>
+          <FRBRdate date="2024-04-05" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-03/55-10/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISINFORMATION" showAs="DISINFORMATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF INFORMATION" href="http://metadata.un.org/thesaurus/1002525" showAs="FREEDOM OF INFORMATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF EXPRESSION" href="http://metadata.un.org/thesaurus/1002524" showAs="FREEDOM OF EXPRESSION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CORPORATE SOCIAL RESPONSIBILITY" href="http://metadata.un.org/thesaurus/1001316" showAs="CORPORATE SOCIAL RESPONSIBILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-22" outcome="draftResolution" as="A/HRC/55/L.11" by="Albania, Australia, Austria, Belgium, Bulgaria, Canada, Chile, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, France, Georgia, Germany, Greece, Iceland, Ireland, Israel, Italy, Japan, Latvia, Lithuania, Luxembourg, Malta, Marshall Islands, Mexico, Monaco, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Paraguay, Poland, Portugal, Romania, Slovenia, Spain, Sweden, Ukraine, United Kingdom of Great Britain and Northern Ireland, United States of America and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-05" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-05" outcome="adopted" as="Adopted without vote, 53rd meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-05" class="rightSmall" refersTo="#dateOfIssuance">5 April 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">Пятьдесят пятая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 февраля</date>
+          <date date="2024-04-05" refersTo="#endDate">5 апреля 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека,  гражданских, политических, экономических,  социальных и культурных прав,  включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека  3 апреля 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Роль государств в борьбе с негативным воздействием дезинформации на осуществление и реализацию прав человека</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">руководствуясь</span> целями и принципами Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span> Всеобщую декларацию прав человека и Венскую декларацию и Программу действий и обязательства государств по Международному пакту о гражданских и политических правах, Международному пакту об экономических, социальных и культурных правах и другим договорам по правам человека,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на соответствующие резолюции, принятые Генеральной Ассамблеей и Советом по правам человека, включая резолюцию <a href="http://undocs.org/ru/A/RES/76/227">76/227</a> Ассамблеи от 24 декабря 2021 года о борьбе с дезинформацией в целях поощрения и защиты прав человека и основных свобод и резолюции Совета <a href="http://undocs.org/ru/A/HRC/RES/44/12">44/12</a> от 16 июля 2020 года и <a href="http://undocs.org/ru/A/HRC/RES/50/15">50/15</a> от 8 июля 2022 года о свободе мнений и их свободном выражении, <a href="http://undocs.org/ru/A/HRC/RES/47/16">47/16</a> от 13 июля 2021 года о поощрении, защите и осуществлении прав человека в Интернете и <a href="http://undocs.org/ru/A/HRC/RES/49/21">49/21</a> от 1 апреля 2022 года о роли государств в борьбе с негативным воздействием дезинформации на осуществление и реализацию прав человека,</p>
+      </container>
+      <container name="с удовлетворением принимая к сведению" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением принимая к сведению</span> доклад Генерального секретаря о борьбе с дезинформацией в целях поощрения и защиты прав человека и основных свобод<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	<a href="http://undocs.org/ru/A/77/287">A/77/287</a>.</p></authorialNote> и доклады Специального докладчика по вопросу о поощрении и защите права на свободу мнений и их свободное выражение о дезинформации и свободе мнений и их выражении<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	<a href="http://undocs.org/ru/A/77/288">A/77/288</a> и <a href="http://undocs.org/ru/A/78/288">A/78/288</a>.</p></authorialNote>, </p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на Руководящие принципы предпринимательской деятельности в аспекте прав человека<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/HRC/17/31">A/HRC/17/31</a>, приложение.</p></authorialNote>, одобренные Советом по правам человека в его резолюции <a href="http://undocs.org/ru/A/HRC/RES/17/4">17/4</a> от 16 июня 2011 года,</p>
+      </container>
+      <container name="вновь заявляя" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">вновь заявляя</span>, что все права человека являются универсальными, неделимыми, взаимосвязанными, взаимозависимыми и взаимодополняющими, и подтверждая, что права, которыми люди обладают вне Интернета, должны быть также защищены и в Интернете,</p>
+      </container>
+      <container name="будучи обеспокоен" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">будучи обеспокоен</span> усиливающимся и далеко идущим негативным воздействием на осуществление и реализацию прав человека преднамеренного генерирования и распространения ложных или подтасованных сведений с целью обмануть и ввести в заблуждение аудиторию либо для причинения вреда, либо для извлечения личной, политической или финансовой выгоды,</p>
+      </container>
+      <container name="особо отмечая" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span>, что дезинформация может задумываться и распространяться для введения в заблуждение и нарушения и ущемления прав человека, включая право на неприкосновенность частной жизни и свободу людей искать, получать и распространять информацию, в том числе во время чрезвычайных ситуаций, кризисов и вооруженных конфликтов, когда такая информация имеет жизненно важное значение,</p>
+      </container>
+      <container name="подчеркивая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что осуждение и противодействие дезинформации не должны использоваться в качестве предлога для ограничения осуществления и реализации прав человека или для оправдания цензуры, в том числе с помощью расплывчато сформулированных и слишком широко толкуемых законов, криминализирующих дезинформацию, и что любые стратегии или законы, принимаемые для борьбы с дезинформацией, должны соответствовать обязательствам государств по международному праву прав человека, включая требование о том, чтобы любые ограничения свободы выражения мнений соответствовали принципам законности и необходимости, </p>
+      </container>
+      <container name="особо отмечая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span>, что кампании по дезинформации могут использоваться для очернения отдельных лиц и групп, усугубления социальных противоречий, сеяния раздора, поляризации общества, распространения ненависти, мизогинии, негативных стереотипов, стигматизации, расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости, а также для подстрекательства к насилию, дискриминации и враждебности, и выражая особую обеспокоенность случаями подстрекательства к преступлениям против человечности и другим нарушениям или ущемлениям прав человека, </p>
+      </container>
+      <container name="особо отмечая также" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">особо отмечая также</span>, что дезинформация является угрозой демократии, которая может подавлять политическую активность, в том числе порождая или углубляя недоверие к демократическим институтам и процессам, включая избирательные процессы, особенно в этот год выборов по всему миру, и препятствовать реализации осознанного участия в политических и общественных делах,</p>
+      </container>
+      <container name="признавая" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">признавая</span> важность защиты пространства для научных исследований и основанных на фактах обсуждения и принятия решений для пользования благами научного прогресса и необходимость противодействия, в соответствии с международным правом прав человека, целенаправленным кампаниям по дезинформации с целью дискредитации научных исследований,</p>
+      </container>
+      <container name="будучи обеспокоен" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">будучи обеспокоен</span> тем, что быстрое развитие технологий генеративного искусственного интеллекта может увеличить скорость и масштабы манипулирования информацией и распространения дезинформации и ложной информации, а также тем, что достижения могут еще больше способствовать повышению их эффективности, подрывая доверие в рамках общества, что может негативно сказаться на избирательных процессах и доверии общества к демократическим системам, признавая при этом многочисленные возможности, которые новые технологии, такие как искусственный интеллект, могут предоставить для эффективного реагирования на дезинформацию и ложную информацию, если они используются в соответствии с международным правом прав человека, </p>
+      </container>
+      <container name="с обеспокоенностью признавая" eId="container_15">
+          <p xml:space="preserve">	<span class="italic">с обеспокоенностью признавая</span>, что онлайновые кампании по дезинформации, особенно основанные на полученном без согласия интимном контенте, и синтетические носители все чаще используются для того, чтобы удерживать женщин и девочек от участия в общественной жизни, и что объектом особого внимания становятся женщины-журналисты, женщины-политики, женщины и девочки, занимающиеся защитой прав человека, и активистки, отстаивающие права женщин и гендерное равенство, </p>
+      </container>
+      <container name="с озабоченностью отмечая" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">с озабоченностью отмечая</span>, что цифровой разрыв, включая гендерный цифровой разрыв, который непропорционально сильно затрагивает женщин и девочек, способен повысить уязвимость этих затрагиваемых лиц к дезинформации по сравнению с другими лицами и усилить негативное воздействие дезинформации на осуществление и реализацию ими своих прав человека, </p>
+      </container>
+      <container name="вновь подтверждая" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span> ту основную роль, которую осуществление права на свободу мнений и их свободное выражение и полное уважение свободы искать, получать и распространять информацию играют в деле укрепления демократии, содействия плюрализму и культурному многообразию, повышения транспарентности и расширения свободы средств массовой информации, а также усиления борьбы с дезинформацией, и то, что, согласно статье 19 Международного пакта о гражданских и политических правах, пользование правом на свободу выражения своего мнения налагает особые обязанности и особую ответственность,</p>
+      </container>
+      <container name="признавая" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">признавая</span> важность сохранения свободных, независимых, плюралистических и разнообразных средств массовой информации, обеспечения безопасности журналистов и работников средств массовой информации онлайн и офлайн, а также предоставления и поощрения доступа к независимой, основанной на фактах и объективных данных информации для борьбы с дезинформацией,</p>
+      </container>
+      <container name="признавая также" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">признавая также</span> важность доступности и наличия информации и средств коммуникации, а также информационно-коммуникационных технологий, систем и форматов для обеспечения того, чтобы все люди во всем их разнообразии, включая лиц с инвалидностью, могли пользоваться своим правом на свободу выражения мнений, включая свободу искать, получать и распространять информацию, наравне с другими, без чего лица с инвалидностью могут подвергаться повышенному риску негативного воздействия дезинформации,</p>
+      </container>
+      <container name="отмечая" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что дезинформация является частью более широкого комплекса проблем, которые могут сопровождать развитие и использование информационно-коммуникационных технологий, таких как произвольное или незаконное наблюдение, опирающиеся на технологии гендерное насилие, сексуальные домогательства и злонамеренная кибердеятельность, и может представлять собой угрозу для осуществления и реализации прав человека, </p>
+      </container>
+      <container name="признавая" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">признавая</span> главную ответственность государств как основных носителей обязанностей за поощрение и защиту прав человека онлайн и офлайн и важность поддержки ими соответствующих многосторонних усилий, направленных на укрепление устойчивости обществ к негативному воздействию дезинформации на всех уровнях, в частности путем повышения медийной и информационной грамотности, развития цифровых компетенций для всех и межкультурного понимания, проверки фактов и использования транспарентных и подотчетных технологических решений, </p>
+      </container>
+      <container name="особо отмечая" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span> роль государств в содействии доступу к разнообразной и достоверной информации для борьбы с дезинформацией, в том числе путем повышения уровня их собственной транспарентности, упреждающего раскрытия официальных данных онлайн и офлайн и подтверждения приверженности разнообразию и независимости средств массовой информации, а также в обеспечении защиты права на свободу мнений и их свободное выражение, включая свободу искать, получать и распространять информацию и идеи любого рода через любые средства массовой информации,</p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">выражая глубокую обеспокоенность</span> ограничениями, вводимыми государствами в отношении свободы искать, получать и распространять информацию, а также распространением дезинформации через институты государства или структуры, опосредованно представляющие его интересы, в целях продвижения ложных нарративов, осуществления контроля за ходом дискуссий в обществе и ограничения осуществления прав на свободу мнений и их свободное выражение и на мирные собрания,</p>
+      </container>
+      <container name="подчеркивая" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что распространение дезинформации нередко может быть транснациональным явлением и использоваться государствами и спонсируемыми государствами субъектами как часть гибридных операций с целью оказания влияния, которые направлены на эксплуатацию и подрыв свободы обществ, и может сопровождаться серьезными нарушениями международного права,</p>
+      </container>
+      <container name="будучи глубоко обеспокоен" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">будучи глубоко обеспокоен</span> кампаниями по дезинформации, которые используются для обострения или поддержания отношений насилия, усугубления человеческих страданий, разжигания ненависти или подстрекательства к ней, а также дегуманизации отдельных лиц или групп в уязвимых ситуациях, в том числе в контексте вооруженного конфликта и в нарушение международного гуманитарного права,</p>
+      </container>
+      <container name="решительно осуждая" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">решительно осуждая</span> использование отключений и ограничений Интернета для умышленного лишения или затруднения доступа к информации или ее распространения онлайн, в том числе в качестве средства борьбы с дезинформацией, и подчеркивая важность свободного, открытого, интероперабельного, надежного и защищенного Интернета,</p>
+      </container>
+      <container name="обращая особое внимание" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">обращая особое внимание</span> на то, что для борьбы с дезинформацией требуется принятие многоплановых и многосторонних мер реагирования, соответствующих нормам международного права прав человека, и инициативное участие международных организаций, государств, гражданского общества, правозащитников, научных кругов, независимых регуляторов и частного сектора, включая средства массовой информации, онлайн-платформы, компании-операторы социальных сетей и технологические компании, и что государства обладают уникальными возможностями для поощрения и стимулирования сотрудничества между вовлеченными сторонами,</p>
+      </container>
+      <container name="особо отмечая" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span> важность сохранения целостности информации онлайн как средства реагирования на распространение дезинформации в Интернете, в соответствии с международным правом, включая международное право прав человека, </p>
+      </container>
+      <container name="ссылаясь" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на пункт 2 статьи 20 Международного пакта о гражданских и политических правах, который гласит, что всякое выступление в пользу национальной, расовой или религиозной ненависти, представляющее собой подстрекательство к дискриминации, вражде или насилию, должно быть запрещено законом,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">подтверждает</span>, что дезинформация может негативно воздействовать на осуществление и реализацию всех прав человека и что государства играют центральную роль в борьбе с дезинформацией;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> государства обеспечивать, чтобы их меры реагирования на распространение дезинформации соответствовали международному праву прав человека и чтобы их усилия по борьбе с дезинформацией способствовали поощрению, защите и уважению присущей людям свободы выражения мнений и свободы искать, получать и распространять информацию, а также других прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="italic">настоятельно призывает</span> государства содействовать созданию благоприятной среды для борьбы с дезинформацией посредством принятия многоплановых и многосторонних мер реагирования, соответствующих нормам международного права прав человека, в том числе путем расширения сотрудничества с международными организациями, гражданским обществом, средствами массовой информации, частным сектором и другими заинтересованными сторонами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> государствам поощрять предприятия, включая компании‑операторы социальных сетей, к борьбе с дезинформацией при соблюдении прав человека, в том числе путем пересмотра бизнес-моделей, в частности роли алгоритмов и систем ранжирования в распространении дезинформации, повышения транспарентности, обеспечения соблюдения всех применимых мер правовой защиты для пользователей и поощрения проявления должной осмотрительности в соответствии с Руководящими принципами предпринимательской деятельности в аспекте прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> все государства воздерживаться от проведения или спонсирования кампаний по дезинформации на национальном или транснациональном уровнях в политических или иных целях и рекомендует им осуждать такие действия;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve"> 	<span class="italic">заявляет</span> о своей приверженности делу развития международного сотрудничества в борьбе с негативным воздействием дезинформации на осуществление и реализацию прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> государствам улучшить доступ к разнообразным и проверяемым источникам информации, в том числе путем принятия последовательных законов и стратегий, которые защищают и обеспечивают доступ к информации, повышения транспарентности управления и поощрения независимых, свободных, плюралистических и разнообразных средств массовой информации, а также принять меры для устранения цифрового разрыва, включая гендерный цифровой разрыв, и обеспечить безопасность журналистов и работников средств массовой информации онлайн и офлайн; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve"> 	<span class="italic">настоятельно призывает</span> государства, гражданское общество, отрасль, международные организации, средства массовой информации и другие заинтересованные стороны признать усугубляющие риски, которые дезинформация может привнести в избирательные и другие демократические процессы, и работать на межсекторальной основе для разработки практических стратегий, в том числе путем повышения медийной и информационной грамотности, для уменьшения рисков при обеспечении полного осуществления прав и свобод человека; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve"> 	<span class="italic">просит</span> Консультативный комитет Совета по правам человека провести исследование и подготовить доклад о воздействии дезинформации на осуществление и реализацию прав человека и представить его Совету по правам человека на его шестьдесят первой сессии; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve"> 	<span class="italic">просит</span> Управление Верховного комиссара Организации Объединенных Наций по правам человека в консультации со Специальным докладчиком по вопросу о поощрении и защите права на свободу мнений и их свободное выражение созвать до начала пятьдесят девятой сессии Совета по правам человека рассчитанное на половину дня рабочее совещание экспертов, открытое для участия государств, членов гражданского общества и частного сектора, экспертов Организации Объединенных Наций и всех соответствующих заинтересованных сторон, для рассмотрения методов, используемых в целях распространения дезинформации, и для пропаганды инструментов и подходов в плане борьбы с этими проблемами при одновременной защите и укреплении норм в области прав человека, и сделать это рабочее совещание полностью доступным для инвалидов, и просит Консультативный комитет представить в ходе этого рабочего совещания экспертов устное сообщение о подготовке им вышеупомянутого доклада; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve"> 	<span class="italic">просит также</span> Управление Верховного комиссара представить Совету по правам человека на его шестьдесят первой сессии краткий доклад об указанном рабочем совещании экспертов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve"> 	<span class="italic">постановляет</span> продолжать заниматься этим вопросом. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="53-е" refersTo="#adoptionMeeting">53‑е заседание</location>
+          <eol />
+          <docDate date="2024-04-03" refersTo="#adoptionDate">3 апреля 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.] </outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

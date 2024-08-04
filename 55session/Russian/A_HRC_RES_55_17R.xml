@@ -1,0 +1,377 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/rus@/"></FRBRuri>
+          <FRBRdate date="2024-04-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Programme of Action on a Culture of Peace (1999)" showAs="Programme of Action on a Culture of Peace (1999)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Declaration on a Culture of Peace (1999)" showAs="Declaration on a Culture of Peace (1999)" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACE" href="http://metadata.un.org/thesaurus/1004769" showAs="PEACE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEBUILDING" href="http://metadata.un.org/thesaurus/1004776" showAs="PEACEBUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EDUCATION FOR PEACE" href="http://metadata.un.org/thesaurus/1001894" showAs="EDUCATION FOR PEACE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" href="http://metadata.un.org/thesaurus/1001219" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-25" outcome="draftResolution" as="A/HRC/55/L.31" by="Bangladesh, Botswana, Chile, Colombia, Côte d’Ivoire, Dominican Republic, Ecuador, Gambia, Kazakhstan, Lesotho, Luxembourg, Malawi, Mozambique, Panama, Peru, South Sudan and Sudan" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-08" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-08" outcome="adopted" as="Adopted without vote, 54th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/17</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-08" class="rightSmall" refersTo="#dateOfIssuance">8 April 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">Пятьдесят пятая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 февраля</date>
+          <date date="2024-04-05" refersTo="#endDate">5 апреля 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека,  гражданских, политических, экономических,  социальных и культурных прав,  включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека  4 апреля 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/17.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Права человека и культура мира</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">руководствуясь</span> целями и принципами Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="ссылаясь" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на Всеобщую декларацию прав человека, Международный пакт о гражданских и политических правах, Международный пакт об экономических, социальных и культурных правах и все другие соответствующие международные конвенции и договоры по правам человека,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также</span> на Венскую декларацию и Программу действий, Декларацию тысячелетия Организации Объединенных Наций, Повестку дня в области устойчивого развития на период до 2030 года, Пекинскую декларацию и Платформу действий, Дурбанскую декларацию и Программу действий и другие соответствующие декларации Организации Объединенных Наций,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">ссылаясь далее </span>на резолюцию <a href="http://undocs.org/ru/A/RES/53/243">53/243</a> Генеральной Ассамблеи от 6 октября  1999 года о Декларации и Программе действий в области культуры мира, другие соответствующие резолюции Ассамблеи, в частности резолюции <a href="http://undocs.org/ru/A/RES/77/32">77/32</a> от 6 декабря 2022 года о Международном годе диалога как гарантии мира, 2023 год, и <a href="http://undocs.org/ru/A/RES/77/296">77/296</a> от 14 июня 2023 года о последующих мерах по осуществлению Декларации и Программы действий в области культуры мира, и все другие соответствующие резолюции Организации Объединенных Наций,</p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на резолюцию <a href="http://undocs.org/ru/A/RES/71/189">71/189</a> Генеральной Ассамблеи от 19 декабря 2016 года о Декларации о праве на мир и все другие предыдущие резолюции о праве на мир, принятые Ассамблеей, Комиссией по правам человека и Советом по правам человека,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также</span> на Декларацию о праве на развитие, в частности на ее статьи 5 и 7, принятую Генеральной Ассамблеей в ее резолюции <a href="http://undocs.org/ru/A/RES/41/128">41/128</a> от 4 декабря 1986 года,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">ссылаясь далее </span>на различные форумы высокого уровня Генеральной Ассамблеи по культуре мира, созванные председателями Ассамблеи, а также на работу Ассамблеи по осуществлению Программы действий в области культуры мира,</p>
+      </container>
+      <container name="ссылаясь" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">ссылаясь </span>на резолюцию <a href="http://undocs.org/ru/A/RES/66/137">66/137</a> Генеральной Ассамблеи от 19 декабря 2011 года o Декларации Организации Объединенных Наций об образовании и подготовке в области прав человека» и резолюцию <a href="http://undocs.org/ru/A/RES/72/130">72/130</a> Ассамблеи от 8 декабря 2017 года, в которой Ассамблея объявила 16 мая Международным днем жизни вместе в мире друг с другом,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также</span> на резолюцию 2625 (XXV) Генеральной Ассамблеи от 24 октября 1970 года о Декларации о принципах международного права, касающихся дружественных отношений и сотрудничества между государствами в соответствии с Уставом Организации Объединенных Наций,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">принимая к сведению</span> Рекомендацию об образовании в духе мира и прав человека, международного взаимопонимания, сотрудничества, основных свобод, глобальной гражданственности и устойчивого развития, единогласно принятую Генеральной конференцией Организации Объединенных Наций по вопросам образования, науки и культуры 20 ноября 2023 года,</p>
+      </container>
+      <container name="напоминая" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">напоминая</span>, что мир и безопасность, развитие и права человека являются теми опорами, на которых покоится система Организации Объединенных Наций, и основами коллективной безопасности и благосостояния, признавая, что мир и безопасность, развитие и права человека связаны друг с другом и дополняют друг друга, и подчеркивая, что отсутствие мира увеличивает вероятность нарушений и ущемлений прав человека и что развитие культуры мира связано с реализацией всех прав человека для всех,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">вновь подтверждая</span>, что культура мира является сочетанием ценностных установок, мировоззренческих взглядов, традиций, типов поведения и образов жизни, основанных, среди прочего, на уважении к жизни, недискриминации, прекращении насилия и поощрении ненасилия и практическом отказе от насилия через посредство образования, диалога и сотрудничества, а также на полном уважении и поощрении всех прав человека и основных свобод, поощряемых благоприятной национальной и международной средой, способствующей миру,</p>
+      </container>
+      <container name="констатируя," eId="container_14">
+        <p xml:space="preserve"> <span class="italic">констатируя,</span> что развитие культуры мира неразрывно связано с уважением к продвижению идеалов взаимопонимания, терпимости и солидарности между всеми цивилизациями, людьми и культурами, в том числе по отношению к лицам, принадлежащим к национальным или этническим, религиозным и языковым меньшинствам, и что культура мира и воспитание людей в духе справедливости, свободы, взаимного уважения и мира взаимосвязаны и взаимно укрепляют друг друга с точки зрения достоинства, присущего человеческой личности, и полной реализации всех прав человека для всех,</p>
+      </container>
+      <container name="признавая" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что мир — это не просто отсутствие конфликтов, а инклюзивный, позитивный, динамичный и основанный на широком участии процесс, в котором поощряется межсекторальный диалог, а конфликты предупреждаются и разрешаются в духе взаимопонимания и сотрудничества,</p>
+      </container>
+      <container name="признавая также," eId="container_16">
+        <p xml:space="preserve"> <span class="italic">признавая также,</span> что главная ответственность за соблюдение, защиту и осуществление прав человека лежит на государствах и что все государства играют определенную роль в поощрении и укреплении культуры мира,</p>
+      </container>
+      <container name="особо отмечая" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">особо отмечая</span>, что расширение прав и возможностей женщин и девочек и гендерное равноправие имеют решающее значение для усилий по развитию культуры мира и что полное, равное, значимое и безопасное участие женщин, а также девочек в соответствии с их возрастом и степенью зрелости является одним из важнейших факторов поддержания и укрепления международного мира и безопасности, в том числе при планировании и принятии решений на всех этапах мирных процессов, предупреждения и урегулирования конфликтов, посредничества, постконфликтного восстановления, примирения, поддержания мира, миротворчества и миростроительства,</p>
+      </container>
+      <container name="особо отмечая также" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">особо отмечая также</span> важную роль, которую играет молодежь в поощрении и укреплении культуры мира, предупреждении и урегулировании конфликтов, устойчивом развитии и реализации прав человека, и важность активного, широкого, полного, равного, значимого и безопасного участия молодежи на всех соответствующих уровнях принятия решений и осуществления мирных процессов, предупреждения и урегулирования конфликтов, посредничества, постконфликтного восстановления, примирения, поддержания мира, миротворчества и миростроительства, а также создания для молодежи безопасной среды для приложения ее усилий и обеспечения целевого финансирования ее деятельности,</p>
+      </container>
+      <container name="признавая" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">признавая</span> важную связь между поощрением и укреплением культуры мира, полной реализацией всех прав человека для всех и достижением Целей в области устойчивого развития и решением связанных с ними задач,</p>
+      </container>
+      <container name="признавая также" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">признавая также</span>, что расизм, расовая дискриминация, ксенофобия и связанная с ними нетерпимость и подстрекательство к ненависти препятствуют мирному сосуществованию и установлению гармонии в обществе,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">вновь подтверждая </span>важность предупреждения насилия и вооруженных конфликтов в соответствии с целями и принципами Устава для поощрения и укрепления культуры мира и полной реализации всех прав человека для всех,</p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">выражая глубокую обеспокоенность </span>по поводу сохранения и распространения в широких масштабах насилия и вооруженных конфликтов в мире, особо отмечая неотложную необходимость устранения их коренных причин и подчеркивая, что стабильное будущее для всех можно обеспечить только через мирное урегулирование,</p>
+      </container>
+      <container name="отмечая" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">отмечая</span>, что во всем мире наблюдается рост числа случаев распространения недостоверной и заведомо ложной информации, ненавистнических высказываний и преследования в онлайновой среде, что ставит под угрозу полное осуществление и реализацию всех прав человека для всех и поощрение и укрепление культуры мира, и признавая необходимость активизации усилий по обеспечению целостности информации и повышению уровня медийной и информационной грамотности в глобальном масштабе,</p>
+      </container>
+      <container name="признавая," eId="container_24">
+        <p xml:space="preserve"> <span class="italic">признавая,</span> что привлечение гражданского общества и национальных правозащитных учреждений может способствовать демократическому участию путем укрепления гражданского потенциала для повышения безопасности уязвимых групп населения и содействия мирному урегулированию споров, а это в свою очередь будет способствовать развитию культуры мира, и приветствуя важную роль и вклад гражданского общества, включая женские правозащитные и молодежные организации и организации по вопросам мира, структуры, занимающиеся миростроительством, национальные правозащитные учреждения, научные круги и другие заинтересованные стороны, в поощрение и защиту всех прав человека для всех, и тот важный вклад, который они могут вносить в миростроительство и сохранение мира, а также в укрепление культуры мира,</p>
+      </container>
+      <container name="признавая также" eId="container_25">
+        <p xml:space="preserve"> <span class="italic">признавая также</span>, что поощрение прав человека и культуры мира посредством образования, включая образование и подготовку в области прав человека, является целью, которая должна достигаться во всех государствах в сотрудничестве с гражданским обществом, включая неправительственные организации и отдельные лица, и что Управление Верховного комиссара Организации Объединенных Наций по правам человека и механизмы правозащитной системы Организации Объединенных Наций призваны играть важную роль в этом отношении,</p>
+      </container>
+      <container name="подчеркивая" eId="container_26">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span> необходимость того, чтобы государства, система Организации Объединенных Наций и другие соответствующие международные организации выделяли ресурсы на программы, направленные на укрепление культуры мира и обеспечение осведомленности о правах человека посредством подготовки, обучения и образования,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> все государства обеспечивать полную реализацию всех прав человека, укреплять и поощрять культуру мира;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает также</span> все государства вновь подтвердить свою приверженность миру и принять эффективные меры по поддержанию и поощрению мира и безопасности, развития и прав человека в соответствии с целями и принципами, закрепленными в Уставе Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает далее </span>все государства поддерживать и продвигать Декларацию и Программу действий в области культуры мира и делать все возможное для поощрения и укрепления культуры мира путем принятия на национальном, региональном и международном уровнях надлежащих и эффективных мер в соответствии с международным правом прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="italic">рекомендует</span> всем соответствующим международным организациям, включая органы Организации Объединенных Наций, региональные организации и межправительственные и неправительственные организации, продвигать и поддерживать Декларацию и Программу действий в области культуры мира и делать все возможное для содействия поощрению и укреплению культуры мира путем принятия надлежащих и эффективных мер согласно их соответствующим мандатам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> 	<span class="italic">настоятельно призывает</span> все государства учитывать в своей соответствующей национальной политике в области прав человека подход, который включает в себя поощрение культуры мира, и обеспечивать, чтобы усилия в этом направлении были инклюзивными, учитывали потребности пострадавших лиц и соответствовали международному праву прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> государствам и всем соответствующим заинтересованным сторонам, включая международные и региональные организации, в том числе органам, специализированным учреждениям, фондам и программам Организации Объединенных Наций в рамках их соответствующих мандатов, международным правозащитным механизмам, национальным правозащитным учреждениям, гражданскому обществу и частному сектору, поддерживать и поощрять взаимоукрепляющие связи между культурой мира и поощрением и защитой всех прав человека для всех;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает </span>все государства обеспечивать, чтобы все люди, включая тех, кто принадлежит к национальным или этническим, религиозным и языковым меньшинствам, имели возможность вносить свой вклад в поощрение и укрепление культуры мира;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve"> 	<span class="italic">рекомендует</span> государствам, региональным и международным организациям признавать и поддерживать важную роль национальных правозащитных учреждений и гражданского общества, включая женские и молодежные организации, чтобы быть полностью вовлеченными в поощрение и укрепление культуры мира и образования в области прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve"> 	<span class="italic">рекомендует</span> всем государствам и региональным и международным организациям, включая органы Организации Объединенных Наций, в частности Управление Верховного комиссара Организации Объединенных Наций по правам человека, межправительственные и неправительственные организации и национальные правозащитные учреждения, активно содействовать усилиям по поддержке образования в духе мира и образования в области прав человека как инструментов поощрения культуры мира;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает </span>все государства инвестировать в образование детей младшего возраста в качестве основополагающего вклада в развитие более мирных обществ и настоятельно призывает их обеспечивать в детских школах соответствующее возрасту образование, формирующее культуру мира и ненасилия, включая уроки, посвященные таким вопросам, как взаимопонимание, уважение, терпимость и права человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает также </span>все государства обеспечивать наличие свободных, независимых, плюралистических и разнообразных средств массовой информации и признавать и поддерживать их информационно-просветительскую роль в содействии поощрению прав человека и культуры мира, в создании и поддержке функционирования инклюзивного, мирного и демократического общества, основанного на знаниях, в обеспечении информированности граждан, верховенства права и участия в государственных делах, в обеспечении подотчетности государственных учреждений и должностных лиц, а также в содействии межкультурному диалогу, миру и благому управлению;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает </span>все государства и систему Организации Объединенных Наций обеспечивать полное, равное, значимое и безопасное участие женщин и девочек, а также молодежи в укреплении и поощрении культуры мира;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve"> 	<span class="italic">c удовлетворением отмечает</span> практические инициативы и действия соответствующих органов Организации Объединенных Наций, включая Организацию Объединенных Наций по вопросам образования, науки и культуры, Детский фонд Организации Объединенных Наций, Структуру Организации Объединенных Наций по вопросам гендерного равенства и расширения прав и возможностей женщин и Университет мира, а также их деятельность по дальнейшему поощрению культуры мира, в частности по содействию образованию в духе мира и проведению мероприятий в конкретных областях, определенных в Программе действий в области культуры мира, и рекомендует им продолжать, далее укреплять и наращивать свои усилия в рамках их соответствующих мандатов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает </span>все государства повышать осведомленность общественности о необходимости и ценности мира и взаимосвязи между обеспечением мира и безопасности, развитием и правами человека, а также способствовать осуществлению деятельности, проведению памятных мероприятий и реализации инициатив, которые действуют на общественное сознание, привлекая внимание к проблемам мира и прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> всем соответствующим договорным органам Организации Объединенных Наций по правам человека и специальным процедурам Совета по правам человека, назначенным экспертам, межправительственным рабочим группам и экспертным механизмам, а также Управлению Верховного комиссара продолжать учитывать тему настоящей резолюции в рамках своих соответствующих мандатов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxtG">
+        <num>16.</num>
+        <list eId="para_147_list">
+          <intro eId="para_147_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">просит</span> Верховного комиссара Организации Объединенных Наций по правам человека организовать в Женеве два рабочих совещания продолжительностью в половину рабочего дня в смешанном и полностью доступном формате по вопросам прав человека и культуры мира и содействовать участию и вкладу заинтересованных государств, соответствующих учреждений, фондов и программ Организации Объединенных Наций, международных правозащитных механизмов, национальных правозащитных учреждений, организаций гражданского общества, научных кругов и других соответствующих заинтересованных сторон, с тем чтобы:</p>
+          </intro>
+          <point eId="para_147_list_point_a">
+            <num>a)</num>
+            <content eId="para_147_list_point_a_content">
+              <p xml:space="preserve"> 	обменяться информацией о приобретенном опыте, передовой практике, достижениях, существующих вызовах и извлеченных уроках в отношении стратегий, связанных с вопросом о том, как защита и поощрение прав человека способствуют поощрению и укреплению культуры мира, и наоборот;</p>
+            </content>
+          </point>
+          <point eId="para_147_list_point_b">
+            <num>b)</num>
+            <content eId="para_147_list_point_b_content">
+              <p xml:space="preserve"> 	предложить конкретные меры по мобилизации государств и межправительственных и неправительственных организаций на поощрение и укрепление культуры мира и полной реализации всех прав человека и предложить меры по наращиванию международных и национальных усилий по развитию культуры мира и реализации всех прав человека для всех;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve"> 	<span class="italic">также просит </span>Верховного комиссара предоставить в ходе вышеупомянутых двух рабочих совещаний продолжительностью в половину рабочего дня все услуги и средства, необходимые для того, чтобы сделать обсуждения смешанными и полностью доступными, и обеспечить веб-трансляцию для облегчения дистанционного активного участия заинтересованных делегаций в Нью‑Йорке;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve"> 	<span class="italic">просит далее </span>Верховного комиссара подготовить краткий доклад о вышеупомянутых рабочих совещаниях, включая любые принятые по их итогам рекомендации, и представить его Совету по правам человека на его шестьдесят первой сессии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve"> 	<span class="italic">постановляет</span> провести на своей шестьдесят первой сессии интерактивный дискуссионный форум экспертов по вопросу о правах человека и культуре мира, полностью доступный для людей с инвалидностью и открытый для участия заинтересованных государств, соответствующих учреждений, фондов и программ Организации Объединенных Наций, международных правозащитных механизмов, национальных правозащитных учреждений, организаций гражданского общества, научных кругов и других соответствующих заинтересованных сторон;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve"> 	<span class="italic">просит</span> Генерального секретаря довести настоящую резолюцию и вышеупомянутый доклад до сведения всех государств на предмет его рассмотрения ими, в том числе в контексте последующей деятельности Генеральной Ассамблеи в связи с Декларацией и Программой действий в области культуры мира и Форумом высокого уровня Генеральной Ассамблеи по культуре мира;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve"> 	<span class="italic">постановляет </span>продолжать заниматься этим вопросом.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="54-е" refersTo="#adoptionMeeting">54‑е заседание</location>
+          <eol />
+          <docDate date="2024-04-04" refersTo="#adoptionDate">4 апреля 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

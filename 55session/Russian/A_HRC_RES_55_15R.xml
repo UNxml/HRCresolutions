@@ -1,0 +1,425 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-15/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-15/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-15/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-15/rus@/"></FRBRuri>
+          <FRBRdate date="2024-04-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-15/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-15/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Forum on Minority Issues" showAs="Forum on Minority Issues" dictionary="DHLAUTH"></keyword>
+        <keyword value="Declaration on the Rights of Persons belonging to National or Ethnic, Religious and Linguistic Minorities (1992)" showAs="Declaration on the Rights of Persons belonging to National or Ethnic, Religious and Linguistic Minorities (1992)" dictionary="DHLAUTH"></keyword>
+        <keyword value="MINORITIES" href="http://metadata.un.org/thesaurus/1004179" showAs="MINORITIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL INTEGRATION" href="http://metadata.un.org/thesaurus/1005967" showAs="SOCIAL INTEGRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS POLICY" href="http://metadata.un.org/thesaurus/1002983" showAs="HUMAN RIGHTS POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-25" outcome="draftResolution" as="A/HRC/55/L.22" by="Albania, Armenia, Australia, Austria, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, Georgia, Germany, Hungary, Iceland, Ireland, Italy, Liechtenstein, Luxembourg, Mexico, Montenegro, North Macedonia, Norway, Paraguay, Peru, Poland, Slovenia, Sweden, Switzerland, Ukraine, United States of America and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-08" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-08" outcome="adopted" as="Adopted without vote, 54th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/15</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-08" class="rightSmall" refersTo="#dateOfIssuance">8 April 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">Пятьдесят пятая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 февраля</date>
+          <date date="2024-04-05" refersTo="#endDate">5 апреля 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека,  гражданских, политических, экономических,  социальных и культурных прав,  включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 4 апреля 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/15.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">		Права лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на Всеобщую декларацию прав человека, Международный пакт о гражданских и политических правах, Международный пакт об экономических, социальных и культурных правах, Конвенцию о правах ребенка, Конвенцию о ликвидации всех форм дискриминации в отношении женщин, Международную конвенцию о ликвидации всех форм расовой дискриминации, Конвенцию о правах инвалидов и Декларацию о правах лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, принятую на основе консенсуса Генеральной Ассамблеей в ее резолюции 47/135 от 18 декабря 1992 года,</p>
+      </container>
+      <container name="учитывая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> статью 27 Международного пакта о гражданских и политических правах и статью 30 Конвенции о правах ребенка,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на все предыдущие резолюции по правам лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, принятые Генеральной Ассамблеей, Комиссией по правам человека и Советом по правам человека,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на пункты Венской декларации и Программы действий и Дурбанской декларации и Программы действий, касающиеся прав лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, и другие соответствующие международные стандарты,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span> Повестку дня в области устойчивого развития на период до 2030 года, неотъемлемой частью которой является Аддис-Абебская программа действий, принятая на третьей Международной конференции по финансированию развития, напоминая, что Цели в области устойчивого развития и связанные с ними задачи призваны обеспечивать реализацию прав человека всех людей, и подчеркивая необходимость того, чтобы государства сообразно обстоятельствам включали положения Повестки дня на период до 2030 года в свои соответствующие национальные стратегии и рамочные программы развития для содействия эффективному осуществлению Повестки дня на период до 2030 года, ее обзору и последующей деятельности в связи с ней, с тем чтобы никто не был забыт,</p>
+      </container>
+      <container name="особо отмечая" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span> необходимость наращивания усилий по достижению цели полного осуществления прав лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, в том числе путем улучшения их социально-экономических условий и решения проблемы маргинализации, а также по устранению любого вида дискриминации по отношению к ним,</p>
+      </container>
+      <container name="с удовлетворением принимая к сведению" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением принимая к сведению </span>заседание высокого уровня, созванное Председателем Генеральной Ассамблеи в ходе общих прений Ассамблеи на ее семьдесят седьмой сессии в ознаменование тридцатой годовщины принятия Декларации о правах лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, которое дало государствам возможность проанализировать пробелы в осуществлении Декларации, наладить обмен передовым опытом и взять на себя добровольные обязательства по активизации усилий по осуществлению Декларации,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> другие многосторонние, региональные, субрегиональные и национальные инициативы, посвященные тридцатой годовщине принятия Декларации и ее дальнейшему осуществлению,</p>
+      </container>
+      <container name="ссылаясь" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюцию Генеральной Ассамблеи 76/6 от 15 ноября 2021 года, в которой Ассамблея приветствовала представление — в качестве основы для дальнейшего рассмотрения государствами-членами — доклада Генерального секретаря, озаглавленного «Наша общая повестка дня»<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/75/982">A/75/982</a>.</p></authorialNote>, который включал призыв к использованию новых подходов, позволяющих расширить участие в государственных делах лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> публикацию под названием «Защита прав меньшинств: практическое руководство по разработке комплексного антидискриминационного законодательства», подготовленную Управлением Верховного комиссара Организации Объединенных Наций по правам человека<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Издание Организации Объединенных Наций, 2023 год.</p></authorialNote>,</p>
+      </container>
+      <container name="подчеркивая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что поощрение и защита прав лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, способствуют политической и социальной стабильности и сплоченности,</p>
+      </container>
+      <container name="с озабоченностью отмечая" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">с озабоченностью отмечая</span>, что пренебрежение идентичностью лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, их политическая и социально-экономическая маргинализация, ненавистнические высказывания и отрицание их прав человека часто предшествуют насилию и поэтому должны служить ранними признаками риска серьезных преступлений и конфликтов,</p>
+      </container>
+      <container name="ссылаясь" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на Руководящие принципы предпринимательской деятельности в аспекте прав человека, одобренные Советом по правам человека в его резолюции 17/4 от 16 июня 2011 года, и рекомендуя государствам, которые являются основными носителями обязательств, и предприятиям, включая компании социальных сетей, осуществлять Руководящие принципы в целях содействия уважению прав человека, онлайн и офлайн, в том числе в рамках борьбы с ненавистническими высказываниями,</p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">выражая обеспокоенность</span> частотой и остротой споров и конфликтов, затрагивающих лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, и тем, что эти лица зачастую больше всех страдают от последствий конфликтов, приводящих к нарушению их прав человека, и в особой степени подвержены риску вынужденного перемещения, в том числе в связи с перемещением населения, аннулированием имеющихся у них удостоверений личности, потоками беженцев и принудительным переселением,</p>
+      </container>
+      <container name="напоминая" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">напоминая</span>, что государства должны принимать меры для создания благоприятных условий, позволяющих лицам, принадлежащим к национальным или этническим, религиозным и языковым меньшинствам, выражать свои особенности и развивать свою культуру, язык, религию, традиции и обычаи, и в этой связи подчеркивая важность предоставления государственных услуг, включая образование, на их родных языках, включая разговорный и жестовый языки, где это применимо,</p>
+      </container>
+      <container name="признавая" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что подавляющее большинство лиц без гражданства составляют лица, принадлежащие к национальным или этническим, религиозным и языковым меньшинствам, подчеркивая в этой связи необходимость того, чтобы регистрация рождения, регистрация актов гражданского состояния и выдача национальных удостоверений личности производились без дискриминации по какому-либо признаку, в том числе по признакам расы, этнической принадлежности, религии или языка, в соответствии с Повесткой дня на период до 2030 года, в частности с ее задачей 16.9 по обеспечению наличия у всех людей законных удостоверений личности, отмечая в этой связи начало работы Глобального альянса по ликвидации безгражданства Управления Верховного комиссара Организации Объединенных Наций по делам беженцев и напоминая, что глобальная кампания за ликвидацию безгражданства в течение десятилетия, начатая в 2014 году, завершится в 2024 году,</p>
+      </container>
+      <container name="подчеркивая" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> важность полного, равного и значимого участия лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, включая женщин, молодежь и лиц с инвалидностью, и их представителей на всех уровнях разработки политики и принятия решений и в предотвращении и разрешении конфликтов, посредничестве, постконфликтном восстановлении, поддержании мира, миротворчестве и миростроительстве, а также особо отмечая необходимость устранения сохраняющихся препятствий для полного осуществления резолюции 1325 (2000) Совета Безопасности от 31 октября 2000 года,</p>
+      </container>
+      <container name="особо отмечая" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span> важность признания и устранения множественных, отягченных и перекрестных форм дискриминации в отношении лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, и совокупных негативных последствий для осуществления их прав,</p>
+      </container>
+      <container name="особо отмечая также" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">особо отмечая также</span> принципиальную важность образования, подготовки и обучения по вопросам прав человека, диалога, включая межкультурный и межконфессиональный диалог, и взаимодействия между всеми соответствующими заинтересованными субъектами и членами общества в деле поощрения и защиты прав лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, в качестве неотъемлемой части процесса развития общества в целом, в том числе посредством распространения передовой практики, касающейся, в частности, поощрения взаимопонимания по вопросам меньшинств, учета многообразия путем признания плюрализма самобытности и поощрения создания инклюзивных, справедливых и стабильных обществ, а также обеспечения социальной сплоченности внутри них,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> доклад Специального докладчика по вопросам меньшинств<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/HRC/55/51">A/HRC/55/51</a>.</p></authorialNote>, его доклад, содержащий рекомендации, вынесенные на шестнадцатой сессии Форума по вопросам меньшинств<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/HRC/55/70">A/HRC/55/70</a>.</p></authorialNote>, а также доклад, который был представлен предыдущим мандатарием Генеральной Ассамблее на ее семьдесят восьмой сессии<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/78/195">A/78/195</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>проведение в декабре 2023 года шестнадцатой сессии Форума по вопросам меньшинств по теме «Меньшинства и сплоченные общества: равенство, социальная интеграция и социально-экономическое участие», которая благодаря широкому участию заинтересованных сторон стала важной платформой для поощрения диалога по этой теме, и призывает государства принимать во внимание соответствующие рекомендации Форума;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> доклад Управления Верховного комиссара Организации Объединенных Наций по правам человека о правах лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/HRC/55/35">A/HRC/55/35</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает</span> работу, проделанную Специальным докладчиком по вопросам меньшинств, и важную роль, которую он сыграл в повышении осведомленности о правах лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, и в привлечении дополнительного внимания к этим правам, а также его руководящую роль в подготовке и работе Форума по вопросам меньшинств, что представляет собой вклад в усилия по улучшению сотрудничества между всеми механизмами Организации Объединенных Наций, занимающимися правами лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства предпринимать инициативы для обеспечения того, чтобы лица, принадлежащие к национальным или этническим, религиозным и языковым меньшинствам, знали и могли осуществлять свои права, закрепленные в Декларации о правах лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, и в других международных обязанностях, а также обязательствах в области прав человека, и рекомендует обеспечить, чтобы все меры, принимаемые с целью осуществления Декларации, в максимально возможной степени разрабатывались, формулировались, реализовывались и пересматривались при полном, эффективном и равном участии лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>6.</num>
+        <list eId="para_36_list">
+          <intro eId="para_36_list_intro">
+            <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства с учетом темы шестнадцатой сессии Форума по вопросам меньшинств и в целях более эффективного осуществления Декларации и обеспечения полной реализации прав лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, принимать соответствующие меры, в частности путем:</p>
+          </intro>
+          <point eId="para_36_list_point_a">
+            <num>a)</num>
+            <content eId="para_36_list_point_a_content">
+              <p xml:space="preserve">	рассмотрения возможности ратификации соответствующих международных и региональных договоров по правам человека, которые защищают и поощряют права лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, а также присоединения к ним и их соблюдения;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_b">
+            <num>b)</num>
+            <content eId="para_36_list_point_b_content">
+              <p xml:space="preserve">	содействия вовлечению и значимому участию лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, как средству признания и оценки разнообразия в обществе и как ключевому компоненту содействия социальной сплоченности, поощрения их права на пользование собственной культурой и признания их уникального вклада;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_c">
+            <num>c)</num>
+            <content eId="para_36_list_point_c_content">
+              <p xml:space="preserve">	удвоения усилий по предотвращению и искоренению безгражданства среди лиц, принадлежащих к этническим или национальным, религиозным и языковым меньшинствам, без какой-либо дискриминации, в том числе путем поощрения права на гражданство;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_d">
+            <num>d)</num>
+            <content eId="para_36_list_point_d_content">
+              <p xml:space="preserve">	содействия созданию условий для поощрения самобытности лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, в том числе путем предоставления им качественного образования; </p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_e">
+            <num>e)</num>
+            <content eId="para_36_list_point_e_content">
+              <p xml:space="preserve">	развития инклюзивных систем образования, в том числе профессионального обучения, для обеспечения равного доступа всех лиц к возможностям приобретения навыков для значимого участия на недискриминационной основе во всех аспектах политической, экономической, социальной, религиозной и культурной жизни общества, а также в усилиях по обеспечению экономического прогресса и развития своих стран, учитывая при этом гендерные аспекты; </p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_f">
+            <num>f)</num>
+            <content eId="para_36_list_point_f_content">
+              <p xml:space="preserve">	принятия законодательства, мер политики и программ, направленных на борьбу с дискриминацией и отчуждением женщин и девочек, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, поддержку расширения их прав и возможностей, содействие гендерному равноправию и укрепление общин;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_g">
+            <num>g)</num>
+            <content eId="para_36_list_point_g_content">
+              <p xml:space="preserve">	признания важности содействия и экономической интеграции лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, для социальной стабильности и для полной реализации прав на образование, на труд, на наивысший достижимый уровень физического и психического здоровья, на достаточный жизненный уровень и на участие в общественной жизни на недискриминационной основе, при уважении их культурного разнообразия;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_h">
+            <num>h)</num>
+            <content eId="para_36_list_point_h_content">
+              <p xml:space="preserve">	проведения информационно-просветительских кампаний и мероприятий по укреплению потенциала с учетом языковых и культурных особенностей для обеспечения осуществления прав всех лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_i">
+            <num>i)</num>
+            <content eId="para_36_list_point_i_content">
+              <p xml:space="preserve">	поощрения разработки инклюзивной политики, направленной на устранение коренных причин, таких как нищета, неравенство и дискриминация, и на развитие инфраструктуры, чтобы обеспечить доступность базовых услуг для всех на недискриминационной основе;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_j">
+            <num>j)</num>
+            <content eId="para_36_list_point_j_content">
+              <p xml:space="preserve">	сбора достоверных и, в соответствующих случаях, дезагрегированных данных для лучшего понимания и оценки воздействия дискриминации и проблем, связанных с социальной интеграцией и осуществлением экономических, социальных и культурных прав лицами, принадлежащими к национальным или этническим, религиозным и языковым меньшинствам;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_k">
+            <num>k)</num>
+            <content eId="para_36_list_point_k_content">
+              <p xml:space="preserve">	содействия принятию и применению всеобъемлющих антидискриминационных законов, а также разработки и осуществления эффективных антидискриминационных мер и политики в целях эффективной ликвидации всех форм дискриминации в отношении лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, и усиления пропаганды против дискриминации;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_l">
+            <num>l)</num>
+            <content eId="para_36_list_point_l_content">
+              <p xml:space="preserve">	создания безопасной и благоприятной среды для представителей гражданского общества, адвокатов, журналистов и работников СМИ, гуманитарных работников и правозащитников, занимающихся вопросами прав человека лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, в том числе в условиях вооруженного конфликта;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_m">
+            <num>m)</num>
+            <content eId="para_36_list_point_m_content">
+              <p xml:space="preserve">	решительного осуждения любой пропаганды национальной, расовой или религиозной ненависти, представляющей собой подстрекательство к дискриминации, вражде или насилию, и принятия и осуществления мер с целью введения уголовной ответственности за подстрекательства к прямому насилию по признаку национальной принадлежности, расы, религии или убеждений как онлайн, так и офлайн, при соблюдении всех международно признанных прав человека и основных свобод;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_n">
+            <num>n)</num>
+            <content eId="para_36_list_point_n_content">
+              <p xml:space="preserve">	обеспечения полного, равного и значимого участия лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, включая женщин, молодежь и лиц с инвалидностью, на всех уровнях принятия решений и в осуществлении деятельности по предотвращению и разрешению конфликтов, посредничеству, постконфликтному восстановлению, поддержанию мира, миротворчеству и миростроительству;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_o">
+            <num>o)</num>
+            <content eId="para_36_list_point_o_content">
+              <p xml:space="preserve">	содействия выполнению Конвенции о ликвидации всех форм дискриминации в отношении женщин и соответствующих резолюций органов Организации Объединенных Наций, в том числе о ситуациях вооруженного конфликта;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_p">
+            <num>p)</num>
+            <content eId="para_36_list_point_p_content">
+              <p xml:space="preserve">	сбора достоверных и, в соответствующих случаях, дезагрегированных данных для установления и оценки воздействия продолжающегося насилия на лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, включая число убитых, раненых, лишенных свободы или перемещенных лиц и лиц, подвергшихся сексуальному и гендерному насилию;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_q">
+            <num>q)</num>
+            <content eId="para_36_list_point_q_content">
+              <p xml:space="preserve">	обеспечения того, чтобы виновные в нарушениях прав человека и злоупотреблениях в отношении лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, привлекались к ответственности, чтобы коренные причины расследовались и устранялись и чтобы жертвы имели доступ к адекватным средствам правовой защиты и помощи;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_r">
+            <num>r)</num>
+            <content eId="para_36_list_point_r_content">
+              <p xml:space="preserve">	разработки политики примирения и сохранения памяти на основе инклюзивного диалога, направленной на решение проблемы насилия в отношении лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, и их угнетения в прошлом в качестве средства социальной интеграции;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_s">
+            <num>s)</num>
+            <content eId="para_36_list_point_s_content">
+              <p xml:space="preserve">	создания условий для межкультурного и межрелигиозного диалога в целях признания и поощрения и уважения разнообразия, в том числе в качестве важнейшего инструмента для укрепления взаимопонимания и содействия миру, устойчивому развитию, мирному сосуществованию, предотвращению конфликтов и процессам примирения в постконфликтных обществах;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> международным и региональным организациям активизировать усилия в рамках их соответствующих мандатов по поощрению и содействию защите прав лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, и в этой связи принять к сведению соответствующие рекомендации Форума по вопросам меньшинств;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> тот факт, что шестнадцатая сессия Форума по вопросам меньшинств была полностью обеспечена устным переводом на жестовый язык, и подчеркивает важность того, чтобы обсуждения на Форуме оставались полностью инклюзивными и доступными для лиц с инвалидностью;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> Управлению Верховного комиссара, структурам Организации Объединенных Наций и государствам обеспечивать поддержку и сотрудничать в контексте организации региональных форумов по вопросам меньшинств, с тем чтобы дополнять и обогащать работу и рекомендации Форума по вопросам меньшинств;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> сотрудничество между учреждениями, фондами и программами Организации Объединенных Наций в вопросах меньшинств, осуществляемое под руководством Управления Верховного комиссара, и настоятельно призывает их далее расширять взаимодействие и повышать координацию, в том числе в области разработки политики, направленной на поощрение и защиту прав лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, с учетом также соответствующих итогов Форума по вопросам меньшинств и результатов работы соответствующих региональных организаций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span>, в частности, в этой связи инициативы и деятельность сети Организации Объединенных Наций по вопросам расовой дискриминации и защиты меньшинств под совместным руководством Управления Верховного комиссара и Департамента глобальных коммуникаций Секретариата в целях укрепления диалога и сотрудничества между соответствующими учреждениями, фондами и программами Организации Объединенных Наций и предлагает этой сети продолжать сотрудничать со Специальным докладчиком по вопросам меньшинств, Специальным докладчиком по вопросу о свободе религии или убеждений, Специальным докладчиком по вопросу о современных формах расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости и другими соответствующими специальными процедурами и договорными органами, а также проводить консультации и взаимодействовать с лицами, принадлежащими к национальным или этническим, религиозным и языковым меньшинствам, и субъектами гражданского общества;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>Программу набора стажеров из числа представителей меньшинств Управления Верховного комиссара и призывает Специального докладчика и выпускников этой программы укреплять сотрудничество с целью поиска конкретных решений проблем меньшинств;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства, сеть Организации Объединенных Наций по вопросам расовой дискриминации и защиты меньшинств, организации гражданского общества и другие заинтересованные стороны поощрять и поддерживать участие лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, в соответствующих совещаниях и процессах правозащитных механизмов Организации Объединенных Наций, продвигать работу по борьбе с расизмом, расовой дискриминацией, ксенофобией и связанной с ними нетерпимостью и укреплять защиту национальных или этнических, религиозных и языковых меньшинств при разработке программ в рамках всей системы Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Верховного комиссара Организации Объединенных Наций по правам человека продолжать представлять Совету по правам человека ежегодный доклад, содержащий информацию о соответствующих изменениях, касающихся правозащитных органов и механизмов Организации Объединенных Наций, а также о деятельности, которую Управление Верховного комиссара проводит в штаб-квартире и на местах и которая вносит вклад в содействие осуществлению и соблюдению положений Декларации о правах лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	<span class="italic">постановляет </span>продолжить рассмотрение этого вопроса в соответствии со своей программой работы.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="54-е" refersTo="#adoptionMeeting">54‑е заседание</location>
+          <eol />
+          <docDate date="2024-04-04" refersTo="#adoptionDate">4 апреля 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.] </outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

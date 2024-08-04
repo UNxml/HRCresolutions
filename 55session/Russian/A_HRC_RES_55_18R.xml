@@ -1,0 +1,276 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-18/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-18/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-18/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-18/rus@/"></FRBRuri>
+          <FRBRdate date="2024-04-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-18/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-18/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Independent Expert on the Enjoyment of Human Rights by Persons with Albinism" showAs="UN. Human Rights Council. Independent Expert on the Enjoyment of Human Rights by Persons with Albinism" dictionary="DHLAUTH"></keyword>
+        <keyword value="ALBINISM" href="http://metadata.un.org/thesaurus/1000225" showAs="ALBINISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT TO HEALTH" href="http://metadata.un.org/thesaurus/1005560" showAs="RIGHT TO HEALTH" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-28" outcome="draftResolution" as="A/HRC/55/L.33/Rev.1" by="Albania, Andorra, Belgium, Costa Rica, Cyprus, Denmark, Finland, France, Gambia, Ireland, Italy, Lithuania, Luxembourg, Malta, Netherlands (Kingdom of the), Portugal, Slovakia, Slovenia, Spain and Sweden" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-08" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-08" outcome="adopted" as="Adopted without vote, 54th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/18</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-08" class="rightSmall" refersTo="#dateOfIssuance">8 April 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">Пятьдесят пятая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 февраля</date>
+          <date date="2024-04-05" refersTo="#endDate">5 апреля 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека,  гражданских, политических, экономических,  социальных и культурных прав,  включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 4 апреля 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/18.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Мандат Независимого эксперта по вопросу об осуществлении прав человека людьми с альбинизмом</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека,</span>
+        </p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">руководствуясь </span>целями и принципами Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="руководствуясь также" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">руководствуясь также</span> Всеобщей декларацией прав человека и ссылаясь на все соответствующие международные договоры о правах человека, включая Международный пакт о гражданских и политических правах, Международный пакт об экономических, социальных и культурных правах, Конвенцию о правах инвалидов, Конвенцию против пыток и других жестоких, бесчеловечных или унижающих достоинство видов обращения и наказания, Международную конвенцию о ликвидации всех форм расовой дискриминации, Конвенцию о ликвидации всех форм дискриминации в отношении женщин и Конвенцию о правах ребенка,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span>, что каждый имеет право на жизнь, свободу и личную неприкосновенность и что никто не должен подвергаться пыткам и другим жестоким, бесчеловечным или унижающим достоинство видам обращения и наказания,</p>
+      </container>
+      <container name="ссылаясь" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на универсальность, неделимость, взаимозависимость и взаимосвязанность всех прав человека и на необходимость гарантировать людям с альбинизмом осуществление их прав и свобод в полном объеме без дискриминации,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также </span>на свои резолюции 5/1 об институциональном строительстве Совета по правам человека и 5/2 о Кодексе поведения мандатариев специальных процедур Совета от 18 июня 2007 года и подчеркивая, что все мандатарии должны выполнять свои обязанности в соответствии с этими резолюциями и приложениями к ним,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">ссылаясь далее</span> на Венскую декларацию и Программу действий и ссылаясь также на права каждого человека на наивысший достижимый уровень физического и психического здоровья и на образование, закрепленные в Международном пакте об экономических, социальных и культурных правах и других соответствующих международных договорах по правам человека,</p>
+      </container>
+      <container name="будучи глубоко озабочен" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">будучи глубоко озабочен </span>тем, что в различных частях мира люди с альбинизмом по‑прежнему сталкиваются с барьерами на пути их участия в жизни общества в качестве его равноправных членов и c нарушениями и ущемлениями их прав человека, и сознавая необходимость уделять более пристальное и настойчивое внимание решению этих проблем,</p>
+      </container>
+      <container name="выражая серьезную озабоченность" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">выражая серьезную озабоченность </span>по поводу того, что продолжают иметь место нападения и широко распространенные акты насилия, которым подвергаются люди с альбинизмом, в частности женщины и люди, находящиеся в уязвимом положении, включая детей, людей, испытывающих перекрестное воздействие фактора инвалидности, и пожилых людей,</p>
+      </container>
+      <container name="приветствуя" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">приветствуя </span>все инициативы и действия, предпринимаемые всеми государствами в целях устранения всех форм насилия и дискриминации в отношении людей с альбинизмом и борьбы с такими явлениями,</p>
+      </container>
+      <container name="приветствуя также" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">приветствуя также</span> в этой связи работу, проводимую Независимым экспертом для борьбы с вредной практикой, связанной с обвинениями в колдовстве и ритуальными нападениями, как одной из коренных причин нарушения и ущемления прав человека людей с альбинизмом, для налаживания взаимодействия с заинтересованными сторонами и для проведения аналитических исследований, с тем чтобы государства могли принимать эффективные меры,</p>
+      </container>
+      <container name="предлагая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">предлагая </span>государствам эффективно осуществлять Повестку дня в области устойчивого развития на период до 2030 года и следовать ее принципу «никто не будет забыт», а также призывая государства охватить в первую очередь тех, кто находится в наиболее уязвимом положении, включая людей с альбинизмом,</p>
+      </container>
+      <container name="призывая" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">призывая </span>государства обеспечить привлечение к ответственности путем проведения беспристрастных, оперативных и действенных расследований нападений на людей с альбинизмом, привлекать виновных к судебной ответственности и обеспечивать пострадавшим и членам их семей доступ к надлежащим средствам правовой защиты,</p>
+      </container>
+      <container name="приветствуя" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">приветствуя </span>консультации, проведенные Независимым экспертом с соответствующими заинтересованными сторонами в различных регионах, включая Африку, в результате которых в Африке был разработан региональный план действий по искоренению нарушений и ущемлений прав человека людей с альбинизмом и последующий План действий Африканского союза по прекращению нападений и других нарушений прав человека в отношении людей с альбинизмом в Африке (2021–2031 годы) в качестве политики для всего африканского континента,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая </span>работу и достижения Независимого эксперта в области подготовки аналитических исследований и проведения обсуждений по вопросу о вредной практике, связанной с обвинениями в колдовстве и ритуальными нападениями, как особой угрозе для людей с альбинизмом в некоторых странах и как одной из коренных причин совершаемых на них нападений,</p>
+      </container>
+      <container name="с удовлетворением принимая к сведению" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением принимая к сведению</span> последние доклады Независимого эксперта, призванные не допустить того, чтобы люди с альбинизмом остались в стороне от обсуждений, касающихся осуществления их прав, представленные Совету по правам человека — о правозащитниках с альбинизмом и/или занимающихся вопросами альбинизма<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	<a href="http://undocs.org/ru/A/HRC/52/36">A/HRC/52/36</a>.</p></authorialNote> — и Генеральной Ассамблее — о людях с альбинизмом в процессе перемещения<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	<a href="http://undocs.org/ru/A/77/199">A/77/199</a>.</p></authorialNote>, </p>
+      </container>
+      <container name="ссылаясь" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на все предыдущие резолюции по вопросу об осуществлении прав человека людьми с альбинизмом, принятые Генеральной Ассамблеей и Советом по правам человека,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает </span>важную работу, проделанную Независимым экспертом по вопросу об осуществлении прав человека людьми с альбинизмом в целях прекращения нападений на людей с альбинизмом и для распространения информации о них;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением принимает к сведению </span>тематический доклад Независимого эксперта о воздействии изменения климата на людей с альбинизмом<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/78/167">A/78/167</a>.</p></authorialNote>, в котором мандатарий обратил особое внимание на ожидаемый рост заболеваемости раком кожи, что особенно сильно затрагивает людей с альбинизмом, учитывая их предрасположенность к таким заболеваниям, и в этой связи призывает государства активизировать их усилия по обеспечению права людей с альбинизмом на наивысший достижимый уровень физического и психического здоровья;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>государства в сотрудничестве со Всемирной организацией здравоохранения принять эффективные меры в связи с последствиями изменения климата, которые касаются здоровья людей с альбинизмом, с целью осуществления их права на наивысший достижимый уровень физического и психического здоровья, особенно в связи с вызывающей тревогу заболеваемостью раком кожи в этой группе населения, и выполнить рекомендации, которые Независимый эксперт сформулировала в этом отношении в ее докладе; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением принимает к сведению </span>тематический доклад Независимого эксперта<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	<a href="http://undocs.org/ru/A/HRC/55/45">A/HRC/55/45</a>.</p></authorialNote>, в котором мандатарий рассматривает, в частности, право людей с альбинизмом на образование и важность устранения барьеров на пути осуществления права на образование и обеспечения разумного приспособления для людей с альбинизмом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">постановляет </span>продлить мандат Независимого эксперта по вопросу об осуществлении прав человека людьми с альбинизмом на трехлетний срок на тех же условиях, которые были предусмотрены Советом по правам человека в его резолюции 46/12 от 23 марта 2021 года; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Независимого эксперта учитывать в рамках всей предусмотренной мандатом работы возрастные особенности, инклюзию в части инвалидности и гендерные аспекты и уделять особое внимание проблемам и потребностям женщин и девочек в целях устранения множественных и перекрестных форм дискриминации, с которыми сталкиваются женщины и девочки с альбинизмом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>Независимому эксперту обратить внимание на проблемы и потребности людей с альбинизмом во всех странах и рассмотреть особые проблемы и потребности людей с альбинизмом, живущих в странах с низким уровнем дохода;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>все государства в полной мере сотрудничать с Независимым экспертом в рамках деятельности по выполнению мандата, серьезно относиться к удовлетворению ее просьб о посещении их стран и рассматривать возможность выполнения ее рекомендаций, предоставлять ей всю необходимую информацию, относящуюся к ее мандату, и оперативно реагировать на ее сообщения и призывы к незамедлительным действиям, с тем чтобы она могла эффективно выполнять мандат;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> Организации Объединенных Наций, включая ее специализированные учреждения, а также региональным организациям, национальным правозащитным учреждениям, независимым экспертам, неправительственным организациям, включая организации людей с альбинизмом и их семей, частному сектору, в частности социальным предприятиям, и другим соответствующим заинтересованным сторонам в максимально возможной степени сотрудничать с Независимым экспертом в осуществлении данного мандата;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Генерального секретаря и Верховного комиссара Организации Объединенных Наций по правам человека предоставлять в распоряжение Независимого эксперта все кадровые и финансовые ресурсы, необходимые для эффективного осуществления мандата;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продолжить рассмотрение этого вопроса в соответствии со своей годовой программой работы.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="54-е" refersTo="#adoptionMeeting">54‑е заседание</location>
+          <eol />
+          <docDate date="2024-04-04" refersTo="#adoptionDate">4 апреля 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
