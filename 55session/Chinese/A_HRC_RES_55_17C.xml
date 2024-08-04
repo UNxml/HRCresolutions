@@ -1,0 +1,376 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/"></FRBRuri>
+          <FRBRdate date="2024-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/zho@/"></FRBRuri>
+          <FRBRdate date="2024-04-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-04/55-17/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Programme of Action on a Culture of Peace (1999)" showAs="Programme of Action on a Culture of Peace (1999)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Declaration on a Culture of Peace (1999)" showAs="Declaration on a Culture of Peace (1999)" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACE" href="http://metadata.un.org/thesaurus/1004769" showAs="PEACE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEBUILDING" href="http://metadata.un.org/thesaurus/1004776" showAs="PEACEBUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EDUCATION FOR PEACE" href="http://metadata.un.org/thesaurus/1001894" showAs="EDUCATION FOR PEACE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" href="http://metadata.un.org/thesaurus/1001219" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-25" outcome="draftResolution" as="A/HRC/55/L.31" by="Bangladesh, Botswana, Chile, Colombia, Côte d’Ivoire, Dominican Republic, Ecuador, Gambia, Kazakhstan, Lesotho, Luxembourg, Malawi, Mozambique, Panama, Peru, South Sudan and Sudan" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-08" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-08" outcome="adopted" as="Adopted without vote, 54th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/17</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-08" class="rightSmall" refersTo="#dateOfIssuance">8 April 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese"> Chinese </inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">第五十五届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 二月</date>
+          <date date="2024-04-05" refersTo="#endDate">5 四月 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、 经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2024年4月4日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/17.</docNumber>
+        <docTitle refersTo="#resolutionTitle">人权与和平文化</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会，</span>
+        </p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">遵循</span>《联合国宪章》的宗旨和原则，</p>
+      </container>
+      <container name="回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">回顾</span>《世界人权宣言》、《公民及政治权利国际公约》、《经济社会文化权利国际公约》以及所有其他相关国际人权公约和文书，</p>
+      </container>
+      <container name="又回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>《维也纳宣言和行动纲领》、《联合国千年宣言》、《2030年可持续发展议程》、《北京宣言和行动纲要》、《德班宣言和行动纲领》和其他相关联合国宣言，</p>
+      </container>
+      <container name="还回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">还回顾</span>大会1999年10月6日关于《和平文化宣言和行动纲领》的第53/243号决议、大会其他相关决议，特别是2022年12月6日关于《2023年对话保障和平国际年》的第77/32号决议和2023年6月14日关于贯彻落实《和平文化宣言和行动纲领》的第77/296号决议，以及联合国所有其他相关决议，</p>
+      </container>
+      <container name="回顾" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会2016年12月19日关于《和平权利宣言》的第71/189号决议，以及大会、人权委员会和人权理事会通过的先前所有其他关于享有和平权利的决议，</p>
+      </container>
+      <container name="又回顾" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>大会1986年12月4日第41/128号决议通过的《发展权利宣言》，特别是该宣言第5条和第7条，</p>
+      </container>
+      <container name="还回顾" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">还回顾</span>大会主席召集举行的各种关于和平文化的大会高级别论坛以及大会在执行《和平文化行动纲领》方面的工作，</p>
+      </container>
+      <container name="回顾" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会2011年12月19日关于《联合国人权教育和培训宣言》的第66/137号决议和大会2017年12月8日第72/130号决议，其中大会宣布5月16日为“国际和平共处日”，</p>
+      </container>
+      <container name="又回顾" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>大会1970年10月24日关于《关于各国依联合国宪章建立友好关系及合作之国际法原则之宣言》的第2625(XXV)号决议，</p>
+      </container>
+      <container name="注意到" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">注意到</span>联合国教育、科学及文化组织大会2023年11月20日一致通过的《关于促进和平与人权、国际理解、合作、基本自由、全球公民意识和可持续发展的教育的建议书》，</p>
+      </container>
+      <container name="回顾" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">回顾</span>和平与安全、发展和人权是联合国系统的支柱，是集体安全和福祉的基础，认识到和平与安全、发展和人权相互关联、相辅相成，并强调如果没有和平，人权就更可能遭受侵犯和践踏，发展和平文化与实现每个人的所有人权密切相关，</p>
+      </container>
+      <container name="重申" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">重申</span>和平文化是一套价值观、见解、传统以及行为方式和生活方式。这一套价值观、见解、传统以及行为方式和生活方式主要基于尊重生命、不歧视、终止暴力，通过教育、对话与合作提倡和践行非暴力以及充分尊重和促进所有人权和基本自由，并依靠有利于和平的国内和国际扶持性环境，</p>
+      </container>
+      <container name="确认" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">确认</span>和平文化的发展与尊重促进所有文明、人士和文化之间的了解、容忍和团结，包括对在民族或族裔、宗教和语言上属于少数群体的人的了解、容忍和团结，密切相关，并确认从人的尊严和充分实现每个人的所有人权的角度来看，和平文化与对人进行正义、自由、相互尊重及和平方面的教育这两者相互关联、相辅相成，</p>
+      </container>
+      <container name="认识到" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">认识到</span>和平不仅意味着不发生冲突，还需要一个包容、积极、充满活力和参与性的进程，在这一进程中，鼓励进行部门间对话，人们本着相互谅解与合作的精神预防和解决冲突，</p>
+      </container>
+      <container name="又认识到" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>尊重、保护和实现人权的主要责任在于国家，所有国家都在促进和加强和平文化方面发挥着作用，</p>
+      </container>
+      <container name="强调" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">强调</span>增强妇女和女童权能和性别平等对于发展和平文化的努力至关重要，妇女和女童根据其年龄和成熟程度进行充分、平等、切实和安全的参与，包括参与和平进程、预防和解决冲突、调解、冲突后重建、和解、维持和平、建立和平及建设和平的各阶段的规划和决策，是维护和促进国际和平与安全的重要因素之一，</p>
+      </container>
+      <container name="又强调" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">又强调</span>青年在促进和加强和平文化、预防和解决冲突、可持续发展和人权方面发挥的重要作用，强调青年有必要在和平进程、预防和解决冲突、调解、冲突后重建、和解、维持和平、建立和平及建设和平的决策和落实的所有相关层面进行积极、广泛、充分、平等、切实和安全的参与，还有必要为青年提供安全的参与空间和开展工作所需的专项资金，</p>
+      </container>
+      <container name="认识到" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">认识到</span>促进和加强和平文化、充分实现每个人的所有人权与实现《可持续发展目标》和具体目标之间的重要联系，</p>
+      </container>
+      <container name="又认识到" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>种族主义、种族歧视、仇外心理和相关不容忍行为以及煽动仇恨会阻碍社会内部的和平共处与和谐，</p>
+      </container>
+      <container name="重申" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">重申</span>根据《宪章》的宗旨和原则预防暴力和武装冲突对于促进和加强和平文化以及充分实现每个人的所有人权的重要性，</p>
+      </container>
+      <container name="表示深为关切" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">表示深为关切</span>世界上暴力和武装冲突十分普遍，难以消除，深为关切暴力和武装冲突的扩散，强调迫切需要处理暴力和武装冲突的根源，并着重指出只有和平解决办法才能确保人人都有一个稳定的未来，</p>
+      </container>
+      <container name="注意到" eId="container_23">
+        <p xml:space="preserve">	<span class="bold">注意到</span>假信息、错误信息、仇恨言论和网上骚扰在全球范围内增多，对人人充分享有各项人权和充分实现每个人的所有人权以及促进和加强和平文化构成威胁，并认识到有必要加强努力，在全球范围内提高信息完整性以及媒体和信息素养，</p>
+      </container>
+      <container name="认识到" eId="container_24">
+        <p xml:space="preserve">	<span class="bold">认识到</span>让民间社会和国家人权机构参与，可通过增强公民加强弱势群体的安全并推动和平解决争端的能力，促进民主参与，从而有助于提倡和平文化，并欢迎民间社会，包括妇女权利组织和青年领导的组织及和平组织、建设和平者、国家人权机构、学术界和其他利益攸关方在促进和保护每个人的所有人权方面的重要作用和贡献，以及这些行为体在建设和维护和平以及加强和平文化方面能够作出的重要贡献，</p>
+      </container>
+      <container name="又确认" eId="container_25">
+        <p xml:space="preserve">	<span class="bold">又确认</span>通过教育包括人权教育和培训促进人权与和平文化，是所有国家都应当在与包括非政府组织和个人在内的民间社会合作下推进的目标，联合国人权事务高级专员办事处和联合国人权系统各机制在这方面可发挥重要作用，</p>
+      </container>
+      <container name="强调" eId="container_26">
+        <p xml:space="preserve">	<span class="bold">强调</span>各国、联合国系统和其他有关国际组织有必要划拨资源，支助通过培训、教学和教育争取强化和平文化和维护人权意识的方案，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_27" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有国家确保充分实现所有人权，并加强和促进和平文化；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="bold">又吁请</span>所有国家按照《联合国宪章》所载宗旨和原则，重申致力于加强和平，并采取有效措施维护和促进和平与安全、发展和人权；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold">还吁请</span>所有国家支持和宣传《和平文化宣言和行动纲领》，并根据国际人权法在国家、区域和国际三个层面采取适当和有效措施，尽最大努力促进和加强和平文化；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>所有相关国际组织，包括联合国机构、区域组织、政府间组织和非政府组织，宣传和支持《和平文化宣言和行动纲领》，并根据各自的任务采取适当和有效措施，尽最大努力促进和加强和平文化；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>所有国家在相关国家人权政策中考虑采取促进和平文化的方针，并确保这方面的努力具有包容性，满足受影响者的需求并符合国际人权法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="bold">请</span>各国和所有相关利益攸关方，包括国际和区域组织，包括联合国机构、专门机构、基金和方案(在各自任务范围内)，以及国际人权机制、国家人权机构、民间社会和私营部门，支持和促进和平文化与促进和保护每个人的所有人权之间相辅相成的联系；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有国家确保所有人，包括在民族或族裔、宗教和语言上属于少数群体的人，都有机会为促进和加强和平文化作出贡献；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国以及区域和国际组织承认并支持国家人权机构和民间社会，包括妇女和青年领导的组织发挥的重要作用，以使其充分参与促进和加强和平文化和人权教育；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>所有国家以及区域和国际组织，包括联合国机构，特别是联合国人权事务高级专员办事处、政府间组织和非政府组织以及国家人权机构，发挥积极作用，为据以提倡和平文化的和平教育和人权教育提供支持；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有国家投资儿童早期教育，以便为发展更为和平的社会作出重要贡献，并敦促各国在儿童学校提供有助于创建和平与非暴力文化的适合年龄的教育，包括开设关于相互谅解、尊重、宽容的课程和人权课程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="bold">又吁请</span>所有国家确保自由、独立、多元和多样化的媒体，承认并支持媒体在推动提倡人权与和平文化，建设和支持包容与和平的知识型社会和民主政体的运作，公民知情、法治和参与公共事务，追究公共机构和官员的责任，以及促进文化间对话、和平和善治方面发挥的教育和宣传作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有国家和联合国系统确保妇女和女童以及青年充分、平等、切实和安全地参与加强和促进和平文化；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>联合国相关机构，包括联合国教育、科学及文化组织、联合国儿童基金会、联合国促进性别平等和增强妇女权能署以及和平大学采取的切实举措和行动，以及它们在进一步促进和平文化方面开展的活动，特别是促进和平教育以及与《和平文化行动纲领》确定的具体领域有关的活动，并鼓励它们在各自任务范围内继续作出努力并进一步加强和扩大努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有国家提高公众对和平的必要性和价值以及实现和平与安全、发展和人权之间关系的认识，并促进开展各种活动、纪念活动和倡议，提高公众对和平与人权的认识；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxtGC">
+        <num>15.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联合国所有相关人权条约机构和人权理事会特别程序、指定专家、政府间工作组和专家机制以及高级专员办事处在各自任务范围内，继续铭记本决议的主题；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxtGC">
+        <num>16.</num>
+        <list eId="para_147_list">
+          <intro eId="para_147_list_intro">
+            <p xml:space="preserve">	<span class="bold">请</span>联合国人权事务高级专员以混合和完全无障碍方式，在日内瓦举办两次为期半天的人权与和平文化研讨会，设法请感兴趣的国家、联合国相关机构、基金和方案、国际人权机制、国家人权机构、民间社会组织、学术界和其他相关利益攸关方参与并为研讨会提供投入，以便：</p>
+          </intro>
+          <point eId="para_147_list_point_a">
+            <num>(a)</num>
+            <content eId="para_147_list_point_a_content">
+              <p xml:space="preserve">	就保护和促进人权如何有助于促进和加强和平文化，以及促进和加强和平文化如何有助于保护和促进人权的战略交流经验、良好做法、取得的成绩、面临的困难和吸取的教训；</p>
+            </content>
+          </point>
+          <point eId="para_147_list_point_b">
+            <num>(b)</num>
+            <content eId="para_147_list_point_b_content">
+              <p xml:space="preserve">	就动员各国、政府间组织和非政府组织促进和加强和平文化和充分实现所有人权的具体行动提出建议，并就可加强国际和国家两级发展和平文化的努力和进一步实现每个人的所有人权的措施提出建议；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxtGC">
+        <num>17.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	<span class="bold">还请</span>高级专员为上述两次为期半天的研讨会提供一切必要的服务和设施，使讨论能够以混合方式进行，完全无障碍，并提供网播服务，以便利在纽约的感兴趣的代表团远程积极参与；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxtGC">
+        <num>18.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="bold">还请</span>高级专员编写一份上述研讨会的纪要报告，其中载有研讨会提出的任何建议，并将该报告提交人权理事会第六十一届会议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="SingleTxtGC">
+        <num>19.</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>在第六十一届会议上举行一次残疾人可以完全无障碍参加的人权与和平文化互动式专家小组讨论会，邀请感兴趣的国家、联合国相关机构、基金和方案、国际人权机制、国家人权机构、民间社会组织、学术界和其他相关利益攸关方参加；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxtGC">
+        <num>20.</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长提请所有国家注意本决议和上述报告以供审议，包括在大会对《和平文化宣言和行动纲领》采取后续行动和大会和平文化高级别论坛的范围内进行审议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxtGC">
+        <num>21.</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续处理此事。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第54次" refersTo="#adoptionMeeting">第54次会议</location>
+          <eol />
+          <docDate date="2024-04-04" refersTo="#adoptionDate">2024年4月4日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

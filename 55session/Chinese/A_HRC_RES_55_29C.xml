@@ -1,0 +1,473 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/"></FRBRuri>
+          <FRBRdate date="2024-04-05" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/zho@/"></FRBRuri>
+          <FRBRdate date="2024-04-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-04-05/55-29/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-06-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="RIGHTS OF THE CHILD" href="http://metadata.un.org/thesaurus/1005573" showAs="RIGHTS OF THE CHILD" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL SECURITY" href="http://metadata.un.org/thesaurus/1005985" showAs="SOCIAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POPULAR PARTICIPATION" href="http://metadata.un.org/thesaurus/1005016" showAs="POPULAR PARTICIPATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHILDREN IN ARMED CONFLICTS" href="http://metadata.un.org/thesaurus/1000956" showAs="CHILDREN IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/55/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-03-28" outcome="draftResolution" as="A/HRC/55/L.18/Rev.1" by="Albania, Armenia, Australia, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malawi, Malta, Monaco, Montenegro, Netherlands (Kingdom of the), North Macedonia, Norway, Poland, Portugal, Republic of Moldova, Romania, Slovakia, Slovenia, Spain, Sweden, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-04-12" outcome="recommendedForAdoption" by="" />
+        <step date="2024-04-12" outcome="adopted" as="Adopted without vote, 56th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/55/29</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-04-12" class="rightSmall" refersTo="#dateOfIssuance">12 April 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese"> Chinese </inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="55" eId="coverPage_1__session_1">第五十五届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-02-26" refersTo="#startDate">26 二月</date>
+          <date date="2024-04-05" refersTo="#endDate">5 四月 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、 经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2024年4月5日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>55/29.</docNumber>
+        <docTitle refersTo="#resolutionTitle">儿童权利：实现儿童权利和包容性社会保护</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会，</span>
+        </p>
+      </formula>
+      <container name="强调" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">强调</span>《儿童权利公约》是尊重、保护和实现儿童权利的国际法律基础，铭记《公约》各项任择议定书的重要性，呼吁普遍批准和切实执行这些文书，</p>
+      </container>
+      <container name="回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会、人权委员会和人权理事会以往关于儿童权利的所有决议，最近的决议是大会2023年12月19日第78/187号决议和理事会2022年4月1日第49/20号决议，又回顾理事会2023年4月3日第52/11号决议，其中重点关注包容性社会保护在实现经济、社会和文化权利方面的作用，</p>
+      </container>
+      <container name="又回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>所有相关国际人权公约，特别是《经济社会文化权利国际公约》、《公民及政治权利国际公约》、《消除对妇女一切形式歧视公约》、《消除一切形式种族歧视国际公约》、《残疾人权利公约》、《保护所有移徙工人及其家庭成员权利国际公约》以及其他公约，如国际劳工组织《1952年社会保障(最低标准)公约》(第102号)、《1962年(社会保障)同等待遇公约》(第118号)和《1999年最恶劣形式的童工劳动公约》(第182号)，</p>
+      </container>
+      <container name="还回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">还回顾</span>大会2015年9月25日题为“变革我们的世界：2030年可持续发展议程”的第70/1号决议，大会在其中通过了可持续发展目标和具体目标，承诺以均衡和综合的方式实现可持续发展并实现所有人的人权，还在这方面回顾包容性社会保护，包括为所有人实施适合本国国情的包容性社会保护措施和制度，如实行最低标准，对实现可持续发展目标的重要性，</p>
+      </container>
+      <container name="重申" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">重申</span>《儿童权利公约》所列儿童最大利益、不歧视、参与、生存和发展等一般原则为所有涉及儿童的行动提供了框架，</p>
+      </container>
+      <container name="回顾" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">回顾</span>《世界人权宣言》承认所有儿童都有权享有社会保障并有权得到特别照顾及协助，</p>
+      </container>
+      <container name="欢迎" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>儿童权利委员会和经济、社会及文化权利委员会对包容性社会保护问题的关注，包括在相关一般性意见中的关注，</p>
+      </container>
+      <container name="又欢迎" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">又欢迎</span>人权理事会各附属机制，包括特别程序，以及联合国人权事务高级专员办事处和各条约机构在各自任务范围内对儿童权利和包容性社会保护的关注，欢迎儿童对人权高专办报告的贡献，并注意到就基于人权的包容性社会保护方法提出的相关指导意见和建议，</p>
+      </container>
+      <container name="赞赏地回顾" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">赞赏地回顾</span>负责暴力侵害儿童问题秘书长特别代表的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/HRC/49/57.</p></authorialNote>，其中述及对儿童和包容性社会保护的投入，</p>
+      </container>
+      <container name="回顾" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">回顾</span>《儿童权利公约》承认儿童有权维护经法律承认的身份，包括国籍、姓名和家庭关系，不受非法干涉，并注意到儿童可能因没有合法身份、适当的出生登记、国籍和身份证件而无法获得包容性社会保护，</p>
+      </container>
+      <container name="又回顾" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>旨在实现普遍包容性社会保护的多利益攸关方倡议，包括国际劳工组织“建设全民社会保护底线”全球旗舰计划(2016-2030年)、2016年实现可持续发展目标的全民社会保护全球伙伴关系和2021年促进公正转型的就业和社会保护全球行动加速器，</p>
+      </container>
+      <container name="深为关切" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">深为关切</span>全球超过17.7亿儿童仍然无法获得包容性社会保护，而且各地区之间存在巨大差异，无法获得包容性社会保护服务可能会妨碍儿童充分享有各项权利，特别是生命权、受教育权、享有能达到的最高标准身心健康包括性健康和生殖健康的权利、享有适当生活水准包括食物、住房、衣物、安全饮用水和卫生设施的权利、休息和闲暇的权利以及参与游戏和娱乐活动的权利，</p>
+      </container>
+      <container name="严重关切地注意到" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">严重关切地注意到</span>冠状病毒疾病大流行(COVID-19疫情)、武装冲突、经济衰退、人道主义危机、粮食危机、地球三大危机即气候变化、污染和生物多样性丧失以及生活成本问题加剧了儿童，特别是女童所面临的本已存在的各种形式的不平等和系统性歧视，包括种族主义、性别不平等、污名化，仇外心理和社会经济不平等，这突出表明迫切需要建立基于儿童权利的有韧性和包容性的综合社会保护制度，并确保充分覆盖土著人民和农村人口，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>儿童权利委员会关于儿童权利与环境包括清洁、健康和可持续环境(重点是气候变化)的第26号一般性意见(2023年)，并深为关切地注意到地球三大危机即气候变化、污染和生物多样性丧失导致每个儿童，特别是女童以及贫困国家和发展中国家的儿童面临严重风险，气候行动的缺失正在损害每个儿童享有能达到的最高标准身心健康的权利、获得负担得起的营养食品、安全饮用水和卫生设施的权利、受教育权以及免受一切形式暴力侵害的权利，</p>
+      </container>
+      <container name="深为关切地注意到" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">深为关切地注意到</span>，在世界各地，女童和妇女过多地承担照料责任，而且大多没有报酬或报酬过低，这一状况导致性别不平等现象长期存在，阻碍女童和妇女获得教育和正规就业，损害她们在整个生命周期享有缴费型社会保障、公平薪酬、安全健康的工作环境以及适当生活水准的权利，</p>
+      </container>
+      <container name="又深为关切地注意到" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">又深为关切地注意到</span>，尽管人们日益认识到需要以注重性别平等的方式促进包容性社会保护，但在包容性社会保护的覆盖面、充分性和全面性方面，性别差距仍然很大，低收入国家的情况尤为如此，这特别影响到获得保健服务包括性健康和生殖健康信息、教育和护理服务、经期健康和卫生、产前和产后护理、母乳喂养和营养服务等孕产妇保健服务，以及精神健康服务，</p>
+      </container>
+      <container name="表示严重关切" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">表示严重关切</span>许多国家缺乏普遍、非歧视、全面、包容残疾人和基于儿童权利的包容性社会保护制度，包括满足家庭成员(包括残疾人)需求的制度，这意味着残疾儿童的额外需要和支助需求往往得不到满足，并强调有必要防止和消除在健全主义和性别不平等相互作用和叠加影响下产生的歧视，</p>
+      </container>
+      <container name="关切地注意到" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">关切地注意到</span>一些儿童，包括残疾儿童、境内流离失所儿童、难民儿童、移民儿童和寻求庇护儿童、土著儿童、童工、女童、早婚和强迫婚姻中的儿童、非洲裔儿童、流落街头的儿童、接受替代照料的儿童和脱离照料的儿童、被剥夺自由的儿童、农村和偏远地区的儿童、受武装冲突和自然灾害影响的儿童、最贫困家庭的儿童以及父母或照料者无法工作或在非正规经济部门工作的儿童，在获得包容性社会保护方面过度遭受着多重和交叉形式歧视的影响，</p>
+      </container>
+      <container name="承认" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">承认</span>儿童及其父母或照料者获得的福利往往不足以满足儿童的个人需求，特别是被落在最后面儿童的个人需求，而普及儿童福利，加上实施补充性干预措施、提供基本服务和实物福利以及面向家庭的其他福利，可以改善儿童的包容性社会保护，加强性别平等，减少儿童贫困，支持儿童发展，</p>
+      </container>
+      <container name="重申" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">重申</span>儿童应在家庭环境中成长，以促进个性的全面和谐发展，负责养育和保护儿童的人应以最大利益原则为指导，应提高家庭和照料者为儿童提供照料和安全环境的能力，并强调社会保护对于促进和加强父母、照料者和法定监护人照料儿童能力的重要性，</p>
+      </container>
+      <container name="认识到" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">认识到</span>各国有义务确保提供包容性社会保护，包括为此解决以下问题：缺乏综合制度，负责包容性社会保护的各服务部门在设计、实施和监测方面协调不力，制度僵化分散，存在污名化和歧视，缺乏相关的分类数据，缺乏关于社会保护制度的明确、易获取和适合儿童的信息，未能让儿童安全切实地参与，以及在福利被不公平剥夺的情况下难以诉诸问责机制，</p>
+      </container>
+      <container name="重申" eId="container_23">
+        <p xml:space="preserve">	<span class="bold">重申</span>应提供现金或实物形式的包容性社会保护，以重点确保所有儿童充分享有所有人权，而不论其父母或照料者的情况如何，包括父母或照料者因疾病、残疾、孕产、工伤、失业、家庭成员年老或死亡、负担不起医疗服务或家庭支助不足而没有工作收入的情况，</p>
+      </container>
+      <container name="指出" eId="container_24">
+        <p xml:space="preserve">	<span class="bold">指出</span>包容性社会保护福利的资格条件必须合理、相称和透明，与享有包容性社会保护相关的直接和间接费用必须让所有人都能负担得起，并且不损害其他经济、社会和文化权利的实现，社会保护福利应及时提供，受益人应能实际获得社会保障服务，以便获得福利和信息，在这方面应特别关注最边缘化群体，</p>
+      </container>
+      <container name="强调" eId="container_25">
+        <p xml:space="preserve">	<span class="bold">强调</span>必须确保每个儿童都能受益于包容性社会保护，并根据儿童逐步发展的能力，确保儿童能以包容和有效的方式切实参与关乎其生活的决策，包括参与制定、实施和评价社会保护措施，</p>
+      </container>
+      <container name="又强调" eId="container_26">
+        <p xml:space="preserve">	<span class="bold">又强调</span>符合儿童权利的包容性社会保护制度应遵循实质平等和不歧视原则，并特别注重确保包括残疾儿童在内的所有儿童都能平等、普遍和全面地获得和享有社会保护，为此应特别考虑并解决本已存在的性别不平等的根本原因以及其他形式的歧视加剧这种不平等的方式，并惠及最落后的群体，</p>
+      </container>
+      <container name="承认" eId="container_27">
+        <p xml:space="preserve">	<span class="bold">承认</span>虽然包容性社会保护制度的制定基于有关国家的具体社会、经济、文化和政治状况，但基于儿童权利的包容性社会保护办法的核心要素适用于所有国家，这些核心要素立足于人权，将儿童权利和国家义务置于包容性社会保护相关立法和政策框架的核心位置，同时认识到儿童因身体、认知、社会和情感发展水平不同而具有特定的脆弱性和需求，</p>
+      </container>
+      <container name="又承认" eId="container_28">
+        <p xml:space="preserve">	<span class="bold">又承认</span>对儿童包容性社会保护的投入是履行国家在实现经济、社会和文化权利方面义务的关键，具有长期的经济、政治和社会效益，特别是对儿童而言，</p>
+      </container>
+      <container name="还承认" eId="container_29">
+        <p xml:space="preserve">	<span class="bold">还承认</span>包容性社会保护在实现儿童权利、防止和减轻儿童贫困和不平等现象、推进《2030年可持续发展议程》特别是在实现可持续发展目标的具体目标1.3和10.4方面的关键作用，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>联合国人权事务高级专员在儿童权利方面的工作，并赞赏地注意到高级专员关于儿童权利和包容性社会保护的报告<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		A/HRC/54/36.</p></authorialNote>；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国考虑批准《儿童权利公约》及其各项任择议定书，并呼吁所有缔约国继续努力充分执行这些文书；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="H23GC">
+        <content eId="para_32__content">
+          <p xml:space="preserve">		包容性社会保护</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国根据国际人权法确保所有儿童获得包容性社会保护；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="bold">又敦促</span>尚未制定适当立法、政策、制度和程序的国家制定此种立法、政策、制度和程序，以确保在所有关乎儿童的行动中以及所有涉及儿童包容性社会保护的决定中将儿童的最大利益作为首要考虑因素；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>《儿童权利公约》缔约国采取必要措施，按照《公约》充分落实儿童享有社会保障，包括社会保险的权利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国确保尽可能广泛地向家庭提供包容性社会保护和援助，必要时为所有儿童采取保护和援助方面的相关特别措施，同时确保包容性社会保护措施的可用性、充分性和可及性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="bold">又敦促</span>各国投入于符合儿童权利的包容性社会保护，包括满足所有家庭成员的需求和人权，这种保护可能会带来很高的经济和社会回报，是惠及所有儿童的战略选择，让他们能够实现人权、发挥潜能并有尊严地生活，也是强大经济和健康社会的关键组成部分；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="bold">还敦促</span>各国建立和调整包容性社会保护制度，以符合被迫流离失所儿童、移民儿童和难民儿童的具体需求和能力，包括为此提供安全网和儿童友好型无障碍空间，并承认游戏和娱乐设施很重要，有助于保护儿童并为受危机影响的儿童提供身心支助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国划拨充足资源，确保为儿童切实提供包容性社会保护，实现儿童的权利，包括社会保障权；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国逐步实现包容性社会保护的普遍覆盖，包括不作任何区分地普及儿童福利，并将其与补充服务相结合；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国确保包容性社会保护制度为残疾儿童充分提供适当的支助，包括向残疾儿童的照料者发放补贴，要考虑到残疾儿童在援助和支助方面的特殊需求并顾及残疾儿童的尊严，从而促进残疾儿童在与其他儿童平等的基础上充分和切实地参与社会，确保他们享有《残疾人权利公约》规定的权利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxtGC">
+        <num>12.</num>
+        <list eId="para_78_list">
+          <intro eId="para_78_list_intro">
+            <p xml:space="preserve">	<span class="bold">又敦促</span>各国采取必要措施，确保所有儿童充分享有所有人权并获得包容性社会保护服务，为此采取有效的监管和执行机制，包括：</p>
+          </intro>
+          <point eId="para_78_list_point_a">
+            <num>(a)</num>
+            <content eId="para_78_list_point_a_content">
+              <p xml:space="preserve">	颁布和实施立足于人权特别是儿童权利义务的必要法律和政策框架，以确立基于儿童权利的包容性社会保护综合办法并将其作为生命周期和综合系统办法的一部分，确保不让任何一个儿童掉队，确保包容性社会保护服务涵盖普遍和全面的儿童和家庭福利以及对父母或照料者的资金和实际支持，如育儿假和负担得起的优质托儿服务，并确保在提供包容性社会保护服务的同时提供基于人权的照料和支助，以及普及基本服务，如医疗保健服务、平等获得免费优质全纳教育的机会、安全的数字环境、水和卫生设施、负担得起的营养食品和适当住房；</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_b">
+            <num>(b)</num>
+            <content eId="para_78_list_point_b_content">
+              <p xml:space="preserve">	特别注重减轻儿童因处于边缘化和弱势境况以及面临多重交叉形式歧视而过度遭受的影响，为此制定风险知情办法，消除性别不平等的根本原因和风险因素，确保所有儿童都能获得顾及年龄、残疾和性别因素的包容性社会保护；</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_c">
+            <num>(c)</num>
+            <content eId="para_78_list_point_c_content">
+              <p xml:space="preserve">	确保在涉及儿童包容性社会保护的决定中与儿童进行切实协商，确保社会保护的相关信息对儿童友好，便于所有处于边缘化和弱势境况的儿童获取；</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_d">
+            <num>(d)</num>
+            <content eId="para_78_list_point_d_content">
+              <p xml:space="preserve">	开展预算分析，确保预算符合儿童权利相关义务，并引入必要的收入来源，确保以符合儿童权利的方式为包容多利益相关方的综合社会保护制度提供资金，并为有效实施这些制度分配充足和适当的人力和财政资源；</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_e">
+            <num>(e)</num>
+            <content eId="para_78_list_point_e_content">
+              <p xml:space="preserve">	针对国际人权法禁止的所有歧视理由，及时收集关于儿童的数据，确保数据优质、透明并进行分类，以及建立全面和透明的监测和评价机制，对包容性社会保护制度进行分析，找出差距，为循证立法程序和决策提供参考，以确保社会保护制度真正具有包容性，包括为此在立法、政策和方案设计中开展儿童权利影响评估和评价；</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_f">
+            <num>(f)</num>
+            <content eId="para_78_list_point_f_content">
+              <p xml:space="preserve">	将包容性社会保护视为消除童工现象的不可或缺因素；</p>
+            </content>
+          </point>
+          <point eId="para_78_list_point_g">
+            <num>(g)</num>
+            <content eId="para_78_list_point_g_content">
+              <p xml:space="preserve">	提高对现有包容性社会保护支助、资格标准和申请方式的认识，传播清晰、易懂和有针对性的信息；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="bold">还敦促</span>各国在包容性社会保护的框架内，确保儿童在权利受侵犯时都能诉诸司法，及时获得有效、包容、顾及性别、残疾和年龄因素并体察创伤的受害者补救支助，并获得赔偿和不再发生的保证，确保免费、安全、保密、反应迅速、方便儿童的报告机制的可用性和可及性，在行政和司法程序中坚持执行对儿童问题敏感的适当程序保障，同时将儿童的最大利益作为首要考虑因素，确保儿童有权在此类程序中得到直接或通过代表或适当机构陈述意见的机会，向儿童提供关于侵权行为和赔偿机制的相关信息，提供适合儿童的有效法律代理和法律援助，并在适当情况下为儿童的父母、照料者和法定监护人提供或通过其父母、照料者和法定监护人提供有效的法律代理和法律援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国采取跨部门措施，以平等和公平的方式承认、重视和重新分配有酬和无酬照料工作并减少无酬照料工作，无酬照料工作目前仍过多地由妇女和女童承担，这妨碍她们获得正规就业，并损害她们享有缴费型社会保障的权利，为此应在家庭成员之间以及家庭、社区、私营部门和国家之间促进责任的平等分担，并优先发展可持续和无障碍的基础设施和交通、负担得起的优质社会服务，包括照料和支助方面的服务和产品、儿童保育，以及规定所有劳动者享有体面工作和性别平等的劳工标准，包括产假、陪产假或育儿假、同工同酬、安全和健康的工作环境、在工作场所免遭暴力和骚扰包括性暴力和性别暴力以及性骚扰和性别骚扰、结社自由以及组织权和集体谈判权；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxtGC">
+        <num>15.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国确保社会保护的施行注重性别平等并符合妇女和女童的需求，包括确保她们有权享有能达到的最高标准身心健康，包括性健康和生殖健康方面的信息、教育和护理服务、经期保健和个人卫生，以及产前和产后护理、母乳喂养和营养服务等孕产妇保健服务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxtGC">
+        <num>16.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="bold">又敦促</span>各国遵守国际法，包括国际人道法和国际人权法，特别是《儿童权利公约》及其各项任择议定书规定的义务，强调必须对所有侵犯和践踏儿童权利的行为进行追责；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="H23GC">
+        <content eId="para_125__content">
+          <p xml:space="preserve">		儿童权利主流化</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxtGC">
+        <num>17.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>《秘书长关于儿童权利主流化的指导说明》，其中强调必须将儿童权利视角纳入所有关乎儿童享有人权的决策进程，这一视角包括让儿童积极切实地参与，并且必须让最有可能被抛在后面的儿童参与，《指导说明》还对整个联合国系统和联合国各实体，包括联合国人权事务高级专员办事处及人权调查和问责机制提出了明确的期望，敦促确保儿童以合乎道德和安全的方式切实参与所有相关联合国行动和联合国论坛，这是实现儿童权利主流化所必需的；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxtGC">
+        <num>18.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国采取步骤，建立结构合理、便于儿童参与的模式，以促进儿童在地方、国家、区域和国际论坛上表达意见的权利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxtGC">
+        <num>19.</num>
+        <list eId="para_129_list">
+          <intro eId="para_129_list_intro">
+            <p xml:space="preserve">	<span class="bold">敦促</span>各国支持高级专员办事处发挥作用，根据其任务规定将儿童权利纳入整个联合国系统的主流，并鼓励各国申明其承诺，增加对人权高专办以下专题能力的资金支持：</p>
+          </intro>
+          <point eId="para_129_list_point_a">
+            <num>(a)</num>
+            <content eId="para_129_list_point_a_content">
+              <p xml:space="preserve">	应请求就国际人权法规定的所有儿童权利向各国和其他相关利益攸关方提供咨询并开展能力建设活动；</p>
+            </content>
+          </point>
+          <point eId="para_129_list_point_b">
+            <num>(b)</num>
+            <content eId="para_129_list_point_b_content">
+              <p xml:space="preserve">	与联合国儿童基金会合作，协调整个联合国系统儿童权利主流化工作的实施，并定期监测进展情况；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_130" class="H23GC">
+        <content eId="para_130__content">
+          <p xml:space="preserve">		后续行动</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxtGC">
+        <num>20.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长拓展高级专员办事处的能力，在人权高专办及其支持的人权问责和调查机制的工作中推动儿童权利主流化，特别是儿童参与和儿童保障的主流化，并应请求就落实儿童人权问题向各国提供咨询和技术援助，并酌情向联合国所有相关组织和机构提供咨询和技术援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxtGC">
+        <num>21.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="bold">请</span>高级专员通过与各国、联合国儿童基金会、负责暴力侵害儿童问题秘书长特别代表、负责儿童与武装冲突问题秘书长特别代表、儿童权利委员会、相关特别程序任务负责人、联合国其他相关部门和机构、区域组织和人权机构以及民间社会等所有相关利益攸关方协商，包括与儿童协商，编写一份关于将儿童权利纳入整个联合国工作主流的报告，包含《秘书长关于儿童权利主流化的指导说明》的执行情况，并向人权理事会第五十九届会议提交报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxtGC">
+        <num>22.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>人权理事会特别程序和其他人权机制在执行任务时继续纳入儿童权利视角，并在其报告中列入关于儿童权利的资料、定性分析和建议，同时关注缺乏包容性社会保护对儿童充分享有权利的不利影响；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxtGC">
+        <num>23.</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve">	<span class="bold">请</span>所有人权条约机构继续将儿童权利纳入其工作，特别是纳入其结论性意见、一般性意见和建议，同时关注缺乏社会保护对儿童充分享有权利的不利影响，并鼓励人权条约机构以合乎道德和安全的方式切实征求儿童的意见；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_141" class="SingleTxtGC">
+        <num>24.</num>
+        <content eId="para_141__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>人权理事会所有人权机制，包括附属机构和咨询机构，在适当情况下，利用分类数据更加连贯一致地监测和分析儿童权利遭侵犯和践踏的根本原因，同时考虑到所有处于边缘化和弱势境况的儿童，并将分析结果转化为面向所有相关利益攸关方的以行动为导向的具体建议，以促进儿童权利方面的问责；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxtGC">
+        <num>25.</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>根据理事会工作方案以及理事会2008年3月28日第7/29号决议和2012年3月23日第19/37号决议，继续审议儿童权利问题，并请高级专员办事处2025年以“儿童早期发展”为主题举办儿童权利问题年度全天会议，确保提供适当资源以支持和便利儿童参与，确保他们能够方便地出入相关场所，并使儿童和残疾人能够充分参与讨论；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="SingleTxtGC">
+        <num>26.</num>
+        <content eId="para_152__content">
+          <p xml:space="preserve">	<span class="bold">请</span>高级专员与各国、联合国儿童基金会、负责暴力侵害儿童问题秘书长特别代表、负责儿童与武装冲突问题秘书长特别代表、相关特别程序任务负责人、联合国其他相关部门和机构、区域组织和人权机构、国家人权机构和民间社会等所有相关利益攸关方密切合作，包括与儿童协商，编写一份关于武装冲突中的儿童权利和侵犯儿童人权行为的报告，以便于查阅和方便儿童的格式提供报告并提交人权理事会第六十届会议，还请高级专员办事处2026年以“武装冲突中的儿童权利和侵犯儿童人权行为”为主题举办儿童权利问题年度全天会议，确保提供适当资源以支持儿童参与，确保他们能够方便地出入相关场所，并使儿童和残疾人能够充分参与讨论。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第56次" refersTo="#adoptionMeeting">第56次会议</location>
+          <eol />
+          <docDate date="2024-04-05" refersTo="#adoptionDate">2024年4月5日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
