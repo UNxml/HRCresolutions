@@ -1,0 +1,564 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/"></FRBRuri>
+          <FRBRdate date="2024-07-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/ara@/"></FRBRuri>
+          <FRBRdate date="2024-07-16" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="PUBLIC DEMONSTRATIONS" href="http://metadata.un.org/thesaurus/1005244" showAs="PUBLIC DEMONSTRATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LAW ENFORCEMENT" href="http://metadata.un.org/thesaurus/1003644" showAs="LAW ENFORCEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT OF ASSEMBLY" href="http://metadata.un.org/thesaurus/1005549" showAs="RIGHT OF ASSEMBLY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF ASSOCIATION" href="http://metadata.un.org/thesaurus/1002523" showAs="FREEDOM OF ASSOCIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/56/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-07-09" outcome="draftResolution" as="A/HRC/56/L.19/Rev.1" by="Albania, Australia, Austria, Belgium, Bulgaria, Canada, Chile, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Marshall Islands, Mexico, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Paraguay, Peru, Poland, Portugal, Republic of Moldova, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Switzerland and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-07-16" outcome="recommendedForAdoption" by="" />
+        <step date="2024-07-16" outcome="adopted" as="Adopted without vote, 35th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/56/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-16" class="rightSmall" refersTo="#dateOfIssuance">16 July 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="56" eId="coverPage_1__session_1">الدورة السادسة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-06-18" refersTo="#startDate">18 حزيران</date>
+          <date date="2024-07-12" refersTo="#endDate">12 تموز 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 11 تموز/يوليه 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>56/10</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	تعزيز وحماية حقوق الإنسان في سياق الاحتجاجات السلمية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان</span>،</p>
+      </formula>
+      <container name="إذ يؤكد من جديد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يؤكد من جديد</span> مقاصد ميثاق الأمم المتحدة ومبادئه،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد أيضاً" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد أيضاً </span>الإعلان العالمي لحقوق الإنسان وإعلان وبرنامج عمل فيينا، وإذ يشير إلى العهد الدولي الخاص بالحقوق المدنية والسياسية والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، وغيرها من صكوك حقوق الإنسان الدولية والإقليمية ذات الصلة، </p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى الإعلان المتعلق بحق ومسؤولية الأفراد والجماعات وهيئات المجتمع في تعزيز وحماية حقوق الإنسان والحريات الأساسية المعترف بها عالمياً،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن الدول الأعضاء في الأمم المتحدة قد تعهدت، وفقاً للإعلان العالمي لحقوق الإنسان، بأن تعمل، بالتعاون مع الأمم المتحدة، على تعزيز احترام حقوق الإنسان والحريات الأساسية للجميع ومراعاتها على الصعيد العالمي من دون تمييز على أساس العرق أو اللون أو الجنس أو اللغة أو الدين أو الرأي السياسي أو غيره من الآراء أو الأصل القومي أو الاجتماعي أو الملكية أو المولد أو أي وضع آخر،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى مقرره <a href="https://undocs.org/ar/A/HRC/DEC/17/120">17/120</a> المؤرخ 17 حزيران/يونيه 2011؛ وقراراته <a href="https://undocs.org/ar/A/HRC/RES/19/35">19</a><a href="https://undocs.org/ar/A/HRC/RES/19/35">/</a><a href="https://undocs.org/ar/A/HRC/RES/19/35">35</a> المؤرخ 23 آذار/مارس 2012، و<a href="https://undocs.org/ar/A/HRC/RES/22/10">22</a><a href="https://undocs.org/ar/A/HRC/RES/22/10">/</a><a href="https://undocs.org/ar/A/HRC/RES/22/10">10</a> المؤرخ 21 آذار/مارس 2013، و<a href="https://undocs.org/ar/A/HRC/RES/25/38">25</a><a href="https://undocs.org/ar/A/HRC/RES/25/38">/</a><a href="https://undocs.org/ar/A/HRC/RES/25/38">38</a> المؤرخ 28 آذار/مارس 2014، و<a href="https://undocs.org/ar/A/HRC/RES/31/37">31</a><a href="https://undocs.org/ar/A/HRC/RES/31/37">/</a><a href="https://undocs.org/ar/A/HRC/RES/31/37">37</a> المؤرخ 24 آذار/مارس 2016، و<a href="https://undocs.org/ar/A/HRC/RES/38/11">38</a><a href="https://undocs.org/ar/A/HRC/RES/38/11">/</a><a href="https://undocs.org/ar/A/HRC/RES/38/11">11</a> المؤرخ 6 تموز/يوليه 2018، و<a href="https://undocs.org/ar/A/HRC/RES/44/20">44</a><a href="https://undocs.org/ar/A/HRC/RES/44/20">/</a><a href="https://undocs.org/ar/A/HRC/RES/44/20">20</a> المؤرخ 17 تموز/يوليه 2020، و<a href="https://undocs.org/ar/A/HRC/RES/50/21">50</a><a href="https://undocs.org/ar/A/HRC/RES/50/21">/</a><a href="https://undocs.org/ar/A/HRC/RES/50/21">21</a> المؤرخ 8 تموز/يوليه 2022 بشأن تعزيز وحماية حقوق الإنسان في سياق الاحتجاجات السلمية؛ وغيرها من قرارات مجلس حقوق الإنسان ذات الصلة،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً </span>إلى قراره <a href="https://undocs.org/ar/A/HRC/RES/43/1">43/1</a> المؤرخ 19 حزيران/يونيه 2020 بشأن تعزيز وحماية حقوق الإنسان والحريات الأساسية للأفريقيين والمنحدرين من أصل أفريقي من الاستخدام المفرط للقوة وغيره من انتهاكات حقوق الإنسان على يد الموظفين المكلفين بإنفاذ القوانين،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span>، عملاً بالإعلان العالمي لحقوق الإنسان، والعهد الدولي الخاص بالحقوق المدنية والسياسية، والاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري، بأن الحقوق في حرية التجمع السلمي وحرية التعبير وحرية تكوين الجمعيات حقوقُ إنسان مضمونة للجميع، وإن كانت ممارستها قد تخضع لقيود معيّنة، وفقاً لالتزامات الدول بموجب صكوك حقوق الإنسان الدولية الواجبة التطبيق،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً </span>بأن أي قيود من هذا القبيل يجب أن تستند إلى القانون، وأن تكون ضروريةً لتعزيز هدف مشروع ومتناسبةً مع ذلك، وفقاً لالتزامات الدولة بموجب صكوك حقوق الإنسان الدولية الواجبة التطبيق، وبأن فرضها يتطلب إتاحة استعراض إداري أو قضائي سريع ومختص ومستقل ونزيه،</p>
+      </container>
+      <container name="وإذ يسلّم كذلك" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلّم كذلك</span> بأن فرض أي قيود على الحق في حرية التجمع السلمي يحب أن يكون متوافقاً مع المادة 21 من العهد الدولي الخاص بالحقوق المدنية والسياسية، وأن تفرض على أساس كل حالة على حدة، بحيث تتجنب فرض قيود غير ضرورية وغير متناسبة عليه، وأن أي تقييد من هذا القبيل يجب ألا يكون تمييزياً، أو مخلاً بجوهر الحق، أو هادفاً إلى تثبيط المشاركة في التجمعات، </p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن تدابير الطوارئ التي تتخذها الحكومات يجب أن تكون ضرورية ومتناسبة مع المخاطر المقيَّمة وأن تُطبَّق بطريقة غير تمييزية، وأن تكون محددة التركيز والمدة، وأن تكون متفقة مع التزامات الدول بموجب القانون الدولي لحقوق الإنسان الواجب التطبيق،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى المادة 21 من العهد الدولي الخاص بالحقوق المدنية والسياسية، وإذ يسلم بأن التجمعات السلمية يمكن أن تتم في الهواء الطلق أو في الداخل أو على الإنترنت، أو في الأماكن العامة أو الخاصة، أو في مزيج من هذه الأشكال، ويمكن أن تكون ثابتة أو متنقلة، وأنها يمكن أن تتخذ أشكالاً عديدة، بما فيها الاحتجاجات، </p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى أن الدول تتحمل المسؤولية الرئيسية عن تعزيز وحماية حقوق الإنسان والحريات الأساسية، بما في ذلك في سياق تجمعات من قبيل الاحتجاجات السلمية، وضمان أن تكون التشريعات والسياسات والممارسات الوطنية، وكذلك الإطار الوطني لممارسة الحقوق في حرية التجمع السلمي وحرية التعبير وحرية تكوين الجمعيات، ممتثلة لالتزاماتها وتعهداتها الدولية في مجال حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يقر</span> بأن المشاركة في الاحتجاجات السلمية يمكن أن تكون شكلاً هاماً من أشكال ممارسة الحقوق في حرية التجمع السلمي وحرية التعبير وحرية تكوين الجمعيات، وحرية المشاركة في إدارة الشؤون العامة، </p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ</span> أن الإدارة السليمة للتجمعات أساسية لاحترام حقوق الإنسان وحمايتها قبل التجمع وخلاله وبعده، عندما تكون مرتكزة على تيسيره وتهدف إلى المساهمة في عقده بصورة سلمية وتفادي وقوع إصابات وخسائر في الأرواح في صفوف من يشاركون في هذه الاحتجاجات ومن يراقبونها والموظفين الطبيين والمارة والموظفين المكلفين بمهام إنفاذ القانون،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يقر</span> بأن الاحتجاجات السلمية قد تحدث في جميع المجتمعات، بما في ذلك الاحتجاجات العفوية أو المتزامنة أو غير المصرح بها أو غير المبلّغ عنها أو المقيدة، وأن هذه الاحتجاجات تندرج في نطاق المادة 21 من العهد الدولي الخاص بالحقوق المدنية والسياسية،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن الاحتجاجات السلمية يمكن أن تسهم إسهاماً إيجابياً في السلام المستدام، والمؤسسات الديمقراطية، وفي تطوير النظم الديمقراطية وتعزيزها وكفالة فعاليتها، وفي العمليات الديمقراطية، بما في ذلك الانتخابات والاستفتاءات، وكذلك في سيادة القانون، </p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً </span>بأن الاحتجاجات السلمية قد أدت على مرّ التاريخ دوراً اجتماعياً وسياسياً بنّاءً في تطوير المجتمعات نحو مزيد من العدل والمساواة والمساءلة، وأن هذه الاحتجاجات يمكن أن تواصل مساهمتها بصورة إيجابية في التنمية البشرية، وتطوير العدالة البيئية والعرقية، والسلام والعدالة الانتقالية، وفي التمتع الكامل بالحقوق المدنية والسياسية والاقتصادية والاجتماعية والثقافية،</p>
+      </container>
+      <container name="وإذ يسلم كذلك" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم كذلك</span> بأنه ينبغي النظر إلى الاحتجاجات السلمية على أنها فضاءات يمكن للأفراد والمجتمعات المحلية والجماعات التي تواجه التهميش والتمييز أن يتجمعوا فيها بأمان للتعبير عن آرائهم ووجهات نظرهم والمطالبة بحقوقهم الفردية، وإذ يلاحظ بقلق في الوقت نفسه أن فضاء المجتمع المدني ونضال المواطنين آخذ في التقلص في العديد من أنحاء العالم، وإذ يشدد على ضرورة كفالة وتعزيز مشاركة المجتمع المدني الشاملة للجميع والمتنوعة والمجدية، بما في ذلك في أوقات الأزمات، من دون تمييز من أي نوع،</p>
+      </container>
+      <container name="وإذ يؤكِّد من جديد" eId="container_20">
+          <p xml:space="preserve">	<span class="italic">وإذ يؤكِّد من جديد</span> أن لكل شخص الحق في الحياة والحرية والأمان على شخصه،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد أيضاً" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد أيضاً </span>الحظر المطلق للتعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة في جميع الظروف، بما في ذلك في سياق الاحتجاجات السلمية وحتى عندما لا يبقى التجمع سلمياً،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد كذلك" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد كذلك</span> أن المشاركة في الاحتجاجات العامة والسلمية ينبغي أن تكون طوعية ومن دون أي إكراه تماماً،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى أن الحقوق في حرية التجمع السلمي وحرية التعبير وحرية تكوين الجمعيات حقوق تشمل تنظيم التجمعات ونشر معلومات عنها والمشاركة فيها ومراقبتها ورصدها وتسجيل وقائعها،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> بالتالي على أن الجميع، بمن فيهم الأشخاص الذين يتبنون آراء أو معتقدات تمثل الأقلية أو آراء أو معتقدات معارضة، يجب أن يكونوا قادرين على التعبير عن مظالمهم أو تطلعاتهم بطريقة سلمية، بما في ذلك من خلال الاحتجاجات العامة، من دون خوف من الانتقام أو التعرض للتخويف، أو المضايقة، أو الإيذاء، أو الاعتداء الجنسي، أو الضرب، أو الاعتقال أو الاحتجاز التعسفيين، أو التعذيب، أو القتل أو الاختفاء القسري، أو الخضوع لإجراءات جنائية أو مدنية تعسفية،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">وإذ يساوره بالغ القلق</span> إزاء حالات الإعدام خارج القضاء أو بإجراءات موجزة أو تعسفاً، والاعتقال والاحتجاز التعسفيين، والاختفاء القسري، والتعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، والعنف، بما في ذلك العنف الجنسي والجنساني، التي يتعرض لها الأشخاص الذين يمارسون حقوقهم في حرية التجمع السلمي وحرية التعبير وحرية تكوين الجمعيات في جميع مناطق العالم، بما في ذلك في أوضاع النزاع المسلح والاحتلال،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن النساء والأطفال والشعوب الأصلية والمهاجرين والمنحدرين من أصل أفريقي والأشخاص المنتمين إلى أقليات قومية أو إثنية أو دينية أو لغوية والأشخاص ذوي الإعاقة وغيرهم من الأشخاص المنتمين إلى جماعات تعاني التمييز والتهميش معرضون بوجه خاص لاستخدام الشرطة غير الشرعي أو المفرط للقوة أثناء مشاركتهم في الاحتجاجات،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن المشاركة الكاملة والمجدية والفاعلة للنساء والفتيات في الحياة العامة أمر أساسي لتحقيق المساواة والتنمية المستدامة والسلام والديمقراطية، وأن السياسات والحملات العامة والبرامج التعليمية الفعالة ضرورية لمكافحة الأعراف والمواقف الاجتماعية التمييزية والقوالب النمطية الضارة المتعلقة بأدوار الجنسين وقدراتهما، والتي تثبط المشاركة في الحياة العامة وممارسة الحقوق في حرية التجمع السلمي وحرية الرأي والتعبير وحرية تكوين الجمعيات، كما هو الحال في الاحتجاجات السلمية،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى أنه، على الرغم من أن التّجمع يفهم عموماً على أنه حشد حقيقي من الناس، فإن سبل الحماية التي يضمنها القانون الدولي لحقوق الإنسان، بما في ذلك الحقوق في حرية التجمع السلمي وحرية التعبير وحرية تكوين الجمعيات، تنطبق أيضاً على التفاعلات المشابهة التي تجري عبر الإنترنت،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">وإذ يقر</span> بأن التكنولوجيات الجديدة يمكن أن تكون عوامل مساعدة على ممارسة الحقوق في حرية التجمع السلمي وحرية التعبير وحرية تكوين الجمعيات وحرية المشاركة في تسيير الشؤون العامة من خلال تيسير حشد التجمعات وتنظيمها، وإذ يقر أيضاً بأنها تهيئ المجال لعقد التجمعات على الإنترنت، وقد تيسر وتعزز إشراك ومشاركة الأشخاص المهمشين في كثير من الأحيان،</p>
+      </container>
+      <container name="وإذ يقر أيضاً" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">وإذ يقر أيضاً </span>بأن التكنولوجيات الجديدة يمكن أن تستخدمها أيضاً أجهزة إنفاذ القانون، إذا تم ذلك بطريقة تتوافق مع حقوق الإنسان، لدعم تيسير التجمعات وزيادة شفافية عمليات إنفاذ القانون المتعلقة بالتجمعات والمساءلة بشأنها، بسبل منها حفظ سليم لسجلات جميع القرارات والإجراءات والأوامر التي يتخذها الموظفون المكلفون بإنفاذ القانون على جميع المستويات والأسباب المنطقية التي تستند إليها، </p>
+      </container>
+      <container name="وإذ يشدد" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على أن الاحتجاجات السلمية ومنظميها والمشاركين فيها لا ينبغي أن يُعتبروا تهديداً ولا أن يتعرضوا للوصم، وإذ يدعو بالتالي جميع الدول إلى الدخول في حوار مفتوح وشامل للجميع ومجدي عند التعامل مع الاحتجاجات السلمية وأسبابها،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى أنه يجب على الدول احترام وتيسير التظاهرات السلمية المضادة بوصفها تجمعات قائمة بذاتها، وفي الوقت نفسه منع تعطيل التجمعات التي تعارضها من دون مبرر،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً </span>إلى أن أعمال العنف المعزولة التي ترتكبها أطراف أخرى أثناء احتجاج ما لا تجرّد الأفراد المسالمين من حقوقهم في حرية التجمع السلمي وحرية التعبير وحرية تكوين الجمعيات،</p>
+      </container>
+      <container name="وإذ يضع في اعتباره" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">وإذ يضع في اعتباره</span> أن التنظيم السلمي للتجمعات يمكن أن يُيسَّر على أساس من التواصل والتعاون فيما بين المنظمين والمحتجين والسلطات المحلية والموظفين المكلفين بمهام إنفاذ القانون،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلّم</span> بأن الاحتجاجات السلمية قد تنطوي بطبيعتها على درجة من التعطيل للحياة العادية، مثل حركة السيارات أو الراجلين أو النشاط الاقتصادي، وإذ يهيب بالدول أن تبحث عن حلول لتيسير هذه التجمعات مع الحفاظ في الوقت نفسه على حقوق جميع أصحاب المصلحة الآخرين،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً </span>بأنه يمكن للمؤسسات الوطنية لحقوق الإنسان وممثلي المجتمع المدني، بما في ذلك المدافعون عن حقوق الإنسان والمنظمات غير الحكومية، الاضطلاع بدور مفيد في تيسير الحوار المستمر بين المنظمين، والأفراد المشاركين في الاحتجاجات السلمية، والسلطات المعنية،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى مدونة قواعد السلوك للموظفين المكلفين بإنفاذ القوانين، والمبادئ الأساسية بشأن استخدام القوة والأسلحة النارية من جانب الموظفين المكلفين بإنفاذ القوانين، وإذ يشير أيضاً إلى بروتوكول مينيسوتا بشأن التحقيق في القتل الذي قد يكون غير مشروع،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً </span>إلى <span class="italic">توجيهات حقوق الإنسان الصادرة عن الأمم المتحدة بشأن استخدام أسلحة أقل فتكاً في سياق إنفاذ القانون</span>، التي أصدرتها مفوضية الأمم المتحدة السامية لحقوق الإنسان تكملةً للمبادئ الأساسية بشأن استخدام القوة والأسلحة النارية من جانب الموظفين المكلفين بإنفاذ القوانين، وإذ يشجع جميع الدول أن تطبقها على عملياتها لإنفاذ القوانين فيما يخص التجمعات،</p>
+      </container>
+      <container name="وإذ يشجع" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">وإذ يشجع</span> جميع الدول على أن تستخدم استخداماً مناسباً <span class="italic">الدليل المرجعي المتعلق باستخدام القوة والأسلحة النارية في إنفاذ القانون</span>، الذي نشرته المفوضية السامية ومكتب الأمم المتحدة المعني بالمخدرات والجريمة، وكذلك حزمة التدريب المحدّثة الصادرة عن المفوضية السامية بشأن قانون حقوق الإنسان وإنفاذ القانون،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى أهمية تدريب الموظفين وموظفي الشركات الخاصة الذين يمارسون مهام إنفاذ القانون ويُكلَّفون بتيسير التجمعات التدريب المناسب وتجهيزهم بالمعدات المناسبة وإخضاعهم للمراقبة والمساءلة المناسبتين، وإذ يشدد على أنه ينبغي للسلطات الامتناع، في سياق الاحتجاجات السلمية، عن نشر الجيش أو أي وحدات أو تكتيكات أو معدات من النوع العسكري أو غيرها من الوحدات خارج التسلسل القيادي الرسمي لإنفاذ القانون، وإذ يؤكد من جديد في الوقت نفسه أن الالتزامات والتعهدات الدولية للدولة فيما يتعلق باستخدام القوة في سياق إنفاذ القانون تنطبق أيضاً على هذه الوحدات عندما تؤدي مهام إنفاذ القانون، </p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني يتكاملان ويعزز أحدهما الآخر في حالات النزاع المسلح، بما في ذلك الاحتلال العسكري، وأنه يجب على الدول أن تمتثل لالتزاماتها الواجبة التطبيق بموجب القانون الدولي لحقوق الإنسان أثناء الاحتجاجات السلمية، بما في ذلك عند استخدام القوة والأسلحة النارية،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بالدور البالغ الأهمية الذي يؤديه إنفاذ القانون في احترام الكرامة الإنسانية وحمايتها وصون ومراعاة حقوق الإنسان لجميع الأشخاص، بما في ذلك في سياق تيسير التجمعات، وإذ يشدد على مسؤولية التسلسل القيادي ضمن إنفاذ القانون، في حدود السلطات الممنوحة له، عن منع انتهاكات حقوق الإنسان وحماية حقوق الإنسان، </p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن بالغ القلق</span> إزاء الحالات التي قوبلت فيها الاحتجاجات السلمية بالقمع، بسبل منها استخدام الموظفين المكلفين بإنفاذ القانون غير القانوني و/أو المفرط للقوة، وعسكرة إنفاذ القانون، وسوء استخدام الأسلحة الأقل فتكاً، والاعتقال والاحتجاز التعسفيان، والمحاكمات الجائرة، والتعذيب أو غيره من ضروب المعاملة القاسية أو اللاإنسانية أو المهينة، والعنف، بما في ذلك العنف الجنسي والجنساني، والاختفاء القسري، والهجمات على المحتجين والمارة، وكذلك على المدافعين عن حقوق الإنسان، والمحامين، والصحافيين، وغيرهم من العاملين في وسائط الإعلام والموظفين الطبيين، والقيود غير المبررة، مثل عمليات إغلاق الإنترنت، </p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_44">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه</span> إزاء المراقبة التعسفية وغير القانونية، سواء في الأماكن المادية أم على شبكة الإنترنت، للأفراد المشاركين في الاحتجاجات السلمية، بما في ذلك من خلال استخدام الدوائر التلفزيونية المغلقة ومركبات المراقبة الجوية، وكذلك من خلال استخدام أدوات التتبع الرقمية الجديدة والناشئة، مثل التكنولوجيات البيومترية، بما في ذلك تكنولوجيات التعرف على سمات الوجه وعلى الانفعالات، وأجهزة التقاط رقم التعريف العالمي للمشتركين في اتصالات الهاتف المحمول (”ستينغراي“)،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_45" class="SingleTxtGA">
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">وإذ يُعرب عن قلقه أيضاً </span>إزاء تجريم ومقاضاة أفراد وجماعات في جميع أنحاء العالم، بما في ذلك انتهاك الأصول القانونية وضمانات المحاكمة العادلة أو المحاكمات في محاكم عسكرية، لمجرد تنظيمهم احتجاجات سلمية أو مشاركتهم فيها أو مراقبتهم أو رصدهم لها أو تسجيلهم لوقائعها، أو لتقديمهم دعماً طبياً للمحتجين أو دفاعهم عن حقوقهم،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">يشير</span> إلى أن الدول مسؤولة، بما في ذلك في سياق الاحتجاجات السلمية، عن تعزيز حقوق الإنسان وحمايتها ومنع انتهاكات وتجاوزات حقوق الإنسان، بما فيها الإعدام خارج نطاق القضاء أو بإجراءات موجزة أو تعسفاً، والاعتقال والاحتجاز التعسفيان، وحالات الاختفاء القسري، والتعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، ويهيب بالدول أن تتجنب إساءة استخدام الإجراءات الجنائية والمدنية أو التهديد بمثل هذه الأفعال في جميع الأوقات؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بجميع الدول أن تهيئ بيئة آمنة وتمكينية للأفراد والجماعات لممارسة حقوقهم في حرية التجمع السلمي وحرية التعبير وحرية تكوين الجمعيات، سواء على الإنترنت أم خارجها، بما في ذلك عن طريق ضمان أن تتوافق التشريعات والإجراءات الداخلية المتعلقة بالحقوق في حرية التجمع السلمي وفي حرية التعبير وحرية تكوين الجمعيات على جميع المستويات مع التزاماتها وتعهداتها الدولية في مجال حقوق الإنسان، لإرساء أساس واضح وصريح يدعم ممارسة هذه الحقوق، وضمان أن تُنفذ هذه التشريعات والإجراءات تنفيذاً فعالاً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تضمن توافق التشريعات المتعلقة بالأمن القومي والنظام العام والصحة العامة مع التزاماتها بموجب القانون الدولي، ولا سيما القانون الدولي لحقوق الإنسان، من أجل الحيلولة دون تجريم أو تقييد أو حظر الاحتجاجات السلمية من دون موجب؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول <span class="italic">أيضاً </span>أن تكف عن استخدام أي خطاب يصم المحتجين، وتيسر إجراء حوار معهم بطريقة تشمل الجميع عند البحث عن حلول لأزمة ما ومعالجة أسبابها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على ضرورة التعامل مع إدارة التجمعات، بما في ذلك الاحتجاجات السلمية، بطريقة تكفل المساهمة في تنظيمها السلمي، لتفادي الاستخدام غير القانوني أو المفرط للقوة وتجنب وقوع الإصابات، بما في ذلك الإصابات المؤدية إلى إعاقات وفقدان أرواح في صفوف المحتجين، والأشخاص الذين يتولون مراقبة هذه التجمعات ورصدها وتسجيل وقائعها، والمارة، والموظفين الطبيين، والموظفين المكلفين بمهام إنفاذ القانون، وكذلك تجنب أي انتهاك أو تجاوز لحقوق الإنسان، وكفالة وجود مساءلة عن مثل هذه الانتهاكات والتجاوزات، وإتاحة إمكانية الوصول إلى سبل الانتصاف والجبر للضحايا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtGA">
+        <num>6-</num>
+        <list eId="para_61_list">
+          <intro eId="para_61_list_intro">
+            <p xml:space="preserve">	<span class="italic">يشجع</span> جميع الدول على إيلاء الاعتبار الواجب لمجموعة التوصيات العملية لإدارة التجمعات إدارة سليمة بالاستناد إلى أفضل الممارسات والدروس المستفادة<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/31/66">A/HRC/31/66</a>.</p></authorialNote><sup>)</sup>، التي توفر ما يلي: </p>
+          </intro>
+          <point eId="para_61_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_61_list_point_أ_content">
+              <p xml:space="preserve">	تقييماً لحقوق الإنسان المعنية قبل وأثناء وبعد التجمع، بما في ذلك الاحتجاجات السلمية، بما يشمل الحقوق في حريات التجمع السلمي والتعبير وتكوين الجمعيات والدين أو المعتقد، والحق في المشاركة في إدارة الشؤون العامة، وحق الفرد في الحياة والحرية والأمان على شخصه، والحق في عدم التعرض للتعذيب والمعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، وكذلك الحق في سبيل انتصاف فعال من جميع انتهاكات حقوق الإنسان، واحترام كرامة الإنسان وسلامته الجسدية وخصوصيته؛ </p>
+            </content>
+          </point>
+          <point eId="para_61_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_61_list_point_ب_content">
+              <p xml:space="preserve">	أداة للدول بشأن كيفية تنفيذ التزاماتها وتعهداتها، بما في ذلك كيفية تفعيل هذه التعهدات والالتزامات في قوانينها وإجراءاتها وممارساتها الداخلية على جميع المستويات، وتعزيز حقوق الإنسان وحمايتها في سياق التجمعات، بما في ذلك الاحتجاجات السلمية؛ </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً مع التقدير</span> بمجموعة الأدوات التقنية والعملية المحددة القائمة على المعايير وأفضل الممارسات الدولية التي وضعتها المقررة الخاصة المعنية بالحق في حرية التجمع السلمي والحق في حرية تكوين الجمعيات، بالتعاون مع مكتب الأمم المتحدة المعني بالمخدرات والجريمة ومفوضية الأمم المتحدة السامية لحقوق الإنسان، لمساعدة الموظفين المكلفين بإنفاذ القانون في تعزيز وحماية حقوق الإنسان في سياق الاحتجاجات السلمية، تطبيقاً لقرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/50/21">50/21</a>، والبروتوكول النموذجي للموظفين المكلفين بإنفاذ القانون لأجل تعزيز وحماية حقوق الإنسان في سياق الاحتجاجات السلمية<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	انظر <a href="https://undocs.org/ar/A/HRC/55/60">A/HRC/55/60</a>.</p></authorialNote><sup>)</sup> ومكوناته الثلاثة التكميلية، التي تضم قوائم مرجعية عملية المنحى، وإرشادات بشأن استخدام الموظفين المكلفين بإنفاذ القانون للتكنولوجيات الرقمية في سياق الاحتجاجات السلمية، وموجزاً لكتيب عن تيسير الاحتجاجات السلمية للموظفين المكلفين بإنفاذ القانون؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> جميع الدول على مراعاة البروتوكول النموذجي الذي يقدم توصيات عملية تهدف إلى مساعدتها ووكالاتها وموظفيها المكلفين بإنفاذ القانون في تعزيز القدرات المؤسسية والقواعد والبروتوكولات والاستراتيجيات والإجراءات المطلوبة والوفاء بالتزاماتها الدولية في مجال حقوق الإنسان، وتحديداً فيما يتعلق باحترام حقوق الإنسان وتعزيزها وحمايتها عند تيسير الاحتجاجات السلمية، ويدعو الدول إلى تنقيح أو اعتماد بروتوكولات لإنفاذ القانون، حسب الاقتضاء، من أجل تيسير الاحتجاجات السلمية بما يتوافق مع حقوق الإنسان، تماشياً مع القانون الدولي لحقوق الإنسان والمعايير وأفضل الممارسات الدولية لحقوق الإنسان، وذلك من أجل تحسين المساءلة وحماية حقوق الإنسان في سياق الاحتجاجات؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تيسر الاحتجاجات السلمية من خلال تمكين المحتجين، قدر الإمكان، من الوصول إلى الأماكن العامة ليكونوا على مرأى ومسمع من الجمهور الذي يعتزمون استهدافه، ومن خلال حمايتهم، من دون تمييز، عند الضرورة، من أي شكل من أشكال التهديد أو المضايقة، ويؤكد دور السلطات المحلية في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد</span> الدور الهام الذي يمكن لقنوات التواصل بين المنظمين والمحتجين والسلطات المحلية والموظفين المكلفين بمهام إنفاذ القانون أن تؤديه في سياق الإدارة السليمة للتجمعات، مثل الاحتجاجات السلمية، ويهيب بالدول أن تنشئ قنوات مناسبة من هذا القبيل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على إيلاء اهتمام خاص لسلامة وحماية النساء والفتيات، وكذا النساء والفتيات المدافعات عن حقوق الإنسان، في سياق الاحتجاجات السلمية، ووضع نظم لمنع أعمال التخويف والمضايقة والعنف والتصدي لها، بما في ذلك العنف الجنسي والعنف الجنساني، واعتماد بروتوكولات بشأن ضبط الأمن المراعي للمنظور الجنساني في الاحتجاجات وضمان التدريب المناسب والمستمر للموظفين المكلفين بإنفاذ القانون؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> أن على الدول اتخاذ جميع التدابير المناسبة من أجل سلامة الأطفال وحمايتهم، بما في ذلك أثناء ممارسة حقوقهم في حرية التجمع السلمي وحرية التعبير وحرية تكوين الجمعيات، بما في ذلك في سياق الاحتجاجات السلمية، ويشدد على الحاجة إلى دمج المراعاة الكاملة لحقوق الطفل في توجيهات إنفاذ القانون؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بجميع الدول أن تولي اهتماماً خاصاً لسلامة وحماية من يقومون برصد الاحتجاجات ومراقبتها وتسجيل وقائعها، بمن فيهم المدافعون عن حقوق الإنسان، والمحامون، والصحافيون، وغيرهم من العاملين في وسائط الإعلام، مع مراعاة خصوصية دورهم وتعرضهم للخطر وضعفهم، حتى عندما يعتبر الاحتجاج غير قانوني أو عندما يتم تفريقه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تتخذ تدابير قبل الاحتجاجات وأثناءها وبعدها لحماية جميع الأفراد، وأن تولي اهتماماً خاصاً لمن ينتمون إلى جماعات معرضة بشكل خاص للعنف، بما في ذلك استخدام موظفي إنفاذ القانون غير القانوني أو المفرط للقوة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_151__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بجميع الدول أن تمتنع عن اتخاذ تدابير تنتهك حقوق الإنسان وتوقفها، بما في ذلك ممارسات من قبيل تعطيل الاتصالات من خلال قطع الإنترنت، أو التدابير التي تحجب أو تعطل مواقع شبكية إعلامية أو شبكات التواصل الاجتماعي بشكل غير قانوني أو تعسفي، وغير ذلك من القيود الواسعة النطاق المفروضة على الوصول إلى الإنترنت، أو على نشر المعلومات على الإنترنت أو من تجمع في فضاءات الإنترنت، أو المراقبة على أساس الانتماء إلى مجموعة ما واستخدام برامجيات التجسس المستهدفة في سياق الاحتجاجات، لأن هذه الإجراءات قد تكون منافية للقانون الدولي لحقوق الإنسان، علماً بأنه لا ينبغي النظر إلى الاحتجاجات على أنها فرص للمراقبة أو السعي إلى تحقيق أهداف أوسع لإنفاذ القانون باستخدام التكنولوجيات الرقمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxtGA">
+        <num>16-</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> جميع الدول على أن تتجنب استخدام القوة أثناء الاحتجاجات السلمية، وأن تعطي الأولوية لتكتيكات نزع فتيل التصعيد، وأن تكفل - عندما يكون اللجوء إلى القوة ضرورة لا غنى عنها - عدم تعرض أي شخص للاستخدام المفرط أو العشوائي للقوة، وأن تكفل أيضاً بأسرع ما يمكن تقديم المساعدة والمعونة الطبية إلى أي شخص مصاب أو متضرر؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_182" class="SingleTxtGA">
+        <num>17-</num>
+        <content eId="para_182__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بجميع الدول أن تكفل، على سبيل الأولوية، توافق تشريعاتها وإجراءاتها الداخلية مع التزاماتها وتعهداتها الدولية فيما يتعلق باستخدام القوة في سياق إنفاذ القانون وتنفيذ الموظفين المكلفين بمهام إنفاذ القانون الفعال لها، ولا سيما المبادئ المنطبقة لإنفاذ القانون، مثل مبدأي الضرورة والتناسب، علماً بأنه لا يجوز استخدام القوة الفتاكة إلا كملجأ أخير من أجل الحماية من تهديد وشيك للحياة، ولا يجوز استخدامها لمجرد تفريق تجمُّع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="SingleTxtGA">
+        <num>18-</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد</span> أنه لا يوجد ما يمكن أن يبرر على الإطلاق الاستخدام العشوائي للقوة الفتاكة ضد حشد من الناس، وهو تصرف غير شرعي بموجب القانون الدولي لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxtGA">
+        <num>19-</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تحقق في أي وفيات أو إصابات خطيرة، بما يشمل الإصابات المؤدية إلى إعاقات، المتكبدة أثناء الاحتجاجات، وبما يشمل تلك الناجمة عن طلقات الأسلحة النارية أو عن استخدام أسلحة أقل فتكاً من جانب الموظفين المكلفين بمهام إنفاذ القانون أو أفراد تابعين لجهة خاصة تتصرف باسم الدولة، ويشدد على الحاجة إلى ضمان المساءلة الكاملة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_236" class="SingleTxtGA">
+        <num>20-</num>
+        <content eId="para_236__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول <span class="italic">أيضاً </span>أن تضمن توفير تدريب أولي ومستمر مناسب موجه نحو حقوق الإنسان ومراعٍ للمنظور الجنساني والإعاقة والسن لفائدة الموظفين الذين يمارسون مهام إنفاذ القانون، وعند الاقتضاء، تعزيز هذا التدريب المناسب لموظفي القطاع الخاص الذين يتصرفون باسم الدولة من أجل التيسير الفعال للاحتجاجات، وأن يكون متاحاً للجميع، بمن فيهم الضباط القادة، ويشدد على تعلم مهارات عملية وإعطاء الأولوية للتيسير والتواصل والتفاوض ونزع فتيل التصعيد وتقنيات تيسير الحشود المتوافقة مع حقوق الإنسان التي تشمل دورات مصممة خصيصاً لمنع العنف الجنسي والجنساني ودورات بشأن الاحتياجات المحددة للأفراد والجماعات الضعيفة؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_256" class="SingleTxtGA">
+        <num>21-</num>
+        <content eId="para_256__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول على إتاحة معدات الوقاية المناسبة والأسلحة الأقل فتكاً لموظفيها الذين يمارسون مهام إنفاذ القانون من أجل تقليل حاجتهم إلى استخدام أي سلاح كان، مع مواصلة الجهود الرامية إلى وضع أنظمة وإعداد بروتوكولات للتدريب على الأسلحة الأقل فتكاً واستخدامها، آخذة في اعتبارها أنه يمكن حتى للأسلحة الأقل فتكاً أن تتسبب في خطر على الحياة أو في إصابة خطيرة أو في التعذيب أو سوء المعاملة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxtGA">
+        <num>22-</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على أهمية إجراء اختبار شامل ومستقل للأسلحة الأقل فتكاً قبل شرائها ونشرها لتحديد درجة فتكها ومدى ما قد تسببه من إصابات، وأهمية رصد التدريب والاستخدام المناسبين لهذه الأسلحة، وتعزيز المساءلة في جميع المراحل؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_299" class="SingleTxtGA">
+        <num>23-</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve">	يهيب بجميع الدول أن تتخذ، بما يتماشى مع الحظر المطلق للتعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، جميع التدابير التشريعية والإدارية والقضائية وغيرها من التدابير المناسبة والفعالة لمنع وحظر إنتاج وتجارة واستخدام الأدوات والمعدات التي لا يمكن استخدامها عملياً إلا للتعذيب أو غيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، بما في ذلك في سياق الاحتجاجات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_322" class="SingleTxtGA">
+        <num>24-</num>
+        <content eId="para_322__content">
+          <p xml:space="preserve">	<span class="italic">يشدد </span>على أهمية التعاون الدولي لدعم الجهود الوطنية الرامية إلى تعزيز وحماية حقوق الإنسان والحريات الأساسية في سياق التجمعات، بما في ذلك الاحتجاجات السلمية، من أجل رفع قدرات وكالات إنفاذ القانون على التعامل مع هذه التجمعات بطريقة تتوافق مع القانون والمعايير الدولية لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="SingleTxtGA">
+        <num>25-</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تمتنع عن استخدام التكنولوجيا الرقمية لإسكات الأفراد أو الجماعات أو مراقبتهم أو مضايقتهم بصورة تعسفية أو غير قانونية لمجرد تنظيمهم احتجاجات سلمية أو مشاركتهم فيها أو مراقبتهم أو رصدهم لها أو تسجيلهم لوقائعها، أو عن الأمر بالإغلاق الشامل للإنترنت وحجب المواقع الشبكية والمنصات، بما في ذلك أثناء الاحتجاجات أو اللحظات السياسية الهامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_371" class="SingleTxtGA">
+        <num>26-</num>
+        <content eId="para_371__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد</span> أنه لا ينبغي استخدام التكنولوجيات الرقمية، قبل الاحتجاجات أو أثناءها أو بعدها، لأغراض تصنيف الأفراد أو توصيفهم أو تحديد هويتهم عن بعد، ولا سيما المنتمين منهم للفئات الضعيفة، بطريقة لا تتفق مع القانون الدولي لحقوق الإنسان ومبادئ الشرعية والضرورة والتناسب، بما في ذلك باستخدام الوسائل البيومترية بصورة غير قانونية وتعسفية، بالنظر إلى أن تلك التكنولوجيات يمكن أن تكون تمييزية وتتنافى مع واجب الموظفين المكلفين بإنفاذ القانون بأن ييسروا الاحتجاجات السلمية، ويحث الدول على الامتناع عن استخدام هذه الوسائل لتحديد هوية المشاركين سلمياً في تجمع ما؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_397" class="SingleTxtGA">
+        <num>27-</num>
+        <content eId="para_397__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تمتنع، وفقاً للإجراءات الوطنية والقواعد والمعايير الدولية المنطبقة، عن تصدير أو بيع أو نقل سلع وتكنولوجيات المراقبة والأسلحة الأقل فتكاً عندما ترى أن هناك أسباباً معقولة للاشتباه في أن هذه السلع أو التكنولوجيات أو الأسلحة قد تستخدم لارتكاب انتهاكات أو تجاوزات حقوق الإنسان، بما في ذلك في سياق التجمعات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_424" class="SingleTxtGA">
+        <num>28-</num>
+        <content eId="para_424__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول <span class="italic">أيضاً </span>أن تمتنع عن فرض أي قيود لا مبرر لها على الحلول التقنية المستخدمة لتأمين وحماية خصوصية الاتصالات الرقمية، بما في ذلك تدابير التشفير واستخدام الأسماء المستعارة وإغفال الهوية على الإنترنت، بالنظر إلى أن هذه التدابير مهمة لضمان التمتع بحقوق الإنسان، لا سيما الحق في الخصوصية، في سياق التجمعات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_452" class="SingleTxtGA">
+        <num>29-</num>
+        <content eId="para_452__content">
+          <p xml:space="preserve">	<span class="italic">يسلم</span> بأهمية توثيق ورصد انتهاكات وتجاوزات حقوق الإنسان المرتكبة في سياق الاحتجاجات السلمية، بما في ذلك تسجيل الخسائر البشرية، وبالدور الذي يمكن أن تلعبه في هذا الصدد المؤسسات الوطنية لحقوق الإنسان والمجتمع المدني، بما في ذلك المنظمات غير الحكومية، والصحافيون وغيرهم من العاملين في وسائط الإعلام، ومستخدمو الإنترنت، والمدافعون عن حقوق الإنسان، والمحامون؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_481" class="SingleTxtGA">
+        <num>30-</num>
+        <content eId="para_481__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على ضمان المساءلة عن انتهاكات وتجاوزات حقوق الإنسان من خلال الآليات القضائية أو غيرها من الآليات الوطنية، استناداً إلى القانون ووفقاً لالتزاماتها وتعهداتها الدولية في مجال حقوق الإنسان، وإتاحة إمكانية وصول جميع الضحايا إلى سبل الانتصاف والجبر، بما في ذلك في سياق الاحتجاجات السلمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_511" class="SingleTxtGA">
+        <num>31-</num>
+        <content eId="para_511__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول على التماس المساعدة التقنية ذات الصلة لتيسير التجمعات، حسب الاقتضاء، بما في ذلك من مفوضية الأمم المتحدة السامية لحقوق الإنسان ومكتب الأمم المتحدة المعني بالمخدرات والجريمة والوكالات المتخصصة الأخرى، ومما له صلة من الإجراءات الخاصة التابعة لمجلس حقوق الإنسان ومن الآليات الإقليمية لحقوق الإنسان؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_542" class="SingleTxtGA">
+        <num>32-</num>
+        <content eId="para_542__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> جميع الدول إلى النظر في أن تقدم، عند الاقتضاء، أثناء الاستعراض الدوري الشامل توصيات إلى الدول قيد الاستعراض بشأن تعزيز وحماية حقوق الإنسان في سياق التجمعات، بما في ذلك ما يتعلق بتيسير تجمعات من قبيل الاحتجاجات السلمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_574" class="SingleTxtGA">
+        <num>33-</num>
+        <content eId="para_574__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المقررة الخاصة المعنية بالحق في حرية التجمع السلمي والحق في حرية تكوين الجمعيات أن تعقد، بالتعاون مع المفوضية السامية ومكتب الأمم المتحدة المعني بالمخدرات والجريمة، قبل الدورة الثانية والستين لمجلس حقوق الإنسان، مشاورة عالمية بشأن دور مختلف أصحاب المصلحة في تعزيز تطبيق مجموعة الأدوات التقنية والعملية التي وُضعت عملاً بقرار المجلس <a href="https://undocs.org/ar/A/HRC/RES/50/21">50/21</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_607" class="SingleTxtGA">
+        <num>34-</num>
+        <content eId="para_607__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المفوضية السامية أن تقوم، بالتعاون مع المقررة الخاصة المعنية بالحق في حرية التجمع السلمي والحق في حرية تكوين الجمعيات ومكتب الأمم المتحدة المعني بالمخدرات والجريمة، بدعم التطبيق القطري لمجموعة الأدوات العملية للموظفين المكلفين بإنفاذ القانون، عملاً بقرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/50/21">50/21</a>، من خلال حلقات عمل قطرية للتعاون التقني ومتابعتها في كل منطقة، على أن تُعقد بالاتفاق مع بلد، بحلول الدورة الخامسة والستين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_641" class="SingleTxtGA">
+        <num>35-</num>
+        <content eId="para_641__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> مواصلة نظره في هذه المسألة.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="35" refersTo="#adoptionMeeting">الجلسة 35</location>
+          <eol />
+          <docDate date="2024-07-11" refersTo="#adoptionDate">11 تموز/يوليه 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد من دون تصويت].</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
