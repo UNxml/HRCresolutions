@@ -1,0 +1,634 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-10/56-1/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-10/56-1/"></FRBRuri>
+          <FRBRdate date="2024-07-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-10/56-1/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-10/56-1/ara@/"></FRBRuri>
+          <FRBRdate date="2024-07-16" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-10/56-1/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-10/56-1/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Independent Investigative Mechanism for Myanmar" showAs="UN. Independent Investigative Mechanism for Myanmar" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Human Rights Council. Independent International Fact-Finding Mission on Human Rights in Myanmar" showAs="UN. Human Rights Council. Independent International Fact-Finding Mission on Human Rights in Myanmar" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MUSLIMS" href="http://metadata.un.org/thesaurus/1004292" showAs="MUSLIMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINORITIES" href="http://metadata.un.org/thesaurus/1004179" showAs="MINORITIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MYANMAR" href="http://metadata.un.org/thesaurus/1004297" showAs="MYANMAR" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISPLACED PERSONS" href="http://metadata.un.org/thesaurus/1001706" showAs="DISPLACED PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FINANCING" href="http://metadata.un.org/thesaurus/1002343" showAs="FINANCING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="2" showAs="Annual report of the United Nations High Commissioner for Human Rights and reports of the Office of the High Commissioner and the Secretary-General." dictionary="A/HRC/56/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-07-09" outcome="draftResolution" as="A/HRC/56/L.18/Rev.1" by="Pakistan" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-07-16" outcome="recommendedForAdoption" by="" />
+        <step date="2024-07-16" outcome="adopted" as="Adopted without vote, 34th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/56/1</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-16" class="rightSmall" refersTo="#dateOfIssuance">16 July 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="56" eId="coverPage_1__session_1">الدورة السادسة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-06-18" refersTo="#startDate">18 حزيران</date>
+          <date date="2024-07-12" refersTo="#endDate">12 تموز 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="2" name="agenda item">البند 2 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">التقرير السنوي لمفوض الأمم المتحدة السامي لحقوق الإنسان وتقارير المفوضية السامية والأمين العام</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 10 تموز/يوليه 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>56/1</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	حالة حقوق الإنسان لمسلمي الروهينغيا وغيرهم من الأقليات في ميانمار</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعيد تأكيد </span>الإعلان العالمي لحقوق الإنسان، وإذ يشير إلى العهد الدولي الخاص بالحقوق المدنية والسياسية، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، واتفاقية حقوق الطفل، واتفاقية القضاء على جميع أشكال التمييز ضد المرأة، والاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري، واتفاقية حقوق الأشخاص ذوي الإعاقة، وغير ذلك من أحكام القانون الدولي لحقوق الإنسان ذات الصلة،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى قرارات الجمعية العامة ومجلس حقوق الإنسان ذات الصلة، وآخرها قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/78/219">78/219</a> المؤرخ 19 كانون الأول/ديسمبر 2023، وقرارات المجلس <a href="https://undocs.org/ar/A/HRC/RES/34/22">34/22</a> المؤرخ 24 آذار/ مارس 2017، و<a href="https://undocs.org/ar/A/HRC/RES/S-27/1">دإ-27/1</a> المؤرخ 5 كانون الأول/ديسمبر 2017، و<a href="https://undocs.org/ar/A/HRC/RES/37/32">37/32</a> المؤرخ 23 آذار/مارس 2018، و<a href="https://undocs.org/ar/A/HRC/RES/39/2">39/2</a> المؤرخ 27 أيلول/سبتمبر 2018، و<a href="https://undocs.org/ar/A/HRC/RES/40/29">40/29</a> المؤرخ 22 آذار/مارس 2019، و<a href="https://undocs.org/ar/A/HRC/RES/42/3">42/3</a> المؤرخ 26 أيلول/سبتمبر 2019، و<a href="https://undocs.org/ar/A/HRC/RES/43/26">43/26</a> المؤرخ 22 حزيران/يونيه 2020، و<a href="https://undocs.org/ar/A/HRC/RES/46/21">46/21</a> المؤرخ 24 آذار/مارس 2021، و<a href="https://undocs.org/ar/A/HRC/RES/47/1">47/1</a> المؤرخ 12 تموز/يوليه 2021، و<a href="https://undocs.org/ar/A/HRC/RES/49/23">49/23</a> المؤرخ 1 نيسان/أبريل 2022، و<a href="https://undocs.org/ar/A/HRC/RES/50/3">50/3</a> المؤرخ 7 تموز/ يوليه 2022، و<a href="https://undocs.org/ar/A/HRC/RES/52/31">52/31</a> المؤرخ 4 نيسان/أبريل 2023، و<a href="https://undocs.org/ar/A/HRC/RES/53/26">53/26</a> المؤرخ 14 تموز/يوليه 2023 و<a href="https://undocs.org/ar/A/HRC/RES/55/20">55/20</a> المؤرخ 4 نيسان/أبريل 2024، ومقرر المجلس <a href="https://undocs.org/ar/A/HRC/DEC/36/115">36/115</a> المؤرخ 29 أيلول/سبتمبر 2017،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> أيضاً إلى تقرير مفوضة الأمم المتحدة السامية لحقوق الإنسان عن الأسباب الجذرية لانتهاكات وتجاوزات حقوق الإنسان التي يواجهها الروهينغيا وغيرهم من الأقليات في ميانمار، المقدم إلى مجلس حقوق الإنسان في دورته الثالثة والأربعين<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/43/18">A/HRC/43/18</a>.</p></authorialNote><sup>)</sup>، وتقريرها عن تنفيذ توصيات بعثة تقصي الحقائق المستقلة المعنية بميانمار، بما في ذلك توصيات المساءلة، وعن التقدم المحرز في حالة حقوق الإنسان في ميانمار، بما في ذلك حقوق مسلمي الروهينغيا وغيرهم من الأقليات، المقدم إلى المجلس في دورته الخامسة والأربعين<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/45/5">A/HRC/45/5</a>.</p></authorialNote><sup>)</sup>، وإذ يعيد تأكيد الحاجة الملحة إلى تنفيذ التوصيات الواردة في كلا التقريرين تنفيذاً كاملاً،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ</span> عمل المقرر الخاص المعني بحالة حقوق الإنسان في ميانمار وتقاريره، وإذ يأسف بشدة في الوقت نفسه لاستمرار عدم تعاون حكومة ميانمار مع المكلف بالولاية، ورفض دخوله إلى ميانمار منذ كانون الأول/ديسمبر 2017، وإذ يحث حكومة ميانمار على التعاون الكامل مع المقرر الخاص،</p>
+      </container>
+      <container name="وإذ يلاحظ مع التقدير" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ مع التقدير</span> العمل الذي قام به المبعوثون الخاصون المتعاقبون للأمين العام المعنيون بميانمار، وفي هذا الصدد، تعيين المبعوثة الخاصة الجديدة، وإذ يشجعها على المشاركة والحوار الشامل مع جميع أصحاب المصلحة المعنيين والسكان المتضررين وتعاونها مع المبعوث الخاص لرئيس رابطة أمم جنوب شرق آسيا المعني بميانمار، وإذ يحث ميانمار على التعاون التام مع المبعوثة الخاصة،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> بالأعمال الجارية لآلية التحقيق المستقلة لميانمار التي أنشأها مجلس حقوق الإنسان في قراره <a href="https://undocs.org/ar/A/HRC/RES/39/2">39/2</a> من أجل جمع الأدلة على أخطر الجرائم الدولية وانتهاكات القانون الدولي، بما في ذلك القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان التي ارتكبتها ميانمار منذ عام 2011 وتنسيق هذه الأدلة وحفظها وتحليلها، وبتقارير الآلية بما فيها تقريرها الخامس المقدم إلى مجلس حقوق الإنسان<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/54/19">A/HRC/54/19</a>.</p></authorialNote><sup>)</sup>، وإذ يعرب في الوقت نفسه عن أسفه لاستمرار انعدام فرص الوصول المتاحة للآلية وعدم التعاون معها،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه</span> إزاء النتائج التي توصلت إليها الآلية المستقلة لميانمار بأن حملة منسقة ومنظمة لخطاب الكراهية على فيسبوك من قبل القوات المسلحة في ميانمار وأطراف أخرى ضد مسلمي الروهينغيا ساعدت في تأجيج العنف الجماعي ومن ثم الهجرة الجماعية للروهينغيا في عام 2017، معربًا عن قلقه أيضًا من أن تلك الحملة على وسائل التواصل الاجتماعي، ولا سيما فيسبوك، مستمرة بلا هوادة، ومدينًا جميع حالات خطاب الكراهية، ولا سيما ضد الروهينغيا،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه العميق" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه العميق</span> إزاء تصاعد المعلومات المضللة والتضليل الإعلامي وخطاب الكراهية ضد مسلمي الروهينغيا والأقليات الأخرى، بطرق منها استخدام التقنيات الناشئة مثل الذكاء الاصطناعي، وإذ يدرك العواقب العامة والإنسانية الوخيمة على السكان المتضررين والعاملين في المجال الإنساني،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى العمل المهم الذي اضطلعت به البعثة الدولية المستقلة لتقصي الحقائق في ميانمار وإلى تقاريرها، بما في ذلك تقريرها النهائي<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/42/50">A/HRC/42/50</a>.</p></authorialNote><sup>)</sup> والورقات المتعلقة بالمصالح الاقتصادية لقوات ميانمار المسلحة وبالعنف الجنسي والجنساني في ميانمار وتأثير النزاعات الإثنية من منظور نوع الجنس<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">()	متاح على الرابط التالي: <a href="https://www.ohchr.org/EN/HRBodies/HRC/RegularSessions/session42/Pages/ListReports.aspx">www.ohchr.org/EN/HRBodies/HRC/RegularSessions/session42/Pages/ListReports.aspx</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يثير جزعه" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يثير جزعه</span> ما توصلت إليه البعثة الدولية المستقلة لتقصي الحقائق في ميانمار من أدلة على الانتهاكات والتجاوزات الجسيمة لحقوق الإنسان التي عانى منها مسلمو الروهينغيا والأقليات الأخرى، والتي ارتكبتها قوات الأمن والقوات المسلحة في ميانمار، والتي ترقى بلا شك، وفقاً لبعثة تقصي الحقائق، إلى أشد الجرائم خطورة بموجب القانون الدولي، وإذ يعرب عن بالغ قلقه إزاء عدم إحراز تقدم في تنفيذ توصيات بعثة تقصي الحقائق بإجراء تحقيقات سريعة وفعالة وشاملة ومستقلة ونزيهة ومحاسبة الجناة على الجرائم المرتكبة في جميع أنحاء ميانمار، وإذ يأسف بشدة لعدم تعاون ميانمار مع بعثة تقصي الحقائق، </p>
+      </container>
+      <container name="وإذ يدين بشدة" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">وإذ يدين بشدة</span> الانتهاكات الجسيمة والتجاوزات الخطيرة لحقوق الإنسان التي ارتكبتها قوات الأمن والقوات المسلحة لميانمار في حق مسلمي الروهينغيا وغيرهم من الأقليات، كما يتضح من النتائج التي توصلت إليها البعثة الدولية المستقلة لتقصي الحقائق في ميانمار، وإذ يأسف لعدم إحراز تقدم ملموس في تهيئة الظروف المواتية في ميانمار للعودة الطوعية والآمنة والكريمة والمستدامة لمسلمي الروهينغيا النازحين قسراً من بنغلاديش إلى ميانمار،</p>
+      </container>
+      <container name="وإذ يكرر الإعراب عن بالغ قلقه" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يكرر الإعراب عن بالغ قلقه</span> إزاء ما يتعرض له مسلمو الروهينغيا وغيرهم من الأقليات باستمرار من عنف إضافة إلى انتهاكات وتجاوزات لحقوق الإنسان الخاصة بهم، واستمرار النزوح القسري للمدنيين، بمن فيهم مسلمو الروهينغيا وغيرهم من الأقليات العرقية، الأمر الذي ما فتئ يطرح تحديات أمام تهيئة الظروف المواتية لعودة جميع اللاجئين والنازحين قسراً، بمن فيهم مسلمو الروهينغيا والأقليات الأخرى، إلى ميانمار عودةً طوعية وآمنة ومستدامة تحفظ كرامتهم،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه</span> إزاء ما تطرحه التطورات الأخيرة الناشئة عن إعلان جيش ميانمار حالة الطوارئ وقرار تمديدها لفترات متتالية من تحديات خطيرة أمام العودة الطوعية والآمنة والكريمة والمستدامة لجميع الأشخاص النازحين قسراً، بمن فيهم المسلمون الروهينغيا وجميع النازحين داخلياً، بمن فيهم النازحون منذ 1 شباط/فبراير 2021، وإذ يشدد في هذا الصدد على ضرورة معالجة الأسباب الجذرية للأزمة في ولاية راخين، وإذ يعيد تأكيد ضرورة التوقف فوراً عن استخدام القوة العسكرية لمنع مزيد من النزوح وانتهاكات حقوق الإنسان في أوساط المدنيين، بمن فيهم مسلمو الروهينغيا والأقليات الأخرى، داخلياً وعبر الحدود،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه العميق" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه العميق</span> إزاء استئناف حلقات النزاع في ولاية راخين وإزاء التقارير الأخيرة التي تفيد بتزايد الأعمال العدائية وممارسات العنف ضد الروهينغيا، وحرق قراهم، وتدمير الممتلكات في بلدة بوثيداونغ في ولاية راخين، مما أدى إلى ما أفادت به التقارير من وفيات وإصابات ونزوح داخلي قسري للآلاف من مسلمي الروهينغيا والأقليات الأخرى، وهو ما فاقم حالة حقوق الإنسان والحالة الإنسانية الهشة أصلاً في ولاية راخين،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه البالغ" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه البالغ</span> إزاء التقارير التي تفيد باستخدام مسلمي الروهينغيا دروعاً بشرية وتجنيدهم قسراً من قبل القوات المسلحة في ميانمار وغيرها من الجهات الفاعلة المسلحة، مما يؤدي إلى تصعيد التوترات الطائفية بين مجتمعات الراخين ومسلمي الروهينغيا، وإزاء التقارير التي تفيد بتدمير المواقع الدينية لجميع الأديان واستخدام أماكن العبادة الإسلامية، بما في ذلك المساجد والمدارس الدينية، كمواقع عسكرية أمامية،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه العميق" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه العميق</span> إزاء مقتل وإصابة العديد من الأشخاص، بمن فيهم مواطنون في أراضي بنغلاديش، جراء سقوط قذائف الهاون والرصاص المتبادل بين القوات المسلحة الميانمارية والمجموعات الإثنية المسلحة وانفجارها في أراضي بنغلاديش، وإذ يعرب عن قلقه العميق أيضاً إزاء النزاع المسلح الدائر بين القوات المسلحة الميانمارية والمجموعات الإثنية المسلحة الذي يقوض سلامة وأمن الأشخاص والممتلكات في المناطق المتاخمة لبنغلاديش،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه البالغ" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه البالغ</span> إزاء تصاعد حدة النزاع في بلدة مونغداو والتأثير المدمر الذي يمكن أن يترتب عن ذلك على صعيد الاحتياجات الإنسانية وتزايد النزوح، وإذ يؤكد ضرورة أن تعطي جميع الأطراف الأولوية لحماية المدنيين،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه</span> إزاء القيود المفروضة على المجتمع المدني والصحفيين ووسائل الإعلام والعاملين في المجال الإنساني، سواء عبر الإنترنت أو خارجه، وإذ يلاحظ بقلق في هذا الصدد انتشار المعلومات المغلوطة والمضللة، بما في ذلك على وسائل التواصل الاجتماعي، والتي قد تؤدي إلى استمرار تفاقم محنة مسلمي الروهينغيا والأقليات العرقية الأخرى في ميانمار،</p>
+      </container>
+      <container name="وإذ يعرب عن تأييده القاطع" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن تأييده القاطع</span> لشعب ميانمار وإرادته الديمقراطية ومصالحه وتطلعاته للسلام، وكذلك للحاجة إلى تدعيم المؤسسات والعمليات الديمقراطية والامتناع عن العنف واحترام حقوق الإنسان والحريات الأساسية وسيادة القانون احتراماً كاملاً،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">وإذ يعيد تأكيد</span> الحاجة الملحة إلى ضمان محاسبة جميع المسؤولين عن انتهاكات وتجاوزات القانون الدولي في جميع أنحاء ميانمار، بما في ذلك القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني والقانون الجنائي الدولي، عن طريق آليات عدالة وطنية أو إقليمية أو دولية تتسم بالمصداقية والاستقلال، مشيراً في الوقت ذاته إلى سلطة مجلس الأمن في إحالة القضايا إلى المحكمة الجنائية الدولية،</p>
+      </container>
+      <container name="وإذ يواصل التشديد" eId="container_23">
+          <p xml:space="preserve">	<span class="italic">وإذ يواصل التشديد</span> على الحاجة الماسة إلى أن تتوقف قوات الأمن والقوات المسلحة لميانمار والمجموعات المسلحة الأخرى عن جميع الأعمال التي تتعارض مع حماية جميع الأشخاص داخل البلد، بمن فيهم المنتمون إلى طائفة الروهينغيا، وذلك باحترام القانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني، ووقف أعمال العنف، بما فيه العنف الجنسي، وإذ يدعو إلى اتخاذ خطوات عاجلة لكفالة تحقيق العدالة فيما يتعلق بجميع انتهاكات حقوق الإنسان وانتهاكات القانون الدولي الإنساني كيما يتمكن الذين نزحوا بسبب أعمال العنف من العودة الطوعية والكريمة والمستدامة إلى مكان إقامتهم الأصلي أو مكان يختارونه،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بالعمل التكميلي والمتآزر لمختلف المكلفين بولايات والآليات في إطار الأمم المتحدة، بما فيها آليات العدالة والمساءلة الدولية العاملة بشأن ميانمار من أجل تحسين الحالة الإنسانية وحالة حقوق الإنسان في البلد، وإذ يلاحظ بقلق عدم كفاية الفرص المتاحة لوصول المساعدات الإنسانية، لا سيما إلى المناطق التي يوجد فيها نازحون داخلياً، وإلى المناطق المتضررة التي نزح الكثير من الناس منها قسراً ولا يزالون ويعيش فيها كثيرون آخرون في ظروف هشة، مثل مسلمي الروهينغيا، مما يؤدي إلى تفاقم الأزمة الإنسانية، وإذ يهيب بجميع الأطراف، بما فيها القوات المسلحة لميانمار، أن تتيح للوكالات الإنسانية الدولية والعاملين في مجال المعونة إمكانية تقديم المساعدات الإنسانية بأمان وفي الوقت المناسب ومن دون عوائق إلى جميع المحتاجين، بمن فيهم الأشخاص الذين نزحوا بسبب النزاع،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى العمليات الجارية لضمان العدالة والمساءلة فيما يتعلق بالجرائم المدعى ارتكابها في حق مسلمي الروهينغيا والأقليات الإثنية الأخرى في ميانمار،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى أن المحكمة الجنائية الدولية قد أذنت لمدعيها العام بالتحقيق في الجرائم المدعى ارتكابها التي تندرج ضمن اختصاص المحكمة وتتصل <span class="italic">بالحالة في جمهورية بنغلاديش الشعبية/ جمهورية اتحاد ميانمار</span>،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> بالأمر الصادر عن محكمة العدل الدولية في 23 كانون الثاني/يناير 2020 متضمناً تدابير تحفظية في القضية التي رفعتها غامبيا ضد ميانمار بشأن تطبيق اتفاقية منع جريمة الإبادة الجماعية والمعاقبة عليها، وهو الأمر الذي خلصت فيه المحكمة إلى أن الروهينغيا في ميانمار يشكلون فيما يبدو "مجموعة مشمولة بالحماية" بالمعنى المقصود في المادة 2 من اتفاقية منع الإبادة الجماعية، وأن هناك خطراً حقيقياً ووشيكاً بإلحاق ضرر لا يمكن جبره بحقوق طائفة الروهينغيا في ميانمار، وإذ يهيب بميانمار أن تمتثل لهذا الأمر امتثالاً تاماً،</p>
+      </container>
+      <container name="وإذ يرحب أيضاً" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب أيضاً</span> بالأمر الصادر عن محكمة العدل الدولية في 22 تموز/يوليه 2022 الذي قضت فيه برفض الدفوع الابتدائية لميانمار في القضية التي رفعتها غامبيا ضد ميانمار بشأن تطبيق اتفاقية منع جريمة الإبادة الجماعية والمعاقبة عليها، وخلُصت فيه إلى أن دعوى غامبيا مقبولة، ويرحب أيضاً في هذا الصدد بالأموال التي أسهمت بها مجموعة من الدول الأعضاء في منظمة التعاون الإسلامي وبالتزام الدول الأعضاء الأخرى بدعم الإجراءات الجارية،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> حق جميع اللاجئين في العودة إلى ديارهم وأهمية أن يتمكن جميع النازحين من ذلك، وأن تكون عمليات العودة هذه آمنة وكريمة وتجري بطريقة طوعية ومستدامة، وإذ يهيب بالمجتمع الدولي أن يسارع باتخاذ ما يلزم من إجراءات لتحمل المسؤولية الجماعية في التعامل مع النازحين قسراً في المنطقة،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ</span> أن لجنة التحقيق المستقلة التي أنشأتها حكومة ميانمار في 30 تموز/يوليه 2018 أقرّت في الموجز التنفيذي لتقريرها النهائي، وعلى الرغم من حدود اختصاصاتها وأساليب عملها، بأن جرائم حرب وانتهاكات جسيمة لحقوق الإنسان وانتهاكات للقانون المحلي قد ارتُكبت، وأن هناك أسباباً معقولة تدعو إلى اعتقاد أن أفراداً من قوات الأمن في ميانمار متورّطون في ذلك، معرباً في الآن ذاته عن أسفه لأن التقرير الكامل للجنة لم يُنشر بعدُ،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على الحاجة الملحة إلى بذل جهود أكبر من أجل التنفيذ الكامل لتوصيات اللجنة الاستشارية المعنية بولاية راخين التي لا تزال وجيهة وإلى اتخاذ إجراءات لمعالجة الأسباب الجذرية للأزمة، وإلى وضع حد لاضطهاد مسلمي الروهينغيا ومنحهم المواطنة، وكفالة حرية التنقل، وإنهاء الفصل المنهجي والتمييز بجميع أشكاله، وضمان حصول الجميع على فرص متساوية في الاستفادة من الخدمات الصحية والتعليم، وتسجيل المواليد، وذلك بالتشاور الكامل مع جميع أفراد الأقليات الإثنية والأشخاص الذين يعيشون أوضاعاً هشة، بمن فيهم مسلمو الروهينغيا، بما في ذلك بشأن مسائل المواطنة لأفراد طائفة الروهينغيا، وإذ يؤكد أهمية الدعوة التي وجهها الأمين العام في هذا الصدد،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد</span> الحاجة الملحة إلى تنفيذ مذكرة التفاهم الموقعة بين ميانمار وبرنامج الأمم المتحدة الإنمائي ومفوضية الأمم المتحدة لشؤون اللاجئين بشأن المساعدة في عملية إعادة جميع النازحين من ولاية راخين، بمن فيهم مسلمو الروهينغيا إلى ديارهم، وإلى إعادة العمل بهذه المذكرة وتنفيذها لاحقاً، وإذ يدعو ميانمار إلى منح وكالات الأمم المتحدة إمكانية الوصول من دون قيود إلى شمال راخين حتى يتسنى لها المشاركة في العملية مشاركة مجدية،</p>
+      </container>
+      <container name="وإذ يثير جزعه" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">وإذ يثير جزعه</span> استمرار تدفق أكثر من 1,2 مليون من مسلمي الروهينغيا النازحين قسراً من ميانمار إلى بنغلاديش على مدى العقود الأربعة الماضية مما أدى إلى وجودهم في مأوى مؤقت، ومعظمهم وصل إلى بنغلاديش منذ 25 آب/أغسطس 2017 في أعقاب الفظائع التي ارتكبتها قوات الأمن والقوات المسلحة لميانمار، حسب ما أفادت به آليات متعددة تابعة للأمم المتحدة،</p>
+      </container>
+      <container name="وإذ يدرك" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">وإذ يدرك</span> أن دولاً أخرى أعضاء في منظمة التعاون الإسلامي، ولا سيما في جنوب شرق آسيا، لا تزال تستضيف عدداً كبيراً من اللاجئين المسلمين الروهينغيا الذين فروا من الأزمة في ميانمار، </p>
+      </container>
+      <container name="وإذ يثني" eId="container_35">
+          <p xml:space="preserve">	<span class="italic">وإذ يثني</span> على الجهود والالتزامات الجارية في مجال العمل الإنساني التي أخذتها حكومة بنغلاديش على عاتقها، بالتعاون مع وكالات الأمم المتحدة والمجتمع الدولي، بما في ذلك جميع الجهات الفاعلة في مجال تقديم المساعدة الإنسانية لصالح الفارين من انتهاكات وتجاوزات حقوق الإنسان في ميانمار، وإذ يرحب في هذا الصدد بمذكرة التفاهم المبرمة بين حكومة بنغلاديش ومفوضية الأمم المتحدة السامية لشؤون اللاجئين من أجل تقديم المساعدة الإنسانية إلى أفراد طائفة الروهينغيا الذين يتم نقلهم إلى بهاشان شار، وإذ يقر بالاستثمارات الكثيفة التي قامت بها حكومة بنغلاديش في مشروعها المقام في بهاشان شار، بما في ذلك الاستثمارات في المرافق والبنى التحتية من أجل أفراد طائفة الروهينغيا الذين تم نقلهم،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه العميق" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه العميق</span> إزاء تخفيض المعونة الغذائية بسبب عدم كفاية الدعم المالي الدولي المقدم إلى الروهينغيا الذين تؤويهم بنغلاديش مؤقتاً وتناقص هذا الدعم، وإذ يلاحظ بقلق شديد في هذا الصدد أن الفجوة بين الاحتياجات الإنسانية وتوافر التمويل الفعلي لا تزال آخذة في الاتساع على الرغم من السخاء غير المسبوق للبلدان المضيفة والجهات المانحة، وإذ يشير في هذا السياق إلى ضرورة زيادة الإنصاف في تقاسم الأعباء والمسؤوليات، وإذ يشجع في هذا الصدد الدول والجهات الفاعلة الأخرى على الاستفادة من عملية متابعة المنتدى العالمي الثاني للاجئين الذي عقد في الفترة من 13 إلى 15 كانون الأول/ديسمبر 2023 بغية إثبات التزامها بتخفيف الضغط على البلدان المضيفة والعمل على إيجاد حلول مستدامة لهذه الأزمة الممتدة من خلال عودة الروهينغيا إلى ولاية راخين في ميانمار عودة آمنة وطوعية وكريمة ومستدامة، </p>
+      </container>
+      <container name="وإذ يلاحظ مع التقدير" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ مع التقدير</span> قيام حكومة بنغلاديش بتيسير زيارات مختلف المسؤولين، بمن فيهم المقرر الخاص المعني بحالة حقوق الإنسان في ميانمار، والآلية المستقلة لميانمار، والمدعي العام للمحكمة الجنائية الدولية، وإذ يلاحظ مع التقدير أيضاً أن حكومات أخرى يسرت هذه الزيارات، وإذ يؤكد أن هذه الزيارات تسهم في ضمان العدالة والمساءلة وفي إيجاد حل دائم من خلال عودة الروهينغيا إلى ميانمار عودة آمنة وطوعية وكريمة ومستدامة،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد</span> ضرورة أن تبذل ميانمار جهوداً حقيقية لمعالجة الحالة في ولاية راخين، من خلال تهيئة الظروف المواتية للعودة إلى الوطن عودةً طوعية وآمنة ومستدامة تحفظ كرامة الأشخاص، طبقاً لاتفاقاتها الثنائية مع بنغلاديش،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">وإذ يقر</span> بأهمية المبادرات الرامية إلى تيسير إعمال حق جميع اللاجئين الروهينغيا ومسلمي الروهينغيا النازحين قسراً في العودة الطوعية إلى وطنهم في ميانمار بأمان وأمن وكرامة،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ قلقه" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن بالغ قلقه</span> من أن حالة عدم اليقين التي طال أمدها بشأن الإعادة إلى الوطن قد دفعت مسلمي الروهينغيا الذين لجأوا مؤقتاً في بنغلاديش إلى اليأس، وقد تكون لها آثار غير مباشرة على السلام والاستقرار الإقليميين، </p>
+      </container>
+      <container name="وإذ يشير" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى "زيارة المعاينة"، وهي الأولى من نوعها منذ النزوح الجماعي للروهينغيا في عام 2017، التي قام بها الروهينغيا أنفسهم إلى ولاية راخين للتحقق من أن الوضع في ولاية راخين مواتٍ لعودة النازحين ولتحديد التحديات أمام عودتهم،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد</span> الحاجة الملحة لتنفيذ الاستراتيجية الوطنية لإغلاق مخيمات النازحين داخلياً في ميانمار بصورة دائمة، بالتشاور الكامل مع وكالات الأمم المتحدة والجهات الفاعلة في المجال الإنساني والإنمائي والنازحين لضمان عودتهم الطوعية والآمنة والكريمة والمستدامة وإعادة توطينهم تمشياً مع المعايير الدولية وضمان إمكانية حصولهم على الجنسية من دون تمييز، وإعادة تأكيد سيطرة هؤلاء الأشخاص على أراضيهم الأصلية وتحكمهم في أمور سلامتهم وأمنهم، وحرية التنقل، والوصول من دون عوائق إلى سبل العيش والخدمات الأساسية، بما في ذلك الخدمات الصحية والتعليم والمأوى، والتعويض عن جميع الخسائر،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى أن الدول تتحمل المسؤولية الرئيسية عن احترام حقوق الإنسان وحمايتها، وأنها مسؤولة عن الوفاء بالتزاماتها ذات الصلة بخصوص مقاضاة المسؤولين عن الجرائم المنطوية على انتهاكات للقانون الدولي، بما في ذلك القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان، وعن تجاوزات قانون حقوق الإنسان، كما أنها مسؤولة عن توفير سبيل انتصاف فعال لأي شخص تُنتهك حقوقه، مثل رد الحق والتعويض ورد الاعتبار والترضية وضمانات عدم التكرار، بهدف وضع حد لحالة الإفلات من العقاب وضمان المساءلة والعدالة،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_44">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلّم</span> بالدور المهم الذي تضطلع به المنظمات الإقليمية، وبخاصة رابطة أمم جنوب شرق آسيا، في تيسير تهيئة بيئة في ميانمار تكون مواتية لعودة النازحين قسراً، بمن فيهم مسلمو الروهينغيا، إلى ميانمار عودة طوعية وآمنة وكريمة ومستدامة، وإذ يؤكد من جديد ضرورة العمل بتنسيق وثيق وبتشاور كامل مع مسلمي الروهينغيا وكذلك مع جميع وكالات الأمم المتحدة المختصة والشركاء الدوليين ذوي الصلة لمعالجة الأسباب الجذرية للأزمة والنزوح حتى يتسنى للمجتمعات المتأثرة أن تعيد بناء حياتها بعد عودتها إلى ميانمار،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_45">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> باستعراض قادة رابطة أمم جنوب شرق آسيا بشأن تنفيذ توافق الآراء ذي النقاط الخمس الذي اعتمد في جاكرتا في 5 أيلول/سبتمبر 2023 وبالقرار الذي اتخذوه بشأن ذلك والذي يقضي بالإبقاء على توافق الآراء ذي النقاط الخمس بوصفه المرجع الرئيسي لمعالجة الأزمة السياسية في ميانمار الذي ينبغي تنفيذه بأكمله،</p>
+      </container>
+      <container name="وإذ يُقر" eId="container_46">
+          <p xml:space="preserve">	<span class="italic">وإذ يُقر</span> بالجهود التي تبذلها منظمة التعاون الإسلامي، جنباً إلى جنب مع الجهود الدولية ذات الصلة، بهدف إحلال السلام وتحقيق الاستقرار في ولاية راخين وسائر ولايات ومناطق ميانمار، بما في ذلك من خلال العمل الذي يضطلع به المبعوث الخاص للأمين العام لمنظمة التعاون الإسلامي المعني بميانمار،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_47" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن بالغ قلقه</span> إزاء استمرار ورود تقارير عن انتهاكات وتجاوزات خطيرة لحقوق الإنسان في ميانمار، لا سيما في حق مسلمي الروهينغيا والأقليات الأخرى، بما فيها ما ينطوي على الاعتقالات التعسفية، والوفيات أثناء الاحتجاز، والتعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، وتعمد قتل الأطفال وتشويههم، والعمل الجبري، واستخدام المباني المدرسية لأغراض عسكرية، والقصف العشوائي في المناطق المدنية، وتدمير دور العبادة والمباني والمنازل والممتلكات المدنية، والاستغلال الاجتماعي والاقتصادي، والنزوح القسري، بما في ذلك النزوح القسري لأكثر من 1,5 مليون من الروهينغيا والأقليات الأخرى في اتجاه بنغلاديش وسائر المنطقة، وخطاب الكراهية والتحريض على البغضاء، والاغتصاب، والاستعباد الجنسي وسائر أشكال العنف الجنسي والجنساني ضد النساء والأطفال، وكذلك القيود المفروضة على ممارسة الحق في حرية الدين أو المعتقد، والتعبير والتجمع السلمي، لا سيما في ولايات راخين، وتشين، وكاتشين، وشان، وكايا، وكايين وفي مناطق ساغينغ، وماغواي، وماندالاي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه</span> بشأن الأشخاص الذين احتجزوا أو اتهموا أو اعتقلوا تعسفاً في 1 شباط/فبراير 2021 وفي أعقابه، ويدين بشدة الهجوم الذي وقع في بلدة بوثيداونغ في 17 أيار/مايو 2024 واستمرار استهداف مسلمي الروهينغيا، ويدعو إلى عودة ضحايا هذا الهجوم إلى مكانهم الأصلي في بلدة بوثيداونغ عودة مستدامة لمنع أي نزوح داخلي آخر، ويحث جميع أطراف النزاع على الامتثال الكامل للتدابير المؤقتة التي أمرت بها محكمة العدل الدولية لضمان حماية مسلمي الروهينغيا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> إلى المشاركة في حوار ومصالحة بناءين وسلميين، وفقاً لإرادة ومصالح شعب ميانمار، بمن فيه مسلمو الروهينغيا وغيرهم من الأقليات الإثنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">يدين بشدة</span> جميع انتهاكات وتجاوزات حقوق الإنسان في ميانمار، بما فيها ما يتعلق بإعلان حالة الطوارئ في 1 شباط/فبراير 2021 وبعد الإعلان، ويدعو ميانمار إلى وضع حد على الفور لجميع أعمال العنف وانتهاكات القانون الدولي في البلد، وإلى ضمان الحماية الكاملة لحقوق الإنسان والحريات الأساسية لجميع الأشخاص في ميانمار، بمن فيهم مسلمو الروهينغيا وغيرهم من الأقليات، بطريقة متساوية وغير تمييزية وتحفظ الكرامة من أجل منع تفاقم عدم الاستقرار وانعدام الأمن وتخفيف المعاناة، وإلى معالجة الأسباب الجذرية للأزمة، بطرق منها إلغاء أو إصلاح جميع التشريعات التمييزية، وإلى صياغة حل دائم وثابت وقابل للتطبيق للأزمة من خلال ضمان العودة إلى الوطن، وإلى اتخاذ جميع التدابير اللازمة لتوفير العدالة للضحايا، وإلى ضمان المساءلة الكاملة، وإنهاء الإفلات من العقاب على جميع انتهاكات حقوق الإنسان بإجراء تحقيق كامل وشفاف ومستقل في التقارير المتعلقة بجميع انتهاكات القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن بالغ قلقه</span> إزاء التجنيد الإجباري لمسلمي الروهينغيا من قبل القوات المسلحة في ميانمار وغيرها من الجهات المسلحة، ويحث جميع الأطراف المتحاربة على وضع حد فوري لهذا التجنيد الإجباري والسماح للروهينغيا المجندين بالفعل بالعودة إلى ديارهم عودة آمنة وكريمة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> أهمية إجراء تحقيقات دولية مستقلة ونزيهة وشفافة في الانتهاكات والتجاوزات الجسيمة لحقوق الإنسان في ميانمار، بما فيها تلك المنطوية على أعمال عنف واعتداء جنسي وجنساني في حق النساء والأطفال وجرائم حرب مزعومة، وأهمية محاسبة جميع المسؤولين على الأعمال الوحشية والجرائم المرتكبة في حق جميع الأشخاص، بمن فيهم مسلمو الروهينغيا، من أجل تحقيق العدالة للضحايا باستخدام جميع الوسائل القانونية والآليات القضائية المحلية والإقليمية والدولية المناسبة، بما في ذلك محكمة العدل الدولية والمحكمة الجنائية الدولية، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن بالغ القلق</span> لأن مسلمي الروهينغيا في ميانمار، بمن فيهم النساء والأطفال، ما زالوا يعانون من عمليات القتل المستهدِف والعنف العشوائي والإصابات الخطيرة، بما في ذلك نتيجة النيران المطلقة عشوائياً والغارات الجوية وعمليات القصف والحرق والألغام الأرضية والذخائر غير المنفجرة، رغم التدابير التحفظية التي أمرت بها محكمة العدل الدولية في 23 كانون الثاني/يناير 2020؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">يرحب أيضاً</span> بالأمر الصادر عن محكمة العدل الدولية في 22 تموز/يوليه 2022 الذي قضت فيه برفض الدفوع الابتدائية لميانمار بخصوص اختصاص المحكمة في القضية التي رفعتها غامبيا ضد ميانمار بشأن تطبيق اتفاقية منع جريمة الإبادة الجماعية والمعاقبة عليها، وخلُصت فيه إلى أن دعوى غامبيا مقبولة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على أهمية التنفيذ الصارم لاتفاق وقف إطلاق النار ووقف أعمال العنف، وممارسة قوات الأمن والقوات المسلحة لميانمار والمجموعات المسلحة الأخرى ضبط النفس حتى تُكفل السلامة والأمن والحماية للمدنيين، بمن فيهم النازحون والراغبون في العودة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> إلى وقف القتال والأعمال العدائية على الفور، وإلى وضع حد لاستهداف المدنيين ولجميع انتهاكات وتجاوزات القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني، وإلى إقامة حوار سياسي وطني وعملية مصالحة وطنية جامعين وشاملين، مع ضمان مشاركة جميع الفئات الإثنية مشاركة كاملة وفعالة ومجدية، بمن في ذلك مسلمو الروهينغيا والأقليات الأخرى، والنساء، والشباب، والأشخاص ذوو الإعاقة، فضلاً عن المجتمع المدني والزعماء الدينين، بهدف تحقيق سلام دائم، ويدعو أيضاً إلى التوصل إلى حل سلمي عن طريق الحوار من أجل تحقيق الوحدة الوطنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه العميق</span> إزاء الأثر غير المباشر الذي يمتد عبر الحدود للنزاع في ميانمار، والذي أفادت التقارير أنه تسبب في وقوع وفيات وأضرار في الممتلكات في بنغلاديش وغيرها من البلدان المجاورة، ويحث ميانمار على اتخاذ جميع التدابير اللازمة للحفاظ على الاستقرار على طول حدودها الدولية وضمان سلامة الأرواح والممتلكات في البلدان المجاورة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بميانمار أن تضع حداً على الفور لجميع أعمال العنف وجميع انتهاكات القانون الدولي في البلد، وأن تضمن حماية حقوق الإنسان لجميع الأشخاص في ميانمار، بمن فيهم مسلمو الروهينغيا والأشخاص المنتمون إلى أقليات أخرى، وأن تتخذ جميع التدابير اللازمة لتحقيق العدالة للضحايا، وأن تكفل المساءلة الكاملة عن جميع انتهاكات وتجاوزات قانون حقوق الإنسان وانتهاكات القانون الدولي الإنساني ووضع حد للإفلات من العقاب عليها، بدءاً بإجراء تحقيق كامل وشفاف ومستقل في التقارير المتعلقة بجميع هذه الانتهاكات، ويدعو إلى إصدار التقرير الكامل للجنة التحقيق المستقلة التي أُنشئت في عام 2018 ، أو تقاسم النتائج التي خلص إليها التقرير مع الآليات الدولية المعنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_125__content">
+          <p xml:space="preserve">	<span class="italic">يكرر</span> دعوته الملحة إلى أن تتخذ ميانمار التدابير اللازمة لدعم إدماج جميع الناس الذين يعيشون في ميانمار وتعزيز حقوق الإنسان لهؤلاء الناس وكرامتهم، وأن تتصدى لانتشار التمييز والتحيز، وأن تتخذ خطوات ذات مصداقية لإنهاء التمييز في القانون والممارسة ضد الأقليات الإثنية والدينية، بمن فيها مسلمو الروهينغيا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بحكومة ميانمار أن تعمل على مكافحة التحريض على البغضاء وخطاب الكراهية تجاه مسلمي الروهينغيا والأقليات الأخرى، على شبكة الإنترنت وخارجها، بإدانة هذه الأعمال علانيةً وبسنّ القوانين اللازمة لمكافحة خطاب الكراهية والجريمة، وفقاً للقانون الدولي لحقوق الإنسان، وبتعزيز الحوار بين الأديان بالتعاون مع المجتمع الدولي، ويشجع الزعماء السياسيين والدينيين وقادة المجتمعات المحلية في البلد على العمل من أجل بناء الوحدة الوطنية عن طريق الحوار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_152__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بميانمار <span class="italic">أيضاً</span> أن ترفع بالكامل الإجراءات التي تقضي بإغلاق خدمات الإنترنت والاتصالات في جميع مناطق ميانمار، بما فيها ولاية راخين، وأن تلغي المادة 77 من قانون الاتصالات تجنباً لأي قطع آخر للوصول إلى الإنترنت والاتصالات والتضييق على الحق في حرية الرأي والتعبير، بما في ذلك حرية التماس المعلومات وتلقيها ونقلها، وفقاً للقانون الدولي لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_167" class="SingleTxtGA">
+        <num>16-</num>
+        <content eId="para_167__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بميانمار <span class="italic">كذلك</span> أن تحمي حقوق جميع الأطفال، بمن فيهم أطفال الروهينغيا، في الحصول على الجنسية من أجل القضاء على انعدام الجنسية، وفقاً لالتزامات ميانمار بموجب اتفاقية حقوق الطفل، وأن تكفل حماية جميع الأطفال في النزاع المسلح، وأن تضع حداً لتجنيد الأطفال واستخدامهم في العمل الجبري؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="SingleTxtGA">
+        <num>17-</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> حكومة ميانمار على أن تتعاون تعاوناً تاماً مع جميع المكلفين بالولايات وآليات حقوق الإنسان في إطار الأمم المتحدة، بمن في ذلك المقرر الخاص المعني بحالة حقوق الإنسان في ميانمار، والمبعوثة الخاصة للأمين العام المعنية بميانمار، والآلية المستقلة التي أنشأها مجلس حقوق الإنسان في قراره <a href="https://undocs.org/ar/A/HRC/RES/39/2">39/2</a> والتي أشار إليها الأمين العام في إطاره المرجعي للآلية باسم آلية التحقيق المستقلة لميانمار، ومع وكالات الأمم المتحدة ذات الصلة والهيئات الدولية والإقليمية لحقوق الإنسان، وأن تسمح لهم بالوصول الكامل وبلا قيود ولا رقابة من أجل القيام برصد مستقل لحالة حقوق الإنسان، وأن تكفل قدرة الأفراد على التعاون من دون عوائق مع هذه الآليات ومن دون خوف من الانتقام أو التخويف أو الاعتداء، ويعرب عن بالغ قلقه لأن وصول مكونات المجتمع الدولي إلى المناطق المتأثرة، بما فيها ولاية راخين الشمالية، لا يزال مقيداً تقييداً شديداً، بما في ذلك وكالات الأمم المتحدة والجهات الفاعلة الإنسانية ووسائط الإعلام الدولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_200" class="SingleTxtGA">
+        <num>18-</num>
+        <content eId="para_200__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بعمل الآلية المستقلة لميانمار في سبيل جمع وتنسيق وحفظ وتحليل الأدلة المتعلقة بأخطر الجرائم الدولية وانتهاكات القانون الدولي المرتكبة في ميانمار منذ عام 2011، وخاصة في ولايات راخين وكاتشين وشان، وذلك باستخدام المعلومات التي سلمتها البعثة الدولية المستقلة لتقصي الحقائق، وإعداد ملفات بغية تسهيل وتسريع إقامة دعاوى جنائية عادلة ومستقلة، وفقاً لمعايير القانون الدولي، في المحاكم الوطنية أو الإقليمية أو الدولية التي قد تختص في المستقبل بالنظر في هذه الجرائم، وفقاً للقانون الدولي، كما يرحب بالتقارير التي قدمتها الآلية إلى مجلس حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218" class="SingleTxtGA">
+        <num>19-</num>
+        <content eId="para_218__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> إلى التعاون الوثيق بين الآلية المستقلة لميانمار وأي من التحقيقات الجارية أو المقبلة من جانب المحاكم أو الهيئات القضائية الوطنية أو الإقليمية أو الدولية فيما يتعلق بالجرائم الدولية وانتهاكات القانون الدولي الخطيرة في ميانمار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxtGA">
+        <num>20-</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالأمم المتحدة أن تكفل منح الآلية المستقلة لميانمار المرونة التي تحتاج إليها من حيث ملاك الموظفين والموقع والحرية التشغيلية كيما يتسنى لها أن تنجز ولايتها بأقصى قدر ممكن من الفعالية؛ ويحث ميانمار والدول، لا سيما دول المنطقة، والسلطات القضائية والكيانات الخاصة على التعاون الكامل مع الآلية، بطرق منها منحها إمكانية الاتصال بالشهود، حيثما ينطبق ذلك، وتزويدها بكل أنواع المساعدة في تنفيذ ولايتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_257" class="SingleTxtGA">
+        <num>21-</num>
+        <content eId="para_257__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> أهمية تنفيذ التوصيات الواردة في تقارير البعثة الدولية المستقلة لتقصي الحقائق، ويحث ميانمار والمجتمع الدولي على إيلاء الاعتبار الواجب في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_278" class="SingleTxtGA">
+        <num>22-</num>
+        <content eId="para_278__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد أيضاً</span> أهمية تنفيذ جميع توصيات اللجنة الاستشارية المعنية بولاية راخين تنفيذاً كاملاً لمعالجة الأسباب الجذرية للأزمة، بما في ذلك التوصيات المتعلقة بالحق في الحصول على الجنسية والمساواة في الحصول على المواطنة، وحرية التنقل، وإنهاء الفصل المنهجي والتمييز بجميع أشكاله، وحصول الجميع على فرص متساوية في الاستفادة من الخدمات الصحية والتعليم، وتسجيل المواليد، وذلك بالتشاور الكامل مع جميع الأقليات الإثنية والدينية والأشخاص ضعاف الحال، بمن فيهم مسلمو الروهينغيا، وكذلك مع المجتمع المدني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="SingleTxtGA">
+        <num>23-</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بميانمار أن تبذل جهوداً جدية من أجل القضاء على حالات انعدام الجنسية بين أفراد الأقليات الإثنية والدينية، ولاسيما مسلمو الروهينغيا، والتمييز المنهجي والمُؤسسي ضدهم بطرق منها إلغاء واستبدال قانون المواطنة لعام 1982، الذي أدّى إلى الحرمان من التمتع بحقوق الإنسان؛ وضمان حق الجميع في الحصول على الجنسية وتكافؤ فرص حصول الناس كافة في ميانمار، لا سيما مسلمو الروهينغيا، على المواطَنة الكاملة باتّباع إجراءات شفافة وطوعية يَسهل الوصول إليها، وعلى جميع الحقوق المدنية والسياسية من خلال السماح بتحديد الهوية الذاتي؛ وتعديل أو إلغاء جميع التشريعات والسياسات التمييزية، بما في ذلك الأحكام التمييزية الواردة في مجموعة "قوانين حماية العرق والدين" التي سُنَّت في عام 2015 والتي تتناول تغيير الدين، والزواج بين أتباع أديان مختلفة، والزواج بامرأة واحدة، والتنظيم السكاني؛ وإلغاء جميع الأوامر المحلية التي تقيد الحق في حرية التنقّل وفي الوصول إلى خدمات التسجيل المدني والخدمات الصحية والتعليم وسبل العيش؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_323" class="SingleTxtGA">
+        <num>24-</num>
+        <content eId="para_323__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن بالغ قلقه</span> لأن القوات المسلحة لميانمار لم تحرز تقدماً في تنفيذ توافق الآراء المؤلف من خمس نقاط لرابطة أمم جنوب شرق آسيا، ويكرر توجيه نداء عاجل إلى ميانمار لتنفيذ توافق الآراء المؤلف من خمس نقاط تنفيذاً كاملاً وسريعاً وفعالاً لتيسير التوصل إلى حل سلمي بواسطة حوار شامل ووقف أعمال العنف على الفور لمصلحة شعب ميانمار وسبل عيشه، بمن في ذلك مسلمو الروهينغيا والأقليات الإثنية الأخرى، وفي هذا الصدد، يهيب بجميع الجهات المعنية في ميانمار أن تتعاون مع الرابطة والمبعوث الخاص لرئيسها المعني بميانمار، بطرق منها منح المبعوث الخاص إمكانية التواصل مع جميع الجهات صاحبة المصلحة، ويعرب عن دعمه لهذه الجهود؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_347" class="SingleTxtGA">
+        <num>25-</num>
+        <content eId="para_347__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن دعمه</span> لمضاعفة الجهود الرامية إلى تنفيذ توافق الآراء ذي النقاط الخمس لرابطة أمم جنوب شرق آسيا، ويرحب في هذا الصدد باستعراض قادة الرابطة تنفيذ توافق الآراء، وبقرارهم بشأن ذلك الذي اعتمد في مؤتمر قمة الرابطة الثالث والأربعين المعقود في جاكارتا في 5 أيلول/سبتمبر 2023؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_372" class="SingleTxtGA">
+        <num>26-</num>
+        <content eId="para_372__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> المبعوثة الخاصة الجديدة للأمين العام المعنية بميانمار على التواصل مع ميانمار وجميع الجهات المعنية الأخرى، بمن في ذلك المجتمع المدني والسكان المتأثرون، مثل مسلمي الروهينغيا وغيرهم من الأقليات في ميانمار، من أجل التوصل إلى حل مبكر للأزمة في ميانمار، ويحث ميانمار على التعاون الكامل مع المبعوثة الخاصة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_398" class="SingleTxtGA">
+        <num>27-</num>
+        <content eId="para_398__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> ميانمار على مراجعة وإلغاء التعديلات التي أُدخلت في عام 2018 على قانون إدارة الأراضي الشاغرة والبور والبكر، وعلى وضع إطار شامل لإدارة الأراضي، وعلى تسوية قضايا حيازة الأراضي، بالتشاور الكامل مع السكان المتأثرين، بمن فيهم مجتمعات الأقليات الإثنية والدينية، لا سيما مسلمو الروهينغيا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_425" class="SingleTxtGA">
+        <num>28-</num>
+        <content eId="para_425__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> إلى وضع حد فوري لإعادة تصنيف المناطق التي كانت تقع فيها قرى الروهينغيا سابقاً، ولإزالة أسماء القرى من الخرائط الرسمية، مما قد يؤدي إلى تغيير كيفية استخدام الأراضي، وإلى التوقف من دون تأخير عن بناء المرافق العسكرية في تلك القرى؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_453" class="SingleTxtGA">
+        <num>29-</num>
+        <content eId="para_453__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> ميانمار على اتخاذ جميع التدابير اللازمة لنقض وترك السياسات والتوجيهات والممارسات التي تهمِّش مسلمي الروهينغيا والأقليات الأخرى، ومنع تدمير أماكن العبادة والمقابر والهياكل الأساسية والمباني التجارية أو السكنية التي يملكها جميع الناس، وضمان قدرة جميع النازحين، بمن فيهم مسلمو الروهينغيا وأفراد الأقليات الأخرى في ولاية راخين وفي جميع أنحاء ميانمار، بمن فيهم مسلمو الروهينغيا والكامان البالغ عددهم 000 128 شخص والمعزولون في مخيمات في وسط راخين منذ عام 2012، على العودة إلى ديارهم وممتلكاتهم وضمان حريتهم في التنقل والوصول من دون عوائق إلى سبل العيش والخدمات الأساسية، واستعراض القوانين ذات الصلة، ومعالجة الأسباب الجذرية لضعف أحوالهم ونزوحهم القسري؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_482" class="SingleTxtGA">
+        <num>30-</num>
+        <content eId="para_482__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بميانمار أن تفكك مخيمات النازحين داخلياً في ولاية راخين وفقاً لجدول زمني واضح، مع الحرص على أن تجري عودة النازحين داخلياً وإعادة توطينهم وفقاً للمعايير الدولية وأفضل الممارسات، بما في ذلك الممارسات المحددة في المبادئ التوجيهية بشأن النزوح الداخلي<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">()	<a href="https://undocs.org/ar/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>، المرفق.</p></authorialNote><sup>)</sup>، وذلك بالتعاون مع الأمم المتحدة والمجتمع الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_512" class="SingleTxtGA">
+        <num>31-</num>
+        <content eId="para_512__content">
+          <p xml:space="preserve">	<span class="italic">يهيب أيضاً</span> بميانمار، تمشياً مع الصكوك الثنائية المتعلقة بالإعادة إلى الوطن التي وقعتها بنغلاديش وميانمار، أن تتخذ خطوات ملموسة من أجل تهيئة بيئة مواتية للعودة الطوعية والآمنة والكريمة والمستدامة للأشخاص النازحين قسراً من مسلمي الروهينغيا وغيرهم من أقليات ميانمار الذين لجأوا بصفة مؤقتة إلى بنغلاديش، وأن تنشر معلومات حقيقية، في إطار شراكة مع الأمم المتحدة والجهات الفاعلة المعنية الأخرى، بشأن الظروف السائدة في ولاية راخين، من أجل معالجة الشواغل الأساسية للروهينغيا معالجة معقولة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_543" class="SingleTxtGA">
+        <num>32-</num>
+        <content eId="para_543__content">
+          <p xml:space="preserve">	<span class="italic">يهيب كذلك</span> بميانمار أن تبني الثقة بين مسلمي الروهينغيا القاطنين بالمخيمات في بنغلاديش لتهيئة عودتهم إلى ميانمار بواسطة تدابير بناء الثقة، بما في ذلك الاتصال المباشر بين ممثلي الروهينغيا وسلطات ميانمار، وبترتيب زيارات لممثلي الروهينغيا إلى ولاية راخين لمعاينة الوضع هناك، ومن ثم تشجيعهم على العودة إلى مواطنهم في ميانمار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_575" class="SingleTxtGA">
+        <num>33-</num>
+        <content eId="para_575__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> ميانمار على البدء في عملية الإعادة الطوعية والآمنة والكريمة والمستدامة إلى الوطن ثم إعادة إدماج جميع مسلمي الروهينغيا والأقليات الأخرى النازحين قسراً من بنغلاديش بتهيئة الظروف المواتية لعودتهم في ولاية راخين، مع الإشارة إلى الترتيب الثنائي بشأن عودة النازحين من ولاية راخين المبرم بين بنغلاديش وميانمار في تشرين الثاني/نوفمبر 2017، والمقيمين في الدول المضيفة الأخرى، إلى ميانمار، بطرق منها التعاون الكامل مع حكومة بنغلاديش والأمم المتحدة، ولا سيما مفوضية الأمم المتحدة السامية لشؤون اللاجئين، وحسب الاقتضاء، مع مركز تنسيق المساعدة الإنسانية بشأن إدارة الكوارث التابع لرابطة أمم جنوب شرق آسيا، مع ضمان توفير حرية التنقل للعائدين ووصولهم من دون عوائق إلى سبل العيش والخدمات الاجتماعية، بما في ذلك الخدمات الصحية والتعليم والمأوى، وتعويضهم عن جميع الخسائر؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_608" class="SingleTxtGA">
+        <num>34-</num>
+        <content eId="para_608__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالأمم المتحدة أن تقدم كل الدعم اللازم إلى حكومة بنغلاديش وميانمار ويشجع الوكالات الدولية الأخرى على القيام بذلك لتيسير العودة الطوعية والآمنة والكريمة والمستدامة للنازحين قسراً من مسلمي الروهينغيا والأقليات الأخرى في ميانمار، بمن فيهم النازحون داخلياً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_642" class="SingleTxtGA">
+        <num>35-</num>
+        <content eId="para_642__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه البالغ</span> إزاء زيادة القيود المفروضة على وصول المساعدة الإنسانية، لا سيما في ولايات راخين وتشين وكاتشين وشان وكايا وكايين، ويهيب بحكومة ميانمار أن تضمن احترام القانون الدولي الإنساني احتراماً كاملاً وأن تتيح للعاملين في مجال المساعدة الإنسانية إمكانية الوصول الكامل والآمن وبلا عوائق إلى جميع المناطق في ميانمار، من أجل تقديم المساعدة الإنسانية، مع مراعاة هشاشة حالة النساء والأطفال وكبار السن والأشخاص ذوي الإعاقة، فضلاً عن إيصال الإمدادات والمعدات، وأن تكفل حماية العاملين في المجالين الإنساني والطبي وسلامتهم وأمنهم بالكامل لتمكين هؤلاء العاملين من أداء مهامهم بكفاءة في مساعدة السكان المدنيين المتأثرين، بمن فيهم النازحون داخلياً، ويشجع الحكومة على السماح بدخول أعضاء السلك الدبلوماسي والمراقبين المستقلين وممثلي وسائط الإعلام المستقلة الوطنية والدولية، من دون خوف من الانتقام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_677" class="SingleTxtGA">
+        <num>36-</num>
+        <content eId="para_677__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه </span>إزاء استمرار التنقل البحري غير النظامي لمسلمي الروهينغيا، الذين يخاطرون بحياتهم في ظروف محفوفة بالمخاطر على أيدي المهربين الاستغلاليين والمتجرين بالبشر، مما يبرز وضعهم اليائس والحاجة الملحة إلى معالجة الأسباب الجذرية لمحنتهم، ويهيب بالمجتمع الدولي أن يتصدى بفعالية لهذه التنقلات البحرية غير النظامية لمسلمي الروهينغيا، بالتعاون مع وكالات الأمم المتحدة ذات الصلة، وأن يكفل تقاسم الأعباء والمسؤوليات على الصعيد الدولي، ولا سيما من جانب الدول الأطراف في الاتفاقية الخاصة بوضع اللاجئين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_713" class="SingleTxtGA">
+        <num>37-</num>
+        <content eId="para_713__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بميانمار أن تتصدى بفعالية للأسباب الجذرية لانتهاكات وتجاوزات حقوق الإنسان ضد الأقليات الإثنية، بما في ذلك الروهينغيا، في ولاية راخين، وأن تهيئ الظروف اللازمة للعودة الآمنة والطوعية والكريمة والمستدامة لجميع اللاجئين، بمن فيهم اللاجئون من مسلمي الروهينغيا، لا سيما بالنظر إلى أنه لم يعُد شخص واحد من طائفة الروهينغيا إلى ميانمار عن طريق الآلية المنشأة بصورة ثنائية بين بنغلاديش وميانمار بسبب عدم تهيئة ميانمار الظروف المواتية لذلك في ولاية راخين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_750" class="SingleTxtGA">
+        <num>38-</num>
+        <content eId="para_750__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> المجتمع الدولي بالروح الصادقة للتكامل والإنصاف في تقاسم الأعباء والمسؤوليات، على الاستمرار في إعانة بنغلاديش على تقديم المساعدة الإنسانية إلى النازحين قسراً من مسلمي الروهينغيا والأقليات الأخرى حتى عودتهم إلى ميانمار، وعلى إعانة ميانمار على تقديم المساعدة الإنسانية إلى جميع الأشخاص المتأثرين من جميع المجتمعات المحلية الذين نزحوا داخلياً في ميانمار، بما في ذلك ولاية راخين، آخذاً في الحسبان ضعف أحوال النساء والأطفال وكبار السن والأشخاص ذوي الإعاقة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_788" class="SingleTxtGA">
+        <num>39-</num>
+        <content eId="para_788__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول وأصحاب المصلحة الآخرين الذين لم يسهموا بعدُ في تقاسم الأعباء والمسؤوليات أن يفعلوا ذلك، بغية توسيع قاعدة الدعم، بروح من التضامن والتعاون الدوليين، ويقر بالجهود التي تبذلها حكومة بنغلاديش لتقديم المساعدة الإنسانية إلى مسلمي الروهينغيا النازحين وغيرهم من الأقليات حتى الآن، ويعرب عن تقديره لها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_827" class="SingleTxtGA">
+        <num>40-</num>
+        <content eId="para_827__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالمجتمع الدولي أن يواصل تقديم مساهمات مالية كافية للروهينغيا النازحين قسراً الذين لجأوا مؤقتاً إلى بنغلاديش لتجنب عدم إمكانية عكس الأثر المدمر لتدابير مثل تخفيضات الحصص الغذائية من قبل برنامج الأغذية العالمي حتى وقت عودتهم إلى ولاية راخين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_867" class="SingleTxtGA">
+        <num>41-</num>
+        <content eId="para_867__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الشركاء في المجال الإنساني على التقدم لتقليص الفجوة بين المبالغ المتعهد بها والمبالغ المستلَمة، لا سيما في إطار خطة الاستجابة المشتركة لأزمة الروهينغيا الإنسانية، وإعطاء الأولوية للقطاعات التي تغطي الحاجات الأساسية مثل الغذاء والصحة والحماية وإدارة الموقع والمأوى كجزء من مساهماتهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_908" class="SingleTxtGA">
+        <num>42-</num>
+        <content eId="para_908__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بوكالات الأمم المتحدة والهيئات الإقليمية أن تقوم بعمليات إنسانية موسعة، ويدعو إلى تمكين جميع الجهات الفاعلة الإنسانية في ولاية راخين من إيصال المساعدات الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_950" class="SingleTxtGA">
+        <num>43-</num>
+        <content eId="para_950__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> جميع مؤسسات الأعمال التجارية، بما فيها الشركات عبر الوطنية والمؤسسات المحلية العاملة في ميانمار، على تنفيذ المبادئ التوجيهية بشأن الأعمال التجارية وحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_993" class="SingleTxtGA">
+        <num>44-</num>
+        <content eId="para_993__content">
+          <p xml:space="preserve">	<span class="italic">يشير</span> إلى قرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/53/26">53/26</a>، الذي طلب فيه المجلس إلى مفوض الأمم المتحدة السامي لحقوق الإنسان أن يقدم تقريراً في دورته التاسعة والخمسين، ويطلب إلى المفوض السامي أن يقدم ذلك التقرير في دورته الستين، على أن تعقبه جلسة تحاور معززة مع الآلية المستقلة لميانمار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1037" class="SingleTxtGA">
+        <num>45-</num>
+        <content eId="para_1037__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى مفوض الأمم المتحدة السامي لحقوق الإنسان أن يرصد ويتابع تنفيذ التوصيات الصادرة عن البعثة الدولية المستقلة لتقصي الحقائق في ميانمار، بما في ذلك التوصيات المتعلقة بالمساءلة، وأن يواصل تتبع التقدم المحرز في حالة حقوق الإنسان في ميانمار، بما في ذلك مسلمو الروهينغيا وغيرهم من الأقليات، بدعم من خبراء متخصصين وبتكامل مع عمل الآلية المستقلة لميانمار وتقارير المقرر الخاص المعني بحالة حقوق الإنسان في ميانمار، وأن يقدم تحديثاً شفوياً إلى مجلس حقوق الإنسان في دورته الحادية والستين، تعقبه جلسة تحاور وتقريراً إليه في دورته الثالثة والستين، تعقبه جلسة تحاور معززة مع آلية التحقيق المستقلة لميانمار، وتقريراً إلى الجمعية العامة في دورتها الثمانين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1082" class="SingleTxtGA">
+        <num>46-</num>
+        <content eId="para_1082__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بهيئات الأمم المتحدة المختصة أن تواصل تقديم توصيات ملموسة للعمل من أجل حل الأزمة الإنسانية وتشجيع العودة الآمنة والكريمة والطوعية والمستدامة للاجئين والأشخاص النازحين قسراً من طائفة الروهينغيا وضمان محاسبة المسؤولين عن الفظائع الجماعية وانتهاكات وتجاوزات حقوق الإنسان في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1128" class="SingleTxtGA">
+        <num>47-</num>
+        <content eId="para_1128__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يُبقي المسألة قيد نظره استناداً إلى جملة أمور منها تقارير آليات الأمم المتحدة ذات الصلة.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="34" refersTo="#adoptionMeeting">الجلسة 34</location>
+          <eol />
+          <docDate date="2024-07-10" refersTo="#adoptionDate">10 تموز/يوليه 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد من دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
