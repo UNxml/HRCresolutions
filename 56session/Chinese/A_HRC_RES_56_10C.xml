@@ -1,0 +1,604 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/"></FRBRuri>
+          <FRBRdate date="2024-07-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/zho@/"></FRBRuri>
+          <FRBRdate date="2024-07-16" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="PUBLIC DEMONSTRATIONS" href="http://metadata.un.org/thesaurus/1005244" showAs="PUBLIC DEMONSTRATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LAW ENFORCEMENT" href="http://metadata.un.org/thesaurus/1003644" showAs="LAW ENFORCEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT OF ASSEMBLY" href="http://metadata.un.org/thesaurus/1005549" showAs="RIGHT OF ASSEMBLY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF ASSOCIATION" href="http://metadata.un.org/thesaurus/1002523" showAs="FREEDOM OF ASSOCIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/56/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-07-09" outcome="draftResolution" as="A/HRC/56/L.19/Rev.1" by="Albania, Australia, Austria, Belgium, Bulgaria, Canada, Chile, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Marshall Islands, Mexico, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Paraguay, Peru, Poland, Portugal, Republic of Moldova, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Switzerland and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-07-16" outcome="recommendedForAdoption" by="" />
+        <step date="2024-07-16" outcome="adopted" as="Adopted without vote, 35th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/56/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-16" class="rightSmall" refersTo="#dateOfIssuance">16 July 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="56" eId="coverPage_1__session_1">第五十六届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-06-18" refersTo="#startDate">18 六月</date>
+          <date date="2024-07-12" refersTo="#endDate">12 七月 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、 经济、社会和文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2024年7月11日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>56/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">在和平抗议的背景下促进和保护人权</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="重申" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold">	重申</span>《联合国宪章》的宗旨和原则，</p>
+      </container>
+      <container name="又重申" eId="container_3">
+        <p xml:space="preserve">
+          <span class="bold">	又重申</span>《世界人权宣言》和《维也纳宣言和行动纲领》，并回顾《公民及政治权利国际公约》和《经济社会文化权利国际公约》及其他相关国际和区域人权文书，</p>
+      </container>
+      <container name="回顾" eId="container_4">
+        <p xml:space="preserve">
+          <span class="bold">	回顾</span>《个人、群体和社会机构在促进和保护普遍公认的人权和基本自由方面的权利和义务宣言》，</p>
+      </container>
+      <container name="重申" eId="container_5">
+        <p xml:space="preserve">
+          <span class="bold">	重申</span>联合国会员国业已根据《世界人权宣言》誓愿同联合国合作，促进对所有人的人权和基本自由的普遍尊重和遵行，不分种族、肤色、性别、语言、宗教、政治或其他见解、民族或社会出身、财产、出生或其他身份，</p>
+      </container>
+      <container name="回顾" eId="container_6">
+        <p xml:space="preserve">
+          <span class="bold">	回顾</span>理事会关于在和平抗议背景下促进和保护人权问题的2011年6月17日第17/120号决定及2012年3月23日第19/35号决议、2013年3月21日第22/10号决议、2014年3月28日第25/38号决议、2016年3月24日第31/37号决议、2018年7月6日第38/11号决议、2020年7月17日第44/20号决议和2022年7月8日第50/21号决议，以及人权理事会的其他相关决议，</p>
+      </container>
+      <container name="又回顾" eId="container_7">
+        <p xml:space="preserve">
+          <span class="bold">	又回顾</span>理事会2020年6月19日关于促进和保护非洲人和非洲人后裔的人权和基本自由，使其免受执法人员实施的过度使用武力和其他侵犯人权行为侵害的第43/1号决议，</p>
+      </container>
+      <container name="确认" eId="container_8">
+        <p xml:space="preserve">
+          <span class="bold">	确认</span>根据《世界人权宣言》、《公民及政治权利国际公约》和《消除一切形式种族歧视国际公约》，和平集会自由权、表达自由权和结社自由权是国家按照适用的国际人权文书规定的义务保障所有人享有的人权，虽然行使这些权利可能受到某些限制，</p>
+      </container>
+      <container name="又确认" eId="container_9">
+        <p xml:space="preserve">
+          <span class="bold">	又确认</span>任何此类限制必须以法律为依据，为追求合理目的所必需并与之相称，符合国家根据适用的国际人权文书承担的义务；如果实行限制，应提供迅速、称职、独立和公正的司法审查或行政审查途径，</p>
+      </container>
+      <container name="还确认" eId="container_10">
+        <p xml:space="preserve">
+          <span class="bold">	还确认</span>对和平集会自由权施加任何限制都必须符合《公民及政治权利国际公约》第二十一条，根据具体情况逐案处理，避免对这项权利施加不必要和不相称的限制，而且任何此类限制不得具有歧视性，不得损害这项权利的实质，也不得以阻止参加集会为目的，	</p>
+      </container>
+      <container name="重申" eId="container_11">
+        <p xml:space="preserve">
+          <span class="bold">	重申</span>政府采取的紧急措施必须是必要的，与所评估的风险相称，以非歧视性方式实施，有具体的重心和期限，并符合国家根据适用的国际人权法所承担的义务，</p>
+      </container>
+      <container name="回顾" eId="container_12">
+        <p xml:space="preserve">
+          <span class="bold">	回顾</span>《公民及政治权利国际公约》第二十一条，承认和平集会可在户外、在室内或在网上举行，在公共场所或在私人场所举行，或以混合方式举行，可以是固定或流动的，而且这种集会可以采取多种形式，包括抗议的形式，</p>
+      </container>
+      <container name="又回顾" eId="container_13">
+        <p xml:space="preserve">
+          <span class="bold">	又回顾</span>各国负有促进和保护人权及基本自由的主要责任，包括在和平抗议等集会背景下促进和保护人权及基本自由，并确保作为行使和平集会自由权、表达自由权和结社自由权国家框架的国家法律、政策和实践符合其国际人权义务和承诺，</p>
+      </container>
+      <container name="承认" eId="container_14">
+        <p xml:space="preserve">
+          <span class="bold">	承认</span>参加和平抗议可以是行使和平集会自由权、表达自由权、结社自由权和参与公共事务自由权的一种重要形式，</p>
+      </container>
+      <container name="注意到" eId="container_15">
+        <p xml:space="preserve">
+          <span class="bold">	注意到</span>妥善管理集会对于在集会之前、期间和之后尊重和保护人权至关重要，重点是对集会进行疏导，目的在于帮助集会和平举行，防止参加和监测抗议者、医务人员、旁观者和执法人员出现伤亡情况，</p>
+      </container>
+      <container name="承认" eId="container_16">
+        <p xml:space="preserve">
+          <span class="bold">	承认</span>所有社会中均可能发生和平抗议，包括自发的、同时举行的、未经许可的、未经申报的和受到限制的抗议，并承认这类抗议属于《公民及政治权利国际公约》第二十一条的范围，</p>
+      </container>
+      <container name="确认" eId="container_17">
+        <p xml:space="preserve">
+          <span class="bold">	确认</span>和平抗议可以为可持续和平、民主过渡、民主制度的发展、强化和发挥作用作出积极贡献，可以推进包括选举和公投在内的民主进程以及法治，</p>
+      </container>
+      <container name="又确认" eId="container_18">
+        <p xml:space="preserve">
+          <span class="bold">	又确认</span>和平抗议历来对建设更加公正、平等和负责任的社会发挥着建设性的社会和政治作用，和平抗议可以继续为人类发展、推进环境正义和种族正义、和平与过渡期正义以及人们充分享有公民、政治、经济、社会及文化权利作出积极贡献，</p>
+      </container>
+      <container name="还确认" eId="container_19">
+        <p xml:space="preserve">
+          <span class="bold">	还确认</span>应将和平抗议视为一种空间，在这里，面临边缘化和歧视的个人、社群和团体可以安全聚集，藉此表达自己的观点和意见，主张其各自的权利；同时关切地注意到，在世界许多地方，民间社会和公民行动的空间正在缩小；特别指出需要确保和加强包容、多样和切实的参与，包括在危机时期，而不加任何歧视，</p>
+      </container>
+      <container name="重申" eId="container_20">
+        <p xml:space="preserve">
+          <span class="bold">	重申</span>人人有权享有生命、自由和人身安全，</p>
+      </container>
+      <container name="又重申" eId="container_21">
+        <p xml:space="preserve">
+          <span class="bold">	又重申</span>绝对禁止在任何情况下实施酷刑和其他残忍、不人道或有辱人格的待遇或处罚，包括在和平抗议的背景下，甚至在集会不再和平的情况下，</p>
+      </container>
+      <container name="还重申" eId="container_22">
+        <p xml:space="preserve">
+          <span class="bold">	还重申</span>参加公开和平抗议应完全出于自愿，不受强迫，</p>
+      </container>
+      <container name="回顾" eId="container_23">
+        <p xml:space="preserve">
+          <span class="bold">	回顾</span>和平集会自由权、表达自由权和结社自由权包括组织集会、传播集会信息以及参加、观察、监测和记录集会，</p>
+      </container>
+      <container name="因此强调" eId="container_24">
+          <p xml:space="preserve">
+            <span class="bold">	因此强调</span>，每个人，包括秉持少数或者不同意见和信仰的人，必须能够通过公开抗议等形式，以和平方式表达自己的不满和愿望，而不必担心遭到报复或受到恐吓、骚扰、伤害、性侵害、殴打、任意逮捕或拘留、酷刑、杀害，或遭受强迫失踪，或面临刑事或民事滥诉，</p>
+      </container>
+      <container name="深为关切" eId="container_25">
+        <p xml:space="preserve">
+          <span class="bold">	深为关切</span>在世界各个区域，包括在武装冲突和占领局势中，行使和平集会自由、表达自由和结社自由权利者受到法外处决、即审即决或任意处决、任意逮捕和拘留、强迫失踪、酷刑和其他残忍、不人道或有辱人格的待遇或处罚以及暴力，包括性暴力和性别暴力，</p>
+      </container>
+      <container name="承认" eId="container_26">
+        <p xml:space="preserve">
+          <span class="bold">	承认</span>妇女、儿童、土著人民、移民、非洲人后裔、在民族或族裔、宗教和语言上属于少数群体的人、残疾人和其他受歧视和边缘化群体成员在参加抗议活动时特别容易受到执法人员非法或过度使用武力的伤害，</p>
+      </container>
+      <container name="重申" eId="container_27">
+        <p xml:space="preserve">
+          <span class="bold">	重申</span>妇女和女童充分、切实和积极地参与公共生活，对于实现平等、可持续发展以及和平和民主至关重要，需要用有效的政策、公众活动和教育方案消除有关性别角色和能力的歧视性社会规范、态度和有害成见，这些陈规陋习阻碍她们参与公共生活以及行使和平集会自由权、意见和表达自由权及结社自由权，包括参加和平抗议，</p>
+      </container>
+      <container name="注意到" eId="container_28">
+        <p xml:space="preserve">
+          <span class="bold">	注意到</span>虽然集会通常被理解为人们的实际聚集，但国际人权法给予的保护，包括对和平集会自由权、表达自由权和结社自由权的保护，也适用于在网上进行的类似互动，</p>
+      </container>
+      <container name="承认" eId="container_29">
+        <p xml:space="preserve">
+          <span class="bold">	承认</span>新技术可以便利集会的动员和组织，推动和平集会自由权、表达自由权、结社自由权和参与公共事务自由权的行使，并承认新技术为在网上举行集会创造了空间，可便利和加强往往被边缘化的群体的参与和加入，</p>
+      </container>
+      <container name="又承认" eId="container_30">
+        <p xml:space="preserve">
+          <span class="bold">	又承认</span>，如果以符合人权的方式使用新技术，执法部门也可利用新技术为疏导集会提供支持，提高和加强与集会有关的执法行动的透明度和问责制，包括妥善记录各级执法人员作出的所有决定、行动和命令及其背后的理由，</p>
+      </container>
+      <container name="强调" eId="container_31">
+        <p xml:space="preserve">
+          <span class="bold">	强调</span>不应将和平抗议及其组织者和参加者视作威胁或对其污名化，因此吁请各国在处理和平抗议及其原因时开展公开、包容和有意义的对话，</p>
+      </container>
+      <container name="回顾" eId="container_32">
+        <p xml:space="preserve">
+          <span class="bold">	回顾</span>各国必须保护和疏导同样属于集会的和平反示威，同时防止对它们所反对的集会造成不当干扰，	</p>
+      </container>
+      <container name="又回顾" eId="container_33">
+        <p xml:space="preserve">
+          <span class="bold">	又回顾</span>不得因他人在抗议过程中实施的孤立暴力行为而剥夺和平人士的和平集会自由权、表达自由权和结社自由权，</p>
+      </container>
+      <container name="铭记" eId="container_34">
+        <p xml:space="preserve">
+          <span class="bold">	铭记</span>可以在组织者、抗议者、地方当局和执法人员相互沟通协作的基础上，对和平集会进行疏导，</p>
+      </container>
+      <container name="确认" eId="container_35">
+        <p xml:space="preserve">
+          <span class="bold">	确认</span>和平抗议就其性质而言可能对日常生活，例如对车辆或行人流动或经济活动造成一定程度的干扰，并呼吁各国寻求解决办法，对这类集会进行疏导，同时维护其他所有利益攸关方的权利，</p>
+      </container>
+      <container name="又确认" eId="container_36">
+        <p xml:space="preserve">
+          <span class="bold">	又确认</span>国家人权机构以及包括人权维护者和非政府组织在内的民间社会代表可发挥有益作用，促进组织者、参加和平抗议的个人与有关当局不断对话，</p>
+      </container>
+      <container name="回顾" eId="container_37">
+        <p xml:space="preserve">
+          <span class="bold">	回顾</span>《执法人员行为守则》和《执法人员使用武力和火器的基本原则》，并回顾《关于调查潜在非法死亡的明尼苏达规程》，</p>
+      </container>
+      <container name="又回顾" eId="container_38">
+        <p xml:space="preserve">
+          <span class="bold">	又回顾</span>联合国人权事务高级专员办事处发布的《联合国关于执法中使用低致命武器的人权指南》，这是对《执法人员使用武力和火器的基本原则》的补充，鼓励所有国家在涉及集会的执法行动中适用这项指南，</p>
+      </container>
+      <container name="鼓励" eId="container_39">
+        <p xml:space="preserve">
+          <span class="bold">	鼓励</span>所有国家适当采用高级专员办事处和联合国毒品和犯罪问题办公室发布的《关于执法中使用武力和火器的资料手册》以及高级专员办事处关于人权法与执法问题的最新培训包，</p>
+      </container>
+      <container name="回顾" eId="container_40">
+        <p xml:space="preserve">
+          <span class="bold">	回顾</span>务必对负责疏导集会的执法人员和私营机构人员进行充分的培训、监督和问责并提供适当的装备，着重指出有关当局应避免在和平抗议的背景下部署军队或任何军事人员、战术或装备或官方执法指挥系统以外的其他人员，同时重申国家关于在执法中使用武力问题的国际义务和承诺亦适用于履行执法任务的军事人员，</p>
+      </container>
+      <container name="重申" eId="container_41">
+        <p xml:space="preserve">
+          <span class="bold">	重申</span>在武装冲突包括军事占领局势中，国际人权法和国际人道法互为补充、相辅相成，各国在和平抗议期间，包括在使用武力和火器时，必须遵守国际人权法规定的适用义务，</p>
+      </container>
+      <container name="确认" eId="container_42">
+        <p xml:space="preserve">
+          <span class="bold">	确认</span>执法对尊重和保护人的尊严以及维护和捍卫所有人的人权，包括疏导集会起着关键性作用，强调执法部门的指挥系统有责任在其所拥有的权力范围内防止侵犯人权行为、保护人权，</p>
+      </container>
+      <container name="表示深为关切" eId="container_43">
+        <p xml:space="preserve">	<span class="bold">表示深为关切</span>和平抗议遭到镇压的情况，包括执法人员非法和(或)过度使用武力、执法军事化、滥用低致命性武器、任意逮捕和拘留、不公正审判、酷刑或其他残忍、不人道或有辱人格的待遇或处罚、暴力(包括性暴力和性别暴力)、强迫失踪、袭击抗议者和旁观者以及人权维护者、律师、记者和其他媒体工作者及医务人员，以及实施断网等不当限制，</p>
+      </container>
+      <container name="表示关切" eId="container_44">
+        <p xml:space="preserve">
+          <span class="bold">	表示关切</span>对参加和平抗议的人在实际空间和网上进行的任意和非法监视，包括使用闭路电视和空中监视工具，以及使用新的和新近出现的数字跟踪工具，如生物识别技术，包括面部和情绪识别及国际移动用户身份捕捉器(“黄貂鱼”)，</p>
+      </container>
+      <container name="又表示关切" eId="container_45">
+        <p xml:space="preserve">
+          <span class="bold">	又表示关切</span>世界各地都有个人和团体仅仅因为组织或参加了和平抗议，因为观察、监测或记录了抗议活动，或为抗议者提供医疗支持或维护抗议者的权利而被定罪和起诉，包括正当程序和公正审判保障受到破坏或通过军事法庭进行审判，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_46" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>各国有责任，包括在和平抗议的背景下，促进和保护人权，防止侵犯和践踏人权行为，包括法外处决、即审即决或任意处决，任意逮捕和拘留，强迫失踪，酷刑和其他残忍、不人道或有辱人格的待遇或处罚；吁请各国在任何时候避免滥用或威胁滥用刑事或民事诉讼程序；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有国家营造安全有利的环境，以便于个人和团体在线上和线下行使和平集会自由权、表达自由权和结社自由权，包括确保涉及和平集会自由权、表达自由权和结社自由权的国内各级法律和程序符合本国的国际人权义务和承诺，清楚明确地确立有利于行使这些权利的前提推定，并确保这些权利得到有效落实；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国确保与国家安全、公共秩序和公共卫生有关的法律符合根据国际法，特别是国际人权法承担的义务，以防止对和平抗议进行不应有的刑事定罪、限制或禁止；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="bold">又吁请</span>各国停止使用对抗议者污名化的言论，在寻求解决危机和消除其原因的办法时，以包容方式争取与抗议者进行对话；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="bold">着重指出</span>，有必要对集会包括和平抗议进行管理，以推动集会和平举行，避免非法或过度使用武力，防止抗议者、观察、监测和记录此类集会的人员、旁观者、医务人员和执法人员伤亡，包括受伤致残，防止任何侵犯或践踏人权行为，确保对此类侵犯和践踏人权行为追究责任，并向受害者提供补救和赔偿渠道；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtGC">
+        <num>6.</num>
+        <list eId="para_61_list">
+          <intro eId="para_61_list_intro">
+            <p xml:space="preserve">	<span class="bold">鼓励</span>所有国家对根据最佳做法和经验教训编写的妥善管理集会问题实用建议汇编<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/HRC/31/66。</p></authorialNote> 给予应有的考虑，其中：</p>
+          </intro>
+          <point eId="para_61_list_point_a">
+            <num>(a)</num>
+            <content eId="para_61_list_point_a_content">
+              <p xml:space="preserve">	对在集会，包括和平抗议之前、期间和之后所涉及的人权，包括和平集会自由权、表达自由权、结社自由权、宗教或信仰自由权、参与公共事务的权利、生命、人身自由和安全权、免遭酷刑和残忍、不人道或有辱人格的待遇或处罚的权利、因所有侵犯人权行为获得有效补救的权利以及对人的尊严、身体完整和隐私的尊重进行了评估；</p>
+            </content>
+          </point>
+          <point eId="para_61_list_point_b">
+            <num>(b)</num>
+            <content eId="para_61_list_point_b_content">
+              <p xml:space="preserve">	为各国提供了一项工具，说明如何履行它们的义务和承诺，包括如何在本国的各级法律、程序和惯例中落实这种义务和承诺，在包括和平抗议在内的集会背景下促进和保护人权；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>和平集会自由权和结社自由权特别报告员与联合国毒品和犯罪问题办公室和联合国人权事务高级专员办事处合作，根据国际标准和最佳做法开发了具体的技术和实用工具包，以协助执法人员运用人权理事会第50/21号决议、《执法人员在和平抗议背景下促进和保护人权示范规程》<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		见A/HRC/55/60。</p></authorialNote> 及其三个补充部分，包括注重行动的核对清单、执法人员在和平抗议背景下使用数字技术指南以及执法人员对和平抗议进行疏导的手册大纲，在和平抗议的背景下促进和保护人权；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>所有国家考虑到《示范规程》，其中提出了切实可行的建议，目的是协助各国及其执法机构和执法人员加强必要的体制能力、规则、规程、策略和程序，履行本国的国际人权义务，特别是在对和平抗议进行疏导时尊重、促进和保护人权；请各国按照国际人权法、人权标准和最佳做法，酌情修订或通过关于以符合人权的方式疏导和平抗议的执法规程，以便在抗议的背景下加强问责、保护人权；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国对和平抗议进行疏导，尽可能向抗议者提供其目标受众能够看到和听到的公共场所，必要时不加歧视地保护抗议者免遭任何形式的威胁或骚扰，着重指出地方当局应在这方面发挥作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="bold">着重指出</span>组织者、抗议者、地方当局和执法人员之间的沟通可在和平抗议等集会的妥善管理中发挥重要作用，吁请各国建立适当沟通渠道；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>各国特别注意妇女和女童以及女性人权维护者在和平抗议中的安全和保护，建立制度以防止和应对恐吓、骚扰和暴力行为，包括性暴力和性别暴力，并颁布注意到性别问题的抗议活动警务规程，确保执法人员得到这方面的充分和持续的培训；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>各国必须采取一切适当措施，确保儿童的安全和保护，包括确保他们在和平抗议等背景下行使和平集会自由权、表达自由权和结社自由权时的安全和保护，并强调需要在执法指南中充分考虑到儿童权利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有国家考虑到观察、监测和记录抗议活动的人，包括人权维护者、律师、记者和其他媒体工作者作用特殊、面临风险并且容易成为目标，对他们的安全和保护予以特别关注，即使抗议活动已被宣布为非法或被驱散；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国在抗议之前、期间和之后采取措施，保护所有个人，特别关注那些尤其容易遭受暴力，包括受到执法人员非法或过度使用武力伤害的群体成员；	</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="SingleTxtGC">
+        <num>15.</num>
+        <content eId="para_151__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有国家不要采取并停止采取侵犯人权的措施，包括通过断网中断通信的做法，或非法或任意封锁或关闭媒体网站或社交网络的措施，以及其他广泛限制互联网接入、限制在网上传播信息或限制在网上空间集会的做法，或对加入某些团体的人进行监视，在抗议活动中有针对性地使用间谍软件，因为这类行动可能不符合国际人权法，同时必须铭记不应将抗议视为利用数字技术进行监视或追求更广泛的执法目标的机会；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxtGC">
+        <num>16.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>所有国家避免在和平抗议期间使用武力，优先考虑冲突降级策略，即使在绝对需要使用武力的情况下，也不对任何人过度或无差别使用武力，并确保尽早向任何受伤或受影响的人提供援助和医疗救助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_182" class="SingleTxtGC">
+        <num>17.</num>
+        <content eId="para_182__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有国家优先确保国家法律和程序符合其关于执法过程中使用武力问题的国际义务和承诺，尤其是必要性和相称性等适用的执法原则，并确保执法人员切实执行这些法律和程序，同时铭记致命武力只可作为不得已采用的最后手段用以防范迫在眉睫的生命威胁，不得仅仅为驱散集会而使用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="SingleTxtGC">
+        <num>18.</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve">	<span class="bold">申明</span>绝无理由无差别地对人群使用致命武力，这属于国际人权法下的非法行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxtGC">
+        <num>19.</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国调查抗议期间发生的任何死亡或重大伤害如致残情况，包括因执法人员或代表国家行事的私营部门人员开火或使用低致命武器所致伤亡情况，并强调需要确保充分追究责任；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_236" class="SingleTxtGC">
+        <num>20.</num>
+        <content eId="para_236__content">
+          <p xml:space="preserve">	<span class="bold">又吁请</span>各国确保对执法人员进行注重人权并顾及性别、残疾和年龄问题的充分的初步和持续培训，并在适用情况下，促进对代表国家有效疏导抗议活动的私营部门人员进行这种充分培训，这种培训应向包括指挥官在内的所有人提供，强调学习实用技能，优先考虑疏导、沟通、谈判、冲突降级和符合人权的人群疏导技巧，包括提供关于预防性暴力和性别暴力以及关于弱势个人和群体的具体需求的专门课程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_256" class="SingleTxtGC">
+        <num>21.</num>
+        <content eId="para_256__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国向执法人员提供适当的防护装备和低致命武器，以减少他们使用任何种类武器的需要，同时继续努力规范低致命武器的培训和使用并制定相应规程，牢记即便低致命武器也会造成生命危险、重伤、酷刑或其他虐待；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxtGC">
+        <num>22.</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="bold">着重指出</span>，低致命武器在采购和部署前须先进行彻底和独立的测试，以确定其致命性和可能致伤的程度，须监督有关此类武器的适当培训和使用情况，并在所有阶段推行问责制；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_299" class="SingleTxtGC">
+        <num>23.</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve">
+            <span class="bold">	吁请</span>所有国家按照绝对禁止酷刑和其他残忍、不人道或有辱人格的待遇或处罚的规定，采取一切适当有效的立法、行政、司法及其他措施，防止和禁止生产、买卖、出口、进口和使用除酷刑或其他残忍、不人道或有辱人格的待遇或处罚外(包括在抗议的背景下)无其他实际用途的执法工具和设备；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_322" class="SingleTxtGC">
+        <num>24.</num>
+        <content eId="para_322__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>必须开展国际合作，支持各国努力在集会包括和平抗议背景下促进和保护人权及基本自由，以便提高执法机构以符合国际人权法和人权标准的方式应对此类集会的能力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="SingleTxtGC">
+        <num>25.</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国避免仅仅因个人或团体组织、参加或观察、监测或记录了和平抗议便使用数字技术使其噤声、对其进行任意或非法监视或骚扰，并避免下令全面断网以及在抗议前后或关键政治时刻封锁网站和平台；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_371" class="SingleTxtGC">
+        <num>26.</num>
+        <content eId="para_371__content">
+          <p xml:space="preserve">	<span class="bold">申明</span>在抗议之前、期间或之后，不得以不符合国际人权法以及合法性、必要性和相称性原则的方式，使用数字技术，包括非法或任意使用生物识别手段，对个人，特别是属于弱势群体的个人进行分类、定性或远程识别，因为这些技术可以具有歧视性，不符合执法人员对和平抗议进行疏导的义务，敦促各国不要使用这种技术来识别和平参加集会者的身份；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_397" class="SingleTxtGC">
+        <num>27.</num>
+        <content eId="para_397__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国在评估认为有合理理由怀疑监控器材、技术或低致命武器可能用于侵犯或践踏人权，包括在集会中使用时，根据适用的国家程序和国际规范及标准，避免出口、销售或转让此类器材、技术和武器；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_424" class="SingleTxtGC">
+        <num>28.</num>
+        <content eId="para_424__content">
+          <p xml:space="preserve">	<span class="bold">又吁请</span>各国避免对保障和保护数字通信机密性的技术解决办法，包括在线加密、化名和匿名措施，施加任何不当限制，因为这些技术对于确保在集会背景下享有人权，特别是隐私权非常重要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_452" class="SingleTxtGC">
+        <num>29.</num>
+        <content eId="para_452__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>必须对和平抗议背景下发生的侵犯和践踏人权行为进行记录和监测，包括记录伤亡情况，国家人权机构、包括非政府组织在内的民间社会、记者及其他媒体工作者、互联网用户、人权维护者和律师可在这方面发挥重要作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_481" class="SingleTxtGC">
+        <num>30.</num>
+        <content eId="para_481__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>各国确保根据法律并依照其国际人权义务和承诺，通过司法或其他国家机制对侵犯和践踏人权行为追究责任，包括在和平抗议的背景下，为所有受害者提供获得补救和赔偿的渠道；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_511" class="SingleTxtGC">
+        <num>31.</num>
+        <content eId="para_511__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国酌情为疏导集会寻求相关技术援助，包括寻求联合国人权事务高级专员办事处、联合国毒品和犯罪问题办公室和其他专门机构的技术援助，并寻求人权理事会相关特别程序和区域人权机制的技术援助；	</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_542" class="SingleTxtGC">
+        <num>32.</num>
+        <content eId="para_542__content">
+          <p xml:space="preserve">	<span class="bold">请</span>所有国家考虑在普遍定期审议期间酌情向受审议国提出关于在集会的背景下促进和保护人权的建议，包括对和平抗议等集会进行疏导的建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_574" class="SingleTxtGC">
+        <num>33.</num>
+        <content eId="para_574__content">
+          <p xml:space="preserve">	<span class="bold">请</span>和平集会自由权和结社自由权特别报告员与高级专员办事处和联合国毒品和犯罪问题办公室合作，在人权理事会第六十二届会议之前举行一次全球协商，讨论不同利益攸关方在推广应用根据理事会第50/21号决议开发的技术和实用工具包方面的作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_607" class="SingleTxtGC">
+        <num>34.</num>
+        <content eId="para_607__content">
+          <p xml:space="preserve">	<span class="bold">请</span>高级专员办事处与和平集会自由权和结社自由权特别报告员以及联合国毒品和犯罪问题办公室合作，根据人权理事会第50/21号决议，在第六十五届会议之前，通过与一国达成协议，在每个区域举办技术合作国内讲习班和开展后续活动，支持在国家一级采用执法人员实用工具包；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_641" class="SingleTxtGC">
+        <num>35.</num>
+        <content eId="para_641__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续审议本议题。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第35次" refersTo="#adoptionMeeting">第35次会议</location>
+          <eol />
+          <docDate date="2024-07-11" refersTo="#adoptionDate">2024年7月11日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决通过]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
