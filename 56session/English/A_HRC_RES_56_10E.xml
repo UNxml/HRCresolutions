@@ -1,0 +1,599 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/"></FRBRuri>
+          <FRBRdate date="2024-07-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/eng@/"></FRBRuri>
+          <FRBRdate date="2024-07-16" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="PUBLIC DEMONSTRATIONS" href="http://metadata.un.org/thesaurus/1005244" showAs="PUBLIC DEMONSTRATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LAW ENFORCEMENT" href="http://metadata.un.org/thesaurus/1003644" showAs="LAW ENFORCEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT OF ASSEMBLY" href="http://metadata.un.org/thesaurus/1005549" showAs="RIGHT OF ASSEMBLY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF ASSOCIATION" href="http://metadata.un.org/thesaurus/1002523" showAs="FREEDOM OF ASSOCIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/56/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-07-09" outcome="draftResolution" as="A/HRC/56/L.19/Rev.1" by="Albania, Australia, Austria, Belgium, Bulgaria, Canada, Chile, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Marshall Islands, Mexico, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Paraguay, Peru, Poland, Portugal, Republic of Moldova, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Switzerland and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-07-16" outcome="recommendedForAdoption" by="" />
+        <step date="2024-07-16" outcome="adopted" as="Adopted without vote, 35th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/56/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-16" class="rightSmall" refersTo="#dateOfIssuance">16 July 2024</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="56" eId="coverPage_1__session_1">Fifty-sixth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-06-18" refersTo="#startDate">18 June</date>
+          <date date="2024-07-12" refersTo="#endDate">12 July 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 11 July 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>56/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">The promotion and protection of human rights in the context of  peaceful protests</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Reaffirming" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>the purposes and principles of the Charter of the United Nations,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming also </span>the Universal Declaration of Human Rights and the Vienna Declaration and Programme of Action, and recalling the International Covenant on Civil and Political Rights and the International Covenant on Economic, Social and Cultural Rights, and other relevant international and regional human rights instruments, </p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>the Declaration on the Right and Responsibility of Individuals, Groups and Organs of Society to Promote and Protect Universally Recognized Human Rights and Fundamental Freedoms,</p>
+      </container>
+      <container name="Reaffirming" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>that, consistent with the Universal Declaration of Human Rights, States Members of the United Nations have pledged to achieve, in cooperation with the United Nations, the promotion of universal respect for and observance of human rights and fundamental freedoms for all without distinction such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status,</p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>its decision 17/120 of 17 June 2011 and its resolutions 19/35 of 23 March 2012, 22/10 of 21 March 2013, 25/38 of 28 March 2014, 31/37 of 24 March 2016, 38/11 of 6 July 2018, 44/20 of 17 July 2020 and 50/21 of 8 July 2022 on the promotion and protection of human rights in the context of peaceful protests, and other relevant resolutions of the Human Rights Council,</p>
+      </container>
+      <container name="Recalling also" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also</span> its resolution 43/1 of 19 June 2020 on the promotion and protection of the human rights and fundamental freedoms of Africans and of people of African descent against excessive use of force and other human rights violations by law enforcement officers,</p>
+      </container>
+      <container name="Recognizing" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>that, pursuant to the Universal Declaration of Human Rights, the International Covenant on Civil and Political Rights and the International Convention on the Elimination of All Forms of Racial Discrimination, the rights to freedom of peaceful assembly, of expression and of association are human rights guaranteed to all, while their exercise may be subject to certain restrictions, in accordance with States’ obligations under applicable international human rights instruments,</p>
+      </container>
+      <container name="Recognizing also" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing also </span>that any such restrictions must be based in law, and be necessary and proportionate to further a legitimate aim, in accordance with the State’s obligations under applicable international human rights instruments, and that, if imposed, administrative or judicial review that is prompt, competent, independent and impartial should be available,</p>
+      </container>
+      <container name="Recognizing further" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing further </span>that the imposition of any restriction to the right to freedom of peaceful assembly must be in line with article 21 of the International Covenant on Civil and Political Rights, be imposed on a case-by-case basis, avoiding unnecessary and disproportionate limitations on it, and that any such restriction must not be discriminatory, impair the essence of the right or be aimed at discouraging participation in assemblies, </p>
+      </container>
+      <container name="Reaffirming" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>that emergency measures taken by Governments must be necessary, proportionate to the evaluated risk and applied in a non‑discriminatory way, have a specific focus and duration and be in accordance with the State’s obligations under applicable international human rights law,</p>
+      </container>
+      <container name="Recalling" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>article 21 of the International Covenant on Civil and Political Rights, and acknowledging that peaceful assemblies can take place outdoors, indoors or online, in public or private spaces, or in a combination thereof, be stationary or mobile, and that they can take many forms, including protests, </p>
+      </container>
+      <container name="Recalling also" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also </span>that States have the primary responsibility for the promotion and protection of human rights and fundamental freedoms, including in the context of assemblies such as peaceful protests, and to ensure that national legislation, policies and practices, as the national framework for the exercise of the rights to freedom of peaceful assembly, of expression and of association, are in compliance with their international human rights obligations and commitments, </p>
+      </container>
+      <container name="Acknowledging" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging </span>that participation in peaceful protests can be an important form of exercising the rights to the freedom of peaceful assembly, of expression, of association and of participation in the conduct of public affairs, </p>
+      </container>
+      <container name="Noting" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">		Noting </span>that the proper management of assemblies is central to respect for and the protection of human rights before, during and after an assembly, when focused on its facilitation and with the aim to contribute to its peaceful conduct and to prevent injuries to and loss of life of those participating in and monitoring such protests, medical personnel, bystanders and officials exercising law enforcement duties,</p>
+      </container>
+      <container name="Acknowledging" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging </span>that peaceful protests may occur in all societies, including protests that are spontaneous, simultaneous, unauthorized, unnotified or restricted, and that such protests fall within the scope of article 21 of the International Covenant on Civil and Political Rights,</p>
+      </container>
+      <container name="Recognizing" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>that peaceful protests can make a positive contribution to sustainable peace, democratic transitions and the development, strengthening and effectiveness of democratic systems and to democratic processes, including elections and referendums, as well as to the rule of law, </p>
+      </container>
+      <container name="Recognizing also" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing also </span>that peaceful protests have historically played a constructive social and political role in the development of more just, equal and accountable societies, and that such protests can continue to make a positive contribution to human development, the advancement of environmental and racial justice, peace and transitional justice and to the full enjoyment of civil, political, economic, social and cultural rights,</p>
+      </container>
+      <container name="Recognizing further" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing further</span> that peaceful protests should be seen as spaces where individuals, communities and groups facing marginalization and discrimination can safely assemble to voice their views and opinions and to claim their individuals rights, while noting with concern that the space for civil society and citizen activism is shrinking in many parts of the world, and underscoring the need to ensure and strengthen inclusive, diverse and meaningful participation, including in times of crisis, without discrimination of any kind,</p>
+      </container>
+      <container name="Reaffirming" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>that everyone has the right to life, liberty and security of person,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming also </span>the absolute prohibition of torture and other cruel, inhuman or degrading treatment or punishment in all circumstances<span class="italic">, </span>including in the context of peaceful protests and even when an assembly is no longer peaceful,</p>
+      </container>
+      <container name="Reaffirming further" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming further </span>that participation in public and peaceful protests should be entirely voluntary and uncoerced,</p>
+      </container>
+      <container name="Recalling" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>that the rights to freedom of peaceful assembly, of expression and of association include organizing, disseminating information about, participating in, observing, monitoring and recording assemblies,</p>
+      </container>
+      <container name="," eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing </span>therefore that everyone, including persons espousing minority or dissenting views or beliefs, must be able to express their grievances or aspirations in a peaceful manner, including through public protests, without fear of reprisal or of being intimidated, harassed, injured, sexually assaulted, beaten, arbitrarily arrested or detained, tortured, killed or subjected to enforced disappearance<span class="bold">,</span> or subjected to abusive criminal or civil proceedings,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">		Deeply concerned </span>about extrajudicial, summary or arbitrary executions, arbitrary arrests and detention, enforced disappearances, torture and other cruel, inhuman or degrading treatment or punishment of, and violence, including sexual and gender-based violence, against persons exercising their rights to freedom of peaceful assembly, of expression and of association in all regions of the world, including in situations of armed conflict and occupation,</p>
+      </container>
+      <container name="Acknowledging" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging</span> that women, children, Indigenous Peoples, migrants, people of African descent, persons belonging to national or ethnic, religious and linguistic minorities, persons with disabilities and other persons belonging to groups who are discriminated against and marginalized are particularly vulnerable to unlawful or excessive use of force by law enforcement officials while taking part in protests,</p>
+      </container>
+      <container name="Reaffirming" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>that the full, meaningful and active participation of women and girls in public life is essential to the achievement of equality, sustainable development, peace and democracy, and that effective policies, public campaigns and educational programmes are necessary to combat discriminatory social norms, attitudes and harmful stereotypes about gender roles and capabilities that discourage involvement in public life and the exercise of the rights to freedom of peaceful assembly, of opinion and expression and of association, such as in peaceful protests,</p>
+      </container>
+      <container name="Noting" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">		Noting </span>that, although an assembly has generally been understood as a physical gathering of people, the protections guaranteed by international human rights law, including for the rights to freedom of peaceful assembly, of expression and of association, also apply to analogous interactions taking place online,</p>
+      </container>
+      <container name="Acknowledging" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging</span> that new technologies can be enablers for the exercise of the rights to freedom of peaceful assembly, of expression, of association and of participation in the conduct of public affairs by facilitating mobilization for and the organization of assemblies, and acknowledging also that they create space for the holding of assemblies online and may facilitate and enhance the involvement and participation of those often marginalized,</p>
+      </container>
+      <container name="Acknowledging also" eId="container_30">
+        <p xml:space="preserve">		<span class="italic">Acknowledging also</span> that, if used in a manner compliant with human rights, new technologies may also be used by law enforcement to support the facilitation of assemblies and increase transparency and accountability of law enforcement operations relating to assemblies, including by keeping proper records of all decisions, actions and orders made by law enforcement officials at all levels and the rationale behind them, </p>
+      </container>
+      <container name="Stressing" eId="container_31">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing </span>that peaceful protests, their organizers and their participants should not be viewed as a threat nor stigmatized, and therefore calling upon all States to engage in an open, inclusive and meaningful dialogue when dealing with peaceful protests and their causes,</p>
+      </container>
+      <container name="Recalling" eId="container_32">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>that States must protect and facilitate peaceful counterdemonstrations as assemblies in their own right, while preventing undue disruption to the assemblies to which they are opposed,		</p>
+      </container>
+      <container name="Recalling also" eId="container_33">
+        <p xml:space="preserve"> <span class="italic">Recalling also </span>that isolated acts of violence committed by others in the course of a protest do not deprive peaceful individuals of their rights to freedom of peaceful assembly, of expression and of association,</p>
+      </container>
+      <container name="Bearing in mind" eId="container_34">
+        <p xml:space="preserve">
+          <span class="italic">		Bearing in mind </span>that the peaceful conduct of assemblies can be facilitated on the basis of communication and collaboration among organizers, protesters, local authorities and officials exercising law enforcement duties,</p>
+      </container>
+      <container name="Recognizing" eId="container_35">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>that peaceful protests may entail by their nature a certain level of disruption to ordinary life, such as vehicular or pedestrian movement or economic activity, and calling upon States to seek solutions to facilitate such assemblies while upholding the rights of all other stakeholders,		</p>
+      </container>
+      <container name="Recognizing also" eId="container_36">
+        <p xml:space="preserve"> <span class="italic">Recognizing also </span>that national human rights institutions and representatives of civil society, including human rights defenders and non‑governmental organizations, can play a useful role in facilitating continued dialogue among organizers, individuals taking part in peaceful protests and the relevant authorities,</p>
+      </container>
+      <container name="Recalling" eId="container_37">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>the Code of Conduct for Law Enforcement Officials and the Basic Principles on the Use of Force and Firearms by Law Enforcement Officials, and recalling also the Minnesota Protocol on the Investigation of Potentially Unlawful Death,</p>
+      </container>
+      <container name="Recalling also" eId="container_38">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also </span>the <span class="italic">United Nations Human Rights Guidance on Less-Lethal Weapons in Law Enforcement</span> issued by the Office of the United Nations High Commissioner for Human Rights as a supplement to the Basic Principles on the Use of Force and Firearms by Law Enforcement Officials, and encouraging all States to apply it to their law enforcement operations in relation to assemblies,</p>
+      </container>
+      <container name="Encouraging" eId="container_39">
+        <p xml:space="preserve">
+          <span class="italic">		Encouraging </span>all States to make appropriate use of the <span class="italic">Resource Book on the Use of Force and Firearms in Law Enforcement</span> published by the Office of the High Commissioner and the United Nations Office on Drugs and Crime, and the updated training package of the Office of the High Commissioner on human rights law and law enforcement,</p>
+      </container>
+      <container name="Recalling" eId="container_40">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>the importance of adequate training, equipment, oversight and accountability for officials and private personnel exercising law enforcement duties assigned to the facilitation of assemblies, underlining that relevant authorities should refrain from deploying in the context of peaceful protests the army or any military-type units, tactics or equipment or other units outside the official law enforcement chain of command, while reaffirming that the State’s international obligations and commitments in relation to the use of force in the context of law enforcement apply also to such units when they are performing law enforcement duties, </p>
+      </container>
+      <container name="Reaffirming" eId="container_41">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>that, in situations of armed conflict, including military occupation, international human rights law and international humanitarian law are complementary and mutually reinforcing, and that States must comply with their applicable obligations under international human rights law during peaceful protests, including in the use of force and firearms,</p>
+      </container>
+      <container name="Recognizing" eId="container_42">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>the critical role that law enforcement plays in respecting and protecting human dignity and maintaining and upholding the human rights of all persons, including in the facilitation of assemblies, and stressing the responsibility of the chain of command within law enforcement, to the extent of the powers granted to them, to prevent human rights violations and to protect human rights, </p>
+      </container>
+      <container name="Expressing deep concern" eId="container_43">
+        <p xml:space="preserve">		<span class="italic">Expressing deep concern</span> regarding the instances in which peaceful protests have been met with repression, including through the unlawful and/or excessive use of force by law enforcement officials, the militarization of law enforcement, the misuse of less-lethal weapons, arbitrary arrests and detention, unfair trials, torture or other cruel, inhuman or degrading treatment or punishment, violence, including sexual and gender-based violence, and enforced disappearance, assaults on protesters and bystanders, as well as on human rights defenders, lawyers, journalists and other media workers and medical personnel, and undue restrictions, such as Internet shutdowns, </p>
+      </container>
+      <container name="Expressing its concern" eId="container_44">
+        <p xml:space="preserve">
+          <span class="italic">		Expressing its concern </span>at the arbitrary and unlawful surveillance, both in physical spaces and online, of individuals engaged in peaceful protests, including through the use of closed-circuit television and aerial surveillance vehicles, as well as through the use of new and emerging digital tracking tools, such as biometric technologies, including facial and emotional recognition and international mobile subscriber identity-catchers (“stingrays”),</p>
+      </container>
+      <container name="Expressing its concern also" eId="container_45">
+        <p xml:space="preserve">
+          <span class="italic">		Expressing its concern also</span> at the criminalization and prosecution, including violations of due process and fair trial guarantees or trials in military courts, in all parts of the world, of individuals and groups solely for having organized or taken part in peaceful protests, for having observed, monitored or recorded protests or for offering medical support to or defending the rights of protesters,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_46" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Recalls </span>that States have the responsibility, including in the context of peaceful protests, to promote and protect human rights and to prevent human rights violations and abuses, including extrajudicial, summary or arbitrary executions, arbitrary arrest and detention, enforced disappearances and torture and other cruel, inhuman or degrading treatment or punishment, and calls upon States to avoid the abuse of criminal and civil proceedings, or threats of such acts, at all times; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>all States to promote a safe and enabling environment for individuals and groups to exercise their rights to freedom of peaceful assembly, of expression and of association, both online and offline, including by ensuring that domestic legislation and procedures relating to the rights to freedom of peaceful assembly, of expression and of association at all levels are in conformity with their international human rights obligations and commitments to clearly and explicitly establish a presumption in favour of the exercise of these rights, and that they are effectively implemented;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States to ensure that legislation relating to national security, public order and public health is in line with their obligations under international law, in particular international human rights law, in order to prevent undue criminalization of or restrictions or bans on peaceful protests; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon </span>States to cease using rhetoric that stigmatizes protesters, and to facilitate a dialogue with them in an inclusive manner when seeking solutions for resolving a crisis and addressing its causes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">Underlines </span>the necessity to address the management of assemblies, including peaceful protests, so as to contribute to their peaceful conduct, to avoid unlawful or excessive use of force and to prevent injuries, including those that lead to disability, and loss of life of protest<span class="bold">e</span>rs, those observing, monitoring and recording such assemblies, bystanders, medical personnel and officials exercising law enforcement duties, as well as any human rights violation or abuse, to ensure accountability for such violations and abuses and to provide victims with access to a remedy and redress;		</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtG">
+        <num>6.</num>
+        <list eId="para_61_list">
+          <intro eId="para_61_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Encourages </span>all States to give due consideration to the compilation of practical recommendations for the proper management of assemblies based on best practices and lessons learned,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/HRC/31/66.</p></authorialNote> which provides: </p>
+          </intro>
+          <point eId="para_61_list_point_a">
+            <num>(a)</num>
+            <content eId="para_61_list_point_a_content">
+              <p xml:space="preserve"> 	An evaluation of the human rights involved before, during and after an assembly, including peaceful protests, including the rights to freedom of peaceful assembly, of expression, of association, and of religion or belief, the right to participation in the conduct of public affairs, the right to life, liberty and security of person, the right to be free from torture and cruel, inhuman or degrading treatment or punishment, as well as the right to an effective remedy for all human rights violations, and the respect for human dignity, bodily integrity, and privacy; </p>
+            </content>
+          </point>
+          <point eId="para_61_list_point_b">
+            <num>(b)</num>
+            <content eId="para_61_list_point_b_content">
+              <p xml:space="preserve"> 	A tool for States on how to implement their obligations and commitments, including on how to operationalize them in their domestic laws, procedures and practices at all levels, and to promote and protect human rights in the context of assemblies, including peaceful protests; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">Takes note with appreciation </span>of the specific technical and practical toolkit based on international standards and best practices developed by the Special Rapporteur on the rights to freedom of peaceful assembly and of association, in collaboration with the United Nations Office on Drugs and Crime and the Office of the United Nations High Commissioner for Human Rights, to assist law enforcement officials in promoting and protecting human rights in the context of peaceful protests, in application of Human Rights Council resolution 50/21, and the Model Protocol for Law Enforcement Officials to Promote and Protect Human Rights in the Context of Peaceful Protests<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		See A/HRC/55/60.</p></authorialNote> and its three supplementary components, comprising action-oriented checklists, guidance on the use of digital technologies by law enforcement in the context of peaceful protests, and an outline of a handbook on facilitating peaceful protests for law enforcement officials; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>all States to take into account the Model Protocol, which makes practical recommendations aimed at assisting them and their law enforcement agencies and officials in strengthening the required institutional capacity, rules, protocols, strategies and procedures and fulfilling their international human rights obligations, specifically in relation to respecting, promoting and protecting human rights while facilitating peaceful protests, and invites States to revise or adopt, as necessary, protocols for law enforcement for the human rights-compliant facilitation of peaceful protests, in line with international human rights law, standards and best practices, in order to improve accountability and protect human rights in the context of protests; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>States to facilitate peaceful protests by providing protesters, to the extent possible, with access to public space within sight and sound of their intended target audience, and by protecting them, without discrimination, where necessary, against any form of threat or harassment, and underlines the role of local authorities in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">Underlines </span>the important role that communication between organizers, protesters, local authorities and officials exercising law enforcement duties can play in the proper management of assemblies, such as peaceful protests, and calls upon States to establish such appropriate channels;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> States to pay particular attention to the safety and protection of women and girls, as well as of women and girl human rights defenders, in the context of peaceful protests, to develop systems to prevent and respond to acts of intimidation, harassment and violence, including sexual and gender-based violence, and to adopt protocols and ensure adequate and continuous training of law enforcement officials on gender-responsive policing of protests;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms </span>that States must take all appropriate measures for the safety and protection of children, including while they exercise their rights to freedom of peaceful assembly, of expression and of association, including in the context of peaceful protests, and stresses the need to integrate full consideration of the rights of the child in guidance for law enforcement;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>all States to pay particular attention to the safety and protection of those observing, monitoring and recording protests, including human rights defenders, lawyers, journalists and other media workers, taking into account their specific role, exposure and vulnerability, even if the protest has been declared unlawful or is dispersed;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States to take measures before, during and after protests to protect all individuals, and to pay special attention to those belonging to groups that are particularly vulnerable to violence, including to unlawful or excessive use of force by law enforcement officials;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_151__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all States to refrain from and cease measures that violate human rights, including practices such as the disruption of communications through Internet shutdowns, or measures that unlawfully or arbitrarily block or take down media websites or social networks, and other widespread restrictions on Internet access, the dissemination of information online or from gathering in online spaces, or surveillance on the basis of group affiliation and the targeted use of spyware in the context of protests, as such actions may be incompatible with international human rights law, bearing in mind that protests should not be seen as opportunities for surveillance or the pursuit of broader law enforcement objectives through the use of digital technologies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">Urges </span>all States to avoid using force during peaceful protests, to prioritize de-escalation tactics and to ensure that, where force is absolutely necessary, no one is subject to excessive or indiscriminate use of force, and also to ensure that assistance and medical aid are rendered to any injured or affected person at the earliest possible moment; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_182" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_182__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>all States, as a matter of priority, to ensure that their domestic legislation and procedures are consistent with their international obligations and commitments in relation to the use of force in the context of law enforcement and are effectively implemented by officials exercising law enforcement duties, in particular, applicable principles of law enforcement, such as necessity and proportionality, bearing in mind that lethal force may only be used as a last resort to protect against an imminent threat to life and that it may not be used merely to disperse a gathering;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve">	<span class="italic">Affirms </span>that nothing can ever justify the indiscriminate use of lethal force against a crowd, which is unlawful under international human rights law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>States to investigate any deaths or significant injuries, including those that lead to disability, incurred during protests, including those resulting from the discharge of firearms or the use of less-lethal weapons by officials exercising law enforcement duties or by private personnel acting on behalf of the State, and stresses the need to ensure full accountability;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_236" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_236__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon </span>States to ensure adequate initial and ongoing human rights-oriented and gender-, disability- and age-responsive training of officials exercising law enforcement duties and, where applicable, to promote such adequate training for private personnel acting on behalf of the State for the effective facilitation of protests, and that it is available to all, including commanding officers, and emphasizes learning practical skills and prioritizing facilitation, communication, negotiation, de-escalation and human rights-compliant crowd facilitation techniques that include tailored sessions on the prevention of sexual and gender-based violence and on the specific needs of individuals and groups in situations of vulnerability; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_256" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_256__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>States to make appropriate protective equipment and less-lethal weapons available to their officials exercising law enforcement duties in order to decrease their need to use weapons of any kind, while pursuing efforts to regulate and establish protocols for the training in and use of less-lethal weapons, bearing in mind that even less-lethal weapons can result in a risk to life, serious injury or torture or other ill-treatment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="italic">Underlines </span>the importance of thorough and independent testing of less-lethal weapons prior to procurement and deployment to establish their lethality and the extent of likely injury, of monitoring appropriate training and use of such weapons, and of promoting accountability at all stages; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_299" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>all States to take, in line with the absolute prohibition of torture and other cruel, inhuman or degrading treatment or punishment, all appropriate effective legislative, administrative, judicial and other measures to prevent and prohibit the production, trade, export, import and use of law enforcement tools and equipment that have no practical use other than for the purpose of torture or other cruel, inhuman or degrading treatment or punishment, including in the context of protests;		</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_322" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_322__content">
+          <p xml:space="preserve"> 	<span class="italic">Stresses </span>the importance of international cooperation in support of national efforts for the promotion and protection of human rights and fundamental freedoms in the context of assemblies, including peaceful protests, in order to raise the capacities of law enforcement agencies to deal with such assemblies in a manner that conforms to international human rights law and standards;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>States to refrain from the use of digital technology to silence, arbitrarily or unlawfully surveil or harass individuals or groups solely for having organized, taken part in or observed, monitored or recorded peaceful protests, or from ordering blanket Internet shutdowns and from blocking websites and platforms, including around protests or key political moments;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_371" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_371__content">
+          <p xml:space="preserve">	<span class="italic">Affirms</span> that before, during or after protests, digital technologies should not be used to categorize, profile or remotely identify individuals, particularly those belonging to groups in situations of vulnerability, in a manner inconsistent with international human rights law and the principles of legality, necessity and proportionality, including by the unlawful or arbitrary use of biometric means, given that they can be discriminatory and inconsistent with the obligation of law enforcement officials to facilitate peaceful protests, and urges States to refrain from such use to identify those peacefully participating in an assembly; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_397" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_397__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States to refrain, in accordance with applicable national procedures and international norms and standards, from the export, sale or transfer of surveillance goods and technologies and less-lethal weapons when they assess that there are reasonable grounds to suspect that such goods, technologies or weapons might be used to violate or abuse human rights, including in the context of assemblies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_424" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_424__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon </span>States to refrain from applying any undue restrictions to technical solutions to secure and to protect the confidentiality of digital communications, including measures for encryption, pseudonymization and anonymity online, given that these are important to ensure the enjoyment of human rights, in particular the right to privacy, in the context of assemblies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_452" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_452__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes </span>the importance of documenting and monitoring human rights violations and abuses committed in the context of peaceful protests, including casualty recording, and of the role that can be played by national human rights institutions, civil society, including non‑governmental organizations, journalists and other media workers, Internet users, human rights defenders and lawyers in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_481" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_481__content">
+          <p xml:space="preserve">	<span class="italic">Urges </span>States to ensure accountability for human rights violations and abuses through judicial or other national mechanisms, based on law and in conformity with their international human rights obligations and commitments, and to provide all victims with access to a remedy and redress, including in the context of peaceful protests;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_511" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_511__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> States to seek relevant technical assistance for the facilitation of assemblies, where appropriate, including from the Office of the United Nations High Commissioner for Human Rights, the United Nations Office on Drugs and Crime and from other specialized agencies, from relevant special procedures of the Human Rights Council and from regional human rights mechanisms; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_542" class="SingleTxtG">
+        <num>32.</num>
+        <content eId="para_542__content">
+          <p xml:space="preserve">	<span class="italic">Invites </span>all States to consider making recommendations, where appropriate, to States under review during the universal periodic review on the promotion and protection of human rights in the context of assemblies, including regarding the facilitation of assemblies, such as peaceful protests;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_574" class="SingleTxtG">
+        <num>33.</num>
+        <content eId="para_574__content">
+          <p xml:space="preserve">	<span class="italic">Requests </span>the Special Rapporteur on the rights to freedom of peaceful assembly and of association, in collaboration with the Office of the High Commissioner and the United Nations Office on Drugs and Crime, to convene, before the sixty-second session of the Human Rights Council, a global consultation on the role of different stakeholders in promoting the application of the technical and practical toolkit developed pursuant to Council resolution 50/21;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_607" class="SingleTxtG">
+        <num>34.</num>
+        <content eId="para_607__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Office of the High Commissioner, in collaboration with the Special Rapporteur on the rights to freedom of peaceful assembly and of association and the United Nations Office on Drugs and Crime, to support country-level application of the practical toolkit for law enforcement officials, pursuant to Human Rights Council resolution 50/21, through technical cooperation in-country workshops and follow-up in each region, conducted with the agreement of a country, by the sixty-fifth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_641" class="SingleTxtG">
+        <num>35.</num>
+        <content eId="para_641__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>to continue its consideration of the present topic.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="35th" refersTo="#adoptionMeeting">35th meeting</location>
+          <eol />
+          <docDate date="2024-07-11" refersTo="#adoptionDate">11 July 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
