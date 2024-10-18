@@ -1,0 +1,631 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-10/56-1/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-10/56-1/"></FRBRuri>
+          <FRBRdate date="2024-07-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-10/56-1/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-10/56-1/zho@/"></FRBRuri>
+          <FRBRdate date="2024-07-16" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-10/56-1/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-10/56-1/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Independent Investigative Mechanism for Myanmar" showAs="UN. Independent Investigative Mechanism for Myanmar" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Human Rights Council. Independent International Fact-Finding Mission on Human Rights in Myanmar" showAs="UN. Human Rights Council. Independent International Fact-Finding Mission on Human Rights in Myanmar" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MUSLIMS" href="http://metadata.un.org/thesaurus/1004292" showAs="MUSLIMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINORITIES" href="http://metadata.un.org/thesaurus/1004179" showAs="MINORITIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MYANMAR" href="http://metadata.un.org/thesaurus/1004297" showAs="MYANMAR" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISPLACED PERSONS" href="http://metadata.un.org/thesaurus/1001706" showAs="DISPLACED PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FINANCING" href="http://metadata.un.org/thesaurus/1002343" showAs="FINANCING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="2" showAs="Annual report of the United Nations High Commissioner for Human Rights and reports of the Office of the High Commissioner and the Secretary-General." dictionary="A/HRC/56/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-07-09" outcome="draftResolution" as="A/HRC/56/L.18/Rev.1" by="Pakistan" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-07-16" outcome="recommendedForAdoption" by="" />
+        <step date="2024-07-16" outcome="adopted" as="Adopted without vote, 34th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/56/1</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-16" class="rightSmall" refersTo="#dateOfIssuance">16 July 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="56" eId="coverPage_1__session_1">第五十六届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-06-18" refersTo="#startDate">18 六月</date>
+          <date date="2024-07-12" refersTo="#endDate">12 七月 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="2" name="agenda item">议程项目2</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">联合国人权事务高级专员的年度报告以及 高级专员办事处的报告和秘书长的报告</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2024年7月10日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>56/1.</docNumber>
+        <docTitle refersTo="#resolutionTitle">缅甸罗兴亚穆斯林和其他少数群体的人权状况</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">遵循</span>《联合国宪章》的宗旨和原则，</p>
+      </container>
+      <container name="重申" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">重申</span>《世界人权宣言》，回顾《公民及政治权利国际公约》、《经济社会文化权利国际公约》、《儿童权利公约》、《消除对妇女一切形式歧视公约》、《消除一切形式种族歧视国际公约》、《残疾人权利公约》以及其他相关国际人权法，</p>
+      </container>
+      <container name="回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会和人权理事会的相关决议，最近期的是大会2023年12月19日第78/219号决议及理事会2017年3月24日第34/22号、2017年12月5日第S-27/1号、2018年3月23日第37/32号、2018年9月27日第39/2号、2019年3月22日第40/29号、2019年9月26日第42/3号、2020年6月22日第43/26号、2021年3月24日第46/21号、2021年7月12日第47/1号、2022年4月1日第49/23号、2022年7月7日第50/3号、2023年4月4日第52/31号、2023年7月14日第53/26号和2024年4月4日第55/20号以及理事会2017年9月29日第36/115号决定，</p>
+      </container>
+      <container name="又回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>联合国人权事务高级专员向人权理事会第四十三届会议提交的关于缅甸罗兴亚人和其他少数群体人权受到侵犯和践踏的根源的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/HRC/43/18.</p></authorialNote>，以及向理事会第四十五届会议提交的关于缅甸问题国际独立实况调查团建议包括追究责任建议的落实情况以及关于缅甸人权包括罗兴亚穆斯林和其他少数群体人权状况的进展情况报告<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		A/HRC/45/5.</p></authorialNote>，重申迫切需要全面落实这两份报告所载的建议，</p>
+      </container>
+      <container name="注意到" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">注意到</span>缅甸人权状况特别报告员的工作和报告，同时对缅甸继续不配合特别报告员履行任务并自2017年12月以来拒不准许其进入缅甸深表遗憾，敦促缅甸与特别报告员充分合作，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>历任秘书长缅甸问题特使所做的工作，并在这方面赞赏地注意到新特使的任命，鼓励她与所有相关利益攸关方和受影响民众进行接触和包容性对话，以及与东南亚国家联盟主席国缅甸问题特使进行协作；敦促缅甸与特使充分合作，</p>
+      </container>
+      <container name="欢迎" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>根据人权理事会第39/2号决议设立的缅甸问题独立机制正在开展的工作和提交的报告，包括提交人权理事会的第五次报告<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/HRC/54/19.</p></authorialNote>，该机制的任务是收集、整理、保存和分析缅甸自2011年以来犯下的最严重国际罪行和违反国际法包括国际人道法和人权法的证据，同时遗憾地注意到机制仍然得不到准入与合作，</p>
+      </container>
+      <container name="表示关切" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">表示关切</span>缅甸问题独立机制的调查结果，即缅甸武装部队和其他当事方在脸书上针对罗兴亚穆斯林实施了协调和有组织的仇恨言论运动，助长了大规模暴力行为并进而导致2017年罗兴亚人大规模流亡；又表示关切在社交媒体特别是脸书上的这一运动仍在继续而未减弱；谴责所有仇恨言论事件，特别是针对罗兴亚人的仇恨言论事件，</p>
+      </container>
+      <container name="表示深为关切" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">表示深为关切</span>针对罗兴亚穆斯林和其他少数群体的错误信息、虚假信息和仇恨言论增多，包括通过使用人工智能等新兴技术传播这种言论的现象增多；认识到对受影响民众和人道主义人员造成的严重普遍后果和人道主义后果，</p>
+      </container>
+      <container name="回顾" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">回顾</span>缅甸问题国际独立实况调查团开展的重要工作及其报告，包括其最后报告<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">			A/HRC/42/50.</p></authorialNote>、关于缅甸武装部队经济利益的文件和关于缅甸境内性暴力和性别暴力以及族裔冲突的性别影响的文件<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		可查阅<a href="http://www.ohchr.org/EN/HRBodies/HRC/RegularSessions/session42/Pages/ListReports.aspx">www.ohchr.org/EN/HRBodies/HRC/RegularSessions/session42/Pages/ListReports.aspx</a>。</p></authorialNote>，</p>
+      </container>
+      <container name="震惊地注意到" eId="container_12">
+          <p xml:space="preserve">	<span class="bold">震惊地注意到</span>缅甸问题国际独立实况调查团认定，有证据表明缅甸安全和武装部队严重侵犯和践踏罗兴亚穆斯林和其他少数群体的人权，并认为这些行为无疑构成国际法下最严重的罪行；深表关切的是，尽管实况调查团建议对在缅甸各地犯下的罪行进行迅速、有效、彻底、独立和公正的调查并对犯罪者追究责任，但这些建议的落实工作缺乏进展；对缅甸不与实况调查团合作深感遗憾，</p>
+      </container>
+      <container name="强烈谴责" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">强烈谴责</span>缅甸安全和武装部队对罗兴亚穆斯林和其他少数群体犯下的严重侵犯和践踏人权行为，缅甸问题国际独立实况调查团的调查结果就是证明；感到遗憾的是，缅甸在创造有利于被迫流离失所的罗兴亚穆斯林自愿、安全、有尊严、可持续地从孟加拉国返回缅甸的条件方面缺乏实际进展，</p>
+      </container>
+      <container name="重申深感关切的是" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">重申深感关切的是</span>，罗兴亚穆斯林和其他少数群体继续遭受暴力，人权遭到侵犯和践踏，包括罗兴亚穆斯林和其他少数族裔在内的平民继续在境内被迫流离失所，从而继续对创造有利于包括罗兴亚穆斯林和其他少数群体在内的全体难民和被迫流离失所者自愿、安全、有尊严、可持续地返回缅甸的条件构成挑战，</p>
+      </container>
+      <container name="表示关切" eId="container_15">
+        <p xml:space="preserve">
+          <span class="bold">	表示关切</span>缅甸军方宣布、后又延长的紧急状态造成的事态发展对所有被迫流离失所者，包括罗兴亚穆斯林和所有境内流离失所者，包括2021年2月1日以来的流离失所者自愿、安全、有尊严、可持续的返回构成严重挑战；在这方面强调需要解决若开邦危机的根源问题；重申必须立即停止使用军事力量，以防止进一步发生境内和越境流离失所，防止平民包括罗兴亚穆斯林和其他少数群体的人权受到侵犯，</p>
+      </container>
+      <container name="表示深为关切" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">表示深为关切</span>若开邦再次发生多起冲突事件，最近有报告称，针对罗兴亚人的敌对行动和暴力行为均有所增加，若开邦布帝洞镇的罗辛亚人村庄被烧毁、财产被损毁，据报告导致数千名罗兴亚穆斯林和其他少数群体伤亡和被迫境内流离失所，使若开邦本已岌岌可危的人权和人道主义状况更加恶化，</p>
+      </container>
+      <container name="表示严重关切的是" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">表示严重关切的是</span>，有报告称，缅甸武装部队和其他武装行为体将罗兴亚穆斯林用作人盾和强征入伍，这正在加剧若开邦社群与罗兴亚穆斯林的族群间紧张关系，还表示严重关切的是，有报告称，所有宗教的宗教场所遭到破坏，包括清真寺和伊斯兰教学校在内的穆斯林礼拜场所被用作军事前哨，</p>
+      </container>
+      <container name="表示深为关切的是" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">表示深为关切的是</span>，缅甸武装部队与少数民族武装团体向彼此发射的迫击炮弹和子弹落在孟加拉国境内并爆炸，在孟加拉国境内造成数人伤亡，其中包括该国公民；又表示深为关切缅甸武装部队与少数民族武装团体之间持续不断的武装冲突损害了与孟加拉国接壤地区的人员和财产的安全和保障，</p>
+      </container>
+      <container name="表示严重关切" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">表示严重关切</span>孟都镇的冲突不断升级，可能会造成人道主义需求方面的灾难性影响，导致更多人流离失所；强调所有各方都需要优先保护平民，</p>
+      </container>
+      <container name="表示关切" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">表示关切</span>对民间社会、记者、媒体和人道工作者在线上和线下施加的限制；在这方面关切地注意到错误信息和虚假信息的传播，包括在社交媒体上的传播，这可能会进一步加剧缅甸罗兴亚穆斯林和其他族裔少数群体的困境，</p>
+      </container>
+      <container name="表示明确支持" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">表示明确支持</span>缅甸人民及其民主意愿、利益和对和平的渴望，支持在加强民主体制和进程，避免暴力，充分尊重人权、基本自由和法治方面的需求，</p>
+      </container>
+      <container name="重申" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">重申</span>迫切需要确保通过可信和独立的国家、区域或国际司法机制，对在缅甸各地违反和践踏国际法包括国际人权法、国际人道法、国际刑法的所有责任人追究责任，同时回顾指出，安全理事会有权将案件移交国际刑事法院，</p>
+      </container>
+      <container name="继续" eId="container_23">
+        <p xml:space="preserve">	<span class="bold">继续</span>着重指出，关键是缅甸安全和武装部队及其他武装团体必须停止一切与保护包括罗兴亚群体成员在内的境内所有人背道而驰的行动，为此应尊重国际法，包括国际人权法和国际人道法，制止暴力，包括性暴力；呼吁采取紧急步骤，确保针对所有侵犯人权行为和违反国际人道法行为伸张正义，使那些因暴力而流离失所者能够以可持续的方式安全、有尊严地自愿返回自己的原籍地或选择的栖身之地，</p>
+      </container>
+      <container name="认识到" eId="container_24">
+        <p xml:space="preserve">	<span class="bold">认识到</span>联合国各任务负责人和机制，包括国际司法和追责机制，为改善缅甸人道局势和人权状况而开展的工作相互补充、相辅相成；关切地注意到缺乏足够的人道准入，特别是面向有境内流离失所者的地区以及罗兴亚穆斯林等众多民众已经并继续被迫离开、留下来的居民生活朝不保夕的地区的人道准入，从而加剧了人道危机；呼吁所有各方，包括缅甸武装部队，允许国际人道机构和救援工作者进入，安全、及时、不受阻碍地为所有需要援助者，包括因冲突而流离失所者，提供人道援助，</p>
+      </container>
+      <container name="注意到" eId="container_25">
+        <p xml:space="preserve">	<span class="bold">注意到</span>当前为确保对缅甸罗兴亚穆斯林和其他少数族裔犯下的指称罪行进行惩办和追责而开展的进程，</p>
+      </container>
+      <container name="又注意到" eId="container_26">
+        <p xml:space="preserve">	<span class="bold">又注意到</span>国际刑事法院已授权其检察官调查该法院管辖范围内与孟加拉人民共和国/缅甸联邦共和国局势有关的指称罪行，</p>
+      </container>
+      <container name="欢迎" eId="container_27">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>国际法院2020年1月23日在《防止及惩治灭绝种族罪公约》的适用案(冈比亚诉缅甸)中指示采取临时措施的命令，国际法院在其中认定，缅甸罗兴亚人明显构成《公约》第二条意义上的“受保护群体”，而且缅甸罗兴亚人的权利面临着受到无法弥补的损害的真实而迫在眉睫的风险；呼吁缅甸充分遵守这项命令，</p>
+      </container>
+      <container name="又欢迎" eId="container_28">
+        <p xml:space="preserve">	<span class="bold">又欢迎</span>国际法院2022年7月22日在《防止及惩治灭绝种族罪公约》的适用案(冈比亚诉缅甸)中下达的命令，即驳回缅甸的初步反对意见，认定冈比亚的申请可以受理；在这方面又欢迎伊斯兰合作组织一些成员国捐助资金以及其他会员国参与支持正在进行的诉讼，</p>
+      </container>
+      <container name="再次强调" eId="container_29">
+        <p xml:space="preserve">	<span class="bold">再次强调</span>所有难民的权利和所有流离失所者能够返回家园的重要性，强调这种返回应该是安全并有尊严的，采取自愿和可持续的方式；呼吁国际社会在处理该区域被迫流离失所者问题上紧急承担起集体责任，</p>
+      </container>
+      <container name="注意到" eId="container_30">
+        <p xml:space="preserve">	<span class="bold">注意到</span>缅甸于2018年7月30日成立了独立调查委员会，尽管该委员会的职权范围和运作方式受到限制，但其最后报告的执行摘要承认，战争罪、严重侵犯人权行为和违反国内法行为确有发生，有合理理由认为缅甸安全部队成员参与其中；同时遗憾地注意到，该委员会的报告全文迄今仍未发表，</p>
+      </container>
+      <container name="着重指出" eId="container_31">
+        <p xml:space="preserve">	<span class="bold">着重指出</span>，迫切需要作出更大努力充分落实若开邦问题咨询委员会提出的仍然适用的建议，迫切需要采取行动消除危机的根源，还迫切需要停止迫害罗兴亚穆斯林并给予他们公民身份，保障行动自由，消除系统性隔离和一切形式的歧视，以包容平等的方式确保他们获得卫生服务、教育和出生登记，在开展这些工作时与包括罗兴亚穆斯林在内的所有少数族裔成员和弱势群体成员充分协商，包括就罗兴亚人的公民身份问题进行协商；申明秘书长在这方面发出的呼吁十分重要，</p>
+      </container>
+      <container name="重点指出" eId="container_32">
+        <p xml:space="preserve">	<span class="bold">重点指出</span>，迫切需要恢复和后续执行和缅甸、联合国开发计划署和联合国难民事务高级专员公署签署的关于援助所有从若开邦流离失所者包括罗兴亚穆斯林返国进程的谅解备忘录；吁请缅甸允许联合国机构不受阻碍地进入若开邦北部，以便它们能够切实地参与这一进程，</p>
+      </container>
+      <container name="感到震惊的是" eId="container_33">
+        <p xml:space="preserve">	<span class="bold">感到震惊的是</span>，联合国多个机制报告称，过去40年里有约120万被迫流离失所的罗兴亚穆斯林持续从缅甸涌入并进而暂时避居孟加拉国，其中大多数人是在2017年8月25日缅甸安全和武装部队犯下暴行之后抵达的，</p>
+      </container>
+      <container name="认识到" eId="container_34">
+        <p xml:space="preserve">	<span class="bold">认识到</span>伊斯兰合作组织其他成员国，特别是东南亚成员国，继续收容大批逃离缅甸危机的罗兴亚穆斯林难民，</p>
+      </container>
+      <container name="赞扬" eId="container_35">
+        <p xml:space="preserve">	<span class="bold">赞扬</span>孟加拉国政府与联合国各机构和国际社会合作，包括与所有人道行为体合作，为躲避缅甸境内侵犯和践踏人权行为的逃难者作出持续的人道努力和承诺；在这方面欢迎孟加拉国政府与联合国难民事务高级专员公署关于向迁至巴桑查尔的罗兴亚人提供人道援助的谅解备忘录；认识到孟加拉国政府在巴桑查尔作了大量投资，包括投资于面向迁至该地的罗兴亚人的场所和基础设施，</p>
+      </container>
+      <container name="表示深为关切的是" eId="container_36">
+        <p xml:space="preserve">	<span class="bold">表示深为关切的是</span>，由于对暂时避居孟加拉国的罗兴亚人的国际资金支助不足并不断减少，导致粮食援助数量削减；在这方面严重关切地注意到，尽管收容国和捐助方空前慷慨，但人道需求与可用资金之间的差距继续扩大；在这方面回顾需要更公平地分担负担和责任，为此鼓励各国和其他行为体借助2023年12月13日至15日在日内瓦举行的第二次难民问题全球论坛的后续进程之力，展现对缓解收容国压力和努力解决这一长期危机的承诺，致力于让罗兴亚人在安全和有尊严的条件下，可持续和自愿地从孟加拉国返回缅甸若开邦，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_37">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>孟加拉国政府为包括缅甸人权状况特别报告员、缅甸问题独立机制和国际刑事法院检察官在内的官员的访问提供便利；又赞赏地注意到其他国家政府为这些访问提供便利；着重指出，这些访问有助于确保正义和追责以及通过罗兴亚人安全、自愿、有尊严和可持续地返回缅甸，实现永久解决，</p>
+      </container>
+      <container name="强调" eId="container_38">
+        <p xml:space="preserve">	<span class="bold">强调</span>缅甸必须真正做出努力应对若开邦局势，按照与孟加拉国的双边协定，创造有利于以可持续的方式自愿、安全、有尊严地返国的条件，</p>
+      </container>
+      <container name="承认" eId="container_39">
+        <p xml:space="preserve">	<span class="bold">承认</span>必须采取举措促进全体罗兴亚难民和被迫流离失所的罗兴亚穆斯林安全、有保障、有尊严地自愿返回缅甸家园的权利，</p>
+      </container>
+      <container name="深表关切的是" eId="container_40">
+          <p xml:space="preserve">	<span class="bold">深表关切的是</span>，在返国问题上的长期不确定性导致暂时在孟加拉国避难的罗兴亚穆斯林陷入绝望，并可能对区域和平与稳定产生溢出效应，</p>
+      </container>
+      <container name="注意到" eId="container_41">
+        <p xml:space="preserve">	<span class="bold">注意到</span>“实地探访”的做法，这是自2017年罗兴亚人大规模流亡以来，罗兴亚人自己首次前往若开邦进行这种“实地探访”，以确定若开邦的局势是否有利于返回，并确定再返回方面面临的挑战，</p>
+      </container>
+      <container name="重点指出" eId="container_42">
+        <p xml:space="preserve">	<span class="bold">重点指出</span>迫切需要与联合国机构、人道和发展行为体以及流离失所者充分协商，执行可持续关闭缅甸境内流离失所者营地的国家战略，以确保他们按照国际标准，自愿、安全、有尊严、可持续地返回和重新安置，保证他们不受歧视地获得公民身份，恢复这些人对其原有土地的控制权，提供安全保障和行动自由，使他们能够不受阻碍地获得生计和基本服务，包括卫生服务、教育和住所，并赔偿一切损失，</p>
+      </container>
+      <container name="回顾" eId="container_43">
+        <p xml:space="preserve">	<span class="bold">回顾</span>各国负有尊重和保护人权的主要责任，并有责任遵守相关义务，对涉及违反国际法包括国际人道法和国际人权法以及践踏人权法罪行的责任人予以起诉，并向权利受到侵犯者提供有效补救，如恢复原状、赔偿、康复、抵偿和保证不再发生，以期杜绝有罪不罚现象，追究责任，伸张正义，</p>
+      </container>
+      <container name="承认" eId="container_44">
+        <p xml:space="preserve">	<span class="bold">承认</span>区域组织，尤其是东南亚国家联盟，为推动在缅甸创造有利于包括罗兴亚穆斯林在内的被迫流离失所者自愿、安全、有尊严、可持续返回缅甸的环境发挥着重要作用；重申需要与罗兴亚穆斯林并与联合国所有相关机构和国际伙伴密切协调和充分协商，解决危机和流离失所的根源问题，使受影响社群在返回缅甸后能够重建生活，</p>
+      </container>
+      <container name="欢迎" eId="container_45">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>东南亚国家联盟领导人2023年9月5日在雅加达通过的关于五点共识落实情况的审查和决定，他们在其中决定，继续将五点共识作为解决缅甸政治危机的主要参照，并应予以充分落实，</p>
+      </container>
+      <container name="肯定" eId="container_46">
+        <p xml:space="preserve">	<span class="bold">肯定</span>伊斯兰合作组织为在缅甸若开邦和其他各邦各省实现和平与稳定所作的努力以及相关国际努力，包括通过伊斯兰合作组织秘书长缅甸问题特使开展的工作，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_47" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="bold">表示严重关切的是</span>，持续有报告称，缅甸境内发生严重侵犯和践踏人权行为，特别是针对罗兴亚穆斯林和其他少数群体的此类行为，包括任意逮捕，拘留期间死亡，酷刑和其他残忍、不人道或有辱人格的待遇或处罚，故意杀死和残害儿童，强迫劳动，将校舍用于军事目的，无差别炮轰平民区，摧毁礼拜场所、建筑物、住宅和平民财产，进行社会经济剥削，强迫流离失所，包括超过150万罗兴亚穆斯林和其他少数群体成员被迫逃往孟加拉国和区域内各地，发表仇恨言论和煽动仇恨，对妇女和儿童实施强奸、性奴役和其他形式的性暴力和性别暴力，限制行使宗教或信仰自由权、表达自由权及和平集会自由权，特别是在若开邦、钦邦、克钦邦、掸邦、克耶邦、克伦邦以及实皆省、马圭省和曼德勒省；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="bold">表示关注</span>2021年2月1日当日及之后遭到任意拘留、控罪或逮捕的人；强烈谴责2024年5月17日在布帝洞镇发生的袭击和持续针对罗兴亚穆斯林的行为；呼吁让这次袭击的受害者可持续地返回位于布帝洞镇的原籍地，以防止发生任何更多的境内流离失所；敦促冲突各方充分遵守国际法院下令采取的临时措施，确保保护罗兴亚穆斯林；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>按照缅甸人民包括罗兴亚穆斯林和其他少数族裔群体的意愿和利益，开展建设性和平对话与和解；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="bold">强烈谴责</span>缅甸境内所有侵犯和践踏人权的行为，包括与2021年2月1日所宣布的紧急状态有关的行为及此后发生的此类行为；呼吁缅甸立即停止境内一切暴力和违反国际法的行为，确保以平等、非歧视、有尊严的方式充分保护缅甸所有人包括罗兴亚穆斯林和其他少数群体的人权和基本自由，以防止出现更多不稳定和不安全状况，减轻人民痛苦，从危机的根源入手，包括废除或改革所有歧视性法律，通过保障回国构建可行、持续、永久的危机解决办法，采取一切必要措施为受害者伸张正义，对所报告的所有违反国际人权法和国际人道法行为进行全面、透明、独立的调查，从而确保对所有侵犯人权行为充分追究责任，杜绝有罪不罚现象；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="bold">表示严重关切</span>缅甸武装部队和其他武装行为体强行征召罗兴亚穆斯林的现象；敦促所有交战方立即停止这种强行征召，允许已被征召的罗兴亚人安全和有尊严地返回家园；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>必须对缅甸境内的严重侵犯和践踏人权行为，包括针对妇女和儿童的性暴力与性别暴力和侵害以及指称的战争罪，进行独立、公正、透明的国际调查，对包括罗兴亚穆斯林在内的所有个人遭受暴行和罪行的全体责任人追究责任，以便利用一切适当的法律文书以及国内、区域和国际司法机制，包括酌情诉诸国际法院和国际刑事法院，为受害者伸张正义；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="bold">深表关切的是</span>，尽管国际法院于2020年1月23日下令采取临时措施，但缅甸境内的罗兴亚穆斯林，包括妇女和儿童，继续遭受定点清除、无差别暴力侵害和严重伤害，受害方式包括遭到无差别枪击、空袭、轰炸、焚烧以及地雷和未爆弹药的伤害；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>国际法院2022年7月22日的命令，其中驳回了缅甸在冈比亚根据《防止及惩治灭绝种族罪公约》提起的案件中质疑国际法院管辖权的初步反对意见，认定冈比亚的申请可予受理；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>缅甸安全和武装部队及其他武装团体必须严格执行停火，停止暴力，力行克制，以确保平民，包括愿意回返的流离失所者，享有安全、保障并受到保护；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>立即停止战斗和敌对行动、停止将平民作为打击目标并停止所有违反和践踏国际人权法以及违反国际人道法的行为；呼吁开展包容全面的国家政治对话和全国和解进程，同时确保包括罗兴亚穆斯林和其他少数群体在内的所有族裔群体、妇女和青年人、残疾人以及民间社会和宗教领导人充分、有效、切实参与，以期实现持久和平；并呼吁通过对话走向民族团结，实现和平解决；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="bold">表示深为关切</span>缅甸冲突的跨界溢出效应，据报告这已在孟加拉国和其他邻国造成了人员死亡和财产损失；敦促缅甸采取一切必要措施，维持其国际边界沿线的稳定，确保邻国的生命和财产安全；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>缅甸立即结束国内的一切暴力和一切违反国际法行为，确保缅甸所有人包括罗兴亚穆斯林和其他少数群体成员的人权得到保护，并采取一切必要措施，为受害者伸张正义，确保充分追究责任，杜绝对违反和践踏人权法以及违反国际人道法行为有罪不罚的现象，首先要对所有这些所报告的违反行为进行充分、透明、独立的调查；并呼吁公布2018年设立的独立调查委员会的报告全文，或与有关国际机制分享委员会的调查结果；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_125__content">
+          <p xml:space="preserve">	<span class="bold">再次</span>紧急呼吁缅甸采取必要措施，促进缅甸全体居民的融合、人权和尊严，解决歧视和偏见蔓延的问题，并采取可靠步骤，结束对族裔和宗教少数群体包括罗兴亚穆斯林的法律和事实上的歧视；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>缅甸按照国际人权法，打击线上和线下针对罗兴亚穆斯林和其他少数群体的仇恨煽动和仇恨言论，为此应公开谴责此种行为，颁布必要的反仇恨言论和犯罪法，与国际社会合作促进不同信仰间对话；鼓励该国的政治、宗教和社群领袖努力通过对话实现民族团结；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="SingleTxtGC">
+        <num>15.</num>
+        <content eId="para_152__content">
+          <p xml:space="preserve">	<span class="bold">又吁请</span>缅甸根据国际人权法，全面取消在缅甸所有地区包括若开邦关闭互联网和电信服务的做法，废除《电信法》第77条，以避免互联网和电信接入被进一步切断，防止意见和表达自由权，包括自由寻求、接受和传播信息的权利被扼杀；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_167" class="SingleTxtGC">
+        <num>16.</num>
+        <content eId="para_167__content">
+          <p xml:space="preserve">	<span class="bold">还吁请</span>缅甸按照该国在《儿童权利公约》下的义务，保护所有儿童包括罗兴亚儿童获得公民身份的权利，以消除无国籍状态，确保在武装冲突中保护所有儿童，终止招募和使用儿童从事强迫劳动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="SingleTxtGC">
+        <num>17.</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>缅甸与联合国所有任务负责人和人权机制充分合作，包括与缅甸人权状况特别报告员、秘书长缅甸问题特使、人权理事会第39/2号决议所设缅甸问题独立机制(亦被秘书长在该机制任务授权中称为“缅甸问题独立调查机制”)、联合国有关机构以及国际和区域人权机构充分合作，允许它们充分、不受限制、不受监视地进入缅甸，独立地监测人权状况，并确保个人能够不受阻碍地与这些机制合作而不必担心遭到报复、恐吓或攻击；深表关切的是，国际社会，包括联合国机构、人道行为体和国际媒体，要进入若开邦北部等一些受影响地区仍然受到严苛的限制；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_200" class="SingleTxtGC">
+        <num>18.</num>
+        <content eId="para_200__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>缅甸问题独立机制开展工作，利用国际独立实况调查团移交的信息，收集、整理、保存和分析2011年以来在缅甸特别是在若开邦、克钦邦和掸邦发生的最严重的国际罪行和违反国际法行为的证据，并准备案卷，以便按照国际法，协助和加快对这些罪行拥有管辖权或今后可能拥有管辖权的国家、区域或国际法院或法庭根据国际法标准，进行公正独立的刑事诉讼；并欢迎该机制提交人权理事会的各项报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218" class="SingleTxtGC">
+        <num>19.</num>
+        <content eId="para_218__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>缅甸问题独立机制密切配合国家、区域或国际法院或法庭当前或今后有关缅甸境内严重国际罪行和违反国际法行为的任何调查工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxtGC">
+        <num>20.</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>联合国确保缅甸问题独立机制在人员配置、工作地点和业务自由方面享有所需的灵活性，以便能够尽可能有效地履行任务；敦促缅甸、各国尤其是该地区国家、司法部门和私营实体与该机制充分合作，包括准许其进入以及在可行情况下接触证人，并为其履行任务提供一切协助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_257" class="SingleTxtGC">
+        <num>21.</num>
+        <content eId="para_257__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>必须落实国际独立实况调查团报告所载建议，敦促缅甸和国际社会对此给予应有的考虑；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_278" class="SingleTxtGC">
+        <num>22.</num>
+        <content eId="para_278__content">
+          <p xml:space="preserve">	<span class="bold">又重申</span>必须与所有族裔和宗教少数群体及弱势群体(包括罗兴亚穆斯林)以及民间社会充分协商，全面落实若开邦问题咨询委员会就解决危机根源问题提出的所有建议，包括关于国籍权及平等获得公民身份、行动自由、消除系统性隔离和一切形式歧视、以包容和平等的方式获得卫生服务、教育和出生登记的建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="SingleTxtGC">
+        <num>23.</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>缅甸认真努力消除族裔和宗教少数群体成员特别是罗兴亚穆斯林的无国籍状态以及针对此类少数群体成员特别是罗兴亚穆斯林的系统化和制度化歧视，为此特别需要：废除和更替导致剥夺人权的1982年《公民身份法》；确保缅甸所有人尤其是罗兴亚穆斯林有权拥有国籍，通过透明、自愿、便捷的程序平等获得完全的公民身份，在自我认同被承认的基础上平等享有所有公民权利和政治权利；修订或废除所有歧视性法律和政策，包括2015年颁布的一整套“种族和宗教保护法律”中的歧视性条款，其内容涉及宗教皈依、不同信仰间婚姻、一夫一妻制和人口控制；取消限制行动自由权以及获得民事登记、卫生和教育服务及生计的权利的所有地方法令；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_323" class="SingleTxtGC">
+        <num>24.</num>
+        <content eId="para_323__content">
+          <p xml:space="preserve">	<span class="bold">表示深为关切的是</span>，缅甸武装部队在落实东南亚国家联盟五点共识方面缺乏进展；再次紧急呼吁缅甸全面、迅速和有效地落实五点共识，通过开展包容性对话和立即停止暴力，为包括罗兴亚穆斯林和其他少数群体在内的缅甸人民及其生计问题推动和平解决；为此吁请缅甸所有利益攸关方与东盟和东盟主席国缅甸问题特使合作，包括允许该特使接触所有利益攸关方，并表示支持这些努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_347" class="SingleTxtGC">
+        <num>25.</num>
+        <content eId="para_347__content">
+          <p xml:space="preserve">	<span class="bold">表示支持</span>进一步努力落实东南亚国家联盟的五点共识；在这方面欢迎2023年9月5日在雅加达举行的第四十三届东盟峰会通过的东盟领导人关于五点共识落实情况的审查和决定；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_372" class="SingleTxtGC">
+        <num>26.</num>
+        <content eId="para_372__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>新任秘书长缅甸问题特使与缅甸和所有其他利益攸关方进行接触，包括与民间社会以及罗兴亚穆斯林和缅甸的其他少数群体等受影响民众进行接触，以期早日解决缅甸的危机；敦促缅甸与特使充分合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_398" class="SingleTxtGC">
+        <num>27.</num>
+        <content eId="para_398__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>缅甸审查并废除2018年对《闲置、休耕和未开垦土地管理法》的修正，建立一个包容性土地治理框架，并与包括族裔和宗教少数群体尤其是罗兴亚穆斯林在内的受影响民众充分协商，解决土地权属问题；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_425" class="SingleTxtGC">
+        <num>28.</num>
+        <content eId="para_425__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>立即停止对罗兴亚人村庄先前所在地区进行重新划分，立即停止从官方地图上删除村庄名称(这种做法可能改变土地的使用方式)，并呼吁从速停止在这些村庄建造军事设施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_453" class="SingleTxtGC">
+        <num>29.</num>
+        <content eId="para_453__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>缅甸采取一切必要措施，扭转和摒弃将罗兴亚穆斯林和其他少数群体边缘化的政策、指令和做法，避免损毁属于全体人民的礼拜场所、墓地、基础设施、商业建筑和住宅，确保若开邦和缅甸全境的所有流离失所者，包括罗兴亚穆斯林和其他少数群体，特别是自2012年以来被困在若开邦中部营地的128,000名罗兴亚穆斯林和卡曼穆斯林，能够返回家园、收回财产、自由行动并不受阻碍地谋生和获得基本服务；审查相关法律，解决这些人处境脆弱和被迫流离失所的根本原因；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_482" class="SingleTxtGC">
+        <num>30.</num>
+        <content eId="para_482__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>缅甸与联合国和国际社会合作，按照明确的时间表拆除若开邦的境内流离失所者营地，确保境内流离失所者的返回和重新安置符合国际标准和最佳做法，包括《关于境内流离失所问题的指导原则》<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		E/CN.4/1998/53/Add.2, 附件。</p></authorialNote> 中的规定；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_512" class="SingleTxtGC">
+        <num>31.</num>
+        <content eId="para_512__content">
+          <p xml:space="preserve">	<span class="bold">又吁请</span>缅甸按照孟加拉国与缅甸签署的双边遣返文书，采取具体步骤，创造有利于暂时避居孟加拉国的被迫流离失所的缅甸罗兴亚穆斯林和其他少数群体自愿、安全、有尊严、可持续返回的环境，并与联合国和其他有关行为体合作，传播有关若开邦状况的真实信息，以合理解决罗兴亚穆斯林的核心关切；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_543" class="SingleTxtGC">
+        <num>32.</num>
+        <content eId="para_543__content">
+          <p xml:space="preserve">	<span class="bold">还吁请</span>缅甸通过建立信任措施，包括罗兴亚人代表与缅甸当局直接沟通，以及安排罗兴亚人代表对若开邦进行“实地探访”，使孟加拉国营地中的罗兴亚穆斯林对返回缅甸树立信心，从而鼓励他们返回缅甸的原籍地；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_575" class="SingleTxtGC">
+        <num>33.</num>
+        <content eId="para_575__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>缅甸在若开邦创造有利条件，开始所有被迫流离失所的罗兴亚穆斯林和其他少数群体从孟加拉国自愿、安全、有尊严、可持续地返回缅甸随后重新融入的进程，在这方面回顾孟加拉国和缅甸于2017年11月达成的关于若开邦流离失所者返回缅甸的双边安排，并开始居住在其他收容国的流离失所者自愿、安全、有尊严、可持续地返回缅甸的进程，为此应与孟加拉国政府和联合国特别是联合国难民事务高级专员公署全面合作，并酌情与东南亚国家联盟灾害管理人道主义援助协调中心充分合作，保证返回者行动自由，能不受阻碍地获得生计和社会服务，包括卫生服务、教育和住所，并赔偿其一切损失；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_608" class="SingleTxtGC">
+        <num>34.</num>
+        <content eId="para_608__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>联合国并鼓励其他国际机构为孟加拉国政府和缅甸提供一切必要支持，以便利被迫流离失所的缅甸罗兴亚穆斯林和其他少数群体，包括境内流离失所者，自愿、安全、有尊严、可持续地返回；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_642" class="SingleTxtGC">
+        <num>35.</num>
+        <content eId="para_642__content">
+          <p xml:space="preserve">	<span class="bold">表示严重关切的是</span>，人道准入受到的限制不断增多，特别是在若开邦、钦邦、克钦邦、掸邦、克耶邦和克伦邦；吁请缅甸确保充分尊重国际人道法，允许人道人员全面、安全、不受阻碍地进入缅甸所有地区以提供人道援助，同时考虑到妇女、儿童、老年人和残疾人的脆弱处境以及物资和设备的运送，确保人道人员和医疗工作者得到充分保护、安全和保障，使这些人员能够有效履行援助受影响平民人口包括境内流离失所者的任务；鼓励缅甸允许外交使团、独立观察员以及本国和国际独立媒体的代表进入，让他们不必担心遭到报复；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_677" class="SingleTxtGC">
+        <num>36.</num>
+        <content eId="para_677__content">
+          <p xml:space="preserve">	<span class="bold">表示关切的是</span>，罗兴亚穆斯林经盘剥牟利的蛇头和人贩子之手，继续在危险条件下冒着生命危险在海上非正常流动，这种流动凸显出他们的绝望境地，说明迫切需要解决这些人身处困境的根源问题；吁请国际社会与联合国有关机构合作，有效应对罗兴亚穆斯林的这种海上非正常流动，确保国际社会特别是《关于难民地位的公约》缔约国分担负担和责任；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_713" class="SingleTxtGC">
+        <num>37.</num>
+        <content eId="para_713__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>缅甸切实解决若开邦少数族裔包括罗兴亚人的人权受到侵犯和践踏的根源问题，为所有难民包括罗兴亚穆斯林难民安全、自愿、有尊严、可持续返回创造必要条件，特别是考虑到由于缅甸未能在若开邦创造这种条件，迄今没有一名罗兴亚人通过孟加拉国与缅甸两国之间设立的遣返机制返回；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_750" class="SingleTxtGC">
+        <num>38.</num>
+        <content eId="para_750__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>国际社会本着真正的相互依存和平等分担负担和责任的精神，继续协助孟加拉国向被迫流离失所的罗兴亚穆斯林和其他少数群体提供人道援助，直到他们返回缅甸，并协助缅甸向包括若开邦在内的缅甸境内所有流离失所社群的所有受影响者提供人道援助，同时考虑到妇女、儿童、老年人和残疾人的脆弱处境；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_788" class="SingleTxtGC">
+        <num>39.</num>
+        <content eId="para_788__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>尚未参与分担负担和责任的国家和其他利益攸关方本着国际团结与合作的精神参与进来，以期扩大支持基础；肯定并赞赏孟加拉国政府迄今为向流离失所的罗兴亚穆斯林和其他少数群体提供人道援助所作的努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_827" class="SingleTxtGC">
+        <num>40.</num>
+        <content eId="para_827__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>国际社会继续为暂时避居孟加拉国的被迫流离失所的罗兴亚人提供充足的资金捐助，以避免世界粮食计划署削减口粮等措施的破坏性影响造成难以逆转的后果，直到他们返回若开邦；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_867" class="SingleTxtGC">
+        <num>41.</num>
+        <content eId="para_867__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>人道合作伙伴挺身而出，努力缩小认捐金额与实收金额之间的缺口，特别是罗兴亚人道主义危机联合应对计划的资金缺口，并优先考虑将粮食、卫生、防护、场地管理、住所和教育等基本必需品部门作为捐助对象；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_908" class="SingleTxtGC">
+        <num>42.</num>
+        <content eId="para_908__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>联合国各机构和区域机构开展广泛的人道行动，吁请在若开邦为所有人道行为体提供充分的人道准入；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_950" class="SingleTxtGC">
+        <num>43.</num>
+        <content eId="para_950__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>所有工商企业，包括在缅甸经营的跨国公司和国内企业，践行《工商企业与人权指导原则》；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_993" class="SingleTxtGC">
+        <num>44.</num>
+        <content eId="para_993__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>人权理事会第53/26号决议，其中理事会请联合国人权事务高级专员向理事会第五十九届会议介绍一份报告；请高级专员向理事会第六十届会议介绍该报告，之后与缅甸问题独立机制进强化互动对话；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1037" class="SingleTxtGC">
+        <num>45.</num>
+        <content eId="para_1037__content">
+          <p xml:space="preserve">	<span class="bold">请</span>高级专员监测和跟进国际独立实况调查团所提建议包括追责建议的落实情况，并继续跟进缅甸人权方面的进展情况，包括罗兴亚穆斯林和其他少数群体人权方面的进展情况，由专门领域的专家提供支持，作为对缅甸问题独立机制的工作及缅甸人权状况特别报告员的报告的补充，并向人权理事会第六十一届会议口头报告最新情况，之后进行互动对话，并向理事会第六十三届会议提交报告，之后与缅甸问题独立机制进行强化互动对话，并向大会第八十届会议提交报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1082" class="SingleTxtGC">
+        <num>46.</num>
+        <content eId="para_1082__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>联合国有关机构继续就解决人道危机提出具体行动建议，推动罗兴亚难民和被迫流离失所者安全、有尊严、自愿、可持续地返回，并确保对在这方面犯下大规模暴行及侵犯和践踏人权行为的责任人追究责任；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1128" class="SingleTxtGC">
+        <num>47.</num>
+        <content eId="para_1128__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>根据联合国有关机制的报告等资料继续处理此事。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第34次" refersTo="#adoptionMeeting">第34次会议</location>
+          <eol />
+          <docDate date="2024-07-10" refersTo="#adoptionDate">2024年7月10日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
