@@ -1,0 +1,563 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/"></FRBRuri>
+          <FRBRdate date="2024-07-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/rus@/"></FRBRuri>
+          <FRBRdate date="2024-07-16" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="PUBLIC DEMONSTRATIONS" href="http://metadata.un.org/thesaurus/1005244" showAs="PUBLIC DEMONSTRATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LAW ENFORCEMENT" href="http://metadata.un.org/thesaurus/1003644" showAs="LAW ENFORCEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT OF ASSEMBLY" href="http://metadata.un.org/thesaurus/1005549" showAs="RIGHT OF ASSEMBLY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF ASSOCIATION" href="http://metadata.un.org/thesaurus/1002523" showAs="FREEDOM OF ASSOCIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/56/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-07-09" outcome="draftResolution" as="A/HRC/56/L.19/Rev.1" by="Albania, Australia, Austria, Belgium, Bulgaria, Canada, Chile, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Marshall Islands, Mexico, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Paraguay, Peru, Poland, Portugal, Republic of Moldova, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Switzerland and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-07-16" outcome="recommendedForAdoption" by="" />
+        <step date="2024-07-16" outcome="adopted" as="Adopted without vote, 35th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/56/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-16" class="rightSmall" refersTo="#dateOfIssuance">16 July 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="56" eId="coverPage_1__session_1">Пятьдесят шестая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-06-18" refersTo="#startDate">18 июня</date>
+          <date date="2024-07-12" refersTo="#endDate">12 июля 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека,  гражданских, политических, экономических,  социальных и культурных прав,  включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 11 июля 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>56/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Поощрение и защита прав человека в контексте мирных протестов</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="вновь подтверждая" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая </span>цели и принципы Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="вновь подтверждая также" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая также</span> Всеобщую декларацию прав человека и Венскую декларацию и Программу действий и ссылаясь на Международный пакт о гражданских и политических правах, Международный пакт об экономических, социальных и культурных правах и на другие международные и региональные договоры по правам человека, </p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на Декларацию о праве и обязанности отдельных лиц, групп и органов общества поощрять и защищать общепризнанные права человека и основные свободы,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span>, что в соответствии со Всеобщей декларацией прав человека государства — члены Организации Объединенных Наций приняли на себя обязательство добиваться, в сотрудничестве с Организацией Объединенных Наций, поощрения всеобщего уважения и соблюдения прав человека и основных свобод для всех без какого бы то ни было различия, как то в отношении расы, цвета кожи, пола, языка, религии, политических или иных убеждений, национального или социального происхождения, имущественного, сословного или иного положения,</p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на свое решение <a href="http://undocs.org/ru/A/HRC/DEC/17/120">17/120</a> от 17 июня 2011 года и свои резолюции <a href="http://undocs.org/ru/A/HRC/RES/19/35">19/35</a> от 23 марта 2012 года, <a href="http://undocs.org/ru/A/HRC/RES/22/10">22/10</a> от 21 марта 2013 года, <a href="http://undocs.org/ru/A/HRC/RES/25/38">25/38</a> от 28 марта 2014 года, <a href="http://undocs.org/ru/A/HRC/RES/31/37">31/37</a> от 24 марта 2016 года, <a href="http://undocs.org/ru/A/HRC/RES/38/11">38/11</a> от 6 июля 2018 года, <a href="http://undocs.org/ru/A/HRC/RES/44/20">44/20</a> от 17 июля 2020 года и <a href="http://undocs.org/ru/A/HRC/RES/50/21">50/21</a> от 8 июля 2022 года о поощрении и защите прав человека в контексте мирных протестов и другие соответствующие резолюции Совета по правам человека,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на свою резолюцию <a href="http://undocs.org/ru/A/HRC/RES/43/1">43/1</a> от 19 июня 2020 года о поощрении и защите прав человека и основных свобод африканцев и лиц африканского происхождения от чрезмерного применения силы и других нарушений прав человека со стороны должностных лиц по поддержанию правопорядка,</p>
+      </container>
+      <container name="признавая" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что в соответствии со Всеобщей декларацией прав человека, Международным пактом о гражданских и политических правах и Международной конвенцией о ликвидации всех форм расовой дискриминации права на свободу мирных собраний, выражения мнений и ассоциации являются правами человека, которые гарантированы всем, хотя их осуществление может подвергаться определенным ограничениям в соответствии с обязательствами государств, предусмотренными в применимых международных договорах по правам человека,</p>
+      </container>
+      <container name="признавая также" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">признавая также</span>, что любые подобные ограничения должны основываться на законе, а также быть необходимыми и соразмерными законной цели в соответствии с обязательствами государства согласно применимым международным договорам по правам человека и что в случае их установления должна быть возможность их незамедлительного, компетентного, независимого и беспристрастного пересмотра в административном или судебном порядке,</p>
+      </container>
+      <container name="признавая далее" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">признавая далее</span>, что любое ограничение права на свободу мирных собраний должно соответствовать статье 21 Международного пакта о гражданских и политических правах и вводиться на индивидуальной основе без ненужного и несоразмерного свертывания этого права и что любое такое ограничение не должно носить дискриминационного характера, ущемлять суть права или быть направлено на то, чтобы отвратить людей от участия в собраниях,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span>, что принимаемые правительствами чрезвычайные меры должны быть необходимыми, соразмерными оцениваемому риску и применяться на недискриминационной основе, иметь конкретную направленность и продолжительность и соответствовать обязательствам государства согласно применимым нормам международного права прав человека,</p>
+      </container>
+      <container name="ссылаясь" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на статью 21 Международного пакта о гражданских и политических правах и констатируя, что мирные собрания могут проводиться на открытом воздухе, в помещении или в режиме онлайн, в местах общественного или частного пользования или представлять собой их сочетание, без шествия или в виде шествия и что они могут принимать многие формы, включая протесты, </p>
+      </container>
+      <container name="ссылаясь также" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также </span>на то, что государства несут главную ответственность за поощрение и защиту прав человека и основных свобод, в том числе в контексте собраний, таких как мирные протесты, и за обеспечение того, чтобы национальные законы, политика и практика как национальная основа осуществления прав на свободу мирных собраний, выражения мнений и ассоциации соответствовали их международным обязанностям и обязательствам в области прав человека,</p>
+      </container>
+      <container name="констатируя" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	констатируя</span>, что участие в мирных протестах может являться важной формой осуществления прав на свободу мирных собраний, выражения мнений, ассоциации и участия в ведении государственных дел,</p>
+      </container>
+      <container name="отмечая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что надлежащее регулирование проведения собраний играет центральную роль в соблюдении и защите прав человека до, во время и после проведения собрания, когда акцент делается на мерах содействия и ставится цель способствовать его мирному проведению и предотвращать ранения и гибель тех, кто участвует в таких протестах и осуществляет их мониторинг, медицинского персонала, случайных прохожих и должностных лиц, выполняющих правоохранительные функции, </p>
+      </container>
+      <container name="констатируя" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">констатируя</span>, что мирные протесты могут происходить во всех обществах, включая протесты неорганизованные, одновременные, несанкционированные, проводимые без уведомления или подпадающие под ограничения, и что на такие протесты распространяется действие статьи 21 Международного пакта о гражданских и политических правах,</p>
+      </container>
+      <container name="признавая" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что мирные протесты могут вносить позитивный вклад в устойчивый мир, демократические преобразования и развитие, укрепление и обеспечение эффективности демократических систем и демократические процессы, включая выборы и референдумы, а также обеспечение верховенства права, </p>
+      </container>
+      <container name="признавая также" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">признавая также</span>, что мирные протесты исторически играли конструктивную социально-политическую роль в развитии более справедливых, равноправных и ответственных обществ и что такие протесты могут и далее вносить позитивный вклад в развитие человеческого потенциала, достижение экологической и расовой справедливости, поддержание мира, обеспечение правосудия переходного периода и всестороннее пользование гражданскими, политическими, экономическими, социальными и культурными правами,</p>
+      </container>
+      <container name="признавая далее" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">признавая далее</span>, что мирные протесты следует рассматривать как общественные пространства, в которых отдельные лица, общины и группы, сталкивающиеся с маргинализацией и дискриминацией, могут безопасно собираться для выражения своих взглядов и мнений и отстаивания своих прав личности, с обеспокоенностью отмечая, что пространство для деятельности гражданского общества и гражданского активизма сужается во многих регионах мира, и обращая особое внимание на необходимость обеспечения и укрепления инклюзивного, разнообразного и значимого участия, в том числе в период кризиса, без какой-либо дискриминации,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span>, что каждый человек имеет право на жизнь, свободу и личную неприкосновенность,</p>
+      </container>
+      <container name="вновь подтверждая также" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая также</span> абсолютный характер запрещения пыток и других жестоких, бесчеловечных или унижающих достоинство видов обращения и наказания при любых обстоятельствах, в том числе в контексте мирных протестов и даже когда собрание перестает быть мирным,</p>
+      </container>
+      <container name="вновь подтверждая далее" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая далее</span>, что участие в публичных и мирных протестах должно быть полностью добровольным, а не принудительным,</p>
+      </container>
+      <container name="напоминая" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">напоминая</span>, что права на свободу мирных собраний, выражения мнения и ассоциации включают в себя организацию собраний, распространение информации о них, участие в них, наблюдение за ними, их мониторинг и съемку,</p>
+      </container>
+      <container name="подчеркивая" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">подчеркивая </span>в этой связи, что каждый человек, включая лиц, которые придерживаются не разделяемых большинством или отличных от общепринятых взглядов или убеждений, должен иметь право выражать свое недовольство или свои устремления мирным путем, в том числе в виде публичных протестов, не опасаясь репрессий или запугивания, преследований, увечий, сексуальных посягательств, избиений, произвольного ареста или задержания, пыток, гибели или принудительного исчезновения или незаконного привлечения к уголовной или гражданской ответственности,</p>
+      </container>
+      <container name="будучи глубоко обеспокоен" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">будучи глубоко обеспокоен</span> внесудебными казнями, казнями без надлежащего судебного разбирательства или произвольными казнями, произвольными арестами и задержаниями, насильственными исчезновениями и пытками и другими жестокими, бесчеловечными или унижающими достоинство видами обращения и наказания,  а также насилием, включая сексуальное и гендерное насилие, в отношении лиц, осуществляющих свои права на свободу мирных собраний, выражения мнений и ассоциации во всех регионах мира, в том числе в ситуациях вооруженного конфликта и оккупации,</p>
+      </container>
+      <container name="констатируя" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">констатируя</span>, что женщины, дети, коренные народы, мигранты, лица африканского происхождения, лица, принадлежащие к национальным или этническим, религиозным и лингвистическим меньшинствам, лица с инвалидностью и другие лица, принадлежащие к группам, которые подвергаются дискриминации и маргинализации, особенно беззащитны перед лицом незаконного или чрезмерного применения силы должностными лицами по поддержанию правопорядка во время участия в акциях протеста,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span>, что полное, значимое и активное участие женщин и девочек в общественной жизни является необходимым условием достижения равенства, устойчивого развития, мира и демократии и что для борьбы с дискриминационными социальными нормами, взглядами и вредными стереотипами в отношении гендерных ролей и возможностей, которые препятствуют участию в общественной жизни и осуществлению прав на свободу мирных собраний, мнений и их выражения и ассоциации, например в ходе мирных протестов, нужны эффективные стратегии, общественные кампании и образовательные программы,</p>
+      </container>
+      <container name="отмечая" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что, хотя под собранием обычно понимается совместное физическое присутствие людей, к аналогичному взаимодействию, осуществляемому в режиме онлайн, также могут применяться те меры защиты, которые гарантируются международным правом прав человека, в том числе в отношении прав на свободу мирных собраний, выражения мнений и ассоциации,</p>
+      </container>
+      <container name="констатируя" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">констатируя</span>, что новые технологии могут способствовать осуществлению прав на свободу мирных собраний, выражения мнений, ассоциации и участия в ведении государственных дел, облегчая мобилизацию участников и организацию собраний, и констатируя также, что они создают пространство для проведения собраний в режиме онлайн и могут облегчать участие и расширять вовлеченность тех, кто часто маргинализируется,</p>
+      </container>
+      <container name="констатируя также" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">констатируя также</span>, что при их использовании в соответствии с правами человека новые технологии могут также применяться правоохранительными органами для оказания содействия проведению собраний и повышения прозрачности и подотчетности правоохранительных операций, связанных с проведением собраний, в том числе посредством обеспечения надлежащего учета всех решений, действий и распоряжений должностных лиц по поддержанию правопорядка на всех уровнях с обоснованием их причин, </p>
+      </container>
+      <container name="подчеркивая" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что мирные протесты, их организаторы и участники не должны рассматриваться в качестве угрозы или стигматизироваться, и призывая в этой связи все государства вступать в открытый, инклюзивный и конструктивный диалог при решении вопросов, связанных с мирными протестами и их причинами,</p>
+      </container>
+      <container name="напоминая" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">напоминая</span>, что государства должны уважать мирные контрдемонстрации как акции, сами по себе являющиеся собраниями, и содействовать их проведению и что при этом не следует допускать ненадлежащих действий, направленных на срыв собраний, против которых направлены такие контрдемонстрации,</p>
+      </container>
+      <container name="напоминая также" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">напоминая также</span>, что совершение другими людьми в ходе протестов изолированных актов насилия не является поводом для лишения мирных граждан их прав на свободу мирных собраний, выражения мнений и ассоциации,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание</span>, что мирному проведению собраний могут способствовать коммуникация и взаимодействие между организаторами, протестующими, местными органами власти и должностными лицами, выполняющими правоохранительные функции,</p>
+      </container>
+      <container name="признавая" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что мирные протесты в силу своего характера могут создавать определенные помехи для нормальной жизни, например для движения транспорта и пешеходов или для экономической деятельности, и призывая государства искать решения, способствующие проведению таких собраний при соблюдении прав всех других заинтересованных сторон,</p>
+      </container>
+      <container name="признавая также" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">признавая также</span>, что национальные правозащитные учреждения и представители гражданского общества, включая правозащитников и неправительственные организации, могут играть полезную роль в содействии постоянному диалогу между организаторами, лицами, принимающими участие в мирных протестах, и соответствующими органами власти,</p>
+      </container>
+      <container name="ссылаясь" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на Кодекс поведения должностных лиц по поддержанию правопорядка и Основные принципы применения силы и огнестрельного оружия должностными лицами по поддержанию правопорядка и ссылаясь также на Миннесотский протокол по расследованию предположительно незаконного лишения жизни,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на «Руководство Организации Объединенных Наций по соблюдению прав человека при применении менее смертоносного оружия в правоохранительной деятельности», изданное Управлением Верховного комиссара Организации Объединенных Наций по правам человека в качестве дополнения к Основным принципам применения силы и огнестрельного оружия должностными лицами по поддержанию правопорядка, и рекомендуя всем государствам применять это руководство в своей правоохранительной деятельности в связи с проведением собраний,</p>
+      </container>
+      <container name="рекомендуя" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">рекомендуя </span>всем государствам должным образом использовать «Справочное пособие по применению силы и огнестрельного оружия при поддержании правопорядка», изданное Управлением Верховного комиссара и Управлением Организации Объединенных Наций по наркотикам и преступности, а также обновленную подборку учебных материалов по праву прав человека и правоохранительной практике, подготовленную Управлением Верховного комиссара,</p>
+      </container>
+      <container name="напоминая" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о важности надлежащей подготовки, оснащения, поднадзорности и подотчетности должностных лиц и сотрудников частных структур, выполняющих правоохранительные функции, которым поручается оказывать содействие проведению собраний, особо отмечая, что соответствующим органам власти следует воздерживаться от использования в контексте мирных протестов армии или любых подразделений, тактики или техники военного типа, а также других подразделений, не входящих в официальную систему подчинения правоохранительных органов, вновь подтверждая при этом, что международные обязательства и обязанности государства в отношении применения силы в контексте правоохранительной деятельности распространяются также и на такие подразделения, когда те выполняют правоохранительные функции, </p>
+      </container>
+      <container name="вновь подтверждая" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span>, что в ситуациях вооруженного конфликта, включая военную оккупацию, международное право прав человека и международное гуманитарное право дополняют и усиливают друг друга и что государства должны соблюдать свои применимые обязательства по международному праву прав человека во время мирных протестов, в том числе при применении силы и огнестрельного оружия,</p>
+      </container>
+      <container name="признавая" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">признавая </span>важнейшую роль, которую правоохранительные органы играют в деле обеспечения уважения и защиты человеческого достоинства и поддержания и отстаивания прав человека всех лиц, в том числе в контексте усилий по содействию проведению собраний, и подчеркивая ответственность, которую несут должностные лица по поддержанию правопорядка в пределах полномочий, определенных системой их подчинения, за предотвращение нарушений прав человека и защиту прав человека, </p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">выражая глубокую обеспокоенность</span> по поводу случаев, когда мирные протесты приводят к репрессиям, включая незаконное и/или чрезмерное применение силы должностными лицами по поддержанию правопорядка, милитаризации правоохранительной деятельности, применению не по назначению менее смертоносного оружия, произвольным арестам и задержанию, несправедливым судебным разбирательствам, пыткам или другим жестоким, бесчеловечным или унижающим достоинство видам обращения и наказания, насилию, в том числе сексуальному и гендерному насилию, и насильственным исчезновениям, нападениям на протестующих и случайных прохожих, а также правозащитников, адвокатов, журналистов и других работников средств массовой информации и медицинских работников и необоснованным ограничениям, таким как отключение Интернета, </p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_44">
+        <p xml:space="preserve">	<span class="italic">выражая обеспокоенность</span> незаконной и произвольной слежкой — как в физическом пространстве, так и онлайн — за лицами, участвующими в мирных протестах, в том числе с использованием камер видеонаблюдения и аппаратов воздушной разведки, а также с использованием новых и новейших цифровых средств слежения, таких как биометрические технологии, включая технологии распознавания лиц и эмоций и устройства для международной идентификации абонентов мобильной связи («стингреи»),</p>
+      </container>
+      <container name="выражая обеспокоенность также" eId="container_45">
+        <p xml:space="preserve">	<span class="italic">выражая обеспокоенность также </span>по поводу привлечения к уголовной ответственности и судебного преследования во всех частях мира людей и групп только за организацию мирных протестов или участие в них, наблюдение за ними, их мониторинг или съемку или за оказание медицинской помощи протестующим или защиту их прав, в частности по поводу совершаемых в этой связи нарушений процессуальных гарантий и гарантий беспристрастного судебного разбирательства или разбирательств в военных судах,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_46" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span>, что государства несут ответственность, в том числе в контексте мирных протестов, за поощрение и защиту прав человека и предотвращение нарушений и ущемлений прав человека, в том числе внесудебных казней, казней без надлежащего судебного разбирательства или произвольных казней, произвольных арестов и задержаний, насильственных исчезновений и пыток и других жестоких, бесчеловечных или унижающих достоинство видов обращения и наказания, и призывает государства не допускать злоупотребления уголовным и гражданским судопроизводством или угроз такими действиями ни при каких обстоятельствах; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>все государства способствовать созданию безопасных и благоприятных условий, в которых отдельные лица и группы лиц могли бы осуществлять свои права на свободу мирных собраний, выражения мнений и ассоциации, как онлайн, так и офлайн, в том числе путем обеспечения того, чтобы законы и процедуры государств, касающиеся прав на свободу мирных собраний, выражения мнений и ассоциации, на всех уровнях соответствовали их международным обязательствам и обязанностям в области прав человека с целью прямого и явного установления презумпции в пользу осуществления этих прав и чтобы они реально соблюдались;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>государства обеспечивать соответствие законодательства, касающегося государственной безопасности, общественного порядка и охраны здоровья населения, их обязательствам по международному праву, в частности международному праву прав человека, с целью предотвращения необоснованной криминализации, ограничений или запретов на мирные протесты; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">призывает также</span> государства прекратить риторику, стигматизирующую протестующих, и содействовать диалогу с ними на инклюзивной основе при поиске решений для урегулирования кризиса и устранения его причин;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span> необходимость уделять внимание регулированию проведения собраний, включая мирные протесты, чтобы способствовать их мирному характеру, избегать незаконного или чрезмерного применения силы и предотвращать ранения, включая ранения, приводящие к инвалидности, и гибель протестующих, тех, кто наблюдает за такими собраниями и ведет их мониторинг и съемку, случайных прохожих, медицинских работников и должностных лиц, выполняющих правоохранительные функции, а также любые нарушения или ущемления прав человека, чтобы обеспечивать привлечение виновных к ответственности за совершение таких нарушений и ущемлений прав человека и предоставлять жертвам доступ к средствам правовой зашиты и возмещению ущерба;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtG">
+        <num>6.</num>
+        <list eId="para_61_list">
+          <intro eId="para_61_list_intro">
+            <p xml:space="preserve">	<span class="italic">рекомендует </span>всем государствам уделять должное внимание подборке практических рекомендаций по надлежащему регулированию проведения собраний, которая основана на передовом опыте и извлеченных уроках<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/HRC/31/66">A/HRC/31/66</a>.</p></authorialNote> и представляет собой: </p>
+          </intro>
+          <point eId="para_61_list_point_a">
+            <num>a)</num>
+            <content eId="para_61_list_point_a_content">
+              <p xml:space="preserve"> 	оценку прав человека, затрагиваемых до, во время и после проведения собраний, включая мирные протесты, в том числе прав на свободу мирных собраний, выражения мнений, ассоциации, религии или убеждений, права на участие в ведении государственных дел, права на жизнь, свободу и личную неприкосновенность, права не подвергаться пыткам и жестокому, бесчеловечному или унижающему достоинство обращению или наказанию и права на эффективные средства правовой защиты в случае любых нарушений прав человека, а также принципа уважения человеческого достоинства, телесной неприкосновенности и неприкосновенности частной жизни; </p>
+            </content>
+          </point>
+          <point eId="para_61_list_point_b">
+            <num>b)</num>
+            <content eId="para_61_list_point_b_content">
+              <p xml:space="preserve"> 	инструмент, помогающий государствам выполнять их обязанности и обязательства, в том числе воплощать их в своих внутренних законах, процедурах и практике на всех уровнях, а также поощрять и защищать права человека в контексте собраний, включая мирные протесты; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">с признательностью принимает к сведению </span>специальный технический и практический инструментарий, разработанный на основе международных стандартов и передовой практики Специальным докладчиком по вопросу о правах на свободу мирных собраний и ассоциации в сотрудничестве с Управлением Организации Объединенных Наций по наркотикам и преступности и Управлением Верховного комиссара Организации Объединенных Наций по правам человека во исполнение резолюции <a href="http://undocs.org/ru/A/HRC/RES/50/21">50/21</a> Совета по правам человека для оказания помощи должностным лицам по поддержанию правопорядка в деле поощрения и защиты прав человека в контексте мирных протестов, а также Типовой протокол для должностных лиц по поддержанию правопорядка по поощрению и защите прав человека в контексте мирных демонстраций<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		См. <a href="http://undocs.org/ru/A/HRC/55/60">A/HRC/55/60</a>.</p></authorialNote> и три дополнительных компонента к нему, включая ориентированные на принятие конкретных мер контрольные перечни, руководство по использованию цифровых технологий правоохранительными органами в контексте мирных протестов и предварительный проект справочника по содействию проведению мирных протестов для должностных лиц по поддержанию правопорядка; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>всем государствам принять к сведению Типовой протокол, в котором содержатся практические рекомендации, призванные помочь им и их правоохранительным органам и должностным лицам укреплять необходимый институциональный потенциал, правила, протоколы, стратегии и процедуры и выполнять свои международные обязательства в области прав человека, в частности в отношении соблюдения, поощрения и защиты прав человека при оказании содействия проведению мирных протестов, и предлагает государствам пересмотреть или принять, сообразно обстоятельствам, протоколы для правоохранительных органов в целях оказания содействия с соблюдением прав человека проведению мирных протестов в соответствии с правом прав человека и стандартами и передовой практикой в области прав человека, с тем чтобы повысить ответственность и защитить права человека в контексте протестов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>государства содействовать проведению мирных протестов путем предоставления протестующим, насколько это возможно, доступа к общественным местам, где их может видеть и слышать их целевая аудитория, и путем их защиты, без какой-либо дискриминации и когда это необходимо, от любых форм угроз и преследования и особо отмечает роль местных органов власти в этом отношении;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает </span>важную роль, которую коммуникация между организаторами, протестующими, местными органами власти и должностными лицами, выполняющими правоохранительные функции, может играть в надлежащем регулировании проведения собраний, таких как мирные протесты, и призывает государства налаживать такие соответствующие каналы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства уделять особое внимание безопасности и защите женщин и девочек, а также женщин и девочек — правозащитниц в контексте мирных протестов, разрабатывать системы предупреждения актов запугивания, преследования и насилия, включая сексуальное и гендерное насилие, и реагирования на такие акты и принимать протоколы по учету гендерных факторов в процессе охраны правопорядка в ходе протестов, обеспечивая надлежащую и постоянную соответствующую подготовку должностных лиц по поддержанию правопорядка;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="italic">вновь подтверждает</span>, что государства должны принимать все соответствующие меры для обеспечения безопасности и защиты детей, в том числе при осуществлении ими своих прав на свободу мирных собраний, выражения мнений и ассоциации, в частности в контексте мирных протестов, и подчеркивает необходимость всестороннего отражения прав ребенка в руководствах для правоохранительных органов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>все государства уделять особое внимание безопасности и защите тех, кто ведет наблюдение за протестами и их мониторинг и съемку, включая правозащитников, адвокатов, журналистов и других работников средств массовой информации, принимая во внимание их особую роль, подверженность риску и уязвимость, даже если протест был объявлен незаконным или разогнан;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>государства принимать меры до, во время и после протестов для защиты всех людей и уделять особое внимание тем, кто принадлежит к группам, особенно уязвимым для насилия, включая незаконное или чрезмерное применение силы со стороны должностных лиц по поддержанию правопорядка;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_151__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>все государства воздерживаться и отказаться от принятия мер, нарушающих права человека, включая такие виды практики, как нарушение коммуникации путем отключения Интернета или меры, незаконно или произвольно блокирующие или закрывающие веб-сайты средств массовой информации или социальные сети, и другие широкомасштабные ограничения доступа к Интернету, распространения информации онлайн или проведения собраний в онлайновой среде, равно как и слежку по признаку групповой принадлежности и целенаправленное использование шпионских программ в контексте протестов, поскольку такие действия могут быть несовместимы с международным правом прав человека, учитывая, что протесты не должны рассматриваться как возможность для слежки или достижения более широких правоохранительных целей с помощью цифровых технологий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> все государства не допускать применения силы во время мирных протестов, отдавать предпочтение тактикам деэскалации и обеспечивать, чтобы в тех случаях, когда применение силы является абсолютно необходимым, никто не становился жертвой чрезмерного или неизбирательного применения силы, а также обеспечивать скорейшее оказание медицинской и иной помощи любым раненым или пострадавшим лицам; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_182" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_182__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>все государства в первоочередном порядке обеспечивать, чтобы их внутренние законы и процедуры соответствовали их международным обязательствам и обязанностям в отношении применения силы в контексте правоохранительной деятельности и реально соблюдались должностными лицами, выполняющими правоохранительные функции, включая, в частности, применимые принципы правоохранительной практики, такие как принципы необходимости и соразмерности, памятуя о том, что смертоносная сила может применяться лишь в качестве крайней меры для защиты от неминуемой угрозы жизни и что она не может применяться только для разгона собравшихся;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что ничто ни при каких обстоятельствах не может оправдывать неизбирательное применение смертоносной силы против толпы, что является противоправным по международному праву прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>государства расследовать все случаи гибели или серьезного ранения людей, в том числе ранений, приводящих к инвалидности, имевшие место в ходе протестов, в том числе в результате применения огнестрельного оружия или менее смертоносного оружия должностными лицами, выполняющими правоохранительные функции, или сотрудниками частных структур, действующих от имени государства, и подчеркивает необходимость обеспечения в полной мере привлечения виновных к ответственности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_236" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_236__content">
+          <p xml:space="preserve">	<span class="italic">призывает также </span>государства обеспечивать надлежащую начальную и последующую непрерывную подготовку должностных лиц, выполняющих правоохранительные функции, по вопросам прав человека с учетом факторов, связанных с гендерной принадлежностью, инвалидностью и возрастом, и, в соответствующих случаях, содействовать налаживанию такой надлежащей подготовки персонала частных структур, действующих от имени государства, для эффективного содействия проведению протестов, чтобы такая подготовка была доступна для всех, включая командиров, чтобы в процессе подготовки особый акцент делался на приобретении практических навыков и первоочередное внимание уделялось мерам содействия, коммуникации, переговорам, деэскалации и соблюдению прав человека при оказании содействия в условиях скопления людей и чтобы такая подготовка предусматривала проведение специальных занятий, посвященных профилактике сексуального и гендерного насилия и особым потребностям отдельных лиц и групп, находящихся в уязвимом положении; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_256" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_256__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам предоставлять соответствующие средства защиты и менее смертоносное оружие своим должностным лицам, выполняющим правоохранительные функции, с тем чтобы уменьшить их потребность в применении оружия любого вида, продолжая при этом прилагать усилия к регулированию и составлению протоколов подготовки кадров и применения менее смертоносного оружия, учитывая, что применение даже менее смертоносного оружия может приводить к риску для жизни, серьезным ранениям или пыткам или другим видам жесткого обращения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span> важность тщательного и независимого испытания менее смертоносного оружия до его закупки и принятия на вооружение с целью определения его смертоносности и степени вероятного вреда, осуществления контроля за соответствующей подготовкой и применением такого оружия и обеспечения подотчетности на всех этапах; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_299" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> все государства, ввиду абсолютного запрещения пыток и других жестоких, бесчеловечных или унижающих достоинство видов обращения и наказания, принимать все соответствующие эффективные меры в законодательной, административной, юридической и других областях для предупреждения и запрета производства, экспорта, импорта и использования инструментов и оборудования, у которых не может быть другого практического применения, кроме как для пыток и других жестоких, бесчеловечных или унижающих достоинство видов обращения и наказания, в том числе в контексте протестов, равно как и торговлю такими инструментами и оборудованием;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_322" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_322__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает </span>важность международного сотрудничества в поддержку прилагаемых на национальном уровне усилий по поощрению и защите прав человека и основных свобод в контексте собраний, включая мирные протесты, с целью расширения возможностей правоохранительных органов действовать во время таких собраний таким образом, чтобы это соответствовало международному праву прав человека и соответствующим стандартам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>государства воздерживаться от применения цифровых технологий для того, чтобы глушить голос лиц или групп, осуществлять произвольным и незаконным образом слежку за ними и подвергать их преследованиям только за организацию ими мирных протестов, участие в них, наблюдение за ними, их мониторинг или съемку или от отдачи распоряжений о полном отключении Интернета и блокировании веб-сайтов и платформ, в том числе в ходе протестов или в ответственные политические моменты;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_371" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_371__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что ни до, ни во время, ни после протестов цифровые технологии не должны использоваться для категоризации, профилирования или дистанционной идентификации лиц, в особенности принадлежащих к группам, находящимся в уязвимом положении, способом, несовместимым с международным правом прав человека и принципами законности, необходимости и соразмерности, в том числе посредством незаконного или произвольного использования биометрических средств, поскольку они могут носить дискриминационный характер и быть несовместимы с обязанностью должностных лиц по поддержанию правопорядка оказывать содействие проведению мирных протестов, и настоятельно призывает государства воздерживаться от такого использования для идентификации лиц, мирно участвующих в собрании; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_397" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_397__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>государства воздерживаться в соответствии с применимыми национальными процедурами и международными нормами и стандартами от экспорта, продажи или передачи товаров и технологий, предназначенных для слежки, и менее смертоносного оружия, когда, по их оценке, существуют разумные основания подозревать, что такие товары, технологии или оружие могут быть применены для нарушения или ущемления прав человека, в том числе в контексте собраний;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_424" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_424__content">
+          <p xml:space="preserve">	<span class="italic">призывает также</span> государства воздерживаться от установления любых необоснованных ограничений в отношении технических решений, призванных обеспечивать безопасность и защиту конфиденциальности цифровых коммуникаций, включая меры по шифрованию, псевдонимизации и анонимизации в режиме онлайн, с учетом того, что они могут иметь важное значение для обеспечения осуществления прав человека, в частности права на неприкосновенность частной жизни, в контексте собраний;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_452" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_452__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>важность документирования и отслеживания нарушений и ущемлений прав человека, совершаемых в контексте мирных протестов, включая учет людских потерь, а также ту роль, которую могут играть в этой связи национальные правозащитные учреждения, гражданское общество, в том числе неправительственные организации, журналисты и другие работники средств массовой информации, пользователи Интернета, правозащитники и адвокаты;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_481" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_481__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает </span>государства обеспечивать привлечение виновных к ответственности за нарушения и ущемления прав человека с помощью судебных или иных национальных механизмов в соответствии с законом и согласно своим международным обязательствам и обязанностям в области прав человека и предоставлять всем жертвам доступ к средствам правовой защиты и возмещению ущерба, в том числе в контексте мирных протестов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_511" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_511__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам в надлежащих случаях обращаться за соответствующей технической помощью в вопросах оказания содействия проведению собраний, в том числе к Управлению Верховного комиссара Организации Объединенных Наций по правам человека, Управлению Организации Объединенных Наций по наркотикам и преступности и другим специализированным учреждениям, к соответствующим специальным процедурам Совета по правам человека и к региональным правозащитным механизмам; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_542" class="SingleTxtG">
+        <num>32.</num>
+        <content eId="para_542__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>всем государствам в соответствующих случаях рассмотреть возможность вынесения в рамках универсального периодического обзора в адрес государств — объектов обзора рекомендаций по вопросам поощрения и защиты прав человека в контексте собраний, таких как мирные протесты, в том при оказании содействия их проведению;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_574" class="SingleTxtG">
+        <num>33.</num>
+        <content eId="para_574__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Специального докладчика по вопросу о правах на свободу мирных собраний и ассоциации в сотрудничестве с Управлением Верховного комиссара и Управлением Организации Объединенных Наций по наркотикам и преступности созвать до шестьдесят второй сессии Совета по правам человека глобальные консультации по вопросу о роли различных заинтересованных сторон в содействии применению технического и практического инструментария, разработанного в соответствии с резолюцией <a href="http://undocs.org/ru/A/HRC/RES/50/21">50/21</a> Совета;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_607" class="SingleTxtG">
+        <num>34.</num>
+        <content eId="para_607__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Управление Верховного комиссара в сотрудничестве со Специальным докладчиком по вопросу о правах на свободу мирных собраний и ассоциации и Управлением Организации Объединенных Наций по наркотикам и преступности поддержать применение на страновом уровне практического инструментария для должностных лиц по поддержанию правопорядка, разработанного в соответствии с резолюцией <a href="http://undocs.org/ru/A/HRC/RES/50/21">50/21</a> Совета по правам человека, посредством проведения в каждом регионе до начала шестьдесят пятой сессии страновых рабочих совещаний по вопросам технического сотрудничества и последующих мероприятий с согласия соответствующей страны; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_641" class="SingleTxtG">
+        <num>35.</num>
+        <content eId="para_641__content">
+          <p xml:space="preserve">	<span class="italic">постановляет </span>продолжить рассмотрение данного вопроса.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="35-е" refersTo="#adoptionMeeting">35‑е заседание</location>
+          <eol />
+          <docDate date="2024-07-11" refersTo="#adoptionDate">11 июля 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
