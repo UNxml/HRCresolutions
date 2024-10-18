@@ -1,0 +1,562 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/"></FRBRuri>
+          <FRBRdate date="2024-07-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/fra@/"></FRBRuri>
+          <FRBRdate date="2024-07-16" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-07-11/56-10/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="PUBLIC DEMONSTRATIONS" href="http://metadata.un.org/thesaurus/1005244" showAs="PUBLIC DEMONSTRATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LAW ENFORCEMENT" href="http://metadata.un.org/thesaurus/1003644" showAs="LAW ENFORCEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT OF ASSEMBLY" href="http://metadata.un.org/thesaurus/1005549" showAs="RIGHT OF ASSEMBLY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF ASSOCIATION" href="http://metadata.un.org/thesaurus/1002523" showAs="FREEDOM OF ASSOCIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/56/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-07-09" outcome="draftResolution" as="A/HRC/56/L.19/Rev.1" by="Albania, Australia, Austria, Belgium, Bulgaria, Canada, Chile, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, Germany, Greece, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Marshall Islands, Mexico, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Paraguay, Peru, Poland, Portugal, Republic of Moldova, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Switzerland and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-07-16" outcome="recommendedForAdoption" by="" />
+        <step date="2024-07-16" outcome="adopted" as="Adopted without vote, 35th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/56/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-16" class="rightSmall" refersTo="#dateOfIssuance">16 juillet 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="56" eId="coverPage_1__session_1">Cinquante-sixième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-06-18" refersTo="#startDate">18 juin</date>
+          <date date="2024-07-12" refersTo="#endDate">12 juillet 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme,  civils, politiques, économiques, sociaux et culturels,  y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 11 juillet 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>56/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Promotion et protection des droits de l’homme dans le contexte des manifestations pacifiques</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Réaffirmant" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> les buts et principes énoncés dans la Charte des Nations Unies,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant également</span> la Déclaration universelle des droits de l’homme et la Déclaration et le Programme d’action de Vienne, et rappelant le Pacte international relatif aux droits civils et politiques, le Pacte international relatif aux droits économiques, sociaux et culturels, et les autres instruments internationaux et régionaux pertinents relatifs aux droits de l’homme,</p>
+      </container>
+      <container name="Rappelant" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> la Déclaration sur le droit et la responsabilité des individus, groupes et organes de la société de promouvoir et protéger les droits de l’homme et les libertés fondamentales universellement reconnus,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> que, conformément à la Déclaration universelle des droits de l’homme, les États Membres de l’Organisation des Nations Unies se sont engagés à promouvoir, en coopération avec l’Organisation, le respect universel et effectif des droits de l’homme et des libertés fondamentales pour tous sans distinction aucune, notamment de race, de couleur, de sexe, de langue, de religion, d’opinion politique ou autre, d’origine nationale ou sociale, de fortune, de naissance ou de toute autre situation,</p>
+      </container>
+      <container name="Rappelant" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> sa décision <a href="http://undocs.org/fr/A/HRC/RES/17/120">17/120</a> du 17 juin 2011, ses résolutions <a href="http://undocs.org/fr/A/HRC/RES/19/35">19/35</a> du 23 mars 2012, <a href="http://undocs.org/fr/A/HRC/RES/22/10">22/10</a> du 21 mars 2013, <a href="http://undocs.org/fr/A/HRC/RES/25/38">25/38</a> du 28 mars 2014, <a href="http://undocs.org/fr/A/HRC/RES/31/37">31/37</a> du 24 mars 2016, <a href="http://undocs.org/fr/A/HRC/RES/38/11">38/11</a> du 6 juillet 2018, <a href="http://undocs.org/fr/A/HRC/RES/44/20">44/20</a> du 17 juillet 2020 et <a href="http://undocs.org/fr/A/HRC/RES/50/21">50/21</a> du 8 juillet 2022 sur la promotion et la protection des droits de l’homme dans le contexte des manifestations pacifiques et ses autres résolutions pertinentes,</p>
+      </container>
+      <container name="Rappelant également" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> sa résolution <a href="http://undocs.org/fr/A/HRC/RES/43/1">43/1</a> du 19 juin 2020 sur la promotion et protection des droits de l’homme et des libertés fondamentales des Africains et des personnes d’ascendance africaine contre l’usage excessif de la force et d’autres violations des droits de l’homme par les forces de l’ordre,</p>
+      </container>
+      <container name="Conscient" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Conscient</span> que, conformément à la Déclaration universelle des droits de l’homme, au Pacte international relatif aux droits civils et politiques et à la Convention internationale sur l’élimination de toutes les formes de discrimination raciale, les droits à la liberté de réunion pacifique, à la liberté d’expression et à la liberté d’association sont des droits de l’homme garantis à tous mais que leur exercice peut être soumis à certaines restrictions, compte tenu des obligations mises à la charge des États par les instruments internationaux applicables relatifs aux droits de l’homme,</p>
+      </container>
+      <container name="Conscient également" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Conscient également</span> que de telles restrictions doivent reposer sur le droit, être nécessaires et proportionnées à la réalisation d’un but légitime, compte tenu des obligations qui incombent à l’État au regard des instruments internationaux relatifs aux droits de l’homme qui sont applicables, et doivent, si elles sont imposées, pouvoir faire l’objet d’un contrôle administratif ou juridictionnel rapide, indépendant et impartial, effectué par une autorité compétente,</p>
+      </container>
+      <container name="Conscient en outre" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Conscient en outre</span> que les restrictions à la liberté d’expression et à la liberté d’association doivent être compatibles avec l’article 21 du Pacte international relatif aux droits civils et politiques, être imposées au cas par cas, l’objectif étant de ne pas restreindre inutilement et de façon disproportionnée ces libertés, et que ces restrictions ne doivent pas être discriminatoires, porter atteinte à l’essence même du droit visé ou avoir pour objet de décourager la participation à des réunions,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> que les mesures d’urgence prises par les gouvernements doivent être nécessaires, proportionnées au risque évalué et appliquées de manière non discriminatoire, avoir un objectif et une durée précis et être conformes aux obligations qui incombent à l’État au regard du droit international des droits de l’homme applicable,</p>
+      </container>
+      <container name="Rappelant" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> l’article 21 du Pacte international relatif aux droits civils et politiques et considérant que des rassemblements pacifiques peuvent avoir lieu en plein air, à l’intérieur ou en ligne, dans des espaces publics ou privés, qu’ils peuvent être statiques ou mobiles et qu’ils peuvent prendre de nombreuses formes, notamment de manifestations,</p>
+      </container>
+      <container name="Rappelant également" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> que c’est aux États qu’il incombe au premier chef de promouvoir et de protéger les droits de l’homme et les libertés fondamentales, y compris dans le contexte de rassemblements tels que des manifestations pacifiques, et de veiller à ce que les lois, politiques et pratiques nationales, en tant que cadre national pour l’exercice des droits à la liberté de réunion pacifique, à la liberté d’expression et à la liberté d’association, soient conformes à leurs obligations et engagements internationaux relatifs aux droits de l’homme,</p>
+      </container>
+      <container name="Considérant" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> que la participation à des manifestations pacifiques peut être une forme importante d’exercice des droits à la liberté de réunion pacifique, à la liberté d’expression, à la liberté d’association et à la participation à la conduite des affaires publiques,</p>
+      </container>
+      <container name="Notant" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Notant</span> que la bonne gestion des rassemblements est essentielle au respect et à la protection des droits de l’homme avant, pendant et après un rassemblement, lorsqu’il s’agit d’en faciliter la tenue et de contribuer au déroulement pacifique du rassemblement et de prévenir les pertes en vies humaines et les blessures parmi ceux qui y participent et qui surveillent, le personnel médical, les passants et les membres des forces de l’ordre,</p>
+      </container>
+      <container name="Considérant" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> que des manifestations pacifiques, y compris des manifestations spontanées, simultanées, non autorisées, non déclarées ou faisant l’objet de restrictions, peuvent avoir lieu dans tous les pays, et que ces manifestations relèvent du champ d’application de l’article 21 du Pacte international relatif aux droits civils et politiques,</p>
+      </container>
+      <container name="Conscient" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Conscient</span> que les manifestations pacifiques peuvent contribuer à une paix durable, aux transitions démocratiques et au développement, au renforcement et à l’efficacité des systèmes démocratiques et aux processus démocratiques, notamment aux élections et référendums, ainsi qu’à l’état de droit,</p>
+      </container>
+      <container name="Conscient également" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Conscient également</span> que les manifestations pacifiques ont, de tout temps, joué un rôle social et politique constructif dans l’édification de sociétés plus justes, plus égalitaires et plus responsables, et qu’elles peuvent continuer de contribuer au développement humain, à la promotion de la justice raciale et environnementale, de la paix et de la justice transitionnelle, et à la pleine jouissance des droits civils, politiques, économiques, sociaux et culturels,</p>
+      </container>
+      <container name="Conscient en outre" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Conscient en outre</span> que les manifestations pacifiques devraient être considérées comme des espaces où les personnes, les communautés et les groupes en butte à la marginalisation et à la discrimination peuvent se rassembler en toute sécurité pour exprimer leurs points de vue et leurs opinions et faire valoir leurs droits individuels, tout en constatant avec inquiétude que le champ d’action de la société civile et des citoyens militants se rétrécit dans de nombreuses régions du monde, et soulignant qu’il faut garantir et renforcer la participation des personnes en la rendant plus inclusive, plus diversifiée et plus efficace, y compris en temps de crise, sans discrimination d’aucune sorte,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> que chacun a droit à la vie, à la liberté et à la sécurité de sa personne,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant également</span> l’interdiction absolue de la torture et des autres peines ou traitements cruels, inhumains ou dégradants en toutes circonstances, y compris dans le contexte de manifestations pacifiques et même lorsqu’un rassemblement n’est plus pacifique,</p>
+      </container>
+      <container name="Réaffirmant en outre" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant en outre</span> que la participation à des manifestations publiques et pacifiques devrait être entièrement volontaire et non contrainte,</p>
+      </container>
+      <container name="Rappelant" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> que les droits à la liberté de réunion pacifique, à la liberté d’expression et à la liberté d’association englobent l’organisation, l’observation, la surveillance et l’enregistrement de réunions, la diffusion d’informations et la participation,</p>
+      </container>
+      <container name="Soulignant" eId="container_24">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> par conséquent que chacun, y compris ceux qui professent des opinions ou des convictions minoritaires ou dissidentes, doit pouvoir exprimer ses griefs ou ses aspirations de manière pacifique, y compris par des manifestations publiques, sans crainte de faire l’objet de représailles ou de mesures d’intimidation, d’être harcelé, blessé, agressé sexuellement, frappé, arrêté ou détenu arbitrairement, torturé ou tué, d’être victime de disparition forcée ou de faire l’objet de procédures pénales ou civiles abusives,</p>
+      </container>
+      <container name="Profondément préoccupé" eId="container_25">
+        <p xml:space="preserve"> <span class="italic">Profondément préoccupé</span> par les exécutions extrajudiciaires, sommaires ou arbitraires, les disparitions forcées, les actes de torture et autres peines ou traitements cruels, inhumains ou dégradants, la violence, notamment la violence sexuelle et fondée sur le genre, dont sont victimes des personnes qui exercent leur droit à la liberté de réunion pacifique, à la liberté d’expression et à la liberté d’association dans toutes les régions du monde, y compris dans les situations de conflit armé et d’occupation.</p>
+      </container>
+      <container name="Considérant" eId="container_26">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> que les femmes, les enfants, les autochtones, les migrants, les personnes d’ascendance africaine, les personnes appartenant à des minorités nationales ou ethniques, religieuses et linguistiques, les personnes handicapées et les autres personnes appartenant à des groupes en butte à la discrimination et la marginalisation sont particulièrement exposés à l’emploi illégal de la force par des membres des forces de l’ordre lorsqu’ils participent à des manifestations,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_27">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> qu’une véritable et pleine participation active des femmes et des filles à la vie publique est essentielle pour la réalisation de l’égalité, du développement durable, de la paix et de la démocratie, et que des politiques, des campagnes publiques et des programmes éducatifs efficaces sont nécessaires pour lutter contre les normes sociales, les attitudes et les stéréotypes préjudiciables discriminatoires concernant les rôles et les aptitudes des femmes et des hommes, qui entravent la participation à la vie publique et l’exercice des droits à la liberté de réunion pacifique, à la liberté d’opinion et d’expression et à la liberté d’association, notamment dans le cadre de manifestations pacifiques,</p>
+      </container>
+      <container name="Notant" eId="container_28">
+        <p xml:space="preserve"> <span class="italic">Notant</span> que, si on entend généralement par rassemblement la réunion physique de personnes, les protections garanties par le droit international des droits de l’homme, y compris pour les droits à la liberté de réunion pacifique, à la liberté d’expression et à la liberté d’association, s’appliquent aussi aux interactions analogues qui se font en ligne,</p>
+      </container>
+      <container name="Considérant" eId="container_29">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> que les nouvelles technologies peuvent faciliter l’exercice des droits à la liberté de réunion pacifique, à la liberté d’expression, à la liberté d’association et à la participation à la conduite des affaires publiques en ce qu’elles facilitent la mobilisation des personnes et l’organisation de rassemblements, et considérant également qu’elles offrent un espace pour la tenue de rassemblements en ligne et peuvent faciliter et renforcer la participation et la mobilisation de personnes souvent marginalisées,</p>
+      </container>
+      <container name="Considérant également" eId="container_30">
+        <p xml:space="preserve"> <span class="italic">Considérant également</span> que, si elles sont utilisées d’une manière conforme aux droits de l’homme, les nouvelles technologies peuvent également être utilisées par les forces de l’ordre pour faciliter les rassemblements et accroître la transparence et la responsabilisation dans le cadre des opérations de maintien de l’ordre liées aux rassemblements, notamment en conservant la trace de toutes les décisions, actions et ordres des forces de l’ordre à tous les niveaux, ainsi que des raisons qui les sous-tendent,</p>
+      </container>
+      <container name="Soulignant" eId="container_31">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> que les manifestations pacifiques et les personnes qui les organisent et qui y participent ne devraient pas être considérées comme une menace ni être stigmatisées, et demandant par conséquent à tous les États d’instaurer un dialogue ouvert, inclusif et constructif lorsqu’ils traitent des manifestations pacifiques et de leurs causes,</p>
+      </container>
+      <container name="Rappelant" eId="container_32">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> que les États doivent respecter et faciliter les contre-manifestations pacifiques en tant que réunions à part entière, tout en veillant à ce que ces dernières ne perturbent pas indûment les rassemblements auxquels elles s’opposent,</p>
+      </container>
+      <container name="Rappelant également" eId="container_33">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> que les actes de violence isolés commis par certains pendant une manifestation ne privent pas les participants pacifiques de leurs droits à la liberté de réunion pacifique, à la liberté d’expression et à la liberté d’association,</p>
+      </container>
+      <container name="Gardant à l’esprit" eId="container_34">
+        <p xml:space="preserve"> <span class="italic">Gardant à l’esprit</span> que le déroulement pacifique des rassemblements peut être facilité par la communication et la collaboration entre les organisateurs, les manifestants, les autorités locales et les membres des forces de l’ordre,</p>
+      </container>
+      <container name="Conscient" eId="container_35">
+        <p xml:space="preserve"> <span class="italic">Conscient</span> que les manifestations pacifiques peuvent, par leur nature, perturber dans une certaine mesure la vie ordinaire, comme la circulation des véhicules ou des piétons ou l’activité économique, et demandant aux États de rechercher des solutions pour faciliter ces rassemblements tout en respectant les droits de toutes les autres parties prenantes,</p>
+      </container>
+      <container name="Conscient également" eId="container_36">
+        <p xml:space="preserve"> <span class="italic">Conscient également</span> que les institutions nationales des droits de l’homme et les représentants de la société civile, notamment les défenseurs des droits de l’homme et les organisations non gouvernementales, peuvent contribuer à faciliter un dialogue permanent entre les organisateurs, les participants aux manifestations pacifiques et les autorités compétentes,</p>
+      </container>
+      <container name="Rappelant" eId="container_37">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> le Code de conduite pour les responsables de l’application des lois et les Principes de base sur le recours à la force et l’utilisation des armes à feu par les responsables de l’application des lois, ainsi que le Protocole du Minnesota relatif aux enquêtes sur les homicides résultant potentiellement d’actes illégaux,</p>
+      </container>
+      <container name="Rappelant également" eId="container_38">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> les Lignes directrices des Nations Unies basées sur les droits de l’homme portant sur l’utilisation des armes à létalité réduite dans le cadre de l’application des lois, publiées par le Haut-Commissariat des Nations Unies aux droits de l’homme en tant que complément des Principes de base sur le recours à la force et l’utilisation des armes à feu par les responsables de l’application des lois, et engageant tous les États à les appliquer à leurs opérations de maintien de l’ordre liées à des rassemblements,</p>
+      </container>
+      <container name="Engageant" eId="container_39">
+        <p xml:space="preserve"> <span class="italic">Engageant</span> tous les États à faire bon usage du manuel de référence sur l’utilisation de la force et des armes à feu dans le cadre du maintien de l’ordre (<span class="italic">Resource book on the use of force and firearms in law enforcement</span>), publié par le Haut-Commissariat des Nations Unies aux droits de l’homme et l’Office des Nations Unies contre la drogue et le crime, et de la version actualisée du module de formation du Haut-Commissariat aux droits de l’homme sur le droit des droits de l’homme et le maintien de l’ordre,</p>
+      </container>
+      <container name="Rappelant" eId="container_40">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> qu’il importe que les agents publics et privés exerçant des fonctions de maintien de l’ordre qui sont affectés à la facilitation des rassemblements soient correctement formés et équipés, fassent l’objet d’une supervision et soient tenus responsables de leurs actes, soulignant que les autorités compétentes devraient s’abstenir de déployer l’armée ou de recourir à des unités, tactiques ou matériels militaires ou à d’autres unités extérieures à la chaîne de commandement officielle dans le contexte de manifestations pacifiques, tout en réaffirmant que les obligations et engagements internationaux de l’État relatifs à l’emploi de la force dans le cadre du maintien de l’ordre s’appliquent aussi à ces unités lorsqu’elles sont chargées de maintenir l’ordre,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_41">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> que, dans des situations de conflit armé, y compris d’occupation militaire, le droit international des droits de l’homme et le droit international humanitaire sont complémentaires et se renforcent mutuellement, et que les États doivent respecter les obligations mises à leur charge par le droit international humanitaire durant les manifestations pacifiques, notamment pour ce qui est du recours à la force et aux armes à feu,</p>
+      </container>
+      <container name="Considérant" eId="container_42">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> que les forces de l’ordre jouent un rôle essentiel dans le respect et la protection de la dignité humaine et dans le maintien et la défense des droits humains de tous, y compris dans la facilitation des rassemblements, et soulignant qu’il incombe à la chaîne de commandement des services de maintien de l’ordre, dans la mesure des pouvoirs qui lui sont conférés, de protéger les droits de l’homme et de prévenir les violations de ces droits,</p>
+      </container>
+      <container name="Profondément préoccupé" eId="container_43">
+        <p xml:space="preserve"> <span class="italic">Profondément préoccupé</span> par les cas où des manifestations pacifiques se sont heurtées à la répression, notamment l’usage illégal de la force par les forces de l’ordre, la militarisation des forces de l’ordre, l’utilisation à mauvais escient d’armes à létalité réduite, des arrestations et des détentions arbitraires, des procès inéquitables, des actes de torture et d’autres peines ou traitements cruels, inhumains ou dégradants, des actes de violence, y compris de violence sexuelle et de violence fondée sur le genre, des disparitions forcées, des agressions de manifestants et de passants, ainsi que de défenseurs des droits de l’homme, d’avocats, de journalistes et d’autres professionnels des médias et de membres du personnel médical, et des restrictions injustifiées, notamment des coupures d’Internet,</p>
+      </container>
+      <container name="Se déclarant préoccupé" eId="container_44">
+        <p xml:space="preserve"> <span class="italic">Se déclarant préoccupé</span> par la surveillance arbitraire et illégale exercée tant dans les espaces physiques qu’en ligne à l’égard des personnes participant à des manifestations pacifiques, notamment au moyen de caméras de télévision en circuit fermé et de véhicules de surveillance aérienne, ainsi que d’outils de traçage numérique nouveaux et émergents, tels que les technologies biométriques, dont la reconnaissance faciale et émotionnelle, et les intercepteurs d’identité internationale d’abonnement mobile (appelés « stingrays »),</p>
+      </container>
+      <container name="Se déclarant préoccupé également" eId="container_45">
+        <p xml:space="preserve"> <span class="italic">Se déclarant préoccupé également</span> par le fait que, dans toutes les régions du monde, des personnes et des groupes sont incriminés et poursuivis, y compris dans le cadre de procès ne respectant pas les garanties d’une procédure régulière ou de procès devant des juridictions militaires, uniquement pour avoir organisé des manifestations pacifiques ou y avoir pris part, ou pour avoir observé, surveillé ou enregistré des manifestations, ou pour avoir fourni des services médicaux à des manifestants ou défendu leurs droits,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_46" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve"> 	<span class="italic">Rappelle</span> que les États ont la responsabilité, y compris dans le contexte des manifestations pacifiques, de promouvoir et protéger les droits de l’homme et de prévenir les violations de ces droits et les atteintes à ces droits, notamment les exécutions extrajudiciaires, sommaires ou arbitraires, les arrestations et les détentions arbitraires, les disparitions forcées et les actes de torture et autres peines ou traitements cruels, inhumains ou dégradants, et demande aux États d’éviter, en tout temps, d’abuser des procédures pénales ou civiles et de menacer d’y recourir ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> à tous les États de promouvoir un environnement sûr et favorable qui permette aux personnes et aux groupes d’exercer leurs droits à la liberté de réunion pacifique, à la liberté d’expression et à la liberté d’association, à la fois en ligne et hors ligne, notamment en faisant en sorte que leurs procédures et lois nationales relatives à ces droits soient conformes à leurs obligations et engagements internationaux dans le domaine des droits de l’homme, établissent clairement et expressément une présomption favorable à l’exercice de ces droits, et soient effectivement appliquées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> aux États de veiller à ce que les lois relatives à la sécurité nationale, à l’ordre public et à la santé publique soient compatibles avec les obligations qui leur incombent au titre du droit international, en particulier du droit international des droits de l’homme, afin d’empêcher la criminalisation indue des manifestations pacifiques ou les restrictions ou interdictions qui leur sont imposées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande également</span> aux États de cesser d’utiliser toute rhétorique qui stigmatise les manifestants et de faciliter le dialogue avec eux, de manière inclusive, lorsqu’ils recherchent des solutions pour résoudre une crise et s’attaquer à ses causes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne</span> qu’il faut traiter la question de la gestion des rassemblements, y compris des manifestations pacifiques, afin de contribuer à leur déroulement pacifique, d’éviter le recours illégal ou excessif à la force et de prévenir les blessures, notamment celles qui entraînent un handicap, et les pertes en vies humaines parmi les manifestants, les personnes qui observent, surveillent ou enregistrent les manifestations, les passants, les membres du personnel médical et les membres des forces de l’ordre, ainsi que toute violation des droits de l’homme ou atteinte à ces droits, et de veiller à ce que les responsabilités soient établies pour de telles violations ou atteintes et à ce que les victimes aient accès à un recours utile et à des réparations ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtG">
+        <num>6.</num>
+        <list eId="para_61_list">
+          <intro eId="para_61_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Engage</span> tous les États à accorder l’attention voulue à la compilation de recommandations concrètes pour la bonne gestion des rassemblements, fondées sur des pratiques optimales et des enseignements tirés de l’expérience<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/31/66">A/HRC/31/66</a>.</p></authorialNote>, qui fournit :</p>
+          </intro>
+          <point eId="para_61_list_point_a">
+            <num>a)</num>
+            <content eId="para_61_list_point_a_content">
+              <p xml:space="preserve">  Une évaluation des droits de l’homme en jeu avant, pendant et après un rassemblement, y compris des manifestations pacifiques, notamment les droits à la liberté de réunion pacifique, d’expression, d’association et de religion ou de croyance, le droit de participer à la conduite des affaires publiques, le droit à la vie, à la liberté et à la sécurité de la personne, le droit de ne pas être soumis à la torture et à des peines ou traitements cruels, inhumains ou dégradants, ainsi que le droit à un recours utile en cas de violations des droits de l’homme, et le respect de la dignité humaine, de l’intégrité physique et de la vie privée ;</p>
+            </content>
+          </point>
+          <point eId="para_61_list_point_b">
+            <num>b)</num>
+            <content eId="para_61_list_point_b_content">
+              <p xml:space="preserve">  Des orientations utiles sur la manière dont les États doivent s’acquitter de leurs obligations et engagements, y compris sur les moyens de les rendre opérationnels dans leurs lois, procédures et pratiques internes, afin de promouvoir et de protéger les droits de l’homme dans le contexte des rassemblements, notamment des manifestations pacifiques ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note avec satisfaction</span> de l’ensemble d’outils techniques et pratiques, fondés sur les normes internationales et les meilleures pratiques, que le Rapporteur spécial sur les droits à la liberté de réunion pacifique et à la liberté d’association a élaboré, en collaboration avec l’Office des Nations Unies contre la drogue et le crime et le Haut‑Commissariat des Nations Unies aux droits de l’homme, pour aider les services de maintien de l’ordre à promouvoir et à protéger les droits de l’homme dans le contexte des manifestations pacifiques, en application de la résolution <a href="http://undocs.org/fr/A/HRC/RES/50/21">50/21</a> du Conseil des droits de l’homme, du Protocole type à l’intention des forces de l’ordre sur la promotion et la protection des droits de l’homme dans le contexte des manifestations pacifiques<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Voir <a href="http://undocs.org/fr/A/HRC/55/60">A/HRC/55/60</a>.</p></authorialNote> et des trois outils qui le composent, à savoir des listes de vérification concrètes ; des orientations sur la manière dont les services de maintien de l’ordre doivent utiliser les technologies numériques dans le contexte des manifestations pacifiques et une ébauche de manuel à l’intention des forces de l’ordre sur les moyens de faciliter la tenue des manifestations pacifiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage</span> tous les États à tenir compte du Protocole type, qui comprend des recommandations concrètes visant à les aider, ainsi que leurs services de maintien de l’ordre et les membres des forces de l’ordre, à renforcer les capacités, les règles, les protocoles, les stratégies et les procédures nécessaires au niveau institutionnel et à s’acquitter de leurs obligations internationales relatives aux droits de l’homme, en particulier en ce qui concerne le respect, la promotion et la protection des droits de l’homme dans le contexte des manifestations pacifiques, et invite les États à réviser ou à adopter, selon qu’il convient, des protocoles à l’intention des services de maintien de l’ordre pour que la facilitation des manifestations pacifiques soit assurée dans le respect des droits de l’homme, conformément au droit international des droits de l’homme, aux normes et aux meilleures pratiques en la matière, afin d’améliorer la responsabilisation et de protéger les droits de l’homme dans le contexte des manifestations ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> aux États de faciliter la tenue des manifestations pacifiques en faisant en sorte que les manifestants aient accès, dans toute la mesure possible, à un espace public qui soit à portée de vue et d’ouïe du public visé, et en les protégeant sans discrimination, selon que de besoin, contre toute forme de menace ou de harcèlement, et insiste sur le rôle que peuvent jouer les autorités locales à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne</span> le rôle important que peut jouer la communication entre les organisateurs, les manifestants, les autorités locales et les membres des forces de l’ordre dans la bonne gestion des rassemblements tels que des manifestations pacifiques, et demande aux États d’établir des mécanismes de communication appropriés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États à accorder une attention particulière à la sécurité et à la protection des femmes et des filles, ainsi que des défenseuses des droits de l’homme, dans le contexte des manifestations pacifiques, à mettre en place des systèmes pour prévenir les actes d’intimidation, de harcèlement et de violence, notamment de violence sexuelle et fondée sur le genre, et y réagir le cas échéant, et à adopter des protocoles de maintien de l’ordre dans les manifestations, qui tiennent compte des questions de genre, et à assurer une formation adéquate et continue des membres des forces de l’ordre en la matière ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve"> 	<span class="italic">Réaffirme</span> que les États doivent prendre toutes les mesures appropriées pour assurer la sécurité et la protection des enfants, y compris lorsque ceux-ci exercent leurs droits à la liberté de réunion pacifique, à la liberté d’expression et à la liberté d’association, notamment dans le cadre de manifestations pacifiques, et souligne qu’il faut tenir pleinement compte des droits de l’enfant dans les orientations données aux services de maintien de l’ordre ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> à tous les États d’accorder une attention particulière à la sécurité et à la protection de ceux qui observent, surveillent ou enregistrent les manifestations, notamment les défenseurs des droits de l’homme, les avocats, les journalistes et autres professionnels des médias, en tenant compte de leur rôle, de leur exposition et de leur vulnérabilité propres, et ce, même si la manifestation a été déclarée illégale ou est dispersée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> aux États de prendre des mesures avant, pendant et après les manifestations pour protéger toutes les personnes et d’accorder une attention particulière aux personnes qui appartiennent à des groupes particulièrement vulnérables à la violence, y compris à un usage illégal ou excessif de la force par les forces de l’ordre ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_151__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> à tous les États de s’abstenir d’appliquer des mesures qui violent les droits de l’homme, notamment des pratiques consistant à perturber les communications moyennant des coupures d’Internet, la fermeture ou le blocage illégal ou arbitraire de sites Web de médias ou de réseaux sociaux, et d’autres restrictions généralisées à l’accès à Internet, à la diffusion d’informations en ligne ou au rassemblement dans des espaces en ligne, ou la mise sous surveillance au motif de l’appartenance à un groupe et l’utilisation ciblée de logiciels espions dans le contexte de manifestations, et de mettre un terme à de telles mesures qui sont incompatibles avec le droit international des droits de l’hommes, en gardant à l’esprit que les manifestations ne devraient pas être considérées comme des occasions d’assurer une surveillance ou de poursuivre des objectifs de maintien de l’ordre plus généraux au moyen des technologies numériques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> tous les États à éviter l’emploi de la force dans le cadre de manifestations pacifiques et à veiller, lorsque pareil emploi est absolument nécessaire, à ce que nul ne subisse un usage excessif ou aveugle de la force, et à ce que toute personne blessée ou autrement touchée reçoive aussi rapidement que possible une assistance et des soins médicaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_182" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_182__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> à tous les États de faire en sorte, à titre prioritaire, que leurs procédures et lois nationales soient conformes à leurs obligations et engagements internationaux relatifs à l’usage de la force dans le contexte du maintien de l’ordre et qu’elles soient effectivement appliquées par les membres des forces de l’ordre, eu égard en particulier aux principes du maintien de l’ordre, tels que les principes de nécessité et de proportionnalité, en gardant à l’esprit que le recours à la force létale n’est autorisé qu’en dernier ressort en cas de menace imminente pour la vie et qu’il ne saurait être utilisé simplement pour disperser un rassemblement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve"> 	<span class="italic">Affirme</span> que rien ne peut jamais justifier l’emploi sans discrimination de la force létale contre une foule, qui est illégal au regard du droit international des droits de l’homme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> aux États d’enquêter sur tous décès ou toutes blessures graves, notamment celles qui entraînent un handicap, survenus pendant une manifestation, y compris les décès ou blessures résultant de l’utilisation d’armes à feu ou d’armes à létalité réduite par des membres des forces de l’ordre ou par du personnel privé agissant pour le compte de l’État, et souligne qu’il est nécessaire d’établir pleinement les responsabilités en pareil cas ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_236" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_236__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande également</span> aux États d’assurer une formation initiale et continue adéquate, axée sur les droits de l’homme et tenant compte du genre, du handicap et de l’âge, aux membres des forces de l’ordre et, selon qu’il convient, de favoriser l’accès du personnel privé agissant pour le compte de l’État à une telle formation afin de faciliter la tenue des manifestations, et de faire en sorte que cette formation soit accessible à tous, y compris aux chefs de corps, qu’elle mette l’accent sur l’apprentissage de compétences pratiques et qu’elle accorde la priorité aux techniques de facilitation, de communication, de négociation, de désescalade et d’animation de foule respectueuses des droits de l’homme, avec des sessions portant expressément sur la prévention de la violence sexuelle et fondée sur le genre et sur les besoins particuliers des personnes et des groupes vulnérables ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_256" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_256__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage</span> les États à mettre à la disposition des forces de l’ordre des équipements de protection appropriés et des armes à létalité réduite afin qu’elles aient moins besoin d’employer des armes de tout genre, tout en continuant de s’employer à réglementer la formation à l’utilisation d’armes à létalité réduite et l’utilisation de telles armes et à établir des protocoles à cet effet, en gardant à l’esprit que même des armes à létalité réduite peuvent présenter un danger pour la vie, causer des blessures graves ou entraîner des actes de torture ou d’autres mauvais traitements ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve"> 	<span class="italic">Insiste</span> sur le fait qu’il importe de soumettre les armes à létalité réduite à des tests approfondis et indépendants avant leur achat et leur déploiement, en vue d’en déterminer la létalité et de mesurer la gravité des blessures qu’elles risquent d’infliger, de contrôler la formation à l’emploi de ces armes ainsi que l’usage qui en est fait, et de favoriser l’application du principe de responsabilité à tous les niveaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_299" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> à tous les États, conformément à l’interdiction absolue de la torture et des autres peines ou traitements cruels, inhumains ou dégradants, de prendre toutes les mesures législatives, administratives, judiciaires et autres appropriées et efficaces pour prévenir et interdire la production, le commerce, l’exportation, l’importation et l’utilisation d’outils et d’équipements de maintien de l’ordre qui n’ont aucune autre utilité pratique que la torture ou d’autres peines ou traitements cruels, inhumains ou dégradants, y compris dans le cadre de manifestations ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_322" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_322__content">
+          <p xml:space="preserve"> 	<span class="italic">Insiste</span> sur l’importance d’une coopération internationale venant appuyer les efforts nationaux de promotion et de protection des droits de l’homme et des libertés fondamentales dans le contexte des rassemblements, notamment des manifestations pacifiques, en vue d’accroître la capacité des forces de l’ordre de gérer ces rassemblements d’une manière qui soit conforme au droit international des droits de l’homme et aux normes applicables en la matière ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> aux États de s’abstenir d’utiliser les technologies numériques pour réduire au silence, surveiller arbitrairement ou illégalement ou harceler des personnes ou des groupes au seul motif qu’ils ont organisé, observé, surveillé ou enregistré des manifestations pacifiques ou y ont pris part, ou d’ordonner des coupures générales d’Internet et de bloquer des sites Web et des plateformes, notamment lorsque des manifestations sont organisées ou à des moments politiques clefs ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_371" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_371__content">
+          <p xml:space="preserve"> 	<span class="italic">Affirme</span> qu’avant, pendant ou après les manifestations, les technologies numériques ne devraient pas être utilisées à des fins de catégorisation, de profilage ou d’identification à distance des personnes, en particulier celles qui appartiennent à des groupes vulnérables, d’une manière incompatible avec le droit international des droits de l’homme et les principes de légalité, de nécessité et de proportionnalité, s’agissant en particulier de l’utilisation illégale ou arbitraire de moyens biométriques, car ces technologies peuvent être discriminatoires et incompatibles avec l’obligation qu’ont les forces de l’ordre de faciliter la tenue de manifestations pacifiques, et exhorte les États à s’abstenir de s’en servir pour identifier les personnes qui participent pacifiquement à un rassemblement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_397" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_397__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> aux États de s’abstenir d’exporter, de vendre ou de transférer des équipements et technologies de surveillance et des armes à létalité réduite, conformément aux procédures nationales et aux règles et normes internationales applicables, lorsqu’ils estiment qu’il existe des motifs raisonnables de soupçonner que ces équipements, technologies ou armes pourraient servir à violer des droits de l’homme ou y porter atteinte, y compris dans le contexte de rassemblements ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_424" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_424__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande également</span> aux États de se garder d’appliquer de quelconques restrictions injustifiées aux moyens techniques visant à assurer et préserver la confidentialité des communications numériques, notamment aux moyens de chiffrement, de pseudonymisation et d’anonymisation en ligne, qui sont importants pour garantir l’exercice des droits de l’homme, en particulier du droit à la vie privée, dans le contexte des rassemblements ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_452" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_452__content">
+          <p xml:space="preserve"> 	<span class="italic">Est conscient</span> de l’importance de la collecte d’informations sur les violations des droits de l’homme et les atteintes à ces droits qui sont commises dans le contexte de manifestations pacifiques et du suivi de la situation dans ce domaine, y compris le décompte des victimes, et du rôle que peuvent jouer à cet égard les institutions nationales des droits de l’homme, la société civile, y compris les organisations non gouvernementales, les journalistes et autres professionnels des médias, les internautes, les défenseurs des droits de l’homme et les avocats ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_481" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_481__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États à veiller à ce que les responsabilités soient établies en cas de violations des droits de l’homme ou d’atteintes à ces droits, dans le cadre de mécanismes nationaux judiciaires ou autres, fondés sur le droit et conformes à leurs obligations et engagements internationaux dans le domaine des droits de l’homme, et à garantir à toutes les victimes l’accès à des voies de recours et à une réparation, y compris pour tout acte commis dans le contexte de manifestations pacifiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_511" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_511__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage</span> les États à demander une assistance technique pour la facilitation des rassemblements, selon qu’il convient, y compris de la part du Haut-Commissariat des Nations Unies aux droits de l’homme, de l’Office des Nations Unies contre la drogue et le crime et d’autres institutions spécialisées, de ses procédures spéciales et des mécanismes régionaux des droits de l’homme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_542" class="SingleTxtG">
+        <num>32.</num>
+        <content eId="para_542__content">
+          <p xml:space="preserve"> 	<span class="italic">Invite</span> tous les États à envisager d’adresser des recommandations, selon qu’il convient, aux États concernés durant l’Examen périodique universel sur la promotion et la protection des droits de l’homme dans le contexte des rassemblements, notamment en ce qui concerne la facilitation des rassemblements tels que les manifestations pacifiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_574" class="SingleTxtG">
+        <num>33.</num>
+        <content eId="para_574__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie</span> le Rapporteur spécial sur les droits à la liberté de réunion pacifique et d’association, en collaboration avec le Haut-Commissariat et l’Office des Nations Unies contre la drogue et le crime, d’organiser, avant sa soixante-deuxième session, une consultation mondiale sur le rôle des différentes parties prenantes dans la promotion de l’application de l’ensemble d’outils techniques et pratiques élaborés conformément à sa résolution <a href="http://undocs.org/fr/A/HRC/RES/50/21">50/21</a> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_607" class="SingleTxtG">
+        <num>34.</num>
+        <content eId="para_607__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> au Haut-Commissariat, en collaboration avec le Rapporteur spécial sur les droits à la liberté de réunion pacifique et d’association et l’Office des Nations Unies contre la drogue et le crime, de soutenir l’application au niveau national de l’ensemble d’outils pratiques destinés aux responsables de l’application des lois, conformément à sa résolution <a href="http://undocs.org/fr/A/HRC/RES/50/21">50/21</a>, au moyen de l’organisation, avec l’accord des pays concernés, d’ateliers de coopération technique au niveau national et d’activités de suivi au niveau régional, d’ici à la soixante-cinquième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_641" class="SingleTxtG">
+        <num>35.</num>
+        <content eId="para_641__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide</span> de poursuivre l’examen de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="35e" refersTo="#adoptionMeeting">35e séance</location>
+          <eol />
+          <docDate date="2024-07-11" refersTo="#adoptionDate">11 juillet 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
