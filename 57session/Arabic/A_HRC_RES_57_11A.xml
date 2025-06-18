@@ -1,0 +1,461 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-11/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-11/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-11/ara@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-11/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-11/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Global Counter-Terrorism Strategy" showAs="UN Global Counter-Terrorism Strategy" dictionary="DHLAUTH"></keyword>
+        <keyword value="TERRORISM" href="http://metadata.un.org/thesaurus/1006475" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COUNTER-TERRORISM" href="http://metadata.un.org/thesaurus/1001346" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ADMINISTRATION OF JUSTICE" href="http://metadata.un.org/thesaurus/1000049" showAs="ADMINISTRATION OF JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-02" outcome="draftResolution" as="A/HRC/57/L.3" by="Brazil, Egypt, Japan, Mexico, Namibia, Peru and Philippines" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 47th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">الدورة السابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 أيلول</date>
+          <date date="2024-10-11" refersTo="#endDate">11 تشرين الأول 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 10 تشرين الأول/أكتوبر 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/11</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">		الإرهاب وحقوق الإنسان</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان</span>،</p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه، وبالإعلان العالمي لحقوق الإنسان، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، والعهد الدولي الخاص بالحقوق المدنية والسياسية وغيره من صكوك حقوق الإنسان الدولية ذات الصلة،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى جميع القرارات ذات الصلة الصادرة عن الجمعية العامة ومجلس الأمن ولجنة حقوق الإنسان ومجلس حقوق الإنسان بشأن حقوق الإنسان والإرهاب، وآخرها قرارات الجمعية العامة <a href="https://undocs.org/ar/A/RES/72/129 ">7</a><a href="https://undocs.org/ar/A/RES/72/129 ">2</a><a href="https://undocs.org/ar/A/RES/72/129 ">/129</a> المؤرخ 8 كانون الأول/ديسمبر 2017، و<a href="https://undocs.org/ar/A/RES/72/165">72/165</a> المؤرخ 19 كانون الأول/ديسمبر 2017، و<a href="https://undocs.org/ar/A/RES/72/180">72/180</a> المؤرخ 19 كانون الأول/ديسمبر 2017، و<a href="https://undocs.org/ar/A/RES/72/246">72/246</a> المؤرخ 24 كانون الأول/ديسمبر 2017، و<a href="https://undocs.org/ar/A/RES/73/174">73/174</a> المؤرخ 17 كانون الأول/ديسمبر 2018، و<a href="https://undocs.org/ar/A/RES/73/305">73/305</a> المؤرخ 28 حزيران/يونيه 2019، و<a href="https://undocs.org/ar/A/RES/74/147">74/147</a> المؤرخ 18 كانون الأول/ديسمبر 2019، و<a href="https://undocs.org/ar/A/RES/76/169">76/169</a> المؤرخ 16 كانون الأول/ديسمبر 2021، و<a href="https://undocs.org/ar/A/RES/78/210">78/210</a> المؤرخ 19 كانون الأول/ديسمبر 2023، وإذ يعيد تأكيد قرارات مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/34/8">34/8</a> المؤرخ 23 آذار/مارس 2017، و<a href="https://undocs.org/ar/A/RES/35/34">35/34</a> المؤرخ 24 حزيران/يونيه 2017، و<a href="https://undocs.org/ar/A/RES/37/27">37/27</a> المؤرخ 23 آذار/مارس 2018، و<a href="https://undocs.org/ar/A/RES/40/16">40/16</a> المؤرخ 22 آذار/مارس 2019، و<a href="https://undocs.org/ar/A/RES/42/18">42/18</a> المؤرخ 26 أيلول/سبتمبر 2019، و<a href="https://undocs.org/ar/A/RES/45/11">45/11</a> المؤرخ 6 تشرين الأول/أكتوبر 2020، و<a href="https://undocs.org/ar/A/RES/49/10">49/10</a> المؤرخ 31 آذار/مارس 2022، و<a href="https://undocs.org/ar/A/RES/51/24">51/24</a> المؤرخ 7 تشرين الأول/ أكتوبر 2022،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على أن جميع حقوق الإنسان عالمية وغير قابلة للتجزئة ومترابطة ومتشابكة،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أنه يجب على الدول كفالة توافق أي تدبير تَتَّخذه لمكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب مع القانون الدولي، ولا سيما القانون الدولي لحقوق الإنسان والقانون الدولي لللاجئين والقانون الدولي الإنساني،</p>
+      </container>
+      <container name="وإذ يعيد أيضاً تأكيد" eId="container_6">
+          <p xml:space="preserve">	<span class="italic">وإذ يعيد أيضاً تأكيد</span> التزام الدول باحترام جميع حقوق الإنسان والحريات الأساسية وتعزيزها وحمايتها، والأهمية الجوهرية لاحترام سيادة القانون،</p>
+      </container>
+      <container name="وإذ يعيد أيضاً تأكيد" eId="container_7">
+          <p xml:space="preserve">	<span class="italic">وإذ يعيد أيضاً تأكيد</span> إدانته القاطعة لجميع أعمال الإرهاب والتطرف العنيف المفضي إلى الإرهاب، بكل أشكالها ومظاهرها، وللأساليب والممارسات المتبعة في ارتكابها أينما ارتُكبت وأياً كان مرتكبوها، بصرف النظر عن دوافعهم، ولدعم الإرهاب مالياً أو مادياً أو سياسياً باعتبار ذلك فعلاً غير مبرر وفقاً للقانون الدولي المنطبق،</p>
+      </container>
+      <container name="وإذ يُسلِّم" eId="container_8">
+          <p xml:space="preserve">	<span class="italic">وإذ يُسلِّم</span> بأن الإرهاب والتطرف العنيف المفضي إلى الإرهاب يُخلِّفان أثراً ضاراً على التمتع الكامل بجميع حقوق الإنسان والحريات الأساسية، ويعوقان التمتع الكامل بالحقوق السياسية والمدنية والاقتصادية والاجتماعية والثقافية، ويزهقان الأرواح، ويُخرِّبان الروابط الأسرية ونسيج المجتمعات، ويبثان الرعب في نفوس الأفراد والمجتمعات، ويدمِّران سبل العيش واقتصادات بكاملها، ويهددان السلامة الإقليمية للدول وأمنها واستقرار الحكومات وسيادة القانون والديمقراطية، وفي نهاية المطاف، سير شؤون المجتمعات والسلم والأمن الدوليين،</p>
+      </container>
+      <container name="وإذ يُسلِّم أيضاً" eId="container_9">
+          <p xml:space="preserve">	<span class="italic">وإذ يُسلِّم أيضاً</span> بأن النهج الذي يكفل الاحترام الكامل لحقوق الإنسان وسيادة القانون هو السبيل الفعال الوحيد للتصدي للإرهاب والتطرف العنيف المفضي إلى الإرهاب،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على أنه لا يجوز ولا ينبغي ربط الإرهاب والتطرف العنيف المفضي إلى الإرهاب بأي دِين أو جنسية أو حضارة أو جماعة إثنية، وعلى أن التسامح والتعددية والشمول واحترام التنوع وحوار الحضارات وتعزيز التفاهم بين الأديان والثقافات واحترام الشعوب بعضها بعضاً، بما في ذلك على الصعيد الوطني والإقليمي والعالمي، والتصدي، في الوقت نفسه، لتأجُّج مشاعر الكراهية، من أهم عناصر توطيد التعاون والنجاح في جهود منع الإرهاب والتطرف العنيف المفضي إلى الإرهاب ومكافحتهما، وإذ يرحب بمختلف المبادرات الرامية إلى تحقيق هذه الغاية،</p>
+      </container>
+      <container name="إذ يؤكد" eId="container_11">
+        <p xml:space="preserve">	وإذ يؤكد من جديد أن تعزيز وحماية حقوق الإنسان للجميع وسيادة القانون هي عوامل لا بد منها لمكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب، وإذ يُسلِّم بأن اتخاذ تدابير فعالة لمكافحة الإرهاب ولحماية حقوق الإنسان هما هدفان لا يتعارضان بل يتكاملان ويعزز كل منهما الآخر،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد أيضاً" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد أيضاً</span> التزامه باستراتيجية الأمم المتحدة العالمية لمكافحة الإرهاب وأركانها الأربعة، بصيغتها التي اعتمدتها الجمعية العامة في قرارها <a href="https://undocs.org/ar/A/RES/60/288">60/288</a> المؤرخ 8 أيلول/سبتمبر 2006، الذي تؤكد فيه من جديد، في جملة أمور، أن احترام حقوق الإنسان للجميع وسيادة القانون هو الركيزة الأساسية لمكافحة الإرهاب، وإذ يشير إلى الدورة الثامنة من استعراض الاستراتيجية الذي يجري كل سنتين، بصيغتها التي اعتمدتها الجمعية العامة في قرارها <a href="https://undocs.org/ar/A/RES/77/298">77/298</a> المؤرخ 22 حزيران/يونيه 2023،</p>
+      </container>
+      <container name="وإذ يستنكر" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">وإذ يستنكر</span> الهجمات على الأماكن والمزارات الدينية والمواقع الثقافية، التي تشكل انتهاكاً للقانون الدولي، ولا سيما القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني، حسب الحالة، بما في ذلك أي تدمير متعمَّد للمعالم التاريخية أو الآثار أو المواقع الدينية،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه</span> إزاء ما للهجمات الإرهابية على الأهداف المعرضة للخطر، بما فيها الهياكل الأساسية الحيوية والأماكن العامة ("الأهداف غير المحصنة")، مثل المرافق الصحية والتعليمية والدينية، من أثر على التمتع الفعلي بجميع حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يستنكر بشدة" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يستنكر بشدة</span> ما يسببه الإرهاب والتطرف العنيف المفضي إلى الإرهاب من معاناة للضحايا وأسرهم مع التشديد على ضرورة تعزيز وحماية حقوق ضحايا الإرهاب، وبالتالي تشجيع اتباع نهج يحترم بالكامل حقوق الإنسان المكفولة لهم، ولا سيما النساء والأطفال منهم، وإذ يؤكد من جديد تضامنه الكامل معهم ويشدد على أهمية منحهم الدعم والمساعدة الملائميْن وسبل الانتصاف وجبر الضرر الفعالة، مع مراعاة جملة أمور منها الاعتبارات المتعلقة بإحياء الذكرى وبالكرامة والاحترام والمساءلة والحقيقة والعدالة، وفقاً للقانون الدولي،</p>
+      </container>
+      <container name="وإذ يدين بشدة" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يدين بشدة</span> جميع الانتهاكات المرتكبة في سياق مكافحة الإرهاب والتجاوزات التي ترتكبها الجماعات الإرهابية ضد النساء والفتيات، بما في ذلك القتل والتشويه والاختطاف والاتجار والزواج القسري والتحرش والاغتصاب وغير ذلك من أشكال العنف الجنسي والجنساني، وإذ يؤكد أهمية إخضاع مرتكبي هذه الانتهاكات للمساءلة،</p>
+      </container>
+      <container name="وإذ يدين أيضاً بشدة" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يدين أيضاً بشدة</span> جميع الانتهاكات المرتكبة في سياق مكافحة الإرهاب والتجاوزات التي ترتكبها الجماعات الإرهابية ضد الأطفال، وإذ يدين كذلك بشدة تجنيد الأطفال واستخدامهم لارتكاب هجمات إرهابية، وكل الانتهاكات والتجاوزات التي ترتكبها الجماعات الإرهابية ضد الأطفال، بما في ذلك الاتجار والقتل والتشويه والاختطاف والاغتصاب وغير ذلك من أشكال العنف الجنسي والجنساني، وإذ يلاحظ أن هذه الانتهاكات والتجاوزات قد تعد بمثابة جرائم حرب أو جرائم ضد الإنسانية،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه البالغ" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه البالغ</span> إزاء ظاهرة المقاتلين الإرهابيين الأجانب وخطرها على جميع الدول، بما في ذلك بلدان المنشأ والعبور والمقصد، وإذ يشجع جميع الدول على التصدي لهذا الخطر بتعزيز التعاون فيما بينها واتخاذ التدابير المناسبة لمعالجة هذه الظاهرة، وفقاً لالتزاماتها بموجب القانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان والقانون الدولي للاجئين والقانون الدولي الإنساني،</p>
+      </container>
+      <container name="وإذ يُسلِّم" eId="container_19">
+          <p xml:space="preserve">	<span class="italic">وإذ يُسلِّم</span> بأن مكافحة الإرهاب تتطلب اتباع نهج شامل واعتماد استراتيجية متعددة الأبعاد لمعالجة العوامل الكامنة وراء الإرهاب والظروف المفضية إليه،</p>
+      </container>
+      <container name="وإدراكاً منه" eId="container_20">
+          <p xml:space="preserve">	<span class="italic">وإدراكاً منه</span> لتعدد بواعث التشدد والظروف المؤدية إليه ومن ثمة إلى الإرهاب، ولقدرة التنمية القائمة على مبادئ العدالة الاجتماعية والشمول وتكافؤ الفرص على المساهمة في منع الإرهاب والتطرف العنيف المفضي إلى الإرهاب وفي تعزيز بناء مجتمعات شاملة للجميع ومنفتحة وقادرة على الصمود، ولا سيما من خلال التعليم، وإذ يؤكد تصميم الدول على العمل من أجل تسوية النزاعات، وعلى الوقوف في وجه القمع، والقضاء على الفقر، وتعزيز النمو الاقتصادي المطرد، والتنمية المستدامة، والازدهار العالمي، والحوكمة الرشيدة، وحقوق الإنسان والحريات الأساسية المكفولة للجميع، وسيادة القانون، وتحسين التفاهم بين الثقافات، وتعزيز احترام الجميع،</p>
+      </container>
+      <container name="وإذ يجدد" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">وإذ يجدد</span> التزام الدول الثابت بتعزيز التعاون الدولي من أجل منع ومكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب بجميع أشكاله ومظاهره، وفاءً بالتزاماتها بموجب القانون الدولي، ولا سيما القانون الدولي لحقوق الإنسان والقانون الدولي للاجئين والقانون الدولي الإنساني،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> بما تقوم به المقررة الخاصة المعنية بتعزيز وحماية حقوق الإنسان والحريات الأساسية في سياق مكافحة الإرهاب من عمل في مجال معالجة قضايا حقوق الإنسان والحريات الأساسية لضحايا الإرهاب والانتهاكات المزعومة لحقوق الإنسان والحريات الأساسية في سياق مكافحة الإرهاب،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_23" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">يدين بشدة</span> جميع الأعمال الإرهابية باعتبارها أفعالاً إجرامية غير مبررة، ويعرب عن قلقه البالغ إزاء آثارها الضارة على التمتع بجميع حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على مسؤولية الدول عن حماية الأشخاص الموجودين في إقليمها من هذه الأعمال، في إطار الوفاء التام بالتزاماتها بموجب القانون الدولي، ولا سيما القانون الدولي لحقوق الإنسان والقانون الدولي للاجئين والقانون الدولي الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على إقامة أو تعزيز الشراكات الوطنية والإقليمية والدولية مع الجهات صاحبة المصلحة في القطاعين العام والخاص، حسب الاقتضاء، من أجل تبادل المعلومات والخبرات بغرض منع شن الهجمات الإرهابية، والحماية منها، والتخفيف من آثارها، والتحقيق فيها، ومواجهتها، والتعافي من أضرارها، وفقاً للقانون الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تكفل توافق أي تدبير تتخذه لمكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب مع القانون الدولي، ولا سيما القانون الدولي لحقوق الإنسان والقانون الدولي للاجئين والقانون الدولي الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">يدعو أيضاً</span> الدول إلى اتخاذ التدابير المناسبة للتصدي للأخطار الجديدة والناشئة التي يشكلها تزايد الهجمات الإرهابية على أساس كراهية الأجانب والعنصرية وغير ذلك من أشكال التعصب، أو باسم الدين أو المعتقد، بطرق منها إجراء التحقيقات وتبادل المعلومات وفقاً للقانون الدولي، والتعاون فيما بينها، ويشدد على ضرورة فهم هذه الظاهرة بشكل شامل لتوجيه جهود مكافحة الإرهاب بطريقة تكفل احترام حقوق الإنسان للجميع وتعزيزها وحمايتها في سياق مكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">يهيب كذلك</span> بالدول أن تكفل عدم نقل أو إعادة المشتبه في ارتكابهم أعمال إرهابية أو غيرها من جرائم الأمن القومي إلى بلدان توجد أسباب وجيهة للاعتقاد بأنهم قد يواجهون فيها خطر التعرض للتعذيب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على وجوب توافق كل التدابير المعتمدة في سياق مكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب، بما فيها تصنيف الأفراد واستخدام الضمانات الدبلوماسية، ومذكرات التفاهم وغير ذلك من اتفاقات أو ترتيبات نقل المشتبه فيهم، مع التزامات الدول بموجب القانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان والقانون الدولي للاجئين والقانون الدولي الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">يدين</span> انتهاكات حقوق الإنسان والحريات الأساسية وانتهاكات القانون الدولي للاجئين والقانون الدولي الإنساني في سياق مكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> تضامنه العميق مع ضحايا الإرهاب وأسرهم، ومع منظمات المجتمع المدني في عملها لصالح ضحايا الإرهاب، ويقّر بأهمية حماية حقوق الإنسان للضحايا وتوفير ما يلزمهم من خدمات الدعم والمساعدة وإعادة التأهيل القائمة على القانون والمدعومة بما يكفي من الموارد، ويعترف بالدور الذي يمكن أن يؤديه ضحايا الإرهاب، مع الحرص، عند الاقتضاء، على مراعاة الاعتبارات المتعلقة بإحياء الذكرى وبالكرامة والاحترام والعدالة والحقيقة وجبر الضرر بطريقة تعزز المساءلة وتنهي حالة الإفلات من العقاب، ويشجع توطيد التعاون الدولي وتبادل الخبرات في هذا المجال، وفقاً للقانون الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> جميع الدول على وضع خطط شاملة لمساعدة ضحايا الإرهاب وأسرهم، تبعاً للقانون المحلي والقدرات والإمكانات الوطنية، لتلبية احتياجاتهم الفورية والقصيرة الأجل والطويلة الأجل في مجالي الإغاثة وإعادة التأهيل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">يقِّر</span> بعمل هيئات الأمم المتحدة وكياناتها ذات الصلة وغيرها من المنظمات الدولية والإقليمية ودون الإقليمية وبجهودها من أجل دعم حقوق الضحايا والاعتراف بها وحمايتها، وكذلك بجهودها لتقديم المساعدة التقنية للدول، بناءً على طلبها، من أجل بناء قدراتها في مجال وضع وتنفيذ برامج لمساعدة الضحايا ودعمهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بمبادرة الأمين العام لعقد المؤتمر العالمي الأول لضحايا الإرهاب، ويشجع الكيانات المنضوية في اتفاق الأمم المتحدة العالمي لتنسيق مكافحة الإرهاب، كل في حدود ولايته، على مواصلة التوعية بقضايا ضحايا الإرهاب وتعزيز وحماية حقوقهم، بما في ذلك في إجراءات العدالة الجنائية، وعلى مواصلة تعزيز قدرة الدول على مساعدة ضحايا الإرهاب، وتعزيز تعاونها مع منظمات المجتمع المدني والقطاع الخاص المعنية، التي يمكنها أن تؤدي دوراً قيّماً في مساعدة ضحايا الإرهاب ودعمهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ بقلق</span> التدابير التي تقوض حقوق الإنسان وسيادة القانون، مثل احتجاز الأشخاص المشتبه في ارتكابهم أعمالاً إرهابية من دون الاستناد إلى أساس قانوني لاحتجازهم ومن دون مراعاة ضمانات الإجراءات القانونية الواجبة، واستخدام التعذيب والحرمان غير المشروع من الحق في الحياة وغيره من حقوق الإنسان والحريات الأساسية، ويحث الدول على إعادة النظر في أسباب الاحتجاز واحترام الحق في المساواة وعدم التمييز في إقامة العدل والحق في محاكمة عادلة، على النحو المنصوص عليه في القانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني والقانون الدولي للاجئين، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_114__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على ضرورة أن تكفل الدول احترام القوانين والممارسات المحلية المتصلة بتدابير مكافحة الإرهاب مبدأَ عدم التمييز، بطرق منها إلغاء سياسة حظر المنظمات وممارسة إدراج أسماء الهيئات والأفراد في قوائم على أساس العرق أو الأصل الإثني أو الدين أو الرأي السياسي، ومراجعة القوانين المتعلقة بالحرمان من الجنسية، بما في ذلك تحديد الأسباب المتوقعة للحرمان من الجنسية وتوفير الضمانات الإجرائية الكافية، وفقاً للقانون الدولي، وضمان تعريف الإرهاب والجرائم المتصلة به تعريفاً دقيقاً ومراعاة مبادئ الشرعية والضرورة والتناسب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> التزام الدول، وفقاً للمادة 4 من العهد الدولي الخاص بالحقوق المدنية والسياسية، باحترام حقوق معينة لا يجوز تقييدها أيّاً كانت الظروف، ويذكر، فيما يتعلق بجميع الحقوق الأخرى الواردة في العهد، بوجوب توافق أي تدابير لتعليق العمل بأحكام العهد مع تلك المادة في جميع الحالات، ويشدد على الطابع الاستثنائي والمؤقت لأي من هذه التدابير، ويدعو في هذا الصدد الدول إلى توعية السلطات الوطنية المسؤولة عن مكافحة الإرهاب بأهمية هذه الالتزامات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_143" class="SingleTxtGA">
+        <num>16-</num>
+        <content eId="para_143__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> جميع الدول على احترام وحماية الحق في الخصوصية، بما في ذلك في سياق الاتصالات الرقمية، ويهيب بالدول أن تراجع، في سياق مكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب، إجراءاتها وممارساتها وتشريعاتها المتعلقة بمراقبة الاتصالات واعتراضها وجمع البيانات الشخصية، بما في ذلك المراقبة الجماعية واعتراض الاتصالات وجمع البيانات، وذلك بغرض تعزيز الحق في الخصوصية بضمان الوفاء تماماً وفعلياً بجميع التزاماتها بموجب القانون الدولي لحقوق الإنسان، ويحثها على اتخاذ تدابير لضمان استناد أي تدخل في الحق في الخصوصية إلى قوانين يجب أن تكون إمكانية الاطلاع عليها متاحة للعموم وينبغي أن تكون واضحة ودقيقة وشاملة وغير تمييزية، ومراعاة أي تدخل من هذا القبيل مبادئ الشرعية والضرورة والتناسب، ويحثها على الوفاء بالتزاماتها بموجب القانون الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_159" class="SingleTxtGA">
+        <num>17-</num>
+        <content eId="para_159__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على الأهمية الأساسية التي يكتسيها الاحترام الكامل للحق في حرية الرأي والتعبير في الجهود الرامية إلى مكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب، وكذلك في مكافحة دعاية الجماعات الإرهابية والمتطرفة، تماشياً مع الأحكام المنصوص عليها في العهد الدولي الخاص بالحقوق المدنية والسياسية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="SingleTxtGA">
+        <num>18-</num>
+        <content eId="para_176__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على أهمية ضمان إمكانية اللجوء إلى القضاء والمساءلة، ويهيب بالدول أن تكفل لأي شخص يدعي أن حقوق الإنسان أو الحريات الأساسية المكفولة له قد انتُهكت بسبب التدابير المتخذة أو الوسائل المستخدمة لمكافحة الإرهاب أو التطرف العنيف المفضي إلى الإرهاب، إمكانية اللجوء إلى القضاء والتمتع بضمانات الإجراءات القانونية الواجبة والاستفادة من سبيل انتصاف فعال، وأن تضمن لضحايا انتهاكات وتجاوزات حقوق الإنسان الاستفادة من سبل مناسبة وفعالة وسريعة للانتصاف وجبر الضرر تشمل، حسب الاقتضاء، رد الحقوق، والتعويض، ورد الاعتبار، وضمانات عدم التكرار، كأساس لا غنى عنه من أسس أي استراتيجية لمكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_194" class="SingleTxtGA">
+        <num>19-</num>
+        <content eId="para_194__content">
+          <p xml:space="preserve">	<span class="italic">يشدد أيضاً</span> على أهمية استحداث وصون نُظم للعدالة الجنائية أساسها الفعَّالية والإنصاف والإنسانية والشفافية والمساءلة، بطريقة تراعي تماماً الحق في المساواة وعدم التمييز في إقامة العدل، والحق في الخضوع لمحاكمة عادلة وعلنية أمام محكمة مختصة ومستقلة ومحايدة، والحق في التمثيل القانوني المستقل والكافي، والحق في مراجعة قرار الاحتجاز وفي افتراض البراءة، وغير ذلك من الضمانات القضائية الأساسية، وفقاً لالتزاماتها ذات الصلة بموجب القانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني والقانون الدولي للاجئين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="SingleTxtGA">
+        <num>20-</num>
+        <content eId="para_213__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على ضمان ألّا تكون التدابير التي تتخذها لمكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب تمييزية، وعلى عدم اللجوء إلى تصنيف الأفراد استناداً إلى قوالب نمطية قائمة على أسس إثنية أو عرقية أو دينية أو أي من أسس التمييز الأخرى التي يحظرها القانون الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_233" class="SingleTxtGA">
+        <num>21-</num>
+        <content eId="para_233__content">
+          <p xml:space="preserve">	<span class="italic">يُسلِّم</span> بأهمية دور المرأة في منع ومكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب، ويطلب إلى الدول أن تراعي أثر استراتيجيات مكافحة الإرهاب على تمتع المرأة والطفل بحقوق الإنسان، وأن تستشير المنظمات التي تمثلهما لدى وضع استراتيجيات مكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_254" class="SingleTxtGA">
+        <num>22-</num>
+        <content eId="para_254__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على اتخاذ تدابير لضمان توافق قوانين مكافحة الإرهاب وتدابير تنفيذها مع الحقوق المكرسة في الإعلان العالمي لحقوق الإنسان ومع التزاماتها بموجب القانون الدولي لحقوق الإنسان، ولا سيما العهد الدولي الخاص بالحقوق المدنية والسياسية، ولكفالة تطبيق تلك القوانين والتدابير بطريقة تراعي تماماً تلك الحقوق والالتزامات، وذلك من أجل ضمان احترام مبدأيْ اليقين القانوني والشرعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_276" class="SingleTxtGA">
+        <num>23-</num>
+        <content eId="para_276__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> ضرورة تعزيز التعاون الدولي لمنع ومكافحة الإرهاب وفقاً للقانون الدولي، بما في ذلك ميثاق الأمم المتحدة والقانون الدولي لحقوق الإنسان والقانون الدولي الإنساني، بطرق منها التعاون التقني وبناء القدرات وتبادل المعلومات وبيانات الاستخبارات في مجال مكافحة الإرهاب، ويدعو، في هذا الصدد، الدول والمنظمات الإقليمية ودون الإقليمية ذات الصلة، حسب الاقتضاء، إلى مواصلة تنفيذ استراتيجية الأمم المتحدة العالمية لمكافحة الإرهاب وأركانها الأربعة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_299" class="SingleTxtGA">
+        <num>24-</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على أن تكفل مراعاة المساواة بين الجنسين وعدم التمييز لدى صياغة جميع تدابير مكافحة الإرهاب ومراجعتها وتنفيذها، وإبراز أهمية دور المرأة في مكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب، وتعزيز مشاركتها الكاملة والفعالة، وأن تدرس، في إطار مشاورات مجتمعية نشطة وشاملة، مظاهر تأثر النساء والشباب والأطفال، من حيث القانون والممارسة، بتدابير مكافحة الإرهاب والتطرف العنيف؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_323" class="SingleTxtGA">
+        <num>25-</num>
+        <content eId="para_323__content">
+          <p xml:space="preserve">	<span class="italic">يدين بشدة</span> الأعمال الإرهابية وجميع أعمال العنف التي ترتكبها الجماعات الإرهابية، بما في ذلك الاتجار بالأشخاص، والاختطاف وأخذ الرهائن طلباً للفدية و/أو لتنازلات سياسية، واستمرار التجاوزات المنهجية لحقوق الإنسان التي ترتكبها هذه الجماعات على نطاق واسع، ويهيب بجميع الدول أن تمنع استفادة الإرهابيين من أي فدية وأي تنازلات سياسية، وأن تضمن إطلاق سراح الرهائن بطريقة آمنة، وفقاً للالتزامات القانونية السارية، ويحيط علماً، في الوقت نفسه، بالمبادرات المتخذة في هذا الصدد، بما في ذلك مذكرة الجزائر بشأن الممارسات الجيدة لمنع عمليات الاختطاف للحصول على فدية وحرمان الإرهابيين من الاستفادة منها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_348" class="SingleTxtGA">
+        <num>26-</num>
+        <content eId="para_348__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على بذل كل ما في وسعها، وفقاً لالتزاماتها بموجب القانون الدولي، لمنع استفادة الجماعات الإرهابية من أي دعم سياسي أو مادي أو مالي، ولحرمان الإرهابيين من الملاذ الآمن ومن حرية العمل والتنقل والتجنيد، ولتجريم استخدام مواطنيها أي وسيلة، مباشرة أو غير مباشرة، لتوفير الأموال أو جمعها داخل إقليمها أو خارجه، عن قصدٍ وعن علمٍ، لتستخدمها الجماعات لأي غرض، ولمحاكمة، أو عند الاقتضاء، تسليم مرتكبي الأعمال الإرهابية أو أي شخص يدعم أو ييسر عمليات تمويل الأعمال الإرهابية أو التخطيط أو الإعداد لها، أو يشارك في هذه العمليات أو يحاول المشاركة فيها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_374" class="SingleTxtGA">
+        <num>27-</num>
+        <content eId="para_374__content">
+          <p xml:space="preserve">	<span class="italic">يحث أيضاً</span> الدول على حظر وتجريم تجنيد الأطفال واستخدامهم، بما في ذلك من قِبل الجماعات الإرهابية، وعلى التحقيق في جرائم استغلال الأطفال وتقديم مرتكبيها إلى العدالة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_401" class="SingleTxtGA">
+        <num>28-</num>
+        <content eId="para_401__content">
+          <p xml:space="preserve">	<span class="italic">يحثّ كذلك</span> الدول على ضمان معاملة الأطفال المرتبطين، أو المدَّعى ارتباطهم، بجماعات مسلحة أو إرهابية معاملة الضحايا في المقام الأول، مع إيلاء الاعتبار بالأساس لمصالح الطفل الفضلى، وعلى النظر في اتخاذ تدابير بديلة للمقاضاة وللاحتجاز في حالة المتهمين منهم بارتكاب جرائم، وفقما تنص عليه قرارات الجمعية العامة ذات الصلة المتعلقة بقضاء الأحداث، وعلى اتخاذ تدابير تركز على إعادة التأهيل وإعادة الإدماج في بيئة تكفل صحة الطفل واحترامه لنفسه وكرامته، وفقاً للأحكام ذات الصلة الواردة في القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان، ولا سيما اتفاقية حقوق الطفل وبروتوكولها الاختياري بشأن اشتراك الأطفال في المنازعات المسلحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_429" class="SingleTxtGA">
+        <num>29-</num>
+        <content eId="para_429__content">
+          <p xml:space="preserve">	<span class="italic">يشير</span> إلى قرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/16/18">16/18</a> المؤرخ 24 آذار/مارس 2011 وقرارات متابعته، وإلى خطة عمل الرباط بشأن حظر الدعوة إلى الكراهية القومية أو العرقية أو الدينية التي تشكل تحريضاً على التمييز أو العداوة أو العنف، وإلى عملية اسطنبول لمكافحة التعصب والتمييز والتحريض على الكراهية و/أو العنف على أساس الدين أو المعتقد، ويدعو المجتمع الدولي إلى تنفيذها بفعالية للمساهمة في تهيئة بيئة أكثر ملاءمة لمواجهة رسائل الجماعات المتطرفة التي تحاول تبرير استخدام العنف بذرائع منها الوصم والتمييز الإثني أو الديني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_458" class="SingleTxtGA">
+        <num>30-</num>
+        <content eId="para_458__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى الدول أن تمتنع عن توفير الدعم للضالعين في أعمال إرهابية من الكيانات أو الأشخاص، بما في ذلك توفير الدعم لإنشاء منابر دعائية تدعو إلى الكراهية التي تشكل تحريضاً على التمييز أو العداء أو العنف، بما في ذلك عبر الإنترنت وغيرها من الوسائط، ويؤكد أن تكنولوجيات المعلومات والاتصالات يمكن أن تكون أدوات قوية في مكافحة انتشار الإرهاب والتطرف العنيف المفضي إلى الإرهاب، بسبل منها تعزيز حقوق الإنسان والسلام والتسامح والتعددية والحوار بين الشعوب، ويشدد في هذا الصدد على الأهمية الأساسية التي يكتسيها الاحترام التام للحق في حرية الرأي والتعبير على النحو المبين في العهد الدولي الخاص بالحقوق المدنية والسياسية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_488" class="SingleTxtGA">
+        <num>31-</num>
+        <content eId="para_488__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على اعتماد استراتيجيات لإعادة تأهيل المقاتلين الإرهابيين الأجانب العائدين وإعادة إدماجهم، وفقاً للقانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني، وتماشياً مع الممارسات الجيدة كتلك المبينة في مذكرة لاهاي - مراكش حول الممارسات الجيدة لاستجابة أكثر فعالية لظاهرة المقاتلين الإرهابيين الأجانب، الصادرة عن المنتدى العالمي لمكافحة الإرهاب، وعلى اعتماد نهج شامل يشمل، في جملة أمور، إنشاء مراكز وطنية للتوجيه ومنع التشدد المفضي إلى العنف، يمكنها الاضطلاع بدور مهم إلى جانب إجراءات العدالة الجنائية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_519" class="SingleTxtGA">
+        <num>32-</num>
+        <content eId="para_519__content">
+          <p xml:space="preserve">	<span class="italic">يشجع بقوة</span> وكالات الأمم المتحدة ذات الصلة، بما فيها تلك المشاركة في دعم جهود مكافحة الإرهاب ومنع التطرف العنيف المفضي إلى الإرهاب والتصدي له، على أن تأخذ في اعتبارها، لدى تقديم المساعدة التقنية في إطار جهود مكافحة الإرهاب، عند الاقتضاء، العناصر اللازمة لبناء القدرات الوطنية من أجل تعزيز نُظم العدالة الجنائية وسيادة القانون، وأن تواصل تيسير تعزيز حقوق الإنسان والحريات الأساسية وحمايتها، ومراعاة الأصول القانونية وسيادة القانون، في سياق مكافحة الإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_551" class="SingleTxtGA">
+        <num>33-</num>
+        <content eId="para_551__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول والمجتمع الدولي ويشجع المجتمع المدني على اتخاذ تدابير، حسب الاقتضاء، بطرق منها التعليم والتوعية واستخدام وسائط الإعلام والتثقيف والتدريب في مجال حقوق الإنسان، من أجل تعزيز السلام والعدالة والتنمية البشرية، والتسامح الإثني والقومي والديني، واحترام جميع الأديان والقيم الدينية والمعتقدات والثقافات، وعلى العمل بفعالية من أجل معالجة الظروف التي تؤدي إلى انتشار الإرهاب والتطرف العنيف المفضي إلى الإرهاب، وتجعل الأفراد والجماعات أكثر عرضةً لآثار الإرهاب وللتجنيد من قِبل الإرهابيين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_584" class="SingleTxtGA">
+        <num>34-</num>
+        <content eId="para_584__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على أن الاحترام المتبادل والتسامح والتعددية والشمول واحترام التنوع وحوار الحضارات وتعزيز التفاهم فيما بين الأديان والثقافات ومكافحة التعصب والتمييز والكراهية التي تشكل تحريضاً على التمييز أو العداء أو العنف على أساس الدين أو المعتقد، أو أي أساس آخر، بما في ذلك على الصعيد الوطني أو الإقليمي أو العالمي، تعتبر من أهم عناصر توطيد التعاون والنجاح في جهود منع ومكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب، ويرحب بمختلف المبادرات الرامية إلى تحقيق هذه الغاية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_618" class="SingleTxtGA">
+        <num>35-</num>
+        <content eId="para_618__content">
+          <p xml:space="preserve">	<span class="italic">يُسلِّم</span> بأهمية دور وسائط الإعلام والمجتمع المدني والقيادات والمؤسسات الدينية والقطاع الخاص والمجتمعات المحلية وقادتها في منع ومكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_653" class="SingleTxtGA">
+        <num>36-</num>
+        <content eId="para_653__content">
+          <p xml:space="preserve">	<span class="italic">يقرّ</span> بأن مشاركة منظمات المجتمع المدني بنشاط يمكن أن تعزز الجهود الحكومية الجارية لحماية حقوق الإنسان والحريات الأساسية في سياق مكافحة الإرهاب ولتقييم أثر الإرهاب على التمتع بجميع حقوق الإنسان، ويدعو الدول إلى كفالة ألا تعوق تدابير مكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب وتدابير حفظ الأمن القومي عمل هذه المنظمات وألّا تمس بسلامة أعضائها وأن تتوافق مع التزاماتها بموجب القانون الدولي، ولا سيما القانون الدولي لحقوق الإنسان والقانون الدولي للاجئين والقانون الدولي الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_689" class="SingleTxtGA">
+        <num>37-</num>
+        <content eId="para_689__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> جميع هيئات المعاهدات والإجراءات الخاصة لمجلس حقوق الإنسان، والآليات الدولية والإقليمية لحقوق الإنسان، ومفوض الأمم المتحدة السامي لحقوق الإنسان، كلٌ في إطار ولايته، إلى إيلاء الاهتمام الواجب للأثر السلبي للإرهاب على التمتع بجميع حقوق الإنسان والحريات الأساسية ولمعالجة انتهاكات حقوق الإنسان والحريات الأساسية المزعوم ارتكابها في سياق مكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب، وإلى تقديم تقارير إلى مجلس حقوق الإنسان بانتظام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_726" class="SingleTxtGA">
+        <num>38-</num>
+        <content eId="para_726__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> المقررة الخاصة المعنية بتعزيز وحماية حقوق الإنسان والحريات الأساسية في سياق مكافحة الإرهاب إلى إيلاء الاهتمام للأثر السلبي للإرهاب على التمتع بحقوق الإنسان والحريات الأساسية، وإلى تقديم توصيات في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_764" class="SingleTxtGA">
+        <num>39-</num>
+        <content eId="para_764__content">
+          <p xml:space="preserve">	<span class="italic">يقرّر</span> أن يُبقي هذه المسألة قيد نظره.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="47" refersTo="#adoptionMeeting">الجلسة 47</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 تشرين الأول/أكتوبر 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد من دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
