@@ -1,0 +1,351 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/"></FRBRuri>
+          <FRBRdate date="2024-10-09" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/ara@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="EX-OFFENDERS" href="http://metadata.un.org/thesaurus/1002165" showAs="EX-OFFENDERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL INTEGRATION" href="http://metadata.un.org/thesaurus/1005967" showAs="SOCIAL INTEGRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIMINAL JUSTICE" href="http://metadata.un.org/thesaurus/1001388" showAs="CRIMINAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REHABILITATION" href="http://metadata.un.org/thesaurus/1005446" showAs="REHABILITATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-08" outcome="draftResolution" as="A/HRC/57/L.17/Rev.1" by="Armenia, Chile, Colombia, Costa Rica, Cyprus, Gambia, Georgia, Ghana, Greece, Guatemala, Italy, Kazakhstan, Luxembourg, Montenegro, Peru, Portugal, Romania, Senegal and Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/9</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">الدورة السابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 أيلول</date>
+          <date date="2024-10-11" refersTo="#endDate">11 تشرين الأول 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 9 تشرين الأول/أكتوبر 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/9</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">إعادة الإدماج الاجتماعي للأشخاص المفرج عنهم من الاحتجاز والأشخاص الخاضعين لتدابير غير احتجازية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان</span>،</p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> التزام جميع الدول باحترام جميع حقوق الإنسان والحريات الأساسية وحمايتها وإعمالها،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد أيضاً" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد أيضاً</span> الإعلان العالمي لحقوق الإنسان، والعهد الدولي الخاص بالحقوق المدنية والسياسية، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، واتفاقية القضاء على جميع أشكال التمييز ضد المرأة، واتفاقية حقوق الأشخاص ذوي الإعاقة، واتفاقية حقوق الطفل، والاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري، واتفاقية مناهضة التعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، وغير ذلك من الصكوك الدولية لحقوق الإنسان ذات الصلة،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد</span> أن المادة 10 من العهد الدولي الخاص بالحقوق المدنية والسياسية تشدد على أن الهدف الأساسي الذي يسعى إليه نظام السجون في معاملة السجناء هو إصلاح الأشخاص المفرج عنهم من الاحتجاز وإعادة تأهيلهم اجتماعياً،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى جميع قرارات الجمعية العامة ومجلس حقوق الإنسان ذات الصلة، ولا سيما قرار المجلس <a href="https://undocs.org/ar/A/HRC/RES/53/27">53/27</a> المؤرخ 14 تموز/يوليه 2023 بشأن القضاء على العنف ضد النساء والفتيات: منع جميع أشكال العنف ضد النساء والفتيات محتجزات العدالة الجنائية والتصدي لها،</p>
+      </container>
+      <container name="وإذ يسلط الضوء" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلط الضوء</span> على أهمية قواعد الأمم المتحدة النموذجية الدنيا لمعاملة السجناء (قواعد نيلسون مانديلا)، وقواعد الأمم المتحدة النموذجية الدنيا لإدارة شؤون قضاء الأحداث (قواعد بيجين)، وقواعد الأمم المتحدة لمعاملة السجينات والتدابير غير الاحتجازية للمجرمات (قواعد بانكوك)، وقواعد الأمم المتحدة الدنيا النموذجية للتدابير غير الاحتجازية (قواعد طوكيو) وقواعد الأمم المتحدة بشأن حماية الأحداث المجردين من حريتهم (قواعد هافانا)، ومبادئ المقابلة الفعالة في سياق التحقيقات وجمع المعلومات (مبادئ منديز)، ومجموعة المبادئ المتعلقة بحماية جميع الأشخاص الذين يتعرضون لأي شكل من أشكال الاحتجاز أو السجن، ومبادئ الأمم المتحدة وتوجيهاتها بشأن سبل الحصول على المساعدة القانونية في نظم العدالة الجنائية،</p>
+      </container>
+      <container name="وإذ يلاحظ مع التقدير" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ مع التقدير</span> العمل المهم الذي يضطلع به في مجال إقامة العدل كل من مفوضية الأمم المتحدة السامية لحقوق الإنسان ومكتب الأمم المتحدة المعني بالمخدرات والجريمة ولجنة منع الجريمة والعدالة الجنائية، وإذ يسلم بالحاجة إلى إيجاد أوجه تآزر ذات صلة في عملها لتعزيز الأبعاد المتعددة لحقوق الإنسان في إعادة الإدماج الاجتماعي للأشخاص المفرج عنهم من الاحتجاز أو الخاضعين لتدابير غير احتجازية،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشدد</span> على أن إعادة الإدماج الاجتماعي تشير إلى عودة الشخص، الذي تَعرَّض لعقوبة تنطوي على سلب الحرية أو لتدابير غير احتجازية، إلى المجتمع بنجاح، بحيث يتمكن من العيش الكريم بالاعتماد على نفسه وفي ظل احترام القانون، والحصول على الفرص، والتمتع بحقوق الإنسان، دون تمييز من أي نوع،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد</span> أن الهدف الرئيسي لإقامة العدل فيما يتعلق بالحبس والتدابير غير الاحتجازية ينبغي أن يكون إعادة الإدماج الاجتماعي في نهاية المطاف للأشخاص الخاضعين لهذه التدابير، وإذ يسلم بأهمية إعادة الإدماج الاجتماعي في الإعمال الكامل لحقوق الإنسان الواجبة لهم، وفي سيادة القانون والتنمية المستدامة والصحة والأمن العامين،</p>
+      </container>
+      <container name="وإذ يساوره القلق" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يساوره القلق</span> من أن الأشخاص المفرج عنهم من الاحتجاز أو الخاضعين لتدابير غير احتجازية يواجهون في كثير من الأحيان عوائق كبيرة تحول دون إعادة إدماجهم في المجتمع وتَمتُّعهم بحقوق الإنسان الواجبة لهم، بما في ذلك في مجالات السكن والغذاء والصحة والتعليم والعمل والضمان الاجتماعي والمشاركة السياسية، فضلاً عن عوائق في حصولهم على المساعدة الحكومية، ومن أن هذه العوائق التي تحول دون إعادة الإدماج يمكن أن تتفاقم بالنسبة للنساء والأطفال والمراهقين والأشخاص المنتمين إلى أقليات عرقية أو قومية أو إثنية أو دينية ولغوية، والأشخاص ذوي الإعاقة وكبار السن والشعوب الأصلية والأشخاص المنحدرين من أصل أفريقي والأشخاص الذين يعيشون في ظل أوضاع هشة أو في ظل التهميش،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يساوره بالغ القلق</span> لأن النساء والفتيات لا يستفدن بما فيه الكفاية أو لا يستفدن بتاتاً، عند احتجازهن في إطار العدالة الجنائية، من أي برامج لإعادة التأهيل تستجيب للاعتبارات الجنسانية والعمرية وتراعي الصدمات النفسية، أو من برامج إعادة الإدماج قبل الإفراج وبعده، من قبيل علاج الصحة العقلية والعلاج من تعاطي المخدرات والتعليم أو التدريب المهني الجيديْن، ولأن تدني وضعهن الاجتماعي والاقتصادي في المجتمع وتَعرُّضهن للوصم من مجتمعهن المحلي وأسرهن قد يعوقان إعادة الإدماج ويؤديان إلى معاودة الإجرام،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بالحاجة إلى تقديم توجيهات محددة إلى الدول وجميع الجهات المعنية صاحبة المصلحة بشأن إعادة الإدماج الاجتماعي للأشخاص المفرج عنهم من الاحتجاز أو الخاضعين لتدابير غير احتجازية، وإذ يُسلِّم أيضاً بأن إعادة إدماج هؤلاء الأشخاص في المجتمع تتطلب تصميم وتنفيذ برامج فعالة تراعي حقوق الإنسان والتقييمات الفردية لاحتياجاتهم الفريدة والمخاطر التي يواجهها كل واحد منهم،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يرحب</span> بالجهود التي تبذلها الدول لتعزيز إعادة الإدماج الاجتماعي للأشخاص المفرج عنهم من الاحتجاز والأشخاص الخاضعين لتدابير غير احتجازية، وإذ يشدد على أن نجاح إعادة الإدماج يتطلب جهوداً تعاونية بين الحكومات والقطاع الخاص والمنظمات غير الحكومية والأسر والناجين من الجريمة، وإذ يعرب في الوقت نفسه عن قلقه من أن العبء الأكبر من المسؤولية عن مساعدة هؤلاء الأشخاص يقع في كثير من الأحيان على عاتق المنظمات غير الحكومية والأسر،</p>
+      </container>
+      <container name="وإذ يلاحظ مع التقدير" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ مع التقدير</span> أن إعلان كيوتو بشأن النهوض بمنع الجريمة والعدالة الجنائية وسيادة القانون: نحو تحقيق خطة التنمية المستدامة لعام 2030، الذي اعتُمد في مؤتمر الأمم المتحدة الرابع عشر لمنع الجريمة والعدالة الجنائية، يسلط الضوء على أهمية تعزيز بيئة تأهيلية في المجتمع المحلي لتيسير إعادة الإدماج الاجتماعي، وعلى أنَّ إعادة الإدماج الاجتماعي يمكن أن تسهم في الحد من معاودة الإجرام،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_16" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">يسلط الضوء</span> على التحديات التي يواجهها الأشخاص المفرج عنهم من الاحتجاز أو الخاضعون لتدابير غير احتجازية في إعادة إدماجهم في المجتمع وضرورة التصدي للتحديات المتعلقة بالتمتع بحقوق الإنسان دون تمييز، بما في ذلك الحق في الحياة، وفي عدم التعرض للتعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، وفي التحرر من العبودية والسخرة، وفي المساواة أمام القانون والمساواة في التمتع بحماية القانون، وفي الأجر المتساوي عن العمل المتساوي، وفي مستوى معيشي لائق، وفي التمتع بأعلى مستوى ممكن من الصحة البدنية والعقلية، وفي التعليم، والتصدي للقيود غير القانونية على الحق في المشاركة في الحياة السياسية والعامة والحق في الخصوصية والحق في العمل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن تقديره</span> للحاجة إلى العمل مع جميع أصحاب المصلحة، إلى جانب الأشخاص المفرج عنهم من الاحتجاز أو الخاضعين لتدابير غير احتجازية، لمنع أشكال التمييز غير القانونية، فضلاً عن العنف والمضايقة ضدهم، والقضاء عليها، والتصدي للأعراف الاجتماعية السلبية والقوالب النمطية والوصم والحيف الاقتصادي والاجتماعي والعنصرية والتمييز النظُميين التي تحد من تمتعهم الكامل بحقوق الإنسان الواجبة لهم وتُديم إقصاءهم المجتمعي وتعيق إعادة إدماجهم في المجتمع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول على استعراض التشريعات والسياسات والبرامج، وتعديلها حسب الاقتضاء، ووضع سياسات ولوائح واضحة بشأن سلوك موظفي العدالة الجنائية والبرامج المجتمعية لحماية الأشخاص المفرج عنهم من الاحتجاز أو الخاضعين لتدابير غير احتجازية من الوصم والتمييز وجميع أشكال العنف، واحترام حقوق الإنسان الواجبة لهم وحمايتها وإعمالها، وتيسير وتعزيز إعادة إدماجهم في المجتمع بنجاح وقدرتهم على المشاركة الهادفة في المجتمع والمساهمة فيه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtGA">
+        <num>4-</num>
+        <list eId="para_22_list">
+          <intro eId="para_22_list_intro">
+            <p xml:space="preserve">	<span class="italic">يدعو</span> الدول إلى العمل الاستباقي على تيسير إعادة الإدماج الاجتماعي للأشخاص المفرج عنهم من الاحتجاز أو الخاضعين لتدابير غير احتجازية وفقاً لالتزاماتها وتعهداتها في مجال حقوق الإنسان، بالنظر في اتخاذ إجراءات منها ما يلي:</p>
+          </intro>
+          <point eId="para_22_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_22_list_point_أ_content">
+              <p xml:space="preserve">	الشروع في دعم إعادة الإدماج الاجتماعي في جميع مراحل إقامة العدل، بما في ذلك أثناء تطبيق التدابير غير الاحتجازية وبعد الإفراج؛</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_22_list_point_ب_content">
+              <p xml:space="preserve">	تعزيز تصميم وتنفيذ برامج فعالة لإعادة الإدماج الاجتماعي على أساس تقييم احتياجات الأشخاص المفرج عنهم من الاحتجاز أو الخاضعين لتدابير غير احتجازية والمخاطر التي يواجهونها، علماً أن الأفراد قد يحتاجون إلى إعادة تقييم وضعهم طوال فترة إعادة إدماجهم؛</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_22_list_point_ج_content">
+              <p xml:space="preserve">	تصميم وتنفيذ برامج شاملة لإعادة الإدماج الاجتماعي قبل الإفراج وبعده، بما في ذلك برامج خاصة بالنوع الاجتماعي والسن والإعاقة تراعي الاحتياجات المحددة للأشخاص الذين يعيشون في ظل أوضاع هشة، وتهدف إلى ضمان الانتقال المدعوم بالكامل من الخدمات الاحتجازية إلى الخدمات المجتمعية وتيسير الحصول على الحاجات الأساسية، مثل الغذاء والملبس والسكن والرعاية الطبية وخدمات الصحة العقلية، فضلاً عن العلاج من إساءة استخدام المواد المخدرة، وضمان سهولة الحصول على المعلومات المتعلقة ببرامج إعادة الإدماج هذه؛</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_د">
+            <num>(د)</num>
+            <content eId="para_22_list_point_د_content">
+              <p xml:space="preserve">	وضع برامج توفر للأشخاص المفرج عنهم من الاحتجاز أو الخاضعين لتدابير غير احتجازية إمكانية الوصول المستمر إلى برامج التدريب المهني والتقني والبرامج التعليمية المجتمعية لدعمهم في تطوير المهارات اللازمة لإعادة الاندماج الاجتماعي على المدى الطويل، وتوفر الدعم اللازم للحصول على عمل آمن وكريم ومربح؛</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_هـ">
+            <num>(هـ)</num>
+            <content eId="para_22_list_point_هـ_content">
+              <p xml:space="preserve">	تعزيز نهج تصالحي وتأهيلي لإعادة الإدماج الاجتماعي، بسبل منها تثقيف الجمهور من خلال حملات إزالة الوصم، وعند الاقتضاء، من خلال الوساطة بين الضحية والجاني وتقديم المشورة للأسرة، وتعزيز مشاركة المجتمع المحلي، مع إيلاء الاعتبار الواجب لحماية المجتمع والأفراد؛</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_و">
+            <num>(و)</num>
+            <content eId="para_22_list_point_و_content">
+              <p xml:space="preserve">	تيسير عمليات العدالة التصالحية، متى كان ذلك ملائماً ووفقاً للأطر القانونية المحلية، في المراحل ذات الصلة من نظام العدالة الجنائية وفي المجتمع المحلي من أجل مساعدة الضحايا وإعادة إدماج الأشخاص المفرج عنهم من الاحتجاز أو المعرضين لتدابير غير احتجازية، ودعم حقوق الإنسان ومنع الجريمة ومعاودة الإجرام؛</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_22_list_point_ز_content">
+              <p xml:space="preserve">	استحداث بدائل مناسبة للحبس التقليدي، حيثما أمكن، بما في ذلك مراكز الاحتجاز الصغيرة، مع إعطاء الأولوية للتدابير غير الاحتجازية واستخدام خيارات مثل الإفراج المشروط، وإجازة زيارة البيت، والبرامج والخدمات المجتمعية لتيسير الانتقال إلى الحرية، والحد من الوصم والتمييز، وإعادة العلاقات بين المفرج عنهم من الاحتجاز وأسرهم ومجتمعاتهم؛</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_22_list_point_ح_content">
+              <p xml:space="preserve">	تشجيع مشاركة القطاع الخاص بنشاط في تعزيز إعادة الإدماج الاجتماعي واحترام حقوق الإنسان للأشخاص المفرج عنهم من الاحتجاز أو الخاضعين لتدابير غير احتجازية بإتاحة فرص العمل المستدام، وكذلك برامج الإدماج الاجتماعي ومخططات التوظيف، بما في ذلك في الوظائف الداعمة للتنمية المستدامة؛</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_22_list_point_ط_content">
+              <p xml:space="preserve">	ضمان التثقيف المناسب، بما في ذلك التثقيف والتدريب المراعيان للصدمات للمسؤولين في مجال إعادة الإدماج الاجتماعي، مثل موظفي إنفاذ القانون وسلطات السجون وموظفي الإفراج المشروط ومفوضي الاختبار والأخصائيين الاجتماعيين ومقدمي الرعاية الصحية؛</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_ي">
+            <num>(ي)</num>
+            <content eId="para_22_list_point_ي_content">
+              <p xml:space="preserve">	تعزيز ودعم الشراكات بين أصحاب المصلحة المتعددين من خلال توطيد التنسيق بين السلطات الحكومية المعنية على جميع المستويات، وشراكات القطاعين العام والخاص بين تلك السلطات والمجتمعات المحلية؛</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_ك">
+            <num>(ك)</num>
+            <content eId="para_22_list_point_ك_content">
+              <p xml:space="preserve">	تقاسُم أفضل الممارسات وتبادل المعلومات عن سياسات وبرامج إعادة الإدماج الاجتماعي ذات الصلة وعن الشراكات ذات الصلة بين القطاعين العام والخاص؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على فوائد إعادة الإدماج الاجتماعي في التمتع الكامل بحقوق الإنسان للجميع، وتحسين الصحة والأمن العامين، والتنمية المستدامة، ومنع الجريمة، وسيادة القانون؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بالبرامج القائمة والناشئة وأفضل الممارسات التي تتبعها الدول فيما يتعلق بإعادة الإدماج الاجتماعي، ولا سيما تلك التي تعتمد نهجاً قائماً على حقوق الإنسان، ويعرب عن تقديره للطلبات التي قدمتها الدول المهتمة للحصول على مزيد من التوجيهات بشأن هذه المسألة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> جميع أصحاب المصلحة المعنيين على الإسهام في زيادة الجهود الحكومية والتعاون الدولي في تصميم وتنفيذ لوائح وسياسات وبرامج إعادة الإدماج الاجتماعي للأشخاص المفرج عنهم من الاحتجاز أو الخاضعين لتدابير غير احتجازية، وفي جمع البيانات ذات الصلة وتحليلها ونشرها، بما في ذلك البيانات المصنفة حسب الأصل الإثني أو الدخل أو الجنس أو السن أو العرق أو الإعاقة أو الموقع الجغرافي أو غير ذلك من العوامل، بشأن مدى إعادة الإدماج الاجتماعي لهؤلاء الأشخاص وطبيعتها ونتائجها، وبشأن تأثير السياسات والبرامج الرامية إلى مكافحة التمييز وفعاليتها، وقدرتهم على التمتع بحقوق الإنسان الواجبة لهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى مفوضية الأمم المتحدة السامية لحقوق الإنسان أن تُعِد دراسة شاملة، تتضمن توصيات عملية، عن حقوق الإنسان وإعادة الإدماج الاجتماعي للأشخاص المفرج عنهم من الاحتجاز والأشخاص الذين يخضعون لتدابير غير احتجازية، بغية تقييم فوائد المضي في وضع مبادئ توجيهية، استناداً إلى مشاورات واسعة النطاق مع الجهات الرئيسية صاحبة المصلحة، بما في ذلك الدول وهيئات الأمم المتحدة ووكالاتها وصناديقها وبرامجها، ومنها مكتب الأمم المتحدة المعني بالمخدرات والجريمة، وهيئات معاهدات حقوق الإنسان، والإجراءات الخاصة لمجلس حقوق الإنسان، والمؤسسات الوطنية لحقوق الإنسان، والمدافعون عن حقوق الإنسان، ومنظمات المجتمع المدني، والأوساط الأكاديمية، ومنظمات العدالة الجنائية، والأشخاص المفرج عنهم من الاحتجاز الذين خبِروا هذا الوضع، والناجون من الجريمة، وأن تقدم الدراسة إلى مجلس حقوق الإنسان في دورته الستين، في صيغة يسهل على الأشخاص ذوي الإعاقة الاطلاع عليها، بما في ذلك في شكل ميسَّر وتسهل قراءته؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> جميع الجهات المعنية صاحبة المصلحة، بما في ذلك الإجراءات الخاصة وهيئات المعاهدات والمفوضية السامية ومكتب الأمم المتحدة المعني بالمخدرات والجريمة، إلى بدء أو تمتين عملها المتعلق بتعزيز حقوق الإنسان وحمايتها واحترامها في سياق إعادة الإدماج الاجتماعي للأشخاص المفرج عنهم من الاحتجاز والأشخاص الذين يخضعون لتدابير غير احتجازية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> تقديم كل الدعم المالي والتقني واللوجستي اللازم لتنفيذ هذا القرار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يبقي المسألة قيد نظره.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46" refersTo="#adoptionMeeting">الجلسة 46</location>
+          <eol />
+          <docDate date="2024-10-09" refersTo="#adoptionDate">9 تشرين الأول/أكتوبر 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد بدون تصويت].</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
