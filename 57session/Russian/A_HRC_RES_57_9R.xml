@@ -1,0 +1,351 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/"></FRBRuri>
+          <FRBRdate date="2024-10-09" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/rus@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="EX-OFFENDERS" href="http://metadata.un.org/thesaurus/1002165" showAs="EX-OFFENDERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL INTEGRATION" href="http://metadata.un.org/thesaurus/1005967" showAs="SOCIAL INTEGRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIMINAL JUSTICE" href="http://metadata.un.org/thesaurus/1001388" showAs="CRIMINAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REHABILITATION" href="http://metadata.un.org/thesaurus/1005446" showAs="REHABILITATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-08" outcome="draftResolution" as="A/HRC/57/L.17/Rev.1" by="Armenia, Chile, Colombia, Costa Rica, Cyprus, Gambia, Georgia, Ghana, Greece, Guatemala, Italy, Kazakhstan, Luxembourg, Montenegro, Peru, Portugal, Romania, Senegal and Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/9</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Пятьдесят седьмая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 сентября</date>
+          <date date="2024-10-11" refersTo="#endDate">11 октября 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека,  гражданских, политических, экономических,  социальных и культурных прав,  включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 9 октября 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/9.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">		Социальная реинтеграция лиц, освободившихся из мест лишения свободы, и лиц, в отношении которых применены меры, не связанные с лишением свободы</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	руководствуясь </span>целями и принципами Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	вновь подтверждая </span>обязательство всех государств уважать, поощрять и защищать все права человека и основные свободы, </p>
+      </container>
+      <container name="вновь подтверждая также" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	вновь подтверждая также </span>Всеобщую декларацию прав человека, Международный пакт о гражданских и политических правах, Международный пакт об экономических, социальных и культурных правах, Конвенцию о ликвидации всех форм дискриминации в отношении женщин, Конвенцию о правах инвалидов, Конвенцию о правах ребенка, Международную конвенцию о ликвидации всех форм расовой дискриминации и Конвенцию против пыток и других жестоких, бесчеловечных или унижающих достоинство видов обращения и наказания и другие соответствующие международные документы по правам человека,</p>
+      </container>
+      <container name="подчеркивая" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	подчеркивая </span>тот факт, что в статье 10 Международного пакта о гражданских и политических правах особо отмечается, что пенитенциарной системой предусматривается режим для заключенных, существенной целью которого является их исправление и социальное перевоспитание после освобождения из-под стражи,</p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	ссылаясь </span>на все соответствующие резолюции Генеральной Ассамблеи и Совета по правам человека, в частности на резолюцию 53/27 Совета от 14 июля 2023 года об искоренении насилия в отношении женщин и девочек: предупреждение всех форм насилия в отношении женщин и девочек, содержащихся в предварительном заключении и местах лишения свободы системы уголовного правосудия, и реагирование на них,</p>
+      </container>
+      <container name="подчеркивая" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	подчеркивая </span>важность Минимальных стандартных правил Организации Объединенных Наций в отношении обращения с заключенными (Правила Нельсона Манделы), Минимальных стандартных правил Организации Объединенных Наций, касающихся отправления правосудия в отношении несовершеннолетних (Пекинские правила), Правил Организации Объединенных Наций, касающихся обращения с женщинами-заключенными и мер наказания для женщин-правонарушителей, не связанных с лишением свободы (Бангкокские правила), Минимальных стандартных правил Организации Объединенных Наций в отношении мер, не связанных с тюремным заключением (Токийские правила), Правил Объединенных Наций, касающихся защиты несовершеннолетних, лишенных свободы (Гаванские правила), Принципов эффективного ведения опроса в ходе расследования и сбора информации (Принципы Мендеса), Свода принципов защиты всех лиц, подвергаемых задержанию или заключению в какой бы то ни было форме, и Принципов и руководящих положений Организации Объединенных Наций, касающихся доступа к юридической помощи в системах уголовного правосудия,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	с удовлетворением отмечая</span> важную работу в области отправления правосудия, проводимую Управлением Верховного комиссара Организации Объединенных Наций по правам человека, Управлением Организации Объединенных Наций по наркотикам и преступности и Комиссией по предупреждению преступности и уголовному правосудию, и признавая необходимость создания соответствующего синергетического эффекта при выполнении каждым из них своей работы по укреплению многочисленных правозащитных аспектов социальной реинтеграции лиц, освободившихся из мест лишения свободы или подвергнутых мерам, не связанным с лишением свободы,</p>
+      </container>
+      <container name="подчеркивая" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	подчеркивая</span>, что социальная реинтеграция означает успешное возвращение в общество лица, в отношении которого было применено наказание в виде лишения свободы или мер, не связанных с лишением свободы, с тем чтобы это лицо могло достойно вести законопослушную и самостоятельную жизнь, имея доступ к правозащитным возможностям и осуществляя свои права человека без какой-либо дискриминации,</p>
+      </container>
+      <container name="особо отмечая" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	особо отмечая</span>, что главной целью отправления правосудия применительно к тюремному заключению и мерам, не связанным с лишением свободы, должна быть последующая социальная реинтеграция лиц, подвергнутых этим мерам, и признавая важность социальной реинтеграции для полного осуществления прав человека таких лиц, а также для верховенства права, устойчивого развития и общественного здоровья и безопасности,</p>
+      </container>
+      <container name="будучи обеспокоен" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	будучи обеспокоен</span> тем, что лица, освободившиеся из мест лишения свободы или подвергнутые мерам, не связанным с лишением свободы, часто сталкиваются со значительными препятствиями на пути социальной реинтеграции и осуществления своих прав человека, в том числе в области жилья, питания, здравоохранения, образования, работы и социального обеспечения и участия в политической жизни, а также препятствиями в доступе к государственной помощи и что эти препятствия на пути реинтеграции могут быть еще более значительными для женщин, детей и подростков, лиц, принадлежащих к расовым, национальным или этническим, религиозным и языковым меньшинствам, лиц с инвалидностью, пожилых людей, коренных народов, лиц африканского происхождения и лиц, находящихся в уязвимом или маргинализированном положении,</p>
+      </container>
+      <container name="будучи глубоко обеспокоен" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	будучи глубоко обеспокоен </span>тем, что женщины и девочки не охвачены надлежащими или вообще какими-либо учитывающими гендерные и возрастные факторы и полученные травмы реабилитационными программами в местах содержания под стражей в системе уголовного правосудия или программами реинтеграции до и после выхода на свободу, в том числе программами лечения психических заболеваний и наркомании, качественного образования или профессиональной подготовки, и что низкий социальный и экономический статус в обществе и стигматизация со стороны общины и семьи могут препятствовать реинтеграции и приводить к рецидивам,</p>
+      </container>
+      <container name="признавая" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	признавая </span>необходимость конкретных рекомендаций для государств и всех заинтересованных сторон по социальной реинтеграции лиц, освободившихся из мест лишения свободы или подвергнутых мерам, не связанным с лишением свободы, и признавая также, что социальная реинтеграция этих лиц требует разработки и реализации эффективных программ, учитывающих права человека и индивидуальные оценки присущих только им потребностей и угрожающих им рисков,</p>
+      </container>
+      <container name="приветствуя" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	приветствуя </span>усилия государств по содействию социальной реинтеграции лиц, освободившихся из мест лишения свободы, и лиц, в отношении которых были применены меры, не связанные с лишением свободы, и подчеркивая, что для успешной реинтеграции необходимо сотрудничество между правительствами, частным сектором, неправительственными организациями, семьями и лицами, пережившими преступление, выражая при этом обеспокоенность тем, что ответственность за оказание помощи этим лицам зачастую в непропорционально большой степени ложится на неправительственные организации и семьи,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	с удовлетворением отмечая</span>, что в Киотской декларации «Активизация мер предупреждения преступности, уголовного правосудия и обеспечения верховенства права: навстречу осуществлению Повестки дня в области устойчивого развития на период до 2030 года», которая была принята на четырнадцатом Конгрессе Организации Объединенных Наций по предупреждению преступности и уголовному правосудию, подчеркивается важность создания в обществе условий, способствующих реабилитации, в интересах облегчения социальной реинтеграции и что социальная реинтеграция может способствовать снижению уровня рецидивизма,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает </span>проблемы, с которыми сталкиваются лица, освободившиеся из мест лишения свободы или подвергнутые мерам, не связанным с лишением свободы, в процессе их социальной реинтеграции, и необходимость решения проблем, связанных с осуществлением прав человека без дискриминации, включая право на жизнь, на свободу от пыток и других жестоких, бесчеловечных или унижающих достоинство видов обращения и наказания, на свободу от рабства и принудительного труда, на равенство перед законом и равную защиту закона, на равную оплату за равный труд, на достаточный жизненный уровень, на наивысший достижимый уровень физического и психического здоровья и на образование, а также проблемы незаконных ограничений прав на участие в политической и общественной жизни, на неприкосновенность частной жизни и на труд;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>необходимость взаимодействия со всеми заинтересованными сторонами, а также с лицами, освободившимися из мест лишения свободы или подвергнутыми мерам, не связанным с лишением свободы, для предотвращения и ликвидации незаконных форм дискриминации, а также насилия и домогательств в отношении них и для решения проблемы негативных социальных норм, стереотипов, стигматизации, экономического и социального неравенства и системного расизма и дискриминации, которые ограничивают полное осуществление их прав человека, увековечивают социальное отчуждение и препятствуют их социальной реинтеграции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам пересмотреть и в соответствующих случаях изменить законодательство, политику и программы, а также разработать четкую политику и правила поведения сотрудников системы уголовного правосудия и работников программ, осуществляемых на местном уровне, чтобы защитить лиц, освободившихся из мест лишения свободы или подвергнутых мерам, не связанным с лишением свободы, от стигматизации, дискриминации и всех форм насилия, уважать, защищать и осуществлять их права человека, а также содействовать и способствовать их успешной социальной реинтеграции и способности полноценно участвовать в жизни общества и вносить в нее свой вклад;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>4.</num>
+        <list eId="para_22_list">
+          <intro eId="para_22_list_intro">
+            <p xml:space="preserve">	<span class="italic">предлагает </span>государствам в инициативном порядке содействовать социальной реинтеграции лиц, освободившихся из мест лишения свободы или подвергнутых мерам, не связанным с лишением свободы, в соответствии со своими обязательствами и обязанностями в области прав человека, рассмотрев, в частности, возможность:</p>
+          </intro>
+          <point eId="para_22_list_point_a">
+            <num>a)</num>
+            <content eId="para_22_list_point_a_content">
+              <p xml:space="preserve">	инициирования поддержки социальной реинтеграции на всех этапах отправления правосудия, в том числе во время применения мер, не связанных с лишением свободы, и после освобождения;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_b">
+            <num>b)</num>
+            <content eId="para_22_list_point_b_content">
+              <p xml:space="preserve">	содействия разработке и реализации эффективных программ социальной реинтеграции, основанных на оценке потребностей лиц, освободившихся из мест лишения свободы или подвергнутых мерам наказания, не связанным с лишением свободы, и рисков, которым они подвержены, при понимании того, что в процессе реинтеграции может потребоваться повторная оценка личности;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_c">
+            <num>c)</num>
+            <content eId="para_22_list_point_c_content">
+              <p xml:space="preserve">	разработки и реализации комплексных программ социальной реинтеграции до и после освобождения, включая программы, учитывающие гендерные и возрастные особенности и инвалидность, а также особые потребности лиц, находящихся в уязвимом положении, направленные на обеспечение с оказанием полноценной поддержки перехода из системы, существующей в местах лишения свободы, к услугам, предоставляемым по месту проживания, и быстрого доступа к средствам удовлетворения основных потребностей, таким как питание, одежда, жилье, медицинское обслуживание и услуги по охране психического здоровья, а также лечение наркомании, и обеспечения доступности информации о таких программах реинтеграции;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_d">
+            <num>d)</num>
+            <content eId="para_22_list_point_d_content">
+              <p xml:space="preserve">	разработки программ, обеспечивающих лицам, освободившимся из мест лишения свободы или подвергнутым мерам наказания, не связанным с лишением свободы, постоянный доступ к профессионально-технической подготовке и образовательным программам на местах, чтобы помочь им развить необходимые навыки для долгосрочной социальной реинтеграции и оказать необходимую поддержку в получении безопасной, достойной и оплачиваемой работы;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_e">
+            <num>e)</num>
+            <content eId="para_22_list_point_e_content">
+              <p xml:space="preserve">	содействия восстановительному и реабилитационному подходу к социальной реинтеграции, например путем просвещения общественности с помощью кампаний по борьбе со стигматизацией и, когда это уместно, посредничества между жертвой и правонарушителем и семейного консультирования, а также поощрения участия общины при должном учете необходимости защиты общества и его членов;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_f">
+            <num>f)</num>
+            <content eId="para_22_list_point_f_content">
+              <p xml:space="preserve">	содействия в надлежащих случаях и в соответствии с внутренним законодательством процессам восстановительного правосудия на соответствующих этапах системы уголовного правосудия и в обществе для оказания помощи жертвам и реинтеграции лиц, освободившихся из мест лишения свободы или подвергнутых мерам, не связанным с лишением свободы, а также для защиты прав человека и предупреждения преступности и рецидивизма;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_g">
+            <num>g)</num>
+            <content eId="para_22_list_point_g_content">
+              <p xml:space="preserve">	внедрения, где это возможно, соответствующих альтернатив традиционному тюремному заключению, включая небольшие центры содержания под стражей, отдавая при этом приоритет мерам, не связанным с лишением свободы, и используя такие варианты, как условное освобождение, предоставление отпуска с выездом домой и программы и услуги на местах, чтобы облегчить переход к свободе, уменьшить стигматизацию и дискриминацию и восстановить отношения между лицами, освободившимися из мест лишения свободы, и их семьями и их кругом общения;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_h">
+            <num>h)</num>
+            <content eId="para_22_list_point_h_content">
+              <p xml:space="preserve">	поощрения активного участия частного сектора в содействии социальной реинтеграции и соблюдении прав человека лиц, освободившихся из мест лишения свободы или подвергнутых мерам наказания, не связанным с лишением свободы, путем предоставления возможностей для устойчивой занятости, а также с помощью программ вовлечения в социальную жизнь и схем трудоустройства, в том числе на рабочие места, поддерживающие устойчивое развитие;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_i">
+            <num>i)</num>
+            <content eId="para_22_list_point_i_content">
+              <p xml:space="preserve">	обеспечения надлежащего образования по вопросам социальной реинтеграции, включая обучение и подготовку с учетом фактора травмы, для должностных лиц, например сотрудников правоохранительных органов, тюремной администрации и служб условно-досрочного освобождения и пробации и социальных и медицинских работников;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_j">
+            <num>j)</num>
+            <content eId="para_22_list_point_j_content">
+              <p xml:space="preserve">	поощрения и поддержки многосторонних партнерств путем укрепления координации между соответствующими государственными органами на всех уровнях, а также государственно-частных партнерств между этими органами и местными сообществами;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_k">
+            <num>k)</num>
+            <content eId="para_22_list_point_k_content">
+              <p xml:space="preserve">	обмена передовым опытом и информацией о соответствующих стратегиях и программах социальной реинтеграции, а также о соответствующих партнерствах между государственным и частным секторами;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает </span>преимущества социальной реинтеграции для полного осуществления прав человека всех людей, повышения уровня общественного здоровья и безопасности, устойчивого развития, предотвращения преступности и верховенства права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">приветствует </span>существующие и разрабатываемые государствами программы и передовую практику в области социальной реинтеграции, особенно те из них, которые основаны на правозащитном подходе, и выражает признательность заинтересованным государствам за их просьбы о предоставлении дальнейших рекомендаций по этому вопросу;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> все соответствующие заинтересованные стороны содействовать активизации усилий правительств и укреплению международного сотрудничества в разработке и осуществлении нормативных актов, политики и программ социальной реинтеграции лиц, освободившихся из мест лишения свободы или подвергнутых мерам, не связанным с лишением свободы, а также сбору, анализу и распространению соответствующих данных, включая данные в разбивке по этнической принадлежности, доходам, полу, возрасту, расе, инвалидности, географическому положению или другим факторам, о степени, характере и последствиях социальной реинтеграции этих лиц и о воздействии и эффективности политики и программ по борьбе с дискриминацией, а также об их способности пользоваться своими правами человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Управление Верховного комиссара Организации Объединенных Наций по правам человека подготовить всеобъемлющее исследование с практическими рекомендациями по правам человека и социальной реинтеграции лиц, освободившихся из мест лишения свободы, и лиц, в отношении которых были применены меры, не связанные с лишением свободы, с тем чтобы изучить целесообразность дальнейшей проработки руководящих принципов на основе широких консультаций с ключевыми заинтересованными сторонами, включая государства, органы, учреждения, фонды и программы Организации Объединенных Наций, в том числе Управление Организации Объединенных Наций по наркотикам и преступности, договорные органы по правам человека, специальные процедуры Совета по правам человека, национальные правозащитные учреждения, правозащитников, организации гражданского общества, научные круги, организации системы уголовного правосудия, лиц, освобожденных из-под стражи, имеющих соответствующий личный опыт, и лиц, переживших преступление, и представить это исследование, доступное для людей с инвалидностью, в том числе в доступном и простом для чтения и понимания формате, Совету на его шестидесятой сессии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>всем соответствующим заинтересованным сторонам, включая мандатариев специальных процедур, договорные органы, Управление Верховного комиссара и Управление Организации Объединенных Наций по наркотикам и преступности, наладить или усилить работу, связанную с поощрением, защитой и соблюдением прав человека в контексте социальной реинтеграции лиц, освободившихся из мест лишения свободы, и лиц, в отношении которых применены меры, не связанные с лишением свободы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>оказать всю необходимую финансовую, техническую и логистическую поддержку, требующуюся для осуществления настоящей резолюции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">постановляет </span>продолжать заниматься этим вопросом.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46-е" refersTo="#adoptionMeeting">46‑е заседание</location>
+          <eol />
+          <docDate date="2024-10-09" refersTo="#adoptionDate">9 октября 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
