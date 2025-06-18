@@ -1,0 +1,460 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-11/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-11/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-11/fra@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-11/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-11/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Global Counter-Terrorism Strategy" showAs="UN Global Counter-Terrorism Strategy" dictionary="DHLAUTH"></keyword>
+        <keyword value="TERRORISM" href="http://metadata.un.org/thesaurus/1006475" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COUNTER-TERRORISM" href="http://metadata.un.org/thesaurus/1001346" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ADMINISTRATION OF JUSTICE" href="http://metadata.un.org/thesaurus/1000049" showAs="ADMINISTRATION OF JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-02" outcome="draftResolution" as="A/HRC/57/L.3" by="Brazil, Egypt, Japan, Mexico, Namibia, Peru and Philippines" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 47th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 octobre 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Cinquante-septième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 septembre</date>
+          <date date="2024-10-11" refersTo="#endDate">11 octobre 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme, civils, politiques, économiques, sociaux et culturels, y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 10 octobre 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/11.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Terrorisme et droits de l’homme</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guidé</span> par les buts et principes énoncés dans la Charte des Nations Unies, la Déclaration universelle des droits de l’homme, le Pacte international relatif aux droits économiques, sociaux et culturels, le Pacte international relatif aux droits civils et politiques et d’autres instruments internationaux pertinents relatifs aux droits de l’homme,</p>
+      </container>
+      <container name="Rappelant" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> toutes les résolutions pertinentes de l’Assemblée générale, du Conseil de sécurité et de la Commission des droits de l’homme, ainsi que ses propres résolutions concernant les droits de l’homme et le terrorisme, dont les plus récentes sont les résolutions de l’Assemblée générale <a href="http://undocs.org/fr/A/RES/72/129">72/129</a> du 8 décembre 2017, <a href="http://undocs.org/fr/A/RES/72/165">72/165</a> du 19 décembre 2017, <a href="http://undocs.org/fr/A/RES/72/180">72/180</a> du 19 décembre 2017, <a href="http://undocs.org/fr/A/RES/72/246">72/246</a> du 24 décembre 2017, <a href="http://undocs.org/fr/A/RES/73/174">73/174</a> du 17 décembre 2018, <a href="http://undocs.org/fr/A/RES/73/305">73/305</a> du 28 juin 2019, <a href="http://undocs.org/fr/A/RES/74/147">74/147</a> du 18 décembre 2019, <a href="http://undocs.org/fr/A/RES/76/169">76/169</a> du 16 décembre 2021 et <a href="http://undocs.org/fr/A/RES/78/210">78/210</a> du 19 décembre 2023, et réaffirmant ses propres résolutions <a href="http://undocs.org/fr/A/HRC/RES/34/8">34/8</a> du 23 mars 2017, <a href="http://undocs.org/fr/A/HRC/RES/35/34">35/34</a> du 24 juin 2017, <a href="http://undocs.org/fr/A/HRC/RES/37/27">37/27</a> du 23 mars 2018, <a href="http://undocs.org/fr/A/HRC/RES/40/16">40/16</a> du 22 mars 2019, <a href="http://undocs.org/fr/A/HRC/RES/42/18">42/18</a> du 26 septembre 2019, <a href="http://undocs.org/fr/A/HRC/RES/45/11">45/11</a> du 6 octobre 2020, <a href="http://undocs.org/fr/A/HRC/RES/49/10">49/10</a> du 31 mars 2022 et <a href="http://undocs.org/fr/A/HRC/RES/51/24">51/24</a> du 7 octobre 2022,</p>
+      </container>
+      <container name="Soulignant" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> que tous les droits de l’homme sont universels, indivisibles, interdépendants et indissociables,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant </span>que les États doivent faire en sorte que toutes les mesures qu’ils prennent pour lutter contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme soient conformes au droit international, en particulier au droit international des droits humains, au droit international des réfugiés et au droit international humanitaire,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant également </span>que les États ont l’obligation de respecter, de promouvoir et de protéger tous les droits de l’homme et toutes les libertés fondamentales, et qu’il est essentiel de respecter l’état de droit,</p>
+      </container>
+      <container name="Réaffirmant en outre" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant en outre </span>qu’il condamne sans équivoque tous les actes, méthodes et pratiques relevant du terrorisme et de l’extrémisme violent pouvant conduire au terrorisme, sous toutes leurs formes et manifestations, où qu’ils se produisent et quels qu’en soient les auteurs et les motifs, ainsi que l’apport d’un soutien financier, matériel ou politique au terrorisme, comportements qui sont injustifiables au regard du droit international applicable,</p>
+      </container>
+      <container name="Considérant" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Considérant </span>que le terrorisme et l’extrémisme violent pouvant conduire au terrorisme ont un effet préjudiciable sur la pleine jouissance de tous les droits de l’homme et de toutes les libertés fondamentales, entravent le plein exercice des droits politiques, civils, économiques, sociaux et culturels, détruisent des vies, brisent des liens familiaux et érodent le tissu social, sèment la peur chez les personnes et parmi les populations, tarissent des sources de revenu et sapent des économies tout entières, et menacent l’intégrité territoriale et la sécurité des États, la stabilité des gouvernements, l’état de droit et la démocratie et, en fin de compte, le bon fonctionnement des sociétés ainsi que la paix et la sécurité internationales,</p>
+      </container>
+      <container name="Considérant également" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Considérant également</span> qu’adopter une démarche pleinement respectueuse des droits de l’homme et de l’état de droit est le seul moyen efficace de lutter contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme,</p>
+      </container>
+      <container name="Soulignant" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Soulignant </span>que le terrorisme et l’extrémisme violent pouvant conduire au terrorisme ne peuvent ni ne doivent être associés à une religion, une nationalité, une civilisation ou un groupe ethnique et que la tolérance, le pluralisme, l’inclusion, le respect de la diversité, le dialogue entre les civilisations et le renforcement de l’entente entre les religions et les cultures et du respect entre les personnes, notamment aux niveaux national, régional et mondial, outre qu’ils permettent de lutter contre l’escalade de la haine, sont primordiaux pour ce qui est de prévenir et de combattre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme et de promouvoir la coopération en la matière, et se félicitant des diverses mesures prises à cet égard,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant </span>que la promotion et la protection des droits de l’homme pour tous et l’état de droit sont des éléments fondamentaux de la lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme, et considérant que prendre des mesures efficaces pour combattre le terrorisme et protéger les droits de l’homme sont des objectifs qui, loin d’être contradictoires, sont complémentaires et se renforcent mutuellement,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant également</span> son attachement à la Stratégie antiterroriste mondiale des Nations Unies, articulée autour de quatre piliers, que l’Assemblée générale a adoptée par sa résolution <a href="http://undocs.org/fr/A/RES/60/288">60/288</a>, du 8 septembre 2006, et dans laquelle elle a réaffirmé, notamment, que le respect des droits de l’homme pour tous et l’état de droit constituaient le fondement de la lutte antiterroriste, et rappelant les conclusions du huitième examen biennal de la Stratégie, que l’Assemblée générale a adoptées par sa résolution <a href="http://undocs.org/fr/A/RES/77/298">77/298</a>, du 22 juin 2023,</p>
+      </container>
+      <container name="Déplorant" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Déplorant </span>les attaques menées contre des lieux de culte, des sanctuaires religieux et des sites culturels, en violation du droit international, en particulier du droit international des droits de l’homme et du droit international humanitaire, selon le cas, et notamment les destructions délibérées de reliques, de monuments ou de sites religieux,</p>
+      </container>
+      <container name="Se déclarant préoccupé" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Se déclarant préoccupé </span>par les conséquences que les attaques terroristes visant des cibles vulnérables, notamment des infrastructures critiques et des lieux publics (« cibles molles ») tels que des établissements de santé, des écoles ou des lieux de culte, peuvent avoir pour l’exercice effectif de tous les droits de l’homme,</p>
+      </container>
+      <container name="Déplorant vivement" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Déplorant vivement </span>les souffrances que le terrorisme et l’extrémisme violent pouvant conduire au terrorisme causent aux victimes et à leur famille, insistant sur la nécessité de promouvoir et de protéger les droits des victimes du terrorisme, dans une démarche pleinement respectueuse des droits humains de ces victimes, en particulier des femmes et des enfants, réaffirmant sa profonde solidarité avec les victimes du terrorisme, et soulignant qu’il importe de permettre à celles‑ci de bénéficier d’un soutien et d’une aide, d’avoir accès à des recours utiles et d’obtenir réparation, en fonction des besoins, tout en prenant en considération, notamment, les questions relatives à la mémoire, à la dignité, au respect, à l’établissement des responsabilités, à la vérité et la justice, conformément au droit international,</p>
+      </container>
+      <container name="Condamnant fermement" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Condamnant fermement</span> toutes les violations commises dans le cadre de la lutte contre le terrorisme et les atteintes perpétrées par des groupes terroristes contre des femmes et des filles, y compris les meurtres, les atteintes à l’intégrité physique, les enlèvements, la traite, les mariages forcés, le harcèlement et les viols ainsi que les autres formes de violence sexuelle et fondée sur le genre, et soulignant qu’il importe d’amener les auteurs de pareilles violations à répondre de leurs actes,</p>
+      </container>
+      <container name="Condamnant fermement également" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Condamnant fermement également</span> toutes les violations commises dans le contexte de la lutte contre le terrorisme et les atteintes perpétrées par des groupes terroristes contre des enfants, condamnant fermement en outre l’enrôlement et l’utilisation d’enfants aux fins de la perpétration d’attentats terroristes et toutes les violations et atteintes commises par des groupes terroristes contre des enfants, y compris la traite, les meurtres, les atteintes à l’intégrité physique, les enlèvements et les viols ainsi que les autres formes de violence sexuelle et fondée sur le genre, et faisant observer que ces violations et atteintes peuvent constituer des crimes de guerre ou des crimes contre l’humanité,</p>
+      </container>
+      <container name="Se déclarant gravement préoccupé" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Se déclarant gravement préoccupé</span> par le phénomène des combattants terroristes étrangers et par la menace qu’il représente pour tous les États, y compris les pays d’origine, de transit ou de destination, et engageant tous les États à faire face à cette menace en renforçant leur coopération et en prenant les mesures voulues pour combattre ce phénomène, conformément aux obligations que leur impose le droit international, notamment le droit international des droits de l’homme, le droit international des réfugiés et le droit international humanitaire,</p>
+      </container>
+      <container name="Considérant" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Considérant </span>que la lutte contre le terrorisme exige une approche globale et une stratégie multidimensionnelle pour s’attaquer aux causes sous-jacentes du phénomène et venir à bout des situations qui lui sont propices,</p>
+      </container>
+      <container name="Conscient" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Conscient </span>que les facteurs de radicalisation et les situations propices à la radicalisation menant au terrorisme sont multiples et que le développement fondé sur les principes de la justice sociale, de l’inclusion et de l’égalité des chances peut contribuer à prévenir le terrorisme et l’extrémisme violent pouvant conduire au terrorisme et à promouvoir des sociétés inclusives, ouvertes et résilientes, notamment par l’éducation, et soulignant la détermination des États à œuvrer au règlement des conflits, à lutter contre l’oppression, à éliminer la pauvreté et à favoriser la croissance économique soutenue, le développement durable, la prospérité mondiale, la bonne gouvernance, les droits de l’homme et les libertés fondamentales pour tous et l’état de droit, ainsi qu’à améliorer l’entente entre les cultures et à promouvoir le respect de tous,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant </span>la volonté sans faille des États de renforcer la coopération internationale aux fins de la prévention du terrorisme et de l’extrémisme violent pouvant conduire au terrorisme sous toutes leurs formes et dans toutes leurs manifestations et de la lutte contre ces fléaux, dans le droit fil des obligations que leur impose le droit international, en particulier le droit international des droits de l’homme, le droit international des réfugiés et le droit international humanitaire,</p>
+      </container>
+      <container name="Se félicitant" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Se félicitant</span> du travail accompli par les titulaires du mandat de Rapporteur spécial sur la promotion et la protection des droits de l’homme et des libertés fondamentales dans la lutte antiterroriste pour ce qui est de promouvoir les droits de l’homme et les libertés fondamentales des victimes du terrorisme et de se pencher sur les violations des droits de l’homme et des libertés fondamentales qui seraient commises dans le contexte de la lutte contre le terrorisme,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 	<span class="italic">Condamne fermement </span>tous les actes terroristes, qu’il juge criminels et injustifiables, et exprime sa vive inquiétude quant à leurs effets préjudiciables sur la jouissance de tous les droits de l’homme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne </span>que les États ont la responsabilité de protéger les personnes qui se trouvent sur leur territoire contre les actes terroristes, dans le droit fil des obligations que leur impose le droit international, en particulier le droit international des droits de l’homme, le droit international des réfugiés et le droit international humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États à créer des partenariats nationaux, régionaux et internationaux avec les parties prenantes, tant publiques que privées, ou à les renforcer, selon qu’il convient, en vue de mettre en commun leurs informations et leurs données d’expérience à des fins de prévention, de protection, d’atténuation des effets, d’enquête, d’intervention et de rétablissement d’un fonctionnement normal en cas d’attaque terroriste, conformément au droit international ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande </span>aux États de s’assurer que toutes les mesures qu’ils prennent dans le cadre de la lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme sont conformes au droit international, en particulier au droit international des droits de l’homme, au droit international des réfugiés et au droit international humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande également </span>aux États de prendre les mesures qui s’imposent pour faire face aux menaces nouvelles et émergentes découlant de la multiplication des attentats terroristes motivés par la xénophobie, le racisme et d’autres formes d’intolérance, ou commis au nom d’une religion ou conviction, notamment par l’enquête, l’échange d’informations, conformément au droit international, et la coopération, et souligne la nécessité de dresser un état des lieux complet de ce phénomène afin de dégager des orientations permettant de garantir le respect, la promotion et la protection des droits de l’homme dans le cadre de la lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande en outre</span> aux États de veiller à ce qu’aucune personne soupçonnée d’activités terroristes ou d’autres atteintes à la sécurité nationale ne soit transférée ou renvoyée dans un pays s’il y a des motifs sérieux de croire qu’elle risque d’y être soumise à la torture ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne</span> que toutes les mesures que les États prennent pour lutter contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme, notamment l’établissement du profil d’individus et l’utilisation des assurances diplomatiques, les mémorandums d’entente et autres accords de transfèrement ou arrangements en la matière, doivent être conformes aux obligations que leur impose le droit international, y compris le droit international des droits de l’homme, le droit international des réfugiés et le droit international humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve"> 	<span class="italic">Condamne</span> les violations des droits de l’homme et des libertés fondamentales ainsi que du droit international des réfugiés et du droit international humanitaire commises dans le cadre de la lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve"> 	<span class="italic">Réaffirme </span>sa profonde solidarité avec les victimes du terrorisme et leur famille, rappelle le travail accompli par les organisations de la société civile en faveur des victimes du terrorisme, est conscient qu’il importe de protéger les droits humains des victimes et de faire en sorte que celles‑ci puissent bénéficier de mesures de soutien, d’assistance et de réadaptation inscrites dans la loi et auxquelles suffisamment de ressources sont allouées, et se rend compte du rôle que peuvent jouer les victimes du terrorisme, tout en prenant en considération, selon qu’il convient, les questions relatives à la mémoire, à la dignité, au respect, à la justice, à la vérité et aux réparations de manière à promouvoir l’établissement des responsabilités et à mettre fin à l’impunité, et encourage le renforcement de la coopération internationale et l’échange de connaissances spécialisées dans ce domaine conformément au droit international ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage </span>tous les États à établir, dans le respect du droit interne et compte tenu des capacités et moyens nationaux, des plans complets d’assistance aux victimes du terrorisme et à leur famille, afin de répondre aux besoins immédiats ainsi qu’à court et à long terme de ces personnes en matière de réparation et de réadaptation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve"> 	<span class="italic">Salue</span> l’action que mènent les organes et entités compétents des Nations Unies ainsi que d’autres organisations internationales, régionales et sous-régionales et les efforts qu’ils consentent afin d’appuyer, de faire reconnaître et de protéger les droits des victimes du terrorisme, ainsi que les mesures qu’ils prennent afin de fournir une assistance technique permettant de renforcer les capacités des États qui le demandent, en vue de l’élaboration et de l’application de programmes d’assistance et d’appui aux victimes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite</span> de l’initiative prise par le Secrétaire général de convoquer le premier Congrès mondial des victimes du terrorisme et encourage les entités signataires du Pacte mondial de coordination contre le terrorisme, agissant dans le cadre de leur mandat, à continuer de sensibiliser le public à la question des victimes du terrorisme et de la promotion et de la protection de leurs droits, y compris dans le cadre de la justice pénale, à renforcer encore la capacité des États d’aider les victimes du terrorisme, et à resserrer leur collaboration avec les organisations compétentes de la société civile et du secteur privé, qui peuvent jouer un rôle précieux dans l’aide et le soutien aux victimes du terrorisme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve"> 	<span class="italic">Constate avec préoccupation </span>l’application de mesures qui portent atteinte aux droits de l’homme et à l’état de droit, telles que le placement en détention de personnes soupçonnées d’actes de terrorisme sans fondement légal ni garanties d’une procédure régulière, le recours à la torture, ainsi que la privation illégale du droit à la vie et d’autres droits de l’homme et libertés fondamentales, et exhorte les États à examiner les motifs de placement en détention et à respecter les droits à l’égalité et à la non-discrimination dans l’administration de la justice, ainsi que le droit à un procès équitable, comme le prévoit le droit international, notamment le droit international des droits de l’homme et, selon le cas, le droit international humanitaire et le droit international des réfugiés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_114__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne</span> que les États devraient faire le nécessaire pour que leurs lois et pratiques nationales en lien avec la lutte antiterroriste soient conformes au principe de non‑discrimination, notamment en abolissant la pratique consistant à interdire des organisations et à inscrire des organisations ou des personnes sur des listes sur la base des critères de race, d’origine ethnique, de religion ou d’opinions politiques, en révisant les lois relatives à la déchéance de nationalité, qui doivent inclure des motifs prévisibles de déchéance et des garanties de procédure suffisantes, conformément au droit international, et en veillant à ce que les actes de terrorisme et les infractions connexes soient strictement définis, dans le respect des principes de légalité, de nécessité et de proportionnalité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve"> 	<span class="italic">Réaffirme </span>l’obligation que l’article 4 du Pacte international relatif aux droits civils et politiques fait aux États de respecter certains droits ne souffrant d’aucune dérogation quelles que soient les circonstances, rappelle, en ce qui concerne tous les autres droits énoncés dans le Pacte, que toute mesure dérogeant aux dispositions du Pacte doit, dans tous les cas, être conforme à cet article, souligne qu’une telle dérogation doit avoir un caractère exceptionnel et provisoire et demande à cet égard aux États de mieux faire comprendre toute l’importance de ces obligations aux autorités nationales chargées de la lutte antiterroriste ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_143" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_143__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> tous les États à respecter et à protéger le droit à la vie privée, y compris dans le contexte de la communication numérique, et leur demande, dans le cadre de la lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme, de revoir leurs procédures, leurs pratiques et leur législation en matière de surveillance, d’interception des communications et de collecte de données personnelles, notamment à grande échelle, dans le souci de défendre le droit à la vie privée en veillant à respecter pleinement et effectivement toutes leurs obligations au regard du droit international des droits de l’homme, et les exhorte à prendre des mesures pour faire en sorte que toutes les restrictions du droit à la vie privée soient encadrées par des lois accessibles à tous, claires, précises, complètes et non discriminatoires, et que ces restrictions soient conformes aux principes de légalité, de nécessité et de proportionnalité, et à respecter les obligations que leur impose le droit international ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_159" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_159__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne</span> qu’il est fondamental de respecter pleinement le droit à la liberté d’opinion et d’expression dans la lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme, et dans la lutte contre la propagande des groupes terroristes et extrémistes, conformément aux dispositions du Pacte international relatif aux droits civils et politiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_176__content">
+          <p xml:space="preserve"> 	<span class="italic">Insiste sur </span>la nécessité de garantir l’accès à la justice et l’établissement des responsabilités et engage les États à faire en sorte que toute personne alléguant que ses droits humains ou ses libertés fondamentales ont été violés du fait des mesures prises ou des moyens employés pour lutter contre le terrorisme ou l’extrémisme violent pouvant conduire au terrorisme ait accès à la justice, y compris à une procédure régulière et à un recours utile, et que les victimes de violations des droits de l’homme ou d’atteintes à ces droits se voient rapidement accorder une réparation suffisante et effective sous la forme de mesures de restitution, d’indemnisation, de réadaptation et de garanties de non-répétition, selon qu’il convient, ces éléments étant des composantes fondamentales de toute stratégie de lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_194" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_194__content">
+          <p xml:space="preserve"> 	<span class="italic">Insiste également sur </span>la nécessité de mettre et de maintenir en place des systèmes de justice pénale efficaces, équitables, humains, transparents et responsables qui soient pleinement respectueux des droits à l’égalité et à la non-discrimination dans l’administration de la justice, à un procès public et équitable devant un tribunal compétent, indépendant et impartial, à l’accès à une représentation légale indépendante et appropriée, à l’examen du bien-fondé de la détention, à la présomption d’innocence et aux autres garanties judiciaires fondamentales, conformément aux obligations découlant du droit international, notamment du droit international des droits de l’homme, du droit international humanitaire et du droit international des réfugiés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_213__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte </span>les États à veiller à ce que les mesures de lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme ne soient pas discriminatoires et à ne pas recourir au profilage reposant sur des stéréotypes fondés sur des considérations ethniques, raciales ou religieuses ou sur tout autre motif de discrimination interdit par le droit international ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_233" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_233__content">
+          <p xml:space="preserve"> 	<span class="italic">Est conscient</span> du rôle important des femmes dans l’action menée pour prévenir et combattre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme, et demande aux États d’examiner les conséquences des stratégies antiterroristes sur l’exercice des droits humains des femmes et des enfants et d’engager des consultations avec les organisations qui représentent les femmes et les enfants lors de l’élaboration de stratégies de lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_254" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_254__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte </span>les États à faire en sorte que les lois antiterroristes et les mesures d’application correspondantes soient mises en œuvre dans le plein respect des droits énoncés dans la Déclaration universelle des droits de l’homme et soient conformes aux obligations que leur impose le droit international des droits de l’homme, en particulier le Pacte international relatif aux droits civils et politiques, afin de garantir le respect des principes de sécurité juridique et de légalité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_276" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_276__content">
+          <p xml:space="preserve"> 	<span class="italic">Réaffirme</span> la nécessité de resserrer la coopération internationale pour prévenir et combattre le terrorisme dans le respect du droit international, y compris la Charte des Nations Unies, le droit international des droits de l’homme et le droit international humanitaire, notamment grâce à la coopération technique, au renforcement des capacités et à l’échange d’informations et de renseignements dans le domaine, et, à cette fin, demande aux États et aux organisations régionales et sous-régionales concernées, selon qu’il conviendra, de poursuivre l’exécution de la Stratégie antiterroriste mondiale des Nations Unies et de ses quatre piliers ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_299" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États à faire en sorte que l’égalité des sexes et la non-discrimination soient prises en compte lors de l’élaboration, de l’examen et de l’application de toutes les mesures de lutte contre le terrorisme, à mettre en évidence le rôle important que jouent les femmes dans la lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme, à promouvoir la participation pleine et effective des femmes, et à examiner, dans le cadre de consultations actives et inclusives associant tous les acteurs de la société, la façon dont les femmes, les jeunes et les enfants subissent les effets des lois et pratiques relatives à la lutte contre le terrorisme et l’extrémisme violent ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_323" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_323__content">
+          <p xml:space="preserve"> 	<span class="italic">Condamne fermement</span> les actes de terrorisme et tous les actes de violence commis par des groupes terroristes, y compris la traite des personnes, les enlèvements et les prises d’otages accompagnés de demandes de rançon ou de concessions politiques, ainsi que les atteintes systématiques et généralisées aux droits de l’homme que ces groupes continuent de commettre, demande à tous les États de ne pas verser de rançon ni faire de concessions politiques aux terroristes et de faire en sorte que les otages soient libérés sains et saufs, conformément aux obligations légales applicables, et prend note des mesures prises à cet égard, notamment du Mémorandum d’Alger sur les bonnes pratiques en matière de prévention des enlèvements contre rançon par des terroristes et d’élimination des avantages qui en découlent ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_348" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_348__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États à faire tout leur possible, conformément aux obligations mises à leur charge par le droit international, pour qu’aucune aide politique, matérielle ou financière ne parvienne aux groupes terroristes et pour priver les terroristes de refuge et les empêcher d’agir, de se déplacer et d’enrôler des recrues en toute liberté, à interdire à leurs nationaux et aux personnes ou entités présentes sur leur territoire, sous peine de sanction pénale, de fournir ou de lever délibérément par quelque moyen que ce soit, directement ou indirectement, des fonds dans l’intention qu’ils soient utilisés ou en sachant qu’ils seront utilisés par des groupes terroristes à quelque fin que ce soit, et à poursuivre en justice ou extrader, selon qu’il conviendra, les auteurs d’actes terroristes, ainsi que toute personne qui appuie ou facilite le financement, la planification ou la préparation de pareils actes ou qui y participe ou tente d’y participer ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_374" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_374__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte également</span> les États à interdire et à ériger en infraction l’enrôlement et l’utilisation d’enfants, y compris par des groupes terroristes, à enquêter sur les cas d’exploitation d’enfants et à traduire les responsables en justice ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_401" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_401__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte en outre </span>les États à veiller à ce que les enfants qui sont ou seraient associés à des groupes armés ou des groupes terroristes soient traités avant tout comme des victimes, et à ce que leur intérêt supérieur soit une considération primordiale, à envisager des mesures non judiciaires comme mesures de substitution aux poursuites et des mesures de substitution à la détention pour ceux qui sont accusés d’infractions, comme le prévoient les résolutions pertinentes de l’Assemblée générale relatives à la justice pour mineurs, et à prendre des mesures qui mettent l’accent sur la réadaptation et la réinsertion, dans des conditions qui favorisent la santé, le respect de soi et la dignité des enfants, conformément aux dispositions pertinentes du droit international humanitaire et du droit international des droits de l’homme, en particulier de la Convention relative aux droits de l’enfant et du Protocole facultatif à la Convention, concernant l’implication d’enfants dans les conflits armés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_429" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_429__content">
+          <p xml:space="preserve"> 	<span class="italic">Rappelle </span>sa résolution <a href="http://undocs.org/fr/A/HRC/RES/16/18">16/18</a> du 24 mars 2011 et les résolutions ultérieures, le Plan d’action de Rabat sur l’interdiction de l’appel à la haine nationale, raciale ou religieuse qui constitue une incitation à la discrimination, à l’hostilité ou à la violence et le Processus d’Istanbul relatif à la lutte contre l’intolérance, la discrimination et l’incitation à la haine ou à la violence fondées sur la religion ou la conviction, et demande à la communauté internationale de les mettre effectivement en œuvre afin de contribuer à l’instauration de conditions plus propices à la lutte contre les discours par lesquels les groupes extrémistes tentent de justifier la violence, notamment contre la stigmatisation et la discrimination ethniques ou religieuses ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_458" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_458__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande </span>aux États de ne pas apporter de soutien aux personnes et entités impliquées dans des actes terroristes, et notamment de ne pas aider ces personnes et entités à se doter d’instruments de propagande diffusant des appels à la haine constitutifs d’incitation à la discrimination, à l’hostilité ou à la violence, y compris sur Internet et par d’autres médias, réaffirme que les technologies de l’information et de la communication peuvent être de puissants outils de lutte contre la propagation du terrorisme et de l’extrémisme violent pouvant conduire au terrorisme, notamment s’ils sont utilisés pour promouvoir les droits de l’homme, la paix, la tolérance, le pluralisme et le dialogue entre les peuples, et souligne à cet égard qu’il importe au plus haut point de respecter pleinement le droit à la liberté d’opinion et d’expression défini dans le Pacte international relatif aux droits civils et politiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_488" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_488__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte </span>les États à adopter des stratégies de réadaptation et de réinsertion à l’intention des combattants terroristes étrangers rentrant au pays, conformément au droit international, y compris au droit international des droits de l’homme et au droit international humanitaire, et aux bonnes pratiques applicables, telles que celles définies dans le Mémorandum de La Haye-Marrakech sur les bonnes pratiques permettant de répondre plus efficacement au phénomène des combattants terroristes étrangers établi par le Forum mondial de lutte contre le terrorisme, et à adopter une approche globale dans le cadre de laquelle ils s’emploieront notamment à établir des centres nationaux de conseil et de prévention de la radicalisation, cette mesure pouvant s’avérer très utile en association avec celles prises dans le domaine de la justice pénale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_519" class="SingleTxtG">
+        <num>32.</num>
+        <content eId="para_519__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourage vivement</span> les organismes compétents des Nations Unies, notamment ceux qui participent à l’action antiterroriste, à la prévention de l’extrémisme violent pouvant conduire au terrorisme et à la lutte contre ce fléau, à tenir compte selon qu’il conviendra, dans le cadre de l’assistance technique qu’ils fournissent aux fins de la lutte contre le terrorisme, de la nécessité de renforcer les capacités nationales de façon à consolider les systèmes de justice pénale et l’état de droit, et à continuer de faciliter la promotion et la protection des droits de l’homme et des libertés fondamentales et le respect de la légalité et de la primauté du droit dans la lutte contre le terrorisme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_551" class="SingleTxtG">
+        <num>33.</num>
+        <content eId="para_551__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte </span>les États et la communauté internationale et engage la société civile à s’employer selon qu’il convient, notamment en ayant recours à l’éducation, à la sensibilisation, à l’information et à la formation dans le domaine des droits de l’homme, y compris par les médias, à promouvoir la paix, la justice, le développement humain et la tolérance ethnique, nationale et religieuse, ainsi que le respect de toutes les religions, valeurs religieuses, convictions et cultures, et à s’attaquer efficacement aux conditions qui favorisent la propagation du terrorisme et de l’extrémisme violent pouvant conduire au terrorisme et rendent les personnes et les groupes de population plus vulnérables aux effets du terrorisme et plus susceptibles d’être enrôlés par des terroristes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_584" class="SingleTxtG">
+        <num>34.</num>
+        <content eId="para_584__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne </span>que le respect mutuel, la tolérance, le pluralisme, l’inclusion et le respect de la diversité, le dialogue entre les civilisations et le renforcement de l’entente entre les religions et les cultures, ainsi que la lutte contre l’intolérance, la discrimination et la haine qui constitue une incitation à la discrimination, à l’hostilité ou à la violence fondée sur la religion, les convictions ou tout autre motif, notamment aux niveaux national, régional et mondial, sont primordiaux pour ce qui est de prévenir et de combattre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme et de promouvoir la coopération en la matière, et accueille avec satisfaction les diverses mesures prises en ce sens ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_618" class="SingleTxtG">
+        <num>35.</num>
+        <content eId="para_618__content">
+          <p xml:space="preserve"> 	<span class="italic">Est conscient</span> du rôle important que jouent les médias, la société civile, les institutions et les chefs religieux, le secteur privé, les populations locales et les chefs communautaires dans l’action menée pour prévenir et combattre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_653" class="SingleTxtG">
+        <num>36.</num>
+        <content eId="para_653__content">
+          <p xml:space="preserve"> 	<span class="italic">Constate </span>que la participation active de la société civile peut contribuer à renforcer l’action que mènent les autorités pour protéger les droits de l’homme et les libertés fondamentales dans le contexte de la lutte contre le terrorisme et pour évaluer les incidences du terrorisme sur la jouissance de tous les droits de l’homme, et engage les États à veiller à ce que les mesures de lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme et de préservation de la sécurité nationale n’entravent pas les activités et la sécurité de la société civile et soient conformes aux obligations que leur impose le droit international, en particulier le droit international des droits de l’homme, le droit international des réfugiés et le droit international humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_689" class="SingleTxtG">
+        <num>37.</num>
+        <content eId="para_689__content">
+          <p xml:space="preserve"> 	<span class="italic">Invite</span> tous les organes conventionnels, tous les titulaires de mandat au titre des procédures spéciales et tous les mécanismes internationaux et régionaux des droits de l’homme, ainsi que le Haut-Commissaire des Nations Unies aux droits de l’homme, à accorder, dans le cadre de leurs mandats respectifs, l’attention voulue aux effets néfastes du terrorisme sur la jouissance de tous les droits de l’homme et de toutes les libertés fondamentales et sur la perpétration présumée de violations des droits de l’homme et des libertés fondamentales dans le contexte de la lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme, et à lui rendre compte régulièrement de la situation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_726" class="SingleTxtG">
+        <num>38.</num>
+        <content eId="para_726__content">
+          <p xml:space="preserve"> 	<span class="italic">Invite</span> le Rapporteur spécial sur la promotion et la protection des droits de l’homme et des libertés fondamentales dans la lutte antiterroriste à se pencher sur les effets néfastes du terrorisme sur la jouissance des droits de l’homme et des libertés fondamentales et à formuler des recommandations à ce sujet ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_764" class="SingleTxtG">
+        <num>39.</num>
+        <content eId="para_764__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide</span> de rester saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="47e" refersTo="#adoptionMeeting">47e séance</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 octobre 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
