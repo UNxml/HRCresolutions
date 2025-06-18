@@ -1,0 +1,428 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/zho@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="MIGRANTS" href="http://metadata.un.org/thesaurus/1004110" showAs="MIGRANTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MIGRATION POLICY" href="http://metadata.un.org/thesaurus/1004113" showAs="MIGRATION POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS MONITORING" href="http://metadata.un.org/thesaurus/1002982" showAs="HUMAN RIGHTS MONITORING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-04" outcome="draftResolution" as="A/HRC/57/L.27" by="Chile, Colombia, Costa Rica, Ecuador, Germany, Guatemala, Ireland, Luxembourg, Marshall Islands, Mexico, Paraguay, Peru and Philippines" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted without vote, 47th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">第五十七届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 九月</date>
+          <date date="2024-10-11" refersTo="#endDate">11 十月 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、 经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2024年10月10日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/14.</docNumber>
+        <docTitle refersTo="#resolutionTitle">移民的人权</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold">	遵循</span>《联合国宪章》的宗旨和原则，并重申《世界人权宣言》，</p>
+      </container>
+      <container name="回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">回顾</span>《公民及政治权利国际公约》、《经济社会文化权利国际公约》、《禁止酷刑和其他残忍、不人道或有辱人格的待遇或处罚公约》、《消除一切形式种族歧视国际公约》、《消除对妇女一切形式歧视公约》、《儿童权利公约》、《残疾人权利公约》、《保护所有人免遭强迫失踪国际公约》、《保护所有移徙工人及其家庭成员权利国际公约》、《打击跨国有组织犯罪公约》及其《打击陆、海、空偷运移民议定书》和《预防、禁止和惩治贩运人口特别是妇女和儿童行为议定书》，并回顾《发展权利宣言》，</p>
+      </container>
+      <container name="又回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>人权理事会以往所有关于移民人权的决议，包括2023年7月21日第53/24号决议，大会所有关于保护移民的决议，最近一项是2023年12月19日第78/217号决议，以及大会2023年12月19日第78/180号决议，</p>
+      </container>
+      <container name="还回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">还回顾</span>大会2018年12月19日第73/195号决议核可的《安全、有序和正常移民全球契约》，以及2022年5月17日至20日在纽约举行的第一届国际移民问题审查论坛通过并经大会2022年6月7日第76/266号决议核可的《国际移民问题审查论坛进展宣言》，</p>
+      </container>
+      <container name="认识到" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">认识到</span>迁徙贯穿人类历史，从来都是人类活动的一部分，强调所有移民，无论其移民身份为何，都是人权拥有者，并重申需要保护他们的安全和尊严，在所有情况下，在移民的所有阶段，都需要尊重、保护和实现他们的人权和基本自由，</p>
+      </container>
+      <container name="表示关切" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">表示关切</span>有关移民和迁徙的非人化和有害叙事、虚假信息和错误信息以及仇恨言论在传播，包括在网上传播，引发对移民及其家人的仇外心理、种族主义、多重和交叉形式的歧视(包括基于宗教或信仰的歧视)、排斥、暴力、敌意，挑动社会分裂和不和，并导致对非正常移民的过度处罚，包括不公正的刑事定罪，并表示关切某些政策的实施可能妨碍移民获得基本服务、保护和司法，阻碍移民充分享有人权，</p>
+      </container>
+      <container name="又表示关切" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">又表示关切</span>移民被用作实现政治目的或其他目的的工具，一些媒体还煽风点火，将移民作为替罪羊，企图转移视线和制造分裂，</p>
+      </container>
+      <container name="强调" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">强调</span>各国可为促进获取多样化的可靠信息发挥作用，以抵制有关移民和迁徙的虚假信息和错误信息，包括为此提高自身透明度，并强调指出，应对虚假信息和错误信息传播的措施必须符合国际人权法，</p>
+      </container>
+      <container name="认识到" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">认识到</span>移民对包容性增长和可持续发展的积极作用和贡献，包括通过人文、社会经济、技术、文化和民间能力使社会更加丰富多彩，并认识到传播和强调这些贡献的重要性，同时强调必须保护移民的人权，无论其移民身份为何，以促进包容，不让任何人掉队，</p>
+      </container>
+      <container name="表示严重关切" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">表示严重关切</span>移民处境尤其脆弱并面临风险，特别是妇女、女童、孤身和离散移民儿童，造成这一点的因素多种多样，包括离开原籍国的原因，移民在迁徙的各个阶段遇到的情况，涉及个人身份或状况特定方面的歧视，或各种因素兼而有之，</p>
+      </container>
+      <container name="表示关切" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">表示关切</span>移民在危险丛生的旅途中会遭遇丧生、失踪、遭受剥削、酷刑、性暴力和性别暴力及其他一切形式的暴力，包括基于宗教信仰的暴力和基于种族的暴力，以及其他侵犯和践踏人权行为，</p>
+      </container>
+      <container name="深为关切" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">深为关切</span>数量众多而且还在不断增多的移民，特别是妇女和儿童，包括孤身儿童或与父母或法定看护人离散的儿童，在试图跨越国际边界时死亡、受伤或失踪，</p>
+      </container>
+      <container name="认识到" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">认识到</span>各国有责任促进、保护和尊重在本国境内和受本国管辖的所有人的人权，包括所有移民的人权，无论其移民身份为何，并重申承诺采取行动避免移民丧生，包括为此促进和加强在危险边境区域的搜救行动，加强、建立、扩大并以多样化的方式灵活提供安全有序和正常的移民途径，防止因推回做法，特别是因驱回和集体驱逐，造成侵犯人权，</p>
+      </container>
+      <container name="承认" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">承认</span>缺少护照、公民身份证、学历、职业或健康证明等适当证件，对获得安全和正常的移民途径构成障碍，从而加重脆弱性并可能导致移民使用危险路线，增加剥削和贩运的风险，</p>
+      </container>
+      <container name="重申" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">重申</span>各国享有根据国际法义务，包括国际人权法义务，决定本国移民政策的主权权利，以及在本国管辖范围内管理移民的固有权力，</p>
+      </container>
+      <container name="认识到" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">认识到</span>原籍国、过境国和目的地国共同和各自承担责任，须促进、保护和尊重处于迁徙各个阶段的所有移民的人权，无论其移民身份为何，强调必须为此促进原籍国、过境国和目的地国之间的合作、信息交流和协调，并敦促所有国家避免采取可能加剧脆弱处境和可能进一步使移民边缘化的做法，包括将移民视为一种威胁或仅着眼于移民能带来什么利益的非人化和有害叙事，</p>
+      </container>
+      <container name="申明" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">申明</span>偷运移民和针对移民的犯罪，包括涉及人口贩运、童工劳动和强迫劳动的犯罪，继续构成严重挑战，需要进行协调一致的国际评估，采取立足人权的对策，并加强原籍国、过境国和目的地国之间的多边合作，以根除此类犯罪，预防、调查、起诉和惩治偷运移民行为，预防、打击和消除贩运行为，并查明、保护和帮助人口贩运受害者，</p>
+      </container>
+      <container name="认识到" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">认识到</span>移民的遣返，无论自愿与否，都必须符合各国的国际法义务，包括人权法义务、儿童的最大利益、不推回原则及有关尊重正当程序和禁止集体驱逐的义务，</p>
+      </container>
+      <container name="又认识到" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>需要根据各国不得任意剥夺本国国民进入本国权利的义务和国家须允许本国国民回国的义务，确保妥善接收和重新接纳返回的移民，</p>
+      </container>
+      <container name="回顾" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">回顾</span>联合国人权事务高级专员办事处为促进和保护所有移民的人权而开展的工作，以及国际移民组织的工作，注意到高级专员办事处的《国际边界人权问题建议原则和准则》、“为移民挺身而出”运动和工具箱、就国际边界人权问题建议的原则和准则<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://www.ohchr.org/en/documents/tools-and-resources/recommended-principles-and-guidelines-human-rights-international">https://www.ohchr.org/en/documents/tools-and-resources/recommended-principles-and-guidelines-human-rights-international</a>.</p></authorialNote> 及配套的《弱势移民人权保护实用指南》及高专办组织的关于如何防止和处理侵犯和践踏过境移民人权的行为并确保受害者及其家庭成员能够诉诸司法的闭会期间小组讨论会<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		见<a href="http://undocs.org/ch/A/HRC/57/32">A/HRC/57/32</a>。</p></authorialNote>，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_22" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>所有国家均须按照《世界人权宣言》及其国际法义务，包括国际人权法义务，有效促进、保护和尊重所有移民的人权和基本自由，而不加任何形式的歧视，无论其移民身份为何；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="bold">再次承诺</span>确保充分尊重所有移民的人权和基本自由，无论其移民身份为何；敦促所有国家，包括原籍国、过境国和目的地国，防止造成和加剧脆弱性，满足处境脆弱的移民的需要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="bold">坚决谴责</span>所有侵犯和践踏移民人权的行为，包括负面叙事、错误信息和虚假信息所助长的此种行为，并吁请所有国家根据其国际法义务确保问责和有效补救；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国确保其移民立法、政策和做法符合国际人权法，促进所有移民不受任何歧视地享有人权，包括审查移民立法、政策和做法，以防止它们在移民的各个阶段可能造成的不利后果，特别是造成和加剧脆弱性，从而可能导致死亡、失踪、剥削、贩运人口、酷刑、性暴力或性别暴力或其他任何形式的暴力(包括基于宗教信仰的暴力或基于种族的暴力)或其他侵犯或践踏人权行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="bold">又吁请</span>各国与国家人权机构、民间社会组织、移民及其家庭成员和其他相关利益攸关方合作，了解、预防并迅速彻底地调查和处理在移民的各个阶段因保护人权的预防措施缺失或执行不力，或因移民政策和做法缺乏立足人权的方针而造成或加剧的侵犯和践踏移民人权的行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国根据国际法义务，建立和加强全面的保障移民人权的法律框架，包括采取措施防止趋回和集体驱逐，并为处境脆弱的移民提供公平高效的庇护程序和其他形式的正常居留；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="bold">又鼓励</span>各国采取顾及性别、残疾和年龄的方针，防止或有效应对侵犯和践踏移民(包括过境移民)人权的行为，解决妇女和女童以及处境脆弱者，特别是残疾人、儿童和老年人的具体需求，包括保护他们免遭一切形式的暴力、剥削和虐待；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国根据国际人权法采取果断行动，消除对移民的一切形式歧视，包括种族主义、种族歧视、仇外和相关不容忍现象，以帮助防止侵犯和践踏移民人权的行为，并积极与所有相关利益攸关方合作，参与国家和全球努力，反对不断增多的对于迁徙和移民的非人化和有害的叙事，并转向基于人权和证据的叙事；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国根据国际人权法义务，通过并执行立法、政策和方案，有效解决阻碍移民享有人权的不平等、结构性和社会性动态以及多重和交叉形式的歧视，确保受害者能够诉诸司法和获得补救，并倡导关于移民的基于人权和证据的叙事；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="bold">强烈谴责</span>针对移民的种族主义、种族歧视、仇外和相关不容忍行为、表现和言论以及对移民抱有的成见，包括基于宗教信仰的此类情况，并敦促各国在出现针对移民的仇恨犯罪、仇外或不容忍行为、表现或言论时，按照国际人权义务适用并在必要时加强现行法律，以消除这些行为的实施者逍遥法外的现象，并向受害者提供有效补救；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有国家不要出于政治目的或其他目的，开展或赞助国内或国外针对移民的虚假信息或错误信息宣传，包括网上宣传，并鼓励各国谴责这种行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国创造有利环境，抵制针对移民的虚假信息和错误信息，无论其移民身份为何，采取基于证据并符合国际人权法的多层面和多利益攸关方对策，开展公众宣传和教育运动，包括为此加强与国际组织、包括移民组织和由移民领导的组织在内的民间社会、地方政府、媒体、私营部门和其他利益攸关方的合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国制定全面的公共政策，包括全政府和全社会的方针，将移民权利置于移民治理的中心，提高社会凝聚力和包容性，并与移民、移民领导的组织和移民社区合作，收集和传播有关移民积极促进社会文化、公民和经济发展以及文化间对话的数据，强调共同的人性以及尊重和保护人权的义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="bold">再次承诺</span>加强努力，考虑到处境脆弱者的特殊需要，增加安全、有序和正常移民途径的可用性和灵活性，藉此防止侵犯和践踏过境移民的人权，并减少他们对危险路线的依赖；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxtGC">
+        <num>15.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国采取措施，防止发生死亡、失踪、酷刑行为、性暴力和性别暴力以及包括基于宗教信仰的暴力和基于种族的暴力在内的其他所有形式暴力、对移民过度使用武力和推回的做法，并确保对所有侵犯和践踏人权的行为进行独立、透明的调查，追究施害者的责任；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxtGC">
+        <num>16.</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	<span class="bold">又敦促</span>各国采取有效措施，防止、调查和惩罚在本国领土上和本国管辖范围内以任何形式任意剥夺移民(包括移民儿童)自由的行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="SingleTxtGC">
+        <num>17.</num>
+        <content eId="para_158__content">
+          <p xml:space="preserve">	<span class="bold">还敦促</span>各国停止任意逮捕和拘留，鼓励各国采取拘留替代办法，同时注意到一些国家已成功实施的措施，并鼓励各国致力于结束拘留移民儿童的做法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_175" class="SingleTxtGC">
+        <num>18.</num>
+        <content eId="para_175__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国加强措施，保护移民儿童特别是孤身移民儿童的人权，确保在涉及融入社会、遣返和家庭团聚等事项的相关立法、政策和做法中把儿童的最大利益作为一个首要考虑因素；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_193" class="SingleTxtGC">
+        <num>19.</num>
+        <content eId="para_193__content">
+          <p xml:space="preserve">	<span class="bold">又吁请</span>各国保护移民免遭本国和跨国有组织犯罪活动之害，包括绑架、偷运移民、贩运人口、童工劳动、当代形式奴役和强迫劳动，特别是打击人口贩运并实施各种方案和政策，防止移民受到侵害，提供有效的保障和保护，并根据情况提供医疗、社会心理和法律援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_212" class="SingleTxtGC">
+        <num>20.</num>
+        <content eId="para_212__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国制定、加强和执行国家法律并监测其执行情况；防止侵犯和践踏移民工人的人权，包括强迫劳动和童工劳动；促进、尊重和实现所有移民工人的国际公认的劳动权利，包括结社自由和集体谈判权；与包括雇主在内的相关利益攸关方合作，建立伙伴关系，促进体面工作条件，防止虐待和剥削；在这方面与国际劳工组织和相关国际组织积极接触；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_232" class="SingleTxtGC">
+        <num>21.</num>
+        <content eId="para_232__content">
+          <p xml:space="preserve">	<span class="bold">又鼓励</span>各国提供适当证件，以便人们能够获得安全和正常的移民途径，以此维护人的尊严，确保享有基本权利，防止剥削和贩运；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_253" class="SingleTxtGC">
+        <num>22.</num>
+        <content eId="para_253__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国确保在国际边界迅速准确地识别和转介可能的处境脆弱移民；向处于困境的移民提供援助和救济，无论其移民身份为何；创造安全有利的环境，使提供此类援助的人道行为体能够在不受阻碍和保证安全的情况下开展工作，包括确保国内的法律和行政规定及适用能够方便为过境移民提供人道援助和维护过境移民人权的所有行为体开展工作，特别要避免违反国际人权法而将过境移民定罪和污名化，对他们造成妨碍、阻挠或限制；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_275" class="SingleTxtGC">
+        <num>23.</num>
+        <content eId="para_275__content">
+          <p xml:space="preserve">	<span class="bold">又吁请</span>各国确保所有边境治理措施，包括采用新的和新兴数字技术的措施，符合国际人权法义务并具备充分的保障措施保护移民的尊严和安全，采取具体措施防止在港口、机场、边境和其他移民过境区等地侵犯和践踏过境移民的人权，包括为此加强评估个案人权状况的机制，将移民转介至适当的服务和保护机构，鼓励建立监测机制，对在上述设施和边境地带工作的公职人员和其他人员进行充分培训，使他们能够按照国际人权法规定的义务，以尊重的态度对待移民；在这方面回顾联合国人权事务高级专员办事处和反恐怖主义办公室联合出版的《国际边界人权问题：培训师指南》；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_298" class="SingleTxtGC">
+        <num>24.</num>
+        <content eId="para_298__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国加强各个级别上的合作、信息交流和协调，包括原籍国、过境国和目的地国之间的合作、信息交流和协调，以及与国际人道主义组织、民间社会组织、移民及其家人的合作、信息交流和协调，以防止和调查侵犯和践踏过境移民人权的行为，查找失踪移民并确认身份，确保为受害者追究责任；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_322" class="SingleTxtGC">
+        <num>25.</num>
+        <content eId="para_322__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>国际移民组织的工作，以及联合国移民问题网络按照《国际移民问题审查论坛进展宣言》正在就失踪移民和人道援助问题开展的工作，特别是交流良好做法，包括开展跨境合作，以支持家庭和社区预防和应对移民死亡或移民失踪事件；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_347" class="SingleTxtGC">
+        <num>26.</num>
+        <content eId="para_347__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>移民人权特别报告员的报告<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<a href="http://undocs.org/ch/A/HRC/56/54">A/HRC/56/54</a>。</p></authorialNote>，请特别报告员继续报告移民的人权状况，并鼓励各国、区域组织和国际组织加强与特别报告员的合作，促进移民的人权；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_373" class="SingleTxtGC">
+        <num>27.</num>
+        <content eId="para_373__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国积极参与消除种族歧视委员会和保护所有移民工人及其家庭成员权利委员会领导的协商进程，起草一份联合一般性意见/建议，说明缔约国在采取公共政策应对和消除仇外现象方面的义务以及这种现象对于移民及其家人和其他遭受种族歧视的非公民的权利方面的影响；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_400" class="SingleTxtGC">
+        <num>28.</num>
+        <content eId="para_400__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>人权维护者处境特别报告员在提交大会的报告<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<a href="http://undocs.org/ch/A/79/123">A/79/123</a>。</p></authorialNote> 中提出的建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_428" class="SingleTxtGC">
+        <num>29.</num>
+        <list eId="para_428_list">
+          <intro eId="para_428_list_intro">
+            <p xml:space="preserve">	<span class="bold">请</span>高级专员办事处：</p>
+          </intro>
+          <point eId="para_428_list_point_a">
+            <num>(a)</num>
+            <content eId="para_428_list_point_a_content">
+              <p xml:space="preserve">	作为联合国移民问题网络执行委员会成员，继续积极参与该网络的工作，包括让所有相关人权机构和特别程序参与进来，确保高效地将人权纳入移民治理的主流；</p>
+            </content>
+          </point>
+          <point eId="para_428_list_point_b">
+            <num>(b)</num>
+            <content eId="para_428_list_point_b_content">
+              <p xml:space="preserve">	继续开展工作，促进和保护处于移民各个阶段的所有移民的人权，包括应对关于移民和迁徙的非人化和有害叙事，尤其是提供技术援助和能力建设，加强外联和宣传，并与各国、相关利益攸关方和民间社会分享最佳做法；</p>
+            </content>
+          </point>
+          <point eId="para_428_list_point_c">
+            <num>(c)</num>
+            <content eId="para_428_list_point_c_content">
+              <p xml:space="preserve">	与各国和包括区域组织、民间社会组织和国家人权机构、移民组织和移民领导的组织在内的其他相关利益攸关方协商，编写一份关于移民方面包括国际边界的人权监测的研究报告，介绍关于将监测纳入移民治理的良好而有前景的做法，并在人权理事会第六十届会议之前将研究报告提交理事会；</p>
+            </content>
+          </point>
+          <point eId="para_428_list_point_d">
+            <num>(d)</num>
+            <content eId="para_428_list_point_d_content">
+              <p xml:space="preserve">	举行为期一天的闭会期间小组讨论会，对残疾人无障碍并体现适当的性别代表性，讨论以何种措施防止、打击和处理有关移民和迁徙的非人化和有害叙事、针对移民的仇恨言论、仇外和相关不容忍行为，并讨论以何种途径加强国家、区域和国际监测和申诉机制，以报告在国际边界侵犯移民人权、歧视和虐待移民的案件，目的是确保诉诸司法的机会，着重说明这方面的最佳做法和挑战，确保移民及其家庭成员切实参与，就小组讨论情况和产生的建议编写一份纪要报告，并提交人权理事会第六十二届会议和大会第八十一届会议；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_457" class="SingleTxtGC">
+        <num>30.</num>
+        <content eId="para_457__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续处理此事。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第47次" refersTo="#adoptionMeeting">第47次会议</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">2024年10月10日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
