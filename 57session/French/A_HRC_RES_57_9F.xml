@@ -1,0 +1,337 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/"></FRBRuri>
+          <FRBRdate date="2024-10-09" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/fra@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-09/57-9/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="EX-OFFENDERS" href="http://metadata.un.org/thesaurus/1002165" showAs="EX-OFFENDERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL INTEGRATION" href="http://metadata.un.org/thesaurus/1005967" showAs="SOCIAL INTEGRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIMINAL JUSTICE" href="http://metadata.un.org/thesaurus/1001388" showAs="CRIMINAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REHABILITATION" href="http://metadata.un.org/thesaurus/1005446" showAs="REHABILITATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-08" outcome="draftResolution" as="A/HRC/57/L.17/Rev.1" by="Armenia, Chile, Colombia, Costa Rica, Cyprus, Gambia, Georgia, Ghana, Greece, Guatemala, Italy, Kazakhstan, Luxembourg, Montenegro, Peru, Portugal, Romania, Senegal and Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted without vote, 46th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/9</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 octobre 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Cinquante-septième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 septembre</date>
+          <date date="2024-10-11" refersTo="#endDate">11 octobre 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme,  civils, politiques, économiques, sociaux et culturels,  y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 9 octobre 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/9.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Réinsertion sociale des personnes remises en liberté ou soumises  à des mesures non privatives de liberté</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guidé </span>par les buts et principes énoncés dans la Charte des Nations Unies,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> que tous les États sont tenus de respecter et de protéger tous les droits de l’homme et les libertés fondamentales, et d’y donner effet,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant également</span> la Déclaration universelle des droits de l’homme, le Pacte international relatif aux droits civils et politiques, le Pacte international relatif aux droits économiques, sociaux et culturels, la Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes, la Convention relative aux droits des personnes handicapées, la Convention relative aux droits de l’enfant, la Convention internationale sur l’élimination de toutes les formes de discrimination raciale, la Convention contre la torture et autres peines ou traitements cruels, inhumains ou dégradants, et les autres instruments internationaux pertinents relatifs aux droits humains,</p>
+      </container>
+      <container name="Insistant sur le fait" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Insistant sur le fait </span>qu’il est souligné à l’article 10 du Pacte international relatif aux droits civils et politiques que le traitement des condamnés dans le régime pénitentiaire a pour but essentiel l’amendement et le reclassement social de ces personnes après leur remise en liberté,</p>
+      </container>
+      <container name="Rappelant" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> toutes les résolutions pertinentes de l’Assemblée générale, ainsi que les siennes propres, en particulier sa résolution <a href="http://undocs.org/fr/A/HRC/RES/53/27">53/27</a>, du 14 juillet 2023, sur l’élimination de la violence à l’égard des femmes et des filles : prévenir et combattre toutes les formes de violence à l’égard des femmes et des filles placées en détention pénale,</p>
+      </container>
+      <container name="Insistant" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Insistant </span>sur l’importance de l’Ensemble de règles minima des Nations Unies pour le traitement des détenus (Règles Nelson Mandela), de l’Ensemble de règles minima des Nations Unies concernant l’administration de la justice pour mineurs (Règles de Beijing), des Règles des Nations Unies concernant le traitement des détenues et l’imposition de mesures non privatives de liberté aux délinquantes (Règles de Bangkok), des Règles minima des Nations Unies pour l’élaboration de mesures non privatives de liberté (Règles de Tokyo), des Règles des Nations Unies pour la protection des mineurs privés de liberté (Règles de La Havane), des Principes relatifs aux entretiens efficaces dans le cadre d’enquêtes et de collecte d’informations (Principles de Méndez), de l’Ensemble de principes pour la protection de toutes les personnes soumises à une forme quelconque de détention ou d’emprisonnement et des Principes et lignes directrices des Nations Unies sur l’accès à l’assistance juridique dans le système de justice pénale,</p>
+      </container>
+      <container name="Prenant note avec reconnaissance" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Prenant note avec reconnaissance </span>de l’œuvre importante accomplie dans le domaine de l’administration de la justice par le Haut-Commissariat des Nations Unies aux droits de l’homme, l’Office des Nations Unies contre la drogue et le crime et la Commission pour la prévention du crime et la justice pénale, et conscient qu’il importe de créer des synergies pertinentes entre les travaux de ces trois entités afin de mettre l’accent sur les droits de l’homme, dans leurs multiples aspects, dans la réinsertion sociale des personnes remises en liberté ou soumises à des mesures non privatives de liberté,</p>
+      </container>
+      <container name="Soulignant" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Soulignant </span>que la réinsertion sociale désigne la réinsertion réussie, au sein de la société, d’une personne qui a été soumise à une sanction par privation de liberté ou à des mesures non privatives de liberté, la personne concernée étant alors en mesure de vivre dans le respect de la loi et de subvenir à ses besoins dignement, en accédant à des débouchés et en jouissant des droits de l’homme, sans discrimination aucune,</p>
+      </container>
+      <container name="Soulignant" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Soulignant </span>que l’administration de la justice, dans le contexte de l’incarcération et des mesures non privatives de liberté, devrait avoir pour but premier d’assurer, à terme, la réinsertion sociale des personnes soumises à ces mesures, et constatant l’importance de la réinsertion sociale aux fins non seulement de la pleine réalisation des droits de l’homme de ces personnes, mais aussi de l’état de droit, du développement durable et de la santé et de la sécurité publiques,</p>
+      </container>
+      <container name="Préoccupé" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Préoccupé </span>par le fait que les personnes remises en liberté ou soumises à des mesures non privatives de liberté connaissent souvent de sérieuses difficultés qui font obstacle à leur réinsertion sociale et à l’exercice de leurs droits de l’homme, notamment leur droit au logement, à l’alimentation, à la santé, à l’éducation, au travail et à la sécurité sociale, et leur droit de participer à la vie politique, et parviennent difficilement à bénéficier des aides de l’État, et que ces obstacles à la réinsertion peuvent être d’autant plus difficiles à surmonter pour les femmes, les enfants et les adolescents, les personnes membres de minorités raciales, nationales ou ethniques et linguistiques, les personnes handicapées, les personnes âgées, les autochtones, les personnes d’ascendance africaine et les personnes en situation de vulnérabilité ou de marginalisation,</p>
+      </container>
+      <container name="Profondément préoccupé" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Profondément préoccupé</span> par le fait que les femmes et les filles placées en détention pénale ne bénéficient pas de programmes de réadaptation adéquats tenant compte des considérations liées au genre et à l’âge et des traumatismes subis ni de programmes de réinsertion préalables ou postérieurs à la libération, tels que des programmes de santé mentale ou de traitement de l’usage de drogues ou des programmes d’éducation ou de formation professionnelle de qualité, et que leur précarité sociale et économique ainsi que la stigmatisation dont elles font l’objet de la part de leur communauté et de leur famille peuvent entraver leur réinsertion et les conduire à récidiver,</p>
+      </container>
+      <container name="Conscient" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Conscient </span>qu’il est nécessaire de donner aux États et à toutes les parties prenantes des orientations précises sur la réinsertion sociale des personnes remises en liberté ou soumises à des mesures non privatives de liberté, et conscient également que, pour assurer la réinsertion sociale de ces personnes, il faut concevoir et mettre en œuvre des programmes efficaces tenant compte des droits de l’homme et évaluer au cas par cas les besoins particuliers de ces personnes et les risques particuliers auxquels elles sont exposées,</p>
+      </container>
+      <container name="Saluant" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Saluant </span>les efforts que font les États pour favoriser la réinsertion sociale des personnes remises en liberté ou soumises à des mesures non privatives de liberté, soulignant qu’une réinsertion réussie exige des efforts de collaboration entre les gouvernements, le secteur privé, les organisations non gouvernementales, les familles et les victimes d’infraction<span class="italic">, </span>et se déclarant préoccupé par le fait qu’aider ces personnes est une responsabilité qui pèse souvent de manière disproportionnée sur les organisations non gouvernementales et les familles,</p>
+      </container>
+      <container name="Notant avec satisfaction" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Notant avec satisfaction</span> qu’il est souligné dans la Déclaration de Kyoto visant à faire progresser la prévention de la criminalité, la justice pénale et l’état de droit : vers la réalisation du Programme de développement durable à l’horizon 2030, adoptée au quatorzième Congrès des Nations Unies pour la prévention du crime et la justice pénale, qu’il importe de promouvoir dans la société un environnement propice à la réadaptation, de manière à faciliter la réinsertion sociale, et que cette dernière peut contribuer à réduire la récidive,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> 	<span class="italic">Insiste</span> sur les difficultés rencontrées par les personnes remises en liberté ou soumises à des mesures non privatives de liberté dans le cadre de leur réinsertion sociale et sur la nécessité de s’efforcer de lever les obstacles à l’exercice par ces personnes de leurs droits humains sans discrimination, notamment le droit à la vie, le droit de n’être pas soumis à la torture ni à d’autres peines ou traitements cruels, inhumains ou dégradants, à l’esclavage ou au travail forcé, le droit à l’égalité devant la loi et à une égale protection de la loi, le droit à l’égalité salariale, le droit à un niveau de vie suffisant, le droit de jouir du meilleur état de santé physique et mentale possible, et le droit à l’éducation, et de lever les restrictions illégales du droit de participer à la vie politique et publique, du droit à la vie privée et du droit au travail ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve"> <span class="italic">	Est conscient </span>qu’il faut collaborer avec toutes les parties prenantes, aux côtés des personnes remises en liberté ou soumises à des mesures non privatives de liberté, pour prévenir et éliminer les formes illégales de discrimination, ainsi que la violence et le harcèlement dont ces personnes peuvent être victimes, et lutter contre les normes sociales négatives, les stéréotypes, la stigmatisation, les inégalités économiques et sociales et le racisme et la discrimination systémiques qui limitent la pleine jouissance par celles‑ci de leurs droits humains, entravent leur réinsertion sociale et perpétuent l’exclusion sociale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> <span class="italic">	Engage</span> les États à examiner et, selon qu’il convient, à modifier leur législation, leurs politiques et leurs programmes, et à établir des politiques et des règlements clairs sur la conduite du personnel de l’appareil de justice pénale et des programmes de proximité, afin de protéger les personnes remises en liberté ou soumises à des mesures non privatives de liberté contre la stigmatisation, la discrimination et toutes les formes de violence, de respecter, de protéger et de réaliser leurs droits humains, de faciliter et favoriser leur réinsertion sociale et de faire en sorte qu’elles soient mieux à même de participer véritablement à la vie en société et d’y contribuer ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>4.</num>
+        <list eId="para_22_list">
+          <intro eId="para_22_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Invite </span>les États à s’efforcer activement de faciliter la réinsertion sociale des personnes remises en liberté ou soumises à des mesures non privatives de liberté conformément à leurs obligations et à leurs engagements en matière de droits de l’homme en envisageant notamment :</p>
+          </intro>
+          <point eId="para_22_list_point_a">
+            <num>a)</num>
+            <content eId="para_22_list_point_a_content">
+              <p xml:space="preserve">  De prendre des mesures pour soutenir la réinsertion sociale à toutes les phases de l’administration de la justice, y compris pendant l’application des mesures non privatives de liberté et après la remise en liberté ;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_b">
+            <num>b)</num>
+            <content eId="para_22_list_point_b_content">
+              <p xml:space="preserve">  De promouvoir la conception et la mise en œuvre de programmes efficaces de réinsertion sociale fondés sur l’évaluation des besoins des personnes remises en liberté ou soumises à des mesures non privatives de liberté et des risques auxquels celles‑ci sont exposées, sachant qu’il faudra peut-être procéder à une réévaluation en cours de réinsertion ;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_c">
+            <num>c)</num>
+            <content eId="para_22_list_point_c_content">
+              <p xml:space="preserve">  De concevoir et de mettre en œuvre des programmes complets de réinsertion sociale préalables et postérieurs à la remise en liberté, notamment des programmes tenant compte des considérations liées au sexe, à l’âge et au handicap, qui soient adaptés aux besoins particuliers des personnes en situation de vulnérabilité et qui aient pour but d’assurer une transition accompagnée pas à pas entre les services assurés en détention et les services assurés au sein de la collectivité, et de simplifier l’accès des personnes concernées aux produits et services essentiels tels que la nourriture, les vêtements, le logement, les soins médicaux et les services de santé mentale, ainsi que le traitement de l’usage de substances, et de veiller à ce que les informations concernant ces programmes de réinsertion soient faciles d’accès ;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_d">
+            <num>d)</num>
+            <content eId="para_22_list_point_d_content">
+              <p xml:space="preserve">  De concevoir des programmes permettant aux personnes remises en liberté ou soumises à des mesures non privatives de liberté de continuer d’avoir accès à des formations professionnelles et techniques et à des programmes éducatifs au sein de la collectivité, afin d’aider ces personnes à acquérir les compétences nécessaires à une réinsertion sociale à long terme, et de leur apporter l’appui nécessaire pour leur permettre d’accéder à un travail sûr, digne et rémunéré ;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_e">
+            <num>e)</num>
+            <content eId="para_22_list_point_e_content">
+              <p xml:space="preserve">  De promouvoir une approche de la réinsertion sociale qui soit axée sur la réparation et la réadaptation, notamment en sensibilisant le public au moyen de campagnes de lutte contre la stigmatisation et, selon qu’il convient, de médiations entre les victimes et les auteurs d’infraction et d’un accompagnement des familles, et d’encourager la société à se mobiliser, en veillant comme il se doit à protéger la société elle-même et les personnes concernées ;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_f">
+            <num>f)</num>
+            <content eId="para_22_list_point_f_content">
+              <p xml:space="preserve">  De faciliter, selon qu’il convient et conformément aux cadres juridiques internes, les mécanismes de justice réparatrice aux stades de la procédure pénale qui s’y prêtent et au sein de la collectivité pour aider les victimes et assurer la réinsertion des personnes remises en liberté ou soumises à des mesures non privatives de liberté, et pour faire respecter les droits de l’homme et prévenir la criminalité et la récidive ;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_g">
+            <num>g)</num>
+            <content eId="para_22_list_point_g_content">
+              <p xml:space="preserve">  D’introduire, dans la mesure du possible, des mesures adaptées de substitution à l’incarcération classique, notamment le placement dans de petits centres de détention, tout en accordant la priorité aux mesures non privatives de liberté et en ayant recours à différentes solutions telles que la mise en liberté conditionnelle, les permissions de sortir et les programmes et services de proximité pour faciliter la transition de la détention à la liberté, réduire la stigmatisation et la discrimination, et rétablir les relations entre les personnes remises en liberté et leurs familles et communautés ;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_h">
+            <num>h)</num>
+            <content eId="para_22_list_point_h_content">
+              <p xml:space="preserve">  D’encourager le secteur privé à contribuer activement à promouvoir la réinsertion sociale et à respecter les droits humains des personnes remises en liberté ou soumises à des mesures non privatives de liberté en leur offrant des possibilités d’emploi durable, et en proposant des programmes d’inclusion sociale et d’employabilité, notamment dans le cadre d’emplois au service du développement durable ;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_i">
+            <num>i)</num>
+            <content eId="para_22_list_point_i_content">
+              <p xml:space="preserve">  De dispenser des programmes adaptés de formation à la réinsertion sociale, notamment des formations qui tiennent compte des traumatismes subis, à l’intention des représentants de l’ordre, des responsables pénitentiaires, des agents de probation, des assistants sociaux et des prestataires de santé ;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_j">
+            <num>j)</num>
+            <content eId="para_22_list_point_j_content">
+              <p xml:space="preserve">  De promouvoir et d’appuyer les partenariats entre plusieurs parties prenantes en favorisant la coordination entre les autorités publiques compétentes à tous les niveaux, et les partenariats public-privé entre ces autorités et les collectivités ;</p>
+            </content>
+          </point>
+          <point eId="para_22_list_point_k">
+            <num>k)</num>
+            <content eId="para_22_list_point_k_content">
+              <p xml:space="preserve">  De mettre en commun les meilleures pratiques et d’échanger des informations sur les politiques et programmes de réinsertion sociale et sur les partenariats public-privé mis en place dans ce domaine ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_26" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne</span> les avantages de la réinsertion sociale pour ce qui est de la pleine jouissance des droits de l’homme par tous, de l’amélioration de la santé et de la sécurité publiques, du développement durable, de la prévention de la criminalité et de l’état de droit ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note avec satisfaction</span> des programmes de réinsertion sociale qui existent et de ceux qui sont mis en place actuellement par les États, ainsi que des meilleures pratiques observées par ces derniers en la matière, en particulier des programmes et pratiques qui reposent sur une approche axée sur les droits de l’homme, et remercie les États qui ont demandé à recevoir des orientations supplémentaires sur cette question ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie instamment </span>toutes les parties intéressées de contribuer à mobiliser davantage les gouvernements et à renforcer la coopération internationale aux fins de l’élaboration et de l’application de règlements, de politiques et de programmes visant à assurer la réinsertion sociale des personnes remises en liberté ou soumises à des mesures non privatives de liberté, et de contribuer à recueillir, analyser et diffuser des données pertinentes, notamment des données ventilées par appartenance ethnique, revenu, sexe, âge, race, handicap et situation géographique, ou selon d’autres facteurs, sur la portée, la nature et les conséquences de la réinsertion sociale de ces personnes et sur l’incidence et l’efficacité des politiques et programmes de lutte contre la discrimination, et la capacité de ces personnes de jouir de leurs droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> au Haut-Commissariat des Nations Unies aux droits de l’homme d’élaborer une étude complète, contenant des recommandations pratiques, sur les droits humains et la réinsertion sociale des personnes remises en liberté ou soumises à des mesures non privatives de liberté, afin d’évaluer l’utilité de compléter les principes directeurs, sur la base de vastes consultations avec les principales parties prenantes, notamment les États, les organes, organismes, fonds et programmes des Nations Unies, y compris l’Office des Nations Unies contre la drogue et le crime, les organes créés en vertu d’instruments internationaux relatifs aux droits de l’homme, les titulaires de mandat au titre de ses procédures spéciales, les institutions nationales des droits de l’homme, les défenseurs des droits de l’homme, les organisations de la société civile, le monde universitaire, les organes de la justice pénale, les personnes remises en liberté ayant une expérience personnelle pertinente, et les personnes ayant survécu à des actes criminels, et de lui présenter cette étude, adaptée aux personnes handicapées, y compris sous une forme accessible et facile à lire et à comprendre, à sa soixantième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve"> 	<span class="italic">Invite</span> toutes les parties intéressées, y compris les titulaires de mandat au titre des procédures spéciales, les organes conventionnels, le Haut-Commissariat et l’Office des Nations Unies contre la drogue et le crime, à consacrer des travaux à la promotion, à la protection et au respect des droits humains dans le contexte de la réinsertion sociale des personnes remises en liberté ou soumises à des mesures non privatives de liberté, ou à renforcer les travaux qu’ils effectuent déjà dans ce domaine ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> que soit apporté tout l’appui financier, technique et logistique nécessaire à l’application de la présente résolution ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide</span> de rester saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="46e" refersTo="#adoptionMeeting">46e séance</location>
+          <eol />
+          <docDate date="2024-10-09" refersTo="#adoptionDate">9 octobre 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
