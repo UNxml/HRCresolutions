@@ -1,0 +1,430 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/ara@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="MIGRANTS" href="http://metadata.un.org/thesaurus/1004110" showAs="MIGRANTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MIGRATION POLICY" href="http://metadata.un.org/thesaurus/1004113" showAs="MIGRATION POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS MONITORING" href="http://metadata.un.org/thesaurus/1002982" showAs="HUMAN RIGHTS MONITORING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-04" outcome="draftResolution" as="A/HRC/57/L.27" by="Chile, Colombia, Costa Rica, Ecuador, Germany, Guatemala, Ireland, Luxembourg, Marshall Islands, Mexico, Paraguay, Peru and Philippines" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted without vote, 47th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">الدورة السابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 أيلول</date>
+          <date date="2024-10-11" refersTo="#endDate">11 تشرين الأول 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 10 تشرين الأول/أكتوبر 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/14</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	حقوق الإنسان للمهاجرين</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بمقاصد ومبادئ ميثاق الأمم المتحدة ويعيد تأكيد الإعلان العالمي لحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى العهد الدولي الخاص بالحقوق المدنية والسياسية، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، واتفاقية مناهضة التعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، والاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري، واتفاقية القضاء على جميع أشكال التمييز ضد المرأة، واتفاقية حقوق الطفل، واتفاقية حقوق الأشخاص ذوي الإعاقة، والاتفاقية الدولية لحماية جميع الأشخاص من الاختفاء القسري، والاتفاقية الدولية لحماية حقوق جميع العمال المهاجرين وأفراد أسرهم، واتفاقية مكافحة الجريمة المنظمة عبر الوطنية وبروتوكول مكافحة تهريب المهاجرين عن طريق البر والبحر والجو المكمل لها وبروتوكول منع وقمع ومعاقبة الاتجار بالأشخاص، وبخاصة النساء والأطفال، المكمل لها، وإذ يشير أيضاً إلى إعلان الحق في التنمية،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى جميع قرارات مجلس حقوق الإنسان السابقة بشأن حقوق الإنسان للمهاجرين، بما في ذلك القرار <a href="https://undocs.org/ar/A/HRC/RES/53/24">53/24</a> المؤرخ 21 تموز/يوليه 2023، وجميع قرارات الجمعية العامة بشأن حماية المهاجرين، وآخرها القرار <a href="https://undocs.org/ar/A/RES/78/217">78/217</a> المؤرخ 19 كانون الأول/ديسمبر 2023، وكذلك قرار الجمعية <a href="https://undocs.org/ar/A/RES/78/180">78/180</a> المؤرخ 19 كانون الأول/ديسمبر 2021،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير كذلك</span> إلى الاتفاق العالمي من أجل الهجرة الآمنة والمنظمة والنظامية الذي أقرته الجمعية العامة في قرارها <a href="https://undocs.org/ar/A/RES/73/195">73/195</a> المؤرخ 19 كانون الأول/ديسمبر 2018، وإلى إعلان التقدم المحرز الصادر عن منتدى استعراض الهجرة الدولية، الذي اعتمده منتدى استعراض الهجرة الدولية الأول، المعقود في نيويورك في الفترة من 17 إلى 20 أيار/مايو 2022، وأيدته الجمعية في قرارها <a href="https://undocs.org/ar/A/RES/76/266">76/266</a> المؤرخ 7 حزيران/يونيه 2022،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن الهجرة كانت وستبقى جزءاً من التجربة الإنسانية عبر التاريخ، ويؤكد أن جميع المهاجرين، بصرف النظر عن وضعهم في الهجرة، هم من ذوي حقوق الإنسان، ويؤكد من جديد ضرورة حماية سلامتهم وصون كرامتهم واحترام حقوق الإنسان الخاصة بهم وحرياتهم الأساسية وحمايتها وإعمالها في جميع الأحوال، وفي جميع مراحل الهجرة،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه</span> إزاء انتشار السرديات التي تجرد المهاجرين من إنسانيتهم وتضر بهم، والمعلومات المضللة والمغلوطة وخطاب الكراهية بشأن المهاجرين والهجرة، بما في ذلك على شبكة الإنترنت، وهو ما يثير كراهية الأجانب والعنصرية وأشكال التمييز المتعددة والمتقاطعة، بما في ذلك التمييز على أساس الدين أو المعتقد، وإقصاء المهاجرين وعائلاتهم وممارسة العنف ضدهم ومعاداتهم، والانقسامات الاجتماعية والشقاق، ويؤدي إلى فرض عقوبات غير متناسبة على الهجرة غير النظامية، بما في ذلك التجريم الجائر، واعتماد سياسات قد تعرقل حصول المهاجرين على الخدمات الأساسية والحماية والعدالة، وتعيق من ثم تمتعهم الكامل بحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه أيضاً" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه أيضاً</span> من استغلال المهاجرين لأغراض سياسية أو لأغراض أخرى، وهو استغلال تفاقمه بعض المنابر الإعلامية التي تتخذ من المهاجرين كبش فداء وتسعى إلى تشتيت الانتباه وزرع التفرقة،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على دور الدول في تعزيز الوصول إلى معلومات متنوعة وموثوقة لمواجهة المعلومات المضللة والمغلوطة عن المهاجرين والهجرة، بطرق منها زيادة شفافيتها، وإذ يشدد على أن الردود على انتشار المعلومات المضللة والمغلوطة يجب أن تتفق مع القانون الدولي لحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يقر</span> بدور المهاجرين ومساهماتهم الإيجابية في تحقيق النمو الشامل للجميع والتنمية المستدامة، بما في ذلك إثراء المجتمعات بفضل القدرات البشرية والاجتماعية والاقتصادية والتكنولوجية والثقافية والمدنية، وأهمية نشر تلك المساهمات وإبرازها، مع تأكيد ضرورة حماية حقوق الإنسان للمهاجرين، بصرف النظر عن وضعهم في الهجرة، لتعزيز الإدماج وعدم ترك أحد خلف الركب،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه البالغ" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه البالغ</span> إزاء الأوضاع الهشة والمخاطر المحددة التي يواجهها المهاجرون، لا سيما النساء والبنات والأطفال المهاجرون غير المصحوبين بذويهم والمنفصلون عنهم، والتي قد تنشأ عن الأسباب التي دفعتهم إلى ترك بلدانهم الأصلية أو عن الظروف التي يواجهها المهاجرون في جميع مراحل الهجرة أو عن التمييز المرتبط بجوانب معينة من هوية الشخص أو ظروفه، أو عن مزيج من هذه العوامل،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه</span> إزاء الخسائر في الأرواح وحالات الاختفاء والاستغلال والتعذيب والعنف الجنسي والجنساني وجميع أشكال العنف الأخرى، بما في ذلك العنف القائم على الدين أو المعتقد والعنف القائم على العرق، وغير ذلك من انتهاكات وتجاوزات حقوق الإنسان التي يتعرض لها المهاجرون الذين يخوضون رحلات محفوفة بالمخاطر،</p>
+      </container>
+      <container name="وإذ يساوره قلق شديد" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">وإذ يساوره قلق شديد</span> إزاء العدد الكبير والمتزايد من المهاجرين، لا سيما النساء والأطفال، بمن فيهم الأطفال غير المصحوبين بوالديهم أو بالقائمين القانونيين عليهم أو المنفصلين عنهم، الذين قضوا نحبهم أو أصيبوا أو فُقدوا أثناء محاولتهم عبور الحدود الدولية،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلّم</span> بأن الدول مسؤولة عن تعزيز وحماية واحترام حقوق الإنسان لجميع الأفراد، بمن فيهم جميع المهاجرين الموجودين في أراضيها والخاضعين لولايتها، بصرف النظر عن وضعهم في الهجرة، وإذ يؤكد من جديد الالتزام باتخاذ إجراءات لتجنب وقوع خسائر في أرواح المهاجرين، بسبل منها تعزيز وتحسين عمليات البحث والإنقاذ في المناطق الحدودية الخطرة، وتعزيز توافر ومرونة مسارات الهجرة الآمنة والمنظمة والنظامية وتوسيع نطاقها وتنويعها، ومنع انتهاكات حقوق الإنسان الناجمة عن ممارسات صد المهاجرين، لا سيما الإعادة القسرية والطرد الجماعي،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن الافتقار إلى الوثائق المناسبة، مثل جوازات السفر أو بطاقات الهوية الوطنية أو الوثائق التعليمية أو المهنية أو الصحية، ينشئ عوائق أمام الوصول إلى مسارات الهجرة الآمنة والنظامية، وهو ما يزيد من أوجه الضعف ويمكن أن يؤدي إلى استخدام طرق خطيرة، فيفاقم مخاطر الاستغلال والاتجار،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> حق الدول السيادي في تقرير سياساتها الوطنية إزاء الهجرة وأن من اختصاصها تنظيم الهجرة داخل ولايتها القضائية، وفقاً لالتزاماتها بموجب القانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بالمسؤوليات المشتركة والخاصة بكل من بلدان المنشأ والعبور والمقصد في تعزيز وحماية واحترام حقوق الإنسان لجميع المهاجرين في أثناء مراحل الهجرة كلها، بصرف النظر عن وضعهم في الهجرة، وإذ يؤكد أهمية تعزيز التعاون وتبادل المعلومات والتنسيق بين بلدان المنشأ والعبور والمقصد لهذا الغرض، وإذ يحث جميع الدول على تجنب النُهج التي قد تؤدي إلى تفاقم حالات الضعف والتي قد تزيد من تهميش المهاجرين، بما في ذلك الروايات التي تجرد المهاجرين من إنسانيتهم وتضر بهم والتي تقدمهم على أنهم تهديد أو مصدر فوائد محتملة فحسب،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد</span> أن أعمال تهريب المهاجرين والجرائم التي تُرتكب في حق المهاجرين، بما فيها الجرائم التي تنطوي على اتجار بالبشر وعلى أسوأ أشكال عمل الأطفال والعمل الجبري، لا تزال تشكل تحدياً خطيراً وتتطلب تقييماً دولياً متضافراً وتصدياً قائماً على حقوق الإنسان وتعزيز التعاون المتعدد الأطراف بين بلدان المنشأ والعبور والمقصد من أجل القضاء عليها، بغية منع أعمال تهريب المهاجرين والتحقيق فيها ومقاضاة مرتكبيها ومعاقبتهم ومنع الاتجار ومكافحته واجتثاثه، والتعرف على ضحايا الاتجار بالبشر وحمايتهم ومساعدتهم،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بوجوب أن تكون عودة المهاجرين، طوعيةً كانت أم غير طوعية، متسقة مع التزامات الدول بموجب القانون الدولي لحقوق الإنسان، بما ذلك القانون الدولي لحقوق الإنسان، ومراعاة مصالح الطفل الفضلى، ومبدأ عدم الإعادة القسرية، والتزاماتها المتصلة باحترام الإجراءات القانونية الواجبة وحظر الطرد الجماعي،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً</span> بالحاجة إلى ضمان استقبال المهاجرين العائدين وقبول عودتهم على النحو الواجب، وفقاً لالتزام الدول بعدم حرمان مواطنيها تعسفاً من الحق في دخول بلدهم والتزام الدول بقبول دخول مواطنيها من جديد،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى العمل الذي تضطلع به مفوضية الأمم المتحدة السامية لحقوق الإنسان من أجل تعزيز وحماية حقوق الإنسان لجميع المهاجرين، وإلى عمل المنظمة الدولية للهجرة، وإذ يلاحظ المبادئ والمبادئ التوجيهية الموصى بها بشأن حقوق الإنسان على الحدود الدولية، وحملة #StandUp4Migrants ومجموعة أدواتها التي أعدتها المفوضية السامية، ومبادئها ومبادئها التوجيهية الموصى بها بشأن حقوق الإنسان على الحدود الدولية<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://www.ohchr.org/en/documents/tools-and-resources/recommended-principles-and-guidelines-human-rights-international">https://www.ohchr.org/en/documents/tools-and-resources/recommended-principles-and-guidelines-human-rights-international</a>.</p></authorialNote><sup>)</sup>، مدعومة بإرشادات عملية بشأن حماية حقوق الإنسان للمهاجرين في الأوضاع الهشة، وتنظيم حلقة النقاش المعقودة بين دورتين بشأن سبل منع انتهاكات حقوق الإنسان للمهاجرين العابرين والتصدي لها وضمان وصول الضحايا وأفراد أسرهم إلى العدالة<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/57/32">A/HRC/57/32</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_22" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> واجب جميع الدول المتمثل في تعزيز حقوق الإنسان والحريات الأساسية لجميع المهاجرين وحمايتها واحترامها على نحو فعال، بصرف النظر عن وضعهم في الهجرة، ودون تمييز من أي نوع، وفقاً للإعلان العالمي لحقوق الإنسان ولالتزاماتها بموجب القانون الدولي، بما فيه القانون الدولي لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">يلتزم مجدداً</span> بضمان الاحترام الكامل لحقوق الإنسان والحريات الأساسية لجميع المهاجرين، بصرف النظر عن وضعهم من حيث الهجرة، ويحث جميع الدول، بما فيها بلدان المنشأ والعبور والمقصد، على منع وقوع حالات الضعف وتفاقمها وعلى تلبية احتياجات المهاجرين الضعاف الحال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">يدين بعبارات لا لبس فيها</span> جميع انتهاكات وتجاوزات حقوق الإنسان المرتكبة في حق المهاجرين، بما في ذلك تلك التي تغذيها الروايات السلبية والمعلومات المضللة والمغلوطة، ويدعو جميع الدول إلى ضمان المساءلة وإتاحة سبل الانتصاف الفعالة وفقاً لالتزاماتها بموجب القانون الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تكفل اتساق تشريعاتها وسياساتها وممارساتها المتعلقة بالهجرة مع القانون الدولي لحقوق الإنسان، وأن تعزز تمتع جميع المهاجرين بحقوق الإنسان دون تمييز من أي نوع، بوسائل منها استعراض التشريعات والسياسات والممارسات المتعلقة بالهجرة بغية درء ما يمكن أن ينشأ عنها من آثار سلبية أثناء مراحل الهجرة كلها، بما في ذلك وقوع حالات ضعف وتفاقمها، وهو ما من شأنه أن يؤدي إلى حالات وفاة أو اختفاء أو استغلال أو اتجار بالبشر أو تعذيب أو عنف جنسي أو جنساني أو أي شكل آخر من أشكال العنف، ومنها العنف القائم على الدين أو المعتقد أو العنف القائم على العرق، أو غيرها من انتهاكات حقوق الإنسان وتجاوزاتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">يهيب أيضاً</span> بالدول أن تعمل مع المؤسسات الوطنية لحقوق الإنسان، ومنظمات المجتمع المدني، والمهاجرين وأفراد أسرهم، ومع الجهات المعنية الأخرى صاحبة المصلحة، من أجل فهم انتهاكات حقوق الإنسان وتجاوزاتها التي تُرتكب في حق المهاجرين أثناء مراحل الهجرة كلها، والتي يتسبب فيها أو في تفاقمها عدم تنفيذ التدابير الوقائية لحماية حقوق الإنسان أو القصور في تنفيذها، أو تتسبب فيها سياسات الهجرة وممارساتها غير المستندة إلى نهج قائم على حقوق الإنسان، ومن أجل منع تلك الانتهاكات والتجاوزات والتحقيق فيها ومعالجتها على وجه السرعة وبصورة شاملة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول على إنشاء وتعزيز أطر قانونية شاملة تحمي حقوق الإنسان للمهاجرين، من ضمنها تدابير ترمي إلى منع عمليات الصد والطرد الجماعي، كما يشجعها على إتاحة الوصول إلى إجراءات لجوء عادلة وفعالة وإلى أشكال أخرى من الإقامة النظامية للمهاجرين الضعاف الحال، بما يتماشى مع التزاماتها بموجب القانون الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">يشجع أيضاً</span> الدول على اعتماد نُهج مراعية للمنظور الجنساني والإعاقة والسن لأجل منع وقوع انتهاكات وتجاوزات حقوق الإنسان في حق المهاجرين، بمن فيهم المهاجرون العابرون، أو التصدي لها على نحو فعال، ويشجعها أيضاً على تلبية الاحتياجات الخاصة للنساء والفتيات والأشخاص الضعاف الحال، لا سيما الأشخاص ذوي الإعاقة والأطفال وكبار السن، بما في ذلك حمايتهم من جميع أشكال العنف والاستغلال والإيذاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على اتخاذ إجراءات حاسمة لوضع حد لجميع أشكال التمييز ضد المهاجرين، بما فيها العنصرية والتمييز العنصري وكره الأجانب وما يتصل بذلك من تعصب، في سياق المساعدة على منع تعرضهم لانتهاكات وتجاوزات حقوق الإنسان، ويحثها أيضاً على المشاركة بنشاط مع جميع الجهات المعنية صاحبة المصلحة في الجهود الوطنية والعالمية الرامية إلى التصدي، على نحو يتماشى مع القانون الدولي لحقوق الإنسان، للسرديات المتزايدة التي تجرد المهاجرين من إنسانيتهم وتضر بهم، والانتقال إلى سرديات قائمة على حقوق الإنسان والأدلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تعتمد وتنفذ تشريعات وسياسات وبرامج تعالج بفعالية عدم المساواة والديناميات الهيكلية والمجتمعية وأشكال التمييز المتعددة والمتقاطعة التي تعيق تمتع المهاجرين بحقوق الإنسان، بما يتماشى مع التزاماتها بموجب القانون الدولي لحقوق الإنسان، وأن تكفل وصول الضحايا إلى العدالة وسبل الانتصاف، وتعزز السرديات القائمة على حقوق الإنسان والأدلة فيما يتعلق بالهجرة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">يدين بشدة</span> الأفعال والمظاهر وأشكال التعبير التي تنم عن العنصرية والتمييز العنصري وكره الأجانب وما يتصل بذلك من تعصب تجاه المهاجرين والصور النمطية التي غالباً ما تُلصق بهم على أسس منها الدين أو المعتقد، ويحث الدول على تطبيق القوانين القائمة وتعزيزها عند الاقتضاء، على نحو يتماشى والتزاماتها الدولية بموجب حقوق الإنسان، متى ارتُكبت جرائم بدافع الكراهية أو وقعت أفعال أو مظاهر أو أشكال تعبير تنم عن كره الأجانب أو التعصب تجاه المهاجرين، من أجل القضاء على إفلات مرتكبي تلك الأفعال من العقاب، وتوفير الانتصاف الفعال للضحايا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بجميع الدول أن تمتنع عن شنّ أو رعاية حملات التضليل الإعلامي ونشر المعلومات المغلوطة، بما فيها الحملات التي تجري على الإنترنت، التي تستهدف المهاجرين على الصعيد المحلي أو عبر الوطني لأغراض سياسية أو أغراض أخرى، ويشجعها على إدانة هذه الأعمال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على تيسير بيئة داعمة لمكافحة المعلومات المضللة والمغلوطة التي تستهدف المهاجرين، بغض النظر عن وضعهم في الهجرة، والمشاركة في حملات التوعية العامة والتثقيف عن طريق استجابات متعددة الأبعاد تضم العديد من الجهات صاحبة المصلحة وتستند إلى الأدلة وتمتثل للقانون الدولي لحقوق الإنسان، وذلك بطرق منها تعزيز التعاون مع المنظمات الدولية والمجتمع المدني، بما في ذلك المنظمات التي يقودها المهاجرون والمهاجرات، والحكومات المحلية، ووسائط الإعلام، والقطاع الخاص والجهات الأخرى صاحبة المصلحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تضع سياسات عامة شاملة، بما في ذلك اتباع نهج يشمل الحكومة بأكملها والمجتمع بأسره، ووضع حقوق المهاجرين في صميم إدارة الهجرة، وتعزيز التماسك والإدماج الاجتماعيين، والعمل بالتعاون مع المهاجرين والمنظمات التي يقودها المهاجرون ومجتمعات المهاجرين من أجل جمع ونشر البيانات عن مساهمتهم الإيجابية في التنمية الاجتماعية - الثقافية والتنمية والمدنية والاقتصادية والحوار بين الثقافات، مع تأكيد إنسانيتنا المشتركة والالتزام باحترام حقوق الإنسان وحمايتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="italic">يلتزم مجدداً</span> بتعزيز الجهود الرامية إلى زيادة توافر ومرونة مسارات الهجرة الآمنة والمنظمة والنظامية باعتبارها وسيلة لمنع وقوع انتهاكات وتجاوزات لحقوق الإنسان تطال المهاجرين العابرين ولتقليل اعتمادهم على السُّبل الخطرة، مع مراعاة الاحتياجات الخاصة للأشخاص الضعاف الحال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> الدول على اعتماد تدابير لمنع حالات الوفاة والاختفاء وأعمال التعذيب والعنف الجنسي والجنساني، وسائر أشكال العنف، بما في ذلك العنف القائم على الدين أو المعتقد والعنف القائم على العرق، واستخدام القوة المفرط ضد المهاجرين، والإعادة القسرية، وعلى ضمان إجراء تحقيقات مستقلة وشفافة في جميع انتهاكات وتجاوزات حقوق الإنسان وضمان محاسبة مرتكبيها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxtGA">
+        <num>16-</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	<span class="italic">يحث أيضاً</span> الدول على اعتماد تدابير فعالة لمنع أي شكل من أشكال سلب الحرية التعسفي في حق المهاجرين، بمن فيهم الأطفال المهاجرون، داخل إقليم الدولة وولايتها القضائية، وعلى التحقيق فيه والمعاقبة عليه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="SingleTxtGA">
+        <num>17-</num>
+        <content eId="para_158__content">
+          <p xml:space="preserve">	<span class="italic">يحث كذلك</span> الدول على وضع حد للتوقيف والاحتجاز التعسفيين، ويشجع الدول على البحث عن بدائل للاحتجاز، ويلاحظ التدابير التي نفذتها بعض الدول بنجاح، كما يحثها على العمل على إنهاء احتجاز الأطفال المهاجرين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_175" class="SingleTxtGA">
+        <num>18-</num>
+        <content eId="para_175__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تعزز تدابير حماية حقوق الإنسان للأطفال المهاجرين، وخاصة منهم غير المصحوبين بذويهم، بما يكفل مراعاة مصالح الطفل الفضلى في المقام الأول في تشريعاتها وسياساتها وممارساتها، بما في ذلك المتعلقة بالإدماج والعودة ولم شمل الأسر؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_193" class="SingleTxtGA">
+        <num>19-</num>
+        <content eId="para_193__content">
+          <p xml:space="preserve">	<span class="italic">يهيب أيضاً</span> بالدول أن تحمي المهاجرين من الوقوع ضحايا للجريمة المنظمة الوطنية وعبر الوطنية، بما فيها اختطاف المهاجرين وتهريبهم والاتجار بالبشر وأسوأ أشكال عمل الأطفال وأشكال الرق المعاصرة والعمل الجبري، بوسائل منها مكافحة الاتجار بالبشر وتنفيذ برامج وسياسات تمنع وقوع الضحايا وتوفر ضمانات وحماية فعالة وتتيح إمكانية الحصول على الخدمات الطبية والمساعدة النفسية والاجتماعية والقانونية، عند الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_212" class="SingleTxtGA">
+        <num>20-</num>
+        <content eId="para_212__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول على وضع قوانين وطنية وتعزيزها وتنفيذها ورصد هذا التنفيذ؛ وعلى منع وقوع انتهاكات وتجاوزات لحقوق الإنسان في حق العمال المهاجرين، بما في ذلك حالات العمل الجبري وعمل الأطفال؛ وعلى تعزيز واحترام وإعمال الحقوق العمالية المعترف بها دولياً لجميع العمال المهاجرين، بما في ذلك حرية تكوين الجمعيات وحق المفاوضة الجماعية؛ وعلى التعاون مع الجهات المعنية صاحبة المصلحة، بما في ذلك أصحاب العمل، من أجل بناء شراكات تعزز ظروف العمل اللائق وتمنع سوء المعاملة والاستغلال؛ وعلى العمل بنشاط مع منظمة العمل الدولية والمنظمات الدولية المختصة في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_232" class="SingleTxtGA">
+        <num>21-</num>
+        <content eId="para_232__content">
+          <p xml:space="preserve">	<span class="italic">يشجع أيضاً</span> الدول على توفير الوثائق المناسبة للتمكين من الوصول إلى مسارات الهجرة الآمنة والنظامية، باعتبار ذلك من تدابير حفظ كرامة الإنسان وضمان الحصول على الحقوق الأساسية ومنع الاستغلال والاتجار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_253" class="SingleTxtGA">
+        <num>22-</num>
+        <content eId="para_253__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تكفل القيام على وجه السرعة والدقة بالتعرف على المهاجرين الذين يحتمل أن يكونوا في وضع هش على الحدود الدولية وإحالة هؤلاء المهاجرين، وأن تقدم المساعدة والغوث إلى المهاجرين المنكوبين، بصرف النظر عن وضعهم في الهجرة، وأن تهيئ بيئة آمنة وتمكينية يتسنى فيها للجهات الفاعلة في مجال الإغاثة الإنسانية التي تقدم هذه المساعدة أن تعمل دون عوائق وفي كنف الأمن والأمان، بما يحقق أموراً من بينها مساهمة القانون المحلي والأحكام الإدارية وتطبيقها في تيسير عمل جميع الجهات الفاعلة التي تقدم المساعدة الإنسانية للمهاجرين العابرين وتدافع عن حقوق الإنسان الخاصة بهم، وذلك بطرق منها تجنب تجريمهم ووصمهم أو وضع عراقيل أو معوقات في طريقهم أو فرض قيود عليهم، الأمر الذي يتنافى والقانون الدولي لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_275" class="SingleTxtGA">
+        <num>23-</num>
+        <content eId="para_275__content">
+          <p xml:space="preserve">	<span class="italic">يهيب أيضاً</span> بالدول أن تكفل امتثال جميع تدابير إدارة الحدود، بما فيها التي تستخدم التكنولوجيات الرقمية الجديدة والناشئة، لالتزامات الدول بموجب القانون الدولي لحقوق الإنسان، واقترانها بضمانات كافية لحماية كرامة المهاجرين وسلامتهم، وأن تعتمد تدابير ملموسة لمنع وقوع انتهاكات وتجاوزات لحقوق الإنسان في حق المهاجرين أثناء عبورهم، بما في ذلك في الموانئ والمطارات وعلى الحدود وغيرها من مناطق العبور في الهجرة، بوسائل منها تعزيز آليات تقييم حالات حقوق الإنسان الفردية وإحالة المهاجرين إلى هيئات الخدمات والحماية المناسبة، وتشجيع وضع آليات للرصد، وتدريب الموظفين العموميين وغيرهم ممن يعملون في تلك المرافق وفي مناطق الحدود تدريباً كافياً على معاملة المهاجرين باحترام ووفقاً لالتزامات الدول بموجب القانون الدولي لحقوق الإنسان، ويشير، في هذا الصدد، إلى منشور <span class="italic">"حقوق الإنسان على الحدود الدولية: دليل المدربين"</span>، الذي اشترك في نشره كل من مفوضية الأمم المتحدة السامية لحقوق الإنسان ومكتب مكافحة الإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_298" class="SingleTxtGA">
+        <num>24-</num>
+        <content eId="para_298__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول على تعزيز التعاون وتبادل المعلومات والتنسيق على جميع المستويات، بما في ذلك بين بلدان المنشأ والعبور والمقصد، ومع المنظمات الإنسانية الدولية ومنظمات المجتمع المدني والمهاجرين وأسرهم، من أجل منع انتهاكات وتجاوزات حقوق الإنسان التي تُرتكب في حق المهاجرين العابرين والتحقيق فيها، والعثور على المهاجرين المفقودين وتحديد هويتهم، وضمان المساءلة إنصافاً للضحايا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_322" class="SingleTxtGA">
+        <num>25-</num>
+        <content eId="para_322__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بعمل المنظمة الدولية للهجرة، والعمل الجاري الذي تضطلع به شبكة الأمم المتحدة المعنية بالهجرة فيما يتعلق بالمهاجرين المفقودين والمساعدة الإنسانية تماشياً مع إعلان التقدم المحرز الصادر عن منتدى استعراض الهجرة الدولية، بما في ذلك تبادل الممارسات الجيدة، بسبل منها التعاون عبر الحدود من أجل دعم الأسر والمجتمعات المحلية في الحيلولة دون وفاة المهاجرين أو فقدانهم وفي التصدي لهما؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_347" class="SingleTxtGA">
+        <num>26-</num>
+        <content eId="para_347__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً</span> بتقرير المقررة الخاصة المعنية بحقوق الإنسان للمهاجرين<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/56/54">A/HRC/56/54</a>.</p></authorialNote><sup>)</sup>، ويطلب إلى المقررة الخاصة أن تواصل تقديم تقارير عن حالة حقوق الإنسان للمهاجرين، ويشجع الدول والمنظمات الإقليمية والدولية على تعزيز تعاونها مع المقررة الخاصة في النهوض بحقوق الإنسان للمهاجرين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_373" class="SingleTxtGA">
+        <num>27-</num>
+        <content eId="para_373__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول على المشاركة بنشاط في العملية التشاورية التي تقودها لجنة القضاء على التمييز العنصري ولجنة حماية حقوق جميع العمال المهاجرين وأفراد أسرهم بغية صياغة تعليق عام مشترك/توصية عامة مشتركة بشأن التزامات الدول الأطراف فيما يتعلق بالسياسات العامة الرامية إلى التصدي لكره الأجانب ولأثره على حقوق المهاجرين وأسرهم وسائر غير المواطنين المتأثرين بالتمييز العنصري والقضاء عليهما؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_400" class="SingleTxtGA">
+        <num>28-</num>
+        <content eId="para_400__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً</span> بالتوصيات التي قدمتها المقررة الخاصة المعنية بحالة المدافعين عن حقوق الإنسان في تقريرها إلى الجمعية العامة<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/79/123">A/79/123</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_428" class="SingleTxtGA">
+        <num>29-</num>
+        <list eId="para_428_list">
+          <intro eId="para_428_list_intro">
+            <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المفوضية السامية القيام بما يلي:</p>
+          </intro>
+          <point eId="para_428_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_428_list_point_أ_content">
+              <p xml:space="preserve">	مواصلة تعاونها النشط مع شبكة الأمم المتحدة المعنية بالهجرة بصفتها عضواً في لجنتها التنفيذية، بوسائل منها إشراك جميع هيئات حقوق الإنسان والإجراءات الخاصة ذات الصلة، بهدف ضمان الكفاءة في تعميم مراعاة حقوق الإنسان في إدارة شؤون الهجرة؛</p>
+            </content>
+          </point>
+          <point eId="para_428_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_428_list_point_ب_content">
+              <p xml:space="preserve">	مواصلة عملها على تعزيز وحماية حقوق الإنسان لجميع المهاجرين، أثناء جميع مراحل الهجرة، بوسائل منها التصدي للخطاب المتعلق بالمهاجرين والهجرة الذي يجرد المهاجرين من إنسانيتهم ويضر بهم، وذلك بتوفير المساعدة التقنية وبناء القدرات، وزيادة التواصل والتوعية، وتبادل أفضل الممارسات مع الدول والجهات المعنية صاحبة المصلحة والمجتمع المدني؛</p>
+            </content>
+          </point>
+          <point eId="para_428_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_428_list_point_ج_content">
+              <p xml:space="preserve">	إعداد دراسة عن رصد حقوق الإنسان في سياق الهجرة، بما في ذلك على الحدود الدولية، وعرض الممارسات الجيدة والواعدة المتعلقة بكيفية إدماج الرصد في إدارة الهجرة، بالتشاور مع الدول وغيرها من الجهات المعنية صاحبة المصلحة، بما في ذلك المنظمات الإقليمية ومنظمات المجتمع المدني والمؤسسات الوطنية لحقوق الإنسان والمهاجرون والمنظمات التي يقودها المهاجرون، وتقديم الدراسة إلى مجلس حقوق الإنسان قبل دورته الستين؛</p>
+            </content>
+          </point>
+          <point eId="para_428_list_point_د">
+            <num>(د)</num>
+            <content eId="para_428_list_point_د_content">
+              <p xml:space="preserve">	عقد حلقة نقاش لمدة يوم واحد فيما بين دورتين، تكون ميسرة للأشخاص ذوي الإعاقة، وتراعي التمثيل المناسب للجنسين، فيما يتعلق بتدابير منع السرديات المتعلقة بالهجرة والمهاجرين التي تجرد المهاجرين من إنسانيتهم وتضر بهم، وخطاب الكراهية، وكره الأجانب وما يتصل بذلك من أشكال التعصب ضد المهاجرين، والتصدي لها ومعالجتها، وبسبل تعزيز آليات الرصد والشكاوى الوطنية والإقليمية والدولية للإبلاغ عن حالات انتهاك حقوق الإنسان والتمييز وسوء المعاملة التي يتعرض لها المهاجرون على الحدود الدولية، بهدف ضمان الوصول إلى العدالة، وتسليط الضوء على أفضل الممارسات والتحديات في هذا الصدد، وضمان المشاركة الفعالة للمهاجرين وأفراد أسرهم، وإعداد تقرير موجز عن حلقة النقاش والتوصيات المنبثقة عنها، وتقديم التقرير إلى مجلس حقوق الإنسان في دورته الثانية والستين وإلى الجمعية العامة في دورتها الحادية والثمانين؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_457" class="SingleTxtGA">
+        <num>30-</num>
+        <content eId="para_457__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يبقي المسألة قيد نظره.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="47" refersTo="#adoptionMeeting">الجلسة 47</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 تشرين الأول/أكتوبر 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمِد من دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
