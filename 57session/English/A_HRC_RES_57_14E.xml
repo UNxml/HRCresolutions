@@ -1,0 +1,436 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/eng@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-14/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="MIGRANTS" href="http://metadata.un.org/thesaurus/1004110" showAs="MIGRANTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MIGRATION POLICY" href="http://metadata.un.org/thesaurus/1004113" showAs="MIGRATION POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS MONITORING" href="http://metadata.un.org/thesaurus/1002982" showAs="HUMAN RIGHTS MONITORING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-04" outcome="draftResolution" as="A/HRC/57/L.27" by="Chile, Colombia, Costa Rica, Ecuador, Germany, Guatemala, Ireland, Luxembourg, Marshall Islands, Mexico, Paraguay, Peru and Philippines" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted without vote, 47th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 October 2024</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Fifty-seventh session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 September</date>
+          <date date="2024-10-11" refersTo="#endDate">11 October 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 10 October 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/14.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Human rights of migrants</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guided </span>by the purposes and principles of the Charter of the United Nations and reaffirming the Universal Declaration of Human Rights,</p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> the International Covenant on Civil and Political Rights, the International Covenant on Economic, Social and Cultural Rights, the Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment, the International Convention on the Elimination of All Forms of Racial Discrimination, the Convention on the Elimination of All Forms of Discrimination against Women, the Convention on the Rights of the Child, the Convention on the Rights of Persons with Disabilities, the International Convention for the Protection of All Persons from Enforced Disappearance, the International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families and the Convention against Transnational Organized Crime and the Protocols thereto against the Smuggling of Migrants by Land, Sea and Air and to Prevent, Suppress and Punish Trafficking in Persons, especially Women and Children, and recalling also the Declaration on the Right to Development,</p>
+      </container>
+      <container name="Recalling also" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also </span>all previous Human Rights Council resolutions on the human rights of migrants, including resolutions 53/24 of 21 July 2023, all General Assembly resolutions on the protection of migrants, the most recent of which is resolution 78/217 of 19 December 2023, as well as Assembly resolution 78/180 of 19 December 2023,</p>
+      </container>
+      <container name="Recalling further" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling further</span> the Global Compact for Safe, Orderly and Regular Migration, endorsed by the General Assembly in its resolution 73/195 of 19 December 2018, and the Progress Declaration of the International Migration Review Forum, adopted at the first International Migration Review Forum, held in New York from 17 to 20 May 2022 and endorsed by the Assembly in its resolution 76/266 of 7 June 2022,</p>
+      </container>
+      <container name="Recognizing" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing</span> that migration has been and will continue to be part of the human experience through history, and underscoring that all migrants, regardless of their migration status, are human rights holders, and reaffirming the need to protect their safety and dignity, and to respect, protect and fulfil their human rights and fundamental freedoms, in all situations and during all stages of migration,</p>
+      </container>
+      <container name="Expressing concern" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">		Expressing concern</span> at the spread of dehumanizing and harmful narratives, disinformation and misinformation and hate speech about migrants and migration, including online, which provokes xenophobia, racism, multiple and intersecting forms of discrimination, including discrimination based on religion or belief, exclusion, violence, hostility towards migrants and their families, social divisions and discord, and results in disproportionate sanctions for irregular migration, including unjust criminalization, and on the adoption of policies that may impede the access of migrants to basic services, protection and justice, hindering their full enjoyment of human rights,</p>
+      </container>
+      <container name="Expressing concern also" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Expressing concern also </span>at the instrumentalization of migrants for political or other purposes, amplified by some media outlets, scapegoating migrants and seeking to distract and divide,</p>
+      </container>
+      <container name="Emphasizing" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Emphasizing</span> the role of States in promoting access to diverse and reliable information to counter disinformation and misinformation about migrants and migration, including by increasing their own transparency, and stressing that responses to the spread of disinformation and misinformation must comply with international human rights law,</p>
+      </container>
+      <container name="Recognizing" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Recognizing </span>the positive role and contributions of migrants for inclusive growth and sustainable and development, including by enriching societies through human, socioeconomic, technological, cultural and civic capacities, and the importance of disseminating and highlighting those contributions, while emphasizing the need to protect the human rights of migrants, regardless of their migration status, to promote inclusion and leave no one behind,</p>
+      </container>
+      <container name="Expressing serious concern" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Expressing serious concern</span> at the particular vulnerable situations and risks faced by migrants, especially women and girls, and unaccompanied and separated migrant children, which can arise from the reasons for leaving their country of origin, circumstances encountered by migrants during all stages of migration, discrimination relating to the specific aspects of a person’s identity or circumstances, or a combination of these factors,</p>
+      </container>
+      <container name="Expressing concern" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Expressing concern</span> at the loss of life, disappearances, exploitation, torture, sexual and gender-based violence and all other forms of violence, including violence based on religion or belief and violence based on race, and other violations and abuses of human rights suffered by migrants undertaking perilous journeys,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Deeply concerned</span> about the large and growing number of migrants, especially women and children, including children who are unaccompanied or are separated from their parents or legal caregiver, who have lost their lives, have been injured or have gone missing in their attempt to cross international borders,</p>
+      </container>
+      <container name="Recognizing" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Recognizing </span>that States are responsible for promoting, protecting and respecting the human rights of all persons, including all migrants, regardless of their migration status, who are in their territory and subject to their jurisdiction, and reaffirming the commitment to take action to avoid the loss of life of migrants, including by promoting and enhancing search and rescue operations in dangerous border regions, enhancing, establishing, expanding and diversifying the availability and flexibility of pathways for safe, orderly and regular migration and preventing violations of human rights resulting from pushback practices, in particular refoulement and collective expulsions,</p>
+      </container>
+      <container name="Acknowledging" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> that lack of adequate documentation, such as passports, national identity cards, education, professional or health documents, create barriers to access to pathways for safe and regular migration, which increase vulnerabilities and can lead to the use of dangerous routes, increasing the risks of exploitation and trafficking,</p>
+      </container>
+      <container name="Reaffirming" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> the sovereign right of States to determine their national migration policy and their prerogative to govern migration within their jurisdiction, in conformity with their obligations under international law, including international human rights law,</p>
+      </container>
+      <container name="Recognizing" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>the shared and respective responsibilities of countries of origin, transit and destination in promoting, protecting and respecting the human rights of all migrants during all stages of migration, regardless of their migration status, emphasizing the importance of fostering cooperation, information exchange and coordination between countries of origin, transit and destination for this purpose, and urging all States to avoid approaches that might aggravate vulnerable situations and that may further marginalize migrants, including dehumanizing and harmful narratives that present migrants as a threat or solely in terms of the perceived benefits that they bring,</p>
+      </container>
+      <container name="Affirming" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">		Affirming</span> that the smuggling of migrants and crimes against migrants, including those involving trafficking in persons, child labour and forced labour, continue to pose a serious challenge and require a concerted international assessment and a human rights-based response, and strengthened multilateral cooperation among countries of origin, transit and destination for their eradication, to prevent, investigate, prosecute and penalize the smuggling of migrants and to prevent, combat and eradicate trafficking, and to identify, protect and provide assistance to victims of trafficking in persons,</p>
+      </container>
+      <container name="Recognizing" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>that the return of migrants, whether voluntary or otherwise, must be consistent with States’ obligations under international law, including human rights law, the best interests of the child, the principle of non‑refoulement and their obligations relating to respect for due process and the prohibition of collective expulsion,</p>
+      </container>
+      <container name="Recognizing also" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing also</span> the need to ensure that returned migrants are duly received and readmitted, in accordance with States’ obligation not to arbitrarily deprive their nationals of the right to enter their own country and the obligation of States to readmit their own nationals,</p>
+      </container>
+      <container name="Recalling" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>the work undertaken by the Office of the United Nations High Commissioner for Human Rights for the promotion and protection of the human rights of all migrants, and the work of the International Organization for Migration, and noting the Recommended Principles and Guidelines on Human Rights at International Borders, the #StandUp4Migrants campaign and toolbox of the Office of the High Commissioner, its recommended principles and guidelines on human rights at international borders,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	https://www.ohchr.org/en/documents/tools-and-resources/recommended-principles-and-guidelines-human-rights-international.</p></authorialNote> supported by practical guidance on the human rights protection of migrants in vulnerable situations, and the organization of the intersessional panel discussion on avenues to prevent and address violations and abuses of the human rights of migrants in transit and to ensure access to justice for victims and their family members,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	See A/HRC/57/32.</p></authorialNote></p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the duty of all States to effectively promote, protect and respect the human rights and fundamental freedoms of all migrants, regardless of their migration status, without discrimination of any kind, in conformity with the Universal Declaration of Human Rights and their obligations under international law, including international human rights law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Recommits</span> to ensuring full respect for the human rights and fundamental freedoms of all migrants, regardless of their migration status, and urges all States, including countries of origin, transit and destination, to prevent the creation and exacerbation of situations of vulnerability and to respond to the needs of migrants in vulnerable situations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">Condemns unequivocally</span> all violations and abuses of human rights committed against migrants, including those fuelled by negative narratives, misinformation and disinformation, and calls upon all States to ensure accountability and effective remedies in accordance with their obligations under international law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States to ensure that their migration legislation, policies and practices are consistent with international human rights law and to promote the enjoyment of human rights by all migrants without discrimination of any kind, including by reviewing migration legislation, policies and practices with a view to preventing their possible negative consequences during all stages of migration, inter alia the creation and exacerbation of vulnerabilities, which could result in death, disappearances, exploitation, trafficking in persons, torture, sexual or gender-based violence or any other form of violence, including violence based on religion or belief or violence based on race, or other violations or abuses of human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon</span> States to work with national human rights institutions, civil society organizations, migrants and their family members, and other relevant stakeholders to understand, prevent, promptly and thoroughly investigate and address violations and abuses of human rights against migrants during all stages of migration caused or exacerbated by the lack or inadequate implementation of preventive measures to protect human rights, or by migration policies and practices lacking a human rights-based approach;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> States to establish and strengthen comprehensive legal frameworks that safeguard the human rights of migrants, including measures to prevent pushbacks and collective expulsions, and to provide access to fair and efficient asylum procedures and to other forms of regular stay for migrants in vulnerable situations, in line with international law obligations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> States to adopt gender-, disability- and age-responsive approaches for the prevention of or effective responses to human rights violations and abuses against migrants, including migrants in transit, addressing the specific needs of women and girls and persons in situations of vulnerability, especially persons with disabilities, children and older persons, including for their protection from all forms of violence, exploitation and abuse;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve"> 	<span class="italic">Urges</span> States to take decisive action to put an end to all forms of discrimination against migrants, including racism, racial discrimination, xenophobia and related intolerance, in helping to prevent violations and abuses of human rights against them, and to actively engage with all relevant stakeholders in national and global efforts to counter growing dehumanizing and harmful narratives about migration and migrants, in line with international human rights law, and to shift to human rights-based and evidence-based narratives;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States to adopt and implement legislation, policies and programmes that effectively address inequality, structural and societal dynamics and multiple and intersecting forms of discrimination, that hinder the enjoyment of human rights by migrants, in line with international human rights law obligations, ensuring access to justice and remedies for victims, and to promote human-rights based and evidence-based narratives on migration;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve"> 	<span class="italic">Strongly condemns</span> acts, manifestations and expressions of racism, racial discrimination, xenophobia and related intolerance against migrants and the stereotypes applied to them, including on the basis of religion or belief, and urges States to apply and, where needed, to strengthen existing laws when hate crimes, xenophobic or intolerant acts, manifestations or expressions against migrants occur, consistent with international human rights obligations, in order to eradicate impunity for those who commit those acts, and to provide effective remedy to the victims;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> all States to refrain from conducting or sponsoring disinformation or misinformation campaigns, including those online, targeting migrants domestically or transnationally for political or other purposes, and encourages them to condemn such acts;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve"> 	<span class="italic">Urges</span> States to facilitate an environment supportive of countering disinformation and misinformation against migrants, regardless of their migration status, and engage in public awareness and education campaigns through multidimensional and multi-stakeholder responses that are evidence-based and comply with international human rights law, including through enhanced cooperation with international organizations, civil society, including migrants and migrant-led organizations, local governments, the media, the private sector and other stakeholders;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> States to develop comprehensive public policies, including a whole-of-government and whole-of-society approach, placing the rights of migrants at the centre of migration governance, promoting social cohesion and inclusion and working in collaboration with migrants, migrant-led organizations and migrant communities to collect and disseminate data on their positive contribution to sociocultural, civic and economic development and intercultural dialogue, emphasizing our shared humanity and the obligation to respect and protect human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="italic">Recommits</span> to strengthening efforts to enhance the availability and flexibility of pathways for safe, orderly and regular migration, taking into consideration the specific needs of persons in vulnerable situations, as a means of preventing human rights violations and abuses against migrants in transit and decreasing their reliance on dangerous routes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> States to adopt measures to prevent deaths, disappearances, acts of torture, sexual and gender-based violence and all other forms of violence, including violence based on religion or belief and violence based on race, excessive use of force against migrants, and refoulement, and to ensure that all human rights violations and abuses are subject to independent and transparent investigations and that perpetrators are held accountable;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	<span class="italic">Also urges</span> States to adopt effective measures to prevent, investigate and punish any form of arbitrary deprivation of liberty of migrants, including migrant children, within the territory and jurisdiction of the State;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_158__content">
+          <p xml:space="preserve">	<span class="italic">Further urges</span> States to put an end to arbitrary arrest and detention, and encourages States to pursue alternatives to detention, noting the measures that have been successfully implemented by some States, and to work towards ending the detention of migrant children;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_175" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_175__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> States to strengthen measures to protect the human rights of migrant children, especially those unaccompanied, ensuring that the best interests of the child are a primary consideration in their legislation, policies and practices, including on integration, return and family reunification;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_193" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_193__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon</span> States to protect migrants from becoming victims of national and transnational organized crime, including kidnapping<span class="underline">,</span> smuggling of migrants, trafficking in persons, child labour, contemporary forms of slavery and forced labour, inter alia by combating human trafficking and through the implementation of programmes and policies that prevent victimization and provide effective guarantees and protections, as well as access to medical, psychosocial and legal assistance, where appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_212" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_212__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> States to develop, strengthen and implement national laws and to monitor their implementation; to prevent violations and abuses of human rights against migrant workers, including cases of forced and child labour; to promote, respect and fulfil internationally recognized labour rights for all migrant workers, including freedom of association and the right to collective bargaining; to cooperate with relevant stakeholders, including employers, to build partnerships that promote conditions for decent work, prevent abuse and exploitation; and to engage actively with the International Labour Organization and relevant international organizations in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_232" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_232__content">
+          <p xml:space="preserve"> 	<span class="italic">Also encourages</span> States to provide adequate documentation to enable access to pathways for safe and regular migration as a measure to preserve human dignity, ensure access to basic rights and prevent exploitation and trafficking;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_253" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_253__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States to ensure the rapid and accurate identification and referral of migrants who may be in a situation of vulnerability at international borders, to provide assistance and relief to migrants in distress, regardless of their migration status, and to create a safe and enabling environment in which humanitarian actors that provide such assistance can operate free from hinderance and insecurity, including to the effect that domestic law and administrative provisions and their application facilitate the work of all actors providing humanitarian assistance to and defending the human rights of migrants in transit, inter alia by avoiding their criminalization and stigmatization, impediments or obstruction to them or restrictions thereon, contrary to international human rights law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_275" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_275__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon</span> States to ensure that all border governance measures, including those employing new and emerging digital technologies, comply with obligations under international human rights law and have adequate safeguards to protect the dignity and safety of migrants, to adopt concrete measures to prevent the violation of human rights and abuses against migrants while in transit, including in ports and airports, at borders and other transit areas for migration, including by strengthening mechanisms to assess individual human rights situations and referring migrants to appropriate services and protection bodies, and encouraging the establishment of monitoring mechanisms, and to adequately train public officials and others who work in those facilities and in border areas to treat migrants respectfully and in accordance with their obligations under international human rights law, and in this regard recalls the publication <span class="italic">Human Rights at International Borders: A Trainer’s Guide</span>, jointly published by the Office of the United Nations High Commissioner for Human Rights and the Office of Counter-Terrorism;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_298" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_298__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> States to strengthen cooperation, information exchange and coordination at all levels, including between countries of origin, transit and destination, and with international humanitarian organizations, civil society organizations, and migrants and their families, in order to prevent and investigate human rights violations and abuses against migrants in transit, to find and identify missing migrants and to ensure accountability for victims;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_322" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_322__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the work of the International Organization for Migration and the ongoing work of the United Nations Network on Migration on missing migrants and humanitarian assistance in line with the Progress Declaration of the International Migration Review Forum, inter alia the exchange of good practices, including through cross-border cooperation to support families and communities in preventing and responding to the death of migrants or to migrants going missing;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_347" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_347__content">
+          <p xml:space="preserve">	<span class="italic">Takes note </span>of the report of the Special Rapporteur on the human rights of migrants,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	A/HRC/56/54.</p></authorialNote> requests the Special Rapporteur to continue to report on the situation of the human rights of migrants, and encourages States and regional and international organizations to strengthen their collaboration with the Special Rapporteur in advancing the human rights of migrants;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_373" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_373__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> States to engage actively in the consultation process led by the Committee on the Elimination of Racial Discrimination and the Committee for the Protection of the Rights of All Migrant Workers and Members of Their Families in the drafting of a joint general comment/recommendation on the obligations of States parties with regard to public policies for addressing and eradicating xenophobia, and its impact on the rights of migrants, their families and other non‑citizens affected by racial discrimination;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_400" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_400__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the recommendations made by the Special Rapporteur on the situation of human rights defenders in her report to the General Assembly;<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	A/79/123.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_428" class="SingleTxtG">
+        <num>29.</num>
+        <list eId="para_428_list">
+          <intro eId="para_428_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests</span> the Office of the High Commissioner:</p>
+          </intro>
+          <point eId="para_428_list_point_a">
+            <num>(a)</num>
+            <content eId="para_428_list_point_a_content">
+              <p xml:space="preserve">	To maintain its active engagement with the United Nations Network on Migration as a member of its Executive Committee, including by involving all relevant human rights bodies and special procedures, to ensure efficiency in mainstreaming human rights in migration governance;</p>
+            </content>
+          </point>
+          <point eId="para_428_list_point_b">
+            <num>(b)</num>
+            <content eId="para_428_list_point_b_content">
+              <p xml:space="preserve">	To continue its work on promoting and protecting the human rights of all migrants, during all stages of migration, including by addressing dehumanizing and harmful narratives about migrants and migration, by providing, inter alia, technical assistance and capacity-building, increasing outreach and awareness-raising, and sharing best practices with States, relevant stakeholders and civil society;</p>
+            </content>
+          </point>
+          <point eId="para_428_list_point_c">
+            <num>(c)</num>
+            <content eId="para_428_list_point_c_content">
+              <p xml:space="preserve"> 	To prepare a study on human rights monitoring in the context of migration, including at international borders, presenting good and promising practices on how to integrate monitoring into migration governance, in consultation with States and other relevant stakeholders, including regional organizations, civil society organizations and national human rights institutions migrants and migrant-led organizations, and to submit the study to the Human Rights Council before its sixtieth session;</p>
+            </content>
+          </point>
+          <point eId="para_428_list_point_d">
+            <num>(d)</num>
+            <content eId="para_428_list_point_d_content">
+              <p xml:space="preserve">	To convene a one-day intersessional panel discussion, accessible to persons with disabilities, and with appropriate gender representation, on measures to prevent, counter and address dehumanizing and harmful narratives about migrants and migration, hate speech, xenophobia and related forms of intolerance against migrants, and on avenues to strengthen national, regional and international monitoring and complaint mechanisms to report cases of human rights violations, discrimination and abuse against migrants at international borders, aiming to ensure access to justice, highlighting best practices and challenges in this regard, to ensure the meaningful participation of migrants and their family members, to prepare a summary report on the panel discussion and the recommendations resulting from it, and to submit the report to the Human Rights Council at its sixty-second session and to the General Assembly at its eighty-first session;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_457" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_457__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="47th" refersTo="#adoptionMeeting">47th meeting</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 October 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
