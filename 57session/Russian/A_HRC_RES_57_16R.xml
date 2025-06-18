@@ -1,0 +1,230 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-16/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-16/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-16/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-16/rus@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-16/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-16/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="ACCESSIBILITY" href="http://metadata.un.org/thesaurus/1000020" showAs="ACCESSIBILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CAPACITY BUILDING" href="http://metadata.un.org/thesaurus/1000797" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNOLOGY TRANSFER" href="http://metadata.un.org/thesaurus/1006431" showAs="TECHNOLOGY TRANSFER" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PERSONS WITH DISABILITIES" href="http://metadata.un.org/thesaurus/1004831" showAs="PERSONS WITH DISABILITIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-08" outcome="draftResolution" as="A/HRC/57/L.33" by="Antigua and Barbuda, Bolivia (Plurinational State of), Cameroon, China, Honduras, Namibia, Pakistan, Russian Federation, Türkiye and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 47th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/16</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Пятьдесят седьмая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 сентября</date>
+          <date date="2024-10-11" refersTo="#endDate">11 октября 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека,  гражданских, политических, экономических,  социальных и культурных прав,  включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 10 октября 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/16.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Содействие обеспечению доступности для полного осуществления всех прав человека всеми людьми</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">руководствуясь </span>целями и принципами Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">вновь подтверждая </span>Всеобщую декларацию прав человека, Международный пакт об экономических, социальных и культурных правах, Международный пакт о гражданских и политических правах, Конвенцию о правах инвалидов, Конвенцию о ликвидации всех форм дискриминации в отношении женщин, Конвенцию о правах ребенка, Международную конвенцию о ликвидации всех форм расовой дискриминации и все другие соответствующие международные документы по правам человека,</p>
+      </container>
+      <container name="вновь подтверждая также" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">вновь подтверждая также </span>обязательства государств-участников принимать надлежащие меры для обеспечения людям с инвалидностью доступа наравне с другими, в соответствии со статьей 9 Конвенции о правах инвалидов, принимая во внимание универсальный дизайн и разумное приспособление и признавая необходимость осуществления таких мер для людей с инвалидностью в качестве стандарта, который может принести пользу всем людям в плане полного и равного осуществления их прав человека,</p>
+      </container>
+      <container name="ссылаясь" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">ссылаясь </span>на Политическую декларацию и Мадридский международный план действий по проблемам старения 2002 года, в которых содержится призыв содействовать обеспечению доступности для всех людей без какой-либо дискриминации, включая тех, кто находится в уязвимом положении,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также </span>на Повестку дня в области устойчивого развития на период до 2030 года и содержащееся в ней обязательство «не обходить никого вниманием», которое включает в себя цели по обеспечению всеобщего доступа к безопасным, доступным и открытым для всех людей зеленым зонам и общественным местам, а также к безопасным, недорогим, доступным и устойчивым транспортным системам и по расширению доступа к информационно-коммуникационным технологиям,</p>
+      </container>
+      <container name="признавая" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">признавая </span>принятые Генеральной Ассамблеей и Советом по правам человека резолюции и решения, в которых они подчеркнули права людей с инвалидностью, пожилых людей и других лиц, находящихся в уязвимом положении, а также важность доступности для достижения устойчивого развития и обеспечения того, чтобы каждый человек без какой-либо дискриминации мог пользоваться всеми своими правами человека, гражданскими, политическими, экономическими, социальными и культурными правами, включая право на развитие,</p>
+      </container>
+      <container name="признавая также" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">признавая также </span>работу целевой группы по секретариатскому обслуживанию, обеспечению доступности для людей с инвалидностью и использованию информационной технологии и отмечая принятие ею плана работы, призванного гарантировать всеобъемлющий и инклюзивный доступ к услугам и информации для всех людей,</p>
+      </container>
+      <container name="с признательностью отмечая" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">с признательностью отмечая </span>вклад Руководящего комитета по вопросам доступности в повышение доступности помещений Организации Объединенных Наций, ее конференций и совещаний и ее информации и сообщений, а также продолжающееся осуществление Стратегии Организации Объединенных Наций по инклюзии людей с инвалидностью,</p>
+      </container>
+      <container name="подтверждая" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">подтверждая </span>важность доступности для всех людей, включая людей с инвалидностью, пожилых людей и других лиц, находящихся в уязвимом положении, для того чтобы участвовать во всех аспектах жизни и в полной мере, на равной основе и эффективно пользоваться всеми своими правами человека и основными свободами,</p>
+      </container>
+      <container name="признавая" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что физические, цифровые, социальные, экономические, правовые и политические барьеры для доступности могут препятствовать осуществлению всех прав человека, и подчеркивая необходимость устранения таких барьеров с помощью законов, политики, стандартов, профессиональной подготовки, технологий и систем ухода и поддержки и с учетом правозащитной направленности усилий по расширению прав и возможностей женщин и девочек,</p>
+      </container>
+      <container name="с признательностью отмечая" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">с признательностью отмечая </span>значительный прогресс, достигнутый государствами-членами и системой Организации Объединенных Наций в принятии мер по обеспечению доступности, признавая при этом, что необходимы дальнейшие усилия, направленные на содействие обеспечению доступности для всех людей в целях полного осуществления прав человека и основных свобод,</p>
+      </container>
+      <container name="признавая" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что новые и нарождающиеся цифровые технологии, наряду с ассистивными технологиями, обладают потенциалом для содействия усилиям по улучшению доступности и поощрению и защите прав человека и основных свобод, а также признавая важность приоритизации инноваций, инклюзивности и устойчивости для удовлетворения многочисленных и меняющихся потребностей в доступности для всех людей,</p>
+      </container>
+      <container name="признавая также" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">признавая также </span>положительную роль организаций гражданского общества в содействии обеспечению доступности и ее внедрении и подчеркивая важность проведения тесных консультаций с пользователями доступных форматов и сред и их активного привлечения,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"> 	<span class="italic">признает </span>важность содействия обеспечению доступности для полного осуществления всех прав человека для всех людей, включая людей с инвалидностью, пожилых людей и других лиц, находящихся в уязвимом положении;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает </span>государства учитывать в национальных законах, планах и стратегиях развития, городском и сельском планировании и предоставлении государственных услуг необходимость содействовать обеспечению доступности, а также принимать соответствующие меры для повышения осведомленности всего общества о необходимости создания доступных сред для всех людей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает </span>государства, систему Организации Объединенных Наций и другие соответствующие заинтересованные стороны, включая частный сектор и организации гражданского общества, поощрять и укреплять международное сотрудничество и координацию, а также поощрять и поддерживать инициативы по наращиванию потенциала, направленные на расширение обмена техническими знаниями, информацией и другими программами на региональном и международном уровнях, касающимися передовых методов осуществления мер по обеспечению доступности для всех людей, особенно в контексте новых и нарождающихся цифровых технологий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает </span>Управлению Верховного комиссара Организации Объединенных Наций по правам человека продолжать оказывать государствам по их просьбе техническую помощь и поддержку в укреплении потенциала с целью разработки и осуществления политики и программ, направленных на обеспечение доступности, продолжать делиться своим опытом с соответствующими межправительственными организациями и с учреждениями, фондами и программами Организации Объединенных Наций и оказывать соответствующим мандатариям специальных процедур и договорным органам, особенно тем, которые занимаются проблемами людей с инвалидностью, пожилых людей и других лиц, находящихся в уязвимом положении, помощь в интеграции в их работу взгляда на доступность для всех людей с точки зрения полного осуществления всех прав человека, включая текущие и будущие исследования и доклады, в тесной консультации с соответствующими заинтересованными сторонами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">постановляет </span>продолжать заниматься этим вопросом.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="47-е" refersTo="#adoptionMeeting">47‑е заседание</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 октября 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
