@@ -1,0 +1,230 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-16/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-16/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-16/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-16/fra@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-16/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-16/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="ACCESSIBILITY" href="http://metadata.un.org/thesaurus/1000020" showAs="ACCESSIBILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CAPACITY BUILDING" href="http://metadata.un.org/thesaurus/1000797" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNOLOGY TRANSFER" href="http://metadata.un.org/thesaurus/1006431" showAs="TECHNOLOGY TRANSFER" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PERSONS WITH DISABILITIES" href="http://metadata.un.org/thesaurus/1004831" showAs="PERSONS WITH DISABILITIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-08" outcome="draftResolution" as="A/HRC/57/L.33" by="Antigua and Barbuda, Bolivia (Plurinational State of), Cameroon, China, Honduras, Namibia, Pakistan, Russian Federation, Türkiye and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 47th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/16</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 octobre 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Cinquante-septième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 septembre</date>
+          <date date="2024-10-11" refersTo="#endDate">11 octobre 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme,  civils, politiques, économiques, sociaux et culturels,  y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 10 octobre 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/16.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Promouvoir l’accessibilité aux fins du plein exercice par tous  de tous les droits de l’homme</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guidé</span> par les buts et principes énoncés dans la Charte des Nations Unies,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> la Déclaration universelle des droits de l’homme, le Pacte international relatif aux droits économiques, sociaux et culturels, le Pacte international relatif aux droits civils et politiques, la Convention relative aux droits des personnes handicapées, la Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes, la Convention relative aux droits de l’enfant, la Convention internationale sur l’élimination de toutes les formes de discrimination raciale et tous les autres instruments internationaux pertinents relatifs aux droits de l’homme,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant également</span> l’obligation qui incombe aux États parties de prendre des mesures d’accessibilité appropriées pour assurer aux personnes handicapées l’accès sur la base de l’égalité avec les autres, conformément à l’article 9 de la Convention relative aux droits des personnes handicapées, en tenant compte de la conception universelle et des aménagements raisonnables, et conscient de la nécessité que la mise en œuvre de telles mesures pour les personnes handicapées soit la norme, ce qui peut leur assurer à toutes la pleine et égale jouissance de leurs droits humains,</p>
+      </container>
+      <container name="Rappelant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> la Déclaration politique et le Plan d’action international de Madrid de 2002 sur le vieillissement, qui invitent à promouvoir l’accessibilité pour tous, sans discrimination, y compris pour ceux qui sont en situation de vulnérabilité,</p>
+      </container>
+      <container name="Rappelant également" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> le Programme de développement durable à l’horizon 2030, et son engagement à « ne laisser personne de côté », qui comprend des objectifs visant à fournir un accès universel à des espaces verts et publics sûrs, inclusifs et accessibles, ainsi qu’à des systèmes de transport sûrs, abordables, accessibles et durables, et à accroître l’accès aux technologies de l’information et de la communication,</p>
+      </container>
+      <container name="Prenant acte" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Prenant acte</span> des résolutions et décisions adoptées par l’Assemblée générale et par lui-même, dans lesquelles ont été soulignés les droits des personnes handicapées, des personnes âgées et des autres personnes en situation de vulnérabilité, ainsi que l’importance de l’accessibilité pour parvenir à un développement durable et faire en sorte que chacun, sans discrimination, puisse jouir de tous les droits de l’homme, civils, politiques, économiques, sociaux et culturels, y compris le droit au développement,</p>
+      </container>
+      <container name="Prenant acte également" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Prenant acte également</span> des travaux de l’Équipe spéciale sur le service de secrétariat, l’accessibilité des personnes handicapées et l’utilisation des technologies de l’information, et notant qu’elle a adopté un plan de travail visant à garantir un accès complet et inclusif aux services et à l’information pour tous,</p>
+      </container>
+      <container name="Prenant note avec satisfaction" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Prenant note avec satisfaction</span> de ce que fait le Comité directeur pour les questions d’accessibilité pour améliorer l’accessibilité des locaux, des conférences et réunions et des informations et communications de l’Organisation des Nations Unies, et de la mise en œuvre actuelle de la Stratégie des Nations Unies pour l’inclusion du handicap,</p>
+      </container>
+      <container name="Considérant" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Considérant </span>l’importance de l’accessibilité pour que tous, y compris les personnes handicapées, les personnes âgées et les autres personnes en situation de vulnérabilité, puissent participer à tous les aspects de la vie et jouir pleinement et effectivement de tous leurs droits humains et de toutes leurs libertés fondamentales, dans des conditions d’égalité,</p>
+      </container>
+      <container name="Conscient" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Conscient </span>que les obstacles physiques, numériques, sociaux, économiques et juridiques à l’accessibilité et les obstacles liés aux politiques peuvent entraver la jouissance de tous les droits de l’homme, et soulignant la nécessité d’éliminer ces obstacles au moyen de lois, de politiques, de normes, de formations, de technologies et de systèmes de soins et de soutien, en mettant l’accent sur les droits humains et l’autonomisation des femmes et des filles,</p>
+      </container>
+      <container name="Prenant note avec satisfaction" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Prenant note avec satisfaction</span> des progrès considérables accomplis par les États Membres et par le système des Nations Unies dans l’adoption de mesures relatives à l’accessibilité, tout en reconnaissant que des efforts supplémentaires sont nécessaires pour promouvoir l’accessibilité afin que tous puissent jouir pleinement des droits de l’homme et des libertés fondamentales,</p>
+      </container>
+      <container name="Conscient" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Conscient </span>que les technologies numériques nouvelles et émergentes, ainsi que les technologies d’assistance, peuvent faciliter les efforts visant à améliorer l’accessibilité et à promouvoir et à protéger les droits de l’homme et les libertés fondamentales, et conscient également qu’il importe de donner la priorité à l’innovation, à l’inclusivité et à la durabilité pour répondre aux besoins multiples et évolutifs de l’accessibilité pour tous,</p>
+      </container>
+      <container name="Conscient également" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Conscient également</span> du rôle positif des organisations de la société civile dans la promotion et la mise en œuvre de l’accessibilité, et soulignant qu’il importe de consulter étroitement et de faire participer activement les utilisateurs de supports et d’environnements accessibles,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"> 	<span class="italic">Est conscient</span> qu’il importe de promouvoir l’accessibilité afin que tous, y compris les personnes handicapées, les personnes âgées et les autres personnes en situation de vulnérabilité, puissent jouir pleinement de l’ensemble des droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourage</span> les États à tenir compte de la promotion de l’accessibilité dans les lois, les politiques et les plans nationaux de développement, la planification urbaine et rurale et la prestation de services publics, et à prendre des mesures appropriées pour sensibiliser l’ensemble de la société à la création d’environnements accessibles à tous ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage</span> les États, le système des Nations Unies et les autres parties prenantes, y compris le secteur privé et les organisations de la société civile, à promouvoir et à renforcer la coopération et la coordination internationales, et à faciliter et à appuyer les initiatives de renforcement des capacités visant, entre autres, à favoriser l’échange de connaissances techniques, d’informations et de programmes aux niveaux régional et international concernant les bonnes pratiques en matière de mise en œuvre de mesures relatives à l’accessibilité pour tous, en particulier dans le contexte des technologies numériques nouvelles et émergentes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> 	<span class="italic">Invite</span> le Haut-Commissariat des Nations Unies aux droits de l’homme à continuer de fournir une assistance technique et un appui au renforcement des capacités aux États qui en font la demande pour l’élaboration et la mise en œuvre de politiques et de programmes sur l’accessibilité, à continuer de partager ses compétences avec les organisations intergouvernementales et les organismes, fonds et programmes des Nations Unies concernés, et à aider les titulaires de mandat au titre des procédures spéciales et les organes conventionnels concernés, en particulier ceux qui s’occupent des personnes handicapées, des personnes âgées et des autres personnes en situation de vulnérabilité, à intégrer la notion d’accessibilité pour tous, dans la perspective de la pleine jouissance de tous les droits de l’homme, dans leurs travaux, y compris les travaux de recherche et les rapports en cours et à venir, en étroite consultation avec les parties prenantes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide</span> de rester saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="47e" refersTo="#adoptionMeeting">47e séance</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 octobre 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
