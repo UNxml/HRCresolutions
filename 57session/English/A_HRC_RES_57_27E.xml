@@ -1,0 +1,636 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/eng@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Independent Expert on the Situation of Human Rights in Somalia" showAs="UN. Human Rights Council. Independent Expert on the Situation of Human Rights in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA" href="http://metadata.un.org/thesaurus/1006048" showAs="SOMALIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-04" outcome="draftResolution" as="A/HRC/57/L.15" by="Albania, Belgium, Bulgaria, Costa Rica, Czechia, Denmark, Estonia, France, Germany, Iceland, Ireland, Latvia, Luxembourg, Malta, Montenegro, Netherlands (Kingdom of the), North Macedonia, Romania, Somalia, Sweden, Türkiye, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 48th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/27</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Fifty-seventh session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 September</date>
+          <date date="2024-10-11" refersTo="#endDate">11 October 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Agenda item 10</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Technical assistance and capacity-building</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 10 October 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/27.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Assistance to Somalia in the field of human rights</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guided</span> by the Charter of the United Nations,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">		<span class="italic">Reaffirming</span> the Universal Declaration of Human Rights,</p>
+      </container>
+      <container name="Acknowledging" eId="container_4">
+        <p xml:space="preserve">		<span class="italic">Acknowledging</span> that peace and security, development and human rights are the pillars of the United Nations system,</p>
+      </container>
+      <container name="Reaffirming" eId="container_5">
+        <p xml:space="preserve">		<span class="italic">Reaffirming</span> its respect for the sovereignty, territorial integrity, political independence and unity of Somalia,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_6">
+        <p xml:space="preserve">		<span class="italic">Reaffirming also</span> its previous resolutions on Somalia,</p>
+      </container>
+      <container name="Recalling" eId="container_7">
+        <p xml:space="preserve">		<span class="italic">Recalling</span> its resolutions 5/1 and 5/2 of 18 June 2007,</p>
+      </container>
+      <container name="Recognizing" eId="container_8">
+        <p xml:space="preserve">		<span class="italic">Recognizing</span> that the primary responsibility for promoting and protecting human rights in Somalia rests with the Federal Government of Somalia, and that enhancing the legal framework, human rights protection systems and the capacity, transparency and legitimacy of institutions is essential to help to combat impunity and to improve accountability for human rights violations and abuses and to encourage reconciliation,</p>
+      </container>
+      <container name="Recognizing also" eId="container_9">
+        <p xml:space="preserve">		<span class="italic">Recognizing also</span> the need for the Federal Government of Somalia and its security institutions to uphold their international human rights commitments and obligations and to address abuse and the excessive use of force against civilians,</p>
+      </container>
+      <container name="Recognizing further" eId="container_10">
+        <p xml:space="preserve">		<span class="italic">Recognizing further</span> the importance and effectiveness of international assistance to Somalia and the continued need to step up the scale, coordination, coherence and quality of all capacity development and technical assistance to Somalia in the field of human rights at the national and federal member state levels, and acknowledging the Mutual Accountability Framework, which is aimed at accelerating reforms regarding human rights, as well as reforms regarding security, economic and political institutions and elections,</p>
+      </container>
+      <container name="Underscoring" eId="container_11">
+        <p xml:space="preserve">		<span class="italic">Underscoring</span> the importance of cooperation and consensus for making further progress on key national priorities, including the implementation of the national security architecture, the constitutional review, power- and resource-sharing in the federal order, including fiscal federalism, and reaching an agreement on a federated justice system, all of which require political agreements that can form the basis for legislation in the federal Parliament,</p>
+      </container>
+      <container name="Recognizing" eId="container_12">
+        <p xml:space="preserve">		<span class="italic">Recognizing</span> the sustained and vital commitment of the African Union Mission in Somalia, followed by the African Union Transition Mission in Somalia, and the loss and sacrifice of personnel killed in action since these operations began, in maintaining support for peace and security in Somalia,</p>
+      </container>
+      <container name="Recognizing also" eId="container_13">
+        <p xml:space="preserve">		<span class="italic">Recognizing also</span> the role that women have played and will continue to play in community mobilization and peacebuilding in Somali society, the need to take special measures to end sexual and gender-based violence, including conflict-related sexual violence, female genital mutilation, child, early and force marriage, and all other forms of unlawful violence in situations of armed conflict, to end impunity and, consistent with international law, to prosecute those responsible for sexual and gender-based violence against women and girls, and the importance of promoting their economic empowerment and full, equal and meaningful participation in political and public decision-making processes, including within Parliament and at all levels of government, in line with Security Council resolution 1325 (2000) of 31 October 2000 on women and peace and security,</p>
+      </container>
+      <container name="Recognizing further" eId="container_14">
+        <p xml:space="preserve">		<span class="italic">Recognizing further</span> the increased commitment of the Federal Government of Somalia and federal member states to strengthening the promotion and protection of human rights through their respective ministries, while urging increased advocacy for and implementation of human rights commitments in Somalia and engagement with the international human rights system,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxtG">
+        <num>1.</num>
+        <list eId="para_15_list">
+          <intro eId="para_15_list_intro">
+            <p xml:space="preserve">	<span class="italic">Welcomes</span> the commitment of the Federal Government of Somalia to improving the situation of human rights in Somalia, and in that regard also welcomes:</p>
+          </intro>
+          <point eId="para_15_list_point_a">
+            <num>(a)</num>
+            <content eId="para_15_list_point_a_content">
+              <p xml:space="preserve">	The Somalia security sector development plan, which should support the emergence of effective Somali security institutions and the progressive handover of responsibility from the African Union Transition Mission in Somalia to increased Somali ownership, while expressing appreciation, in particular, that this approach is underpinned by a focus on the rule of law, reconciliation, justice, respect for human rights and the protection of women and children, and girls in particular;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_b">
+            <num>(b)</num>
+            <content eId="para_15_list_point_b_content">
+              <p xml:space="preserve">	The launch of the National Disability Agency’s five-year strategy and action plan in December 2023 and the commitment of the Federal Government to entrenching the rights of persons with disabilities in social, educational, political and economic life through the passing of the disability rights bill, in August 2024, and other legislative mechanisms and through improving the collection of data on persons with disabilities;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_c">
+            <num>(c)</num>
+            <content eId="para_15_list_point_c_content">
+              <p xml:space="preserve"> 	The launch by the Federal Government in September 2022 of a national action plan for the implementation of the Somali Women’s Charter and Security Council resolution 1325 (2000) and subsequent Council resolutions on the women and peace and security agenda, which entrenches an unconditional commitment to gender equality, human rights and the empowerment of women, zero tolerance for sexual and gender-based violence, justice for all, women’s economic empowerment, reconciliation and peace for women at the centre of transitional justice, and the launch of the Somalia chapter of the African Women Leaders Network, which supports the implementation of the above-mentioned national action plan;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_d">
+            <num>(d)</num>
+            <content eId="para_15_list_point_d_content">
+              <p xml:space="preserve"> 	The retention of provisions to protect human rights in chapter 2 of the provisional constitution as part of the constitutional review process, and encourages the Federal Government to ensure that the agreements made by the National Consultative Council are subject to broad consultations with technical experts, members of civil society, including women, persons with disabilities and members of minority clans, and to ensure that they are genuinely representative, that they follow due process through Parliament to enshrine these agreements and that full consideration is given to the long-term affordability of the model proposed;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_e">
+            <num>(e)</num>
+            <content eId="para_15_list_point_e_content">
+              <p xml:space="preserve"> 	The efforts of the Ministry of Women and Human Rights (now the Ministry of Family and Human Rights Development) to draft key human rights legislation, including sexual offences legislation and the child rights bill, and encourages the Government to ensure that said legislation is subject to broad consultation with civil society, including women, persons with disabilities and members of minority clans, to ensure that it is genuinely representative and compliant with international human rights law, as applicable, and follows due process through Parliament;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_f">
+            <num>(f)</num>
+            <content eId="para_15_list_point_f_content">
+              <p xml:space="preserve">	The cooperation of Somalia with the Human Rights Committee and the presentation of its initial report under article 40 of the Covenant,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		CCPR/C/SOM/1.</p></authorialNote> covering the period 2012–2020, and the spirit of transparency and cooperation in which the delegation of Somalia engaged with the Committee in the consideration of that report during its 140th session;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_g">
+            <num>(g)</num>
+            <content eId="para_15_list_point_g_content">
+              <p xml:space="preserve"> 	The launch of the national reconciliation framework by the Prime Minister on 30 April 2024 in Mogadishu, which represents a pivotal milestone in the pursuit of peace, unity and progress by Somalia and acts as a guiding structure for the country’s reconciliation efforts, symbolizing hope and unity while laying the groundwork for a future defined by peace, prosperity and inclusivity;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_h">
+            <num>(h)</num>
+            <content eId="para_15_list_point_h_content">
+              <p xml:space="preserve"> 	The continued implementation of the national durable solutions strategy for 2020–2024, fostering a supportive environment for internally displaced persons, refugees, asylum-seekers, returnees and vulnerable communities to access equitable solutions, and notes that the Ministry of Planning, Investment and Economic Development, through its Durable Solutions Unit, in collaboration with federal member states and international partners, has launched an action plan to ensure that 1 million internally displaced persons can access sustainable, long-term solutions;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_i">
+            <num>(i)</num>
+            <content eId="para_15_list_point_i_content">
+              <p xml:space="preserve">	The development of the country’s first national digital inclusion policy, focusing on those in vulnerable and marginalized situations, who may include women and girls, youth, rural communities, the urban poor, older persons, persons with disabilities, internally displaced persons and refugees, as well as businesses, which mandates equitable access to information and communications technology initiatives, aiming for participation rates that meet or exceed national averages, and calls for legal and institutional changes to support full digital inclusion by 2033, proposing new legislation to integrate these groups into the digital economy;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_j">
+            <num>(j)</num>
+            <content eId="para_15_list_point_j_content">
+              <p xml:space="preserve"> 	The launch of the National Action Plan for Children in Somalia on 17 September 2024, which marks a pivotal step in the dedication of Somalia to advancing the welfare and rights of its youngest residents and details strategic initiatives focused on improving child protection, education, health and overall well-being;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_k">
+            <num>(k)</num>
+            <content eId="para_15_list_point_k_content">
+              <p xml:space="preserve"> 	The drafting by the Ministry of Family and Human Rights Development of a comprehensive national mechanism for a reporting and follow-up policy that will establish a robust framework to ensure greater transparency, accountability and efficiency in addressing human rights issues and is designed to facilitate better coordination among various governmental and non‑governmental entities, thereby strengthening the overall human rights infrastructure;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the active engagement of the Federal Government of Somalia with the universal periodic review mechanism in May 2021, in this regard also recalls its acceptance of many recommendations made during the review,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		See A/HRC/48/11.</p></authorialNote> encourages the Government to implement them as a matter of priority, and welcomes its commitment to completing a midterm review of the implementation of recommendations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Expresses concern</span> at the reports of violations and abuses of international human rights law and violations of international humanitarian law in Somalia, emphasizes that all armed actors should uphold respect for international humanitarian law and human rights for all and hold accountable all those responsible for such violations and abuses and related crimes, including those committed against women and children, and girls in particular, such as the unlawful recruitment and use of child soldiers and children in armed conflict, killing, maiming, rape and other forms of sexual and gender-based violence, including child, early and forced marriage and all forms of female genital mutilation and harmful practices, and emphasizes the importance of children formerly associated with armed groups being recognized as victims;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> the Federal Government of Somalia, with the support of international donors and organizations, to strengthen reintegration programmes for children formerly associated with armed groups, ensuring that they are treated primarily as victims of offences under international law and not only as perpetrators, and notes that these programmes should provide psychosocial support, education and vocational training to facilitate the successful reintegration of child soldiers into society and that a national monitoring system should be established to track and prevent the unlawful recruitment and use of children associated with armed forces and armed groups;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Expresses concern</span> that internally displaced persons, including those who may be in vulnerable situations, who may include women, children, young persons, persons with disabilities and persons belonging to minority and marginalized groups, are the most at risk of violence, abuse and violations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">Expresses deep concern</span> at the increasing risk of civilian protection issues resulting from continued counter-al-Shabaab operations, and notes that all actors engaged in conflict have a responsibility to uphold their respective obligations under international human rights law and international humanitarian law, as applicable;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Expresses concern </span>at any attack against, illegal restrictions imposed on or harassment of human rights defenders, civil society actors and opposition political actors, including journalists and media workers, especially in the form of harassment, arbitrary arrest or prolonged detention, emphasizes the need to promote respect for the right to freedom of expression and opinion and to end impunity, holding accountable those who commit any such related crimes, stresses the importance of the political neutrality of the police, and in addition encourages the Somaliland authorities to respect the right to freedom of expression and of peaceful assembly in line with international human rights law and to reconsider implementing the draft media law and 2018 sexual offences bill;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve"> 	<span class="italic">Also expresses concern</span> at the situation in Laascaanood and surrounding areas where, following violent conflict in 2023, there are still combatants detained on both sides, notes that the risk of a rise in tensions could result in increased human rights violations and abuses and further forced displacement, calls upon all parties to the conflict to exercise restraint and to refrain from provocative actions in order to de-escalate the situation on the ground and create the conditions for peace, and also calls upon all parties to the conflict to uphold their respective obligations under international human rights law and humanitarian law, as applicable, including those relating to the treatment of detainees, the protection of civilians and civilian infrastructure, and humanitarian access;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Further expresses concern </span>that those belonging to minority clans and marginalized groups, including women and girls, continue to be at the periphery of economic and political opportunities and decision-making in Somalia, and encourages the Federal Government of Somalia and its institutions to increase efforts to widen opportunities for their participation in public affairs, recognizing that women and girls belonging to minority groups continue to be more vulnerable to sexual and gender-based violence owing to poverty, marginalization and discriminatory attitudes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">Expresses concern</span> at the signing into law in August 2020 of the amended 2016 media law and provisions of the 1964 Penal Code that do not comply with international human rights law, such as those providing for imprisonment as a punishment for media-related offences, and encourages the Federal Government of Somalia to consider repealing such provisions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve"> 	<span class="italic">Also expresses concern</span> at the arrest and imprisonment of several individuals for practising their religious beliefs, and calls for freedom of religion or belief to be respected;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">Further expresses concern</span> about the large number of instances of the six types of grave violations committed against children in armed conflict as identified by the Secretary-General and documented in his annual report,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/78/842-S/2024/384.</p></authorialNote> in addition to further alleged violations against children in Puntland, and demands that all parties to the conflict take appropriate measures to comply with applicable international humanitarian law and international human rights law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">Expresses concern</span> that the exposure and sensitivity of Somalia to ongoing global crises, including those relating to climate change and environmental degradation, are vast and structural, and that this vulnerability is a driver of fragility, conflict and humanitarian need, including hunger, which is reflected in the grave humanitarian crisis in Somalia and the wider region;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> the Federal Government of Somalia, with the support of international donors and specialized United Nations agencies, to develop and implement climate change resilience programmes to mitigate the human rights and overall impact of climate change and environmental degradation on vulnerable populations, which should be focused on enhancing infrastructure in drought-prone regions, creating early warning systems and building sustainable agricultural practices, and underscores that the participation of Somalia in international climate change adaptation and mitigation initiatives should be strengthened to protect against future environmental risks;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the efforts of those States hosting Somali refugees, urges all host States to meet their obligations under international law relating to refugees, and urges the international community to continue to provide financial support to enable host States to meet the humanitarian needs of Somali refugees in the region, to support the reintegration of those returning to Somalia when conditions are suitable and to support internally displaced persons in Somalia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> the efforts of Somalia, despite its own struggles, to accept and not turn its back on refugees from other countries in the region, in addition to the recent signing of the refugee and asylum-seekers bill, which outlines the rights of refugees and asylum-seekers in Somalia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="SingleTxtG">
+        <num>17.</num>
+        <list eId="para_151_list">
+          <intro eId="para_151_list_intro">
+            <p xml:space="preserve">	<span class="italic">Calls upon</span> the Federal Government of Somalia, federal member states and key political stakeholders, with the support of the international community:</p>
+          </intro>
+          <point eId="para_151_list_point_a">
+            <num>(a)</num>
+            <content eId="para_151_list_point_a_content">
+              <p xml:space="preserve">	To finalize a new constitution through inclusive and regular high-level dialogue at all levels, including the full, equal and meaningful participation of women and members of minorities, with a view to reaching political agreement among the Federal Government, all federal member states and the federal Parliament;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_b">
+            <num>(b)</num>
+            <content eId="para_151_list_point_b_content">
+              <p xml:space="preserve">	To expedite the establishment of a national human rights commission consistent with the principles relating to the status of national institutions for the promotion and protection of human rights (the Paris Principles), as mandated by law in 2016, providing it with adequate resources to monitor and ensure accountability for violations and abuses, including a recruitment process that provides equal opportunities for the representation of women, persons belonging to marginalized groups and persons with disabilities;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_c">
+            <num>(c)</num>
+            <content eId="para_151_list_point_c_content">
+              <p xml:space="preserve">	To hold, in a transparent manner, timely, free and fair, one-person, one-vote elections at the federal member state and district levels at a time when such elections can be held;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_d">
+            <num>(d)</num>
+            <content eId="para_151_list_point_d_content">
+              <p xml:space="preserve">	To continue their cooperation with the Special Representative of the Secretary-General for Somalia and Head of the United Nations Assistance Mission in Somalia;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_e">
+            <num>(e)</num>
+            <content eId="para_151_list_point_e_content">
+              <p xml:space="preserve"> 	To engage closely with the Independent Expert on the situation of human rights in Somalia and to facilitate her visits to Somalia so that she may conduct her mandated work;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_f">
+            <num>(f)</num>
+            <content eId="para_151_list_point_f_content">
+              <p xml:space="preserve">	To encourage an inclusive and accessible approach to political participation at the Federal Government and federal member state levels by ensuring full, equal and meaningful opportunities for women, internally displaced persons, persons with disabilities and persons belonging to minority and marginalized groups, and agreement on a future electoral model that encourages inclusivity at all stages;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_g">
+            <num>(g)</num>
+            <content eId="para_151_list_point_g_content">
+              <p xml:space="preserve">	To realize their commitments to security sector reform, including by ensuring the active and meaningful participation of women in the implementation of the national security architecture, to ensure that Somali security forces and institutions comply with applicable national and international law, together with international human rights law, including on the protection of individuals from, inter alia, sexual and gender-based violence and on the prevention of extrajudicial killings, and to the strengthening of internal and external accountability of all relevant security forces and institutions;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_h">
+            <num>(h)</num>
+            <content eId="para_151_list_point_h_content">
+              <p xml:space="preserve"> 	To ensure, for continued international security sector support, that all security operations adhere to their relevant obligations under international humanitarian law and prioritize the protection of civilians, noting that security sector reform efforts should include specialized training for Somali security forces to prevent extrajudicial killings, ensure civilian oversight and build trust with local communities;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_i">
+            <num>(i)</num>
+            <content eId="para_151_list_point_i_content">
+              <p xml:space="preserve">	To strengthen the legal and operational framework for the protection of children in Somalia, including by swiftly implementing the Child Rights Act, to consider becoming a party to the optional protocols to the Convention on the Rights of the Child and the African Charter on the Rights and Welfare of the Child, to prevent the unlawful recruitment and use of children in armed forces of all types, to work with specialized organizations, such as the United Nations Children’s Fund, to ensure that children formerly associated with armed forces and armed groups, including those who may have committed crimes, are primarily treated as victims and also to ensure their full reintegration through family- and community-based gender-sensitive reintegration programmes and access to healthcare, including mental health and psychosocial support, and education programmes, in accordance with the Principles and Guidelines on Children Associated with Armed Forces or Armed Groups, which have been endorsed by the Federal Government, and to identify those responsible for such violations and abuses and hold them accountable;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_j">
+            <num>(j)</num>
+            <content eId="para_151_list_point_j_content">
+              <p xml:space="preserve">	To implement the Safe Schools Declaration, which the Federal Government endorsed in October 2015, to ensure that education facilities, students and education personnel are protected;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_k">
+            <num>(k)</num>
+            <content eId="para_151_list_point_k_content">
+              <p xml:space="preserve"> 	To accelerate the adoption and full implementation of the recommendations and activities envisaged under the national action plan on women and peace and security in an incremental and consultative process, in close collaboration with civil society, to thereby strengthen women’s participation in peacebuilding and socioeconomic progress in stabilization and rebuilding efforts for Somalia, in line with the Somali Women’s Charter, Security Council resolution 1325 (2000) and subsequent Council resolutions on that issue;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_l">
+            <num>(l)</num>
+            <content eId="para_151_list_point_l_content">
+              <p xml:space="preserve"> 	To ensure that all legislation is compatible with international legal obligations, noting Security Council resolution 2664 (2022) of 9 December 2022, according to which the provision, processing or payment of funds, other financial assets or economic resources or the provision of goods and services necessary to ensure the timely delivery of humanitarian assistance or to support other activities that support basic human needs by the United Nations and certain organizations are permitted and are not a violation of the asset freezes imposed by the Council or its sanctions committees, as a model of best practices for relevant domestic legislation, including in Somalia, and to amend where appropriate existing legislation in the spirit of resolution 2664 (2022);</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_m">
+            <num>(m)</num>
+            <content eId="para_151_list_point_m_content">
+              <p xml:space="preserve">	To review the amended media law signed in August 2020 in order to enable the media to report independently without fear of retribution in Somalia and to ensure its compliance with international human rights law, and to accelerate the work of the special prosecutor for investigating crimes against journalists;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_n">
+            <num>(n)</num>
+            <content eId="para_151_list_point_n_content">
+              <p xml:space="preserve">	To realize their commitments to ending the prevailing culture of impunity, to hold accountable those who commit human rights violations and abuses by ensuring prompt, thorough and effective investigations and by committing resources to reforming and developing the justice sector in a manner consistent with international human rights law, to increase the representation of women in the judiciary and to improve access to justice for women and children;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_o">
+            <num>(o)</num>
+            <content eId="para_151_list_point_o_content">
+              <p xml:space="preserve">	To support the Ministry of Family and Human Rights Development in facilitating the smooth passage of the sexual offences bill through Cabinet and Parliament, and to ensure that any bill passed into law reflects applicable international obligations and commitments on the protection of all women and children, and girls in particular, and to implement it and other laws as necessary to combat sexual and gender-based violence, including child, early and forced marriage and all forms of female genital mutilation, while ensuring that those responsible for sexual and gender-based violence, exploitation and abuse are held to account, regardless of their status or rank;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_p">
+            <num>(p)</num>
+            <content eId="para_151_list_point_p_content">
+              <p xml:space="preserve">	To continue to acknowledge the importance of inclusive dialogue and local reconciliation processes for stability in Somalia, including in the context of the national reconciliation framework and process, and calls upon the Federal Government and federal member states to increase leadership and engagement in de-escalating tensions and engage in constructive dialogue;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_q">
+            <num>(q)</num>
+            <content eId="para_151_list_point_q_content">
+              <p xml:space="preserve">	To increase the support and resources allocated to the ministries and institutions responsible for the administration of justice and the protection of human rights, in particular the Ministry of Family and Human Rights Development at the federal and state levels, and calls upon donor partners to intensify their efforts in supporting the priorities identified by the Ministry of Family and Human Rights Development, which are essential for achieving effective and results-based goals that align with the transition objectives highlighted in the present resolution;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_r">
+            <num>(r)</num>
+            <content eId="para_151_list_point_r_content">
+              <p xml:space="preserve">	To consider acceding to and ratifying the Convention on the Elimination of All Forms of Discrimination against Women and the Convention on the Prevention and Punishment of the Crime of Genocide;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_s">
+            <num>(s)</num>
+            <content eId="para_151_list_point_s_content">
+              <p xml:space="preserve">	To realize the commitment made at the Global Disability Summit held on 16 and 17 February 2022, in particular by supporting the National Disability Agency in its work, in accordance with the Convention on the Rights of Persons with Disabilities and in consultation with organizations of persons with disabilities;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_t">
+            <num>(t)</num>
+            <content eId="para_151_list_point_t_content">
+              <p xml:space="preserve">	To harmonize national and federal member state-level political policies and legal frameworks with applicable human rights obligations and other commitments;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_u">
+            <num>(u)</num>
+            <content eId="para_151_list_point_u_content">
+              <p xml:space="preserve">	To treat former combatants in accordance with applicable obligations under national and international law, in particular international human rights law and international humanitarian law;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_v">
+            <num>(v)</num>
+            <content eId="para_151_list_point_v_content">
+              <p xml:space="preserve">	To implement the Nairobi Declaration on Durable Solutions for Somali Refugees and the Reintegration of Returnees in Somalia, adopted on 25 March 2017;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_w">
+            <num>(w)</num>
+            <content eId="para_151_list_point_w_content">
+              <p xml:space="preserve">	To promote the well-being and protection of all internally displaced persons, including from sexual and gender-based violence and exploitation and abuse committed by State or international military or civilian personnel, and from forced evictions, to facilitate the voluntary reintegration or return of all internally displaced persons, including the most vulnerable, in safety and with dignity, to ensure a fully consultative process and best practices for relocations, and to provide sites that afford safe access to essential food and potable water, basic shelter and housing, appropriate clothing and essential medical services and sanitation;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_x">
+            <num>(x)</num>
+            <content eId="para_151_list_point_x_content">
+              <p xml:space="preserve">	To ensure safe, timely, sustained and unhindered access for humanitarian organizations, to recognize the acute vulnerability of internally displaced persons, to facilitate safe, timely, sustained and unhindered humanitarian access to people in need, wherever they are located in Somalia, and to safeguard the neutrality, impartiality and independence of humanitarian actors from political, economic and military interference, while remaining sensitive to the needs of persons belonging to ethnic minority groups requiring humanitarian assistance;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_y">
+            <num>(y)</num>
+            <content eId="para_151_list_point_y_content">
+              <p xml:space="preserve">	To regard primarily as victims those children who have been released or otherwise separated from armed forces and armed groups, in accordance with the Principles and Guidelines on Children Associated with Armed Forces or Armed Groups, which have been endorsed by the Federal Government, to cease detaining children on national security charges whenever doing so would be in violation of applicable international law, and to pass the juvenile justice bill in order to codify a minimum age of criminal responsibility in Somalia;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_168" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_168__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> the importance of the realization by the African Union Transition Mission in Somalia of its mandate throughout Somalia and the need to strengthen synergy with the work of the Office of the United Nations High Commissioner for Human Rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_186" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_186__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the engagement of the Independent Expert on the situation of human rights in Somalia, and the facilitation by the Federal Government of Somalia of her visit in May 2024;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_205" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_205__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to renew the mandate of Independent Expert on the situation of human rights in Somalia, under agenda item 10, for a period of one year, to assess, monitor and report on the situation of human rights in Somalia, with a view to making recommendations on technical assistance and capacity-building in the field of human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_225" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_225__content">
+          <p xml:space="preserve"> 	<span class="italic">Stresses</span> the important role of joint monitoring and reporting on the situation of human rights in Somalia by national and international experts and the Federal Government of Somalia, and the vital role that those monitoring human rights can play in evaluating and ensuring the success of technical assistance projects, which in turn must be for the benefit of all Somalis;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_246" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_246__content">
+          <p xml:space="preserve"> 	<span class="italic">Acknowledges</span> the call by the Federal Government of Somalia to develop a transition process with partners to facilitate the implementation of the national and international human rights obligations and commitments of Somalia, including the human rights benchmarks developed by the Independent Expert, recommendations accepted as part of the universal periodic review process and other human rights commitments outlined in the present resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_268" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_268__content">
+          <p xml:space="preserve"> 	<span class="italic">Underscores </span>that the renewal of the mandate of the Independent Expert forms part of the transition process towards greater engagement by the Federal Government of Somalia with the Office of the High Commissioner, the other special procedures of the Human Rights Council and other human rights mechanisms, with a view to identifying areas for capacity-building and technical assistance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_291" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_291__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> the Federal Government of Somalia to work closely with the Independent Expert, the United Nations Assistance Mission in Somalia, international partners, the Office of the High Commissioner and civil society on the transition plan, and requests the Independent Expert to include an update on this transition in her next report to the Human Rights Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_315" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_315__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> the call by the Federal Government of Somalia for increased technical assistance and capacity-building efforts to support the priorities of the Government in implementing its benchmarks and the recommendations accepted by Somalia in the context of the third cycle of the universal periodic review;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_340" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_340__content">
+          <p xml:space="preserve">	<span class="italic">Also acknowledges</span> the progress that Somalia has made and its cooperation with United Nations bodies, including the Office of the High Commissioner and the mandate of the Independent Expert since its creation in 1993, further acknowledges that the situation of human rights in Somalia determines the action most appropriate for the Human Rights Council to take, and in this regard welcomes the transition plan towards deeper thematic engagement with the special procedures of the Council and other experts, as well as the Office of the High Commissioner, as proposed by the Independent Expert, in cooperation with the Federal Government of Somalia, in her most recent report,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		A/HRC/54/78.</p></authorialNote> in which she included clear steps and benchmarks to inform appropriate follow-up actions by the Council, considering the recommendations of the Independent Expert and the human rights commitments of Somalia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_366" class="SingleTxtG">
+        <num>27.</num>
+        <list eId="para_366_list">
+          <intro eId="para_366_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests</span> the Independent Expert to continue to work closely with the Federal Government of Somalia and other relevant authorities at the national and subnational levels, with all United Nations bodies, including the United Nations Assistance Mission in Somalia, the African Union, the African Union Transition Mission in Somalia, the Intergovernmental Authority on Development and other relevant international organizations, civil society and all relevant human rights mechanisms, and to assist Somalia in the implementation of:</p>
+          </intro>
+          <point eId="para_366_list_point_a">
+            <num>(a)</num>
+            <content eId="para_366_list_point_a_content">
+              <p xml:space="preserve">	Its national and international human rights obligations;</p>
+            </content>
+          </point>
+          <point eId="para_366_list_point_b">
+            <num>(b)</num>
+            <content eId="para_366_list_point_b_content">
+              <p xml:space="preserve">	Human Rights Council resolutions and other human rights instruments, including associated routine reporting;</p>
+            </content>
+          </point>
+          <point eId="para_366_list_point_c">
+            <num>(c)</num>
+            <content eId="para_366_list_point_c_content">
+              <p xml:space="preserve">	Recommendations accepted in the context of the universal periodic review;</p>
+            </content>
+          </point>
+          <point eId="para_366_list_point_d">
+            <num>(d)</num>
+            <content eId="para_366_list_point_d_content">
+              <p xml:space="preserve">	Other human rights commitments, policies and legislation to promote the empowerment of women, young people and persons belonging to marginalized groups, such as minority clans, freedom of expression, assembly and association, the protection of the media and civil society, including women peacebuilders, access for women and members of minority groups to justice and accountability for violations of their human rights, and the capacity-building of ministries and institutions responsible for the administration of justice and the protection of human rights;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_393" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_393__content">
+          <p xml:space="preserve"> 	<span class="italic">Takes note of</span> the options presented by the Independent Expert in her latest report on possible adjustments to the scope of the mandate in order to better respond to the technical assistance needs of the Federal Government of Somalia, based on an assessment conducted in collaboration with the Government and all stakeholders, including relevant United Nations actors, with a view to revising the focus and scope of the mandate and improving its ability to support the country in its efforts to improve the situation of human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_421" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_421__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Independent Expert to report to the Human Rights Council at its sixtieth session and to the General Assembly at its eightieth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_450" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_450__content">
+          <p xml:space="preserve">	<span class="italic">Also requests</span> the Independent Expert to provide an update to the Human Rights Council in her report on progress on the implementation of the benchmarks and indicators in the transition plan to inform future action by the Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_480" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_480__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Office of the High Commissioner and other relevant United Nations agencies to provide the Independent Expert with all the human, technical and financial assistance necessary to carry out the mandate fully;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_511" class="SingleTxtG">
+        <num>32.</num>
+        <content eId="para_511__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48th" refersTo="#adoptionMeeting">48th meeting</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 October 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
