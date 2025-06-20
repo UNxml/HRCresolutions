@@ -1,0 +1,337 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/rus@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="YEMEN" href="http://metadata.un.org/thesaurus/1007098" showAs="YEMEN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FINANCIAL ASSISTANCE" href="http://metadata.un.org/thesaurus/1002327" showAs="FINANCIAL ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-07" outcome="draftResolution" as="A/HRC/57/L.32" by="United Arab Emirates and State of Palestine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 50th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/37</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Пятьдесят седьмая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 сентября</date>
+          <date date="2024-10-11" refersTo="#endDate">11 октября 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Пункт 10 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Техническая помощь и создание потенциала</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 11 октября 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/37.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Техническая помощь и создание потенциала в области прав человека в интересах Йемена</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека,</span>
+        </p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">руководствуясь</span> целями и принципами Устава Организации Объединенных Наций и положениями Всеобщей декларации прав человека и ссылаясь на соответствующие международные договоры по правам человека,</p>
+      </container>
+      <container name="признавая" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">признавая</span> главную ответственность государств за поощрение и защиту прав человека,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">вновь подтверждая</span> свою твердую приверженность суверенитету, независимости, единству и территориальной целостности Йемена,</p>
+      </container>
+      <container name="ссылаясь" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">ссылаясь </span>на резолюции Совета Безопасности 2014 (2011) от 21 октября 2011 года, 2051 (2012) от 12 июня 2012 года и 2140 (2014) от 26 февраля 2014 года и резолюции Совета по правам человека 18/19 от 29 сентября 2011 года, 19/29 от 23 марта 2012 года, 21/22 от 27 сентября 2012 года, 24/32 от 27 сентября 2013 года, 27/19 от 25 сентября 2014 года, 30/18 от 2 октября 2015 года, 33/16 от 29 сентября 2016 года, 36/31 от 29 сентября 2017 года, 39/23 от 28 сентября 2018 года, 42/31 от 27 сентября 2019 года, 45/26 от 6 октября 2020 года, 48/21 от 11 октября 2021 года, 51/39 от 7 октября 2022 года и 54/29 от 12 октября 2023 года,</p>
+      </container>
+      <container name="особо отмечая" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">особо отмечая </span>резолюции Совета Безопасности 2216 (2015) от 14 апреля 2015 года, 2451 (2018) от 21 декабря 2018 года и 2624 (2022) от 28 февраля 2022 года,</p>
+      </container>
+      <container name="приветствуя" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">приветствуя</span> приверженность правительства Йемена сохранению гуманитарного перемирия, несмотря на отказ хуситов продлить соглашение о нем, </p>
+      </container>
+      <container name="приветствуя также" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">приветствуя также</span> процесс обмена заключенными между двумя сторонами и призывая к снятию осады с города Таиз и содействию доставке гуманитарной помощи,</p>
+      </container>
+      <container name="вновь заявляя" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">вновь заявляя </span>о своей решительной поддержке международных усилий по достижению всеобъемлющего прекращения огня, прекращению конфликта в Йемене и возобновлению предметного и всестороннего политического диалога в интересах мира, которые нашли свое отражение в инициативе Специального посланника Генерального секретаря по Йемену, инициативе Саудовской Аравии, усилиях Специального посланника Соединенных Штатов Америки по Йемену и некоторых стран региона, и напоминая о необходимости того, чтобы все стороны в конфликте реагировали на эти усилия гибким и конструктивным образом, без предварительных условий, и полностью и незамедлительно выполнили все положения соответствующих резолюций Совета Безопасности, приветствуя в этой связи позитивное участие правительства Йемена,</p>
+      </container>
+      <container name="признавая" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что поощрение, защита и осуществление прав человека являются крайне важными факторами обеспечения основанной на принципах справедливости и равенства системы правосудия, а в конечном счете — примирения и стабильности в Йемене,</p>
+      </container>
+      <container name="ссылаясь" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">ссылаясь </span>на согласие йеменских политических партий завершить политический переходный процесс на основе инициативы Совета сотрудничества стран Залива и механизма ее осуществления и особо отмечая необходимость выполнения рекомендаций, сформулированных в итоговом документе Конференции по национальному диалогу, включая завершение разработки новой конституции,</p>
+      </container>
+      <container name="с удовлетворением напоминая" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">с удовлетворением напоминая</span> о президентском указе № 16 от 23 августа 2023 года, продлевающем срок действия мандата Национальной комиссии по расследованию на два года с целью расследования всех нарушений прав человека за период после 2011 года,</p>
+      </container>
+      <container name="ссылаясь" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на Эр-Риядское соглашение, подписанное правительством Йемена и Южным переходным советом, и призывая к скорейшему и полному осуществлению Соглашения в качестве важного шага в направлении политического урегулирования в Йемене,</p>
+      </container>
+      <container name="будучи обеспокоен" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">будучи обеспокоен</span> тем, что ситуация с ликвидностью в отношении регулярного бюджета Секретариата Организации Объединенных Наций привела к ограничению средств регулярного бюджета Управления Верховного комиссара Организации Объединенных Наций по правам человека и непосредственно повлияла на способность Управления Верховного комиссара оказывать техническую помощь в полном объеме, в том числе в соответствии с просьбой Совета по правам человека, содержащейся в его резолюции 54/29,</p>
+      </container>
+      <container name="приветствуя" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">приветствуя</span> позитивное участие Президентского руководящего совета в переговорах с хуситами под эгидой Специального посланника Генерального секретаря по Йемену с целью достижения окончательного и всеобъемлющего политического урегулирования в Йемене и приветствуя также занятую правительством Йемена позицию, заключающуюся в том, чтобы разрешить продолжение международных полетов из аэропорта Саны и в него и беспрепятственный вход коммерческих и гуманитарных судов во все йеменские порты, включая порты Ходейды и Эс-Салифа,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">с удовлетворением отмечая</span> усилия Организации Объединенных Наций и партнеров, которые привели к успешной и безопасной разгрузке нефтяного танкера «Сафер», что позволило защитить морскую фауну и флору Красного моря от крупной экологической катастрофы, и высоко оценивая щедрый вклад государств-доноров в эту важную операцию,</p>
+      </container>
+      <container name="учитывая" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">учитывая </span>сообщения Управления по координации гуманитарных вопросов, в которых указывается, что существующая чрезвычайная гуманитарная ситуация отрицательно сказывается на осуществлении основных прав человека, включая социальные и экономические права, и что стороны в конфликте должны содействовать оперативной, безопасной и беспрепятственной доставке гуманитарной помощи,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> 	<span class="italic">принимает к сведению</span> доклад Верховного комиссара Организации Объединенных Наций по правам человека об оказании технической помощи и создании потенциала в Йемене<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		A/HRC/57/74.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="italic">отмечает</span> замечания, высказанные правительством Йемена по докладу Верховного комиссара в ходе нынешней сессии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> 	<span class="italic">приветствует</span> сотрудничество между правительством Йемена и Управлением Верховного комиссара Организации Объединенных Наций по правам человека и другими соответствующими органами и механизмами Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> 	<span class="italic">принимает к сведению</span> двенадцатый доклад Национальной комиссии по расследованию;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="italic">приветствует</span> работу, проводимую Совместной группой по оценке инцидентов, и ее сотрудничество с Управлением Верховного комиссара и его страновым отделением в Йемене;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="italic">с удовлетворением отмечает</span> работу, проделанную до настоящего времени Национальной комиссией по расследованию, несмотря на трудности, с которыми она столкнулась, и приветствует достигнутый ею прогресс, в частности регулярные поездки на места по всему Йемену, проведенные консультации с группами гражданского общества и улучшение информирования относительно различных видов нарушений и ущемлений прав человека и нарушений международного гуманитарного права всеми сторонами в конфликте;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> все стороны возобновить перемирие и немедленно выполнить все его положения, призывает снять осаду хуситами города Таиз и призывает все стороны немедленно выполнить Стокгольмское соглашение, с тем чтобы приступить к переговорам в интересах всеобъемлющего и инклюзивного политического урегулирования нынешнего кризиса в Йемене и выполнять обязательства, объявленные 23 декабря 2023 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve"> 	<span class="italic">выражает глубокую обеспокоенность</span> по поводу серьезных нарушений и ущемлений норм международного права прав человека и нарушений международного гуманитарного права в Йемене, совершаемых всеми сторонами в конфликте, включая акты сексуального и гендерного насилия, продолжающуюся вербовку детей вопреки международным договорам, похищения политических активистов, нарушения прав человека журналистов и убийства гражданских лиц;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> хуситов устранить препятствия для доступа чрезвычайной и гуманитарной помощи, немедленно и безоговорочно освободить всех задержанных сотрудников Организации Объединенных Наций и гуманитарных работников, сотрудников международных и национальных неправительственных организаций и дипломатических миссий и прекратить насилие и дискриминацию в отношении женщин и преследования за религиозные верования или убеждения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> все стороны в конфликте в Йемене соблюдать свои обязательства по международному праву прав человека и международному гуманитарному праву, немедленно прекратить нападения на гражданских лиц, в том числе на тех, кто доставляет предметы медицинского назначения, и работников по оказанию помощи, и обеспечить оперативный, безопасный и беспрепятственный гуманитарный доступ к затронутому населению на всей территории страны;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve"> 	<span class="italic">выражает глубокую обеспокоенность</span> по поводу всех нападений на гражданские объекты в нарушение международного гуманитарного права, напоминает об обязательствах всех сторон в конфликте принимать все необходимые меры предосторожности с целью не допускать и в любом случае сводить к минимуму ущерб для гражданского населения и гражданских объектов, таких как школы, рынки и медицинские учреждения, а также о запрещении подвергать нападениям или уничтожению инфраструктуру и материальные средства, необходимые для выживания гражданского населения, включая объекты водоснабжения, предметы снабжения и продукты питания, и решительно осуждает запуск баллистических и других ракет, нацеленных на территорию соседних стран и представляющих серьезную угрозу региональному миру и стабильности и безопасности международной торговли на судоходных путях Красного моря;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve"> 	<span class="italic">настоятельно призывает</span> правительство Йемена принять меры для защиты гражданских лиц и принять надлежащие меры с целью покончить с безнаказанностью во всех случаях нарушения и ущемления прав человека и нарушения международного гуманитарного права, а также насилия в отношении журналистов и задержания журналистов и политических активистов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve"> 	<span class="italic">просит </span>все стороны в конфликте в Йемене выполнить в полном объеме резолюцию 2216 (2015) Совета Безопасности от 14 апреля 2015 года, что будет способствовать улучшению положения в области прав человека, и рекомендует всем сторонам в конфликте заключить всеобъемлющее соглашение, с тем чтобы положить конец конфликту, обеспечив полное и эффективное участие женщин в политическом процессе и процессе установления мира;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve"> 	<span class="italic">требует</span>, чтобы все стороны в конфликте стремились к всеобъемлющему прекращению огня, продолжили межйеменские переговоры с целью достижения взаимосогласованного всеобъемлющего и прочного политического урегулирования конфликта и предоставили доступ для гуманитарной помощи во все йеменские города и деревни, настоятельно призывает хуситов откликнуться на просьбы Специального посланника Генерального секретаря по Йемену о том, чтобы открыть контрольно-пропускные пункты в город Таиз, покончить с вербовкой и использованием детей и освободить уже завербованных детей, и призывает все стороны в конфликте сотрудничать с Организацией Объединенных Наций в целях их реинтеграции в свои общины;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve"> 	<span class="italic">вновь подтверждает</span> обязательства и обязанности правительства Йемена по обеспечению поощрения и защиты прав человека всех находящихся в пределах контролируемой им территории и под его юрисдикцией лиц и в этой связи напоминает, что Йемен является участником Международной конвенции о ликвидации всех форм расовой дискриминации, Конвенции о ликвидации всех форм дискриминации в отношении женщин, Международного пакта о гражданских и политических правах, Международного пакта об экономических, социальных и культурных правах, Конвенции против пыток и других жестоких, бесчеловечных или унижающих достоинство видов обращения и наказания, Конвенции о правах ребенка и Факультативных протоколов к ней, касающихся участия детей в вооруженных конфликтах и торговли детьми, детской проституции и детской порнографии, Конвенции о правах инвалидов и Конвенции о статусе беженцев и Протокола к ней, и надеется на продолжение правительством своих усилий по поощрению и защите прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve"> 	<span class="italic">выражает глубокую обеспокоенность</span> по поводу ухудшающейся гуманитарной ситуации в Йемене, выражает признательность государствам и организациям-донорам, осуществляющим деятельность по улучшению этой ситуации, за взятые ими обязательства по оказанию финансовой поддержки плану гуманитарного реагирования Организации Объединенных Наций в Йемене на 2024 год, призывает все государства увеличить свою финансовую поддержку операций Организации Объединенных Наций по оказанию чрезвычайной помощи и настоятельно призывает государства выполнить обязательства, взятые ими на себя в ответ на соответствующий гуманитарный призыв Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve"> 	<span class="italic">вновь подтверждает</span> обязанность всех сторон в конфликте содействовать незамедлительной, безопасной и беспрепятственной доставке гуманитарной помощи всем, кто в ней нуждается, в соответствии с принципами международного права прав человека и международного гуманитарного права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> всем органам системы Организации Объединенных Наций, включая Управление Верховного комиссара, и всем государствам содействовать переходному процессу в Йемене, в том числе путем поддержки усилий по мобилизации ресурсов для преодоления последствий насилия и стоящих перед Йеменом социально-экономических проблем в координации с международным донорским сообществом и в соответствии с приоритетами, установленными властями Йемена;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_189" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_189__content">
+          <p xml:space="preserve"> 	<span class="italic">приветствует </span>техническую помощь, оказанную Управлением Верховного комиссара Национальной комиссии по расследованию, и просит Верховного комиссара продолжать оказывать существенную помощь в наращивании потенциала и техническую помощь правительству Йемена, а также всю необходимую техническую и логистическую поддержку Национальной комиссии по расследованию на том же уровне, что и любой следственной комиссии, с тем чтобы она могла продолжать расследовать в соответствии с международными стандартами утверждения о нарушениях и ущемлениях прав человека, совершенных всеми сторонами в конфликте в Йемене, и представить свой всеобъемлющий доклад о предполагаемых нарушениях и ущемлениях прав человека во всех частях Йемена в соответствии с президентским указом № 16 от 23 августа 2023 года, как только он будет готов, и рекомендует всем сторонам в конфликте в Йемене в полном объеме и транспарентным образом предоставлять доступ Национальной комиссии и оказывать ей содействие;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_208__content">
+          <p xml:space="preserve"> 	<span class="italic">просит</span> Верховного комиссара представить Совету по правам человека на его шестидесятой сессии доклад об оказании технической помощи, как это предусмотрено в настоящей резолюции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_228" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_228__content">
+          <p xml:space="preserve"> 	<span class="italic">просит </span>Генерального секретаря обеспечить предоставление Управлению Верховного комиссара всех необходимых ресурсов для содействия оказанию технической помощи, запрошенной Советом по правам человека в его резолюции 54/29 и в настоящей резолюции.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="50-е" refersTo="#adoptionMeeting">50‑е заседание</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 октября 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
