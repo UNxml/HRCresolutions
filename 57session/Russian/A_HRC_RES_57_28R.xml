@@ -1,0 +1,221 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/rus@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Kunming-Montreal Global Biodiversity Framework (2022)" showAs="Kunming-Montreal Global Biodiversity Framework (2022)" dictionary="DHLAUTH"></keyword>
+        <keyword value="BIOLOGICAL DIVERSITY" href="http://metadata.un.org/thesaurus/1000612" showAs="BIOLOGICAL DIVERSITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMMES OF ACTION" href="http://metadata.un.org/thesaurus/1005175" showAs="PROGRAMMES OF ACTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPORT PREPARATION" href="http://metadata.un.org/thesaurus/1005485" showAs="REPORT PREPARATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-04" outcome="draftResolution" as="A/HRC/57/L.26" by="Armenia, Belgium, Colombia, Costa Rica, Croatia, Ecuador, Ireland, Luxembourg, Marshall Islands, Namibia, Peru, Portugal, Samoa and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted without vote, 49th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/28</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Пятьдесят седьмая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 сентября</date>
+          <date date="2024-10-11" refersTo="#endDate">11 октября 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека,  гражданских, политических, экономических,  социальных и культурных прав,  включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 11 октября 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/28.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Биоразнообразие и права человека</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">руководствуясь</span> целями и принципами Устава Организации Объединенных Наций, Всеобщей декларацией прав человека, Международными пактами о правах человека и другими соответствующими договорами и вновь подтверждая важность Конвенции о биологическом разнообразии,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">вновь подтверждая</span> важность Рио-де-Жанейрской декларации по окружающей среде и развитию и ее принципов для решения проблем утраты биоразнообразия и деградации окружающей среды и их негативного воздействия на осуществление прав человека всеми людьми,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на Повестку дня в области устойчивого развития на период до 2030 года и отраженное в ней обещание добиваться того, чтобы никто не был забыт, включая, в частности, Цель 14 в области устойчивого развития, касающуюся сохранения и рационального использования океанов, морей и морских ресурсов, и Цель 15, касающуюся прекращения процесса утраты биологического разнообразия,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также</span> на Куньминско-Монреальскую глобальную рамочную программу в области биоразнообразия, принятую на пятнадцатом совещании Конференции Сторон Конвенции о биологическом разнообразии, включая ее раздел С, в котором, в частности, содержится призыв к осуществлению Рамочной программы, включая ее концепцию, миссию, цели и задачи, в соответствии с правозащитным подходом и решениями Конференции Сторон 15/5 о механизме мониторинга Куньминско-Монреальской глобальной рамочной программы в области биоразнообразия, 15/6 о механизмах планирования, мониторинга, отчетности и обзора, 15/7 о мобилизации ресурсов и 15/8 о создании и развитии потенциала и научно-техническом сотрудничестве,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">ссылаясь далее</span> на резолюцию 48/13 Совета по правам человека от 8 октября 2021 года и резолюцию 76/300 Генеральной Ассамблеи от 28 июля 2022 года о праве человека на чистую, здоровую и устойчивую окружающую среду,</p>
+      </container>
+      <container name="ссылаясь" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на Декларацию Организации Объединенных Наций о правах коренных народов, в которой признается, что уважение знаний, культуры и традиционной практики коренных народов способствует устойчивому и справедливому развитию и надлежащей заботе об окружающей среде, и признавая, что неспособность обеспечить сохранение биоразнообразия и деградация окружающей среды имеют неблагоприятные последствия для прав человека, а также негативно сказываются на сохранении традиционных знаний и культурного наследия, самовыражения, самобытности и качестве жизни коренных народов и других зависящих от биоразнообразия общин,</p>
+      </container>
+      <container name="подтверждая" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">подтверждая</span>, что утрата биоразнообразия и сокращение объема экосистемных услуг могут негативно сказываться на осуществлении права на чистую, здоровую и устойчивую окружающую среду, что имеет как прямые, так и косвенные отрицательные последствия для эффективного осуществления всех прав человека, а также для обеспечения потребностей и интересов будущих поколений,</p>
+      </container>
+      <container name="признавая" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что неблагоприятные последствия изменения климата, деградация окружающей среды и утрата биоразнообразия часто являются результатом и одновременно способствуют усилению существующих моделей дискриминации и неравенства, особенно лиц, находящихся в уязвимом положении,</p>
+      </container>
+      <container name="признавая также" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">признавая также</span>, что правозащитники, занимающиеся вопросами окружающей среды, именуемые защитниками экологических прав человека, вносят позитивный, важный и законный вклад в поощрение и защиту всех прав человека, и выражая глубокую обеспокоенность по поводу множественных и перекрестных форм насилия и дискриминации в отношении защитников экологических прав человека, особенно защитников из числа женщин, девочек и представителей коренных народов,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">принимая во внимание</span> такие международные договоры, как Конвенция о доступе к информации, участии общественности в процессе принятия решений и доступе к правосудию по вопросам, касающимся окружающей среды, для защиты защитников окружающей среды, и Региональное соглашение о доступе к информации, участии общественности и правосудии по вопросам окружающей среды в Латинской Америке и Карибском бассейне (Соглашение Эскаcу) для защиты защитников экологических прав человека,</p>
+      </container>
+      <container name="принимая также во внимание" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">принимая также во внимание</span> руководство Группы Организации Объединенных Наций по рациональному природопользованию по интеграции прав человека в национальные стратегии и планы действий по биоразнообразию,</p>
+      </container>
+      <container name="с нетерпением ожидая" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">с нетерпением ожидая</span> принятия на шестнадцатом совещании Конференции Сторон Конвенции о биологическом разнообразии, которое пройдет в Кали, Колумбия, с 21 октября по 1 ноября 2024 года, более амбициозных обязательств, что способствовало бы решению ее главной задачи, состоящей в достижении мира с природой,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> 	<span class="italic">просит</span> Управление Верховного комиссара Организации Объединенных Наций по правам человека расширять свою деятельность по оказанию поддержки, предоставлению технической помощи и наращиванию потенциала в интересах государств, с их согласия, для внедрения подходов, обеспечивающих интеграцию поощрения и защиты прав человека в контекст сохранения биологического разнообразия, устойчивого использования его компонентов и совместного пользования на справедливой и равноправной основе выгодами от применения генетических ресурсов, принимая во внимание учитывающий гендерные аспекты подход и опираясь на свою предыдущую работу в этой области, в том числе путем сотрудничества с национальными правозащитными учреждениями, национальными механизмами осуществления, отчетности и последующей деятельности, представителями коренных народов и другими заинтересованными сторонами, а также со страновыми группами Организации Объединенных Наций в соответствии с обязательствами по международному праву прав человека, и просит Генерального секретаря дополнительно укрепить штат специально выделенных для этого сотрудников Управления Верховного комиссара на региональном уровне для оказания такой расширенной поддержки;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"> 	<span class="italic">рекомендует</span> укреплять средства осуществления, а также все формы научно-технического сотрудничества, чтобы содействовать полному и эффективному осуществлению Куньминско-Монреальской глобальной рамочной программы в области биоразнообразия;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve"> 	<span class="italic">просит</span> Верховного комиссара Организации Объединенных Наций по правам человека в консультации с государствами, специальными процедурами Совета по правам человека, Программой Организации Объединенных Наций по окружающей среде, секретариатом Конвенции о биологическом разнообразии и другими соответствующими международными организациями и межправительственными органами, включая Межправительственную научно-политическую платформу по биоразнообразию и экосистемным услугам, провести глобальное аналитическое исследование по вопросу о применении правозащитного подхода при реализации целей и задач Куньминско-Монреальской глобальной рамочной программы в области биоразнообразия в соответствии с положениями Конвенции, с учетом соображений, изложенных в разделе С Рамочной программы, и принимая во внимание итоги шестнадцатого совещания Конференции Сторон Конвенции, и представить его Совету на его шестьдесят первой сессии, а также просит Верховного комиссара распространить этот доклад в доступных форматах, включая простой для чтения и понимания формат;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> 	<span class="italic">рекомендует</span> Управлению Верховного комиссара сотрудничать с другими соответствующими организациями и органами Организации Объединенных Наций, включая Программу Организации Объединенных Наций по окружающей среде и секретариат Конвенции о биологическом разнообразии, а также с коренными народами, лицами африканского происхождения, крестьянами, сельскими и местными общинами, защитниками экологических прав человека, женщинами, лицами и группами, находящимися в уязвимом положении, включая пожилых людей, людей с инвалидностью, молодежь и детей, в деле продвижения основанных на правах человека действий по сохранению биоразнообразия.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="49-е" refersTo="#adoptionMeeting">49‑е заседание</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 октября 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
