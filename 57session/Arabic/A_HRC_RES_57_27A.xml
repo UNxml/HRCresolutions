@@ -1,0 +1,664 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/ara@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Independent Expert on the Situation of Human Rights in Somalia" showAs="UN. Human Rights Council. Independent Expert on the Situation of Human Rights in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA" href="http://metadata.un.org/thesaurus/1006048" showAs="SOMALIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-04" outcome="draftResolution" as="A/HRC/57/L.15" by="Albania, Belgium, Bulgaria, Costa Rica, Czechia, Denmark, Estonia, France, Germany, Iceland, Ireland, Latvia, Luxembourg, Malta, Montenegro, Netherlands (Kingdom of the), North Macedonia, Romania, Somalia, Sweden, Türkiye, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 48th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/27</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">الدورة السابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 أيلول</date>
+          <date date="2024-10-11" refersTo="#endDate">11 تشرين الأول 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">البند 10 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المساعدة التقنية وبناء القدرات</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 10 تشرين الأول/أكتوبر 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/27</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	تقديم المساعدة إلى الصومال في ميدان حقوق الإنسان</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بميثاق الأمم المتحدة،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعيد تأكيد</span> الإعلان العالمي لحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يقر</span> بأن السلم والأمن والتنمية وحقوق الإنسان هي الدعائم التي تقوم عليها منظومة الأمم المتحدة،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> احترامه لسيادة الصومال وسلامته الإقليمية واستقلاله السياسي ووحدته،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد أيضاً" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد أيضاً</span> قراراته السابقة بشأن الصومال،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى قراريه <a href="https://undocs.org/ar/A/HRC/RES/5/1 ">5/1</a> و<a href="https://undocs.org/ar/A/HRC/RES/5/2">5/2</a> المؤرخين 18 حزيران/يونيه 2007،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن المسؤولية الرئيسية عن تعزيز حقوق الإنسان وحمايتها في الصومال تقع على عاتق حكومة الصومال الاتحادية، وبأن تعزيز الإطار القانوني ونظم حماية حقوق الإنسان وقدرة المؤسسات وشفافيتها وشرعيتها أمر أساسي للمساعدة على مكافحة الإفلات من العقاب وتحسين المساءلة عن انتهاكات وتجاوزات حقوق الإنسان وتشجيع المصالحة،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً</span> بضرورة وفاء حكومة الصومال الفيدرالية ومؤسساتها الأمنية بالتزاماتها وتعهداتها الدولية في مجال حقوق الإنسان والتصدي لإساءة استعمال القوة أو الإفراط في استعمالها ضد المدنيين،</p>
+      </container>
+      <container name="وإذ يسلم كذلك" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم كذلك </span>بأهمية وفعالية تقديم المساعدة الدولية إلى الصومال والحاجة المستمرة إلى زيادة حجم كل الخدمات المتعلقة بتنمية القدرات والمساعدة التقنية المقدمة إلى الصومال في ميدان حقوق الإنسان على الصعيد الوطني وعلى صعيد الولايات الأعضاء في الفيدرالية وزيادة تنسيق هذه الخدمات واتساقها ونوعيتها، وإذ يقر بإطار المساءلة المتبادلة الذي يهدف إلى التعجيل بالإصلاحات المتعلقة بحقوق الإنسان، فضلاً عن الإصلاحات المتعلقة بالمؤسسات الأمنية والاقتصادية والسياسية وبالانتخابات،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على أهمية التعاون وتوافق الآراء من أجل إحراز مزيد من التقدم بشأن الأولويات الوطنية الرئيسية، بما في ذلك تنفيذ هيكل الأمن الوطني، ومراجعة الدستور، وتقاسم السلطة والموارد في النظام الفيدرالي، بما في ذلك النظام المالي الفيدرالي، والتوصل إلى اتفاق بشأن نظام قضائي فيدرالي، وكلها أمور تتطلب اتفاقات سياسية يمكن أن تشكل أساساً للتشريعات في البرلمان الفيدرالي،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بالالتزام المتواصل والحيوي لبعثة الاتحاد الأفريقي في الصومال، التي تلتها بعثة الاتحاد الأفريقي الانتقالية في الصومال، وبفقدان وتضحيات الأفراد الذين قتلوا أثناء العمليات الحربية منذ بدايتها، من أجل مواصلة دعم السلم والأمن في الصومال،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً</span> بالدور الذي أدته المرأة وستواصل أداءه في مجال التعبئة المجتمعية وبناء السلام في المجتمع الصومالي، وبضرورة اتخاذ تدابير خاصة لإنهاء العنف الجنسي والجنساني، بما في ذلك العنف الجنسي المتصل بالنزاعات، وتشويه الأعضاء التناسلية الأنثوية، وزواج الأطفال، والزواج المبكر والقسري، وسائر أشكال العنف غير المشروع في حالات النزاع المسلح، وفي وضع حد للإفلات من العقاب، ومقاضاة المسؤولين عن العنف الجنسي والجنساني بالنساء والفتيات تماشياً مع القانون الدولي، وبأهمية تعزيز تمكين النساء والفتيات اقتصادياً والنهوض بمشاركتهن مشاركة كاملة ومتساوية ومجدية في عمليات صنع القرارات السياسية والعامة، بما في ذلك داخل البرلمان وعلى جميع مستويات الحكم، وفقاً لقرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/1325(2000)">1325(2000)</a> المؤرخ 31 تشرين الأول/أكتوبر 2000 بشأن المرأة والسلام والأمن،</p>
+      </container>
+      <container name="وإذ يسلم كذلك" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم كذلك</span> بزيادة التزام حكومة الصومال الفيدرالية والولايات الأعضاء في الفيدرالية بتعزيز حقوق الإنسان وحمايتها عن طريق وزاراتها، وإذ يحث في الوقت نفسه على زيادة الدعوة إلى التقيد بالالتزامات المتعلقة بحقوق الإنسان في الصومال وتنفيذها وعلى التعاون مع النظام الدولي لحقوق الإنسان،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxtGA">
+        <num>1-</num>
+        <list eId="para_15_list">
+          <intro eId="para_15_list_intro">
+            <p xml:space="preserve">	<span class="italic">يرحب</span> بالتزام حكومة الصومال الاتحادية بتحسين حالة حقوق الإنسان في الصومال، كما يرحب في هذا الصدد بما يلي:</p>
+          </intro>
+          <point eId="para_15_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_15_list_point_أ_content">
+              <p xml:space="preserve">	خطة تطوير القطاع الأمني الصومالي، التي يُفترض أن تدعم قيام مؤسسات أمنية صومالية فعالة وتسلُّم المسؤولية تدريجياً من بعثة الاتحاد الأفريقي الانتقالية في الصومال في اتجاه زيادة أخذ الصومال بزمام الأمور، ويقدر، على وجه الخصوص، استناد هذا النهج إلى سيادة القانون، والمصالحة، والعدالة، واحترام حقوق الإنسان، وحماية النساء والأطفال، لا سيما الفتيات؛</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_15_list_point_ب_content">
+              <p xml:space="preserve">	إطلاق الاستراتيجية وخطة العمل الخمسية للوكالة الوطنية للإعاقة في كانون الأول/ ديسمبر 2023، والتزام الحكومة الفيدرالية بترسيخ حقوق الأشخاص ذوي الإعاقة في الحياة الاجتماعية والتعليمية والسياسية والاقتصادية بإقرار مشروع قانون حقوق الأشخاص ذوي الإعاقة، في آب/أغسطس 2024، وآليات تشريعية أخرى، وبتحسين جمع البيانات عن الأشخاص ذوي الإعاقة؛</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_15_list_point_ج_content">
+              <p xml:space="preserve">	إطلاق الحكومة الفيدرالية في أيلول/سبتمبر 2022 خطة عمل وطنية لتنفيذ ميثاق المرأة الصومالية وقرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/1325(2000)">1325(2000)</a> وقرارات المجلس اللاحقة بشأن الخطة المتعلقة بالمرأة والسلام والأمن، وهي خطة ترسخ التزاماً غير مشروط بالمساواة بين الجنسين وحقوق الإنسان وتمكين المرأة، وعدم التسامح إطلاقاً مع العنف الجنسي والجنساني، والعدالة للجميع، والتمكين الاقتصادي للمرأة، ووضع المصالحة والسلام لصالح المرأة في صميم العدالة الانتقالية، وإنشاء فرع الصومال لشبكة القيادات النسائية الأفريقية الذي يدعم تنفيذ خطة العمل الوطنية المذكورة أعلاه؛</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_د">
+            <num>(د)</num>
+            <content eId="para_15_list_point_د_content">
+              <p xml:space="preserve">	الإبقاء، في إطار عملية مراجعة الدستور، على أحكام رامية إلى حماية حقوق الإنسان في الفصل 2 من الدستور المؤقت، ويشجع الحكومة الفيدرالية على أن تكفل خضوع الاتفاقات التي أبرمها المجلس الاستشاري الوطني لمشاورات واسعة النطاق مع الخبراء التقنيين، وأفراد المجتمع المدني، بمن فيهم النساء والأشخاص ذوو الإعاقة وأفراد عشائر الأقليات، وتضمن تمثيلهم تمثيلاً حقيقياً فيها واتباع هذه الاتفاقات الإجراءات القانونية الواجبة عن طريق البرلمان لكي تصبح اتفاقات مكرسة وإيلاء الاعتبار الكامل للقدرة على تحمل تكلفة النموذج المقترح في المدى الطويل؛</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_هـ">
+            <num>(هـ)</num>
+            <content eId="para_15_list_point_هـ_content">
+              <p xml:space="preserve">	الجهود التي تبذلها وزارة شؤون المرأة وحقوق الإنسان (التي أصبحت وزارة النهوض بالأسرة وحقوق الإنسان) لصياغة تشريعات رئيسية بشأن حقوق الإنسان، بما فيها تشريعات متعلقة بالجرائم الجنسية، ومشروع قانون حقوق الطفل، ويشجع الحكومة على أن تكفل خضوع التشريعات المذكورة لمشاورات واسعة النطاق مع المجتمع المدني، بمن فيه النساء والأشخاص ذوو الإعاقة وأفراد عشائر الأقليات، لضمان أن تكون تلك التشريعات تمثيلية حقاً ومتوافقة مع القانون الدولي لحقوق الإنسان، حسب الاقتضاء، وأن تتبع الإجراءات القانونية الواجبة عن طريق البرلمان؛</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_و">
+            <num>(و)</num>
+            <content eId="para_15_list_point_و_content">
+              <p xml:space="preserve">	تعاون الصومال مع اللجنة المعنية بحقوق الإنسان وتقديم تقريره الأولي بموجب المادة 40 من العهد<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">((	<a href="https://undocs.org/ar/CCPR/C/SOM/1">CCPR/C/SOM/1</a>.</p></authorialNote><sup>)</sup>، الذي يغطي الفترة 2012-2020، وروح الشفافية والتعاون التي تعامل بها وفد الصومال مع اللجنة عند النظر في ذلك التقرير خلال دورتها 140؛</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_15_list_point_ز_content">
+              <p xml:space="preserve">	إطلاق رئيس الوزراء في 30 نيسان/أبريل 2024 في مقديشو، إطار المصالحة الوطنية، الذي يمثل علامة فارقة في سعي الصومال إلى تحقيق السلام والوحدة والتقدم، وهو بمثابة هيكل إرشادي لجهود المصالحة في البلد، ويرمز إلى الأمل والوحدة بينما يرسي الأساس لمستقبل عنوانه السلام والازدهار والشمولية؛</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_15_list_point_ح_content">
+              <p xml:space="preserve">	مواصلة تنفيذ الاستراتيجية الوطنية للحلول الدائمة للفترة 2020-2024، وتهيئة بيئة داعمة للنازحين داخلياً واللاجئين وملتمسي اللجوء والعائدين والفئات الضعيفة من أجل الوصول إلى حلول منصفة، ويلاحظ أن وزارة التخطيط والاستثمار والتنمية الاقتصادية أطلقت، من خلال وحدتها المعنية بالحلول الدائمة، وبالتعاون مع الولايات الأعضاء في الفيدرالية وشركاء دوليين، خطة عمل لضمان وصول مليون شخص من النازحين داخلياً إلى حلول مستدامة وطويلة الأجل؛</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_15_list_point_ط_content">
+              <p xml:space="preserve">	وضع أول سياسة وطنية للشمول الرقمي في البلد، بالتركيز على الفئات الضعيفة والمهمشة، التي قد تشمل النساء والفتيات والشباب والمجتمعات الريفية وفقراء المدن وكبار السن والأشخاص ذوي الإعاقة والنازحين داخلياً واللاجئين، وكذلك الشركات، والتي تنص على الوصول العادل إلى مبادرات تكنولوجيا المعلومات والاتصالات، بهدف تحقيق معدلات مشاركة تضاهي المعدلات الوطنية أو تتجاوزها، وتدعو إلى إجراء تغييرات قانونية ومؤسسية لدعم الشمول الرقمي الكامل بحلول عام 2033، وتقترح تشريعات جديدة لدمج هذه الفئات في الاقتصاد الرقمي؛</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_ي">
+            <num>(ي)</num>
+            <content eId="para_15_list_point_ي_content">
+              <p xml:space="preserve">	إطلاق خطة العمل الوطنية للأطفال في الصومال، في 17 أيلول/سبتمبر 2024، وهي تشكل خطوة محورية في سعي الصومال إلى النهوض برفاه أصغر سكانه وحقوقهم وتعرض بالتفصيل مبادرات استراتيجية تركز على النهوض بحماية الطفل وتعليمه وصحته ورفاهه بصورة عامة؛</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_ك">
+            <num>(ك)</num>
+            <content eId="para_15_list_point_ك_content">
+              <p xml:space="preserve">	قيام وزارة النهوض بالأسرة وحقوق الإنسان بإنشاء آلية وطنية شاملة لوضع سياسة إبلاغ ومتابعة سترسي إطاراً متيناً لضمان قدر أكبر من الشفافية والمساءلة والكفاءة في معالجة قضايا حقوق الإنسان، وهي مصممة لتيسير تنسيق أفضل بين مختلف الكيانات الحكومية وغير الحكومية، ومن ثم تعزيز البنية التحتية العامة لحقوق الإنسان؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">يشير </span>إلى مشاركة حكومة الصومال الفيدرالية مشاركة نشطة في آلية الاستعراض الدوري الشامل في أيار/مايو 2021، ويشير في هذا الصدد أيضاً إلى قبولها العديد من التوصيات المقدمة أثناء الاستعراض<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">((	انظر <a href="https://undocs.org/ar/A/HRC/48/11">A/HRC/48/11</a>.</p></authorialNote><sup>)</sup>، ويشجع الحكومة على أن تنفذ هذه التوصيات على سبيل الأولوية، ويرحب أيضاً بالتزامها بإنجاز استعراض في منتصف المدة بشأن تنفيذ التوصيات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه</span> إزاء التقارير التي تفيد بحدوث انتهاكات وتجاوزات للقانون الدولي لحقوق الإنسان والقانون الدولي الإنساني في الصومال، ويشدد على أنه ينبغي لجميع الجهات الفاعلة المسلحة أن تدعم احترام القانون الدولي الإنساني وحقوق الإنسان للجميع وأن تحاسب جميع المسؤولين عن هذه الانتهاكات والتجاوزات والجرائم ذات الصلة، بما فيها الجرائم المرتكبة ضد النساء والأطفال، والفتيات على وجه الخصوص، مثل تجنيد الأطفال الجنود والأطفال واستخدامهم بصورة غير مشروعة في النزاعات المسلحة، وعمليات القتل والتشويه والاغتصاب وغير ذلك من أشكال العنف الجنسي والجنساني، بما في ذلك زواج الأطفال والزواج المبكر والقسري وجميع أشكال تشويه الأعضاء التناسلية الأنثوية والممارسات الضارة، ويشدد على أهمية الاعتراف بالأطفال الذين كانوا مرتبطين سابقاً بالجماعات المسلحة على أنهم ضحايا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بحكومة الصومال الفيدرالية أن تقوم، بدعم من الجهات المانحة والمنظمات الدولية، بتعزيز برامج إعادة إدماج الأطفال المرتبطين سابقاً بالجماعات المسلحة، بما يكفل معاملتهم في المقام الأول بصفتهم ضحايا جرائم من منظور القانون الدولي وليس فقط بصفتهم جناة، ويلاحظ أن هذه البرامج ينبغي أن توفر الدعم النفسي والاجتماعي والتعليم والتدريب المهني لتيسير إعادة إدماج الأطفال الجنود في المجتمع بنجاح، وأنه ينبغي إنشاء نظام رصد وطني لتتبع ومنع التجنيد غير المشروع للأطفال المرتبطين بالقوات المسلحة والجماعات المسلحة واستخدامهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه</span> لأن النازحين داخلياً، بمن فيهم الذين قد يكونون في أوضاع هشة، وقد يكون من بينهم نساء وأطفال وشباب وأشخاص ذوو إعاقة وأشخاص من الأقليات والفئات المهمشة، يتعرضون بالقدر الأكبر للعنف والإيذاء والانتهاكات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه العميق</span> إزاء تزايد خطر المشاكل المتصلة بحماية المدنيين والناجمة عن استمرار عمليات التصدي لحركة الشباب، ويشير إلى أن جميع الجهات الفاعلة المشاركة في النزاع تتحمل مسؤولية الوفاء بالتزاماتها بموجب القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه</span> إزاء أي هجمات أو قيود غير قانونية مفروضة أو أي مضايقة يواجهها المدافعون عن حقوق الإنسان والجهات الفاعلة في المجتمع المدني والجهات الفاعلة السياسية المعارضة، بمن فيهم الصحفيون والإعلاميون، سيما عندما يتجسد ذلك في المضايقة أو التوقيف التعسفي أو الاحتجاز المطول، ويؤكد ضرورة تعزيز احترام الحق في حرية التعبير والرأي ووضع حد للإفلات من العقاب، ومحاسبة من يرتكبون أي جرائم ذات صلة، ويشدد على أهمية الحياد السياسي للشرطة، ويشجع بالإضافة إلى ذلك سلطات صوماليلاند على احترام الحق في حرية التعبير والتجمع السلمي بما يتماشى مع القانون الدولي لحقوق الإنسان وعلى إعادة النظر في تنفيذ مشروع قانون الإعلام ومشروع قانون عام 2018 المتعلق بالجرائم الجنسية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">يعرب أيضاً عن قلقه</span> إزاء النزاع الجاري في لاسعانود والمناطق المحيطة بها، حيث يستمر احتجاز مقاتلين من الجانبين في أعقاب الصراع العنيف الذي نشب في عام 2023، ويلاحظ أن خطر تصاعد التوترات يمكن أن يفضي إلى زيادة في انتهاكات حقوق الإنسان وتجاوزاتها وإلى المزيد من التهجير القسري، ويدعو جميع الأطراف إلى ضبط النفس والامتناع عن الأعمال الاستفزازية من أجل تهدئة الوضع في الميدان وتهيئة الظروف لإحلال السلام، ويدعو جميع أطراف النزاع إلى أن تفي بالتزاماتها بموجب القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني، حسب الاقتضاء، بما في ذلك الالتزامات المتعلقة بمعاملة المحتجزين، وحماية المدنيين والهياكل الأساسية المدنية، ووصول المساعدات الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">يعرب كذلك عن قلقه</span> لأن المنتمين إلى عشائر الأقليات والفئات المهمشة، بمن فيهم النساء والفتيات، ما زالوا بعيدين عن الفرص الاقتصادية والسياسية وعن مجال صنع القرار في الصومال، ويشجع حكومة الصومال الفيدرالية ومؤسساتها على زيادة الجهود الرامية إلى توسيع فرص مشاركة هؤلاء الأشخاص في الشؤون العامة، مع التسليم بأن النساء والفتيات من الأقليات ما زلن أكثر عرضة للاستغلال الجنسي والجنساني بسبب الفقر والتهميش والمواقف التمييزية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه</span> إزاء التوقيع في آب/أغسطس 2020 على قانون الإعلام المعدل لعام 2016 وإزاء أحكام قانون العقوبات لعام 1964 التي لا تمتثل القانون الدولي لحقوق الإنسان، كتلك التي تنص على فرض عقوبة السجن في الجرائم المتصلة بالإعلام، ويشجع حكومة الصومال الفيدرالية على النظر في إلغاء هذه الأحكام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">يعرب أيضاً عن قلقه </span>إزاء توقيف عدد من الأفراد وسجنهم بسبب ممارستهم معتقداتهم الدينية، ويدعو إلى احترام حرية الدين أو المعتقد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه كذلك</span> إزاء العدد الكبير من الحالات التي تندرج ضمن الأنواع الستة من الانتهاكات الجسيمة المرتكبة في حق الأطفال في النزاعات المسلحة على نحو ما وقف عليه الأمين العام ووثقه في تقريره السنوي<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">((	<a href="https://undocs.org/ar/A/78/842-S/2024/384">A/78/842-S/2024/384</a>.</p></authorialNote><sup>)</sup>، بالإضافة إلى الانتهاكات الأخرى التي يُدَّعى ارتكابها في حق الأطفال في بونتلاند، ويطالب جميع أطراف النزاع باتخاذ التدابير المناسبة لامتثال القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان الساريين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه</span> لأن تعرض الصومال للأزمات العالمية المستمرة وحساسيته تجاهها، بما في ذلك الأزمات المتصلة بتغير المناخ والتدهور البيئي، مشكلة واسعة النطاق وذات طابع هيكلي، ولأن هذه القابلية للتأثر هي أحد العوامل المفضية إلى الضعف والنزاع والحاجة إلى المساعدات الإنسانية، لأسباب منها الجوع، وهو ما يتجلى في الأزمة الإنسانية الخطيرة في الصومال والمنطقة بصورة أعم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="italic">يشجع </span>حكومة الصومال الفيدرالية على أن تقوم، بدعم من الجهات المانحة الدولية ووكالات الأمم المتحدة المتخصصة، بوضع وتنفيذ برامج لمجابهة تغير المناخ من أجل التخفيف من آثار تغير المناخ والتدهور البيئي المرتبطة بحقوق الإنسان وآثارهما العامة على السكان المعرضين للخطر، وهي برامج ينبغي أن تركز على تعزيز البنية التحتية في المناطق المعرضة للجفاف وإنشاء نظم للإنذار المبكر وبلورة ممارسات زراعية مستدامة، ويؤكد أنه ينبغي تعزيز مشاركة الصومال في المبادرات الدولية للتكيف مع تغير المناخ والتخفيف من حدته بغية الحماية من المخاطر البيئية في المستقبل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">يقر </span>بالجهود التي تبذلها الدول المضيفة للاجئين الصوماليين، ويحث جميع الدول المضيفة على الوفاء بالتزاماتها بموجب القانون الدولي المتعلق باللاجئين، ويحث المجتمع الدولي على مواصلة تقديم الدعم المالي لتمكين الدول المضيفة من تلبية الاحتياجات الإنسانية للاجئين الصوماليين في المنطقة، ودعم إعادة إدماج العائدين إلى الصومال عندما تكون الظروف مناسبة لذلك، ودعم النازحين داخلياً في الصومال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxtGA">
+        <num>16-</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	<span class="italic">يقر أيضاً</span> بالجهود التي يبذلها الصومال، رغم ما يواجهه من صعوبات ذاتية، من أجل قبول اللاجئين القادمين من بلدان أخرى في المنطقة وعدم إدارة ظهره لهم، علاوة على التوقيع في الفترة الأخيرة على مشروع قانون اللاجئين وملتمسي اللجوء، الذي يبين حقوق اللاجئين وملتمسي اللجوء في الصومال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="SingleTxtGA">
+        <num>17-</num>
+        <list eId="para_151_list">
+          <intro eId="para_151_list_intro">
+            <p xml:space="preserve">	<span class="italic">يهيب </span>بحكومة الصومال الفيدرالية والولايات الأعضاء في الفيدرالية والجهات السياسية الرئيسية ذات المصلحة أن تعمل، بدعم من المجتمع الدولي، من أجل ما يلي:</p>
+          </intro>
+          <point eId="para_151_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_151_list_point_أ_content">
+              <p xml:space="preserve">	وضع الصيغة النهائية لدستور جديد بواسطة حوار رفيع المستوى يكون منتظماً وشاملاً للجميع على كل المستويات، ويشارك فيه النساء وأفراد الأقليات مشاركة كاملة ومتساوية وهادفة، بغية التوصل إلى اتفاق سياسي بين الحكومة الفيدرالية وجميع الولايات الأعضاء في الفيدرالية والبرلمان الفيدرالي؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_151_list_point_ب_content">
+              <p xml:space="preserve">	التعجيل بإنشاء لجنة وطنية لحقوق الإنسان تتماشى مع المبادئ المتعلقة بمركز المؤسسات الوطنية لتعزيز وحماية حقوق الإنسان (مبادئ باريس)، على النحو المنصوص عليه قانوناً في عام 2016، وتزويدها بالموارد الكافية لرصد الانتهاكات والتجاوزات وضمان المساءلة عنها، بما يشمل عملية توظيف توفر فرصاً متكافئة لتمثيل المرأة وأفراد الفئات المهمشة والأشخاص ذوي الإعاقة؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_151_list_point_ج_content">
+              <p xml:space="preserve">	إجراء انتخابات سريعة وحرة ونزيهة يكون فيها للشخص الواحد صوت واحد، في كنف الشفافية، على مستوى الولايات الأعضاء في الفيدرالية وعلى مستوى المقاطعات، في وقت يمكن فيه إجراء مثل هذه الانتخابات؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_د">
+            <num>(د)</num>
+            <content eId="para_151_list_point_د_content">
+              <p xml:space="preserve">	مواصلة تعاونها مع الممثل الخاص للأمين العام للصومال ورئيس بعثة الأمم المتحدة لتقديم المساعدة إلى الصومال؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_هـ">
+            <num>(هـ)</num>
+            <content eId="para_151_list_point_هـ_content">
+              <p xml:space="preserve">	العمل عن كثب مع الخبيرة المستقلة المعنية بحالة حقوق الإنسان في الصومال وتيسير زياراتها إلى الصومال حتى تتمكن من القيام بالأعمال الموكلة إليها؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_و">
+            <num>(و)</num>
+            <content eId="para_151_list_point_و_content">
+              <p xml:space="preserve">	تشجيع اتباع نهج شامل ومتيسر للمشاركة السياسية على مستوى الحكومة الفيدرالية والولايات الأعضاء في الفيدرالية من خلال ضمان الفرص الكاملة والمتساوية والهادفة للنساء والنازحين داخلياً والأشخاص ذوي الإعاقة وأفراد الأقليات والفئات المهمشة، والاتفاق على نموذج انتخابي مستقبلي يشجع استيعاب الجميع في كل المراحل؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_151_list_point_ز_content">
+              <p xml:space="preserve">	الوفاء بالتزاماتها بإصلاح قطاع الأمن، بسبل منها ضمان مشاركة المرأة مشاركة فعالة وهادفة في تفعيل الهيكل الأمني الوطني، لضمان امتثال قوات ومؤسسات الأمن الصومالية أحكام القوانين الوطنية والدولية السارية وأحكام القانون الدولي لحقوق الإنسان، بما فيها تلك المتعلقة بحماية الأفراد من أفعال منها العنف الجنسي والجنساني، وبمنع القتل خارج نطاق القضاء، وتدعيم خضوع جميع قوات ومؤسسات الأمن المختصة للمساءلة على الصعيدين الداخلي والخارجي؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_151_list_point_ح_content">
+              <p xml:space="preserve">	<span class="bold">التأكد، من أجل استمرار الدعم الدولي لقطاع الأمن الدولي، من تقيد جميع العمليات الأمنية بالتزاماتها ذات الصلة بموجب القانون الدولي الإنساني وإعطاء الأولوية لحماية المدنيين، مشيراً إلى أن جهود إصلاح قطاع الأمن ينبغي أن تشمل تدريباً متخصصاً لقوات الأمن الصومالية لمنع عمليات القتل خارج نطاق القضاء وضمان الرقابة المدنية وبناء الثقة مع المجتمعات المحلية؛</span></p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_151_list_point_ط_content">
+              <p xml:space="preserve">	تعزيز الإطار القانوني والتنفيذي لحماية الأطفال في الصومال، بسبل منها الإسراع في تنفيذ قانون حقوق الطفل، والنظر في أن تصبح الصومال طرفاً في البروتوكولات الاختيارية لاتفاقية حقوق الطفل والميثاق الأفريقي لحقوق الطفل ورفاهيته، بهدف منع تجنيد الأطفال واستخدامهم بصورة غير مشروعة في القوات المسلحة بجميع أنواعها، والعمل مع المنظمات المتخصصة، مثل منظمة الأمم المتحدة للطفولة، من أجل ضمان معاملة الأطفال المرتبطين سابقاً بالقوات المسلحة والجماعات المسلحة، بمن فيهم الذين ربما ارتكبوا جرائم، معاملة الضحايا في المقام الأول، وكذلك إعادة إدماجهم بواسطة برامج إعادة الإدماج الأسرية والمجتمعية المراعية للطفل وإتاحة وصولهم إلى الرعاية الصحية، بما فيها دعم الصحة العقلية والدعم النفسي الاجتماعي، وإلى برامج التعليم، وفقاً للقواعد والمبادئ التوجيهية المتعلقة بالأطفال المرتبطين بالقوات المسلحة أو الجماعات المسلحة، التي أقرتها الحكومة الفيدرالية، وتحديد المسؤولين عن هذه الانتهاكات والتجاوزات ومحاسبتهم؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ي">
+            <num>(ي)</num>
+            <content eId="para_151_list_point_ي_content">
+              <p xml:space="preserve">	تنفيذ إعلان المدارس الآمنة، الذي وافقت عليه حكومة الصومال الفيدرالية، في تشرين الأول/أكتوبر 2015، لضمان حماية المرافق التعليمية والطلاب والعاملين في مجال التعليم؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ك">
+            <num>(ك)</num>
+            <content eId="para_151_list_point_ك_content">
+              <p xml:space="preserve">	الإسراع في اعتماد التوصيات والأنشطة المتوخاة في إطار خطة العمل الوطنية بشأن المرأة والسلام والأمن وتنفيذها بالكامل في إطار عملية تدريجية وتشاورية، بالتعاون الوثيق مع المجتمع المدني، ومن ثم تعزيز مشاركة المرأة في بناء السلام والتقدم الاجتماعي والاقتصادي في سياق جهود تحقيق الاستقرار وإعادة البناء في الصومال، بما يتماشى مع ميثاق المرأة الصومالية وقرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/1325(2000)">1325(2000)</a> وقرارات المجلس اللاحقة بشأن هذه المسألة؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ل">
+            <num>(ل)</num>
+            <content eId="para_151_list_point_ل_content">
+              <p xml:space="preserve">	ضمان توافق جميع التشريعات مع الالتزامات القانونية الدولية، علماً أن قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2664(2022)">2664(2022)</a> المؤرخ 9 كانون الأول/ديسمبر 2022 ينص على أن توفير أو تجهيز أو دفع الأموال أو الأصول المالية أو الموارد الاقتصادية الأخرى أو توفير السلع والخدمات اللازمة لضمان إيصال المساعدة الإنسانية في الوقت المناسب أو لدعم الأنشطة الأخرى التي تلبي الاحتياجات الإنسانية الأساسية والتي تضطلع بها الأمم المتحدة ومنظمات معينة، أمور مسموح بها ولا تشكل انتهاكاً لتجميد الأصول الذي يفرضه المجلس أو لجان العقوبات التابعة له، بوصفها نموذجاً لأفضل الممارسات للتشريعات المحلية ذات الصلة، بما في ذلك في الصومال، وتعديل التشريعات القائمة عند الاقتضاء وفقاً لروح القرار <a href="https://undocs.org/ar/S/RES/2664(2022)">2664(2022)</a>؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_م">
+            <num>(م)</num>
+            <content eId="para_151_list_point_م_content">
+              <p xml:space="preserve">	مراجعة قانون الإعلام المعدل الموقع في آب/أغسطس 2020 من أجل تمكين وسائط الإعلام من تقديم تقارير مستقلة دون خوف من الانتقام في الصومال، وضمان امتثالها القانون الدولي لحقوق الإنسان، وتسريع عمل المدعي الخاص المعني بالتحقيق في الجرائم المرتكبة ضد الصحفيين؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ن">
+            <num>(ن)</num>
+            <content eId="para_151_list_point_ن_content">
+              <p xml:space="preserve">	الوفاء بالتزاماتها بوضع حد لثقافة الإفلات من العقاب السائدة، ومحاسبة مرتكبي انتهاكات وتجاوزات حقوق الإنسان عن طريق ضمان إجراء تحقيقات سريعة وشاملة وفعالة، وعن طريق تخصيص موارد لإصلاح قطاع العدالة وتطويره على نحو يتسق مع القانون الدولي لحقوق الإنسان، وزيادة تمثيل المرأة في القضاء، وتحسين إمكانية لجوء النساء والأطفال إلى العدالة؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_س">
+            <num>(س)</num>
+            <content eId="para_151_list_point_س_content">
+              <p xml:space="preserve">	دعم وزارة النهوض بالأسرة وحقوق الإنسان في تيسير سَنّ مشروع القانون المتعلق بالجرائم الجنسية على نحو سلس عن طريق مجلس الوزراء والبرلمان، وضمان أن يعكس أي مشروع قانون يُعتمد الالتزامات والتعهدات الدولية الواجبة التطبيق بشأن حماية جميع النساء والأطفال، والفتيات على وجه الخصوص، وتنفيذ هذا القانون وغيره من القوانين حسب الاقتضاء لمكافحة العنف الجنسي والجنساني، بما في ذلك زواج الأطفال والزواج المبكر والقسري وجميع أشكال تشويه الأعضاء التناسلية الأنثوية، مع ضمان محاسبة المسؤولين عن أعمال العنف والاستغلال والاعتداء ذات الطالع الجنسي والجنساني، بصرف النظر عن وضعهم أو رتبتهم؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ع">
+            <num>(ع)</num>
+            <content eId="para_151_list_point_ع_content">
+              <p xml:space="preserve">	مواصلة الاعتراف بأهمية الحوار الشامل للجميع وعمليات المصالحة المحلية من أجل تحقيق الاستقرار في الصومال، بما في ذلك في سياق إطار وعملية المصالحة الوطنية، ويدعو الحكومة الفيدرالية والولايات الأعضاء في الفيدرالية إلى تعزيز القيادة والمشاركة في تخفيف التوترات والدخول في حوار بناء؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ف">
+            <num>(ف)</num>
+            <content eId="para_151_list_point_ف_content">
+              <p xml:space="preserve">	زيادة الدعم والموارد المخصصة للوزارات والمؤسسات المسؤولة عن إقامة العدل وحماية حقوق الإنسان، لا سيما وزارة النهوض بالأسرة وحقوق الإنسان على المستوى الفيدرالي وعلى مستوى الولايات، ويدعو الشركاء المانحين إلى تكثيف جهودهم في سبيل دعم الأولويات التي حددتها وزارة النهوض بالأسرة وحقوق الإنسان، والتي تعتبر ضرورية لتحقيق أهداف فعالة وقائمة على النتائج تتماشى مع أهداف الانتقال التي أبرزها هذا القرار؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ص">
+            <num>(ص)</num>
+            <content eId="para_151_list_point_ص_content">
+              <p xml:space="preserve">	النظر في الانضمام إلى اتفاقية القضاء على جميع أشكال التمييز ضد المرأة واتفاقية منع جريمة الإبادة الجماعية والمعاقبة عليها، والتصديق عليهما؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ق">
+            <num>(ق)</num>
+            <content eId="para_151_list_point_ق_content">
+              <p xml:space="preserve">	الوفاء بالالتزام المتعهد به في مؤتمر القمة العالمي المعني بقضايا الإعاقة، الذي عقد يومي 16 و17 شباط/فبراير 2022، لا سيما بدعم عمل الوكالة الوطنية المعنية بالإعاقة، وفقاً لاتفاقية حقوق الأشخاص ذوي الإعاقة وبالتشاور مع منظمات الأشخاص ذوي الإعاقة؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ر">
+            <num>(ر)</num>
+            <content eId="para_151_list_point_ر_content">
+              <p xml:space="preserve">	مواءمة سياسات الدولة وأطرها القانونية على الصعيد الوطني وعلى صعيد الولايات الأعضاء في الفيدرالية مع الالتزامات السارية المتعلقة بحقوق الإنسان والالتزامات السارية الأخرى؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ش">
+            <num>(ش)</num>
+            <content eId="para_151_list_point_ش_content">
+              <p xml:space="preserve">	معاملة المقاتلين السابقين معاملة تتفق مع الالتزامات السارية بموجب القوانين الوطنية والدولية، وخاصة القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ت">
+            <num>(ت)</num>
+            <content eId="para_151_list_point_ت_content">
+              <p xml:space="preserve">	تنفيذ إعلان نيروبي بشأن الحلول الدائمة للاجئي الصومال وإعادة إدماج العائدين في الصومال، المعتمد في 25 آذار/مارس 2017؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ث">
+            <num>(ث)</num>
+            <content eId="para_151_list_point_ث_content">
+              <p xml:space="preserve">	النهوض برفاه جميع الأشخاص النازحين داخلياً وحمايتهم، بما في ذلك حمايتهم من العنف الجنسي والعنف الجنساني، وكذلك من الاستغلال والاعتداء من جانب الموظفين الحكوميين أو الدوليين المدنيين منهم والعسكريين، من عمليات الإخلاء القسري، وتيسير إعادة الإدماج الطوعي أو العودة الطوعية لجميع النازحين داخلياً، بمن فيهم أضعف الفئات، في إطار يكفل سلامتهم وكرامتهم، وضمان إجراء عملية تشاورية كاملة وتوخي أفضل الممارسات لإعادة التوطين، وتوفير مواقع تتيح الوصول الآمن إلى الأغذية الأساسية ومياه الشرب، والمأوى والسكن الأساسيين، والملبس اللائق، والخدمات الطبية والمرافق الصحية الأساسية؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_خ">
+            <num>(خ)</num>
+            <content eId="para_151_list_point_خ_content">
+              <p xml:space="preserve">	كفالة تمكّن المنظمات الإنسانية من أن توصل خدماتها إلى من يحتاج إليها بصورة آمنة ومستمرة ودون تأخير أو عوائق، والاعتراف بحالة الضعف الشديد التي يعيشها النازحون داخلياً، وتيسير وصول المساعدة الإنسانية بصورة آمنة ومستمرة ودون تأخير أو عوائق إلى المحتاجين، أينما كانوا في الصومال، وضمان حياد الجهات الفاعلة في مجال العمل الإنساني ونزاهتها واستقلاليتها إزاء التدخلات السياسية والاقتصادية والعسكرية، مع مواصلة مراعاة احتياجات أفراد أقليات إثنية الذين تستدعي أوضاعهم مدّهم بمساعدة إنسانية؛</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_ذ">
+            <num>(ذ)</num>
+            <content eId="para_151_list_point_ذ_content">
+              <p xml:space="preserve">	اعتبار الأطفال الذين يسرَّحون من القوات المسلحة والجماعات المسلحة أو يفصلون عنها بطرق أخرى ضحايا في المقام الأول وفقاً للقواعد والمبادئ التوجيهية المتعلقة بالأطفال المرتبطين بالقوات المسلحة أو الجماعات المسلحة، التي أقرتها حكومة الصومال الفيدرالية، والكف عن احتجاز الأطفال بتهم تتعلق بالأمن القومي عندما يشكل هذا الاحتجاز انتهاكاً للقانون الدولي الساري، وإقرار مشروع قانون قضاء الأحداث من أجل تقنين الحد الأدنى لسن المسؤولية الجنائية في الصومال؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_168" class="SingleTxtGA">
+        <num>18-</num>
+        <content eId="para_168__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد </span>أهمية اضطلاع بعثة الاتحاد الأفريقي الانتقالية للصومال بولايتها في كامل أنحاء الصومال، وضرورة تعزيز التآزر بين أعمالها وأعمال مفوضية الأمم المتحدة السامية لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_186" class="SingleTxtGA">
+        <num>19-</num>
+        <content eId="para_186__content">
+          <p xml:space="preserve">	<span class="italic">يشيد </span>بمشاركة الخبيرة المستقلة المعنية بحالة حقوق الإنسان في الصومال، وبتسهيل حكومة الصومال الفيدرالية زيارتها في أيار/مايو 2024؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_205" class="SingleTxtGA">
+        <num>20-</num>
+        <content eId="para_205__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> تجديد ولاية الخبيرة المستقلة المعنية بحالة حقوق الإنسان في الصومال، في إطار البند 10 من جدول الأعمال، لمدة سنة واحدة من أجل تقييم حالة حقوق الإنسان في الصومال ورصدها وإعداد تقارير بشأنها، بهدف تقديم توصيات بشأن المساعدة التقنية وبناء القدرات في ميدان حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_225" class="SingleTxtGA">
+        <num>21-</num>
+        <content eId="para_225__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على أهمية دور الخبراء الوطنيين والدوليين والحكومة الفيدرالية في الرصد المشترك لحالة حقوق الإنسان في الصومال وإعداد التقارير بشأنها، والدور الحيوي الذي يمكن أن تضطلع به الجهات المعنية برصد حقوق الإنسان في تقييم مشاريع المساعدة التقنية وضمان نجاحها، وهي مشاريع يجب أن تعود هي الأخرى بالنفع على جميع الصوماليين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_246" class="SingleTxtGA">
+        <num>22-</num>
+        <content eId="para_246__content">
+          <p xml:space="preserve">	<span class="italic">يقر</span> بدعوة حكومة الصومال الفيدرالية إلى وضع عملية انتقالية مع الشركاء لتيسير تنفيذ التزامات الصومال وتعهداته الوطنية والدولية في مجال حقوق الإنسان، بما في ذلك معايير حقوق الإنسان التي وضعتها الخبيرة المستقلة، والتوصيات المقبولة في إطار عملية الاستعراض الدوري الشامل، وغيرها من الالتزامات المتعلقة بحقوق الإنسان المبينة في هذا القرار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_268" class="SingleTxtGA">
+        <num>23-</num>
+        <content eId="para_268__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على أن تجديد ولاية الخبيرة المستقلة يشكل جزءاً من عملية الانتقال نحو زيادة تعاون حكومة الصومال الفيدرالية مع المفوضية السامية وغير ذلك من الإجراءات الخاصة لمجلس حقوق الإنسان وآليات حقوق الإنسان، بهدف تحديد مجالات بناء القدرات والمساعدة التقنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_291" class="SingleTxtGA">
+        <num>24-</num>
+        <content eId="para_291__content">
+          <p xml:space="preserve">	<span class="italic">يهيب </span>بحكومة الصومال الاتحادية أن تعمل عن كثب مع الخبيرة المستقلة وبعثة الأمم المتحدة لتقديم المساعدة إلى الصومال والشركاء الدوليين والمفوضية السامية والمجتمع المدني بشأن الخطة الانتقالية، ويطلب إلى الخبيرة المستقلة أن تدرج آخر المستجدات بشأن هذه المرحلة الانتقالية في تقريرها المقبل إلى مجلس حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_315" class="SingleTxtGA">
+        <num>25-</num>
+        <content eId="para_315__content">
+          <p xml:space="preserve">	<span class="italic">يقر</span> بدعوة حكومة الصومال الفيدرالية إلى بذل مزيد من جهود المساعدة التقنية وبناء القدرات لدعم أولويات الحكومة في تنفيذ معاييرها والتوصيات التي قبلها الصومال في سياق الجولة الثالثة من الاستعراض الدوري الشامل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_340" class="SingleTxtGA">
+        <num>26-</num>
+        <content eId="para_340__content">
+          <p xml:space="preserve">	<span class="italic">يقر أيضاً</span> بالتقدم الذي أحرزه الصومال وبتعاونه مع هيئات الأمم المتحدة، بما فيها المفوضية السامية وولاية الخبيرة المستقلة منذ إنشائها في عام 1993، ويسلم كذلك بأن حالة حقوق الإنسان في الصومال تحدد الإجراء الأنسب الذي يتعين على مجلس حقوق الإنسان اتخاذه، ويرحب في هذا الصدد بخطة الانتقال نحو مشاركة مواضيعية أعمق مع الإجراءات الخاصة للمجلس وسائر الخبراء، ومع المفوضية السامية، على نحو ما اقترحته الخبيرة المستقلة، بالتعاون مع حكومة الصومال الاتحادية، في أحدث تقرير لها<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">((	<a href="https://undocs.org/ar/A/HRC/54/78">A/HRC/54/78</a>.</p></authorialNote><sup>)</sup> ضمنته خطوات ومعايير واضحة يُسترشد بها في إجراءات المتابعة المناسبة التي يتخذها مجلس حقوق الإنسان، مع مراعاة توصيات الخبيرة المستقلة والتزامات الصومال في مجال حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_366" class="SingleTxtGA">
+        <num>27-</num>
+        <list eId="para_366_list">
+          <intro eId="para_366_list_intro">
+            <p xml:space="preserve">	<span class="italic">يطلب</span> إلى الخبيرة المستقلة أن تواصل العمل عن كثب مع الحكومة الفيدرالية وغيرها من السلطات المعنية على الصعيدين الوطني ودون الوطني، ومع جميع هيئات الأمم المتحدة، بما فيها بعثة الأمم المتحدة لتقديم المساعدة إلى الصومال، والاتحاد الأفريقي، وبعثة الاتحاد الأفريقي الانتقالية في الصومال، والهيئة الحكومية الدولية المعنية بالتنمية، وغيرها من المنظمات الدولية ذات الصلة، والمجتمع المدني وجميع آليات حقوق الإنسان ذات الصلة، وأن تساعد الصومال في تنفيذ ما يلي:</p>
+          </intro>
+          <point eId="para_366_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_366_list_point_أ_content">
+              <p xml:space="preserve">	التزاماته الوطنية والدولية في مجال حقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_366_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_366_list_point_ب_content">
+              <p xml:space="preserve">	قرارات مجلس حقوق الإنسان وغيرها من صكوك حقوق الإنسان، بما يشمل التقارير المعتادة ذات الصلة بالموضوع؛</p>
+            </content>
+          </point>
+          <point eId="para_366_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_366_list_point_ج_content">
+              <p xml:space="preserve">	التوصيات المقبولة في سياق الاستعراض الدوري الشامل؛</p>
+            </content>
+          </point>
+          <point eId="para_366_list_point_د">
+            <num>(د)</num>
+            <content eId="para_366_list_point_د_content">
+              <p xml:space="preserve">	الالتزامات والسياسات والتشريعات الأخرى المتعلقة بحقوق الإنسان والرامية إلى تعزيز فرص تمكين المرأة والشباب وأفراد الفئات المهمشة، مثل عشائر الأقليات، وتعزيز حرية التعبير والتجمع وتكوين الجمعيات، وحماية وسائط الإعلام والمجتمع المدني، بمن في ذلك النساء المشاركات في بناء السلام، وإمكانية وصول النساء وأفراد الأقليات إلى العدالة والمساءلة عن انتهاكات حقوق الإنسان الخاصة بهم، وبناء قدرات الوزارات والمؤسسات المسؤولة عن إقامة العدل وحماية حقوق الإنسان؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_393" class="SingleTxtGA">
+        <num>28-</num>
+        <content eId="para_393__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً </span>بالخيارات التي عرضتها الخبيرة المستقلة في تقريرها الأخير فيما يتعلق بالتعديلات الممكن إدخالها على نطاق الولاية من أجل الاستجابة على نحو أفضل إلى احتياجات حكومة الصومال الفيدرالية من المساعدة التقنية، استناداً إلى تقييم يجري بالتعاون مع الحكومة وجميع الجهات ذات المصلحة، بمن فيها الجهات الفاعلة ذات الصلة في الأمم المتحدة، بغية تنقيح مجال تركيز الولاية ونطاقها وتحسين قدرتها على دعم البلد في جهوده الرامية إلى تحسين حالة حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_421" class="SingleTxtGA">
+        <num>29-</num>
+        <content eId="para_421__content">
+          <p xml:space="preserve">	<span class="italic">يطلب </span>إلى الخبيرة المستقلة أن تقدم تقريراً إلى مجلس حقوق الإنسان في دورته الستين وإلى الجمعية العامة في دورتها الثمانين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_450" class="SingleTxtGA">
+        <num>30-</num>
+        <content eId="para_450__content">
+          <p xml:space="preserve">	<span class="italic">يطلب أيضاً </span>إلى الخبيرة المستقلة أن تقدم إلى مجلس حقوق الإنسان آخر المستجدات في تقريرها عن التقدم المحرز في تنفيذ المعايير والمؤشرات الواردة في الخطة الانتقالية ليسترشد بها المجلس في الإجراءات التي سيتخذها في المستقبل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_480" class="SingleTxtGA">
+        <num>31-</num>
+        <content eId="para_480__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المفوضية السامية وسائر وكالات الأمم المتحدة ذات الصلة أن تزود الخبيرة المستقلة بكل ما يلزم من مساعدة بشرية وتقنية ومالية لتضطلع بولايتها على أكمل وجه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_511" class="SingleTxtGA">
+        <num>32-</num>
+        <content eId="para_511__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يبقي المسألة قيد نظره الفعلي.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48" refersTo="#adoptionMeeting">الجلسة 48</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 تشرين الأول/أكتوبر 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedRecordedVote">
+            <quantity normalized="0" refersTo="#inFavour">0</quantity>
+            <quantity normalized="0" refersTo="#against">0</quantity>
+            <quantity normalized="0" refersTo="#abstaining">0</quantity>
+            <outcome refersTo="inFavour">
+              <eol />
+              <organization refersTo="memberState"></organization>
+            </outcome>
+            <outcome refersTo="against">
+              <eol />
+              <organization refersTo="memberState"></organization>
+            </outcome>
+            <outcome refersTo="abstaining">
+              <eol />
+              <organization refersTo="memberState"></organization>
+            </outcome>
+          </outcome>
+        </vote>
+      </p>
+    </conclusions>
+    <mainBody>
+      <paragraph eId="para_513" class="SingleTxtGA">
+        <content eId="para_513__content">
+          <p xml:space="preserve">]اعتمد من دون تصويت.[</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
