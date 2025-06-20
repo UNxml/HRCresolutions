@@ -1,0 +1,233 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/spa@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/spa@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Kunming-Montreal Global Biodiversity Framework (2022)" showAs="Kunming-Montreal Global Biodiversity Framework (2022)" dictionary="DHLAUTH"></keyword>
+        <keyword value="BIOLOGICAL DIVERSITY" href="http://metadata.un.org/thesaurus/1000612" showAs="BIOLOGICAL DIVERSITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMMES OF ACTION" href="http://metadata.un.org/thesaurus/1005175" showAs="PROGRAMMES OF ACTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPORT PREPARATION" href="http://metadata.un.org/thesaurus/1005485" showAs="REPORT PREPARATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-04" outcome="draftResolution" as="A/HRC/57/L.26" by="Armenia, Belgium, Colombia, Costa Rica, Croatia, Ecuador, Ireland, Luxembourg, Marshall Islands, Namibia, Peru, Portugal, Samoa and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted without vote, 49th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="spanish" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/28</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 de octubre de 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">57º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 septiembre</date>
+          <date date="2024-10-11" refersTo="#endDate">11 octubre 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Tema 3 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promoción y protección de todos los derechos humanos,  civiles, políticos, económicos, sociales y culturales,  incluido el derecho al desarrollo</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos  el 11 de octubre de 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/28.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Biodiversidad y derechos humanos</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Guiado" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Guiado</span> por los propósitos y principios de la Carta de las Naciones Unidas, la Declaración Universal de Derechos Humanos, los Pactos Internacionales de Derechos Humanos y otros instrumentos pertinentes, y reafirmando la importancia del Convenio sobre la Diversidad Biológica,</p>
+      </container>
+      <container name="Reafirmando" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando</span> la importancia de la Declaración de Río sobre el Medio Ambiente y el Desarrollo y sus principios para hacer frente a la pérdida de biodiversidad y a la degradación ambiental, así como a sus repercusiones negativas en el disfrute de los derechos humanos por todas las personas,</p>
+      </container>
+      <container name="Recordando" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> la Agenda 2030 para el Desarrollo Sostenible y la promesa contenida en ella de no dejar a nadie atrás, incluidos, entre otros, los Objetivos de Desarrollo Sostenible 14, de conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos, y 15, de detener la pérdida de biodiversidad,</p>
+      </container>
+      <container name="Recordando también" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando también</span> el Marco Mundial de Biodiversidad de Kunming-Montreal, adoptado en la 15ª reunión de la Conferencia de las Partes en el Convenio sobre la Diversidad Biológica, incluida su sección C, en la que se pide, entre otras cosas, que el Marco se implemente, con inclusión de su visión, misión, objetivos y metas, de conformidad con un enfoque basado en los derechos humanos y con las decisiones de la Conferencia de las Partes 15/5, sobre el marco de seguimiento para el Marco Mundial de Biodiversidad de Kunming-Montreal, 15/6, sobre mecanismos para la planificación, el seguimiento, la presentación de informes y la revisión, 15/7, sobre movilización de recursos, y 15/8, sobre creación y desarrollo de capacidad y cooperación científica y técnica,</p>
+      </container>
+      <container name="Recordando además" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando además</span> la resolución 48/13 del Consejo de Derechos Humanos, de 8 de octubre de 2021, y la resolución 76/300 de la Asamblea General, de 28 de julio de 2022, sobre el derecho humano a un medio ambiente limpio, saludable y sostenible,</p>
+      </container>
+      <container name="Recordando" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, en la que se reconoce que el respeto de los conocimientos, las culturas y las prácticas tradicionales indígenas contribuye al desarrollo sostenible y equitativo y a la ordenación adecuada del medio ambiente, y reconociendo que la falta de protección de la biodiversidad y la degradación ambiental tienen consecuencias adversas para los derechos humanos, así como un impacto negativo en la preservación de los conocimientos tradicionales y el patrimonio cultural, las expresiones, las identidades y la calidad de vida de los Pueblos Indígenas, así como de otras comunidades que dependen de la biodiversidad,</p>
+      </container>
+      <container name="Reconociendo" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> que la pérdida de biodiversidad y la disminución de los servicios proporcionados por los ecosistemas pueden tener un impacto negativo en el disfrute del derecho a un medio ambiente limpio, saludable y sostenible, lo que tiene efectos adversos, tanto directos como indirectos, en el disfrute efectivo de todos los derechos humanos, así como en la salvaguarda de las necesidades e intereses de las generaciones futuras,</p>
+      </container>
+      <container name="Reconociendo" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> que los efectos adversos del cambio climático, la degradación ambiental y la pérdida de biodiversidad son con frecuencia el resultado de pautas existentes de discriminación y desigualdad, que afectan especialmente a las personas en situación de vulnerabilidad, y contribuyen a reforzar estas pautas,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo también </span>que los defensores de los derechos humanos que se ocupan de cuestiones relativas al medio ambiente, conocidos como defensores de los derechos humanos ambientales, realizan una contribución positiva, importante y legítima a la promoción y protección de todos los derechos humanos, y expresando su profunda preocupación por las formas múltiples e interseccionales de violencia y discriminación contra los defensores de los derechos humanos ambientales, en particular las mujeres, niñas e indígenas defensores de estos derechos,</p>
+      </container>
+      <container name="Tomando nota" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Tomando nota</span> de instrumentos internacionales como la Convención sobre el Acceso a la Información, la Participación del Público en la Toma de Decisiones y el Acceso a la Justicia en Asuntos Ambientales, que protege a los defensores del medio ambiente, y el Acuerdo Regional sobre el Acceso a la Información, la Participación Pública y el Acceso a la Justicia en Asuntos Ambientales en América Latina y el Caribe (Acuerdo de Escazú), que protege a los defensores de los derechos humanos ambientales,</p>
+      </container>
+      <container name="Tomando nota también" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Tomando nota también </span>de las orientaciones sobre la integración de los derechos humanos en las estrategias y planes de acción nacionales en materia de diversidad biológica, formuladas por el Grupo de Gestión Ambiental de las Naciones Unidas,</p>
+      </container>
+      <container name="Aguardando con interés" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Aguardando con interés</span> que la 16ª reunión de la Conferencia de las Partes en el Convenio sobre la Diversidad Biológica, que se celebrará en Cali (Colombia) del 21 de octubre al 1 de noviembre de 2024, dé lugar a compromisos más ambiciosos, en consonancia con su objetivo de lograr la paz con la naturaleza,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos que aumente su apoyo, asistencia técnica y fomento de la capacidad para que los Estados, con su consentimiento, apliquen enfoques que integren la promoción y protección de los derechos humanos en el contexto de la conservación de la diversidad biológica, la utilización sostenible de sus componentes y la participación justa y equitativa en los beneficios que se deriven de la utilización de los recursos genéticos, teniendo en cuenta un enfoque que responda a las cuestiones de género y basándose en su labor anterior en esta esfera, en particular colaborando con las instituciones nacionales de derechos humanos, los mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento, los representantes de los Pueblos Indígenas y otras partes interesadas, así como con los equipos de las Naciones Unidas en los países, de conformidad con las obligaciones contraídas en virtud del derecho internacional de los derechos humanos, y solicita al Secretario General que siga reforzando la capacidad específica de la Oficina del Alto Comisionado a nivel regional para prestar ese mayor apoyo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> el fortalecimiento de los medios de aplicación, así como de todas las formas de cooperación técnica y científica, con miras a contribuir a la implementación plena y efectiva del Marco Mundial de Biodiversidad de Kunming-Montreal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Alto Comisionado de las Naciones Unidas para los Derechos Humanos que, en consulta con los Estados, los procedimientos especiales del Consejo de Derechos Humanos, el Programa de las Naciones Unidas para el Medio Ambiente, la Secretaría del Convenio sobre la Diversidad Biológica y otras organizaciones internacionales y órganos intergubernamentales pertinentes, incluida la Plataforma Intergubernamental Científico-Normativa sobre Diversidad Biológica y Servicios de los Ecosistemas, realice un estudio analítico mundial sobre la aplicación de un enfoque basado en los derechos humanos a los objetivos y metas del Marco Mundial de Biodiversidad de Kunming-Montreal, de conformidad con las disposiciones del Convenio, en consonancia con las consideraciones expuestas en la sección C del Marco y teniendo en cuenta los resultados de la 16ª reunión de la Conferencia de las Partes en el Convenio, y lo presente al Consejo en su 61<sup>er</sup> período de sesiones, y solicita también al Alto Comisionado que dicho informe esté disponible en formatos accesibles, entre los que se incluyan versiones de lectura fácil;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a la Oficina del Alto Comisionado a que colabore con otras organizaciones y órganos pertinentes de las Naciones Unidas, incluidos el Programa de las Naciones Unidas para el Medio Ambiente y la Secretaría del Convenio sobre la Diversidad Biológica, así como con los Pueblos Indígenas, los afrodescendientes, los campesinos, las comunidades rurales y locales, los defensores de los derechos humanos ambientales, las mujeres y las personas y grupos en situación de vulnerabilidad, incluidas las personas de edad, las personas con discapacidad, los jóvenes y los niños, en la promoción de iniciativas en materia de biodiversidad basadas en los derechos humanos.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="49ª" refersTo="#adoptionMeeting">49ª sesión</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 de octubre de 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
