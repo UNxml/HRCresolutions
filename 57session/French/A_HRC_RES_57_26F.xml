@@ -1,0 +1,236 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-26/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-26/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-26/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-26/fra@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-26/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-26/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MARSHALL ISLANDS" href="http://metadata.un.org/thesaurus/1003963" showAs="MARSHALL ISLANDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NUCLEAR WEAPON TESTS" href="http://metadata.un.org/thesaurus/1004519" showAs="NUCLEAR WEAPON TESTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL HEALTH" href="http://metadata.un.org/thesaurus/1002073" showAs="ENVIRONMENTAL HEALTH" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CAPACITY BUILDING" href="http://metadata.un.org/thesaurus/1000797" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-04" outcome="draftResolution" as="A/HRC/57/L.14" by="Australia, Austria, Costa Rica, Fiji, Germany, Ireland, Kazakhstan, Kiribati, Luxembourg, Malta, Marshall Islands, Micronesia (Federated States of), Nauru, Netherlands (Kingdom of the), New Zealand, Philippines, Samoa and Vanuatu" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 48th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/26</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 octobre 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Cinquante-septième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 septembre</date>
+          <date date="2024-10-11" refersTo="#endDate">11 octobre 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Point 10 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Assistance technique et renforcement des capacités</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 10 octobre 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/26.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Assistance technique et renforcement des capacités pour faire face  aux incidences sur les droits de l’homme des essais nucléaires menés dans les Îles Marshall</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guidé </span>par la Charte des Nations Unies et la Déclaration universelle des droits de l’homme,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> le Pacte international relatif aux droits civils et politiques, le Pacte international relatif aux droits économiques, sociaux et culturels et les autres instruments internationaux pertinents relatifs aux droits de l’homme,</p>
+      </container>
+      <container name="Rappelant" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> sa résolution <a href="http://undocs.org/fr/A/HRC/RES/51/35">51/3</a><a href="http://undocs.org/fr/A/HRC/RES/51/35">5</a>, du 7 octobre 2022, sur l’assistance technique et le renforcement des capacités pour faire face aux incidences sur les droits de l’homme des essais nucléaires menés dans les Îles Marshall,</p>
+      </container>
+      <container name="Constatant avec préoccupation" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Constatant avec préoccupation</span> que la crise de liquidités du budget ordinaire de l’Organisation des Nations Unies a des conséquences négatives sur ses travaux ainsi que sur ceux du Haut-Commissariat des Nations Unies aux droits de l’homme, y compris pour ce qui est de l’application de sa résolution <a href="http://undocs.org/fr/A/HRC/RES/51/35">51/35</a>,</p>
+      </container>
+      <container name="Notant avec satisfaction" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Notant avec satisfaction</span> que le Haut-Commissariat, le Gouvernement des Îles Marshall et les autres États coopèrent de manière constructive en ce qui concerne l’application de sa résolution <a href="http://undocs.org/fr/A/HRC/RES/51/35">51/35</a>,</p>
+      </container>
+      <container name="Notant" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Notant</span> la coopération entre le Haut-Commissariat et le Gouvernement des États-Unis d’Amérique, et prenant note des préoccupations exprimées par les États-Unis d’Amérique,</p>
+      </container>
+      <container name="Rappelan" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Rappelan</span>t le rapport du Rapporteur spécial sur les incidences sur les droits de l’homme de la gestion et de l’élimination écologiquement rationnelles des produits et déchets dangereux sur sa mission aux Îles Marshall<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/21/48/Add.1">A/HRC/21/48/Add.1</a>.</p></authorialNote>, dans lequel le Rapporteur spécial a indiqué que les essais nucléaires menés aux Îles Marshall avaient eu des effets immédiats et continus sur les droits de l’homme et entraîné des décès et de graves complications sanitaires, et que les radiations avaient entraîné une contamination de l’environnement et la perte de moyens de subsistance et de terres,</p>
+      </container>
+      <container name="Rappelant également" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> le rapport du Rapporteur spécial sur la question des obligations relatives aux droits de l’homme se rapportant aux moyens de bénéficier d’un environnement sûr, propre, sain et durable portant sur l’environnement non toxique<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/49/53">A/HRC/49/53</a>.</p></authorialNote>, dans lequel le Rapporteur spécial a indiqué que la population des Îles Marshall continuait de subir les effets délétères des radiations libérées par des essais nucléaires, ce qui avait provoqué des taux élevés de cancers, de malformations congénitales et de traumatismes psychiques qui perduraient à ce jour, et qu’on constatait chez les Marshallaises un taux d’incidence disproportionné de cancers de la thyroïde, d’autres types de cancer et de problèmes de santé reproductive,</p>
+      </container>
+      <container name="Ayant examiné" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Ayant examiné</span> le rapport du Haut-Commissariat sur les difficultés et les obstacles qui entravent la pleine réalisation et le plein exercice des droits de l’homme du peuple marshallais et qui découlent de l’héritage du nucléaire<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/57/77">A/HRC/57/77</a>.</p></authorialNote>, dans lequel celui‑ci a indiqué que l’héritage du nucléaire n’était pas un simple chapitre historique, mais une réalité permanente pour le peuple marshallais, et a recommandé à l’Organisation des Nations Unies de continuer, par l’intermédiaire du Conseil des droits de l’homme, de fournir une assistance technique et un appui au renforcement des capacités des Îles Marshall et d’élaborer des rapports ultérieurs sur les mesures de justice transitionnelle visant à faire face aux incidences de l’héritage du nucléaire sur les droits de l’homme par une approche interjuridictionnelle, interdisciplinaire et tenant compte des questions de genre,</p>
+      </container>
+      <container name="Notant" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Notant</span> la résolution <a href="http://undocs.org/fr/A/RES/78/240">78/240</a> de l’Assemblée générale, du 22 décembre 2023, intitulée « Le lourd héritage des armes nucléaires : assistance aux victimes et remise en état de l’environnement dans les États Membres touchés par l’emploi ou la mise à l’essai d’armes nucléaires »,</p>
+      </container>
+      <container name="Prenant note avec satisfaction" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Prenant note avec satisfaction</span> de la note d’orientation du Secrétaire général, du 11 octobre 2023, intitulée « Transitional justice: a strategic tool for people, prevention and peace » (La justice transitionnelle : un outil stratégique au service des personnes, de la prévention et de la paix),</p>
+      </container>
+      <container name="Notant avec satisfaction" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Notant avec satisfaction</span> la solidarité régionale du Forum des îles du Pacifique au sujet de la question de l’héritage du nucléaire dans le Pacifique, notamment dans les Îles Marshall, ainsi que la mise en place du groupe spécial du Conseil des organisations régionales du Pacifique sur les questions relatives à l’héritage du nucléaire.</p>
+      </container>
+      <container name="Rappelant" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> sa résolution <a href="http://undocs.org/fr/A/HRC/RES/48/13">48/13</a>, du 8 octobre 2021, et la résolution <a href="http://undocs.org/fr/A/RES/76/300">76/300</a> de l’Assemblée générale, du 28 juillet 2022, et réaffirmant qu’un environnement propre, sain et durable est essentiel à la jouissance de tous les droits de l’homme,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"> 	<span class="italic">Réaffirme</span> qu’il importe de remédier aux effets néfastes de l’héritage du nucléaire sur la réalisation et la jouissance des droits de l’homme par le peuple marshallais ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> les États, tous les organismes compétents des Nations Unies, agissant comme une seule organisation, ainsi que les autres parties prenantes à appuyer les efforts du Gouvernement des Îles Marshall visant à améliorer la santé de sa population et de son environnement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> au Haut-Commissariat des Nations Unies aux droits de l’homme de coopérer avec le Gouvernement des Îles Marshall dans le domaine des droits de l’homme en fournissant une assistance technique et un appui au renforcement des capacités de la Commission nucléaire nationale des Îles Marshall pour lui permettre de poursuivre sa stratégie visant à obtenir justice en lien avec les essais nucléaires et de déterminer ses besoins en matière d’assistance technique et de renforcement des capacités nécessaires à la mise en œuvre d’un mécanisme de justice transitionnelle s’agissant des conséquences des essais nucléaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande également</span> au Haut-Commissariat d’établir un rapport sur les difficultés et les obstacles qui entravent la pleine réalisation et le plein exercice des droits de l’homme du peuple marshallais et qui découlent de l’héritage du nucléaire, et de le lui soumettre à sa soixante-troisième session, la présentation de ce rapport devant être suivie d’un dialogue renforcé auquel participera la Commission nucléaire nationale des Îles Marshall ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande en outre</span> au Haut-Commissariat de solliciter, aux fins de l’élaboration du rapport susmentionné, les vues du Gouvernement des Îles Marshall et de sa Commission nucléaire nationale, des États, des titulaires de mandat de l’Organisation des Nations Unies concernés, des organismes, fonds et programmes des Nations Unies concernés, des organisations non gouvernementales et d’autres parties prenantes, notamment la société civile, la diaspora marshallaise, les peuples autochtones, les représentants de la jeunesse et les communautés touchées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide</span> de rester saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48e" refersTo="#adoptionMeeting">48e séance</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 octobre 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
