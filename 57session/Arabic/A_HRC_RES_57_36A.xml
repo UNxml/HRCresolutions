@@ -1,0 +1,389 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-36/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-36/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-36/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-36/ara@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-36/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-36/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Independent International Fact-Finding Mission on Venezuela" showAs="UN. Human Rights Council. Independent International Fact-Finding Mission on Venezuela" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="VENEZUELA (BOLIVARIAN REPUBLIC OF)" href="http://metadata.un.org/thesaurus/1006860" showAs="VENEZUELA (BOLIVARIAN REPUBLIC OF)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CIVIL AND POLITICAL RIGHTS" href="http://metadata.un.org/thesaurus/1000998" showAs="CIVIL AND POLITICAL RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FACT-FINDING MISSIONS" href="http://metadata.un.org/thesaurus/1002224" showAs="FACT-FINDING MISSIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="4" showAs="Human rights situations that require the Council's attention." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-04" outcome="draftResolution" as="A/HRC/57/L.8" by="Albania, Argentina, Australia, Austria, Belgium, Canada, Chile, Costa Rica, Croatia, Czechia, Denmark, Ecuador, Estonia, Finland, France, Georgia, Germany, Greece, Guatemala, Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Monaco, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Paraguay, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Ukraine, United Kingdom of Great Britain and Northern Ireland, United States of America and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted 23-6-18, 50th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/36</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">الدورة السابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 أيلول</date>
+          <date date="2024-10-11" refersTo="#endDate">11 تشرين الأول 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline name="agenda item"></inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 11 تشرين الأول/أكتوبر 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/36</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">		حالة حقوق الإنسان في جمهورية فنزويلا البوليفارية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بميثاق الأمم المتحدة، والإعلان العالمي لحقوق الإنسان، والعهدين الدوليين الخاصين بحقوق الإنسان، وغير ذلك من صكوك حقوق الإنسان الدولية ذات الصلة،</p>
+      </container>
+      <container name="وإذ يؤكّد من جديد" eId="container_3">
+          <p xml:space="preserve">	<span class="italic">وإذ يؤكّد من جديد</span> أن الدول هي المسؤولة الأولى عن تعزيز وحماية واحترام وإعمال حقوق الإنسان والحريات الأساسية المكفولة لسكانها، وعن الوفاء بالتزاماتها بموجب المعاهدات والاتفاقات وغيرها من الصكوك المتعلقة بحقوق الإنسان التي تكون أطرافاً فيها، وكذات بالتزاماتها المتعلقة بحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى قرارات مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/39/1">39/1</a> المؤرخ 27 أيلول/سبتمبر 2018، و<a href="https://undocs.org/ar/A/HRC/RES/42/25">42</a><a href="https://undocs.org/ar/A/HRC/RES/42/25">/</a><a href="https://undocs.org/ar/A/HRC/RES/42/25">25</a> المؤرخ 27 أيلول/سبتمبر 2019، و<a href="https://undocs.org/ar/A/HRC/RES/45/20">45/20</a> المؤرخ 6 تشرين الأول/أكتوبر 2020، و<a href="https://undocs.org/ar/A/HRC/RES/51/29">51</a><a href="https://undocs.org/ar/A/HRC/RES/51/29">/</a><a href="https://undocs.org/ar/A/HRC/RES/51/29">29</a> المؤرخ 3 تشرين الأول/أكتوبر 2022 بشأن جمهورية فنزويلا البوليفارية، وكذا قراريه <a href="https://undocs.org/ar/A/HRC/RES/42/4">42</a><a href="https://undocs.org/ar/A/HRC/RES/42/4">/</a><a href="https://undocs.org/ar/A/HRC/RES/42/4">4</a> المؤرخ 26 أيلول/ سبتمبر 2019، و<a href="https://undocs.org/ar/A/HRC/RES/45/2">45</a><a href="https://undocs.org/ar/A/HRC/RES/45/2">/</a><a href="https://undocs.org/ar/A/HRC/RES/45/2">2</a> المؤرخ 6 تشرين الأول/أكتوبر 2020، اللذين حظيا بتأييد البلد المعني،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى الاتفاق الجزئي بشأن تعزيز الحقوق السياسية والضمانات الانتخابية للجميع، الموقّع في بربادوس في 17 تشرين الأول/أكتوبر 2023،</p>
+      </container>
+      <container name="وإذ يرحّب" eId="container_6">
+          <p xml:space="preserve">	<span class="italic">وإذ يرحّب</span> بتقارير مفوضة الأمم المتحدة السامية لحقوق الإنسان<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/47/55">A/HRC/47/55</a>، و<a href="https://undocs.org/ar/A/HRC/48/19">A/HRC/48/19</a>، و<a href="https://undocs.org/ar/A/HRC/50/59">A/HRC/50/59</a>، و<a href="https://undocs.org/ar/A/HRC/53/54">A/HRC/53/54</a>، و<a href="https://undocs.org/ar/A/HRC/56/63">A/HRC/56/63</a>.</p></authorialNote><sup>)</sup> والبعثة الدولية المستقلة لتقصي الحقائق بشأن جمهورية فنزويلا البوليفارية<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/48/69">A/HRC/48/69</a>، و<a href="https://undocs.org/ar/A/HRC/51/43">A/HRC/51/43</a>، و<a href="https://undocs.org/ar/A/HRC/54/57">A/HRC/54/57</a>، و<a href="https://undocs.org/ar/A/HRC/57/57">A/HRC/57/57</a>.</p></authorialNote><sup>)</sup>، وغيرها من المنظمات والآليات الدولية، وإذ يعرب عن بالغ قلقه إزاء ما تكشفه هذه التقارير من استمرار للانتهاكات والتجاوزات الخطيرة لحقوق الإنسان في جمهورية فنزويلا البوليفارية،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه</span> لأن الأزمة الحالية لا تزال تؤثر تأثيراً مفرطاً على حقوق النساء، والأطفال، وكبار السن، والأشخاص ذوي الإعاقة، والمهاجرين، واللاجئين وملتمسي اللجوء، وأفراد الشعوب الأصلية، وبخاصة في منطقة "أركو مينيرو ديل أورينوكو"، وغيرهم من الأشخاص المنتمين إلى فئات ضعيفة،</p>
+      </container>
+      <container name="وإذ يُعرب عن بالغ قلقه" eId="container_8">
+          <p xml:space="preserve">	<span class="italic">وإذ يُعرب عن بالغ قلقه</span> إزاء الأزمة الإنسانية التي طال أمدها وأجبرت أكثر من 7,7 ملايين شخص على مغادرة جمهورية فنزويلا البوليفارية، وإزاء استمرار حاجة أكثر 7,6 ملايين شخص داخل البلد إلى المساعدة الإنسانية بسبب الأزمة السياسية والاقتصادية الحالية،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_9">
+        <p xml:space="preserve">	وإذ يقر بضرورة تجنب العوائق التي تتعارض مع القانون الدولي، بما في ذلك ميثاق الأمم المتحدة، وتُفاقِم التحديات القائمة فعلا وتؤثر سلبا في التمتع بحقوق الإنسان وبالمساعدة الإنسانية،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> بالجهود المكثفة والمتواصلة التي تبذلها البلدان المجاورة وبلدان أخرى، وبخاصة في المنطقة، لاستضافة المهاجرين واللاجئين وملتمسي اللجوء الفنزويليين، لا سيما عن طريق وضع وتنفيذ برامج لإدماج الفنزويليين في المجتمعات المضيفة بغرض تعزيز وحماية حقوق الإنسان الخاصة بهم، وتوفير المساعدة الإنسانية التي تقدمها الأمم المتحدة والمنظمات الإنسانية الأخرى والبلدان الشريكة، باستخدام سبل تنسيق مختلفة تشمل عملية كيتو، ومنبر التنسيق المشترك بين الوكالات للاجئين والمهاجرين من فنزويلا، والمؤتمرات الدولية للتضامن مع اللاجئين والمهاجرين الفنزويليين والبلدان والمجتمعات المضيفة لهم، وإذ يؤكد على ضرورة تعزيز التعاون الدولي مع البلدان المضيفة للمهاجرين واللاجئين وملتمسي اللجوء الفنزويليين وبلدان عبورهم، وإذ يشجع البلدان المضيفة على أن تواصل مكافحة ما يستهدفهم من عنصرية وتمييز عنصري وكره للأجانب وما يتصل بذلك من تعصب،</p>
+      </container>
+      <container name="وإذ يثير جزعه" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يثير جزعه</span> استمرار ورود تقارير عن تفاقم انتهاكات وتجاوزات حقوق الإنسان وتزايد إجراءات تقييد الحيز المدني والديمقراطي، لا سيما في سياق الانتخابات الرئاسية، بما في ذلك الحرمان التعسفي من الحياة، والارتفاع الكبير للاعتقالات التعسفية، التي قد يرقى بعضها إلى حالات اختفاء قسري، والاستخدام المفرط للقوة من قبل موظفين مكلفين بإنفاذ القانون وأفراد مسلحين معروفين باسم كولكتيفوس <span class="italic">"colectivos"</span>، وممارسة الترهيب والاعتداء والمضايقة والانتقام، بطرق منها إلغاء جوازات السفر، والتشهير العلني بزعماء المعارضة، والمتظاهرين السلميين، والصحفيين وغيرهم من العاملين في وسائل الإعلام، والمحامين، والمدافعين عن حقوق الإنسان، والأشخاص الذين اشتغلوا في العملية الانتخابية، بما في ذلك كمراقبين للانتخابات، وأفراد الشعوب الأصلية، وغيرهم من أصحاب المصلحة في المجتمع المدني،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يساوره بالغ القلق</span> إزاء جميع انتهاكات وتجاوزات حقوق الإنسان المرتكبة ضد الأشخاص بسبب ممارسة حقوق الإنسان والحريات الأساسية الخاصة بهم على شبكة الإنترنت، ويشعر بالجزع إزاء التقارير التي تتحدث عن إغلاق وسائل الإعلام وعن مراقبة المواقع والمنصات الرقمية وحجبها وإغلاقها،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن بالغ القلق</span> إزاء التقارير التي صدرت مؤخراً بشأن احتجاز أطفال ومراهقين اتُّهموا بنفس الجرائم الخطيرة التي يتّهم بها أشخاص بالغون، ولم يرافقهم آباؤهم أو أوصياؤهم خلال الإجراءات القضائية، وإذ يشير إلى العناصر التي حددتها لجنة حقوق الطفل في تعليقها العام رقم 24(2019) بشأن حقوق الطفل في نظام قضاء الأطفال،</p>
+      </container>
+      <container name="وإذ يعرب عن أسفه الشديد" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن أسفه الشديد</span> لقرار جمهورية فنزويلا البوليفارية القاضي بتعليق أنشطة وحضور مفوضية الأمم المتحدة السامية لحقوق الإنسان في البلد، والمخالف لرسالة التفاهم السرية بين المفوضية السامية وجمهورية فنزويلا البوليفارية، كما أبرز ذلك المفوض السامي في تحديثه المقدم إلى مجلس حقوق الإنسان في 7 تموز/يوليه 2024،</p>
+      </container>
+      <container name="وإذ يلاحظ مع التقدير" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ مع التقدير</span> إنشاء مكتب للمدعي العام للمحكمة الجنائية الدولية في جمهورية فنزويلا البوليفارية واستئناف المدعي العام تحقيقاته بموجب المادة 18(2) من نظام روما الأساسي للمحكمة الجنائية الدولية،</p>
+      </container>
+      <container name="وإذ يؤكّد" eId="container_16">
+          <p xml:space="preserve">	<span class="italic">وإذ يؤكّد</span> اقتناعه الراسخ أن حل الأزمة الراهنة في جمهورية فنزويلا البوليفارية لا يمكن إلا أن يكون سلمياً وديمقراطياً وأن هذا الحل يقع بيد الشعب الفنزويلي ولا يحتاج إلى أي تدخل عسكري أو أمني أو استخباراتي أجنبي، وإذ يعرب عن دعمه للجهود الدبلوماسية ذات الصلة في هذا الصدد،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يحيط علماً</span> بالشواغل التي أعرب عنها فريق خبراء الأمم المتحدة في تقريره المؤقت عن الانتخابات الرئاسية الفنزويلية لعام 2024 وبما وثقه من مخالفات فيها، وإذ يؤكد من جديد أن بلوغ حل تقوده فنزويلا يتطلب احترام إرادة الشعب الفنزويلي من خلال تنظيم انتخابات ديمقراطية حرة ونزيهة تمتثل المعايير الدولية، والتحقق من الإجراءات الانتخابية، والنشر الشفاف لنتائج الانتخابات كما أفرزها كل مركز اقتراع على حدة، وتنفيذها،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">يدين بشدة</span> جميع انتهاكات وتجاوزات القانون الدولي لحقوق الإنسان في جمهورية فنزويلا البوليفارية، التي قد يرقى بعضها، وفقاً للبعثة الدولية المستقلة لتقصي الحقائق، إلى جرائم ضد الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> جمهورية فنزويلا البوليفارية على التنفيذ الكامل والفوري للتوصيات الواردة في التقارير الأخيرة لمفوض الأمم المتحدة السامي لحقوق الإنسان والبعثة الدولية المستقلة لتقصي الحقائق، وعلى التحقيق في جميع انتهاكات وتجاوزات حقوق الإنسان ومساءلة المتورطين فيها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">يحثّ أيضاً</span> جمهورية فنزويلا البوليفارية على احترام وحماية وإعمال حق المواطنين في المشاركة في إدارة الشؤون العامة وحقهم في حرية التعبير والتجمع السلمي وتكوين الجمعيات، ويحثّها على وقف أعمال القمع والاضطهاد المحدّدة الهدف التي ينفَّذها جهازاً الأمن والاستخبارات لأسباب سياسية، بطرق منها الاستخدام المفرط للقوة، والاحتجاز التعسفي للأشخاص، بمن فيهم الأطفال والمراهقون، والتعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، والإعدام خارج نطاق القضاء، والاختفاء القسري، ووقف التدخل في استقلالية الأحزاب السياسية وتكوينها، ووقف إقصاء المرشحين المعارضين من العمليات الانتخابية وفرض قيود إضافية على الحيز المدني والديمقراطي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> جمهورية فنزويلا البوليفارية إلى الوقف الفوري لجميع أعمال الترهيب والاعتداء والمضايقة والمراقبة والانتقام والتشهير العلني التي تستهدف زعماء المعارضة، والمتظاهرين السلميين، والصحفيين وغيرهم من العاملين في وسائل الإعلام، والمحامين، والمدافعين عن حقوق الإنسان والأشخاص الذين اشتغلوا في العملية الانتخابية بما في ذلك كمراقبين للانتخابات، وأفراد الشعوب الأصلية، وغيرهم من أصحاب المصلحة في المجتمع المدني، ويدعوها أيضاً، في هذا الصدد، إلى وقف إغلاق وسائل الإعلام دون مبرر وانتهاك حقوق الإنسان على شبكة الإنترنت، بطرق منها حجب المواقع الإلكترونية والمنصات الرقمية وإغلاقها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> جميع أصحاب المصلحة والجهات السياسية والاجتماعية الفاعلة إلى الامتناع عن أعمال العنف والقمع التي قد تُهدد الحل السلمي للأزمة الفنزويلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">ويحث</span> جمهورية فنزويلا البوليفارية على الإفراج الفوري وغير المشروط عن جميع المحتجزين تعسفاً، بمن فيهم السجناء السياسيون، مع إعطاء الأولوية لمن هم في أوضاع هشة ومن تجاوزت مدة احتجازهم الاحتياطي الحدود المنصوص عليها في القانون الوطني، وكفالة ضمانات عدم التكرار، ويحثّها أيضاً على تحسين ظروف الاحتجاز واحترام ضمانات الإجراءات القانونية الواجبة والمحاكمة العادلة لجميع المحتجزين، بما في ذلك الاتصال بمحامٍ من اختيارهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> جمهورية فنزويلا البوليفارية أيضاً على اتخاذ تدابير مناسبة من أجل التصدي لانتهاكات وتجاوزات حقوق الإنسان المبلّغ عنها مثل أعمال العنف والتحرش، بما فيها العنف الجنسي والجنساني، التي تستهدف النساء والفتيات المحتجزات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> جمهورية فنزويلا البوليفارية إلى ضمان أن تمتثل التشريعات الجنائية، ولا سيما تشريعات مكافحة الإرهاب، وإجراءات تطبيقها، القانون الدولي لحقوق الإنسان امتثالاً كاملاً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">يشجب</span> اعتماد تشريعات تقيد حق المواطنين في المشاركة في إدارة الشؤون العامة وحقهم في حرية التعبير والتجمع السلمي وتكوين الجمعيات، ويدعو جمهورية فنزويلا البوليفارية إلى الامتناع عن اعتماد تشريعات قد تزيد من تقييد حقوق الإنسان هذه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن بالغ القلق</span> لأن استمرار تراجع سيادة القانون وانعدام الأمن الوظيفي وعدم شفافية عملية تعيين القضاة والمدّعين العامين، وهشاشة ظروف العمل، والتدخل السياسي، بما في ذلك تعيين قضاة غير مستقلين في المحكمة العليا، أمورٌ لا تزال تقوّض استقلالية نظام العدالة، وتسهم في الإفلات من العقاب واستمرار انتهاكات وتجاوزات حقوق الإنسان، وتؤثر في إمكانية وصول الضحايا إلى العدالة، وتعرقل إجراء انتخابات حرة ونزيهة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> الأطراف في جمهورية فنزويلا البوليفارية إلى المشاركة في تحضير عملية تكفل إجراء انتخابات محلية وإقليمية وتشريعية حرة ونزيهة، تحت إشراف مجلس انتخابي وطني مستقل ومحكمة عليا مستقلة ومحايدة، وفي جو يتيح الحرية التامة للصحافة والمشاركة السياسية غير المقيدة لجميع الفنزويليين وجميع الأحزاب السياسية، دون الخوف من أي تبعات أو تدخل، بما يحترم المعايير الدولية والحقوق المدنية والسياسية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> جمهورية فنزويلا البوليفارية إلى حماية المرافق الدبلوماسية والموظفين الدبلوماسيين المقيمين في الأراضي الفنزويلية، بمن فيهم الأفراد الذين يلتمسون اللجوء في هذه المرافق، بما يتفق مع القانون الدولي، ولا سيما اتفاقية فيينا للعلاقات الدبلوماسية واتفاقية فيينا للعلاقات القنصلية، مع مراعاة حقوق الإنسان لجميع الأفراد، بمن فيهم ملتمسو اللجوء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه البالغ</span> إزاء حالة حقوق الإنسان والحالة البيئية في منطقة "أركو مينيرو ديل أورينوكو"، ويحث جمهورية فنزويلا البوليفارية على وقف جميع انتهاكات وتجاوزات حقوق الإنسان في هذه المنطقة، بما فيها تلك المتعلقة باستغلال عمال المناجم في العمل، واستغلال عمالة الطفل، والاختفاء، والاتجار بالبشر، وأشكال الرق المعاصرة، وانتهاكات وتجاوزات حقوق الشعوب الأصلية، وعلى التحقيق فيها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المفوض السامي أن يواصل رصد حالة حقوق الإنسان في جمهورية فنزويلا البوليفارية وتقديم تقارير عنها وتوفير التعاون التقني بغرض تحسينها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve">	<span class="italic">يطلب أيضاً</span> إلى المفوض السامي أن يقدم تحديثاً شفوياً إلى مجلس حقوق الإنسان في دورتيه الثامنة والخمسين والحادية والستين، وأن يقدم إليه تحديثات شفوية تعقبها جلسة تحاور قبل نهاية عام 2024 وقبل نهاية عام 2025، وأن يقدم تقريراً شاملاً عن حالة حقوق الإنسان في جمهورية فنزويلا البوليفارية، يتضمن تقييماً مفصلاً لتنفيذ التوصيات الواردة في التقارير السابقة، إلى المجلس لينظر فيه في دورتيه التاسعة والخمسين والثانية والستين، على أن تعقب ذلك جلسة تحاور؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxtGA">
+        <num>16-</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يمدد، لمدة سنتين، ولاية البعثة الدولية المستقلة لتقصي الحقائق بشأن جمهورية فنزويلا البوليفارية، على النحو المبيّن في قرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/45/20">45</a><a href="https://undocs.org/ar/A/HRC/RES/45/20">/</a><a href="https://undocs.org/ar/A/HRC/RES/45/20">20</a>، لتمكين البعثة من مواصلة التحقيق في الانتهاكات الجسيمة لحقوق الإنسان منذ عام 2014، بما فيها حالات الإعدام خارج نطاق القضاء وحالات الاختفاء القسري والاحتجاز التعسفي والتعذيب وغيره من ضروب المعاملة القاسية أو اللاإنسانية أو المهينة، لا سيما تلك التي تنطوي على عنف جنسي وجنساني، بهدف مكافحة الإفلات من العقاب وضمان المساءلة الكاملة للجناة وتحقيق العدالة للضحايا، مع تركيز خاص على حالة حقوق الإنسان في جمهورية فنزويلا البوليفارية في فترة ما قبل الانتخابات الرئاسية لعام 2024 وأثناءها وبعدها، وعلى العنف الذي يمارسه الأفراد المسلحون المعروفون باسم "كوليكتيفوس"؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="SingleTxtGA">
+        <num>17-</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى بعثة تقصي الحقائق أن تقدم تحديثاً شفوياً عن عملها إلى مجلس حقوق الإنسان، تعقبه جلسة تحاور في دورتيه الثامنة والخمسين والحادية والستين، وأن تقدم إليه تقريراً عن النتائج التي توصلت إليها وتوصياتها بشأن إجراءات المجلس المستقبلية، تعقبه جلسة تحاور في دورتيه الستين والثالثة والستين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="SingleTxtGA">
+        <num>18-</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> جمهورية فنزويلا البوليفارية على استئناف التعاون كلياً مع مفوضية الأمم السامية لحقوق الإنسان وبعثة تقصي الحقائق، وعلى أن تتيح لهما إمكانية الوصول الفوري والكامل وغير المقيد إلى البلد بأسره، بما في ذلك إلى الضحايا وأماكن الاحتجاز، وأن تزودهما بجميع المعلومات اللازمة للاضطلاع بولايتيهما، وأن تكفل إمكانية وصول جميع الأفراد دون عوائق إلى الأمم المتحدة وغيرها من هيئات حقوق الإنسان وتواصلهم معها دون خوف من الانتقام أو التخويف أو الاعتداء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_189" class="SingleTxtGA">
+        <num>19-</num>
+        <content eId="para_189__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> جمهورية فنزويلا البوليفارية كذلك على التعاون كلياً مع المحكمة الجنائية الدولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="SingleTxtGA">
+        <num>20-</num>
+        <content eId="para_208__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المفوضية السامية أن تواصل جهودها الرامية إلى حماية حقوق الإنسان للمهاجرين واللاجئين من جمهورية فنزويلا البوليفارية، وأن تعزز في هذا الصدد التدابير الفعالة وأفضل الممارسات، بالتعاون مع مفوضية الأمم المتحدة السامية لشؤون اللاجئين والمنظمة الدولية للهجرة وغيرهما من الوكالات ذات الصلة، ويدعو جميع أصحاب المصلحة المعنيين إلى تعزيز التعاون الدولي مع البلدان المضيفة للمهاجرين واللاجئين وملتمسي اللجوء الفنزويليين وبلدان عبورهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_228" class="SingleTxtGA">
+        <num>21-</num>
+        <content eId="para_228__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> تزويد كل من المفوضية السامية والبعثة الدولية المستقلة لتقصي الحقائق، في الوقت المناسب، بجميع الموارد اللازمة وبكل الدعم الإداري والتقني واللوجستي اللازم لاضطلاع كل منهما بولايته؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_249" class="SingleTxtGA">
+        <num>22-</num>
+        <content eId="para_249__content">
+          <p xml:space="preserve">	<span class="italic">يشجّع</span> الإجراءات الخاصة ذات الصلة لمجلس حقوق الإنسان على إيلاء اهتمام خاص، كل في إطار ولايته، لحالة حقوق الإنسان في جمهورية فنزويلا البوليفارية، ويحث جمهورية فنزويلا البوليفارية على التعاون الكامل مع أنشطتها، بسُبل منها تيسير الزيارات القطرية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_271" class="SingleTxtGA">
+        <num>23-</num>
+        <content eId="para_271__content">
+          <p xml:space="preserve">	<span class="italic">يقرّر</span> أن يبقي المسألة قيد نظره الفعلي.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="50" refersTo="#adoptionMeeting">الجلسة 50</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 تشرين الأول/أكتوبر 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedRecordedVote">[اعتُمِد بتصويت مسجّل بأغلبية <quantity normalized="23" refersTo="#inFavour">23</quantity> صوتاً مقابل <quantity normalized="6" refersTo="#against">6</quantity> أصوات وامتناع <quantity normalized="18" refersTo="#abstaining">18</quantity> عضواً عن التصويت. وكانت نتيجة التصويت كما يلي: <outcome refersTo="inFavour">المؤيدون:<eol /><organization refersTo="memberState"></organization></outcome><outcome refersTo="against">المعارضون:<eol /><organization refersTo="memberState"></organization></outcome><outcome refersTo="abstaining">الممتنعون عن التصويت:<eol /><organization refersTo="memberState"></organization></outcome></outcome>
+        </vote>
+      </p>
+    </conclusions>
+    <mainBody>
+      <paragraph eId="para_273" class="SingleTxtGA">
+        <content eId="para_273__content">
+          <p xml:space="preserve">[اعتُمِد بتصويت مسجّل بأغلبية 23 صوتاً مقابل 6 أصوات وامتناع 18 عضواً عن التصويت. وكانت نتيجة التصويت كما يلي: </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="SingleTxtGA">
+        <content eId="para_274__content">
+          <p xml:space="preserve">
+            <span class="italic">المؤيدون:</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_275" class="SingleTxtGA">
+        <content eId="para_275__content">
+          <p xml:space="preserve">الأرجنتين، ألبانيا، ألمانيا، باراغواي، بلجيكا، بلغاريا، الجبل الأسود، الجمهورية الدومينيكية، جورجيا، رومانيا، شيلي، الصومال، غامبيا، فرنسا، فنلندا، كوستاريكا، لكسمبرغ، ليتوانيا، المغرب، ملاوي، مملكة هولندا، الولايات المتحدة الأمريكية، اليابان</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_276" class="SingleTxtGA">
+        <content eId="para_276__content">
+          <p xml:space="preserve">
+            <span class="italic">المعارضون:</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxtGA">
+        <content eId="para_277__content">
+          <p xml:space="preserve">إريتريا، الجزائر، السودان، الصين، فييت نام، كوبا</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_278" class="SingleTxtGA">
+        <content eId="para_278__content">
+          <p xml:space="preserve">
+            <span class="italic">الممتنعون عن التصويت:</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_279" class="SingleTxtGA">
+        <content eId="para_279__content">
+          <p xml:space="preserve">الإمارات العربية المتحدة، إندونيسيا، البرازيل، بنغلاديش، بنن، بوروندي، جنوب أفريقيا، غانا، قطر، قيرغيزستان، كازاخستان، الكاميرون، كوت ديفوار، الكويت، ماليزيا، ملديف، الهند، هندوراس</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
