@@ -1,0 +1,350 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-30/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-30/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-30/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-30/zho@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-30/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-30/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="World Youth Programme of Action to the Year 2000 and Beyond (1995)" showAs="World Youth Programme of Action to the Year 2000 and Beyond (1995)" dictionary="DHLAUTH"></keyword>
+        <keyword value="YOUTH" href="http://metadata.un.org/thesaurus/1007107" showAs="YOUTH" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DECISION-MAKING" href="http://metadata.un.org/thesaurus/1001535" showAs="DECISION-MAKING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACE" href="http://metadata.un.org/thesaurus/1004769" showAs="PEACE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MENTAL HEALTH" href="http://metadata.un.org/thesaurus/1004041" showAs="MENTAL HEALTH" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-04" outcome="draftResolution" as="A/HRC/57/L.30" by="Albania, Andorra, Armenia, Belgium, Bulgaria, Chile, Costa Rica, Côte d’Ivoire, Croatia, Cyprus, Ecuador, Egypt, El Salvador, France, Georgia, Greece, Guatemala, Israel, Italy, Japan, Lithuania, Luxembourg, Malta, Marshall Islands, Monaco, Montenegro, Morocco, Namibia, North Macedonia, Paraguay, Peru, Philippines, Portugal, Republic of Moldova, Romania, San Marino, Spain, Tunisia and Uzbekistan" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 49th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/30</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">第五十七届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 九月</date>
+          <date date="2024-10-11" refersTo="#endDate">11 十月 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、 经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2024年10月11日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/30.</docNumber>
+        <docTitle refersTo="#resolutionTitle">青年与人权</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会，</span>
+        </p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve"> <span class="bold">遵循</span>《联合国宪章》的宗旨和原则，</p>
+      </container>
+      <container name="回顾" eId="container_3">
+        <p xml:space="preserve"> <span class="bold">回顾</span>《世界人权宣言》及有关国际人权文书，包括《公民及政治权利国际公约》、《经济社会文化权利国际公约》、《消除对妇女一切形式歧视公约》、《消除一切形式种族歧视公约》、《残疾人权利公约》和《儿童权利公约》，</p>
+      </container>
+      <container name="又回顾" eId="container_4">
+        <p xml:space="preserve"> <span class="bold">又回顾</span>《维也纳宣言和行动纲领》，其中指出，所有人权都是普遍、不可分割、相互关联、相互依存、相辅相成的，必须以公正和平等的方式，在同样的基础上，以同样的重视程度，对待所有人权，</p>
+      </container>
+      <container name="还回顾" eId="container_5">
+        <p xml:space="preserve"> <span class="bold">还回顾</span>人权理事会关于青年与人权的2016年6月30日第32/1号决议、2017年6月22日第35/14号决议、2019年7月11日第41/13号决议和2022年10月6日第51/17号决议，以及2021年10月8日关于2019冠状病毒病(COVID-19)大流行对青年人人权的影响的第48/12号决议，</p>
+      </container>
+      <container name="回顾" eId="container_6">
+        <p xml:space="preserve"> <span class="bold">回顾</span>以往所有有关决议，包括最近一项决议――大会2023年12月19日关于有关青年的政策和方案的第78/179号决议、大会通过《到2000年及其后世界青年行动纲领》的1995年12月14日第50/81号决议及之后的2007年12月18日第62/126号决议，</p>
+      </container>
+      <container name="承认" eId="container_7">
+        <p xml:space="preserve"> <span class="bold">承认</span>《世界青年行动纲领》为改善青年人境况的国家行动和国际支持提供了政策框架和实用准则，</p>
+      </container>
+      <container name="回顾" eId="container_8">
+        <p xml:space="preserve"> <span class="bold">回顾</span>1998年8月在里斯本举行的主管青年事务部长世界会议，以及2019年6月同在里斯本举办的2019年主管青年事务部长世界会议和里斯本青年论坛+21,又回顾会议和论坛《关于青年政策和方案的宣言》，尤其是以下内容：赋权青年及其代表，承诺保护、尊重和实现所有青年的人权和基本自由，保护处境最不利和处于弱势的青年，推动制定指标以评估青年政策和方案的影响，</p>
+      </container>
+      <container name="鼓励" eId="container_9">
+        <p xml:space="preserve"> <span class="bold">鼓励</span>各国切实实施《2030年可持续发展议程》，重申有必要制定并实施各种战略，让世界各地的青年人，包括处于弱势的青年人真正有机会充分、有效和切实参与社会，参与政治、经济、社会和文化领域的相关决策进程和监测工作，包括参与制定和实施各项政策、方案和举措，尤其是旨在执行《2030年议程》的政策、方案和举措，</p>
+      </container>
+      <container name="回顾" eId="container_10">
+        <p xml:space="preserve"> <span class="bold">回顾</span>大会在2015年5月29日举行高级别活动，纪念《世界青年行动纲领》二十周年，该活动提供了重要机会，使各国和其他相关利益攸关方能够总结《行动纲领》的执行进展，同时确定存在的差距和挑战以及充分、有效和加速执行《行动纲领》的前进路线，</p>
+      </container>
+      <container name="欢迎" eId="container_11">
+        <p xml:space="preserve"> <span class="bold">欢迎</span>大会2021年11月15日关于落实秘书长题为“我们的共同议程”的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/ch/A/75/982">A/75/982</a>。</p></authorialNote> 的第76/6号决议，注意到秘书长人权行动呼吁，</p>
+      </container>
+      <container name="又欢迎" eId="container_12">
+        <p xml:space="preserve"> <span class="bold">又欢迎</span>2023年9月人权理事会第五十四届会议根据理事会第51/17号决议举行的题为“青年人参与气候变化和全球环境决策进程”的小组讨论会，以及联合国人权事务高级专员办事处编写的小组讨论会纪要报告<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="http://undocs.org/ch/A/HRC/55/40">A/HRC/55/40</a>。</p></authorialNote>，</p>
+      </container>
+      <container name="注意到" eId="container_13">
+        <p xml:space="preserve"> <span class="bold">注意到</span>联合国人权事务高级专员根据人权理事会第51/17号决议编写的关于促进年轻人数字教育并确保他们免受在线威胁的解决方案的报告<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<a href="http://undocs.org/ch/A/HRC/57/28">A/HRC/57/28</a>。</p></authorialNote>，</p>
+      </container>
+      <container name="欢迎" eId="container_14">
+        <p xml:space="preserve"> <span class="bold">欢迎</span>大会2022年9月8日关于设立联合国青年办公室的第76/306号决议，其中规定设立联合国青年办公室，作为秘书处内专门负责青年事务的办公室，将秘书长青年特使办公室并入其中，并欢迎该办公室在满足青年人需求、将青年人作为联合国的跨领域优先事项方面所作的工作，</p>
+      </container>
+      <container name="认识到" eId="container_15">
+        <p xml:space="preserve"> <span class="bold">认识到</span>面向青年的人权教育，特别是关于平等和不歧视的教育，对于建设包容与和平的社会十分重要，并赞赏地注意到以青年为重点的世界人权教育方案第四阶段(2020-2024年)行动计划<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		联合国和联合国教育、科学及文化组织，《世界人权教育方案：第四阶段行动计划》(纽约和日内瓦，2022年)。</p></authorialNote>，</p>
+      </container>
+      <container name="注意到" eId="container_16">
+        <p xml:space="preserve"> <span class="bold">注意到</span>2018年9月在联合国总部举行的高级别活动上推出的题为“青年2030：与青年合作，为青年服务”的联合国青年战略，这是一个赋权青年和推进所有人权的工具，</p>
+      </container>
+      <container name="又注意到" eId="container_17">
+        <p xml:space="preserve"> <span class="bold">又注意到</span>近期在国际、区域和次区域各层面举办的与青年有关的会议、论坛和全球倡议提出的意见建议，特别是2017、2018、2019、2022和2023年在埃及沙姆沙伊赫举行的世界青年论坛提出的意见建议，</p>
+      </container>
+      <container name="还注意到" eId="container_18">
+        <p xml:space="preserve"> <span class="bold">还注意到</span>由“人权75”青年咨询小组牵头、在2023年12月11日和12日在日内瓦举行的“人权75倡议”高级别活动上发布的《“人权75”青年宣言》，欢迎该宣言呼吁青年切实参与公共事务和联合国人权机制，</p>
+      </container>
+      <container name="鼓励" eId="container_19">
+        <p xml:space="preserve"> <span class="bold">鼓励</span>高级专员、人权理事会特别程序、条约机构和其他有关国际和区域人权机制，以及主管青年事务助理秘书长领导下的联合国青年办公室在查明和消除青年享有人权所面临的障碍方面作出贡献，</p>
+      </container>
+      <container name="着重指出" eId="container_20">
+        <p xml:space="preserve"> <span class="bold">着重指出</span>青年能够在促进和平与安全、尤其是在执行青年与和平与安全议程、可持续发展和人权方面发挥重要作用，务必让青年积极、切实、安全和包容性地参与决策进程，</p>
+      </container>
+      <container name="强调" eId="container_21">
+        <p xml:space="preserve"> <span class="bold">强调</span>需要增强所有青年人的权能，以实现可持续发展，包括消除贫困，注意到2023年全球青年失业率为13.3%，远远超过成年人的3.9%，<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		国际劳工组织，《世界就业和社会展望：2024年趋势》(日内瓦，国际劳工组织，2024年)，第28页。</p></authorialNote> 并在这方面着重指出，《2030年可持续发展议程》承诺大幅减少未就业和未受教育或培训的青年人比例，还承诺制定和实施全球青年就业战略，</p>
+      </container>
+      <container name="回顾" eId="container_22">
+        <p xml:space="preserve"> <span class="bold">回顾</span>大会2021年12月16日第76/137号决议敦促会员国采取一切必要措施，打击针对青年人的一切形式的歧视、忽视、虐待和暴力，包括性暴力和性别暴力，并消除阻碍他们融入社会和充分、平等、切实、安全地参与的障碍，同时铭记青年充分享有所有人权和基本自由可增强他们的权能，使他们能够作为社会的积极成员为本国的政治、公民、经济、社会和文化发展作出贡献，</p>
+      </container>
+      <container name="表示关切" eId="container_23">
+        <p xml:space="preserve"> <span class="bold">表示关切</span>青年人，特别是生活在农村和偏远地区的青年人，在获得数字教育方面面临的障碍，尤其是数字鸿沟，包括无法获得适当的数字设备和服务及可靠的基础设施，这加剧了教育和社会不平等，影响他们充分和公平地参与社会，</p>
+      </container>
+      <container name="关切地注意到" eId="container_24">
+        <p xml:space="preserve"> <span class="bold">关切地注意到</span>残疾青年面临的显著障碍，包括污名、歧视、缺乏无障碍辅助器具和技术以及适配的数字平台，这危及他们以公平和包容的方式享有受教育的权利，</p>
+      </container>
+      <container name="表示关切" eId="container_25">
+        <p xml:space="preserve"> <span class="bold">表示关切</span>持续存在的性别数字鸿沟，农村和偏远地区的妇女和女童往往面临这种鸿沟，这限制了青年妇女获得数字教育和必要数字技能的机会，延续了性别不平等现象，并阻碍了青年妇女和女童获得就业和教育机会，</p>
+      </container>
+      <container name="又表示关切" eId="container_26">
+        <p xml:space="preserve"> <span class="bold">又表示关切</span>在新出现的网络安全威胁下，确保青年人个人数据安全的法律和监管框架存在漏洞，使青年人的隐私可能受到侵犯，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_27" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> 	<span class="bold">欢迎</span>联合国人权事务高级专员办事处处理青年事务的工作，回顾联合国人权事务高级专员的报告及其中所载关于加强促进和保护青年权利的建议<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		<a href="http://undocs.org/ch/A/HRC/39/33">A/HRC/39/33</a>。</p></authorialNote>；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="bold">强调指出</span>，平等机会、教育(包括数字素养)以及职业和技术培训至关重要，让青年获得终身学习机会和指导是实现青年人的所有人权的必要条件；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="bold">欢迎</span>大会决定在2025年大会第八十届会议一般性辩论期间举行为期一天的国家元首和政府首脑级大会高级别全体会议，并让青年充分有效地参与，纪念《到2000年及其后世界青年行动纲领》三十周年，以处理青年人在充分发挥潜力和实现人权方面仍然面临的挑战；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="bold">认识到</span>与其他年龄组相比，青年在体制政治进程和政策制定工作中的参与度和代表性较低，青年人在议会、政党和公共行政部门等政治机构中的比例偏低；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> 	<span class="bold">促请</span>各国与由青年领导和以青年为重点的组织协商，特别是在落实《2030年可持续发展议程》的过程中，推动新举措，促进青年人充分、有效、有条理、可持续、安全和切实地参与政治、经济、社会和文化领域的相关决策进程和监督工作，包括参与制订和实施政策、方案和举措；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve"> 	<span class="bold">吁请</span>所有国家促进和确保青年人充分享有所有人权和基本自由，包括采取措施打击年龄歧视，消除对残疾青年的排斥，打击忽视、虐待以及包括性暴力和性别暴力在内的暴力行为，并解决与妨碍青年融入社会和积极、充分、平等、切实、安全参与的障碍有关的问题，同时铭记青年人充分享有所有人权和基本自由可增强他们的权能，使他们能够作为社会的积极成员为本国的政治、公民、经济、社会和文化发展作出贡献；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve"> 	<span class="bold">促请</span>各国促进所有人机会平等，消除对青年人一切形式的歧视，包括基于年龄、种族、肤色、性别、残疾状况、语言、宗教、政治或其他见解、民族或社会出身、财产、出生或其他身份的歧视；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve"> 	<span class="bold">吁请</span>所有国家根据相关和适用的国际人权文书，保证为青年的切实参与提供安全有利的环境，充分尊重意见和表达自由权、和平集会自由权和结社自由权；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve"> 	<span class="bold">又吁请</span>所有国家采取必要步骤，确保青年人的表达自由权及安全在数字空间得到尊重，包括更好地让他们了解数字环境，开发方便青年的数字工具，并切实保护青年人免受网上威胁；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve"> 	<span class="bold">认识到</span>包括人工智能在内的新技术和新兴技术有潜力增强青年的权能并帮助他们充分发挥潜能；鼓励各国采取具体措施，确保青年人能够在数字空间安全地享有所有权利而不必担心受到恐吓，确保他们在权利受到侵犯时能够诉诸司法并获得有效补救；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve"> 	<span class="bold">吁请</span>所有国家和其他相关利益攸关方酌情考虑《世界人权教育方案》第四阶段(2020-2024)行动计划，制定面向青年的人权教育举措，并让青年作为重要伙伴参与这些努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve"> 	<span class="bold">促请</span>各国通过重申对妇女赋权和性别平等以及对所有妇女和女童人权的承诺，应对女童和青年妇女面临的挑战，在线上和线下消除使有害习俗等一切形式歧视和暴力侵害女童和青年妇女行为长期存在的性别成见，消除阻碍社会发展的男女定型角色，并推动、教育、鼓励和支持男子和男童促进性别平等；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve"> 	<span class="bold">又敦促</span>各国消除残疾青年面临的障碍，包括确保他们有机会在平等基础上获得生产性就业和体面工作、经济和金融资源以及包容残疾人、尤其涉及卫生和教育的基础设施和服务，并确保除其他外通过让残疾青年参与决策过程，在政策和方案中充分纳入他们的优先问题和需求，从而使其在与其他所有人平等的基础上积极参与公共、政治、经济、文化、社会和家庭生活的所有方面；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve"> 	<span class="bold">鼓励</span>各国与青年、由青年领导和以青年为重点的相关利益攸关方及社会发展伙伴进行包容性和参与式协商，推行连贯的青年相关政策，以便依据《世界青年行动纲领》和《2030年可持续发展议程》，制定综合、全面和包容性的青年政策和方案以及协调一致的跨部门行动，将人权纳入主流，并在各级贯彻落实《行动纲领》的过程中定期予以评估；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxtGC">
+        <num>15.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve"> 	<span class="bold">促请</span>各国考虑通过普遍定期审议和条约机构处理与青年充分和平等享有所有人权有关的问题，并分享各自在实现青年人人权方面得出的最佳做法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxtGC">
+        <num>16.</num>
+        <content eId="para_147__content">
+          <p xml:space="preserve"> 	<span class="bold">鼓励</span>各国、联合国各机构，特别是人权理事会和高级专员办事处，与主管青年事务助理秘书长领导下的联合国青年办公室广泛合作，实施联合国青年战略并开展其他以青年为重点的活动，以保证赋权青年并使青年充分享有人权；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxtGC">
+        <num>17.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve"> 	<span class="bold">决定</span>在人权理事会第六十届会议期间举行的下一次两年期小组讨论会的主题为青年在促进和平社会和创造人人享有人权的有利环境方面的作用，请高级专员办事处在与青年和由青年领导的组织协商后组办小组讨论会，并编写讨论会纪要报告，供理事会第六十一届会议审议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxtGC">
+        <num>18.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve"> 	<span class="bold">请</span>高级专员办事处与各国及包括联合国相关机构、联合国青年办公室、主管青年事务助理秘书长、条约机构、人权理事会特别程序、国家人权机构、民间社会和青年组织代表在内的相关利益攸关方协商，就精神健康挑战对青年人享有人权的影响开展一项详细的研究，并在理事会第六十三届会议之前将研究报告提交理事会审议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="SingleTxtGC">
+        <num>19.</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve"> 	<span class="bold">决定</span>继续处理此事。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第49次" refersTo="#adoptionMeeting">第49次会议</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">2024年10月11日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
