@@ -1,0 +1,327 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/fra@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CAPACITY BUILDING" href="http://metadata.un.org/thesaurus/1000797" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS INSTITUTIONS" href="http://metadata.un.org/thesaurus/1002981" showAs="HUMAN RIGHTS INSTITUTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-02" outcome="draftResolution" as="A/HRC/57/L.18" by="Armenia, Australia, Austria, Brazil, Chile, Colombia, Costa Rica, Croatia, Ecuador, Guatemala, Honduras, Iceland, Indonesia, Italy, Luxembourg, Malaysia, Malta, Marshall Islands, Morocco, Norway, Paraguay, Peru, Philippines, Portugal, Qatar, Samoa, Singapore, Spain, Thailand, Türkiye and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 49th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/32</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 octobre 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Cinquante-septième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 septembre</date>
+          <date date="2024-10-11" refersTo="#endDate">11 octobre 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Point 10 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Assistance technique et renforcement des capacités</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 11 octobre 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/32.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Amélioration de la coopération technique et du renforcement  des capacités dans le domaine des droits de l’homme</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guidé</span> par les buts et principes énoncés dans la Charte des Nations Unies, en particulier pour ce qui est d’instaurer une coopération internationale tendant à promouvoir et à favoriser le respect des droits de l’homme et des libertés fondamentales pour tous, sans distinction aucune, notamment de race, de couleur, de sexe, de langue, de religion, d’opinion politique ou de toute autre opinion, d’origine nationale ou sociale, de fortune, de naissance ou de toute autre situation,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> la Déclaration universelle des droits de l’homme et rappelant tous les instruments internationaux relatifs aux droits de l’homme pertinents, dont le Pacte international relatif aux droits économiques, sociaux et culturels et le Pacte international relatif aux droits civils et politiques,</p>
+      </container>
+      <container name="Conscient" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Conscient </span>que, dans le contexte de la coopération technique et du renforcement des capacités, l’amélioration de la coopération internationale est indispensable à la promotion, à la protection et à la réalisation effectives des droits de l’homme, qui devraient être fondées sur les principes de coopération et de dialogue authentique et tendre à renforcer la capacité des États de respecter, de protéger et de réaliser les droits de l’homme, de prévenir les violations des droits de l’homme et de s’acquitter des obligations qui leur incombent en matière de droits de l’homme dans l’intérêt de tous les êtres humains,</p>
+      </container>
+      <container name="Sachant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Sachant </span>qu’il a pour mandat, conformément à la résolution <a href="http://undocs.org/fr/A/RES/60/251">60/251</a> de l’Assemblée générale du 15 mars 2006, de promouvoir les services de conseil, l’assistance technique et le renforcement des capacités qui sont apportés en consultation et en accord avec les États concernés, et rappelant les dispositions de ses résolutions 5/1 et 5/2 du 18 juin 2007 et <a href="http://undocs.org/fr/A/HRC/RES/16/21">16/21</a> du 25 mars 2011, qui visent à lui donner les moyens de s’acquitter de ce mandat,</p>
+      </container>
+      <container name="Rappelant" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> toutes ses résolutions pertinentes sur l’amélioration de la coopération technique et du renforcement des capacités dans le domaine des droits de l’homme, sur les institutions nationales des droits de l’homme, sur la promotion de la coopération internationale à l’appui des mécanismes nationaux d’application, d’établissement des rapports et de suivi et sur la promotion et la protection des droits de l’homme et l’exécution du Programme de développement durable à l’horizon 2030,</p>
+      </container>
+      <container name="Rappelant également" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> sa résolution <a href="http://undocs.org/fr/A/HRC/RES/51/31">51/31</a> du 7 octobre 2022, dans laquelle il engage les États à créer des institutions nationales des droits de l’homme efficaces, indépendantes et pluralistes ou à renforcer les institutions existantes pour leur permettre de s’acquitter efficacement de leur mandat de promotion et de protection des droits de l’homme et des libertés fondamentales pour tous, comme le prévoient la Déclaration et le Programme d’action de Vienne, et à se conformer pour ce faire aux Principes concernant le statut des institutions nationales pour la promotion et la protection des droits de l’homme (Principes de Paris),</p>
+      </container>
+      <container name="Considérant" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> que, conformément à la Déclaration et au Programme d’action de Vienne, il appartient à chaque État de choisir, pour ses institutions nationales, le cadre le mieux adapté à ses propres besoins au niveau national,</p>
+      </container>
+      <container name="Rappelant" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> sa résolution <a href="http://undocs.org/fr/A/HRC/RES/51/33">51/33</a> du 7 octobre 2022, dans laquelle il engage les États à mettre en place des mécanismes nationaux d’application, d’établissement de rapports et de suivi, ou à renforcer ceux qui existent déjà, pour mieux s’acquitter de leurs obligations ou engagements ayant trait aux droits de l’homme, et à mettre en commun leurs meilleures pratiques et faire part de leur expérience concernant leur application pour l’élaboration de politiques publiques et de plans, à tous les niveaux,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> la résolution <a href="http://undocs.org/fr/A/RES/70/1">70/1</a> de l’Assemblée générale, du 25 septembre 2015, intitulée « Transformer notre monde : le Programme de développement durable à l’horizon 2030 », et rappelant les objectifs de développement durable, en particulier l’objectif n<sup>o</sup> 16, qui consiste à promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, à assurer l’accès de tous à la justice et à mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous,</p>
+      </container>
+      <container name="Prenant note" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Prenant note</span> de la contribution qu’apportent les mécanismes internationaux chargés des droits de l’homme, notamment les organes conventionnels, les titulaires de mandat au titre de ses procédures spéciales et l’Examen périodique universel, à la promotion de l’application du Programme 2030, compte tenu des obligations que les États ont souscrites et des engagements qu’ils ont pris de respecter, protéger et réaliser les droits de l’homme, et du rôle de la coopération technique et du renforcement des capacités à cet égard,</p>
+      </container>
+      <container name="Conscient" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Conscient</span> qu’il importe d’apporter, à l’échelon international, un soutien accru pour assurer le renforcement efficace et ciblé des capacités des pays en développement et appuyer ainsi les plans nationaux visant à atteindre tous les objectifs de développement durable,</p>
+      </container>
+      <container name="Soulignant" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> qu’il importe que les organismes compétents des Nations Unies, en particulier les équipes de pays des Nations Unies, dans le cadre de leurs mandats respectifs, intègrent la coopération technique et le renforcement des capacités dans le domaine des droits de l’homme dans leurs activités et programmes,</p>
+      </container>
+      <container name="Conscient" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Conscient </span>du rôle et de l’impact des activités des organismes des Nations Unies et des organisations internationales et régionales compétents, de la contribution des parties prenantes nationales, notamment les institutions nationales des droits de l’homme, les mécanismes nationaux d’application, d’établissement des rapports et de suivi et les organisations de la société civile, à la fourniture aux États d’un appui et d’une assistance techniques, en fonction des besoins et des demandes des États concernés, et du soutien apporté par les parlements nationaux à l’exécution par les États de leurs obligations en matière de droits de l’homme et des engagements qu’ils ont exprimés volontairement, y compris l’application des recommandations issues de l’Examen périodique universel qu’ils ont acceptées,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> que l’une des responsabilités du Haut-Commissaire des Nations Unies aux droits de l’homme et du Haut-Commissariat des Nations Unies aux droits de l’homme consiste à fournir des services consultatifs et une assistance technique, à la demande de l’État concerné, afin d’appuyer les actions menées et les programmes mis en œuvre dans le domaine des droits de l’homme, et à coordonner les activités touchant la promotion et la protection des droits de l’homme dans l’ensemble du système des Nations Unies, conformément au mandat du Haut-Commissariat,</p>
+      </container>
+      <container name="Saluant" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Saluant</span> le rôle important que jouent le Fonds de contributions volontaires des Nations Unies pour la coopération technique dans le domaine des droits de l’homme, le Fonds de contributions volontaires pour la participation à l’Examen périodique universel, le Fonds d’affectation spéciale pour l’assistance technique à l’appui de la participation des pays les moins avancés et des petits États insulaires en développement aux travaux du Conseil des droits de l’homme et le Fonds de contributions volontaires pour l’assistance financière et technique aux fins de l’application des recommandations issues de l’Examen périodique universel dans l’aide apportée aux États afin qu’ils renforcent leurs capacités nationales de sorte qu’ils puissent, dans les faits, s’acquitter de leurs obligations dans le domaine des droits de l’homme et appliquer les recommandations issues de l’Examen périodique universel qu’ils ont acceptées,</p>
+      </container>
+      <container name="Notant" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Notant</span> qu’un certain nombre d’États ont utilisé les fonds des Nations Unies compétents pour soutenir l’assistance technique et le renforcement des capacités dans le domaine des droits de l’homme afin de s’acquitter de leurs obligations et engagements en matière de droits de l’homme, et soulignant qu’il faut mieux faire connaître ces fonds, faire en sorte qu’il soit plus simple de les solliciter, et redoubler d’efforts pour renforcer leur complémentarité,</p>
+      </container>
+      <container name="Prenant note" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Prenant note</span> avec satisfaction des contributions que lui apportent le Conseil d’administration du Fonds de contributions volontaires des Nations Unies pour la coopération technique dans le domaine des droits de l’homme et le Conseil d’administration du Fonds de contributions volontaires pour l’assistance financière et technique aux fins de l’application des recommandations issues de l’Examen périodique universel, grâce aux rapports annuels qu’ils lui soumettent<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/56/78">A/HRC/56/78</a> et <a href="http://undocs.org/fr/A/HRC/56/18">A/HRC/56/18</a>.</p></authorialNote>, particulièrement en ce qui concerne les éléments de la coopération technique et la détermination des meilleures pratiques,</p>
+      </container>
+      <container name="Saluant et encourageant" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Saluant et encourageant</span> les initiatives nouvelles ou existantes qui visent à mutualiser les expériences, les enseignements et les meilleures pratiques et à apporter un appui en matière de coopération technique et de renforcement des capacités dans le domaine des droits de l’homme, en consultation et en accord avec les États concernés, dans le cadre de la coopération bilatérale, régionale, multilatérale et internationale, y compris les dialogues bilatéraux sur les droits de l’homme, la coopération Nord-Sud et Sud-Sud et la coopération triangulaire, ainsi que des partenariats entre secteur public et secteur privé, afin d’aider les États à s’acquitter de leurs obligations en matière de droits de l’homme et de leurs engagements volontaires, et insistant sur le fait que les États et toutes les parties prenantes doivent travailler de façon complémentaire dans le cadre de la coopération technique et du renforcement des capacités dans le domaine des droits de l’homme,</p>
+      </container>
+      <container name="Saluant" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Saluant </span>les initiatives nationales, régionales et internationales qui consistent à créer des bases de données et des outils permettant aux États de suivre l’exécution et le suivi des obligations en matière de droits de l’homme et l’établissement de rapports à ce sujet dans le cadre d’une approche globale,</p>
+      </container>
+      <container name="Soulignant" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> qu’il faut mettre en avant l’importance de la coopération technique et du renforcement des capacités dans le domaine des droits de l’homme, qui permettraient d’accélérer la mise en œuvre des activités dans ce domaine, en vue d’améliorer la situation des droits de l’homme dans le monde, et qu’il faut également maintenir un esprit de coopération constructive et de non-politisation,</p>
+      </container>
+      <container name="Rappelant" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> que, conformément à la Déclaration et au Programme d’action de Vienne, les gouvernements sont instamment invités à incorporer dans leur législation nationale les normes énoncées dans les instruments internationaux relatifs aux droits de l’homme et à renforcer les structures et institutions nationales et les organes de la société qui jouent un rôle dans la promotion et la sauvegarde des droits de l’homme,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span>, conformément à la Déclaration et au Programme d’action de Vienne, le rôle important et constructif que jouent les institutions nationales pour la promotion et la protection des droits de l’homme, en particulier de par leur fonction consultative auprès des autorités compétentes, et de par leur rôle dans l’action visant à remédier aux violations des droits de l’homme et à diffuser des informations sur ces droits, et en ce qui concerne l’éducation aux droits de l’homme et les partenariats avec les initiatives pertinentes de la société civile,</p>
+      </container>
+      <container name="Considérant" eId="container_24">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> qu’il serait utile d’assurer, aux niveaux régional, national et local, un suivi élargi et institutionnalisé de l’exécution des obligations et des engagements en matière de droits de l’homme, par exemple en créant des mécanismes nationaux d’application, d’établissement de rapports et de suivi ou en renforçant les mécanismes existants, et que ces mécanismes facilitent l’adoption d’une approche intégrée et participative de la soumission de rapports aux mécanismes internationaux chargés des droits de l’homme,</p>
+      </container>
+      <container name="Conscient" eId="container_25">
+        <p xml:space="preserve"> <span class="italic">Conscient</span> des rôles distincts, complémentaires et se renforçant mutuellement des institutions nationales des droits de l’homme et des mécanismes nationaux d’application, d’établissement de rapports et de suivi en tant qu’acteurs nationaux clefs, et soulignant que chacun d’entre eux contribue de manière unique au respect, à la protection et à l’exécution des obligations des États en matière de droits de l’homme au niveau national, dans le cadre de leurs mandats et de leurs fonctions respectifs,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_26" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne</span> que le débat général tenu au titre du point 10 de l’ordre du jour est pour ses membres et observateurs une tribune essentielle qui leur permet d’exprimer ouvertement et en toute sécurité leurs idées et leurs opinions et d’échanger des données concrètes sur leur expérience, leurs difficultés, leurs progrès et leurs réussites, ainsi que des informations sur l’aide dont ils ont besoin, en ce qui concerne la promotion d’activités plus efficaces de coopération technique et de renforcement des capacités dans le domaine des droits de l’homme, et que cette coopération technique devrait rester un exercice inclusif qui associe et mobilise tous les acteurs nationaux, y compris les organismes publics, les institutions nationales des droits de l’homme, les mécanismes nationaux d’application, d’établissement des rapports et de suivi, le secteur privé, la société civile, y compris les organisations de femmes, et tous les titulaires de droits ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> 	<span class="italic">Réaffirme</span> que les activités de coopération technique et de renforcement des capacités dans le domaine des droits de l’homme devraient se poursuivre en consultation et en accord avec les États concernés, et devraient tenir compte des demandes, des besoins et des priorités de ces États, ainsi que de leur contexte national, et du fait que tous les droits de l’homme sont universels, indissociables, interdépendants et intimement liés, et visent à avoir un effet concret sur le terrain à tous les niveaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 	<span class="italic">Est conscient</span> que la coopération technique et le renforcement des capacités ont été essentiels pour soutenir la création et le renforcement des institutions nationales des droits de l’homme conformément aux principes de Paris et des mécanismes nationaux d’application, d’établissement de rapports et de suivi, pour améliorer les connaissances et les capacités des institutions nationales en matière d’obligations relatives aux droits de l’homme et pour aligner les lois et les politiques nationales sur les normes internationales en matière de droits de l’homme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne</span> qu’il faut renforcer la coopération et le dialogue internationaux, régionaux et bilatéraux à l’appui de la promotion et de la protection des droits de l’homme, en vue d’obtenir des résultats durables, et engage les organes régionaux des droits de l’homme à faire part de leur expérience et à partager leurs meilleures pratiques en matière de promotion et de protection des droits de l’homme, y compris celles ayant trait à l’autonomisation de toutes les femmes et les filles, en faisant participer les acteurs concernés, notamment les institutions nationales des droits de l’homme, les organisations de la société civile et les titulaires de droits ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> 	<span class="italic">Réaffirme</span> qu’il faut continuer d’accroître le montant des contributions volontaires aux fonds des Nations Unies compétents pour soutenir l’assistance technique et le renforcement des capacités dans le domaine des droits de l’homme, engage les États à continuer à contribuer à ces fonds ainsi qu’au programme d’assistance technique et de renforcement des capacités du Haut-Commissariat des Nations Unies aux droits de l’homme afin que celui‑ci soit en mesure de satisfaire les demandes d’assistance recensées dans ses appels annuels, et engage les fonds et le Haut-Commissariat à continuer d’améliorer l’efficacité et la transparence de leurs activités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite</span> de l’assistance technique et du renforcement des capacités fournis par le Haut-Commissariat par l’intermédiaire des coordonnateurs résidents des Nations Unies et des représentations nationales et régionales des Nations Unies, en consultation avec les États concernés et avec leur consentement, en particulier en ce qui concerne l’appui à la création d’institutions nationales des droits de l’homme ou au renforcement des institutions existantes conformément aux principes de Paris, et des mécanismes nationaux d’application, d’établissement de rapports et de suivi, en fonction de leur contexte national, et les encourage à poursuivre dans cette voie ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage </span>les États qui ont besoin d’une assistance technique pour renforcer les structures nationales qui jouent un rôle en matière de promotion et de sauvegarde des droits de l’homme et pour s’acquitter de leurs obligations en matière de droits de l’homme ainsi que de leurs engagements volontaires, y compris l’application des recommandations qu’ils ont acceptées dans le cadre de l’Examen périodique universel, d’envisager de demander une telle assistance au Haut-Commissariat et aux autres organismes compétents des Nations Unies, et engage vivement le Haut-Commissariat et les organismes concernés des Nations Unies à répondre favorablement à ces demandes et à communiquer en toute transparence et en temps voulu des informations sur l’appui technique proposé et apporté aux États ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage </span>les États à continuer de promouvoir les initiatives visant à partager les expériences, les enseignements et les meilleures pratiques en matière de coopération technique et de soutien au renforcement des capacités dans le domaine des droits de l’homme au moyen de la coopération bilatérale, y compris les dialogues bilatéraux sur les droits de l’homme et la coopération Nord-Sud, Sud-Sud et triangulaire, afin d’aider les États à s’acquitter de leurs obligations en matière de droits de l’homme, ainsi que des engagements qu’ils ont pris volontairement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne</span> qu’il importe que le Haut-Commissariat et les autres organismes des Nations Unies coordonnent mieux leurs activités de coopération technique et de renforcement des capacités, et engage le Haut-Commissariat, les autres organismes compétents des Nations Unies et les États concernés à échanger régulièrement des informations sur les activités d’assistance technique et de renforcement des capacités menées au niveau national et à partager les meilleures pratiques en la matière ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage</span> les titulaires de mandat au titre de ses procédures spéciales à continuer de communiquer, dans le cadre de leurs échanges avec les États, des informations et des connaissances concernant les meilleures pratiques et la possibilité de fournir une assistance technique et de renforcer les capacités dans les domaines du respect, de la protection et de la réalisation des droits de l’homme, dans le cadre de leurs mandats respectifs ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite</span> de la réunion-débat qu’il a organisée à sa cinquante-sixième session, conformément à la résolution <a href="http://undocs.org/fr/A/HRC/RES/54/28">54/28</a> du 12 octobre 2023, sur le thème « Améliorer la coopération technique et le renforcement des capacités aux fins de l’application des recommandations issues de l’Examen périodique universel », au cours de laquelle les participants ont souligné l’importance de la coopération technique et du renforcement des capacités pour ce qui était d’aider les États à appliquer les recommandations issues de l’Examen périodique universel, ont reconnu le potentiel de la coopération Sud-Sud et de la coopération triangulaire, ont réfléchi aux résultats obtenus et aux obstacles rencontrés, et ont souligné la nécessité de fournir un financement suffisant pour mener à bien les activités d’assistance technique et de renforcement des capacités requises<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Voir <a href="http://undocs.org/fr/A/HRC/56/72">A/HRC/56/72</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande une nouvelle fois</span> au Haut-Commissariat de créer et de tenir à jour, en y consacrant des moyens spécialisés supplémentaires, un répertoire en ligne des activités de coopération technique et de renforcement des capacités en lien avec l’application des recommandations issues de l’Examen périodique universel − création qui a été reportée en raison de la crise de liquidités à laquelle est actuellement confronté le Secrétariat de l’ONU − à partir des communications volontaires des États, ainsi que des organismes, fonds et programmes des Nations Unies, des organisations internationales et régionales, des mécanismes régionaux chargés des droits de l’homme, des institutions nationales des droits de l’homme et des organisations de la société civile, avec l’accord des États concernés, et de l’informer chaque année, à compter de sa cinquante-neuvième session, au titre du rapport annuel du Haut-Commissariat sur la coopération technique et le renforcement des capacités dans le domaine des droits de l’homme, des informations ainsi recueillies, en invitant les parties prenantes ayant de bonnes pratiques dans les domaines susmentionnés à fournir une assistance technique aux États concernés, à leur demande et avec leur accord, à titre d’entraide entre pairs ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve"> 	<span class="italic">Est conscient</span> de la nécessité de créer des synergies entre le répertoire susmentionné et d’autres bases de données pertinentes, y compris, entre autres, un centre de connaissances virtuel pour les mécanismes nationaux d’application, d’établissement de rapports et de suivi, et de l’avantage potentiel de l’ajout au répertoire d’une fonction d’appariement visant à améliorer la coordination des efforts de coopération technique et de renforcement des capacités en lien avec l’application des recommandations acceptées dans le cadre de l’Examen périodique universel ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide</span>, conformément aux paragraphes 3 et 4 de sa résolution <a href="http://undocs.org/fr/A/HRC/RES/18/18">18/18</a> du 29 septembre 2011, que la réunion-débat thématique annuelle qui se tiendra à sa cinquante-neuvième session au titre du point 10 de l’ordre du jour aura pour thème « Le rôle de la coopération technique et du renforcement des capacités dans le renforcement des structures nationales qui contribuent à la promotion et à la sauvegarde des droits de l’homme, en particulier les institutions nationales des droits de l’homme et les mécanismes nationaux d’application, d’établissement de rapports et de suivi », et de faire en sorte que cette réunion‑débat soit pleinement accessible aux personnes handicapées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie</span> le Haut-Commissariat d’élaborer un rapport sur le rôle de la coopération technique et du renforcement des capacités entre les États, le Haut-Commissariat et d’autres parties prenantes, notamment les institutions nationales des droits de l’homme, pour ce qui est de soutenir les efforts des États visant à renforcer les structures nationales qui jouent un rôle dans la promotion et la sauvegarde des droits de l’homme, en particulier les institutions nationales des droits de l’homme et les mécanismes nationaux d’application, d’établissement de rapports et de suivi, y compris la complémentarité de ces deux dernières entités, et de lui soumettre ce rapport à sa cinquante-neuvième session, pour qu’il serve de base à la réunion‑débat susmentionnée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> aux États de s’acquitter de leurs obligations en matière de droits de l’homme, et demande également aux États, aux organes et mécanismes internationaux chargés des droits de l’homme, aux organisations internationales compétentes, aux institutions nationales des droits de l’homme, aux mécanismes nationaux d’application, d’établissement des rapports et de suivi et à la société civile de mettre à profit les idées formulées et les questions soulevées lors de la réunion-débat pour améliorer l’efficience, l’efficacité et la cohérence des efforts de coopération technique et de renforcement des capacités et pour établir des partenariats multipartites en vue de renforcer les structures nationales qui jouent un rôle complémentaire dans la promotion et la sauvegarde des droits de l’homme, en particulier à la lumière du soixante-quinzième anniversaire de la Déclaration universelle des droits de l’homme et du trentième anniversaire de la Déclaration et du Programme d’action de Vienne, ainsi que pour contribuer à l’application du Programme de développement durable à l’horizon 2030.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="49e" refersTo="#adoptionMeeting">49e séance</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 octobre 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
