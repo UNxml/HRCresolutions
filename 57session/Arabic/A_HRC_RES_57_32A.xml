@@ -1,0 +1,328 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/ara@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CAPACITY BUILDING" href="http://metadata.un.org/thesaurus/1000797" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS INSTITUTIONS" href="http://metadata.un.org/thesaurus/1002981" showAs="HUMAN RIGHTS INSTITUTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-02" outcome="draftResolution" as="A/HRC/57/L.18" by="Armenia, Australia, Austria, Brazil, Chile, Colombia, Costa Rica, Croatia, Ecuador, Guatemala, Honduras, Iceland, Indonesia, Italy, Luxembourg, Malaysia, Malta, Marshall Islands, Morocco, Norway, Paraguay, Peru, Philippines, Portugal, Qatar, Samoa, Singapore, Spain, Thailand, Türkiye and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 49th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/32</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">الدورة السابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 أيلول</date>
+          <date date="2024-10-11" refersTo="#endDate">11 تشرين الأول 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">البند 10 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المساعدة التقنية وبناء القدرات</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 11 تشرين الأول/أكتوبر 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/32</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	تعزيز التعاون التقني وبناء القدرات في ميدان حقوق الإنسان</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه، ولا سيما فيما يتعلق بتحقيق التعاون الدولي على تعزيز وتشجيع احترام حقوق الإنسان والحريات الأساسية للجميع، من دون أي تمييز بسبب العرق، أو اللون، أو الجنس، أو اللغة، أو الدين، أو الرأي السياسي أو غير السياسي، أو الأصل القومي أو الاجتماعي، أو الثروة، أو المولد أو بسبب أي وضع آخر،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يعيد تأكيد</span> الإعلان العالمي لحقوق الإنسان، وإذ يشير إلى جميع معاهدات حقوق الإنسان ذات الصلة، بما فيها العهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، والعهد الدولي الخاص بالحقوق المدنية والسياسية،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلّم</span> بأن توطيد التعاون الدولي، في سياق التعاون التقني وبناء القدرات، مسألة أساسية لتعزيز حقوق الإنسان وحمايتها وإعمالها بفعالية، وهو ما ينبغي أن يقوم على مبدأي التعاون والحوار الحقيقي، وأن يهدف إلى تمتين قدرة الدول على تعزيز حقوق الإنسان وحمايتها وإعمالها، ومنع انتهاكات حقوق الإنسان، والوفاء بالتزاماتها في مجال حقوق الإنسان لما فيه مصلحة كل البشر،</p>
+      </container>
+      <container name="وإذ يضع في اعتباره" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يضع في اعتباره</span> ولاية مجلس حقوق الإنسان، كما أقرتها الجمعية العامة في قرارها <a href="https://undocs.org/ar/A/RES/60/251">60/251</a> المؤرخ 15 آذار/مارس 2006، المتمثلة في تعزيز الخدمات الاستشارية والمساعدة التقنية وبناء القدرات، التي يتعين تقديمها بالتشاور مع الدول المعنية وبموافقتها، وأحكام قراري المجلس 5/1 و5/2 المؤرخين 18 حزيران/يونيه 2007 و<a href="https://undocs.org/ar/A/HRC/RES/16/21">16/21</a> المؤرخ 25 آذار/مارس 2011 التي تهدف إلى تمكين المجلس من الاضطلاع بهذه الولاية،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى جميع قرارات مجلس حقوق الإنسان ذات الصلة بشأن تعزيز التعاون التقني وبناء القدرات في ميدان حقوق الإنسان، وبشأن المؤسسات الوطنية لحقوق الإنسان، وبشأن تعزيز التعاون الدولي لدعم الآليات الوطنية للتنفيذ والإبلاغ والمتابعة، وبشأن تعزيز حقوق الإنسان وحمايتها وتنفيذ خطة التنمية المستدامة لعام 2030،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى قرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/51/31">51/31</a> المؤرخ 7 تشرين الأول/أكتوبر 2022، الذي شجع فيه المجلس الدول على إنشاء مؤسسات وطنية فعالة ومستقلة وتعددية لحقوق الإنسان، أو تدعيم ما هو قائم منها أصلاً، لكي تتمكن من الاضطلاع بفعالية بولايتها المتمثلة في تعزيز وحماية حقوق الإنسان والحريات الأساسية للجميع، على النحو المبين في إعلان وبرنامج عمل فيينا، وعلى القيام بذلك وفقاً للمبادئ المتعلقة بمركز المؤسسات الوطنية لتعزيز وحماية حقوق الإنسان (مبادئ باريس)،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأنه، وفقاً لإعلان وبرنامج عمل فيينا، من حق كل دولة أن تختار إطار المؤسسات الوطنية الأصلح لاحتياجاتها الخاصة على الصعيد الوطني،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى قرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/51/33">51/33</a> المؤرخ 7 تشرين الأول/أكتوبر 2022، الذي شجع فيه المجلس الدول على إنشاء أو تعزيز آليات وطنية للتنفيذ والإبلاغ والمتابعة أو تعزيز هذه الآليات من أجل زيادة الامتثال لالتزاماتها وتعهداتها في مجال حقوق الإنسان، وتبادل الممارسات الجيدة المتبعة والخبرات المكتسبة في استخدامها لرسم سياسات وخطط عامة، على جميع المستويات، </p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/1">70/1</a> المؤرخ 25 أيلول/سبتمبر 2015، المعنون "تحويل عالمنا: خطة التنمية المستدامة لعام 2030"، وإذ يشير إلى أهداف التنمية المستدامة، ولا سيما الهدف 16 بشأن التشجيع على إقامة مجتمعات مسالمة لا يُهمَّش فيها أحد من أجل تحقيق التنمية المستدامة وإتاحة إمكانية اللجوء إلى العدالة للجميع وإقامة مؤسسات فعالة وخاضعة للمساءلة وشاملة للجميع على جميع المستويات،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ</span> مساهمة الآليات الدولية لحقوق الإنسان، بما فيها هيئات المعاهدات والإجراءات الخاصة لمجلس حقوق الإنسان وآلية الاستعراض الدوري الشامل، في النهوض بتنفيذ خطة عام 2030، بما يتماشى مع التزامات الدول وتعهداتها باحترام حقوق الإنسان وحمايتها وإعمالها، ودورَ التعاون التقني وبناء القدرات في هذا الصدد،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأهمية زيادة الدعم الدولي من أجل تنفيذ أنشطة فعالة ومحددة الأهداف لبناء القدرات في البلدان النامية بغية دعم الخطط الوطنية الرامية إلى تنفيذ جميع أهداف التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على أهمية أن تعمد مؤسسات منظومة الأمم المتحدة ذات الصلة، ولا سيما أفرقة الأمم المتحدة القطرية، كل في إطار ولايته، إلى إدراج التعاون التقني وبناء القدرات في ميدان حقوق الإنسان في صلب أعمالها وبرامجها،</p>
+      </container>
+      <container name="وإذ يعترف" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يعترف</span> بدور وتأثير أنشطة وكالات الأمم المتحدة ذات الصلة والمنظمات الدولية والإقليمية، وبمساهمة الجهات الوطنية صاحبة المصلحة، بما في ذلك المؤسسات الوطنية لحقوق الإنسان، والآليات الوطنية للتنفيذ والإبلاغ والمتابعة، ومنظمات المجتمع المدني، في تزويد الدول بالدعم والمساعدة التقنيين بناءً على احتياجات الدول المعنية وطلباتها، وبدعم البرلمانات الوطنية لوفاء الدول بالتزاماتها في ميدان حقوق الإنسان، فضلاً عن تعهداتها والتزاماتها الطوعية، بما في ذلك توصيات الاستعراض الدوري الشامل المقبولة، كلٌّ وفقاً لولايته،</p>
+      </container>
+      <container name="وإذ يكرر تأكيد" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يكرر تأكيد</span> أن إحدى مسؤوليات مفوض الأمم المتحدة السامي لحقوق الإنسان ومفوضية الأمم المتحدة السامية لحقوق الإنسان هي تقديم الخدمات الاستشارية والمساعدة التقنية، بناءً على طلب الدولة المعنية، بهدف دعم الأعمال والبرامج التي تنفَّذ في ميدان حقوق الإنسان، وتنسيق الأنشطة الرامية إلى تعزيز وحماية حقوق الإنسان في منظومة الأمم المتحدة بأسرها وفقاً لولاية المفوضية السامية،</p>
+      </container>
+      <container name="وإذ يعرب عن تقديره" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن تقديره</span> للدور الهام الذي يؤديه كل من صندوق الأمم المتحدة للتبرعات من أجل التعاون التقني في ميدان حقوق الإنسان، وصندوق التبرعات من أجل المشاركة في الاستعراض الدوري الشامل، وصندوق التبرعات الاستئماني لتقديم المساعدة التقنية لدعم مشاركة أقل البلدان نمواً والدول الجزرية الصغيرة النامية في أعمال مجلس حقوق الإنسان، وصندوق التبرعات الخاص بالمساعدة المالية والتقنية في تنفيذ الاستعراض الدوري الشامل في مساعدة الدول على تطوير قدراتها الوطنية كي تتمكن من النهوض بالتنفيذ الفعلي لالتزاماتها في مجال حقوق الإنسان وللتوصيات التي قبلتها في سياق الاستعراض الدوري الشامل،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يحيط علماً</span> بأن عدة دول قد استخدمت صناديق الأمم المتحدة ذات الصلة لدعم المساعدة التقنية وبناء القدرات في ميدان حقوق الإنسان من أجل الوفاء بالتزاماتها وتعهداتها في مجال حقوق الإنسان، وإذ يشدد على ضرورة مواصلة إبراز مكانة هذه الصناديق وتيسير سبل طلب مساعدتها، وتوطيد الجهود لزيادة تكاملها،</p>
+      </container>
+      <container name="وإذ يحيط علماً مع التقدير" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">وإذ يحيط علماً مع التقدير</span> بإسهامات مجلس أمناء صندوق الأمم المتحدة للتبرعات من أجل التعاون التقني في ميدان حقوق الإنسان ومجلس أمناء صندوق التبرعات الخاص بالمساعدة المالية والتقنية في تنفيذ الاستعراض الدوري الشامل من خلال التقارير التي يقدمانها سنوياً إلى مجلس حقوق الإنسان<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	انظر <a href="https://undocs.org/ar/A/HRC/56/78">A/HRC/56/78</a> و<a href="https://undocs.org/ar/A/HRC/56/18">A/HRC/56/18</a>.</p></authorialNote><sup>)</sup>، وبالأخص عن العنصرين المتعلقين بالتعاون التقني وبتحديد أفضل الممارسات،</p>
+      </container>
+      <container name="وإذ يثمِّن ويشجع" eId="container_19">
+          <p xml:space="preserve">	<span class="italic">وإذ يثمِّن ويشجع</span> المبادرات الجديدة والقائمة الرامية إلى تبادل الخبرات والدروس المستفادة وأفضل الممارسات، وإلى توفير الدعم من أجل التعاون التقني وبناء القدرات في ميدان حقوق الإنسان، بالتشاور مع الدول المعنية وبموافقتها، من خلال التعاون الثنائي والإقليمي والمتعدد الأطراف والدولي، بما في ذلك الحوارات الثنائية بشأن حقوق الإنسان، والتعاون بين بلدان الشمال والجنوب والتعاون فيما بين بلدان الجنوب والتعاون الثلاثي، وإقامة الشراكات بين القطاعين العام والخاص، لمساعدة الدول على الوفاء بالتزاماتها في ميدان حقوق الإنسان فضلاً عن تعهداتها والتزاماتها الطوعية، وإذ يشدد على ضرورة عمل الدول وجميع الجهات المعنية صاحبة المصلحة بطريقة متكاملة بعضها مع بعض في توفير التعاون التقني وبناء القدرات في ميدان حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بالمبادرات الوطنية والإقليمية والدولية التي تنشئ قواعد بيانات وأدوات تستخدمها الدول لتتبع مدى الوفاء بالالتزامات المتعلقة بحقوق الإنسان والإبلاغ عنها ومتابعتها في نهج شامل،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد</span> ضرورة التوعية بأهمية التعاون التقني وبناء القدرات في ميدان حقوق الإنسان، الأمر الذي من شأنه أن يعجل بتنفيذ الأنشطة المضطلع بها في هذا المجال، بغية تحسين حالات حقوق الإنسان في جميع أنحاء العالم، وإذ يؤكد أيضاً ضرورة الحفاظ على روح التعاون البنّاء وعدم التسييس،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى أنه تمشياً مع إعلان وبرنامج عمل فيينا، تُحثُّ الحكومات على إدماج المعايير الواردة في الصكوك الدولية لحقوق اﻹنسان في التشريعات المحلية وعلى تعزيز هياكل ومؤسسات وأجهزة المجتمع الوطنية التي تؤدي دوراً في تعزيز حقوق اﻹنسان وحمايتها،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span>، تماشياً مع إعلان وبرنامج عمل فيينا، الدور الهام والبناء الذي تضطلع به المؤسسات الوطنية لتعزيز حقوق الإنسان وحمايتها، ولا سيما بصفتها الاستشارية لدى السلطات المختصة، ودورها في معالجة انتهاكات حقوق الإنسان وفي نشر المعلومات المتعلقة بحقوق الإنسان والتثقيف في مجال حقوق الإنسان وإقامة شراكات مع مبادرات المجتمع المدني ذات الصلة،</p>
+      </container>
+      <container name="وإذ يرى" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">وإذ يرى</span> أن الوفاء بالالتزامات والتعهدات في مجال حقوق الإنسان سيستفيد من المتابعة الموسعة والمؤسسية على الصعد الإقليمي والوطني والمحلي، بالقيام على سبيل المثال بإنشاء أو تمتين الآليات الوطنية للتنفيذ والإبلاغ والمتابعة، وأن هذه الآليات تيسِّر اتباع نهج متكامل وتشاركي لتقديم التقارير إلى الآليات الدولية لحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بالأدوار المتمايزة والمتكاملة والمتعاضدة للمؤسسات الوطنية لحقوق الإنسان والآليات الوطنية للتنفيذ والإبلاغ والمتابعة بوصفها جهات فاعلة وطنية رئيسية، وإذ يؤكد أن كل منها يساهم بصورة فريدة من نوعها في احترام التزامات الدول في مجال حقوق الإنسان وحمايتها والوفاء بها على الصعيد الوطني، في إطار ولاية ووظائف كل منها،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_26" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على أن المناقشة العامة التي جرت في إطار البند 10 من جدول الأعمال هي منبر أساسي لأعضاء مجلس حقوق الإنسان والمراقبين فيه لتبادل صريح وآمن للرؤى ووجهات النظر والبيانات الملموسة بشأن الخبرات والتحديات والتقدم والإنجازات، فضلاً عن معلومات عن المساعدة اللازمة، فيما يتعلق بالنهوض بفعالية التعاون التقني وبناء القدرات في ميدان حقوق الإنسان، ويشدد على أن هذا التعاون التقني ينبغي أن يظل ممارسة شاملة للجميع تُشرك وتضم جميع الجهات الوطنية صاحبة المصلحة، بما فيها الوكالات الحكومية، والمؤسسات الوطنية لحقوق الإنسان، والآليات الوطنية للتنفيذ والإبلاغ والمتابعة، والقطاع الخاص، والمجتمع المدني، بما يشمل المنظمات النسائية وجميع أصحاب الحقوق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">يكرر تأكيد</span> أن أنشطة التعاون التقني وبناء القدرات في ميدان حقوق الإنسان ينبغي أن تستمر على أساس التشاور مع الدول المعنية وبموافقتها، وأن تراعي طلباتها واحتياجاتها وأولوياتها، فضلاً عن سياقاتها الوطنية، وأن تضع في الاعتبار أن جميع حقوق الإنسان عالمية ومترابطة ومتشابكة وغير قابلة للتجزئة، وأن تهدف إلى إحداث تأثير ملموس على جميع المستويات على أرض الواقع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">يسلّم</span> بأن للتعاون التقني وبناء القدرات دور حاسم في دعم إنشاء وتعزيز المؤسسات الوطنية لحقوق الإنسان بما يتوافق مع مبادئ باريس والآليات الوطنية للتنفيذ والإبلاغ والمتابعة، والنهوض بمعارف وقدرات المؤسسات الوطنية بشأن الالتزامات المتعلقة بحقوق الإنسان ومواءمة القوانين والسياسات الوطنية مع المعايير الدولية لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد</span> ضرورة تعزيز التعاون والحوار على الصعد الدولي والإقليمي والثنائي دعماً لتعزيز حقوق الإنسان وحمايتها، بهدف تحقيق نتائج مستدامة، ويشجع الهيئات الإقليمية لحقوق الإنسان على تقاسم الخبرات وتبادل الممارسات الجيدة في مجال تعزيز حقوق الإنسان وحمايتها، بما فيها تلك المتعلقة بتمكين جميع النساء والفتيات، والعمل في الوقت ذاته مع الجهات الفاعلة ذات الصلة، بما فيها المؤسسات الوطنية لحقوق الإنسان ومنظمات المجتمع المدني وأصحاب الحقوق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> الحاجة المستمرة إلى التبرعات المقدمة إلى صناديق الأمم المتحدة ذات الصلة من أجل دعم المساعدة التقنية وبناء القدرات في ميدان حقوق الإنسان، ويشجع الدول على مواصلة تقديم تبرعات إلى هذه الصناديق وكذلك إلى برنامج المساعدة التقنية وبناء القدرات التابع لمفوضية الأمم المتحدة السامية لحقوق الإنسان لكفالة أن تكون المفوضية السامية في وضع يمكنها من الاستجابة لطلبات المساعدة المحددة في نداءاتها السنوية، ويشجع الصناديق والمفوضية السامية على مواصلة تعزيز كفاءة وشفافية أنشطتهما؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بالمساعدة التقنية وبناء القدرات اللذين تقدمهما المفوضية السامية من خلال منسقي الأمم المتحدة المقيمين ومكاتب تمثيل الأمم المتحدة على المستويين الوطني والإقليمي، بالتشاور مع الدول المعنية وبموافقتها، ولا سيما فيما يتعلق بدعم إنشاء أو تعزيز المؤسسات الوطنية لحقوق الإنسان بما يتوافق مع مبادئ باريس، والآليات الوطنية للتنفيذ والإبلاغ والمتابعة، حسب السياقات الوطنية لكل منها، ويشجعها على مواصلة القيام بذلك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول التي تحتاج إلى المساعدة التقنية من أجل تعزيز الهياكل الوطنية التي تؤدي دوراً في تعزيز حقوق الإنسان وحمايتها، والوفاء بالتزاماتها في مجال حقوق الإنسان، فضلاً عن تعهداتها والتزاماتها الطوعية، بما في ذلك التوصيات المقبولة في سياق الاستعراض الدوري الشامل، على النظر في طلب هذه المساعدة من المفوضية السامية وغيرها من وكالات الأمم المتحدة ذات الصلة، ويشجع بقوة المفوضية السامية ووكالات الأمم المتحدة المعنية على الاستجابة لهذه الطلبات وتقديم معلومات، بطريقة شفافة وفي الوقت المناسب، عن الدعم التقني المتاح للدول والمقدم إليها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول على مواصلة تعزيز المبادرات الرامية إلى تبادل الخبرات والدروس المستفادة وأفضل الممارسات فيما يخص توفير الدعم من أجل التعاون التقني وبناء القدرات في ميدان حقوق الإنسان من خلال التعاون الثنائي، بما في ذلك الحوارات الثنائية في مجال حقوق الإنسان التعاون بين بلدان الشمال والجنوب والتعاون فيما بين بلدان الجنوب والتعاون الثلاثي، لمساعدة الدول على الوفاء بالتزاماتها في ميدان حقوق الإنسان، فضلاً عن تعهداتها والتزاماتها الطوعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على أهمية زيادة تنسيق الجهود التي تبذلها المفوضية السامية ووكالات الأمم المتحدة الأخرى في مجال التعاون التقني وبناء القدرات، ويشجع على تبادل المعلومات وأفضل الممارسات بانتظام بين المفوضية السامية ووكالات الأمم المتحدة الأخرى ذات الصلة والدول المعنية بشأن ما يُبذل على الصعيد الوطني من جهود المساعدة التقنية وبناء القدرات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الإجراءات الخاصة لمجلس حقوق الإنسان على أن تواصل، في سياق تفاعلها مع الدول، تقاسم المعلومات والمعارف المتعلقة بأفضل الممارسات وإمكانية تقديم المساعدة التقنية وبناء القدرات في مجال تعزيز حقوق الإنسان وحمايتها وإعمالها، في إطار ولاية كل منها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بحلقة النقاش التي عقدها مجلس حقوق الإنسان في دورته السادسة والخمسين، عملاً بقرار المجلس <a href="https://undocs.org/ar/A/HRC/RES/54/28">54/28</a> المؤرخ 12 تشرين الأول/أكتوبر 2023، بشأن موضوع "زيادة التعاون التقني وبناء القدرات من أجل تنفيذ توصيات الاستعراض الدوري الشامل"، حيث أكد المشاركون على أهمية التعاون التقني وبناء القدرات من أجل دعم الدول في تنفيذ توصيات الاستعراض الدوري الشامل، وأقروا بالإمكانات التي ينطوي عليها التعاون فيما بين بلدان الجنوب والتعاون الثلاثي، وفكروا في الإنجازات التي تحققت والعقبات التي ووجهت، وشددوا على ضرورة توفير التمويل الكافي لتقديم المساعدة التقنية وأنشطة بناء القدرات اللازمة<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	انظر <a href="https://undocs.org/ar/A/HRC/56/72">A/HRC/56/72</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="italic">يكرر</span> طلبه إلى المفوضية السامية أن تنشئ وتبقي، من خلال قدرات إضافية مخصصة، مستودعاً إلكترونياً لأنشطة التعاون التقني وبناء القدرات فيما يتعلق بتنفيذ توصيات الاستعراض الدوري الشامل – وهذا أمر كان قد أُرجئ بسبب أزمة السيولة الحالية التي تؤثر على الأمانة العامة للأمم المتحدة - من خلال مساهمات طوعية تقدمها الدول، ووكالات الأمم المتحدة وصناديقها وبرامجها ذات الصلة، والمنظمات الدولية والإقليمية، والآليات الإقليمية لحقوق الإنسان، والمؤسسات الوطنية لحقوق الإنسان، ومنظمات المجتمع المدني، بموافقة الدول المعنية، وأن تُطلع مجلس حقوق الإنسان، اعتباراً من دورته التاسعة والخمسين في إطار التقرير السنوي عن التعاون التقني وبناء القدرات في ميدان حقوق الإنسان، على المعلومات المجمعة في المستودع سنوياً، داعياً الجهات صاحبة المصلحة التي تتَّبع ممارسات جيدة في المجالات المذكورة أعلاه إلى تقديم المساعدة التقنية إلى الدول المعنية بناءً على طلبها وموافقتها في شكل دعم الأقران؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">يسلّم</span> بالحاجة إلى بناء أوجه التلاحم بين المستودع المذكور أعلاه وقواعد البيانات الأخرى ذات الصلة، ومنها، على سبيل المثال لا الحصر، قطب معرفي افتراضي للآليات الوطنية للتنفيذ والإبلاغ والمتابعة، وبالفائدة المحتملة لتوسيع نطاق المستودع ليشمل وظيفة التوفيق لتعزيز تنسيق جهود التعاون التقني وبناء القدرات من أجل تنفيذ توصيات الاستعراض الدوري الشامل المقبولة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span>، وفقاً للفقرتين 3 و4 من قرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/18/18">18/18</a> المؤرخ 29 أيلول/سبتمبر 2011، أن يكون موضوع حلقة النقاش المواضيعية السنوية في إطار البند 10 من جدول الأعمال، التي ستعقد أثناء دورته التاسعة والخمسين، هو "دور التعاون التقني وبناء القدرات في تدعيم الهياكل الوطنية التي تضطلع بدور في تعزيز حقوق الإنسان وصونها، لا سيما المؤسسات الوطنية لحقوق الإنسان والآليات الوطنية للتنفيذ والإبلاغ والمتابعة"، وأن يكون الموضوع متاحاً تمام للأشخاص ذوي الإعاقة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المفوضية السامية أن تعد تقريراً بشأن دور التعاون التقني وبناء القدرات بين الدول والمفوضية السامية وغيرها من الجهات المعنية صاحبة المصلحة، بما فيها المؤسسات الوطنية لحقوق الإنسان، لدعم جهود الدول الرامية إلى تقوية الهياكل الوطنية التي تؤدي دوراً في تعزيز حقوق الإنسان وحمايتها، ولا سيما المؤسسات الوطنية لحقوق الإنسان والآليات الوطنية للتنفيذ والإبلاغ والمتابعة، بما في ذلك التكامل بين هذه المؤسسات والآليات، وأن تقدم التقرير إلى مجلس حقوق الإنسان في دورته التاسعة والخمسين ليكون أساساً لحلقة النقاش المشار إليها أعلاه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxtGA">
+        <num>16-</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve">	<span class="italic">يهيب</span> بالدول أن تفي الوفاء بالتزاماتها في ميدان حقوق الإنسان، ويهيب أيضاً بالدول والهيئات والآليات الدولية لحقوق الإنسان والمنظمات الدولية ذات الصلة والمؤسسات الوطنية لحقوق الإنسان والآليات الوطنية للتنفيذ والإبلاغ والمتابعة والمجتمع المدني أن تستفيد من الأفكار والمسائل المثارة في حلقة النقاش من أجل زيادة كفاءة وفعالية جهود التعاون التقني وبناء القدرات واتساق السياسات المتعلقة بهما، وبناء شراكات تشمل العديد من الجهات صاحبة المصلحة من أجل تقوية الهياكل الوطنية التي تؤدي دوراً تكميلياً في تعزيز حقوق الإنسان وصونها، ولا سيما في ضوء الذكرى الخامسة والسبعين للإعلان العالمي لحقوق الإنسان والذكرى الثلاثين لإعلان وبرنامج عمل فيينا، وإسهاماً في خطة التنمية المستدامة لعام 2030. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="49" refersTo="#adoptionMeeting">الجلسة 49</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 تشرين الأول/أكتوبر 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتمد دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
