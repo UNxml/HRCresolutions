@@ -1,0 +1,269 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/rus@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Promotion and Protection of Human Rights in the Context of Climate Change" showAs="UN. Human Rights Council. Special Rapporteur on the Promotion and Protection of Human Rights in the Context of Climate Change" dictionary="DHLAUTH"></keyword>
+        <keyword value="CLIMATE CHANGE" href="http://metadata.un.org/thesaurus/1001030" showAs="CLIMATE CHANGE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-08" outcome="draftResolution" as="A/HRC/57/L.31/Rev.1" by="Albania, Antigua and Barbuda, Australia, Austria, Bahamas, Belgium, Bulgaria, Chile, Colombia, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Fiji, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Italy, Kenya, Latvia, Lithuania, Luxembourg, Malawi, Malta, Marshall Islands, Micronesia (Federated States of), Monaco, Montenegro, Namibia, Nauru, Netherlands (Kingdom of the), North Macedonia, Panama, Paraguay, Poland, Portugal, Romania, Samoa, San Marino, Slovakia, Slovenia, Spain, Sudan, Sweden, Switzerland, Ukraine and Vanuatu" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 49th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/31</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 сентября</date>
+          <date date="2024-10-11" refersTo="#endDate">11 октября 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline name="agenda item"></inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 11 октября 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/31.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Мандат Специального докладчика по вопросу о поощрении и защите прав человека в контексте изменения климата</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve">		<span class="italic">руководствуясь</span> целями и принципами Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_3">
+        <p xml:space="preserve">		<span class="italic">вновь подтверждая</span>, что на государствах лежит обязательство и главная ответственность за то, чтобы обеспечивать уважение, защиту и осуществление прав человека и основных свобод в соответствии с Уставом, Всеобщей декларацией прав человека, Международным пактом об экономических, социальных и культурных правах, Международным пактом о гражданских и политических правах, а также всеми соответствующими международными договорами по правам человека,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">		<span class="italic">ссылаясь</span> на все предыдущие резолюции, принятые Советом по правам человека по вопросу о правах человека и изменении климата, включая резолюцию <a href="http://undocs.org/ru/A/HRC/RES/48/14">48/14</a> Совета от 8 октября 2021 года, </p>
+      </container>
+      <container name="принимая во внимание" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">принимая во внимание</span> Рамочную конвенцию Организации Объединенных Наций об изменении климата, Парижское соглашение, принятое в рамках Конвенции, Повестку дня в области устойчивого развития на период до 2030 года, Аддис-Абебскую программу действий, Сендайскую рамочную программу по снижению риска бедствий на 2015–2030 годы, Малейскую декларацию о человеческом измерении глобального изменения климата, Программу действий по ускоренному развитию малых островных развивающихся государств («Путь Самоа»), Повестку дня Антигуа и Барбуды для малых островных развивающихся государств, Венскую декларацию и Программу действий, Декларацию о праве на развитие и Венскую программу действий для развивающихся стран, не имеющих выхода к морю, на десятилетие 2014–2024 годов, а также все соответствующие международные и региональные документы, касающиеся негативного воздействия изменения климата на права человека,</p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на статью 2 Парижского соглашения, в которой говорится, что Соглашение, задачей которого является ускоренное осуществление Рамочной конвенции Организации Объединенных Наций об изменении климата, включая достижение ее цели, направлено на укрепление глобального реагирования на угрозу изменения климата в контексте устойчивого развития и усилий по ликвидации нищеты, в том числе посредством: a) удержания прироста среднемировой температуры намного ниже 2 °С сверх доиндустриальных уровней и приложения усилий в целях ограничения роста температуры до 1,5 °С сверх доиндустриальных уровней с учетом того, что это приведет к значительному сокращению рисков и смягчению последствий изменения климата; b) повышения способности адаптироваться к неблагоприятным последствиям изменения климата и содействовать повышению устойчивости к изменению климата и переходу к развитию, характеризующемуся низким уровнем выбросов парниковых газов, таким образом, чтобы это не ставило под угрозу производство продовольствия, и с) приведения финансовых потоков в соответствие с задачей перехода к развитию; характеризующемуся низким уровнем выбросов парниковых газов и устойчивостью к потрясениям, связанным с изменением климата; и что Соглашение будет осуществляться таким образом, чтобы отразить справедливость и принцип общей, но дифференцированной ответственности и соответствующих возможностей в свете различных национальных условий,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также</span> на статью 5 Венской декларации и Программы действий, в которых говорится, что все права человека универсальны, неделимы, взаимозависимы и взаимосвязаны, что международное сообщество должно относиться к правам человека глобально, на справедливой и равной основе, с одинаковым подходом и одинаковым вниманием и что, хотя значение национальной и региональной специфики и различных исторических, культурных и религиозных особенностей необходимо иметь в виду, государства независимо от их политических, экономических и культурных систем несут обязанность поощрять и защищать все права человека и основные свободы,</p>
+      </container>
+      <container name="признавая" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что меры по прогнозированию, предотвращению или сведению к минимуму причин изменения климата, включая сокращение выбросов парниковых газов, а также по смягчению его негативного воздействия и адаптации к нему, и защита окружающей среды способствуют повышению благополучия людей и более полному осуществлению прав человека, а также устойчивому развитию,</p>
+      </container>
+      <container name="приветствуя" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">приветствуя</span> принятое на двадцать восьмой сессии Конференции Сторон Рамочной конвенции Организации Объединенных Наций об изменении климата и пятой Конференции Сторон, действующей в качестве совещания Сторон Парижского соглашения, решение о введении в действие новых механизмов финансирования, включая фонд, который был создан в Шарм-эш-Шейхе на двадцать седьмой сессии Конференции Сторон Конвенции и четвертой Конференции Сторон, действующей в качестве совещания Сторон Парижского соглашения, в целях реагирования на потери и ущерб для оказания помощи развивающимся странам, особенно уязвимым к неблагоприятным последствиям изменения климата, в реагировании на экономические и неэкономические потери и ущерб, связанные с неблагоприятными последствиями изменения климата, включая экстремальные погодные явления и медленно протекающие явления, путем предоставления новых и дополнительных ресурсов и оказания содействия в их мобилизации, при том понимании, что эти новые механизмы дополняют и включают в себя источники, фонды, процессы и инициативы в рамках и за рамками Конвенции и Парижского соглашения,</p>
+      </container>
+      <container name="признавая" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что, хотя последствия негативного воздействия изменения климата на права человека затрагивают отдельных людей и общины по всему миру, в особенности в развивающихся странах, в частности в малых островных развивающихся государствах, наименее развитых странах и развивающихся странах, не имеющих выхода к морю, эти последствия наиболее остро сказываются на женщинах, детях, людях с инвалидностью, коренных народах, местных общинах, крестьянах и других людях, работающих в сельских районах, людях, живущих в условиях нехватки воды, засухи и опустынивания, лицах, принадлежащих к группам меньшинств, бездомных, лицах, живущих в бедности, пожилых людях, мигрантах, беженцах и внутренне перемещенных лицах, лицах, живущих в зонах конфликтов, и тех, кто уже находится в уязвимом положении, а также важность признания их агентности в деятельности по борьбе с изменением климата, </p>
+      </container>
+      <container name="ссылаясь" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюции Совета по правам человека 5/1 от 18 июня 2007 года об институциональном строительстве Совета и 5/2 о Кодексе поведения мандатариев специальных процедур Совета по правам человека и подчеркивая, что мандатарий исполняет свои обязанности в соответствии с этими резолюциями и приложениями к ним,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">вновь подтверждая </span>резолюцию <a href="http://undocs.org/ru/A/HRC/RES/40/11">40/11</a> Совета по правам человека от 21 марта 2019 года, в которой Совет признал вклад правозащитников, в том числе правозащитниц и правозащитников из числа коренных народов, занимающихся экологическими вопросами, которых называют защитниками экологических прав человека, в осуществление прав человека, защиту окружающей среды и устойчивое развитие, настоятельно призывая все государства принимать все необходимые меры для обеспечения защиты прав и безопасности всех лиц, включая защитников экологических прав человека, и обращая особое внимание на ответственность всех предприятий, как транснациональных, так и других, в соответствии с Руководящими принципами предпринимательской деятельности в аспекте прав человека за соблюдение прав человека, включая права на жизнь, свободу и личную безопасность правозащитников, в том числе защитников экологических прав человека,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve"> 	<span class="italic">особо отмечает</span>, что, принимая меры по реагированию на изменение климата, государства должны обеспечивать выполнение своих обязательств по международному праву прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> 	<span class="italic">приветствует</span> работу Специального докладчика по вопросу о поощрении и защите прав человека в контексте изменения климата<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="http://undocs.org/ru/A/HRC/50/39">A/HRC/50/39</a>, <a href="http://undocs.org/ru/A/HRC/53/34">A/HRC/53/34</a>, A/HRC/56/46, <a href="http://undocs.org/ru/A/77/226">A/77/226</a> и <a href="http://undocs.org/ru/A/78/255">A/78/255</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> 	<span class="italic">постановляет</span> продлить на три года мандат Специального докладчика по вопросу о поощрении и защите прав человека в контексте изменения климата на тех же условиях, которые были предусмотрены Советом по правам человека в его резолюции <a href="http://undocs.org/ru/A/HRC/RES/48/14">48/14</a>, включая подпункты a)–m) пункта 2;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="italic">просит</span> Специального докладчика ежегодно представлять доклады о выполнении мандата Совету по правам человека и Генеральной Ассамблее согласно их программам работы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 	<span class="italic">просит также </span>Специального докладчика проводить на ежегодной основе консультации по вопросу о поощрении и защите прав человека в контексте изменения климата в соответствии с настоящей резолюцией, резолюцией <a href="http://undocs.org/ru/A/HRC/RES/48/14">48/14</a> Совета и предыдущими резолюциями Совета по вопросам прав человека и изменения климата со всеми соответствующими заинтересованными сторонами, особенно с теми, кто наиболее остро страдает от негативных последствий изменения климата, а также с государствами, научным сообществом, деловыми кругами, защитниками окружающей среды и другими правозащитниками, как это отражено в настоящей резолюции, сообразно обстоятельствам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="MercuryDocument">
+        <num>6.</num>
+        <list eId="para_28_list">
+          <intro eId="para_28_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">просит далее </span>Специального докладчика продолжать уделять должное внимание необходимости: </p>
+          </intro>
+          <point eId="para_28_list_point_a">
+            <num>a)</num>
+            <content eId="para_28_list_point_a_content">
+              <p xml:space="preserve"> 	активизации глобальных действий и поддержки в целях решения проблемы изменения климата, в том числе в целях предотвращения, минимизации и устранения потерь и ущерба, связанных с неблагоприятными последствиями изменения климата; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_b">
+            <num>b)</num>
+            <content eId="para_28_list_point_b_content">
+              <p xml:space="preserve"> 	всем принципам, закрепленным в Рамочной конвенции Организации Объединенных Наций об изменении климата, в том числе принципу справедливости и общей, но дифференцированной ответственности и соответствующих возможностей с учетом различных национальных условий и в контексте устойчивого развития и усилий по искоренению нищеты, все это в интересах достижения целей Конвенции и Парижского соглашения;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">приветствует</span> тесную координацию, установленную между Специальным докладчиком по вопросу о поощрении и защите прав человека в контексте изменения климата и другими механизмами и процедурами Организации Объединенных Наций в области прав человека, включая договорные органы, Управление Верховного комиссара Организации Объединенных Наций по правам человека и других мандатариев специальных процедур, в том числе Специального докладчика по вопросу о праве человека на чистую, здоровую и устойчивую окружающую среду, Специального докладчика по вопросу о последствиях для прав человека экологически обоснованного регулирования и удаления опасных веществ и отходов, Специального докладчика по вопросу о правах человека на безопасную питьевую воду и санитарные услуги и Специального докладчика по вопросу о праве на развитие, и рекомендует Специальному докладчику продолжать усилия в этом направлении;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> все государства и все заинтересованные стороны в полной мере сотрудничать со Специальным докладчиком по вопросу о поощрении и защите прав человека в контексте изменения климата при выполнении мандата, в том числе путем предоставления всей необходимой информации, запрашиваемой в сообщениях Специального докладчика, оперативно реагировать на настоятельные призывы Специального докладчика, серьезным образом рассмотреть возможность удовлетворения просьб Специального докладчика о посещении стран и рассмотреть возможность выполнения рекомендаций, содержащихся в докладах, представленных в соответствии с мандатом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve"> 	<span class="italic">рекомендует</span> всем соответствующим заинтересованным сторонам, включая учреждения, фонды и программы Организации Объединенных Наций, правозащитные механизмы, национальные правозащитные учреждения, национальные механизмы осуществления, представления докладов и последующей деятельности, национальные независимые структуры мониторинга, гражданское общество, частный сектор, доноров и учреждения по вопросам развития, в полной мере сотрудничать со Специальным докладчиком, с тем чтобы позволить мандатарию выполнять мандат;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve"> 	<span class="italic">просит </span>Генерального секретаря и Верховного комиссара Организации Объединенных Наций по правам человека предоставлять Специальному докладчику все кадровые, технические и финансовые ресурсы, необходимые для эффективного выполнения мандата; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve"> 	<span class="italic">постановляет</span> продолжать заниматься этим вопросом.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="49-е" refersTo="#adoptionMeeting">49‑е заседание</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 октября 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
