@@ -1,0 +1,279 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/spa@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/spa@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Promotion and Protection of Human Rights in the Context of Climate Change" showAs="UN. Human Rights Council. Special Rapporteur on the Promotion and Protection of Human Rights in the Context of Climate Change" dictionary="DHLAUTH"></keyword>
+        <keyword value="CLIMATE CHANGE" href="http://metadata.un.org/thesaurus/1001030" showAs="CLIMATE CHANGE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-08" outcome="draftResolution" as="A/HRC/57/L.31/Rev.1" by="Albania, Antigua and Barbuda, Australia, Austria, Bahamas, Belgium, Bulgaria, Chile, Colombia, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Fiji, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Italy, Kenya, Latvia, Lithuania, Luxembourg, Malawi, Malta, Marshall Islands, Micronesia (Federated States of), Monaco, Montenegro, Namibia, Nauru, Netherlands (Kingdom of the), North Macedonia, Panama, Paraguay, Poland, Portugal, Romania, Samoa, San Marino, Slovakia, Slovenia, Spain, Sudan, Sweden, Switzerland, Ukraine and Vanuatu" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 49th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="spanish" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/31</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 de octubre de 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">57º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 septiembre</date>
+          <date date="2024-10-11" refersTo="#endDate">11 octubre 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Tema 3 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promoción y protección de todos los derechos humanos, civiles, políticos, económicos, sociales y culturales, incluido el derecho al desarrollo</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos el 11 de octubre de 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/31.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Mandato de Relator Especial sobre la promoción y la protección de los derechos humanos en el contexto del cambio climático</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Guiado" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Guiado</span> por los propósitos y principios de la Carta de las Naciones Unidas,</p>
+      </container>
+      <container name="Reafirmando" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> que los Estados tienen la obligación y la responsabilidad primordial de respetar, proteger y hacer efectivos los derechos humanos y las libertades fundamentales, de conformidad con la Carta, la Declaración Universal de Derechos Humanos, el Pacto Internacional de Derechos Económicos, Sociales y Culturales, el Pacto Internacional de Derechos Civiles y Políticos y todos los instrumentos internacionales de derechos humanos pertinentes,</p>
+      </container>
+      <container name="Recordando" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> todas las resoluciones anteriores aprobadas por el Consejo de Derechos Humanos sobre los derechos humanos y el cambio climático, incluida la resolución 48/14 del Consejo, de 8 de octubre de 2021,</p>
+      </container>
+      <container name="Teniendo presentes" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Teniendo presentes</span> la Convención Marco de las Naciones Unidas sobre el Cambio Climático, el Acuerdo de París, aprobado en virtud de la Convención, la Agenda 2030 para el Desarrollo Sostenible, la Agenda de Acción de Addis Abeba, el Marco de Sendái para la Reducción del Riesgo de Desastres 2015-2030, la Declaración de Malé sobre la Dimensión Humana del Cambio Climático Mundial, las Modalidades de Acción Acelerada para los Pequeños Estados Insulares en Desarrollo (Trayectoria de Samoa), la Agenda de Antigua y Barbuda para los Pequeños Estados Insulares en Desarrollo, la Declaración y el Programa de Acción de Viena, la Declaración sobre el Derecho al Desarrollo y el Programa de Acción de Viena en favor de los Países en Desarrollo Sin Litoral para el Decenio 2014-2024, así como todos los instrumentos internacionales y regionales pertinentes que abordan los efectos adversos del cambio climático en los derechos humanos,</p>
+      </container>
+      <container name="Recordando" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> el artículo 2 del Acuerdo de París, que establece que el Acuerdo, al mejorar la aplicación de la Convención Marco de las Naciones Unidas sobre el Cambio Climático, incluido su objetivo, tiene por objeto reforzar la respuesta mundial a la amenaza del cambio climático, en el contexto del desarrollo sostenible y de los esfuerzos por erradicar la pobreza, en particular: a) manteniendo el aumento de la temperatura media mundial muy por debajo de 2 ºC con respecto a los niveles preindustriales y prosiguiendo los esfuerzos para limitar ese aumento de la temperatura a 1,5 ºC con respecto a los niveles preindustriales, reconociendo que ello reduciría considerablemente los riesgos y los efectos del cambio climático; b) aumentando la capacidad de adaptarse a los efectos adversos del cambio climático y promover la resiliencia al clima y un desarrollo con bajas emisiones de gases de efecto invernadero de un modo que no comprometa la producción de alimentos; y c) situando los flujos financieros en un nivel compatible con una trayectoria que conduzca a un desarrollo resiliente al clima y con bajas emisiones de gases de efecto invernadero; y que el Acuerdo se aplicará de modo que refleje la equidad y el principio de las responsabilidades comunes pero diferenciadas y las capacidades respectivas, a la luz de las diferentes circunstancias nacionales,</p>
+      </container>
+      <container name="Recordando también" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando también</span> el artículo 5 de la Declaración y el Programa de Acción de Viena, que establece que todos los derechos humanos son universales, indivisibles e interdependientes y están relacionados entre sí, que la comunidad internacional debe tratar los derechos humanos en forma global y de manera justa y equitativa, en pie de igualdad y dándoles a todos el mismo peso, y que, si bien debe tenerse en cuenta la importancia de las particularidades nacionales y regionales, así como de los diversos patrimonios históricos, culturales y religiosos, los Estados tienen el deber, sean cuales fueren sus sistemas políticos, económicos y culturales, de promover y proteger todos los derechos humanos y las libertades fundamentales,</p>
+      </container>
+      <container name="Reconociendo" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> que las medidas para prever, prevenir o reducir al mínimo las causas del cambio climático, incluida la reducción de las emisiones de gases de efecto invernadero, y para mitigar sus efectos adversos y adaptarse a ellos, y la protección del medio ambiente contribuyen al bienestar humano y a un mejor disfrute de los derechos humanos, así como al desarrollo sostenible,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Acogiendo con beneplácito</span> la decisión aprobada en el 28º período de sesiones de la Conferencia de las Partes en la Convención Marco de las Naciones Unidas sobre el Cambio Climático y en el 5º período de sesiones de la Conferencia de las Partes en calidad de reunión de las Partes en el Acuerdo de París sobre la puesta en marcha de los nuevos arreglos de financiación, entre los que se incluye un fondo que se estableció en Sharm el-Sheikh en el 27º período de sesiones de la Conferencia de las Partes en la Convención y en el 4º período de sesiones de la Conferencia de las Partes en calidad de reunión de las Partes en el Acuerdo de París, para dar respuesta a las pérdidas y los daños y ayudar a los países en desarrollo que son especialmente vulnerables a los efectos adversos del cambio climático a dar respuesta a las pérdidas y los daños económicos y no económicos relacionados con los efectos adversos del cambio climático, incluidos los fenómenos meteorológicos extremos y los fenómenos de evolución lenta, proporcionándoles y ayudándolos a movilizar recursos nuevos y adicionales, y que estos nuevos arreglos complementen e incluyan fuentes, fondos, procesos e iniciativas del ámbito de la Convención y el Acuerdo de París y ajenos a ellos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> que, si bien las repercusiones de los efectos adversos del cambio climático sobre los derechos humanos afectan a las personas y las comunidades en todo el mundo, especialmente en los países en desarrollo, en particular los pequeños Estados insulares en desarrollo, los países menos adelantados y los Estados en desarrollo sin litoral, los más afectados por estas consecuencias son las mujeres, los niños, las personas con discapacidad, los Pueblos Indígenas, las comunidades locales, los campesinos y otras personas que trabajan en zonas rurales, las personas que viven en condiciones de escasez de agua, sequía y desertificación, las personas pertenecientes a grupos minoritarios, las personas sin hogar, las personas que viven en la pobreza, las personas de edad, los migrantes, los refugiados y los desplazados internos, las personas que viven en zonas de conflicto y las que ya se encuentran en situación de vulnerabilidad, y la importancia de reconocer su capacidad de contribuir a la acción climática,</p>
+      </container>
+      <container name="Recordando" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> las resoluciones del Consejo de Derechos Humanos 5/1, sobre la construcción institucional del Consejo, y 5/2, sobre el Código de Conducta para los Titulares de Mandatos de los Procedimientos Especiales del Consejo de Derechos Humanos, de 18 de junio de 2007, y destacando que los titulares de mandatos han de desempeñar sus funciones de conformidad con esas resoluciones y sus anexos,</p>
+      </container>
+      <container name="Reafirmando" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando</span> la resolución 40/11 del Consejo de Derechos Humanos, de 21 de marzo de 2019, en la que el Consejo reconoció la contribución de los defensores de los derechos humanos, incluidos las defensoras y los defensores indígenas de los derechos humanos, que se ocupan de cuestiones relativas al medio ambiente, conocidos como defensores de los derechos humanos relacionados con el medio ambiente, al disfrute de los derechos humanos, la protección ambiental y el desarrollo sostenible, instando a todos los Estados a que adopten todas las medidas necesarias para garantizar la protección de los derechos y la seguridad de todas las personas, incluidos los defensores de los derechos humanos relacionados con el medio ambiente, y recalcando que, de conformidad con los Principios Rectores sobre las Empresas y los Derechos Humanos, todas las empresas, sean transnacionales o de otra índole, tienen la responsabilidad de respetar los derechos humanos, entre ellos los derechos a la vida, a la libertad y a la seguridad de la persona, de los defensores de los derechos humanos, incluidos los defensores de los derechos humanos relacionados con el medio ambiente,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve</span> que, al mismo tiempo que adoptan medidas para responder al cambio climático, los Estados deben asegurarse de que cumplen las obligaciones que les incumben en virtud del derecho internacional de los derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la labor realizada por la Relatoría Especial sobre la promoción y la protección de los derechos humanos en el contexto del cambio climático<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="http://undocs.org/sp/A/HRC/50/39">A/HRC/50/39</a>, <a href="http://undocs.org/sp/A/HRC/53/34">A/HRC/53/34</a>, <a href="http://undocs.org/sp/A/HRC/56/46">A/HRC/56/46</a>, <a href="http://undocs.org/sp/A/77/226">A/77/226</a> y <a href="http://undocs.org/sp/A/78/255">A/78/255</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> prorrogar por un período de tres años el mandato de Relator Especial sobre la promoción y la protección de los derechos humanos en el contexto del cambio climático en los mismos términos que los previstos por el Consejo de Derechos Humanos en su resolución 48/14, incluido el párrafo 2 a) a m);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a la Relatoría Especial que presente informes anuales sobre la ejecución del mandato al Consejo de Derechos Humanos y a la Asamblea General de conformidad con sus programas de trabajo respectivos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Solicita también</span> a la Relatoría Especial que celebre, con carácter anual, consultas sobre la promoción y la protección de los derechos humanos en el contexto del cambio climático, de conformidad con la presente resolución, la resolución 48/14 del Consejo y sus resoluciones anteriores sobre los derechos humanos y el cambio climático, con todas las partes interesadas pertinentes, en particular las más afectadas por los efectos adversos del cambio climático, así como con Estados, el mundo académico, empresas y defensores de los derechos humanos relacionados con el medio ambiente y otros defensores de los derechos humanos, como se refleja en la presente resolución, según proceda;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>6.</num>
+        <list eId="para_28_list">
+          <intro eId="para_28_list_intro">
+            <p xml:space="preserve">	<span class="italic">Solicita además </span>a la Relatoría Especial que siga teniendo debidamente en cuenta:</p>
+          </intro>
+          <point eId="para_28_list_point_a">
+            <num>a)</num>
+            <content eId="para_28_list_point_a_content">
+              <p xml:space="preserve">	La necesidad de intensificar la acción mundial y aumentar el apoyo para hacer frente al cambio climático, entre otros fines para evitar, reducir al mínimo y afrontar las pérdidas y los daños relacionados con los efectos adversos del cambio climático;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_b">
+            <num>b)</num>
+            <content eId="para_28_list_point_b_content">
+              <p xml:space="preserve">	Todos los principios enunciados en la Convención Marco de las Naciones Unidas sobre el Cambio Climático, incluidos los principios de equidad y de las responsabilidades comunes pero diferenciadas y las capacidades respectivas, a la luz de las diferentes circunstancias nacionales y en el contexto del desarrollo sostenible y de los esfuerzos por erradicar la pobreza, todo ello con el fin de lograr los objetivos de la Convención y el Acuerdo de París;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la estrecha coordinación establecida entre la Relatoría Especial sobre la promoción y la protección de los derechos humanos en el contexto del cambio climático y otros mecanismos y procedimientos de las Naciones Unidas en la esfera de los derechos humanos, incluidos los órganos de tratados, la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos y otros titulares de mandatos de los procedimientos especiales, entre otros la Relatoría Especial sobre el derecho humano a un medio ambiente limpio, saludable y sostenible, la Relatoría Especial sobre las implicaciones para los derechos humanos de la gestión y eliminación ambientalmente racionales de las sustancias y los desechos peligrosos, la Relatoría Especial sobre los derechos humanos al agua potable y al saneamiento y la Relatoría Especial sobre el derecho al desarrollo, y alienta a la Relatoría Especial a que prosiga su labor en ese sentido;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a todos los Estados y a todas las partes interesadas a que cooperen plenamente con la Relatoría Especial sobre la promoción y la protección de los derechos humanos en el contexto del cambio climático en el desempeño de su mandato, entre otras cosas proporcionándole toda la información necesaria que se solicite en las comunicaciones de la Relatoría Especial, a que reaccionen con prontitud a sus llamamientos urgentes, a que consideren detenidamente la posibilidad de responder favorablemente a sus solicitudes de realizar visitas a los países y a que consideren la posibilidad de aplicar las recomendaciones de los informes presentados en el marco del mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a todas las partes interesadas pertinentes, incluidos los organismos, fondos y programas de las Naciones Unidas, los mecanismos de derechos humanos, las instituciones nacionales de derechos humanos, los mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento, los marcos nacionales independientes de supervisión, la sociedad civil, el sector privado, los donantes y los organismos de desarrollo, a que colaboren plenamente con la Relatoría Especial de modo que pueda cumplir su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General y al Alto Comisionado de las Naciones Unidas para los Derechos Humanos que proporcionen a la Relatoría Especial todos los recursos humanos, técnicos y financieros necesarios para el cumplimiento efectivo del mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> seguir ocupándose de la cuestión.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="49ª" refersTo="#adoptionMeeting">49ª sesión</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 de octubre de 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
