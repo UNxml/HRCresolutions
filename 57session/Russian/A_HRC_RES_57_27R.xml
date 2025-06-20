@@ -1,0 +1,639 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/rus@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-27/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Independent Expert on the Situation of Human Rights in Somalia" showAs="UN. Human Rights Council. Independent Expert on the Situation of Human Rights in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA" href="http://metadata.un.org/thesaurus/1006048" showAs="SOMALIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EXPERTS" href="http://metadata.un.org/thesaurus/1002188" showAs="EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-04" outcome="draftResolution" as="A/HRC/57/L.15" by="Albania, Belgium, Bulgaria, Costa Rica, Czechia, Denmark, Estonia, France, Germany, Iceland, Ireland, Latvia, Luxembourg, Malta, Montenegro, Netherlands (Kingdom of the), North Macedonia, Romania, Somalia, Sweden, Türkiye, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 48th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/27</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Пятьдесят седьмая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 сентября</date>
+          <date date="2024-10-11" refersTo="#endDate">11 октября 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Пункт 10 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Техническая помощь и создание потенциала</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 10 октября 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/27.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Помощь Сомали в области прав человека</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">руководствуясь</span> Уставом Организации Объединенных Наций,</p>
+      </container>
+      <container name="подтверждая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> Всеобщую декларацию прав человека,</p>
+      </container>
+      <container name="признавая" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что мир и безопасность, а также развитие и права человека являются основными компонентами системы Организации Объединенных Наций,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span> свое уважение суверенитета, территориальной целостности, политической независимости и единства Сомали,</p>
+      </container>
+      <container name="вновь подтверждая также" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая также </span>свои предыдущие резолюции по Сомали,</p>
+      </container>
+      <container name="ссылаясь" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на свои резолюции 5/1 и 5/2 от 18 июня 2007 года,</p>
+      </container>
+      <container name="признавая" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что главная ответственность за поощрение и защиту прав человека в Сомали лежит на федеральном правительстве Сомали и что укрепление нормативно-правовой базы, правозащитных систем и потенциала, прозрачности и легитимности институтов имеет крайне важное значение для содействия борьбе с безнаказанностью и повышения эффективности усилий по привлечению к ответственности за нарушения и ущемления прав человека и для содействия примирению,</p>
+      </container>
+      <container name="признавая также" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">признавая также </span>необходимость того, чтобы федеральное правительство Сомали и его учреждения, занимающиеся вопросами безопасности, соблюдали международные обязательства и обязанности в области прав человека и боролись со злоупотреблениями и чрезмерным применением силы в отношении гражданских лиц,</p>
+      </container>
+      <container name="признавая далее" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">признавая далее </span>важность и эффективность оказания международной помощи Сомали и сохраняющуюся потребность в расширении масштабов и повышении уровня координации, согласованности и качества всех мер по развитию потенциала и оказанию технической помощи Сомали в области прав человека на национальном уровне и на уровне штатов — членов федерации и принимая к сведению Рамочную программу взаимной подотчетности, которая нацелена на ускорение реформ в области прав человека, а также реформ, касающихся обеспечения безопасности, экономических и политических институтов и выборов,</p>
+      </container>
+      <container name="обращая особое внимание" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">обращая особое внимание</span> на важность сотрудничества и консенсуса для достижения дальнейшего прогресса в решении ключевых национальных приоритетных задач, включая создание архитектуры национальной безопасности, пересмотр конституционных положений, распределение властных полномочий и ресурсов на федеральном уровне, включая бюджетно-налоговый федерализм, и для достижения договоренности о федеративной системе правосудия, отмечая при этом, что для всего этого требуются политические договоренности, которые могут заложить основы для законотворческой деятельности федерального парламента,</p>
+      </container>
+      <container name="признавая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">признавая </span>неизменную и чрезвычайно важную приверженность Миссии Африканского союза в Сомали, за которой последовала Переходная миссия Африканского союза в Сомали, а также потери и жертвы среди их сотрудников, погибших в ходе боевых действий с момента начала этих операций, и их вклад в поддержание мира и безопасности в Сомали,</p>
+      </container>
+      <container name="признавая также" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">признавая также</span> ту роль, которую играют и по‑прежнему будут играть женщины в деле мобилизации общин и миростроительства в сомалийском обществе, необходимость принятия специальных мер, чтобы покончить с сексуальным и гендерным насилием, включая сексуальное насилие, связанное с конфликтом, практику калечащих операций на женских половых органах, детские, ранние и принудительные браки и все другие формы незаконного насилия в ситуациях вооруженного конфликта, и необходимость покончить с безнаказанностью и обеспечить в соответствии с международным правом привлечение к ответственности лиц, виновных в совершении актов сексуального и гендерного насилия в отношении женщин и девочек, а также важность содействия расширению их экономических прав и возможностей и всестороннему, равному и значимому участию в процессах принятия решений в сфере политической и общественной жизни, в том числе в парламенте и на всех уровнях управления, в соответствии с резолюцией 1325 (2000) Совета Безопасности от 31 октября 2000 года о женщинах и мире и безопасности,</p>
+      </container>
+      <container name="признавая далее" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">признавая далее</span> возросшую приверженность федерального правительства Сомали и штатов — членов федерации делу содействия поощрению и защите прав человека через свои соответствующие министерства, настоятельно призывая при этом к более активному разъяснению и выполнению правозащитных обязательств в Сомали и к активизации взаимодействия с международной правозащитной системой,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxtG">
+        <num>1.</num>
+        <list eId="para_15_list">
+          <intro eId="para_15_list_intro">
+            <p xml:space="preserve">	<span class="italic">приветствует </span>приверженность федерального правительства Сомали улучшению положения в области прав человека в Сомали и в этой связи приветствует также:</p>
+          </intro>
+          <point eId="para_15_list_point_a">
+            <num>a)</num>
+            <content eId="para_15_list_point_a_content">
+              <p xml:space="preserve">	план развития сектора безопасности Сомали, который должен способствовать возникновению в Сомали эффективных институтов безопасности и постепенной передаче ответственности от Переходной миссии Африканского союза в Сомали самому Сомали, выражая при этом удовлетворение тем, что в основе такого подхода лежат, в частности, принципы верховенства права, примирения, правосудия, уважения прав человека и защиты женщин и детей, в частности девочек;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_b">
+            <num>b)</num>
+            <content eId="para_15_list_point_b_content">
+              <p xml:space="preserve">	начало реализации пятилетней стратегии и плана действий Национального агентства по делам людей с инвалидностью в декабре 2023 года и приверженность федерального правительства делу закрепления прав людей с инвалидностью в социальной, образовательной, политической и экономической сферах жизни общества путем принятия законопроекта о правах людей с инвалидностью в августе 2024 года и задействования иных законодательных механизмов путем улучшения сбора данных о людях с инвалидностью;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_c">
+            <num>c)</num>
+            <content eId="para_15_list_point_c_content">
+              <p xml:space="preserve"> 	начало реализации федеральным правительством в сентябре 2022 года национального плана действий по осуществлению Хартии сомалийских женщин и резолюции 1325 (2000) Совета Безопасности и последующих резолюций Совета по вопросу о женщинах и мире и безопасности, в котором закреплена безусловная приверженность гендерному равноправию, правам человека и расширению прав и возможностей женщин, а принципам абсолютной нетерпимости к сексуальному и гендерному насилию, правосудию для всех, расширения экономических прав и возможностей женщин и примирения и мира при соблюдении интересов женщин отводится центральная роль в правосудии переходного периода, а также начало работы сомалийского отделения Африканской сети женщин-лидеров, которое поддерживает реализацию вышеупомянутого национального плана действий;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_d">
+            <num>d)</num>
+            <content eId="para_15_list_point_d_content">
+              <p xml:space="preserve"> 	сохранение положений о защите прав человека в главе 2 временной конституции в рамках процесса пересмотра конституции и рекомендует федеральному правительству обеспечить проведение широких консультаций с техническими экспертами и членами гражданского общества, включая женщин, людей с инвалидностью и представителей кланов меньшинств, для того чтобы соглашения, достигнутые Национальным консультативным советом, были действительно представительными, чтобы они прошли через надлежащую парламентскую процедуру в целях их закрепления в законодательной системе и чтобы был всесторонне рассмотрен вопрос о долгосрочной доступности предложенной модели;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_e">
+            <num>e)</num>
+            <content eId="para_15_list_point_e_content">
+              <p xml:space="preserve"> 	усилия Министерства по делам женщин и правам человека (в настоящее время Министерство по делам семьи и правам человека) по разработке ключевых законодательных актов в области прав человека, включая законодательство о сексуальных преступлениях и законопроект о правах ребенка, и рекомендует правительству обеспечить проведение широких консультаций с гражданским обществом, включая женщин, людей с инвалидностью и представителей кланов меньшинств, с тем чтобы эти законодательные акты были действительно представительными и соответствовали применимым нормам международного права прав человека, а также проходили через надлежащую парламентскую процедуру;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_f">
+            <num>f)</num>
+            <content eId="para_15_list_point_f_content">
+              <p xml:space="preserve">	сотрудничество Сомали с Комитетом по правам человека и представление ее первоначального доклада по статье 40 Пакта<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		CCPR/C/SOM/1.</p></authorialNote>, охватывающего период 2012–2020 годов, а также дух прозрачности и сотрудничества, в котором делегация Сомали взаимодействовала с Комитетом при рассмотрении этого доклада на его сто сороковой сессии;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_g">
+            <num>g)</num>
+            <content eId="para_15_list_point_g_content">
+              <p xml:space="preserve"> 	запуск премьер-министром 30 апреля 2024 года в Могадишо рамочной программы национального примирения, которая знаменует собой важную веху на пути Сомали к миру, единству и прогрессу, и выступает в качестве руководящей структуры для усилий страны по примирению, символизируя надежду и единство и закладывая основу для будущего, определяемого миром, процветанием и инклюзивностью;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_h">
+            <num>h)</num>
+            <content eId="para_15_list_point_h_content">
+              <p xml:space="preserve"> 	продолжение реализации национальной стратегии долгосрочных решений на 2020–2024 годы, направленной на создание благоприятных условий, которые позволят внутренне перемещенным лицам, беженцам, просителям убежища, возвращенцам и уязвимым принимающим общинам получать доступ к справедливым решениям, и отмечает, что Министерство планирования, инвестиций и экономического развития через свой Отдел долгосрочных решений в сотрудничестве с штатами — членами федерации и международными партнерами приступило к реализации плана действий по обеспечению того, чтобы 1 млн внутренне перемещенных лиц мог получить доступ к устойчивым, долгосрочным решениям;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_i">
+            <num>i)</num>
+            <content eId="para_15_list_point_i_content">
+              <p xml:space="preserve">	разработку первой в стране национальной политики цифровой инклюзии, ориентированной на уязвимые и маргинализированные группы населения, к которым относятся женщины и девочки, молодежь, сельские общины, городская беднота, пожилые люди, люди с инвалидностью, внутренне перемещенные лица и беженцы, а также предприятия, которая предусматривает равный доступ к инициативам в области информационно-коммуникационных технологий с целью достижения уровня участия, соответствующего или превышающего средние показатели по стране, и призывает к проведению правовых и институциональных изменений для поддержки полной цифровой инклюзии к 2033 году, предлагая новое законодательство для интеграции этих групп в цифровую экономику;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_j">
+            <num>j)</num>
+            <content eId="para_15_list_point_j_content">
+              <p xml:space="preserve"> 	начало реализации Национального плана действий в интересах детей в Сомали 17 сентября 2024 года, который знаменует собой важный шаг в стремлении Сомали обеспечить благополучие и права самых юных жителей страны и детализировать стратегические инициативы, направленные на улучшение защиты детей, образования, здравоохранения и общего благополучия;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_k">
+            <num>k)</num>
+            <content eId="para_15_list_point_k_content">
+              <p xml:space="preserve"> 	разработку Министерством по делам семьи и правам человека всеобъемлющего национального механизма для реализации политики отчетности и последующих действий, который создаст надежную основу для обеспечения большей прозрачности, подотчетности и эффективности в решении вопросов прав человека и призван способствовать улучшению координации между различными правительственными и неправительственными организациями, укрепляя тем самым общую инфраструктуру прав человека;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span> об активном сотрудничестве федерального правительства Сомали с механизмом универсального периодического обзора в мае 2021 года и в этой связи напоминает о принятии им к исполнению многих рекомендаций, вынесенных в ходе обзора<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		См. A/HRC/48/11.</p></authorialNote>, рекомендует правительству выполнить их в приоритетном порядке и приветствует его обязательство завершить среднесрочный обзор выполнения рекомендаций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">выражает обеспокоенность</span> в связи с сообщениями о нарушениях и ущемлениях прав человека и нарушениях международного гуманитарного права в Сомали, особо отмечает необходимость соблюдения всеми вооруженными субъектами норм международного гуманитарного права и прав человека в интересах всех и привлечения к ответственности всех лиц, виновных в таких нарушениях и ущемлениях и связанных с ними преступлениях, в том числе совершаемых в отношении женщин и детей, в частности девочек, таких как незаконная вербовка и использование детей-солдат и детей в вооруженном конфликте, убийства, калечение, изнасилование и другие формы сексуального и гендерного насилия, включая детские, ранние и принудительные браки и все формы калечащих операций на женских половых органах и вредной практики, и особо отмечает важность признания детей, ранее связанных с вооруженными группами, в качестве жертв;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> федеральное правительство Сомали при поддержке международных доноров и организаций усилить программы реинтеграции детей, ранее связанных с вооруженными группировками, обеспечивая, чтобы с ними обращались в первую очередь как с жертвами преступлений по международному праву, а не только как с преступниками, и отмечает, что эти программы должны предусматривать психосоциальную поддержку, образование и профессиональную подготовку для содействия успешной реинтеграции детей-солдат в общество и что должна быть создана национальная система мониторинга для отслеживания и предотвращения незаконной вербовки и использования детей, связанных с вооруженными силами и вооруженными группировками;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">выражает обеспокоенность</span> в связи с тем, что внутренне перемещенные лица, в частности те, кто может находиться в уязвимом положении, например женщины, дети, молодежь, люди с инвалидностью и лица, принадлежащие к группам меньшинств и маргинализированным группам, подвергаются наибольшему риску насилия, злоупотреблений и нарушений их прав;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">выражает глубокую обеспокоенность</span> в связи с возрастающим риском возникновения проблем с защитой гражданского населения в результате продолжающихся операций по борьбе с «Аш-Шабааб» и отмечает, что все участники конфликта несут ответственность за выполнение своих соответствующих применимых обязательств по международному праву прав человека и международному гуманитарному праву;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">выражает обеспокоенность</span> в связи с любыми нападениями на правозащитников и представителей гражданского общества и оппозиционных политических сил, включая журналистов и работников средств массовой информации, а также с применяемыми к ним незаконными ограничениями и их притеснением, особенно в форме притеснений, произвольных арестов и длительного содержания под стражей, особо отмечает необходимость поощрения уважения права на свободу выражения мнений и свободу убеждений, прекращения безнаказанности и привлечения к ответственности лиц, совершающих любые подобные преступления, подчеркивает важность политического нейтралитета полиции, а также рекомендует властям Сомалиленда соблюдать право на свободу выражения мнений и мирных собраний в соответствии с международным правом прав человека и пересмотреть вопрос об осуществлении законопроекта о средствах массовой информации и законопроекта 2018 года о сексуальных преступлениях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve"> 	<span class="italic">выражает также обеспокоенность</span> ситуацией в Ласъаноде и прилегающих районах, где после ожесточенного конфликта в 2023 году все еще находятся комбатанты, содержащиеся под стражей с обеих сторон, отмечает, что риск роста напряженности может привести к увеличению числа нарушений и ущемлений прав человека и дальнейшему вынужденному перемещению, призывает все стороны конфликта проявлять сдержанность и воздерживаться от провокационных действий, с тем чтобы добиться деэскалации ситуации на местах и создать условия для достижения мира, а также призывает все стороны конфликта выполнять свои соответствующие применимые обязательства по международному праву прав человека и гуманитарному праву, включая обязательства, касающиеся обращения с задержанными, защиты гражданского населения и гражданской инфраструктуры, а также гуманитарного доступа;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">выражает обеспокоенность далее</span> в связи с тем, что лица, принадлежащие к кланам меньшинств и маргинализированным группам, в том числе женщины и девочки, по‑прежнему находятся на периферии экономической и политической жизни и процесса принятия решений в Сомали, и рекомендует федеральному правительству Сомали и его учреждениям активизировать усилия по расширению возможностей их участия в государственных делах, признавая, что женщины и девочки, принадлежащие к группам меньшинств, по‑прежнему более уязвимы для сексуального и гендерного насилия в силу нищеты, маргинализации и дискриминационного отношения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">выражает обеспокоенность </span>в связи с принятием в августе 2020 года измененного закона о средствах массовой информации 2016 года и положениями Уголовного кодекса 1964 года, не соответствующими международному праву прав человека, например положениями, предусматривающими тюремное заключение в качестве меры наказания за правонарушения, связанные со средствами массовой информации, и рекомендует федеральному правительству Сомали рассмотреть вопрос об отмене таких положений;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve"> 	<span class="italic">выражает обеспокоенность также </span>задержанием и заключением под стражу нескольких человек за их религиозные убеждения и призывает уважать свободу религии и убеждений;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">выражает обеспокоенность далее</span> по поводу большого количества преступлений, относящихся к шести видам серьезных нарушений, совершаемых в отношении детей в вооруженных конфликтах, которые были выявлены Генеральным секретарем и задокументированы в его ежегодном докладе<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		A/78/842-S/2024/384.</p></authorialNote>, а также другими нарушениями, предположительно совершенными в отношении детей в Пунтленде, и требует, чтобы все стороны конфликта принимали соответствующие меры для соблюдения применимых норм международного гуманитарного права и международного права прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">выражает обеспокоенность </span>по поводу того, что подверженность Сомали текущим глобальным кризисам, включая те из них, которые связаны с изменением климата и деградацией окружающей среды, и его чувствительность к ним значительны и носят структурный характер и что эта уязвимость является одной из причин нестабильности, конфликтов и возникновения гуманитарных потребностей, в частности голода, что выражается в серьезном гуманитарном кризисе в Сомали и в регионе в целом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> федеральное правительство Сомали при поддержке международных доноров и специализированных учреждений Организации Объединенных Наций разрабатывать и осуществлять программы повышения устойчивости к изменению климата для предотвращения воздействия изменения климата на права человека и общего его воздействия и воздействия деградации окружающей среды на уязвимые группы населения, которые должны быть направлены на укрепление инфраструктуры в подверженных засухе регионах, создание систем раннего оповещения и внедрение устойчивых методов ведения сельского хозяйства, и подчеркивает, что участие Сомали в международных инициативах по адаптации к изменению климата и его предотвращению должно быть расширено для защиты от будущих экологических рисков;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">признае</span>т усилия государств, принимающих у себя сомалийских беженцев, настоятельно призывает все принимающие государства выполнять свои обязательства в соответствии с международным правом в отношении беженцев и настоятельно призывает международное сообщество продолжать предоставлять финансовую помощь, с тем чтобы принимающие государства могли удовлетворять гуманитарные потребности сомалийских беженцев в регионе, содействовать реинтеграции беженцев, возвращающихся в Сомали, когда возникнут приемлемые условия, и оказывать поддержку внутренне перемещенным лицам в Сомали;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	<span class="italic">признает также </span>усилия, прилагаемые Сомали к тому, чтобы, несмотря на свои собственные тяготы, принимать беженцев из других стран региона и не оставлять их без помощи, в дополнение к недавнему подписанию законопроекта о беженцах и просителях убежища, в котором изложены права беженцев и просителей убежища в Сомали;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="SingleTxtG">
+        <num>17.</num>
+        <list eId="para_151_list">
+          <intro eId="para_151_list_intro">
+            <p xml:space="preserve">	<span class="italic">призывает</span> федеральное правительство Сомали, штаты — члены федерации и ключевые политические заинтересованные стороны при поддержке международного сообщества:</p>
+          </intro>
+          <point eId="para_151_list_point_a">
+            <num>a)</num>
+            <content eId="para_151_list_point_a_content">
+              <p xml:space="preserve">	завершить разработку новой конституции на основе инклюзивного и регулярного диалога высокого уровня по всем направлениям, предусматривающего полное, равное и значимое участие женщин и представителей меньшинств, в целях достижения политической договоренности между федеральным правительством, всеми штатами — членами федерации и федеральным парламентом;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_b">
+            <num>b)</num>
+            <content eId="para_151_list_point_b_content">
+              <p xml:space="preserve">	ускорить учреждение национальной комиссии по правам человека в соответствии с принципами, касающимися статуса национальных учреждений, занимающихся поощрением и защитой прав человека (Парижские принципы), как это было предусмотрено законом в 2016 году, которая следила бы за нарушениями и ущемлениями и добивалась привлечения к ответственности виновных, обеспечив выделение ей достаточных ресурсов, в том числе организовав такой подбор кадров, который гарантировал бы равные возможности представительства женщин, лиц, принадлежащих к маргинализированным группам, и людей с инвалидностью;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_c">
+            <num>c)</num>
+            <content eId="para_151_list_point_c_content">
+              <p xml:space="preserve">	провести прозрачным образом и своевременно свободные и справедливые выборы по принципу «один человек — один голос» на уровне штатов — членов федерации и округов, когда проведение таких выборов станет возможным;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_d">
+            <num>d)</num>
+            <content eId="para_151_list_point_d_content">
+              <p xml:space="preserve">	продолжать сотрудничество со Специальным представителем Генерального секретаря по Сомали и главой Миссии Организации Объединенных Наций по содействию Сомали;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_e">
+            <num>e)</num>
+            <content eId="para_151_list_point_e_content">
+              <p xml:space="preserve"> 	тесно взаимодействовать с Независимым экспертом по вопросу о положении в области прав человека в Сомали и содействовать ее поездкам в Сомали, с тем чтобы она могла выполнять порученную ей работу;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_f">
+            <num>f)</num>
+            <content eId="para_151_list_point_f_content">
+              <p xml:space="preserve">	поощрять подход, предусматривающий инклюзивный и широкий доступ к политическому участию на уровне федерального правительства и на уровне штатов — членов федерации путем обеспечения полных, равных и значимых возможностей для женщин, внутренне перемещенных лиц, людей с инвалидностью и лиц, принадлежащих к меньшинствам и маргинализированным группам, и достижение соглашения о будущей модели выборов, поощряющей инклюзивность на всех этапах;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_g">
+            <num>g)</num>
+            <content eId="para_151_list_point_g_content">
+              <p xml:space="preserve">	выполнять свои обязательства по реформированию сектора безопасности, в том числе путем обеспечения активного и значимого участия женщин в процессе формирования национальной архитектуры безопасности, обеспечивать соответствие сомалийских сил и органов безопасности применимым нормам национального и международного права, а также международному праву прав человека, в том числе в отношении защиты граждан, в частности от сексуального и гендерного насилия, и в отношении предотвращения внесудебных казней, а также путем укрепления внутренней и внешней подотчетности всех соответствующих сил и органов безопасности;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_h">
+            <num>h)</num>
+            <content eId="para_151_list_point_h_content">
+              <p xml:space="preserve"> 	обеспечить для продолжения международной поддержки сектора безопасности, чтобы при проведении всех операций по обеспечению безопасности соблюдались соответствующие обязательства по международному гуманитарному праву и первоочередное внимание уделялось защите гражданских лиц, отмечая, что усилия по реформированию сектора безопасности должны включать специальное обучение сомалийских сил безопасности в целях предотвращения внесудебных казней, обеспечения гражданского надзора и укрепления доверия с местными общинами;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_i">
+            <num>i)</num>
+            <content eId="para_151_list_point_i_content">
+              <p xml:space="preserve">	укреплять правовые и оперативные основы защиты детей в Сомали, в том числе путем скорейшего осуществления Закона о правах ребенка, рассмотреть возможность присоединения к факультативным протоколам к Конвенции о правах ребенка и Африканской хартии прав и благополучия ребенка, предотвращать незаконную вербовку и использование детей в вооруженных силах всех видов, сотрудничать со специализированными организациями, такими как Детский фонд Организации Объединенных Наций, для обеспечения того, чтобы дети, ранее связанные с вооруженными силами и вооруженными группировками, включая тех, кто мог совершить преступления, рассматривались в первую очередь как жертвы, а также обеспечивать их полную реинтеграцию посредством семейных и общинных программ реинтеграции, учитывающих гендерные аспекты, и обеспечения доступа к медицинскому обслуживанию, включая охрану психического здоровья и психосоциальную поддержку, и образовательным программам в соответствии с Принципами и установками в отношении детей, связанных с вооруженными силами или вооруженными группами, которые были одобрены федеральным правительством, а также устанавливать виновных в таких нарушениях и ущемлениях и привлекать их к ответственности;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_j">
+            <num>j)</num>
+            <content eId="para_151_list_point_j_content">
+              <p xml:space="preserve">	выполнять положения Декларации о безопасности в школах, которую федеральное правительство одобрило в октябре 2015 года, в целях обеспечения защиты образовательных учреждений, учащихся и педагогического персонала;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_k">
+            <num>k)</num>
+            <content eId="para_151_list_point_k_content">
+              <p xml:space="preserve"> 	ускорить принятие и полное осуществление рекомендаций и мероприятий, предусмотренных национальным планом действий по вопросам женщин и мира и безопасности, в рамках поэтапного и консультативного процесса в тесном сотрудничестве с гражданским обществом, чтобы тем самым расширить участие женщин в миростроительстве и социально-экономическом прогрессе в рамках усилий по стабилизации и восстановлению Сомали в соответствии с Хартией сомалийских женщин, резолюцией 1325 (2000) Совета Безопасности и последующими резолюциями Совета по этому вопросу;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_l">
+            <num>l)</num>
+            <content eId="para_151_list_point_l_content">
+              <p xml:space="preserve"> 	обеспечить соответствие всего законодательства международно-правовым обязательствам, принимая во внимание резолюцию 2664 (2022) Совета Безопасности от 9 декабря 2022 года, согласно которой предоставление, обработка или выплата денежных средств, других финансовых активов или экономических ресурсов, а также предоставление товаров и услуг, необходимых для обеспечения своевременной доставки гуманитарной помощи или для содействия осуществлению других видов деятельности, способствующих удовлетворению основных человеческих потребностей, Организацией Объединенных Наций и некоторыми другими определенными организациями разрешены и не являются нарушением мер по замораживанию активов, введенных Советом или его санкционными комитетами, в качестве образца передовой практики для соответствующего внутреннего законодательства, в том числе в Сомали, и внести при необходимости изменения в действующее законодательство в духе резолюции 2664 (2022);</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_m">
+            <num>m)</num>
+            <content eId="para_151_list_point_m_content">
+              <p xml:space="preserve">	пересмотреть измененный закон о средствах массовой информации, подписанный в августе 2020 года, в целях предоставления средствам массовой информации в Сомали возможности независимо освещать события, не опасаясь возмездия, и обеспечить соответствие этого закона международному праву прав человека, а также ускорить работу специального прокурора по расследованию преступлений против журналистов;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_n">
+            <num>n)</num>
+            <content eId="para_151_list_point_n_content">
+              <p xml:space="preserve">	выполнять свои обязательства в отношении искоренения царящей повсеместно культуры безнаказанности, привлекать к ответственности виновных в совершении нарушений и ущемлении прав человека путем обеспечения проведения оперативных, тщательных и эффективных расследований и путем выделения ресурсов на реформирование и развитие сектора правосудия в соответствии с международным правом прав человека, повышать представленность женщин в судебных органах и расширять доступ к правосудию для женщин и детей;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_o">
+            <num>o)</num>
+            <content eId="para_151_list_point_o_content">
+              <p xml:space="preserve">	оказать Министерству по делам семьи и правам человека поддержку в содействии беспроблемному прохождению законопроекта о сексуальных преступлениях через кабинет министров и парламент и обеспечить, чтобы любой законопроект, принятый в качестве закона, отражал применимые международные обязательства и обязанности по защите всех женщин и детей, в частности девочек, и применять его и другие законы по мере необходимости для борьбы с сексуальным и гендерным насилием, включая детские, ранние и принудительные браки и все формы калечащих операций на женских половых органах, обеспечивая при этом привлечение к ответственности лиц, виновных в сексуальном и гендерном насилии, эксплуатации и злоупотреблениях, независимо от их статуса или ранга;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_p">
+            <num>p)</num>
+            <content eId="para_151_list_point_p_content">
+              <p xml:space="preserve">	продолжать признавать важное значение инклюзивного диалога и процессов примирения на местах для стабильности в Сомали, в том числе в контексте рамочной программы и процесса национального примирения, и призывает федеральное правительство и штаты — члены федерации усилить свою руководящую роль и участие в ослаблении напряженности и вступить в конструктивный диалог;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_q">
+            <num>q)</num>
+            <content eId="para_151_list_point_q_content">
+              <p xml:space="preserve">	усилить поддержку и увеличить объем ресурсов, которые предоставляются министерствам и ведомствам, ответственным за отправление правосудия и защиту прав человека, в частности Министерству по делам семьи и правам человека на федеральном уровне и уровне штатов, и призывает партнеров-доноров активизировать свои усилия по поддержке решения приоритетных задач, определенных Министерством по делам семьи и правам человека, которые имеют ключевое значение для достижения эффективных и ориентированных на результат целей, соответствующих задачам переходного периода, отмеченным в настоящей резолюции;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_r">
+            <num>r)</num>
+            <content eId="para_151_list_point_r_content">
+              <p xml:space="preserve">	рассмотреть возможность присоединения к Конвенции о ликвидации всех форм дискриминации в отношении женщин и Конвенции о предупреждении преступления геноцида и наказании за него и их ратификации;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_s">
+            <num>s)</num>
+            <content eId="para_151_list_point_s_content">
+              <p xml:space="preserve">	выполнить обязательство, принятое на Глобальном саммите по проблемам инвалидности, состоявшемся 16 и 17 февраля 2022 года, в частности путем поддержки работы, проводимой национальным учреждением по вопросам инвалидности, в соответствии с Конвенцией о правах инвалидов и в консультации с организациями людей с инвалидностью;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_t">
+            <num>t)</num>
+            <content eId="para_151_list_point_t_content">
+              <p xml:space="preserve">	привести политические стратегии и нормативно-правовую базу на национальном уровне и на уровне штатов — членов федерации в соответствие с применимыми обязательствами в области прав человека и другими обязанностями;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_u">
+            <num>u)</num>
+            <content eId="para_151_list_point_u_content">
+              <p xml:space="preserve">	обращаться с бывшими комбатантами в соответствии с применимыми обязательствами на основе положений национального и международного права, в частности международного права прав человека и международного гуманитарного права;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_v">
+            <num>v)</num>
+            <content eId="para_151_list_point_v_content">
+              <p xml:space="preserve">	осуществлять Найробийскую декларацию о долговременных решениях для сомалийских беженцев и о реинтеграции возвращенцев в Сомали, принятую 25 марта 2017 года;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_w">
+            <num>w)</num>
+            <content eId="para_151_list_point_w_content">
+              <p xml:space="preserve">	содействовать обеспечению благополучия и защиты всех внутренне перемещенных лиц, в том числе от сексуального и гендерного насилия и от эксплуатации и жестокого обращения со стороны представителей государства или международного военного или гражданского персонала, а также от принудительных выселений, способствовать добровольной реинтеграции или возвращению всех внутренне перемещенных лиц, в том числе находящихся в наиболее уязвимом положении, в условиях безопасности и уважения достоинства, обеспечивать в полной мере консультативный процесс и применение передовой практики в контексте переселения и выделять им места, обеспечивающие безопасный доступ к основным продуктам питания и питьевой воде, элементарному крову и жилью, надлежащей одежде и основным медицинским услугам и услугам в области санитарии;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_x">
+            <num>x)</num>
+            <content eId="para_151_list_point_x_content">
+              <p xml:space="preserve">	обеспечивать гуманитарным организациям безопасный, своевременный, постоянный и беспрепятственный доступ, признавать высокую степень уязвимости внутренне перемещенных лиц, облегчать безопасный, своевременный, постоянный и беспрепятственный гуманитарный доступ к нуждающимся лицам в любом месте на территории Сомали, а также гарантировать нейтралитет, беспристрастность и независимость гуманитарных субъектов от политического, экономического и военного вмешательства, продолжая учитывать потребности нуждающихся в гуманитарной помощи лиц, принадлежащих к группам этнических меньшинств;</p>
+            </content>
+          </point>
+          <point eId="para_151_list_point_y">
+            <num>y)</num>
+            <content eId="para_151_list_point_y_content">
+              <p xml:space="preserve">	рассматривать в первую очередь в качестве жертв детей, которые были демобилизованы или иным образом выведены из состава вооруженных сил и вооруженных групп в соответствии с Принципами и установками в отношении детей, связанных с вооруженными силами или вооруженными группами, которые были одобрены федеральным правительством, прекратить практику задержания детей по обвинениям, связанным с национальной безопасностью, во всех случаях, когда это было бы нарушением применимых норм международного права, и принять законопроект об отправлении правосудия в отношении несовершеннолетних в целях законодательного закрепления возраста уголовной ответственности в Сомали;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_168" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_168__content">
+          <p xml:space="preserve">	<span class="italic">обращает особое внимание</span> на важность осуществления Переходной миссией Африканского союза в Сомали ее мандата на всей территории Сомали и необходимость укрепления синергии с работой Управления Верховного комиссара Организации Объединенных Наций по правам человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_186" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_186__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает </span>деятельность Независимого эксперта по вопросу о положении в области прав человека в Сомали и содействие со стороны Федерального правительства Сомали организации ее визита в мае 2024 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_205" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_205__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продлить на один год мандат Независимого эксперта по вопросу о положении в области прав человека в Сомали по пункту 10 повестки дня для оценки и отслеживания положения в области прав человека в Сомали и представления докладов по этому вопросу с целью вынесения рекомендаций относительно технической помощи и создания потенциала в области прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_225" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_225__content">
+          <p xml:space="preserve"> 	<span class="italic">подчеркивает</span> важную роль совместного наблюдения за положением в области прав человека в Сомали и представления докладов по этому вопросу национальными и международными экспертами и федеральным правительством Сомали, а также ключевую роль, которую может играть такое наблюдение за соблюдением прав человека в оценке и обеспечении успешной реализации проектов технической помощи, которые, в свою очередь, должны служить интересам всех сомалийцев;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_246" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_246__content">
+          <p xml:space="preserve"> 	<span class="italic">отмечает</span> призыв федерального правительства Сомали разработать совместно с партнерами переходный процесс для содействия выполнению национальных и международных обязательств и обязанностей Сомали в области прав человека, включая контрольные показатели в области прав человека, разработанные Независимым экспертом, рекомендации, принятые к исполнению в контексте универсального периодического обзора, и другие обязательства в области прав человека, изложенные в настоящей резолюции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_268" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_268__content">
+          <p xml:space="preserve"> 	<span class="italic">подчеркивает</span>, что продление мандата Независимого эксперта является частью процесса перехода к более активному взаимодействию федерального правительства Сомали с Управлением Верховного комиссара, мандатариями других специальных процедур Совета по правам человека и другими правозащитными механизмами с целью выявления областей для наращивания потенциала и оказания технической помощи;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_291" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_291__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> федеральное правительство Сомали тесно сотрудничать с Независимым экспертом, Миссией Организации Объединенных Наций по содействию Сомали, международными партнерами, Управлением Верховного комиссара и гражданским обществом в отношении плана перехода и просит Независимого эксперта включить обновленную информацию об этом переходе в ее следующий доклад Совету по правам человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_315" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_315__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>призыв федерального правительства Сомали к активизации усилий по оказанию технической помощи и помощи в создании потенциала в целях поддержки реализации приоритетных задач правительства по достижению намеченных им целевых ориентиров и выполнению рекомендаций, принятых Сомали к исполнению в контексте третьего цикла универсального периодического обзора;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_340" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_340__content">
+          <p xml:space="preserve">	<span class="italic">отмечает также </span>прогресс, достигнутый Сомали, и сотрудничество Сомали с органами Организации Объединенных Наций, в том числе с Управлением Верховного комиссара и Независимым экспертом с момента учреждения мандата в 1993 году, отмечает далее то обстоятельство, что положение в области прав человека в Сомали определяет наиболее оптимальные действия со стороны Совета по правам человека, и в этой связи приветствует план перехода к более глубокому тематическому взаимодействию со специальными процедурами Совета и другими экспертами, а также с Управлением Верховного комиссара, предложенный Независимым экспертом в сотрудничестве с федеральным правительством Сомали в ее последнем докладе<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/HRC/54/78.</p></authorialNote>, в который она включила конкретные меры и целевые ориентиры, на которые Совет мог бы опираться при определении соответствующих последующих действий с учетом рекомендаций Независимого эксперта и правозащитных обязательств Сомали;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_366" class="SingleTxtG">
+        <num>27.</num>
+        <list eId="para_366_list">
+          <intro eId="para_366_list_intro">
+            <p xml:space="preserve">	<span class="italic">просит</span> Независимого эксперта продолжать работать в тесном сотрудничестве с федеральным правительством Сомали и другими соответствующими органами власти на национальном и субнациональном уровнях, всеми органами Организации Объединенных Наций, включая Миссию Организации Объединенных Наций по содействию, Африканским союзом, Переходной миссией Африканского союза в Сомали, Межправительственной организацией по развитию и другими соответствующими международными организациями, гражданским обществом и всеми соответствующими правозащитными механизмами, а также оказывать Сомали помощь в осуществлении:</p>
+          </intro>
+          <point eId="para_366_list_point_a">
+            <num>a)</num>
+            <content eId="para_366_list_point_a_content">
+              <p xml:space="preserve">	национальных и международных обязательств в области прав человека;</p>
+            </content>
+          </point>
+          <point eId="para_366_list_point_b">
+            <num>b)</num>
+            <content eId="para_366_list_point_b_content">
+              <p xml:space="preserve">	резолюций Совета по правам человека и других договоров по правам человека, в том числе в отношении связанной с ними регулярной отчетности;</p>
+            </content>
+          </point>
+          <point eId="para_366_list_point_c">
+            <num>c)</num>
+            <content eId="para_366_list_point_c_content">
+              <p xml:space="preserve">	рекомендаций, принятых к исполнению в контексте универсального периодического обзора;</p>
+            </content>
+          </point>
+          <point eId="para_366_list_point_d">
+            <num>d)</num>
+            <content eId="para_366_list_point_d_content">
+              <p xml:space="preserve">	других правозащитных обязательств, стратегий и законодательства в целях содействия расширению прав и возможностей женщин, молодежи и лиц, принадлежащих к маргинализированным группам, таким как кланы меньшинств, поощрения свободы выражения мнений, свободы собраний и ассоциации, защиты средств массовой информации и гражданского общества, в том числе женщин-миротворцев, обеспечения для женщин и членов групп меньшинств доступа к правосудию и обеспечения привлечения к ответственности за нарушения их прав человека, а также укрепления потенциала министерств и ведомств, отвечающих за отправление правосудия и защиту прав человека;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_393" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_393__content">
+          <p xml:space="preserve"> 	<span class="italic">принимает к сведению</span> варианты, представленные Независимым экспертом, ее последний доклад о возможных корректировках сферы охвата мандата с целью более полного удовлетворения потребностей федерального правительства Сомали в технической помощи на основе оценки, проведенной в сотрудничестве с правительством и всеми заинтересованными сторонами, включая соответствующие структуры Организации Объединенных Наций, в целях пересмотра направленности и сферы охвата мандата и повышения его способности поддерживать страну в ее усилиях по улучшению положения в области прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_421" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_421__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Независимого эксперта представить доклад Совету по правам человека на его шестидесятой сессии и Генеральной Ассамблее на ее восьмидесятой сессии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_450" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_450__content">
+          <p xml:space="preserve">	<span class="italic">просит также</span> Независимого эксперта представить Совету по правам человека в своем докладе обновленную информацию о ходе достижения предусмотренных в переходном плане целевых ориентиров и показателей, на основе которой Совет мог бы определять свои будущие действия;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_480" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_480__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Управление Верховного комиссара и другие соответствующие учреждения Организации Объединенных Наций оказывать Независимому эксперту всю кадровую, техническую и финансовую помощь, необходимую для выполнения мандата в полном объеме;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_511" class="SingleTxtG">
+        <num>32.</num>
+        <content eId="para_511__content">
+          <p xml:space="preserve">	постановляет продолжать активно заниматься этим вопросом. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48-е" refersTo="#adoptionMeeting">48‑е заседание</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 октября 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
