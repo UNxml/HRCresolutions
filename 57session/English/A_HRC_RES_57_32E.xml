@@ -1,0 +1,342 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/eng@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CAPACITY BUILDING" href="http://metadata.un.org/thesaurus/1000797" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS INSTITUTIONS" href="http://metadata.un.org/thesaurus/1002981" showAs="HUMAN RIGHTS INSTITUTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-02" outcome="draftResolution" as="A/HRC/57/L.18" by="Armenia, Australia, Austria, Brazil, Chile, Colombia, Costa Rica, Croatia, Ecuador, Guatemala, Honduras, Iceland, Indonesia, Italy, Luxembourg, Malaysia, Malta, Marshall Islands, Morocco, Norway, Paraguay, Peru, Philippines, Portugal, Qatar, Samoa, Singapore, Spain, Thailand, Türkiye and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 49th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/32</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Fifty-seventh session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 September</date>
+          <date date="2024-10-11" refersTo="#endDate">11 October 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Agenda item 10</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Technical assistance and capacity-building</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 11 October 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/32.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Enhancement of technical cooperation and capacity-building in the field of human rights</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guided</span> by the purposes and principles of the Charter of the United Nations, particularly with regard to achieving international cooperation in promoting and encouraging respect for human rights and for fundamental freedoms for all, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>the Universal Declaration of Human Rights, and recalling all relevant human rights treaties, including the International Covenant on Economic, Social and Cultural Rights and the International Covenant on Civil and Political Rights,</p>
+      </container>
+      <container name="Recognizing" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing</span> that, in the context of technical cooperation and capacity-building, the enhancement of international cooperation is essential for the effective promotion, protection and fulfilment of human rights, which should be based on the principles of cooperation and genuine dialogue and aimed at strengthening the capacity of States to respect, protect and fulfil human rights, to prevent human rights violations and to comply with their human rights obligations for the benefit of all human beings,</p>
+      </container>
+      <container name="Bearing in mind" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Bearing in mind</span> the mandate of the Human Rights Council, as stated by the General Assembly in its resolution 60/251 of 15 March 2006, to promote advisory services, technical assistance and capacity-building, to be provided in consultation with and with the consent of the States concerned, and the provisions of Council resolutions 5/1 and 5/2 of 18 June 2007 and 16/21 of 25 March 2011 that aim to enable the Council to fulfil such a mandate,</p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> all relevant Human Rights Council resolutions on the enhancement of technical cooperation and capacity-building in the field of human rights, on national human rights institutions, on the promotion of international cooperation to support national mechanisms for implementation, reporting and follow-up, and on the promotion and protection of human rights and the implementation of the 2030 Agenda for Sustainable Development,</p>
+      </container>
+      <container name="Recalling also" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also </span>Human Rights Council resolution 51/31 of 7 October 2022, in which the Council encouraged States to establish effective, independent and pluralistic national human rights institutions or, where they already exist, to strengthen them to enable the effective fulfilment of their mandate to promote and protect human rights and fundamental freedoms for all, as outlined in the Vienna Declaration and Programme of Action, and to do so in accordance with the principles relating to the status of national institutions for the promotion and protection of human rights (the Paris Principles),</p>
+      </container>
+      <container name="Recognizing" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that, in accordance with the Vienna Declaration and Programme of Action, it is the right of each State to choose the framework for national institutions that is best suited to its particular needs at the national level,</p>
+      </container>
+      <container name="Recalling" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>Human Rights Council resolution 51/33 of 7 October 2022, in which the Council encouraged States to establish or strengthen national mechanisms for implementation, reporting and follow-up for further compliance with human rights obligations and commitments and to share good practices and experiences in their use for the elaboration of public policies and plans at all levels,</p>
+      </container>
+      <container name="Reaffirming" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming</span> General Assembly resolution 70/1 of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, and recalling the Sustainable Development Goals, in particular Goal 16 on promoting peaceful and inclusive societies and sustainable development, providing access to justice for all and building effective, accountable and inclusive institutions at all levels,</p>
+      </container>
+      <container name="Noting" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">		Noting</span> the contribution of international human rights mechanisms, including the treaty bodies, the special procedures of the Human Rights Council and the universal periodic review mechanism, to promoting the implementation of the 2030 Agenda, in accordance with States’ obligations and commitments to respect, protect and fulfil human rights, and the role of technical cooperation and capacity-building in this regard,</p>
+      </container>
+      <container name="Recognizing" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing</span> the importance of enhancing international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the Sustainable Development Goals,</p>
+      </container>
+      <container name="Underlining" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">		Underlining </span>the importance for relevant organizations of the United Nations system, especially the United Nations country teams, within their respective mandates, to mainstream technical cooperation and capacity-building in the field of human rights in their work and programmes,</p>
+      </container>
+      <container name="Acknowledging" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging</span> the role and impact of the activities of the relevant agencies of the United Nations and international and regional organizations, the contribution of national stakeholders, including national human rights institutions, national mechanisms for implementation, reporting and follow-up and civil society organizations in providing States with technical support and assistance on the basis of the needs and requests of the States concerned, and the support of national parliaments in the implementation of States’ human rights obligations, as well as their voluntary pledges and commitments, including accepted universal periodic review recommendations, in accordance with their respective mandates,</p>
+      </container>
+      <container name="Reiterating" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">		Reiterating</span> that one of the responsibilities of the United Nations High Commissioner for Human Rights and the Office of the United Nations High Commissioner for Human Rights is to provide advisory services and technical assistance, at the request of the State concerned, with a view to supporting actions and programmes in the field of human rights, and to coordinate activities to promote and protect human rights throughout the United Nations system in accordance with the mandate of the Office,</p>
+      </container>
+      <container name="Expressing appreciation" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">		Expressing appreciation</span> for the important role played by the United Nations Voluntary Fund for Technical Cooperation in the Field of Human Rights, the Voluntary Fund for Participation in the Universal Periodic Review, the Voluntary Technical Assistance Trust Fund to Support the Participation of Least Developed Countries and Small Island Developing States in the Work of the Human Rights Council and the Voluntary Fund for Financial and Technical Assistance in the Implementation of the Universal Periodic Review in supporting States in developing their national capacities to promote the effective implementation of their human rights obligations and the recommendations accepted in the context of the universal periodic review,</p>
+      </container>
+      <container name="Noting" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">		Noting</span> that a number of States have utilized relevant United Nations funds to support technical assistance and capacity-building in the field of human rights in the implementation of their human rights obligations and commitments, and underlining the need to further promote the visibility of these funds, to facilitate the way to solicit them, and to strengthen efforts to enhance their complementarity,</p>
+      </container>
+      <container name="Noting with appreciation" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">		Noting with appreciation</span> the contributions of the Boards of Trustees of the United Nations Voluntary Fund for Technical Cooperation in the Field of Human Rights and of the Voluntary Fund for Financial and Technical Assistance in the Implementation of the Universal Periodic Review through their annual reports to the Human Rights Council,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	A/HRC/56/78 and A/HRC/56/18.</p></authorialNote> in particular on the components of technical cooperation and the identification of good practices,</p>
+      </container>
+      <container name="Welcoming and encouraging" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">		Welcoming and encouraging </span>new and existing initiatives aimed at sharing experiences, lessons learned and best practices, and providing human rights technical cooperation and capacity-building support, in consultation with and with the consent of the States concerned, through bilateral, regional, multilateral and international cooperation, including bilateral human rights dialogues and North-South, South-South and triangular cooperation, as well as public-private partnerships, to assist States in implementing their human rights obligations, as well as voluntary pledges and commitments, and underlining the need for States and all relevant stakeholders to work in complementarity with one another in the delivery of technical cooperation and capacity-building in the field of human rights,</p>
+      </container>
+      <container name="Acknowledging" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging</span> national, regional and international initiatives establishing databases and tools used by States to track the implementation and reporting of and follow-up on human rights obligations in a holistic approach,</p>
+      </container>
+      <container name="Stressing" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing</span> the need to raise awareness about the importance of technical cooperation and capacity-building in the field of human rights, which would accelerate the implementation of activities in this area, with a view to improving human rights situations worldwide, and also the need to maintain the spirit of constructive cooperation and non‑politicization,</p>
+      </container>
+      <container name="Recalling" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Recalling</span> that, in line with the Vienna Declaration and Programme of Action, Governments are urged to incorporate standards as contained in international human rights instruments in domestic legislation and to strengthen national structures, institutions and organs of society which play a role in promoting and safeguarding human rights,</p>
+      </container>
+      <container name="Reaffirming" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span>, in line with the Vienna Declaration and Programme of Action, the important and constructive role played by national institutions for the promotion and protection of human rights, in particular in their advisory capacity to the competent authorities, their role in remedying human rights violations, in the dissemination of human rights information, and education in human rights, and partnership with relevant civil society initiatives,</p>
+      </container>
+      <container name="Considering" eId="container_24">
+        <p xml:space="preserve"> <span class="italic">Considering</span> that the implementation of human rights obligations and commitments would benefit from expanded, institutionalized follow-up at the regional, national and local levels, such as by establishing or strengthening national mechanisms for implementation, reporting and follow-up, and that such mechanisms facilitate an integrated and participatory approach to reporting to international human rights mechanisms,</p>
+      </container>
+      <container name="Recognizing" eId="container_25">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the distinct, complementary and mutually reinforcing roles of national human rights institutions and of national mechanisms for implementation, reporting and follow-up as key national actors, and underscoring that each uniquely contributes to the respect, protection and fulfilment of the human rights obligations of States at the national level, within the framework of their respective mandates and functions,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_26" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes </span>that the general debate held under agenda item 10 is an essential platform for members and observers of the Human Rights Council to openly and safely share their visions and views, and concrete experiences, challenges, progress and achievements, as well as information on assistance needed, with regard to promoting more effective technical cooperation and capacity-building in the field of human rights, and that such technical cooperation should remain an inclusive exercise that engages and involves all national stakeholders, including government agencies, national human rights institutions, national mechanisms for implementation, reporting and follow-up, the private sector, civil society, including women’s organizations, and all rights holders;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> that technical cooperation and capacity-building in the field of human rights continue to be based on consultations with and with the consent of the States concerned, and should take into account their requests, needs and priorities, as well as their national context, and the fact that all human rights are universal, indivisible, interdependent and interrelated and are aimed at making a concrete impact at all levels on the ground;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 	<span class="italic">Recognizes</span> that technical cooperation and capacity-building have been crucial in supporting the establishment and strengthening of national human rights institutions in compliance with the Paris Principles and of national mechanisms for implementation, reporting and follow-up, advancing the knowledge and capacities of national institutions on human rights obligations and aligning national laws and policies to international human rights standards;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Underscores</span> the need to strengthen international, regional and bilateral cooperation and dialogue in support of the promotion and protection of human rights with a view to generating sustainable outcomes, and encourages regional human rights bodies to share experiences and exchange good practices in the promotion and protection of human rights, including those relating to the empowerment of all women and girls, while engaging with relevant players, including national human rights institutions, civil society organizations and rights holders;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the ongoing need for enhanced voluntary contributions to the relevant United Nations funds to support technical assistance and capacity-building in the field of human rights, encourages States to continue to make contributions to these funds as well as to the technical assistance and capacity-building programme of the Office of the United Nations High Commissioner for Human Rights to ensure that the Office of the High Commissioner is in a position to respond to the requests for assistance identified in its annual appeals, and encourages the funds and the Office to continue to enhance the efficiency and transparency of their activities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> 	<span class="italic">Welcomes</span> the technical assistance and capacity-building provided by the Office of the High Commissioner through United Nations resident coordinators and United Nations national and regional representations, in consultation with and with the consent of the States concerned, in particular with regard to supporting the establishment or the strengthening of national human rights institutions in compliance with the Paris Principles and national mechanisms for implementation, reporting and follow-up, depending on their national contexts, and encourages them to continue to do so;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> States in need of technical assistance in the strengthening of national structures which play a role in promoting and safeguarding human rights and in the implementation of their human rights obligations, as well as their voluntary pledges and commitments, including the recommendations accepted in the context of the universal periodic review, to consider requesting such assistance from the Office of the High Commissioner and other relevant United Nations agencies, and strongly encourages the Office and respective United Nations agencies to respond favourably to such requests and to provide information, in a transparent and timely manner, on the technical support available for and provided to States;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve"> <span class="italic">	Encourages</span> States to continue to promote initiatives aimed at sharing experiences, lessons learned and best practices in providing human rights technical cooperation and capacity-building support through bilateral cooperation, including bilateral human rights dialogues and North-South, South-South and triangular cooperation, to assist States in implementing their human rights obligations, as well as voluntary pledges and commitments;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">
+            <span class="italic">	Stresses</span> the importance of enhancing coordination between the Office of the High Commissioner and other United Nations agencies in their technical cooperation and capacity-building efforts, and encourages the sharing of information and best practices, on a regular basis, between the Office, other relevant United Nations agencies and the States concerned, on technical assistance and capacity-building efforts undertaken at the national level;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the special procedures of the Human Rights Council, in their interaction with States, to continue to share information and knowledge relating to best practices and the possibility of providing technical assistance and capacity-building in the respect, protection and fulfilment of human rights within their respective mandates;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the panel discussion held by the Human Rights Council at its fifty-sixth session, pursuant to Council resolution 54/28 of 12 October 2023, on the theme “Enhancing technical cooperation and capacity-building in the implementation of universal periodic review recommendations”, at which participants underlined the importance of technical cooperation and capacity-building in supporting States in the implementation of universal periodic review recommendations, recognized the potential of South-South and triangular cooperation, reflected on achievements made and obstacles faced, and stressed the need to provide sufficient funding to deliver the required technical assistance and capacity-building activities;<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		See A/HRC/56/72.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its request to the Office of the High Commissioner to establish and maintain, through additional dedicated capacity, an online repository of technical cooperation and capacity-building activities in the implementation of universal periodic review recommendations <span class="italic">– </span>which has been postponed due to the current liquidity crisis affecting the United Nations Secretariat – with voluntary submissions made by States, as well as relevant United Nations agencies, funds and programmes, international and regional organizations, regional human rights mechanisms, national human rights institutions and civil society organizations, upon the consent of the States concerned, and to update the Human Rights Council, from its fifty-ninth session, in the annual report of the Office on technical cooperation and capacity-building in the field of human rights, on the information gathered there on a yearly basis, calling upon those stakeholders with good practices in the above-mentioned areas to provide technical assistance to the States concerned on the basis of their requests and consent as a form of peer support;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the need to build synergies between the above-mentioned repository and other relevant databases, including, among others, a virtual knowledge hub for national mechanisms for implementation, reporting and follow-up, and the potential benefit of its expansion to include a match-making function to enhance coordination of technical cooperation and capacity-building efforts in the implementation of accepted universal periodic review recommendations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve"> 	<span class="italic">Decides</span>, in accordance with paragraphs 3 and 4 of Human Rights Council resolution 18/18 of 29 September 2011, that the theme of the annual thematic panel discussion under agenda item 10, to be held at its fifty-ninth session, will be “The role of technical cooperation and capacity-building in strengthening national structures which play a role in promoting and safeguarding human rights, particularly national human rights institutions and national mechanisms for implementation, reporting and follow-up”, and to make it fully accessible to persons with disabilities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Office of the High Commissioner to prepare a report on the role of technical cooperation and capacity-building among States, the Office and other relevant stakeholders, including national human rights institutions, to support States’ efforts to strengthen national structures which play a role in promoting and safeguarding human rights, particularly national human rights institutions and national mechanisms for implementation, reporting and follow-up, including the complementarity of the two latter entities, and to submit the report to the Human Rights Council at its fifty-ninth session, to serve as a basis for the above-mentioned panel discussion;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States to implement their human rights obligations, and also calls upon States, international human rights bodies and mechanisms, relevant international organizations, national human rights institutions, national mechanisms for implementation, reporting and follow-up and civil society to make use of the ideas and issues raised in the panel discussion to enhance the efficiency, effectiveness and policy coherence of technical cooperation and capacity-building efforts and to build multi-stakeholder partnerships in strengthening national structures which play a complementary role in promoting and safeguarding human rights, especially in the light of the seventy-fifth anniversary of the Universal Declaration of Human Rights and the thirtieth anniversary of the Vienna Declaration and Programme of Action, and as a contribution to the 2030 Agenda for Sustainable Development.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="49th" refersTo="#adoptionMeeting">49th meeting</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 October 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
