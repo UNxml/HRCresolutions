@@ -1,0 +1,334 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/spa@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/spa@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CAPACITY BUILDING" href="http://metadata.un.org/thesaurus/1000797" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS INSTITUTIONS" href="http://metadata.un.org/thesaurus/1002981" showAs="HUMAN RIGHTS INSTITUTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-02" outcome="draftResolution" as="A/HRC/57/L.18" by="Armenia, Australia, Austria, Brazil, Chile, Colombia, Costa Rica, Croatia, Ecuador, Guatemala, Honduras, Iceland, Indonesia, Italy, Luxembourg, Malaysia, Malta, Marshall Islands, Morocco, Norway, Paraguay, Peru, Philippines, Portugal, Qatar, Samoa, Singapore, Spain, Thailand, Türkiye and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 49th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="spanish" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/32</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 de octubre de 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">57º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 septiembre</date>
+          <date date="2024-10-11" refersTo="#endDate">11 octubre 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Tema 10 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Asistencia técnica y fomento de la capacidad</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos  el 11 de octubre de 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/32.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Fortalecimiento de la cooperación técnica y fomento  de la capacidad en la esfera de los derechos humanos</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Guiado" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Guiado </span>por los propósitos y principios de la Carta de las Naciones Unidas, especialmente en relación con el logro de la cooperación internacional para promover y fomentar el respeto de los derechos humanos y las libertades fundamentales de todas las personas, sin distinción alguna por motivos de raza, color, sexo, idioma, religión, opinión política o de cualquier otra índole, origen nacional o social, posición económica, nacimiento u otra condición,</p>
+      </container>
+      <container name="Reafirmando" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>la Declaración Universal de Derechos Humanos y recordando todos los tratados de derechos humanos pertinentes, incluidos el Pacto Internacional de Derechos Económicos, Sociales y Culturales y el Pacto Internacional de Derechos Civiles y Políticos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que, en el contexto de la cooperación técnica y el fomento de la capacidad, estrechar la cooperación internacional es fundamental para la promoción, la protección y el ejercicio efectivos de los derechos humanos, que deben basarse en los principios de cooperación y diálogo genuino y obedecer al propósito de reforzar la capacidad de los Estados para respetar, proteger y hacer efectivos los derechos humanos, evitar las violaciones de los derechos humanos y cumplir sus obligaciones relativas a dichos derechos en beneficio de todos los seres humanos,</p>
+      </container>
+      <container name="Teniendo presente" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Teniendo presente </span>su mandato, enunciado por la Asamblea General en su resolución 60/251, de 15 de marzo de 2006, de promover la prestación de servicios de asesoramiento, asistencia técnica y fomento de la capacidad en consulta con los Estados interesados y con su consentimiento, y las disposiciones de las resoluciones del Consejo 5/1 y 5/2, de 18 de junio de 2007, y 16/21, de 25 de marzo de 2011, cuyo objeto es hacer posible que cumpla ese mandato,</p>
+      </container>
+      <container name="Recordando" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>todas sus resoluciones pertinentes relativas al fortalecimiento de la cooperación técnica y el fomento de la capacidad en la esfera de los derechos humanos; a las instituciones nacionales de derechos humanos; a la promoción de la cooperación internacional en apoyo de los mecanismos nacionales para la aplicación; la presentación de informes y el seguimiento; y a la promoción y protección de los derechos humanos y la implementación de la Agenda 2030 para el Desarrollo Sostenible,</p>
+      </container>
+      <container name="Recordando también" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recordando también </span>su resolución 51/31, de 7 de octubre de 2022, en la que alentó a los Estados a que establecieran instituciones nacionales eficaces, independientes y pluralistas de derechos humanos o a que las reforzasen si ya existían, a fin de que pudieran cumplir eficazmente su mandato de promoción y protección de los derechos humanos y las libertades fundamentales de todas las personas, según se indicaba en la Declaración y el Programa de Acción de Viena, y que lo hicieran de conformidad con los principios relativos al estatuto de las instituciones nacionales de promoción y protección de los derechos humanos (Principios de París),</p>
+      </container>
+      <container name="Reconociendo" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> que, de conformidad con la Declaración y el Programa de Acción de Viena, cada Estado tiene derecho a elegir el marco de institución nacional que mejor se adapte a sus necesidades nacionales específicas,</p>
+      </container>
+      <container name="Recordando" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>su resolución 51/33, de 7 de octubre de 2022, en la que alentó a los Estados a que establecieran o reforzaran los mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento para un mayor cumplimiento de las obligaciones y compromisos en materia de derechos humanos y a que compartieran las buenas prácticas y experiencias en su utilización para la elaboración de políticas y planes públicos a todos los niveles,</p>
+      </container>
+      <container name="Reafirmando" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> la resolución 70/1 de la Asamblea General, de 25 de septiembre de 2015, titulada “Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible”, y recordando los Objetivos de Desarrollo Sostenible, en particular el Objetivo 16 de promover sociedades pacíficas e inclusivas y el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas,</p>
+      </container>
+      <container name="Observando" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Observando</span> la contribución de los mecanismos internacionales de derechos humanos, entre ellos los órganos creados en virtud de tratados, los procedimientos especiales del Consejo de Derechos Humanos y el mecanismo del examen periódico universal, a la promoción de la implementación de la Agenda 2030, de conformidad con las obligaciones y los compromisos de los Estados de respetar, proteger y hacer efectivos los derechos humanos, y el papel de la cooperación técnica y el fomento de la capacidad a este respecto,</p>
+      </container>
+      <container name="Reconociendo" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> la importancia de aumentar el apoyo internacional para realizar actividades de fomento de la capacidad eficaces y específicas en los países en desarrollo a fin de respaldar los planes nacionales de implementación de todos los Objetivos de Desarrollo Sostenible,</p>
+      </container>
+      <container name="Subrayando" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Subrayando </span>la importancia de que las organizaciones competentes del sistema de las Naciones Unidas, especialmente los equipos de las Naciones Unidas en los países, en el marco de sus respectivos mandatos, incorporen la cooperación técnica y el fomento de la capacidad en la esfera de los derechos humanos en su trabajo y sus programas,</p>
+      </container>
+      <container name="Reconociendo" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>la función y los efectos de las actividades de los organismos de las Naciones Unidas y las organizaciones internacionales y regionales competentes, la contribución de las partes interesadas nacionales, como las instituciones nacionales de derechos humanos, los mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento, y las organizaciones de la sociedad civil a la prestación de asistencia y apoyo técnicos a los Estados, atendiendo a las necesidades y las solicitudes de los Estados interesados, y el apoyo a los parlamentos nacionales para que los Estados cumplan sus obligaciones en materia de derechos humanos, así como sus promesas y compromisos voluntarios, incluidas las recomendaciones aceptadas del examen periódico universal, de conformidad con sus respectivos mandatos,</p>
+      </container>
+      <container name="Reiterando" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Reiterando </span>que una de las funciones del Alto Comisionado de las Naciones Unidas para los Derechos Humanos y de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos consiste en prestar servicios de asesoramiento y asistencia técnica, a petición del Estado interesado, con miras a apoyar medidas y programas en la esfera de los derechos humanos, y en coordinar las actividades para promover y proteger los derechos humanos en todo el sistema de las Naciones Unidas, de conformidad con el mandato de la Oficina,</p>
+      </container>
+      <container name="Expresando aprecio" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Expresando aprecio </span>por el importante papel desempeñado por el Fondo de Contribuciones Voluntarias de las Naciones Unidas para la Cooperación Técnica en Materia de Derechos Humanos, el Fondo de Contribuciones Voluntarias para la Participación en el Examen Periódico Universal, el Fondo Fiduciario de Contribuciones Voluntarias de Asistencia Técnica para Apoyar la Participación de los Países Menos Adelantados y los Pequeños Estados Insulares en Desarrollo en la Labor del Consejo de Derechos Humanos y el Fondo de Contribuciones Voluntarias para la Asistencia Financiera y Técnica en la Aplicación del Examen Periódico Universal en lo que respecta a la prestación de apoyo a los Estados en el fomento de su capacidad nacional para promover el cumplimiento efectivo de sus obligaciones en materia de derechos humanos y de las recomendaciones aceptadas en el contexto del examen periódico universal,</p>
+      </container>
+      <container name="Observando" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Observando </span>que varios Estados han utilizado los fondos correspondientes de las Naciones Unidas para apoyar la asistencia técnica y el fomento de la capacidad en materia de derechos humanos en el cumplimiento de sus obligaciones y compromisos a ese respecto, y subrayando la necesidad de seguir dando a conocer esos fondos, de facilitar la forma de solicitarlos, y de redoblar los esfuerzos para mejorar su complementariedad,</p>
+      </container>
+      <container name="Observando con aprecio" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Observando con aprecio</span> las contribuciones que aportan la Junta de Síndicos del Fondo de Contribuciones Voluntarias de las Naciones Unidas para la Cooperación Técnica en Materia de Derechos Humanos y el Fondo de Contribuciones Voluntarias para la Asistencia Financiera y Técnica en la Aplicación del Examen Periódico Universal a través de sus informes anuales al Consejo de Derechos Humanos<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		A/HRC/56/78 y A/HRC/56/18.</p></authorialNote>, en particular respecto de los componentes de cooperación técnica y determinación de buenas prácticas,</p>
+      </container>
+      <container name="Acogiendo con beneplácito y alentando" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito y alentando</span> las iniciativas nuevas y existentes destinadas a intercambiar experiencias, enseñanzas extraídas y mejores prácticas y a prestar apoyo en forma de cooperación técnica y fomento de la capacidad en la esfera de los derechos humanos, en consulta con los Estados interesados y con su consentimiento, mediante la cooperación bilateral, regional, multilateral e internacional, incluidos los diálogos bilaterales sobre derechos humanos y la cooperación Norte-Sur, Sur-Sur y triangular, así como las alianzas público-privadas, a fin de ayudar a los Estados a cumplir sus obligaciones en materia de derechos humanos y sus promesas y compromisos voluntarios, y subrayando la necesidad de que los Estados y todas las partes interesadas pertinentes trabajen de forma complementaria en la prestación de cooperación técnica y el fomento de la capacidad en la esfera de los derechos humanos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>las iniciativas nacionales, regionales e internacionales que han permitido establecer las bases de datos y herramientas utilizadas por los Estados para supervisar de forma holística el cumplimiento de las obligaciones en materia de derechos humanos, así como la presentación de informes y el seguimiento dado al respecto,</p>
+      </container>
+      <container name="Destacando" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Destacando </span>la necesidad de concienciar sobre la importancia de la cooperación técnica y el fomento de la capacidad en la esfera de los derechos humanos, lo que agilizaría la realización de actividades en ese ámbito, con miras a mejorar la situación de los derechos humanos en todo el mundo, y también la necesidad de mantener un espíritu de cooperación constructiva y de no politización,</p>
+      </container>
+      <container name="Recordando" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>que, de conformidad con la Declaración y el Programa de Acción de Viena, se insta a los Gobiernos a que incorporen en su legislación nacional las normas contenidas en los instrumentos internacionales de derechos humanos y a que refuercen los órganos de la sociedad, las estructuras y las instituciones nacionales que desempeñan una función en la promoción y salvaguardia de los derechos humanos,</p>
+      </container>
+      <container name="Reafirmando" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando</span>, en consonancia con la Declaración y el Programa de Acción de Viena, el importante y constructivo papel que desempeñan las instituciones nacionales de promoción y protección de los derechos humanos, en particular en lo que respecta a su capacidad para asesorar a las autoridades competentes y a su papel en la reparación de las violaciones de los derechos humanos, la divulgación de información sobre esos derechos y la educación en materia de derechos humanos y su colaboración con las iniciativas pertinentes de la sociedad civil,</p>
+      </container>
+      <container name="Considerando" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Considerando </span>que el cumplimiento de las obligaciones y compromisos de derechos humanos se beneficiaría de un seguimiento ampliado e institucionalizado a nivel regional, nacional y local, por ejemplo, mediante el establecimiento o el fortalecimiento de mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento, y que dichos mecanismos facilitan un enfoque integrado y participativo de la presentación de informes a los mecanismos internacionales de derechos humanos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que las instituciones nacionales de derechos humanos y los mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento cumplen funciones distintas y complementarias que se refuerzan mutuamente como actores nacionales fundamentales, y recalcando que cada uno de ellos contribuye de manera excepcional al respeto, la protección y el cumplimiento de las obligaciones de los Estados en materia de derechos humanos a nivel nacional, en el marco de sus respectivos mandatos y funciones,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_26" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve </span>que el debate general celebrado en el marco del tema 10 de la agenda es una plataforma esencial para que los miembros y los observadores del Consejo de Derechos Humanos intercambien abiertamente y de forma segura ideas y opiniones, y den a conocer experiencias concretas, dificultades, progresos y logros, así como información sobre la asistencia que necesitan, respecto de la promoción de unas actividades más eficaces de cooperación técnica y fomento de la capacidad en la esfera de los derechos humanos, y que dicha cooperación técnica debe seguir siendo una labor inclusiva en que participen todos los interesados nacionales, entre ellos los organismos públicos, las instituciones nacionales de derechos humanos, los mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento, el sector privado y la sociedad civil, incluidas las organizaciones de mujeres y los titulares de derechos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> que la cooperación técnica y el fomento de la capacidad en la esfera de los derechos humanos deben seguir teniendo lugar en consulta con los Estados interesados y con su consentimiento y tener en cuenta las peticiones, necesidades y prioridades de estos y su contexto nacional, así como el hecho de que todos los derechos humanos son universales, indivisibles e interdependientes, están relacionados entre sí y obedecen al propósito de tener efectos concretos sobre el terreno a todos los niveles;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>que la cooperación técnica y el fomento de la capacidad han sido esenciales para apoyar el establecimiento y fortalecimiento de instituciones nacionales de derechos humanos conformes con los Principios de París y de mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento, promover los conocimientos y la capacidad de las instituciones nacionales en lo referente a las obligaciones de derechos humanos y adaptar las leyes y políticas nacionales a las normas internacionales de derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Recalca </span>la necesidad de reforzar la cooperación y el diálogo a nivel internacional, regional y bilateral en apoyo de la promoción y protección de los derechos humanos, con miras a generar resultados sostenibles, y alienta a los órganos regionales de derechos humanos a que compartan experiencias e intercambien buenas prácticas con respecto a la promoción y protección de los derechos humanos, incluidas las relativas al empoderamiento de todas las mujeres y las niñas, colaborando al mismo tiempo con los agentes pertinentes, como las instituciones nacionales de derechos humanos, las organizaciones de la sociedad civil y los titulares de derechos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> la permanente necesidad de que aumenten las contribuciones voluntarias a los fondos correspondientes de las Naciones Unidas para apoyar la asistencia técnica y el fomento de la capacidad en la esfera de los derechos humanos, alienta a los Estados a que sigan contribuyendo a esos fondos, así como al programa de asistencia técnica y fomento de la capacidad de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, a fin de garantizar que la Oficina del Alto Comisionado esté en condiciones de responder a las solicitudes de asistencia señaladas en sus llamamientos anuales, y alienta a los fondos y a la Oficina a que sigan aumentando la eficacia y la transparencia de sus actividades;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> que la Oficina del Alto Comisionado ofrezca servicios de asistencia técnica y fomento de la capacidad por conducto de los coordinadores residentes de las Naciones Unidas y las representaciones nacionales y regionales de las Naciones Unidas, en consulta con los Estados interesados y con su consentimiento, en particular con miras a apoyar el establecimiento de instituciones nacionales de derechos humanos conformes con los Principios de París y de mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento o, en función de sus contextos nacionales, el fortalecimiento de dichas instituciones y mecanismos, y alienta a la Oficina, a los coordinadores y a las representaciones a que sigan haciéndolo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados que necesiten asistencia técnica para reforzar las estructuras nacionales que desempeñan una función en la promoción y salvaguardia de los derechos humanos y cumplir sus obligaciones en materia de derechos humanos, así como sus promesas y compromisos voluntarios, incluidas las recomendaciones aceptadas en el contexto del examen periódico universal, a que consideren la posibilidad de solicitar dicha asistencia a la Oficina del Alto Comisionado y a otros organismos competentes de las Naciones Unidas, y alienta encarecidamente a la Oficina y a los respectivos organismos de las Naciones Unidas a que respondan favorablemente a esas solicitudes y proporcionen información, de manera transparente y oportuna, sobre el apoyo técnico ofrecido y prestado a los Estados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados a que sigan promoviendo iniciativas destinadas a intercambiar experiencias, enseñanzas extraídas y mejores prácticas en la prestación de apoyo en forma de cooperación técnica y fomento de la capacidad en la esfera de los derechos humanos mediante la cooperación bilateral, incluidos los diálogos bilaterales sobre derechos humanos y la cooperación Norte-Sur, Sur-Sur y triangular, para ayudar a los Estados a cumplir sus obligaciones en materia de derechos humanos, así como sus promesas y compromisos voluntarios;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>la importancia de mejorar la coordinación entre la Oficina del Alto Comisionado y otros organismos de las Naciones Unidas en sus actividades de cooperación técnica y fomento de la capacidad, y alienta a la Oficina, a otros organismos competentes de las Naciones Unidas y a los Estados interesados a que intercambien periódicamente información y mejores prácticas sobre las actividades de asistencia técnica y fomento de la capacidad emprendidas en el plano nacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los procedimientos especiales del Consejo de Derechos Humanos a que, en su interacción con los Estados, sigan intercambiando información y conocimientos sobre las mejores prácticas y la posibilidad de ofrecer asistencia técnica y fomento de la capacidad para asegurar el respeto, la protección y la efectividad de los derechos humanos en el marco de sus respectivos mandatos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la celebración por el Consejo de Derechos Humanos en su 56º período de sesiones, en cumplimiento de su resolución 54/28, de 12 de octubre de 2023, de una mesa redonda sobre el tema “Fortalecimiento de la cooperación técnica y fomento de la capacidad en la aplicación de las recomendaciones del examen periódico universal” cuyos participantes subrayaron la importancia de la cooperación técnica y el fomento de la capacidad para ayudar a los Estados a aplicar las recomendaciones del examen periódico universal, reconocieron el potencial de la cooperación Sur-Sur y triangular, reflexionaron sobre los logros alcanzados y los obstáculos encontrados, y destacaron la necesidad de destinar suficientes fondos a la realización de las actividades de asistencia técnica y fomento de la capacidad necesarias<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Véase A/HRC/56/72.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="italic">Reitera </span>su solicitud a la Oficina del Alto Comisionado de que establezca y mantenga, mediante una capacidad específica adicional, un repositorio en línea de las actividades de cooperación técnica y fomento de la capacidad destinadas a la aplicación de las recomendaciones del examen periódico universal —establecimiento que ha quedado aplazado debido a la crisis de liquidez que afecta actualmente a la Secretaría de las Naciones Unidas—, con las comunicaciones voluntarias presentadas por los Estados, así como por los organismos, fondos y programas pertinentes de las Naciones Unidas, las organizaciones internacionales y regionales, los mecanismos regionales de derechos humanos, las instituciones nacionales de derechos humanos y las organizaciones de la sociedad civil, con el consentimiento de los Estados interesados, y que le presente anualmente , a partir de su 59º período de sesiones, en el informe anual de la Oficina sobre cooperación técnica y fomento de la capacidad en la esfera de los derechos humanos, una actualización de la información recopilada, y exhorta a las partes interesadas que tienen buenas prácticas en los ámbitos mencionados a que presten asistencia técnica a los Estados interesados que lo soliciten y con su consentimiento, como una forma de apoyo entre pares;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>la necesidad de crear sinergias entre el mencionado repositorio y otras bases de datos pertinentes, como, entre otros, un centro virtual de intercambio de conocimientos para los mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento, y las ventajas que podría tener ampliar el repositorio para incluir una función de emparejamiento con el fin de mejorar la coordinación de la labor de cooperación técnica y fomento de la capacidad en la aplicación de las recomendaciones aceptadas del examen periódico universal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span>, de conformidad con los párrafos 3 y 4 de su resolución 18/18, de 29 de septiembre de 2011, que el tema de la mesa redonda temática anual que se celebrará en su 59º período de sesiones en relación con el tema 10 de la agenda sea “La contribución de la cooperación técnica y el fomento de la capacidad al fortalecimiento de las estructuras nacionales que desempeñan una función en la promoción y salvaguardia de los derechos humanos, en particular las instituciones nacionales de derechos humanos y los mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento”, y que esta sea plenamente accesible para las personas con discapacidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a la Oficina del Alto Comisionado que prepare un informe sobre la contribución de la cooperación técnica y el fomento de la capacidad entre los Estados, la Oficina y otras partes interesadas pertinentes, incluidas las instituciones nacionales de derechos humanos, a apoyar las iniciativas de los Estados destinadas a reforzar las estructuras nacionales que desempeñan una función en la promoción y salvaguardia de los derechos humanos, en particular las instituciones nacionales de derechos humanos y los mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento, incluida la complementariedad de ambas entidades, y que le presente el informe en su 59º período de sesiones a fin de que sirva de base para la mencionada mesa redonda;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados a que cumplan sus obligaciones en materia de derechos humanos, y exhorta también a los Estados, los órganos y mecanismos internacionales de derechos humanos, las organizaciones internacionales competentes, las instituciones nacionales de derechos humanos, los mecanismos nacionales para la aplicación, la presentación de informes y el seguimiento, y la sociedad civil a que aprovechen las ideas y las cuestiones planteadas en la mesa redonda a fin de aumentar la eficiencia, la eficacia y la coherencia de las políticas en la labor de cooperación técnica y fomento de la capacidad y establecer alianzas entre múltiples interesados en el fortalecimiento de las estructuras nacionales que desempeñan una función complementaria en la promoción y salvaguardia de los derechos humanos, especialmente a la luz del 75º aniversario de la Declaración Universal de Derechos Humanos y del 30º aniversario de la Declaración y el Programa de Acción de Viena, y como contribución a la Agenda 2030 para el Desarrollo Sostenible.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="49ª" refersTo="#adoptionMeeting">49ª sesión</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 de octubre de 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
