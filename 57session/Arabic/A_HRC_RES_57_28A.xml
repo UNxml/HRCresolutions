@@ -1,0 +1,234 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/ara@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-28/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Kunming-Montreal Global Biodiversity Framework (2022)" showAs="Kunming-Montreal Global Biodiversity Framework (2022)" dictionary="DHLAUTH"></keyword>
+        <keyword value="BIOLOGICAL DIVERSITY" href="http://metadata.un.org/thesaurus/1000612" showAs="BIOLOGICAL DIVERSITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMMES OF ACTION" href="http://metadata.un.org/thesaurus/1005175" showAs="PROGRAMMES OF ACTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPORT PREPARATION" href="http://metadata.un.org/thesaurus/1005485" showAs="REPORT PREPARATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-04" outcome="draftResolution" as="A/HRC/57/L.26" by="Armenia, Belgium, Colombia, Costa Rica, Croatia, Ecuador, Ireland, Luxembourg, Marshall Islands, Namibia, Peru, Portugal, Samoa and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted without vote, 49th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/28</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">الدورة السابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 أيلول</date>
+          <date date="2024-10-11" refersTo="#endDate">11 تشرين الأول 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 11 تشرين الأول/أكتوبر 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/28</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	التنوع البيولوجي وحقوق الإنسان</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يسترشد</span> بمقاصد ومبادئ ميثاق الأمم المتحدة، والإعلان العالمي لحقوق الإنسان، والعهدين الدوليين الخاصين بحقوق الإنسان، وغير ذلك من الصكوك ذات الصلة، وإذ يؤكد من جديد أهمية اتفاقية التنوع البيولوجي،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> أهمية إعلان ريو بشأن البيئة والتنمية ومبادئه في التصدي لفقدان التنوع البيولوجي وتدهوره وتأثيرهما الضار على تمتع الجميع بحقوق الإنسان، </p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير </span>إلى خطة التنمية المستدامة لعام 2030 والتعهد الوارد فيها بعدم ترك أي شخص خلف الركب، بما في ذلك، ضمن جملة أمور، الهدف 14 من أهداف التنمية المستدامة المتعلق بحفظ المحيطات والبحار والموارد البحرية واستخدامها على نحو مستدام، والهدف 15 المتعلق بوقف فقدان التنوع البيولوجي،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير أيضاً </span>إلى إطار كونمينغ - مونتريال العالمي للتنوع البيولوجي، الذي اعتُمد في الاجتماع الخامس عشر لمؤتمر الأطراف في اتفاقية التنوع البيولوجي، بما في ذلك الفرع جيم منه، الذي يدعو، ضمن جملة أمور، إلى جعل تنفيذ الإطار، بما في ذلك رؤيته ورسالته وأهدافه وغاياته، متسقاً مع نهج قائم على حقوق الإنسان ومع مقررات مؤتمر الأطراف 15/5، بشأن آلية الرصد ضمن إطار كونمينغ - مونتريال العالمي للتنوع البيولوجي، و15/6 بشأن آليات التخطيط والرصد والإبلاغ والاستعراض، و15/7 بشأن تعبئة الموارد، و15/8 بشأن بناء القدرات وتنميتها والتعاون التقني والعلمي،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير كذلك </span>إلى قرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/48/13">48/13</a> المؤرخ 8 تشرين الأول/أكتوبر 2021 وقرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/76/300">76/300</a> المؤرخ 28 تموز/يوليه 2022 بشأن حق الإنسان في بيئة نظيفة وصحية ومستدامة،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير </span>إلى إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية، الذي يقر بأن احترام معارف الشعوب الأصلية وثقافاتها وممارساتها التقليدية يسهم في التنمية المستدامة والمنصفة والإدارة السليمة للبيئة، وإذ يسلم بأن عدمَ حمايةِ التنوع البيولوجي والتدهورَ البيئي تترتب عليهما عواقب ضارة بحقوق الإنسان، إلى جانب تأثيرهما السلبي على صون المعارف التقليدية وعلى التراث الثقافي للشعوب الأصلية وتعبيراتها وهوياتها ونوعية حياتها، وكذلك على المجتمعات الأخرى المعتمدة على التنوع البيولوجي،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يقر</span> بأن فقدان التنوع البيولوجي وتدهور خدمات النظم الإيكولوجية يمكن أن يكون لهما تأثير سلبي على التمتع بالحق في بيئة نظيفة وصحية ومستدامة، الأمر الذي ينطوي على آثار ضارة، مباشرة وغير مباشرة، تمس بالتمتع الفعلي بجميع حقوق الإنسان، وكذلك بصون احتياجات ومصالح الأجيال المقبلة، </p>
+      </container>
+      <container name="وإذ يسلم" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم </span>بأن الآثار الضارة لتغير المناخ والتدهور البيئي وفقدان التنوع البيولوجي كثيراً ما تنجم عن الأنماط القائمة من التمييز وعدم المساواة وكثيراً ما تسهم في تفاقمها، لا سيما في صفوف الأشخاص الذين يعيشون في أوضاع هشة،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم أيضاً</span> بأن المدافعين عن حقوق الإنسان العاملين في مجال القضايا البيئية، الذين يُشار إليهم بالمدافعين عن حقوق الإنسان البيئية، يقدمون مساهمة إيجابية ومهمة ومشروعة في تعزيز وحماية جميع حقوق الإنسان، وإذ يُعرب عن بالغ القلق إزاء الأشكال المتعددة والمتداخلة للعنف والتمييز اللذين يتعرض لهما المدافعون عن حقوق الإنسان البيئية، لا سيما النساء والفتيات والمدافعون عن الشعوب الأصلية، </p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً </span>بالصكوك الدولية مثل الاتفاقية الخاصة بإتاحة فرص الحصول على المعلومات عن البيئة ومشاركة الجمهور في اتخاذ القرارات بشأنها والاحتكام إلى القضاء في المسائل المتعلقة بها، من منطلق حماية المدافعين عن البيئة، والاتفاق الإقليمي بشأن الوصول إلى المعلومات والمشاركة العامة والعدالة في المسائل البيئية في أمريكا اللاتينية ومنطقة البحر الكاريبي (اتفاق إسكاسو)، من منطلق حماية المدافعين عن حقوق الإنسان البيئية، </p>
+      </container>
+      <container name="وإذ يحيط علماً أيضاً" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً أيضاً</span> بإرشادات فريق الأمم المتحدة للإدارة البيئية فيما يتصل بمراعاة حقوق الإنسان في الاستراتيجيات وخطط العمل الوطنية المتعلقة بالتنوع البيولوجي،</p>
+      </container>
+      <container name="وإذ يتطلع" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يتطلع</span> إلى التزامات أكثر طموحاً في الاجتماع السادس عشر لمؤتمر الأطراف في اتفاقية التنوع البيولوجي، المقرر عقده في كالي، كولومبيا، في الفترة من 21 تشرين الأول/أكتوبر إلى 1 تشرين الثاني/نوفمبر 2024، بما يتفق مع تركيزه على تحقيق تصالح مع الطبيعة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">يطلب </span>إلى مفوضية الأمم المتحدة السامية لحقوق الإنسان زيادة ما تقدمه إلى الدول من دعم ومساعدة تقنية وفرص لبناء القدرات، بموافقتها، من أجل تنفيذ النُّهج التي تراعي تعزيز وحماية حقوق الإنسان في سياق حفظ التنوع البيولوجي، والاستخدام المستدام لمكوناته، والتقاسم العادل والمنصف للمنافع المستمدة من استخدام الموارد الجينية، باتباع نهج يراعي المنظور الجنساني ويستند إلى أعمالها السابقة في هذا المجال، بما في ذلك عن طريق العمل مع المؤسسات الوطنية لحقوق الإنسان، والآليات الوطنية للتنفيذ والإبلاغ والمتابعة، وممثلي الشعوب الأصلية وغيرهم من أصحاب المصلحة، وكذلك مع أفرقة الأمم المتحدة القطرية، وفقاً للالتزامات القائمة بموجب القانون الدولي لحقوق الإنسان، ويطلب إلى الأمين العام أن يواصل تعزيز قدرات مفوضية الأمم المتحدة السامية لحقوق الإنسان في هذا الصدد على الصعيد الإقليمي من أجل تقديم هذا الدعم المعزز؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> على تعزيز وسائل التنفيذ، فضلاً عن جميع أشكال التعاون التقني والعلمي، للمساهمة في التنفيذ الكامل والفعال لإطار كونمينغ - مونتريال العالمي للتنوع البيولوجي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve"> 	<span class="italic">يطلب </span>إلى مفوض الأمم المتحدة السامي لحقوق الإنسان أن يتولى، بالتشاور مع الدول، والإجراءات الخاصة لمجلس حقوق الإنسان، وبرنامج الأمم المتحدة للبيئة، وأمانة اتفاقية التنوع البيولوجي وغيرها من المنظمات الدولية والهيئات الحكومية الدولية ذات الصلة، بما في ذلك المنبر الحكومي الدولي للعلوم والسياسات المعني بالتنوع البيولوجي وخدمات النظم الإيكولوجية،  إجراء دراسة تحليلية عالمية بشأن تنفيذ نهج قائم على حقوق الإنسان في أهداف وغايات إطار كونمينغ - مونتريال العالمي للتنوع البيولوجي، تماشياً مع أحكام الاتفاقية، وبما يتسق مع الاعتبارات الواردة في الفرع جيم من الإطار ومع مراعاة نتائج الاجتماع السادس عشر لمؤتمر الأطراف في الاتفاقية، وذلك لتقديمها إلى المجلس في دورته الحادية والستين، ويطلب أيضاً إلى المفوض السامي أن يتيح تقرير الدراسة في أشكال يسهل الاطلاع عليها، بما في ذلك في نسخ سهلة القراءة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> المفوضية السامية على التعاون مع منظمات الأمم المتحدة وهيئاتها الأخرى ذات الصلة، بما في ذلك برنامج الأمم المتحدة للبيئة، وأمانة اتفاقية التنوع البيولوجي، وكذلك مع الشعوب الأصلية، والسكان المنحدرين من أصل أفريقي، والفلاحين، والمجتمعات الريفية والمحلية، والمدافعين عن حقوق الإنسان البيئية، والنساء، والأشخاص والجماعات الذين يعيشون في أوضاع هشة، بمن فيهم كبار السن والأشخاص ذوو الإعاقة والشباب والأطفال، بشأن النهوض بإجراءات التنوع البيولوجي القائمة على حقوق الإنسان.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="49" refersTo="#adoptionMeeting">الجلسة 49</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 تشرين الأول/أكتوبر 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد من دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
