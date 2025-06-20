@@ -1,0 +1,336 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/fra@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="YEMEN" href="http://metadata.un.org/thesaurus/1007098" showAs="YEMEN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FINANCIAL ASSISTANCE" href="http://metadata.un.org/thesaurus/1002327" showAs="FINANCIAL ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-07" outcome="draftResolution" as="A/HRC/57/L.32" by="United Arab Emirates and State of Palestine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 50th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/37</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 octobre 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Cinquante-septième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 septembre</date>
+          <date date="2024-10-11" refersTo="#endDate">11 octobre 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Point 10 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Assistance technique et renforcement des capacités</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme le 11 octobre 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/37.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Assistance technique et renforcement des capacités  dans le domaine des droits de l’homme au Yémen</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guidé</span> par les buts et principes énoncés dans la Charte des Nations Unies et par les dispositions de la Déclaration universelle des droits de l’homme, et rappelant les instruments internationaux pertinents relatifs aux droits de l’homme,</p>
+      </container>
+      <container name="Considérant" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> que les États ont pour responsabilité première de promouvoir et de protéger les droits de l’homme,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> son ferme attachement à la souveraineté, à l’indépendance, à l’unité et à l’intégrité territoriale du Yémen,</p>
+      </container>
+      <container name="Rappelant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> les résolutions du Conseil de sécurité <a href="http://undocs.org/fr/S/RES/2014(2011)">2014 (2011)</a> du 21 octobre 2011, <a href="http://undocs.org/fr/S/RES/2051(2012)">2051 (2012)</a> du 12 juin 2012 et <a href="http://undocs.org/fr/S/RES/2140(2014)">2140 (2014)</a> du 26 février 2014, et ses propres résolutions <a href="http://undocs.org/fr/A/HRC/RES/18/19">18/19</a> du 29 septembre 2011, <a href="http://undocs.org/fr/A/HRC/RES/19/29">19/29</a> du 23 mars 2012, <a href="http://undocs.org/fr/A/HRC/RES/21/22">21/22</a> du 27 septembre 2012, <a href="http://undocs.org/fr/A/HRC/RES/24/32">24/32</a> du 27 septembre 2013, <a href="http://undocs.org/fr/A/HRC/RES/27/19">27/19</a> du 25 septembre 2014, <a href="http://undocs.org/fr/A/HRC/RES/30/18">30/18</a> du 2 octobre 2015, <a href="http://undocs.org/fr/A/HRC/RES/33/16">33/16</a> du 29 septembre 2016, <a href="http://undocs.org/fr/A/HRC/RES/36/31">36/31</a> du 29 septembre 2017, <a href="http://undocs.org/fr/A/HRC/RES/39/23">39/23</a> du 28 septembre 2018, <a href="http://undocs.org/fr/A/HRC/RES/42/31">42/31</a> du 27 septembre 2019, <a href="http://undocs.org/fr/A/HRC/RES/45/26">45/26</a> du 6 octobre 2020, <a href="http://undocs.org/fr/A/HRC/RES/48/21">48/21</a> du 11 octobre 2021, <a href="http://undocs.org/fr/A/HRC/RES/51/39">51/39</a> du 7 octobre 2022 et <a href="http://undocs.org/fr/A/HRC/RES/54/29">54/29</a> du 12 octobre 2023,</p>
+      </container>
+      <container name="Mettant en exergue" eId="container_6">
+          <p xml:space="preserve"> <span class="italic">Mettant en exergue</span> les résolutions du Conseil de sécurité <a href="http://undocs.org/fr/S/RES/2216(2015)">2216 (2015)</a> du 14 avril 2015, <a href="http://undocs.org/fr/S/RES/2451(2018)">2451 (2018)</a> du 21 décembre 2018 et <a href="http://undocs.org/fr/S/RES/2624(2022)">2624 (2022)</a> du 28 février 2022,</p>
+      </container>
+      <container name="Se félicitant" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Se félicitant</span> que le Gouvernement yéménite s’attache à maintenir la trêve humanitaire bien que les houthistes aient refusé de renouveler l’accord de trêve,</p>
+      </container>
+      <container name="Prenant note avec satisfaction" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Prenant note avec satisfaction</span> des échanges de prisonniers entre les deux parties et demandant que le siège de la ville de Taëz soit levé et que l’acheminement de l’aide humanitaire soit facilité,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> son soutien résolu aux efforts faits à l’échelle internationale pour parvenir à un cessez-le-feu global et mettre fin au conflit au Yémen et pour relancer un dialogue politique véritable et sans exclusive pour la paix, dont témoignent l’initiative de l’Envoyé spécial du Secrétaire général pour le Yémen, l’initiative de l’Arabie saoudite et l’action menée par l’Envoyé spécial des États-Unis d’Amérique pour le Yémen et certains pays de la région, rappelant qu’il importe que toutes les parties au conflit répondent à ces efforts de façon souple et constructive et sans poser de conditions préalables et appliquent intégralement et immédiatement toutes les dispositions des résolutions pertinentes du Conseil de sécurité, et saluant à cet égard la participation positive du Gouvernement yéménite,</p>
+      </container>
+      <container name="Sachant" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Sachant</span> que la promotion, la protection et la réalisation des droits de l’homme sont des facteurs essentiels pour garantir un système de justice juste et équitable et, à terme, la réconciliation et la stabilité au Yémen,</p>
+      </container>
+      <container name="Rappelant" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> que les partis politiques yéménites ont accepté de mener à bien le processus de transition politique fondé sur l’initiative du Conseil de coopération du Golfe et son mécanisme de mise en œuvre, et insistant sur la nécessité d’appliquer les recommandations formulées dans le document final de la Conférence de dialogue national, notamment d’achever la rédaction d’une nouvelle constitution,</p>
+      </container>
+      <container name="Rappelant avec satisfaction" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Rappelant avec satisfaction</span> le décret présidentiel n<sup>o</sup> 16, en date du 23 août 2023, par lequel le mandat de la Commission nationale d’enquête a été prolongé de deux ans pour permettre à celle-ci d’enquêter sur toutes les violations des droits de l’homme commises depuis 2011,</p>
+      </container>
+      <container name="Rappelant" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> l’Accord de Riyad signé par le Gouvernement yéménite et le Conseil de transition du Sud, et préconisant l’application rapide et complète de ce texte qui constitue une étape importante vers une solution politique au Yémen,</p>
+      </container>
+      <container name="Constatant avec préoccupation" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Constatant avec préoccupation</span> que les problèmes de liquidités liés au budget ordinaire du Secrétariat de l’Organisation des Nations Unies ont limité les fonds alloués au budget ordinaire du Haut-Commissariat des Nations Unies aux droits de l’homme et ont eu des conséquences directes pour la capacité du Haut-Commissariat de fournir toute l’assistance technique demandée par le Conseil des droits de l’homme dans sa résolution <a href="http://undocs.org/fr/A/HRC/RES/54/29">54/29</a>,</p>
+      </container>
+      <container name="Se félicitant" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Se félicitant</span> que le Conseil de direction présidentiel ait la volonté de négocier avec les houthistes sous les auspices de l’Envoyé spécial du Secrétaire général pour le Yémen en vue de parvenir à un règlement politique final et global au Yémen, et se félicitant également que le Gouvernement yéménite ait décidé d’autoriser la poursuite des vols internationaux depuis et vers l’aéroport de Sanaa et l’entrée sans entrave des navires commerciaux et humanitaires dans tous les ports yéménites, y compris les ports de Hodeïda et de Salif,</p>
+      </container>
+      <container name="Saluant" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Saluant</span> l’opération menée par l’Organisation des Nations Unies et ses partenaires, grâce à laquelle le pétrolier <span class="italic">Safer</span> a pu être déchargé en toute sécurité, ce qui a permis de protéger la vie marine de la mer Rouge d’une grande catastrophe écologique, et exprimant sa reconnaissance aux États donateurs pour leurs contributions généreuses à cette opération cruciale,</p>
+      </container>
+      <container name="Ayant connaissance" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Ayant connaissance</span> des informations émanant du Bureau de la coordination des affaires humanitaires indiquant que la situation actuelle d’urgence humanitaire entrave l’exercice des droits de l’homme fondamentaux, y compris des droits économiques et sociaux, et soulignant que les parties au conflit doivent faire en sorte que l’aide humanitaire soit acheminée rapidement, sans entrave et en toute sécurité,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note</span> du rapport du Haut-Commissaire des Nations Unies aux droits de l’homme sur l’assistance technique et le renforcement des capacités au Yémen<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/fr/A/HRC/57/74">A/HRC/57/74</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note</span> des observations formulées par le Gouvernement yéménite sur le rapport du Haut-Commissaire à la session en cours ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite </span>de la coopération entretenue par le Gouvernement yéménite, le Haut‑Commissariat et les autres organes et mécanismes compétents de l’Organisation des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note</span> du douzième rapport de la Commission nationale d’enquête ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite</span> du travail effectué par l’équipe conjointe chargée des évaluations relatives aux faits et de la coopération de celle-ci avec le Haut-Commissariat et son bureau au Yémen ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note avec satisfaction</span> des travaux menés à ce jour par la Commission nationale d’enquête malgré les difficultés qu’elle a rencontrées et se félicite des progrès qu’elle a accomplis, tels que les visites régulières sur le terrain effectuées dans tout le Yémen, les consultations tenues avec des groupes de la société civile et l’amélioration de la communication d’informations sur les différents types de violations des droits de l’homme et d’atteintes à ces droits ainsi que de violations du droit international humanitaire commises par toutes les parties au conflit ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> à toutes les parties de renouveler l’accord de trêve et d’en appliquer immédiatement toutes les dispositions, appelle à la levée du siège imposé par les houthistes à la ville de Taëz et demande à toutes les parties d’appliquer immédiatement l’Accord de Stockholm afin d’entamer des négociations visant à parvenir à une solution politique globale et inclusive à la crise actuelle au Yémen et de respecter les engagements annoncés le 23 décembre 2023 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve"> 	<span class="italic">Se déclare profondément préoccupé</span> par les graves violations du droit international des droits de l’homme et du droit international humanitaire et atteintes à ces droits qui sont commises au Yémen par toutes les parties au conflit, notamment celles qui concernent des violences sexuelles et fondées sur le genre, la poursuite de l’enrôlement d’enfants, en violation des traités internationaux, l’enlèvement de militants politiques, des violations des droits de l’homme commises contre des journalistes et des meurtres de civils ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> aux houthistes de lever les obstacles qui empêchent l’accès des secours et de l’aide humanitaire, de libérer immédiatement et sans condition l’ensemble des membres du personnel des Nations Unies, des travailleurs humanitaires et des membres du personnel d’organisations non gouvernementales nationales et internationales et de missions diplomatiques détenus et de mettre fin à la violence et à la discrimination à l’égard des femmes ainsi qu’aux attaques fondées sur la religion ou les croyances ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> à toutes les parties au conflit au Yémen de respecter les obligations que leur font le droit international des droits de l’homme et le droit international humanitaire, de mettre immédiatement fin aux attaques contre les civils, notamment ceux qui acheminent des fournitures médicales, et les travailleurs humanitaires, et d’assurer l’accès rapide, sans entrave et en toute sécurité de l’aide humanitaire aux populations touchées dans l’ensemble du pays ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve"> 	<span class="italic">Se déclare profondément préoccupé</span> par toutes les attaques menées contre des biens de caractère civil, en violation du droit international humanitaire, rappelle l’obligation qu’ont toutes les parties au conflit de prendre toutes les précautions nécessaires pour éviter que des dommages soient causés aux civils et aux biens de caractère civil, tels que les écoles, les marchés et les établissements médicaux, et, à tout le moins, pour réduire ces dommages au minimum, ainsi que l’interdiction d’attaquer ou de détruire des infrastructures et des biens indispensables à la survie de la population civile, notamment les installations hydrauliques, les approvisionnements et les vivres, et condamne fermement le tir de missiles balistiques et autres visant le territoire de pays voisins, qui font peser une lourde menace sur la paix et la stabilité régionales, ainsi que sur la sécurité du commerce international dans les couloirs de navigation de la mer Rouge ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte</span> le Gouvernement yéménite à prendre des mesures pour protéger les civils et à prendre les mesures voulues pour mettre fin à l’impunité de toutes les violations des droits de l’homme et atteintes à ces droits et de toutes les violations du droit international humanitaire, à la violence à l’égard de journalistes et à la détention de journalistes et de militants politiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> à toutes les parties au conflit au Yémen d’appliquer pleinement la résolution <a href="http://undocs.org/fr/S/RES/2216(2015)">2216 (2015)</a> du Conseil de sécurité, du 14 avril 2015, ce qui contribuera à améliorer la situation des droits de l’homme, et engage toutes les parties au conflit à parvenir à un accord global pour mettre fin au conflit, en veillant à la participation pleine et effective des femmes au processus politique et à l’instauration de la paix ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve"> 	<span class="italic">Exige</span> que toutes les parties au conflit s’emploient à conclure un cessez-le-feu global, poursuivent les négociations inter-yéménites en vue de parvenir à une solution politique globale et durable au conflit qui soit acceptée de part et d’autre, et permettent l’accès de l’aide humanitaire à toutes les villes et tous les villages yéménites, exhorte les houthistes à répondre aux demandes de l’Envoyé spécial du Secrétaire général pour le Yémen tendant à ce qu’ils ouvrent les points de passage vers la ville de Taëz, mettent fin à l’enrôlement et à l’utilisation d’enfants et libèrent ceux qui ont déjà été enrôlés, et demande à toutes les parties au conflit de coopérer avec l’Organisation des Nations Unies aux fins de la réintégration de ces enfants dans leurs communautés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne à nouveau</span> les engagements et les obligations du Gouvernement yéménite s’agissant de promouvoir et de protéger les droits humains de toutes les personnes se trouvant sur le territoire qu’il contrôle et qui relève de sa juridiction, et rappelle à cet égard que le Yémen est partie à la Convention internationale sur l’élimination de toutes les formes de discrimination raciale, à la Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes, au Pacte international relatif aux droits civils et politiques, au Pacte international relatif aux droits économiques, sociaux et culturels, à la Convention contre la torture et autres peines ou traitements cruels, inhumains ou dégradants, à la Convention relative aux droits de l’enfant et à ses Protocoles facultatifs concernant l’implication d’enfants dans les conflits armés et la vente d’enfants, la prostitution des enfants et la pornographie mettant en scène des enfants, à la Convention relative aux droits des personnes handicapées et à la Convention relative au statut des réfugiés et au Protocole y relatif, et compte que le Gouvernement poursuivra ses efforts pour promouvoir et protéger les droits de l’homme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve"> 	<span class="italic">Se dit profondément préoccupé</span> par la détérioration de la situation humanitaire au Yémen, exprime sa gratitude aux États donateurs et aux organisations qui s’emploient à améliorer la situation et qui se sont engagés à fournir un appui financier dans le cadre du plan d’intervention humanitaire 2024 des Nations Unies pour le Yémen, demande à tous les États d’accroître leur soutien financier aux opérations de secours des Nations Unies et exhorte les États à respecter les engagements qu’ils ont pris au titre de l’appel humanitaire lancé par l’ONU ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve"> 	<span class="italic">Réaffirme</span> qu’il incombe à toutes les parties au conflit de permettre à l’aide humanitaire de parvenir rapidement, en toute sécurité et sans entrave à tous ceux qui en ont besoin, conformément aux principes du droit international des droits de l’homme et du droit international humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve"> 	<span class="italic">Invite</span> tous les organismes des Nations Unies, dont le Haut-Commissariat, et tous les États à soutenir le processus de transition au Yémen, notamment en appuyant la mobilisation des ressources nécessaires pour faire face aux conséquences de la violence et aux problèmes économiques et sociaux du Yémen, en coordination avec la communauté internationale des donateurs et conformément aux priorités définies par les autorités yéménites ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_189" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_189__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite</span> de l’assistance technique fournie par le Haut-Commissariat à la Commission nationale d’enquête et prie le Haut-Commissaire de continuer de fournir des services spécialisés de renforcement des capacités et d’assistance technique au Gouvernement yéménite et tout l’appui technique et logistique nécessaire à la Commission nationale d’enquête, sur un pied d’égalité avec les autres commissions de ce type, pour que celle-ci puisse continuer d’enquêter sur les allégations de violations des droits de l’homme et d’atteintes à ces droits commises par toutes les parties au conflit au Yémen, dans le respect des normes internationales, et soumettre, conformément au décret présidentiel n<sup>o</sup> 16 en date du 23 août 2023, son rapport complet sur les violations des droits de l’homme et atteintes à ces droits qui auraient été commises dans toutes les régions du Yémen dès qu’il sera disponible, et engage toutes les parties au conflit au Yémen à offrir à la Commission toutes les facilités d’accès nécessaires et à lui apporter leur pleine coopération, en toute transparence ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_208__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie</span> le Haut-Commissaire de lui présenter, à sa soixantième session, un rapport sur la fourniture de l’assistance technique prévue par la présente résolution ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_228" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_228__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie</span> le Secrétaire général de veiller à ce que le Haut-Commissariat soit doté de toutes les ressources dont il a besoin pour fournir l’assistance technique demandée dans la résolution <a href="http://undocs.org/fr/A/HRC/RES/54/29">54/29</a> et dans la présente résolution.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="50e" refersTo="#adoptionMeeting">50e séance</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 octobre 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
