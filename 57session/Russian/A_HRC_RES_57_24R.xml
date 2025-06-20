@@ -1,0 +1,314 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/rus@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="EDUCATION" href="http://metadata.un.org/thesaurus/1001893" showAs="EDUCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RACIAL DISCRIMINATION" href="http://metadata.un.org/thesaurus/1005310" showAs="RACIAL DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="XENOPHOBIA" href="http://metadata.un.org/thesaurus/1007092" showAs="XENOPHOBIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS EDUCATION" href="http://metadata.un.org/thesaurus/1002978" showAs="HUMAN RIGHTS EDUCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT TO EDUCATION" href="http://metadata.un.org/thesaurus/1005558" showAs="RIGHT TO EDUCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CULTURAL PLURALISM" href="http://metadata.un.org/thesaurus/1001436" showAs="CULTURAL PLURALISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="9" showAs="Racism, racial discrimination, xenophobia and related forms of intolerance, follow-up to and implementation of the Durban Declaration and Programme of Action." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-07" outcome="draftResolution" as="A/HRC/57/L.25" by="Belgium, Brazil, Chile, Colombia, Costa Rica, Ecuador, Finland, Ireland, Luxembourg, Malawi, Marshall Islands, Monaco, Namibia, Peru, Portugal, San Marino, South Africa, Spain and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted without vote, 48th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/24</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 сентября</date>
+          <date date="2024-10-11" refersTo="#endDate">11 октября 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline name="agenda item"></inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 10 октября 2024 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/24.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Образование как инструмент предупреждения расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">руководствуясь </span>целями и принципами Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="ссылаясь" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">ссылаясь </span>на Всеобщую декларацию прав человека, Международный пакт о гражданских и политических правах, Международный пакт об экономических, социальных и культурных правах, Международную конвенцию о ликвидации всех форм расовой дискриминации, Венскую декларацию и Программу действий, Дурбанскую декларацию и Программу действий и другие соответствующие международные договоры и вновь подтверждая универсальность, неделимость, взаимосвязанность и взаимозависимость всех прав человека,</p>
+      </container>
+      <container name="констатируя" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">констатируя </span>важность принятия Дурбанской декларации и Программы действий как важной вехи в высвечивании ключевой роли образования в общей борьбе против расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости,</p>
+      </container>
+      <container name="ссылаясь" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">ссылаясь </span>на резолюцию Генеральной Ассамблеи <a href="http://undocs.org/ru/A/RES/68/237">68/237</a> от 23 декабря 2013 года, в которой Ассамблея провозгласила Международное десятилетие лиц африканского происхождения, начинающееся 1 января 2015 года и заканчивающееся 31 декабря 2024 года, посвятив его теме «Лица африканского происхождения: признание, справедливость и развитие», резолюцию <a href="http://undocs.org/ru/A/RES/69/16">69/16</a> от 18 ноября 2014 года, в которой Ассамблея приняла программу мероприятий по проведению Международного десятилетия лиц африканского происхождения, и резолюцию <a href="http://undocs.org/ru/A/RES/78/323">78/323</a> от 13 августа 2024 года, в которой Ассамблея провозгласила 25 июля Международным днем женщин и девочек африканского происхождения,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также </span>на все предыдущие резолюции и решения Генеральной Ассамблеи, Комиссии по правам человека и Совета по правам человека о ликвидации расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости и о праве на образование,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">вновь подтверждая </span>право каждого человека на образование, которое закреплено, в частности, во Всеобщей декларации прав человека, Международном пакте об экономических, социальных и культурных правах, Международной конвенции о ликвидации всех форм расовой дискриминации, Конвенции о правах ребенка, Конвенции о ликвидации всех форм дискриминации в отношении женщин, Конвенции о правах инвалидов, Конвенции Организации Объединенных Наций по вопросам образования, науки и культуры о борьбе с дискриминацией в области образования, Декларации Организации Объединенных Наций об образовании и подготовке в области прав человека, а также в других соответствующих международных договорах,</p>
+      </container>
+      <container name="признавая" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">признавая </span>решающее значение инклюзивного и справедливого качественного образования и отмечая, что системы образования должны развивать культурное многообразие в целях защиты культурных прав и содействия взаимопониманию, уважению многообразия и терпимости,</p>
+      </container>
+      <container name="отмечая" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">отмечая</span>, что системы образования и учебные заведения играют важную роль и несут ответственность в рамках усилий по борьбе с расизмом, расовой дискриминацией, ксенофобией и связанной с ними нетерпимостью и их ликвидации,</p>
+      </container>
+      <container name="констатируя" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">констатируя</span>, что в Дурбанской декларации и Программе действий признается, что образование на всех уровнях и для всех возрастов, включая воспитание в семье, и в частности образование в области прав человека, является ключом к изменению взглядов и поведения, основанных на расизме, расовой дискриминации, ксенофобии и связанной с ними нетерпимости, а также к поощрению терпимости и уважению многообразия в обществе, и подтверждается, что такое образование является определяющим фактором в поощрении, распространении и защите демократических ценностей справедливости и равенства, имеющих основополагающее значение для предупреждения распространения расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости и борьбы с ними,</p>
+      </container>
+      <container name="признавая" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что искоренение расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости является ключевым фактором в осуществлении Повестки дня в области устойчивого развития на период до 2030 года,</p>
+      </container>
+      <container name="признавая также" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">признавая также</span> важность свободы выражения мнений, включая право свободно искать, получать и распространять информацию, и основополагающую роль образования и других активных мер на уровне политики в поощрении терпимости и уважения к другим и в построении плюралистических и инклюзивных обществ,</p>
+      </container>
+      <container name="признавая далее" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">признавая далее </span>важную роль, которую Организация Объединенных Наций по вопросам образования, науки и культуры играет в связи с образованием в деле борьбы против расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости, в частности в контексте проекта «Пути порабощенных народов: сопротивление, свобода, наследие», тридцатая годовщина которого отмечается в 2024 году,</p>
+      </container>
+      <container name="рекомендуя" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">рекомендуя</span> всем государствам, в сотрудничестве с Организацией Объединенных Наций, Организацией Объединенных Наций по вопросам образования, науки и культуры и другими соответствующими международными организациями, разрабатывать и осуществлять культурные и просветительские программы, направленные на борьбу с расизмом, расовой дискриминацией, ксенофобией и связанной с ними нетерпимостью, в целях обеспечения уважения достоинства и ценности жизни всех людей и укрепления взаимопонимания между всеми культурами и цивилизациями,</p>
+      </container>
+      <container name="приветствуя" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">приветствуя </span>усилия, предпринимаемые Управлением Верховного комиссара Организации Объединенных Наций по правам человека, и напоминая о рекомендациях, содержащихся в предыдущих докладах Организации Объединенных Наций о расизме, расовой дискриминации, ксенофобии и связанной с ними нетерпимости, а также усилия, предпринимаемые, в частности, Постоянным форумом по лицам африканского происхождения, Группой независимых видных экспертов по вопросу об осуществлении Дурбанской декларации и Программы действий, Рабочей группой экспертов по лицам африканского происхождения и другими специальными процедурами,</p>
+      </container>
+      <container name="подтверждая" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">подтверждая</span>, что реализация права на образование, в том числе для африканцев и лиц африканского происхождения, азиатов и лиц азиатского происхождения, коренных народов, мигрантов, беженцев, лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, включая, в частности, рома, женщин и девочек и людей с инвалидностью, способствует поощрению экономических, социальных и культурных прав и права на развитие, искоренению нищеты и борьбе с расизмом, расовой дискриминацией, ксенофобией и связанной с ними нетерпимостью,</p>
+      </container>
+      <container name="признавая" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что все государства обладают потенциалом для расширения своих инвестиций в инклюзивное и справедливое качественное образование, что способствует выполнению их обязательств по реализации экономических, социальных и культурных прав,</p>
+      </container>
+      <container name="признавая также" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">признавая также</span>, что новые и появляющиеся цифровые технологии обладают потенциалом для содействия усилиям по ускорению человеческого прогресса, поощрению и защите прав человека и основных свобод, включая экономические, социальные и культурные права, а также для преодоления всех цифровых разрывов, при этом подтверждая также, что потенциальные риски, создаваемые цифровой средой, могут быть сопряжены с различными формами насилия и вреда,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="italic">особо отмечает </span>необходимость усиления политической воли и приверженности делу использования образования как инструмента предупреждения расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости и борьбы с ними;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> 	<span class="italic">особо отмечает также </span>важность полного и эффективного выполнения пунктов Дурбанской декларации и Программы действий, касающихся роли образования в предупреждении и ликвидации расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> 	<span class="italic">вновь подтверждает</span>, что образование, развитие и добросовестное соблюдение международных норм и обязательств в области прав человека, включая принятие законов и разработку политических, социальных и экономических стратегий, имеют крайне важное значение для борьбы против расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">признает</span>, что инклюзивное и справедливое качественное образование, ликвидация неграмотности и всеобщий доступ к бесплатному начальному и среднему образованию могут способствовать созданию более инклюзивных обществ, установлению справедливости, формированию стабильных и гармоничных отношений и укреплению дружбы между нациями, народами, группами и отдельными лицами, а также формированию культуры мира, укрепляющей взаимопонимание, солидарность, социальную справедливость и соблюдение всех прав человека для всех;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 	<span class="italic">особо отмечает </span>ключевую роль образования, в том числе образования в области прав человека и образования, обеспечивающего учет и уважение многообразия культур, особенно ориентированного на детей и молодежь, в предупреждении и искоренении всех форм нетерпимости и дискриминации и приветствует каталитическую роль гражданского общества в развитии образования в области прав человека и привлечении внимания общественности к расизму, расовой дискриминации, ксенофобии и связанной с ними нетерпимости;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>6.</num>
+        <list eId="para_34_list">
+          <intro eId="para_34_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">настоятельно призывает </span>государства, в частности:</p>
+          </intro>
+          <point eId="para_34_list_point_a">
+            <num>a)</num>
+            <content eId="para_34_list_point_a_content">
+              <p xml:space="preserve"> 	принимать и претворять в жизнь законы, стратегии и программы, направленные на запрет дискриминации по признаку расы, цвета кожи и родового, национального или этнического происхождения на всех уровнях образования, как формального, так и неформального, и борьбу с ней;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_b">
+            <num>b)</num>
+            <content eId="para_34_list_point_b_content">
+              <p xml:space="preserve"> 	принимать все надлежащие меры по устранению препятствий, ограничивающих доступ к образованию;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_c">
+            <num>c)</num>
+            <content eId="para_34_list_point_c_content">
+              <p xml:space="preserve"> 	обеспечивать всем детям доступ к справедливому качественному образованию без проявления дискриминации;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_d">
+            <num>d)</num>
+            <content eId="para_34_list_point_d_content">
+              <p xml:space="preserve"> 	поддерживать усилия по обеспечению в школах безопасной обстановки, свободной от насилия, преследования и запугивания, как в онлайновой, так и офлайновой среде, в том числе на почве расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_e">
+            <num>e)</num>
+            <content eId="para_34_list_point_e_content">
+              <p xml:space="preserve"> 	содействовать обеспечению справедливого доступа к новым и появляющимся цифровым технологиям, включая искусственный интеллект, и другим информационно-коммуникационным технологиям в системе образования;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve"> 	<span class="italic">также настоятельно призывает </span>государства внедрять и, при необходимости, укреплять антидискриминационные и антирасистские компоненты программ по правам человека, включенных в школьные учебные планы, разрабатывать и совершенствовать соответствующие учебные материалы, включая учебники по истории и другим дисциплинам, и обеспечивать, чтобы все преподаватели получали эффективную подготовку и надлежащую мотивацию для формирования жизненных позиций и поведенческих моделей, основанных на принципах равноправия, недискриминации и взаимного уважения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 	<span class="italic">рекомендует </span>государствам повышать осведомленность об истории, наследии, культуре и культурном вкладе африканцев и лиц африканского происхождения, азиатов и лиц азиатского происхождения, коренных народов, мигрантов, беженцев, лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам, включая, в частности, рома, женщин и девочек и людей с инвалидностью, осуществлять программы, способствующие распространению знаний и всестороннему пониманию, обеспечивающие признание достоинства, присущего человеческой личности, и наличия у людей равных и неотъемлемых прав, а также учитывающие расовые и гендерные аспекты, и обеспечивать, чтобы учебники и другие учебные материалы, включая методические рекомендации для преподавательского состава, точно и в доступной форме отражали исторические факты;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve"> 	<span class="italic">признает</span>, что новые и появляющиеся цифровые технологии обладают потенциалом для содействия появлению образовательных и информационно-просветительских инструментов борьбы с расизмом, расовой дискриминацией, ксенофобией и связанной с ними нетерпимостью как в школе, так и за ее пределами, а также всеобщему уважению прав человека и культурного многообразия, обращая при этом внимание на необходимость решения, в соответствии с обязательствами государств по международному праву прав человека, проблемы распространения ложной информации и дезинформации, которые могут преследовать цель подстрекательства к дискриминации, вражде и насилию и распространения ненависти, расизма, ксенофобии, негативных стереотипов и стигматизации, а также на необходимость обеспечения того, чтобы данные, используемые для разработки, внедрения и применения таких инструментов, были точными, актуальными и репрезентативными;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve"> 	<span class="italic">подчеркивает </span>необходимость того, чтобы государства-участники в полной мере выполняли свои обязательства по Международной конвенции о ликвидации всех форм расовой дискриминации как главной конвенции в области борьбы с расизмом и, в частности, свои обязательства по ней в отношении ликвидации расовой дискриминации, права на образование и профессиональную подготовку и свои обязательства в отношении незамедлительного принятия эффективных мер в областях преподавания, воспитания, культуры и информации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve"> 	<span class="italic">напоминает </span>о важности международного сотрудничества в развитии образования как инструмента предупреждения расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости и обмена передовым опытом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve"> 	<span class="italic">просит </span>Верховного комиссара Организации Объединенных Наций по правам человека представить Совету по правам человека на его шестьдесят третьей сессии всеобъемлющий доклад, доступный для людей с инвалидностью, в том числе в доступном и простом для чтения и понимания формате, содержащий анализ соответствующих методик и мер в сфере образования, направленных на предупреждение расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости, опираясь на материалы, предоставленные всеми соответствующими заинтересованными сторонами, включая государства, правозащитные механизмы Организации Объединенных Наций и региональные правозащитные механизмы, учреждения, фонды и программы Организации Объединенных Наций, региональные организации, национальные правозащитные учреждения, организации гражданского общества и учебные заведения.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48-е" refersTo="#adoptionMeeting">48‑е заседание</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 октября 2024 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
