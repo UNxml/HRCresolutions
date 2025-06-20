@@ -1,0 +1,270 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/eng@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-31/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Promotion and Protection of Human Rights in the Context of Climate Change" showAs="UN. Human Rights Council. Special Rapporteur on the Promotion and Protection of Human Rights in the Context of Climate Change" dictionary="DHLAUTH"></keyword>
+        <keyword value="CLIMATE CHANGE" href="http://metadata.un.org/thesaurus/1001030" showAs="CLIMATE CHANGE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-08" outcome="draftResolution" as="A/HRC/57/L.31/Rev.1" by="Albania, Antigua and Barbuda, Australia, Austria, Bahamas, Belgium, Bulgaria, Chile, Colombia, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Fiji, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Italy, Kenya, Latvia, Lithuania, Luxembourg, Malawi, Malta, Marshall Islands, Micronesia (Federated States of), Monaco, Montenegro, Namibia, Nauru, Netherlands (Kingdom of the), North Macedonia, Panama, Paraguay, Poland, Portugal, Romania, Samoa, San Marino, Slovakia, Slovenia, Spain, Sudan, Sweden, Switzerland, Ukraine and Vanuatu" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 49th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/31</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Fifty-seventh session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 September</date>
+          <date date="2024-10-11" refersTo="#endDate">11 October 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 11 October 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/31.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Mandate of Special Rapporteur on the promotion and protection of human rights in the context of climate change</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve">		<span class="italic">Guided</span> by the purposes and principles of the Charter of the United Nations, </p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">		<span class="italic">Reaffirming</span> that States have the obligation and the primary responsibility to respect, protect and fulfil human rights and fundamental freedoms, in accordance with the Charter, the Universal Declaration of Human Rights, the International Covenant on Economic, Social and Cultural Rights, the International Covenant on Civil and Political Rights and all relevant international human rights instruments,</p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>all previous resolutions adopted by the Human Rights Council on human rights and climate change, including Council resolution 48/14 of 8 October 2021, </p>
+      </container>
+      <container name="Bearing in mind" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Bearing in mind</span> the United Nations Framework Convention on Climate Change, the Paris Agreement adopted under the Convention, the 2030 Agenda for Sustainable Development, the Addis Ababa Action Agenda, the Sendai Framework for Disaster Risk Reduction 2015–2030, the Malé Declaration on the Human Dimension of Global Climate Change, the SIDS Accelerated Modalities of Action (SAMOA) Pathway, the Antigua and Barbuda Agenda for Small Island Developing States, the Vienna Declaration and Programme of Action, the Declaration on the Right to Development and the Vienna Programme of Action for Landlocked Developing Countries for the Decade 2014–2024, and all relevant international and regional instruments addressing the adverse impact of climate change on human rights,</p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Recalling</span> article 2 of the Paris Agreement, which states that the Agreement, in enhancing the implementation of the United Nations Framework Convention on Climate Change, including its objective, aims to strengthen the global response to the threat of climate change, in the context of sustainable development and efforts to eradicate poverty, including by (a) holding the increase in the global average temperature to well below 2°C above pre‑industrial levels and pursuing efforts to limit the temperature increase to 1.5°C above pre‑industrial levels, recognizing that this would significantly reduce the risks and impacts of climate change; (b) increasing the ability to adapt to the adverse impacts of climate change and foster climate resilience and low greenhouse gas emissions development in a manner that does not threaten food production; and (c) making finance flows consistent with a pathway towards low greenhouse gas emissions and climate-resilient development; and that the Agreement will be implemented to reflect equity and the principle of common but differentiated responsibilities and respective capabilities, in the light of different national circumstances,</p>
+      </container>
+      <container name="Recalling also" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Recalling also</span> article 5 of the Vienna Declaration and Programme of Action, which states that all human rights are universal, indivisible, interdependent and interrelated, that the international community must treat human rights globally in a fair and equal manner, on the same footing and with the same emphasis, and that, while the significance of national and regional particularities and various historical, cultural and religious backgrounds must be borne in mind, it is the duty of States, regardless of their political, economic and cultural systems, to promote and protect all human rights and fundamental freedoms, </p>
+      </container>
+      <container name="Recognizing" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that measures to anticipate, prevent or minimize the causes of climate change, including reducing greenhouse gas emissions, and to mitigate and adapt to its adverse impact, and the protection of the environment, contribute to human well-being and to the better enjoyment of human rights, as well as to sustainable development, </p>
+      </container>
+      <container name="Welcoming" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Welcoming</span> the decision adopted at the twenty-eighth session of the Conference of the Parties to the United Nations Framework Convention on Climate Change and the fifth Conference of the Parties serving as the meeting of the Parties to the Paris Agreement on the operationalization of the new funding arrangements, including a fund that was established in Sharm El Sheikh at the twenty-seventh session of the Conference of the Parties to the Convention and the fourth Conference of the Parties serving as the meeting of the Parties to the Paris Agreement, for responding to loss and damage to assist developing countries that are particularly vulnerable to the adverse effects of climate change in responding to economic and non‑economic loss and damage associated with the adverse effects of climate change, including extreme weather events and slow-onset events, by providing and assisting in mobilizing new and additional resources, and that these new arrangements complement and include sources, funds, processes and initiatives both under and outside the Convention and the Paris Agreement, </p>
+      </container>
+      <container name="Recognizing" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Recognizing </span>that, while the human rights implications of the adverse impact of climate change affect individuals and communities around the world, especially in developing countries, in particular small island developing States, least developed countries and landlocked developing States, the consequences most acutely affect women, children, persons with disabilities, Indigenous Peoples, local communities, peasants and other people working in rural areas, people living in conditions of water scarcity, drought and desertification, persons belonging to minority groups, homeless persons, persons living in poverty, older persons, migrants, refugees and internally displaced persons, those living in conflict areas and those already in vulnerable situations, and the importance of recognizing their agency in contributing to climate action, </p>
+      </container>
+      <container name="Recalling" eId="container_11">
+        <p xml:space="preserve">		<span class="italic">Recalling</span> Human Rights Council resolutions 5/1 of 18 June 2007, on institution-building of the Council, and 5/2, on the Code of Conduct for Special Procedures Mandate-Holders of the Human Rights Council, and stressing that the mandate holder shall discharge his or her duties in accordance with those resolutions and the annexes thereto, </p>
+      </container>
+      <container name="Reaffirming" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> Human Rights Council resolution 40/11 of 21 March 2019, in which the Council recognized the contribution of human rights defenders, including women and Indigenous human rights defenders, working in environmental matters, referred to as environmental human rights defenders, to the enjoyment of human rights, environmental protection and sustainable development, urging all States to take all measures necessary to ensure the protection of the rights and safety of all persons, including environmental human rights defenders, and underscoring the responsibility of all business enterprises, both transnational and others, consistent with the Guiding Principles on Business and Human Rights, to respect human rights, including the rights to life, liberty and security of human rights defenders, including environmental human rights defenders, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve"> 	<span class="italic">Emphasizes</span> that, while taking steps to respond to climate change, States must ensure that they meet their obligations under international human rights law; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> 	<span class="italic">Welcomes</span> the work of the Special Rapporteur on the promotion and protection of human rights in the context of climate change;<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/HRC/50/39, A/HRC/53/34, A/HRC/56/46, A/77/226 and A/78/255.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> <span class="italic">	Decides</span> to extend for a period of three years the mandate of Special Rapporteur on the promotion and protection of human rights in the context of climate change under the same terms as provided for by the Human Rights Council in its resolution 48/14, including paragraph 2, subparagraphs (a) to (m); </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> the Special Rapporteur to report annually on the implementation of the mandate to the Human Rights Council and the General Assembly in accordance with their programmes of work; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 	<span class="italic">Also requests</span> the Special Rapporteur also to hold, on an annual basis, consultations on the promotion and protection of human rights in the context of climate change, in accordance with the present resolution, Council resolution 48/14 and previous Council resolutions on human rights and climate change, with all relevant stakeholders, particularly those most acutely affected by the adverse impacts of climate change, as well as States, academia, business enterprises and environmental and other human rights defenders, as reflected in the present resolution as appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>6.</num>
+        <list eId="para_28_list">
+          <intro eId="para_28_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Further requests</span> the Special Rapporteur to continue to give due consideration to:</p>
+          </intro>
+          <point eId="para_28_list_point_a">
+            <num>(a)</num>
+            <content eId="para_28_list_point_a_content">
+              <p xml:space="preserve"> 	The need to scale up global action and support in addressing climate change, including in averting, minimizing and addressing loss and damage associated with the adverse effects of climate change; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_b">
+            <num>(b)</num>
+            <content eId="para_28_list_point_b_content">
+              <p xml:space="preserve"> 	All the principles of the United Nations Framework Convention on Climate Change, including the principle of equity and common but differentiated responsibilities and respective capabilities, in the light of different national circumstances and in the context of sustainable development and efforts to eradicate poverty, all in pursuit of the objectives of the Convention and the Paris Agreement;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">Welcomes </span>the close coordination established between the Special Rapporteur on the promotion and protection of human rights in the context of climate change and other United Nations mechanisms and procedures in the field of human rights, including the treaty bodies, the Office of the United Nations High Commissioner for Human Rights and other special procedure mandate holders, inter alia the Special Rapporteur on the human right to a clean, healthy and sustainable environment, the Special Rapporteur on the implications for human rights of the environmentally sound management and disposal of hazardous substances and wastes, the Special Rapporteur on the human rights to safe drinking water and sanitation and the Special Rapporteur on the right to development, and encourages the Special Rapporteur to continue efforts in that regard; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> all States and all stakeholders to cooperate fully with the Special Rapporteur on the promotion and protection of human rights in the context of climate change in the performance of the mandate, including by providing all necessary information requested in the Special Rapporteur’s communications, to react promptly to the Special Rapporteur’s urgent appeals, to give serious consideration to responding favourably to the Special Rapporteur’s requests for country visits and to consider implementing the recommendations in reports submitted under the mandate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> all relevant stakeholders, including United Nations agencies, funds and programmes, human rights mechanisms, national human rights institutions, national mechanisms for implementation, reporting and follow-up, national independent monitoring frameworks, civil society, the private sector, donors and development agencies to cooperate fully with the Special Rapporteur to enable the mandate holder to fulfil the mandate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> the Secretary-General and the United Nations High Commissioner for Human Rights to provide the Special Rapporteur with all the human, technical and financial resources necessary for the effective fulfilment of the mandate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve"> 	<span class="italic">Decides</span> to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="49th" refersTo="#adoptionMeeting">49th meeting</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 October 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
