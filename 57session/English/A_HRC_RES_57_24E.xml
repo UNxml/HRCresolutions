@@ -1,0 +1,311 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/eng@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="EDUCATION" href="http://metadata.un.org/thesaurus/1001893" showAs="EDUCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RACIAL DISCRIMINATION" href="http://metadata.un.org/thesaurus/1005310" showAs="RACIAL DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="XENOPHOBIA" href="http://metadata.un.org/thesaurus/1007092" showAs="XENOPHOBIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS EDUCATION" href="http://metadata.un.org/thesaurus/1002978" showAs="HUMAN RIGHTS EDUCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT TO EDUCATION" href="http://metadata.un.org/thesaurus/1005558" showAs="RIGHT TO EDUCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CULTURAL PLURALISM" href="http://metadata.un.org/thesaurus/1001436" showAs="CULTURAL PLURALISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="9" showAs="Racism, racial discrimination, xenophobia and related forms of intolerance, follow-up to and implementation of the Durban Declaration and Programme of Action." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-07" outcome="draftResolution" as="A/HRC/57/L.25" by="Belgium, Brazil, Chile, Colombia, Costa Rica, Ecuador, Finland, Ireland, Luxembourg, Malawi, Marshall Islands, Monaco, Namibia, Peru, Portugal, San Marino, South Africa, Spain and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted without vote, 48th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/24</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 October 2024</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">Fifty-seventh session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 September</date>
+          <date date="2024-10-11" refersTo="#endDate">11 October 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="9" name="agenda item">Agenda item 9</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 10 October 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/24.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Education as a tool to prevent racism, racial discrimination, xenophobia and related intolerance</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guided </span>by the purposes and principles of the Charter of the United Nations,</p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Recalling</span> the Universal Declaration of Human Rights, the International Covenant on Civil and Political Rights, the International Covenant on Economic, Social and Cultural Rights, the International Convention on the Elimination of All Forms of Racial Discrimination, the Vienna Declaration and Programme of Action, the Durban Declaration and Programme of Action and other relevant international instruments, and reaffirming the universality, indivisibility, interrelatedness and interdependence of all human rights,</p>
+      </container>
+      <container name="Acknowledging" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> the importance of the Durban Declaration and Programme of Action as a milestone in highlighting the essential role of education in the common fight against racism, racial discrimination, xenophobia and related intolerance,</p>
+      </container>
+      <container name="Recalling" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Recalling</span> General Assembly resolution 68/237 of 23 December 2013, in which the Assembly proclaimed the International Decade for People of African Descent, commencing on 1 January 2015 and ending on 31 December 2024, with the theme “People of African descent: recognition, justice and development”, resolution 69/16 of 18 November 2014, in which the Assembly adopted the programme of activities for the implementation of the International Decade for People of African Descent, and resolution 78/323 of 13 August 2024, in which the Assembly proclaimed 25 July as the International Day of Women and Girls of African Descent,</p>
+      </container>
+      <container name="Recalling also" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Recalling also</span> all previous resolutions and decisions of the General Assembly, the Commission on Human Rights and the Human Rights Council on the elimination of racism, racial discrimination, xenophobia and related intolerance, and on the right to education,</p>
+      </container>
+      <container name="Reaffirming" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> the human right of everyone to education, which is enshrined in, inter alia, the Universal Declaration of Human Rights, the International Covenant on Economic, Social and Cultural Rights, the International Convention on the Elimination of All Forms of Racial Discrimination, the Convention on the Rights of the Child, the Convention on the Elimination of All Forms of Discrimination against Women, the Convention on the Rights of Persons with Disabilities, the Convention against Discrimination in Education of the United Nations Educational, Scientific and Cultural Organization, the United Nations Declaration on Human Rights Education and Training and other relevant international instruments,</p>
+      </container>
+      <container name="Recognizing" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the critical importance of an inclusive and equitable quality education and noting that education systems should nurture cultural diversity with a view to protecting cultural rights and fostering mutual understanding, respect for diversity and tolerance,</p>
+      </container>
+      <container name="Noting" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Noting</span> that education systems and educational institutions have an important role and responsibility in addressing and eliminating racism, racial discrimination, xenophobia and related intolerance,</p>
+      </container>
+      <container name="Acknowledging" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> that the Durban Declaration and Programme of Action recognizes that education at all levels and all ages, including within the family, in particular human rights education, is a key to changing attitudes and behaviour based on racism, racial discrimination, xenophobia and related intolerance and to promoting tolerance and respect for diversity in societies, and affirms that such education is a determining factor in the promotion, dissemination and protection of the democratic values of justice and equity, which are essential to prevent and combat the spread of racism, racial discrimination, xenophobia and related intolerance,</p>
+      </container>
+      <container name="Recognizing" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that the eradication of racism, racial discrimination, xenophobia and related intolerance is a key driver in the implementation of the 2030 Agenda for Sustainable Development,</p>
+      </container>
+      <container name="Recognizing also" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Recognizing also</span> the importance of freedom of expression, including the freedom to seek, receive and impart information, and the fundamental role of education and other active policies in the promotion of tolerance and respect for others and in the construction of pluralistic and inclusive societies,</p>
+      </container>
+      <container name="Recognizing further" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Recognizing further</span> the important role played by the United Nations Educational, Scientific and Cultural Organization in relation to education against racism, racial discrimination, xenophobia and related intolerance, in particular the Routes of Enslaved Peoples: Resistance, Liberty and Heritage Programme, the thirtieth anniversary of which is celebrated in 2024,</p>
+      </container>
+      <container name="Encouraging" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Encouraging</span> all States, in cooperation with the United Nations, the United Nations Educational, Scientific and Cultural Organization and other relevant international organizations, to initiate and develop cultural and educational programmes aimed at countering racism, racial discrimination, xenophobia and related intolerance in order to ensure respect for the dignity and worth of all human beings and to enhance mutual understanding among all cultures and civilizations,</p>
+      </container>
+      <container name="Welcoming" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Welcoming</span> the efforts made by the Office of the United Nations High Commissioner for Human Rights and recalling the recommendations contained in previous United Nations reports on racism, racial discrimination, xenophobia and related intolerance, and the efforts made by, inter alia, the Permanent Forum on People of African Descent, the Group of Independent Eminent Experts on the Implementation of the Durban Declaration and Programme of Action, the Working Group of Experts on People of African Descent and other special procedures,</p>
+      </container>
+      <container name="Affirming" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Affirming</span> that the realization of the right to education, including for Africans and people of African descent, Asians and persons of Asian descent, Indigenous Peoples, migrants, refugees, persons belonging to national or ethnic, religious and linguistic minorities, including, but not limited to, Roma, women and girls and persons with disabilities, contributes to the promotion of economic, social and cultural rights and the right to development, to the eradication of poverty and to the fight against racism, racial discrimination, xenophobia and related intolerance,</p>
+      </container>
+      <container name="Recognizing" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that all States have the potential to expand their investment in inclusive and equitable quality education, which contributes to the fulfilment of their obligations regarding the realization of economic, social and cultural rights,</p>
+      </container>
+      <container name="Recognizing also" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Recognizing also</span> that new and emerging digital technologies have the potential to facilitate efforts to accelerate human progress, to promote and protect human rights and fundamental freedoms, including economic, social and cultural rights, and to bridge all digital divides, while also acknowledging that the potential risks posed by the digital environment can entail different forms of violence and harm,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="italic">Underlines</span> the need for increased political will and commitment in using education as a tool to prevent and combat racism, racial discrimination, xenophobia and related intolerance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> 	<span class="italic">Also underlines </span>the importance of the full and effective implementation of the paragraphs of the Durban Declaration and Programme of Action concerning the role of education in preventing and eliminating racism, racial discrimination, xenophobia and related intolerance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> 	<span class="italic">Reaffirms</span> that education, development and the faithful implementation of all international human rights norms and obligations, including the enactment of laws and political, social and economic policies, are crucial to combat racism, racial discrimination, xenophobia and related intolerance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">Recognizes</span> that inclusive and equitable quality education, the elimination of illiteracy, and access to free primary and secondary education for all can contribute to more inclusive societies, equity, stable and harmonious relations and friendship among nations, peoples, groups and individuals, and a culture of peace, fostering mutual understanding, solidarity, social justice and respect for all human rights for all;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 	<span class="italic">Underlines</span> the essential role of education, including human rights education and education that is responsive to and respects cultural diversity, especially among children and young people, in the prevention and eradication of all forms of intolerance and discrimination, and welcomes the catalytic role that civil society plays in promoting human rights education and raising awareness about racism, racial discrimination, xenophobia and related intolerance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>6.</num>
+        <list eId="para_34_list">
+          <intro eId="para_34_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Urges</span> States, in particular:</p>
+          </intro>
+          <point eId="para_34_list_point_a">
+            <num>(a)</num>
+            <content eId="para_34_list_point_a_content">
+              <p xml:space="preserve"> 	To adopt and implement laws, policies and programmes that prohibit and combat discrimination on the basis of race, colour, descent or national or ethnic origin, at all levels of education, both formal and non‑formal;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_b">
+            <num>(b)</num>
+            <content eId="para_34_list_point_b_content">
+              <p xml:space="preserve"> 	To take all appropriate measures to eliminate obstacles limiting access to education;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_c">
+            <num>(c)</num>
+            <content eId="para_34_list_point_c_content">
+              <p xml:space="preserve"> 	To ensure that all children have access without discrimination to equitable quality education;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_d">
+            <num>(d)</num>
+            <content eId="para_34_list_point_d_content">
+              <p xml:space="preserve"> 	To support efforts to ensure safe school environments, free from violence, harassment and bullying, both online and offline, including those motivated by racism, racial discrimination, xenophobia or related intolerance;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_e">
+            <num>(e)</num>
+            <content eId="para_34_list_point_e_content">
+              <p xml:space="preserve"> 	To promote equitable access to new and emerging digital technologies, including artificial intelligence, and other information and communication technologies in the educational system;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve"> 	<span class="italic">Also urges</span> States to introduce and, as applicable, to reinforce anti‑discrimination and anti‑racism components in human rights programmes in school curricula, to develop and improve relevant educational material, including history and other textbooks, and to ensure that all teachers are effectively trained and adequately motivated to shape attitudes and behavioural patterns based on the principles of equality, non‑discrimination and mutual respect;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> States to raise awareness of the histories, heritages, cultures and cultural contributions of Africans and people of African descent, Asians and persons of Asian descent, Indigenous Peoples, migrants, refugees, persons belonging to national or ethnic, religious and linguistic minorities, including, but not limited to, Roma, women and girls and persons with disabilities, to implement programmes that promote knowledge and comprehensive understanding, securing recognition of the inherent dignity and of the equal and inalienable rights of individuals, and incorporating a racial and gender perspective, and to ensure that textbooks and other educational materials, including guidance for teaching staff, accurately and accessibly reflect historical facts;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve"> 	<span class="italic">Recognizes</span> that new and emerging digital technologies have the potential to promote educational and awareness-raising tools against racism, racial discrimination, xenophobia and related intolerance, both in and out of school, and universal respect for human rights and for cultural diversity, while drawing attention to the need to address, in a manner that complies with States’ obligations under international human rights law, misinformation and the spread of disinformation that can be designed to incite discrimination, hostility and violence and spread hatred, racism, xenophobia, negative stereotyping and stigmatization, and the need to ensure that the data used for development, deployment and use of such tools are accurate, relevant and representative;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve"> 	<span class="italic">Stresses</span> the need for States parties to implement fully their obligations under the International Convention on the Elimination of All Forms of Racial Discrimination as the principal convention in the fight against racism, and in particular their obligations thereunder with respect to the elimination of racial discrimination, the right to education and training and their obligations to undertake to adopt immediate and effective measures in the fields of teaching, education, culture and information;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve"> 	<span class="italic">Recalls</span> the importance of international cooperation in promoting education as a tool to prevent racism, racial discrimination, xenophobia and related intolerance and to share good practices;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> the United Nations High Commissioner for Human Rights to submit to the Human Rights Council at its sixty-third session a comprehensive report, accessible to persons with disabilities, including in an accessible and easy to read format, analysing relevant education-related practices and measures to prevent racism, racial discrimination, xenophobia and related intolerance, with input from all relevant stakeholders, including States, United Nations and regional human rights mechanisms, United Nations agencies, funds and programmes, regional organizations, national human rights institutions, civil society organizations and educational institutions.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48th" refersTo="#adoptionMeeting">48th meeting</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 October 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
