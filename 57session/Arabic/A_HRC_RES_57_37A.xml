@@ -1,0 +1,351 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/ara@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="YEMEN" href="http://metadata.un.org/thesaurus/1007098" showAs="YEMEN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FINANCIAL ASSISTANCE" href="http://metadata.un.org/thesaurus/1002327" showAs="FINANCIAL ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-07" outcome="draftResolution" as="A/HRC/57/L.32" by="United Arab Emirates and State of Palestine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 50th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/37</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">الدورة السابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 أيلول</date>
+          <date date="2024-10-11" refersTo="#endDate">11 تشرين الأول 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">البند 10 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المساعدة التقنية وبناء القدرات</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 11 تشرين الأول/أكتوبر 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/37</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	تقديم المساعدة التقنية إلى اليمن وبناء قدراته في ميدان حقوق الإنسان</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد </span>بمقاصد ميثاق الأمم المتحدة ومبادئه، وبأحكام الإعلان العالمي لحقوق الإنسان، وإذ يشير إلى معاهدات حقوق الإنسان الدولية ذات الصلة،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلّم</span> بأن الدول تتحمل المسؤولية الرئيسية عن تعزيز حقوق الإنسان وحمايتها،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> التزامه القوي بسيادة اليمن واستقلاله ووحدته وسلامة أراضيه،</p>
+      </container>
+      <container name="وإذ يذكّر" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يذكّر</span> بقرارات مجلس الأمن <a href="https://undocs.org/ar/S/RES/2014(2011)">2014(2011)</a> المؤرخ 21 تشرين الأول/أكتوبر 2011، و<a href="https://undocs.org/ar/S/RES/2051(2012)">2051(2012)</a> المؤرخ 12 حزيران/يونيه 2012، و<a href="https://undocs.org/ar/S/RES/2140(2014)">2140(2014)</a> المؤرخ 26 شباط/فبراير 2014، وبقرارات مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/18/19">18/19</a> المؤرخ 29 أيلول/سبتمبر 2011، و<a href="https://undocs.org/ar/A/HRC/RES/19/29">19/29</a> المؤرخ 23 آذار/ مارس 2012، و<a href="https://undocs.org/ar/A/HRC/RES/21/22">21/22</a> المؤرخ 27 أيلول/سبتمبر 2012، و<a href="https://undocs.org/ar/A/HRC/RES/24/32">24/32</a> المؤرخ 27 أيلول/سبتمبر 2013، و<a href="https://undocs.org/ar/A/HRC/RES/27/19">27/19</a> المؤرخ 25 أيلول/سبتمبر 2014، و<a href="https://undocs.org/ar/A/HRC/RES/30/18">30/18</a> المؤرخ 2 تشرين الأول/أكتوبر 2015، و<a href="https://undocs.org/ar/A/HRC/RES/33/16">33/16</a> المؤرخ 29 أيلول/سبتمبر 2016، و<a href="https://undocs.org/ar/A/HRC/RES/36/31">36/31</a> المؤرخ 29 أيلول/سبتمبر 2017، و<a href="https://undocs.org/ar/A/HRC/RES/39/23">39/23</a> المؤرخ 28 أيلول/سبتمبر 2018، و<a href="https://undocs.org/ar/A/HRC/RES/42/31">42/31</a> المؤرخ 27 أيلول/سبتمبر 2019، و<a href="https://undocs.org/ar/A/HRC/RES/45/26">45/26</a> المؤرخ 6 تشرين الأول/ أكتوبر 2020، و<a href="https://undocs.org/ar/A/HRC/RES/48/21">48/21</a> المؤرخ 11 تشرين الأول/أكتوبر 2021، و<a href="https://undocs.org/ar/A/HRC/RES/51/39">51/39</a> المؤرخ 7 تشرين الأول/أكتوبر 2022، و<a href="https://undocs.org/ar/A/HRC/RES/54/29">54/29</a> المؤرخ 12 تشرين الأول/أكتوبر 2023،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد</span> قرارات مجلس الأمن <a href="https://undocs.org/ar/S/RES/2216(2015)">2216(2015)</a> المؤرخ 14 نيسان/أبريل 2015 و<a href="https://undocs.org/ar/S/RES/2451(2018)">2451(2018)</a> المؤرخ 21 كانون الأول/ديسمبر 2018 و<a href="https://undocs.org/ar/S/RES/2624(2022)">2624(2022)</a> المؤرخ 28 شباط/فبراير 2022،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يرحب</span> بالتزام الحكومة اليمنية بالحفاظ على الهدنة الإنسانية على الرغم من رفض الحوثيين تجديد الاتفاق بشأنها، </p>
+      </container>
+      <container name="وإذ يرحب أيضاً" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يرحب أيضاً</span> بعملية تبادل الأسرى بين الجانبين، وإذ يدعو إلى رفع الحصار عن مدينة تعز وإلى تيسير إيصال المعونة الإنسانية،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعيد تأكيد </span>دعمه القوي للجهود الدولية الرامية إلى التوصل إلى وقف شامل لإطلاق النار، وإنهاء النزاع في اليمن، وتجديد حوار سياسي هادف وشامل من أجل السلام، تمثله مبادرة المبعوث الخاص للأمين العام لليمن، ومبادرة المملكة العربية السعودية، وجهود مبعوث الولايات المتحدة الأمريكية الخاص إلى اليمن وبعض بلدان المنطقة، وإذ يذكّر بضرورة أن تتفاعل جميع أطراف النزاع مع هذه الجهود بطريقة مرنة وبناءة، دون شروط مسبقة، وأن تنفذ تنفيذاً كاملاً وفورياً جميع أحكام قرارات مجلس الأمن ذات الصلة، وإذ يرحب في هذا الصدد بالمشاركة الإيجابية لحكومة اليمن،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بأن تعزيز حقوق الإنسان وحمايتها وإعمالها عوامل أساسية لضمان نظام عدالة قائم على الإنصاف والمساواة، وفي نهاية المطاف، ضمان المصالحة والاستقرار في اليمن،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى اتفاق الأحزاب السياسية اليمنية على إكمال عملية الانتقال السياسي على أساس مبادرة مجلس التعاون الخليجي وآلية تنفيذها، وإذ يشدد على ضرورة تنفيذ التوصيات المقدّمة في الوثيقة الختامية لمؤتمر الحوار الوطني، بما في ذلك إكمال صياغة دستور جديد،</p>
+      </container>
+      <container name="وإذ يشير مع التقدير" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير مع التقدير</span> إلى المرسوم الرئاسي رقم 16 المؤرخ 23 آب/أغسطس 2023، الذي مُدّدت بموجبه ولاية اللجنة الوطنية للتحقيق لفترة سنتين بهدف التحقيق في جميع انتهاكات حقوق الإنسان المرتكبة منذ عام 2011،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى اتفاق الرياض الذي وقعه كل من حكومة اليمن والمجلس الانتقالي الجنوبي، وإذ يشجع تنفيذ الاتفاق تنفيذاً سريعاً وكاملاً بوصفه خطوة هامة نحو التوصل إلى حل سياسي في اليمن،</p>
+      </container>
+      <container name="وإذ يساوره القلق" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يساوره القلق</span> من أن عجز السيولة في الميزانية العادية للأمانة العامة للأمم المتحدة قد أدى إلى تقليص مخصصات الميزانية العادية لمفوضية الأمم المتحدة السامية لحقوق الإنسان وأثر تأثيراً مباشراً في قدرة المفوضية السامية على تقديم المساعدة التقنية الكاملة، بما في ذلك ما طلبه مجلس حقوق الإنسان في قراره <a href="https://undocs.org/ar/A/HRC/RES/54/29">54/29</a>،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يرحب</span> بالمشاركة الإيجابية لمجلس القيادة الرئاسي في التفاوض مع الحوثيين تحت إشراف المبعوث الخاص للأمين العام إلى اليمن بهدف التوصل إلى تسوية سياسية نهائية وشاملة في اليمن، وإذ يرحب أيضاً بالموقف الذي اتخذته الحكومة اليمنية لصالح استئناف الرحلات الجوية الدولية من مطار صنعاء وإليه ودخول الشحن التجاري والإنساني دون عوائق إلى جميع الموانئ اليمنية، بما في ذلك ميناء الحديدة وميناء الصليف،</p>
+      </container>
+      <container name="وإذ يرحب مع التقدير" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يرحب مع التقدير</span> بجهود الأمم المتحدة وشركائها التي أسفرت عن تفريغ ناجح وآمن لناقلة النفط صافر، وهو ما يحمي الحياة البحرية في البحر الأحمر من كارثة بيئية كبرى، وإذ يشيد بالدول المانحة لمساهماتها السخية المقدمة في تلك العملية الأساسية،</p>
+      </container>
+      <container name="وإذ يدرك" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يدرك</span> ما جاء في تقارير مكتب تنسيق الشؤون الإنسانية من أن حالة الطوارئ الإنسانية الراهنة تؤثر في التمتع بحقوق الإنسان الأساسية، بما فيها الحقوق الاجتماعية والاقتصادية، وأن أطراف النزاع يجب أن تيسّر إمكانية إيصال المعونة الإنسانية على نحو سريع وآمن وسلس،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً</span> بتقرير مفوض الأمم المتحدة السامي لحقوق الإنسان عن المساعدة التقنية وبناء القدرات في اليمن<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/57/74">A/HRC/57/74</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ</span> تعليقات حكومة اليمن على تقرير المفوض السامي خلال الدورة الحالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بالتعاون بين حكومة اليمن ومفوضية الأمم المتحدة السامية لحقوق الإنسان وغيرها من هيئات وآليات الأمم المتحدة ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">يحيط علماً</span> بالتقرير الثاني عشر للجنة الوطنية للتحقيق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بالعمل الذي يضطلع به الفريق المشترك لتقييم الحوادث وتعاونه مع المفوضية السامية ومكتبها القطري في اليمن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ مع التقدير</span> ما اضطلعت به اللجنة الوطنية للتحقيق من عمل حتى الآن، على الرغم من التحديات التي واجهتها، ويرحب بالتقدم الذي أحرزته، مثل الزيارات الميدانية المنتظمة التي أجريت في جميع أنحاء اليمن، والمشاورات المعقودة مع منظمات المجتمع المدني، وتحسن الإبلاغ عن مختلف أنواع انتهاكات حقوق الإنسان وتجاوزاتها وانتهاكات القانون الدولي الإنساني من جانب جميع أطراف النزاع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى جميع الأطراف تجديد اتفاق الهدنة وتنفيذ جميع أحكامه على الفور، ويدعو إلى رفع الحصار الذي فرضه الحوثيون على مدينة تعز، ويطلب إلى جميع الأطراف تنفيذ اتفاق ستوكهولم على الفور من أجل بدء مفاوضات للتوصل إلى حل سياسي شامل وجامع للأزمة الحالية في اليمن والوفاء بالالتزامات المعلنة في 23 كانون الأول/ديسمبر 2023؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه البالغ</span> إزاء ما ترتكبه جميع أطراف النزاع من تجاوزات وانتهاكات جسيمة لحقوق الإنسان والقانون الدولي لحقوق الإنسان والقانون الدولي الإنساني في اليمن، بما يشمل العنف الجنسي والجنساني، واستمرار تجنيد الأطفال بما يخالف أحكام المعاهدات الدولية، واختطاف الناشطين السياسيين، وارتكاب انتهاكات لحقوق الإنسان في حق الصحفيين، وقتل المدنيين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى الحوثيين إزالة العقبات التي تحول دون وصول المعونة الإغاثية والإنسانية، والإفراج الفوري وغير المشروط عن جميع موظفي الأمم المتحدة والعاملين في المجال الإنساني المحتجزين والموظفين العاملين في المنظمات غير الحكومية الدولية والوطنية والبعثات الدبلوماسية، وإنهاء العنف والتمييز ضد المرأة والاستهداف على أساس الدين أو المعتقد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى جميع أطراف النزاع في اليمن احترام التزاماتها بموجب القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني، ووقف الهجمات على المدنيين فوراً، بمن فيهم أولئك الذين ينقلون اللوازم الطبية والعاملون في مجال المعونة، وتيسير إمكانية وصول المعونة الإنسانية على نحو سريع وآمن وسلس إلى السكان المتضررين في جميع أنحاء البلد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه البالغ</span> إزاء جميع الهجمات التي تستهدف الأعيان المدنية، بما يشكل انتهاكاً للقانون الدولي الإنساني، ويذكّر بالالتزامات التي تقع على عاتق جميع أطراف النزاع فيما يتصل باتخاذ جميع الاحتياطات اللازمة لتجنب إلحاق أي ضرر بالمدنيين والأعيان المدنية، مثل المدارس والأسواق والمرافق الطبية، وللتقليل من ذلك إلى أدنى حد في كل الأحوال، وبحظر الهجوم على الهياكل الأساسية والإمدادات اللازمة لبقاء السكان المدنيين، بما فيها منشآت المياه والمؤن والسلع الغذائية، أو تدميرها، ويدين بشدة إطلاق القذائف التسيارية وغيرها من الصواريخ التي تستهدف أراضي البلدان المجاورة وتشكل تهديداً كبيراً للسلام والاستقرار الإقليميين ولأمن التجارة الدولية في ممرات الملاحة في البحر الأحمر؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> حكومة اليمن على اتخاذ تدابير لحماية المدنيين، وعلى اتخاذ التدابير المناسبة من أجل وضع حد للإفلات من العقاب في جميع الحالات التي تنطوي على انتهاكات وتجاوزات لحقوق الإنسان وللقانون الدولي الإنساني وممارسة العنف ضد الصحفيين واحتجاز الصحفيين والناشطين السياسيين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى جميع أطراف النزاع في اليمن أن تنفذ قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2216(2015)">2216(2015)</a> المؤرخ 14 نيسان/أبريل 2015 تنفيذاً كاملاً، وهو ما سيسهم في تحسين حالة حقوق الإنسان، ويشجع جميع أطراف النزاع على التوصل إلى اتفاق شامل لإنهاء النزاع، وعلى أن تكفل في الآن ذاته مشاركة المرأة مشاركة كاملة وفعالة في العملية السياسية وعملية صنع السلام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">يطالب</span> جميع أطراف النزاع في اليمن بالعمل على تحقيق وقف شامل لإطلاق النار، ومواصلة المفاوضات بين اليمنيين بهدف التوصل إلى حل سياسي للنزاع يكون حلاً شاملاً ودائماً متفقاً عليه، والسماح بوصول المساعدات الإنسانية إلى جميع المدن والقرى اليمنية، ويحث الحوثيين على الاستجابة إلى طلبات المبعوث الخاص للأمين العام إلى اليمن بفتح نقاط العبور إلى مدينة تعز، وإنهاء تجنيد الأطفال واستخدامهم وإطلاق سراح من جُندوا بالفعل، ويطلب إلى جميع أطراف النزاع التعاون مع الأمم المتحدة في سبيل إعادة إدماجهم في مجتمعاتهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve">	<span class="italic">يعيد تأكيد</span> تعهدات حكومة اليمن والتزاماتها المتعلقة بضمان التقيد بتعزيز وحماية حقوق الإنسان لجميع الأفراد الموجودين في الأراضي الخاضعة لسيطرتها والمشمولة بولايتها، ويشير، في هذا الصدد، إلى أن اليمن طرف في الاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري، واتفاقية القضاء على جميع أشكال التمييز ضد المرأة، والعهد الدولي الخاص بالحقوق المدنية والسياسية، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، واتفاقية مناهضة التعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، واتفاقية حقوق الطفل والبروتوكولين الاختياريين الملحقين بها والمتعلقين بإشراك الأطفال في النزاعات المسلحة وببيع الأطفال واستغلال الأطفال في البغاء وفي المواد الإباحية، واتفاقية حقوق الأشخاص ذوي الإعاقة، والاتفاقية الخاصة بوضع اللاجئين والبروتوكول الملحق بها، ويتطلع إلى مواصلة الحكومة بذل جهودها الرامية إلى تعزيز حقوق الإنسان وحمايتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxtGA">
+        <num>16-</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">يعرب عن قلقه البالغ</span> إزاء تدهور الحالة الإنسانية في اليمن، ويعرب عن تقديره للدول المانحة والمنظمات التي تعمل من أجل تحسين هذه الحالة ولالتزامها بتقديم الدعم المالي إلى خطة الأمم المتحدة للاستجابة الإنسانية في اليمن لعام 2024، ويهيب بجميع الدول زيادة دعمها المالي لعمليات الأمم المتحدة للإغاثة ويحث الدول على الوفاء بتعهداتها تجاه نداء الأمم المتحدة الإنساني ذي الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="SingleTxtGA">
+        <num>17-</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve">	<span class="italic">يعيد تأكيد</span> ما تتحمله أطراف النزاع كافة من مسؤوليات إزاء تيسير إمكانية إيصال المساعدة الإنسانية على نحو فوري وآمن وسلس إلى جميع المحتاجين إليها، وفقاً لمبادئ القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="SingleTxtGA">
+        <num>18-</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> جميع هيئات منظومة الأمم المتحدة، بما فيها المفوضية السامية، والدول كافة إلى دعم العملية الانتقالية في اليمن، بوسائل منها دعم تعبئة الموارد من أجل معالجة عواقب العنف والتحديات الاقتصادية والاجتماعية التي يواجهها اليمن، بالتنسيق مع الجهات المانحة الدولية ووفقاً لما تحدده السلطات اليمنية من أولويات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_189" class="SingleTxtGA">
+        <num>19-</num>
+        <content eId="para_189__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بالمساعدة التقنية المقدمة من المفوضية السامية إلى اللجنة الوطنية للتحقيق ويطلب إلى المفوض السامي أن يواصل تقديم دعم قوي إلى حكومة اليمن في مجال بناء القدرات والمساعدة التقنية، وتقديم كل الدعم التقني واللوجستي اللازم إلى اللجنة الوطنية للتحقيق، دعم يعادل مستواه ما يقدم إلى أي لجنة تحقيق، لتمكينها من مواصلة التحقيق في ادعاءات الانتهاكات والتجاوزات المرتكبة من جميع أطراف النزاع في اليمن، بما يتماشى مع المعايير الدولية، ومن تقديم تقريرها الشامل عن انتهاكات حقوق الإنسان وتجاوزاتها المزعوم ارتكابها في جميع أنحاء اليمن، حالما يكون متاحاً، وفقاً للمرسوم الرئاسي رقم 16 المؤرخ 23 آب/أغسطس 2023، ويشجّع جميع أطراف النزاع في اليمن على أن تتعاون مع اللجنة الوطنية وأن تيسّر وصولها إلى المعلومات على نحو كامل وشفاف؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="SingleTxtGA">
+        <num>20-</num>
+        <content eId="para_208__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المفوض السامي أن يقدم إلى مجلس حقوق الإنسان، في دورته الستين، تقريراً عن تنفيذ المساعدة التقنية، وفقاً لما ينص عليه هذا القرار؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_228" class="SingleTxtGA">
+        <num>21-</num>
+        <content eId="para_228__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى الأمين العام أن يكفل تزويد المفوضية السامية بجميع الموارد الضرورية لتيسير المساعدة التقنية التي يطلبها مجلس حقوق الإنسان في قراره <a href="https://undocs.org/ar/A/HRC/RES/54/29">54</a><a href="https://undocs.org/ar/A/HRC/RES/54/29">/</a><a href="https://undocs.org/ar/A/HRC/RES/54/29">29</a> وفي هذا القرار.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="50" refersTo="#adoptionMeeting">الجلسة 50</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 تشرين الأول/أكتوبر 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتمد دون تصويت]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
