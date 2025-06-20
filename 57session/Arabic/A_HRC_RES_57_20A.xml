@@ -1,0 +1,335 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-20/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-20/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-20/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-20/ara@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-20/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-20/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Situation of Human Rights in the Russian Federation" showAs="UN. Human Rights Council. Special Rapporteur on the Situation of Human Rights in the Russian Federation" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RUSSIAN FEDERATION" href="http://metadata.un.org/thesaurus/1005648" showAs="RUSSIAN FEDERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CIVIL AND POLITICAL RIGHTS" href="http://metadata.un.org/thesaurus/1000998" showAs="CIVIL AND POLITICAL RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="4" showAs="Human rights situations that require the Council's attention." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-02" outcome="draftResolution" as="A/HRC/57/L.4" by="Albania, Andorra, Australia, Austria, Belgium, Bulgaria, Canada, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Marshall Islands, Monaco, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Poland, Portugal, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Ukraine, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted 20-8-19, 48th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/20</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">الدورة السابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 أيلول</date>
+          <date date="2024-10-11" refersTo="#endDate">11 تشرين الأول 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="4" name="agenda item">البند 4 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">حالات حقوق الإنسان التي تتطلب اهتمام المجلس بها</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 10 تشرين الأول/أكتوبر 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/20</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">		حالة حقوق الإنسان في الاتحاد الروسي</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان</span>،</p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه، وبأحكام الإعلان العالمي لحقوق الإنسان، وبمعاهدات حقوق الإنسان وصكوكها الدولية ذات الصلة،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> أنه تقع على عاتق كل دولة المسؤولية الأساسية عن احترام حقوق الإنسان وحمايتها وإعمالها وفقاً لالتزاماتها بموجب القانون الدولي لحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد أيضاً" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد أيضاً</span> التزامه القوي بسيادة الاتحاد الروسي واستقلاله السياسي داخل حدوده المعترف بها دولياً،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى قراري مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/51/25">51/25</a> المؤرخ 7 تشرين الأول/أكتوبر 2022 و<a href="https://undocs.org/ar/A/HRC/RES/54/23">54/23</a> المؤرخ 12 تشرين الأول/أكتوبر 2023 بشأن حالة حقوق الإنسان في الاتحاد الروسي،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير أيضاً</span> إلى جميع البيانات ذات الصلة التي أدلى بها الأمين العام، ومفوض الأمم المتحدة السامي لحقوق الإنسان، والإجراءات الخاصة لمجلس حقوق الإنسان، وهيئات المعاهدات بشأن حالة حقوق الإنسان في الاتحاد الروسي، بما فيها البيانات التي أدلت بها المقررة الخاصة المعنية بحالة حقوق الإنسان في الاتحاد الروسي،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير كذلك</span> إلى الاستنتاجات المثيرة للقلق التي عرضتها آلية موسكو التابعة لمنظمة الأمن والتعاون في أوروبا في تقريرها الصادر في 22 أيلول/سبتمبر 2022 بشأن الممارسات القانونية والإدارية للاتحاد الروسي<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://www.osce.org/odihr/526720">www.osce.org/odihr/526720</a>.</p></authorialNote><sup>)</sup>، وكذلك في تقريريها المؤرخين 4 أيار/مايو 2023<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	<a href="https://www.osce.org/odihr/542751">www.osce.org/odihr/542751</a>.</p></authorialNote><sup>)</sup> و25 نيسان/أبريل 2024<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">()	<a href="https://www.osce.org/odihr/567367">www.osce.org/odihr/567367</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يساوره قلق شديد" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يساوره قلق شديد</span> إزاء استمرار التدهور الكبير في حالة حقوق الإنسان في الاتحاد الروسي، ولا سيما إزاء التقارير التي تتحدث عن قتل منتقدي الحكومة خارج نطاق القضاء وفرض قيود صارمة على الحق في حرية الرأي والتعبير والتجمع السلمي وتكوين الجمعيات، سواء على شبكة الإنترنت أو خارجها، لإسكات المعارضة ومنع التعبير المناهض للحرب وغير ذلك من الأنشطة السلمية الحيوية لسير شؤون مجتمع ديمقراطي، مما أدى إلى شن السلطات الروسية حملة قمع منهجية متواصلة على منظمات المجتمع المدني وممثليه، والمدافعين عن حقوق الإنسان، ولا سيما المدافعات عن حقوق الإنسان، اللواتي يتعرضن للعنف والتهديد بالعنف الجنسي والجنساني، ووسائل الإعلام المستقلة، والصحفيين، والإعلاميين، والشعوب الأصلية، والأشخاص الذين يعيشون في أوضاع هشة، والأطفال وأسرهم، وأفراد الأقليات، والمحامين، وممثلي المعارضة السياسية، وغيرهم من الأفراد الذين يمارسون حقوقهم الإنسانية،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ قلقه" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعرب عن بالغ قلقه</span> إزاء التقارير التي تتحدث عن تعرض الأشخاص المشار إليهم في الفقرة السابقة، بمن فيهم الأشخاص الذين يحتجون سلمياً ويتحدثون علناً عن تدهور حالة سيادة القانون في الاتحاد الروسي وعن الحرب العدوانية التي يشنها الاتحاد الروسي على أوكرانيا لعمليات اعتقال واحتجاز تعسفية جماعية ولمضايقات، وعن استخدام القوة المفرط ضد هؤلاء الأفراد، وكذا إزاء عدم وجود سلطة قضائية مستقلة، وحرمان الفرد من الحق في محاكمة عادلة وفي المساعدة القانونية التي يختارها، بما في ذلك بالنسبة للمحتجزين، وترهيب المحامين واتخاذ تدابير تأديبية تعسفية ضدهم وشطبهم من نقابة المحامين وملاحقتهم جنائياً بسبب أدائهم واجباتهم المهنية، بمن فيهم المحامون الذين يدافعون عن المعتقلين والمحكوم عليهم لأسباب سياسية،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعرب عن قلقه</span> إزاء ما يتعرض له المحتجزون من تعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، بما في ذلك الأفعال التي تنطوي على الحرمان من الحصول على الرعاية الطبية المناسبة، وإيداعهم تعسفاً في زنزانات العزل الانفرادي العقابي أو الحبس الانفرادي؛ وإزاء إحجام السلطات عن التحقيق في مزاعم الاختفاء القسري والتعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، وفي مزاعم العنف الجنسي والجنساني ضد المحتجزين؛ وإزاء حالة الأفراد، وخاصة الأطفال، المرحلين إلى الاتحاد الروسي؛ وإزاء استمرار الإفلات من العقاب على هذه الأفعال،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه البالغ" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعرب عن قلقه البالغ</span> إزاء وفاة زعيم المعارضة أليكسي نافالني أثناء احتجازه، وتخلف السلطات الروسية عن إجراء تحقيق فعال ومستقل ونزيه في ظروف وفاته،</p>
+      </container>
+      <container name="وإذ يدعو" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يدعو </span>السلطات الروسية إلى الإفراج الفوري وغير المشروط عن جميع الأشخاص المحتجزين أو المقبوض عليهم أو المتهمين أو المحكوم عليهم تعسفاً أو بما يخالف القانون لأسباب سياسية أو لممارستهم حقوق الإنسان المكفولة لهم وإعادة تأهيلهم فعلياً،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعرب عن قلقه</span> إزاء الإغلاق القسري الجماعي لمنظمات المجتمع المدني، بما فيها مركز "ميموريال"، ومجموعة هلسنكي في موسكو، ومركز ساخاروف، ومركز سوفا للمعلومات والتحليل، ومركز دعم الشعوب الأصلية في الشمال، ومنظمة "Man and Law" لحقوق الإنسان، ووقف أنشطة جُلّ وسائل الإعلام المستقلة، بما فيها القنــوات الإذاعية والتلفزيونية ووسـائل الإعـــلام والصحـف الإلكترونية، وإغلاقها القسري، وإزاء حظر وسائط الإعلام الأجنبية واستهداف السلطات الروسية للمنظمات الأجنبية عن طريق إلغاء تسجيلها، وكذلك إزاء ضعف وصول المجتمع المدني الروسي إلى البنى التحتية الخاصة بالمعلومات والاتصالات وإلى الإعلام المستقل، وزيادة الرقابة والتضليل الإعلامي على شبكة الإنترنت وخارجها، وكذلك نُظم الرقابة السيبرانية الجديدة المعممة للتحكم في المعلومات وتخويف المنتقدين وإسكاتهم،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق بالغ" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ بقلق بالغ </span>التدابير التشريعية الرامية إلى زيادة تقييد حريات التجمع السلمي، وتكوين الجمعيات والتعبير، بما في ذلك حرية التماس المعلومات وتلقيها ونقلها، سواء عبر الإنترنت أو خارجها، ولا سيما القوانين المتعلقة بما يسمى "العملاء الأجانب" و"التطرف" و"المنظمات غير المرغوب فيها"، بصيغتها المعدلة، وقانون "الأخبار الزائفة عن الجيش الروسي" و"التشهير باستخدام القوات المسلحة الروسية، الذي اعتُمد في آذار/مارس 2022، والمعدِّل لقانون الجرائم الإدارية والقانون الجنائي، وأشكال الحظر العام لنشر المعلومات على أساس مفاهيم فضفاضة وغامضة، فضلاً عن إساءة استخدام نظام المحاكم لأغراض سياسية، وهي كلها مسائل تؤدي إلى قمع الآراء السلمية والمستقلة والتعددية من خلال فرض غرامات باهظة وتنفيذ الاحتجاز التعسفي والحكم بعقوبات سجن طويلة،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعرب عن قلقه</span> إزاء انتهاكات حقوق الإنسان الناجمة عن الاستخدام التعسفي للقوانين المتعلقة ب "أمن الدولة" وتوظيفها في هذا الصدد، بما في ذلك قوانين "الخيانة" أو تشريعات مكافحة الإرهاب والتطرف وتفسيرها تفسيراً فضفاضاً للغاية يتجاوز غرضها المعلن، بهدف إسكات الأصوات المعارضة، وإزاء القيود المفروضة خارج نطاق القضاء، والمحاكمة السرية لمدنيين أمام محاكم عسكرية والقوانين التي تُستخدم عملياً للحد من حرية التعبير وتكوين الجمعيات، وإذ يعرب في هذا الصدد عن قلقه إزاء إضافة ما لا يقل عن 55 منظمة من منظمات الشعوب الأصلية وغيرها من الجماعات الإقليمية وجماعات الأقليات إلى قائمة "المنظمات المتطرفة"،</p>
+      </container>
+      <container name="وإذ يثير جزعه" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يثير جزعه</span> أن السلطات تستخدم تدابير تشريعية ضد المجتمع المدني الروسي والمدافعين عن حقوق الإنسان والشعوب الأصلية لمعاقبة وتجريم التعاون مع المنظمات الدولية، بما في ذلك على سبيل الترهيب والانتقام من التعاون مع آليات الأمم المتحدة لحقوق الإنسان، وأن إنفاذ هذه التشريعات يؤدي إلى فرض رقابة ذاتية ويثني الجهات الفاعلة في المجتمع المدني عن التعاون علناً مع الأمم المتحدة وغيرها من المنظمات،</p>
+      </container>
+      <container name="واقتناعاً منه" eId="container_17">
+          <p xml:space="preserve">
+            <span class="italic">	واقتناعاً منه</span> بأن استقلال السلطة القضائية وحيادها ونزاهة النظام القضائي واستقلال المهن القانونية مسائل ضرورية لحماية حقوق الإنسان وسيادة القانون والحكم الرشيد والديمقراطية، ولكفالة عدم التمييز في إقامة العدل، وبأنه ينبغي من ثم احترامها في جميع الظروف،</p>
+      </container>
+      <container name="وإذ يعرب عن استيائه" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعرب عن استيائه</span> من استمرار التمييز الاجتماعي والسياسي والاقتصادي والعنف ضد النساء والفتيات والأفراد الذين يعيشون في أوضاع هشة ومستوى العنف الجنسي والجنساني في البلد، وإذ يحث السلطات الروسية على اتخاذ تدابير فعالة لتجريم جميع أشكال العنف الجنسي والجنساني في القانون الوطني ومنعها والتحقيق فيها وضمان مساءلة مرتكبيها، بما في ذلك العنف الأسري وعنف العشير، وكذلك جرائم القتل المتصلة بنوع الجنس، ولا سيما في منطقة شمال القوقاز، مثل جرائم "الشرف" والزواج القسري وممارسة تشويه الأعضاء التناسلية للإناث، واتباع نهج يركز على الناجين في مكافحة أشكال العنف والاعتداء الجنسي والجنساني،</p>
+      </container>
+      <container name="إذ يعرب عن استيائه أيضاً" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يعرب عن استيائه أيضاً</span> لقيام السلطات الروسية بتصنيف بعض منظمات حقوق الإنسان ومجموعات الأشخاص الذين يعيشون في أوضاع هشة بأنها "متطرفة" وإضافتها إلى قائمة المنظمات "غير المرغوب فيها"، الأمر الذي أدى، بحسب التقارير، إلى تعرض هؤلاء الأشخاص لمزيد من الإيذاء البدني واللفظي والاضطهاد والاحتجاز التعسفي والاختفاء القسري والتعذيب، وغير ذلك من الجرائم التي تُرتكب بحقهم مع إفلات مرتكبيها من العقاب،</p>
+      </container>
+      <container name="وإذ يأسف" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يأسف</span> لعدم مشاركة الاتحاد الروسي في الحوار البناء مع اللجنة المعنية بحقوق الإنسان خلال دورتها 136، على الرغم من قبول اللجنة تأجيله مرتين، وإذ يحيط علماً بالملاحظات الختامية للجنة بشأن التقرير الدوري الثامن للاتحاد الروسي<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">()	<a href="https://undocs.org/ar/CCPR/C/RUS/CO/8">CCPR/C/RUS/CO/8</a>.</p></authorialNote><sup>)</sup>، والملاحظات الختامية للجنة حقوق الطفل بشأن التقرير الجامع للتقريرين الدوريين السادس والسابع للاتحاد الروسي<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">()	<a href="https://undocs.org/ar/CRC/C/RUS/CO/6-7">CRC/C/RUS/CO/6-7</a>.</p></authorialNote><sup>)</sup>، والملاحظات الختامية للجنة القضاء على التمييز العنصري بشأن التقرير الجامع للتقريرين الدوريين الخامس والعشرين والسادس والعشرين للاتحاد الروسي<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">()	<a href="https://undocs.org/ar/CERD/C/RUS/CO/25-26">CERD/C/RUS/CO/25-26</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى أن الاتحاد الروسي لم يعد طرفاً متعاقداً سامياً في الاتفاقية الأوروبية لحقوق الإنسان منذ 16 أيلول/سبتمبر 2022، وإلى وجود 350 8 دعوى ضد الاتحاد الروسي لا تزال قيد النظر أمام المحكمة الأوروبية لحقوق الإنسان، التي تظل مختصة بالنظر في القضايا المتعلقة بالأفعال أو أوجه التقصير التي سُجّلت قبل ذلك التاريخ، وإذ يشير أيضاً إلى أن الاتحاد الروسي لا يزال ملزماً بالقرارات التي اتخذتها المحكمة الأوروبية لحقوق الإنسان بشأن القضايا قيد النظر المذكورة أعلاه،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_22" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">يحث بقوة</span> السلطات الروسية على امتثال جميع التزامات الدولة بموجب القانون الدولي لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">يحث </span>السلطات الروسية على احترام الحريات الأساسية للفكر والوجدان والدين أو المعتقد، والرأي والتعبير، والتجمع السلمي وتكوين الجمعيات، والمشاركة السياسية والعملية الانتخابية الديمقراطية، ولا سيما عن طريق إزالة القيود المفروضة على تنوع الأفكار والنقد والمعارضة، وكذلك احترام الحق المرتبط بها في الحرية والأمن الشخصي؛ وعلى وضع حد فوري للانتهاكات المبلغ عنها للحق في محاكمة عادلة والحق في عدم التعرض للتعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، وإساءة استخدام النظام القضائي، ولا سيما الاستخدام التعسفي للقوانين المتعلقة ب "أمن الدولة" وتوظيفها في هذا الصدد، بما في ذلك قوانين "الخيانة"، أو قوانين مكافحة الإرهاب ومكافحة التطرف، لقمع حقوق الصحفيين وغيرهم من الإعلاميين والشخصيات الثقافية والمحامين والباحثين والمؤرخين وأفراد المجتمع المدني والمدافعين عن حقوق الإنسان والمتظاهرين السلميين المناهضين للحرب، ولا سيما النساء والأشخاص الذين يعيشون في أوضاع هشة؛ وعلى الإفراج الفوري وغير المشروط عن جميع المحتجزين تعسفاً أو المختفين قسراً، وضمان العودة الآمنة للأفراد المرحلين، وخاصة الأطفال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">يرحب </span>بتقرير المقررة الخاصة المعنية بحالة حقوق الإنسان في الاتحاد الروسي<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">()	<a href="https://undocs.org/ar/A/HRC/57/59">A/HRC/57/59</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">يقرر </span>تمديد ولاية المقررة الخاصة المعنية بحالة حقوق الإنسان في الاتحاد الروسي على النحو الذي حدده مجلس حقوق الإنسان في قراره 54/23 لمدة سنة واحدة، ويطلب إلى المكلفة بالولاية إجراء مشاورات مع جميع الجهات صاحبة المصلحة، بما في ذلك المجتمع المدني داخل الاتحاد الروسي وخارجه، وتقديم تقرير شامل إلى المجلس في دورته الستين وإلى الجمعية العامة في دورتها الثمانين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">يدعو </span>السلطات الروسية إلى إرساء سبل العمل الكامل وغير الانتقائي مع جميع آليات الأمم المتحدة لحقوق الإنسان، بما في ذلك التواصل البناء والتعاون الكامل مع المكلفة بولاية المقرر الخاص، والسماح لها بزيارة البلد دون عوائق والاجتماع بحرية مع الجهات المعنية صاحبة المصلحة، بمن فيها أفراد المجتمع المدني والمدافعون عن حقوق الإنسان، ومع الأشخاص المحتجزين، بمن فيهم أسرى الحرب والمدنيون المرحلون إلى أراضي الاتحاد الروسي، وتزويد المقررة الخاصة بالمعلومات اللازمة للاضطلاع بولايتها على النحو الواجب، ويدعو سلطات الاتحاد الروسي أيضاً إلى التعاون الكامل مع سائر المكلفين بولايات في إطار الإجراءات الخاصة، وهيئات المعاهدات ومفوضية الأمم المتحدة السامية لحقوق الإنسان، ومع جميع الجهات صاحبة المصلحة في سياق الاستعراض الدوري الشامل، وإلى الكف عن جميع أشكال التخويف والانتقام ضد الأشخاص والجمعيات بسبب التعاون مع هذه الهيئات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">يطلب </span>إلى الأمين العام ومفوض الأمم المتحدة السامي لحقوق الإنسان تزويد المقررة الخاصة بكل ما يلزمها من مساعدة وموارد بشرية وتقنية ومالية كافية لأداء ولايتها بفعالية.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48" refersTo="#adoptionMeeting">الجلسة 48</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 تشرين الأول/أكتوبر 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedRecordedVote">
+            <quantity normalized="0" refersTo="#inFavour">0</quantity>
+            <quantity normalized="0" refersTo="#against">0</quantity>
+            <quantity normalized="0" refersTo="#abstaining">0</quantity>
+            <outcome refersTo="inFavour">
+              <eol />
+              <organization refersTo="memberState"></organization>
+            </outcome>
+            <outcome refersTo="against">
+              <eol />
+              <organization refersTo="memberState"></organization>
+            </outcome>
+            <outcome refersTo="abstaining">
+              <eol />
+              <organization refersTo="memberState"></organization>
+            </outcome>
+          </outcome>
+        </vote>
+      </p>
+    </conclusions>
+    <mainBody>
+      <paragraph eId="para_39" class="SingleTxtGA">
+        <content eId="para_39__content">
+          <p xml:space="preserve">]اعتُمِد بتصويت مسجّل بأغلبية 20 صوتاً مقابل 8 أصوات وامتناع 19 عضواً عن التصويت. وكانت نتيجة التصويت كما يلي:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtGA">
+        <content eId="para_40__content">
+          <p xml:space="preserve">
+            <span class="italic">المؤيدون: </span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtGA">
+        <content eId="para_41__content">
+          <p xml:space="preserve">الأرجنتين، ألبانيا، ألمانيا، باراغواي، بلجيكا، بلغاريا، الجبل الأسود، جورجيا، رومانيا، شيلي، غامبيا، غانا، فرنسا، فنلندا، كوستاريكا، لكسمبرغ، ليتوانيا، هولندا(مملكة)، الولايات المتحدة الأمريكية، اليابان</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtGA">
+        <content eId="para_42__content">
+          <p xml:space="preserve">
+            <span class="italic">المعارضون:</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtGA">
+        <content eId="para_43__content">
+          <p xml:space="preserve">إريتريا، بوروندي، السودان، الصين، فييت نام، قيرغيزستان، كازاخستان، كوبا</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxtGA">
+        <content eId="para_44__content">
+          <p xml:space="preserve">
+            <span class="italic">الممتنعون عن التصويت:</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtGA">
+        <content eId="para_45__content">
+          <p xml:space="preserve">الإمارات العربية المتحدة، إندونيسيا، البرازيل، بنغلاديش، بنن، الجزائر، الجمهورية الدومينيكية، جنوب أفريقيا، الصومال، قطر، الكاميرون، كوت ديفوار، الكويت، ماليزيا، المغرب، ملاوي، ملديف، الهند، هندوراس[</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
