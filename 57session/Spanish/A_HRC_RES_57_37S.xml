@@ -1,0 +1,352 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/spa@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/spa@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="YEMEN" href="http://metadata.un.org/thesaurus/1007098" showAs="YEMEN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FINANCIAL ASSISTANCE" href="http://metadata.un.org/thesaurus/1002327" showAs="FINANCIAL ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-07" outcome="draftResolution" as="A/HRC/57/L.32" by="United Arab Emirates and State of Palestine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 50th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="spanish" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/37</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 de octubre de 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">57º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 septiembre</date>
+          <date date="2024-10-11" refersTo="#endDate">11 octubre 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">Tema 10 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Asistencia técnica y fomento de la capacidad</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos el 11 de octubre de 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/37.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Asistencia técnica y fomento de la capacidad para el Yemen en la esfera de los derechos humanos</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Guiado" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Guiado</span> por los propósitos y principios de la Carta de las Naciones Unidas y por las disposiciones de la Declaración Universal de Derechos Humanos, y recordando los tratados internacionales de derechos humanos pertinentes,</p>
+      </container>
+      <container name="Reconociendo" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> la responsabilidad primordial de los Estados de promover y proteger los derechos humanos,</p>
+      </container>
+      <container name="Reafirmando" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando</span> su enérgica determinación de defender la soberanía, la independencia, la unidad y la integridad territorial del Yemen,</p>
+      </container>
+      <container name="Recordando" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> las resoluciones del Consejo de Seguridad 2014 (2011), de 21 de octubre de 2011, 2051 (2012), de 12 de junio de 2012, y 2140 (2014), de 26 de febrero de 2014, y las resoluciones del Consejo de Derechos Humanos 18/19, de 29 de septiembre de 2011, 19/29, de 23 de marzo de 2012, 21/22, de 27 de septiembre de 2012, 24/32, de 27 de septiembre de 2013, 27/19, de 25 de septiembre de 2014, 30/18, de 2 de octubre de 2015, 33/16, de 29 de septiembre de 2016, 36/31, de 29 de septiembre de 2017, 39/23, de 28 de septiembre de 2018, 42/31, de 27 de septiembre de 2019, 45/26, de 6 de octubre de 2020, 48/21, de 11 de octubre de 2021, 51/39, de 7 de octubre de 2022, y 54/29, de 12 de octubre de 2023,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Poniendo de relieve</span> las resoluciones del Consejo de Seguridad 2216 (2015), de 14 de abril de 2015, 2451 (2018), de 21 de diciembre de 2018, y 2624 (2022), de 28 de febrero de 2022,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Acogiendo con beneplácito</span> el compromiso del Gobierno del Yemen de mantener la tregua humanitaria a pesar de la negativa de los huzíes a renovar el acuerdo sobre la misma, </p>
+      </container>
+      <container name="Acogiendo con beneplácito también" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Acogiendo con beneplácito también</span> el proceso de intercambio de prisioneros entre ambas partes, y pidiendo que se levante el asedio de la ciudad de Taiz y se facilite la distribución de ayuda humanitaria,</p>
+      </container>
+      <container name="Reiterando" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Reiterando</span> su firme apoyo a los esfuerzos internacionales para alcanzar un alto el fuego general, poner fin al conflicto en el Yemen y reanudar un diálogo político significativo e integrador en favor de la paz, representados por la iniciativa del Enviado Especial del Secretario General para el Yemen, la iniciativa de la Arabia Saudita, los esfuerzos del Enviado Especial de los Estados Unidos de América para el Yemen y de algunos países de la región, y recordando la necesidad de que todas las partes en el conflicto reaccionen ante estos esfuerzos de manera flexible y constructiva, sin condiciones previas, y apliquen plena e inmediatamente todas las disposiciones de las resoluciones pertinentes del Consejo de Seguridad, al tiempo que acoge con beneplácito a este respecto el compromiso positivo del Gobierno del Yemen,</p>
+      </container>
+      <container name="Reconociendo" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> que la promoción, la protección y la efectividad de los derechos humanos son factores esenciales para garantizar un sistema de justicia imparcial y equitativo y, en última instancia, la reconciliación y la estabilidad del Yemen,</p>
+      </container>
+      <container name="Recordando" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> que los partidos políticos del Yemen han acordado concluir el proceso de transición política sobre la base de la iniciativa del Consejo de Cooperación del Golfo y su mecanismo de aplicación, y poniendo de relieve la necesidad de implementar las recomendaciones formuladas en el documento final de la Conferencia de Diálogo Nacional, incluida la de ultimar la redacción de una nueva constitución,</p>
+      </container>
+      <container name="Recordando con aprecio" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando con aprecio</span> el Decreto Presidencial núm. 16, de 23 de agosto de 2023, en virtud del cual se prorrogó el mandato de la Comisión Nacional de Investigación por un período de dos años para que pudiera investigar todas las violaciones de los derechos humanos cometidas desde 2011,</p>
+      </container>
+      <container name="Recordando" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> el Acuerdo de Riad, firmado por el Gobierno del Yemen y el Consejo de Transición del Sur, y alentando la aplicación rápida y plena del Acuerdo como avance importante hacia el logro de una solución política en el Yemen,</p>
+      </container>
+      <container name="Preocupado" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Preocupado</span> por el hecho de que la situación de liquidez del presupuesto ordinario de la Secretaría de las Naciones Unidas ha limitado los fondos del presupuesto ordinario de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos y ha afectado directamente a la capacidad de la Oficina del Alto Comisionado para prestar asistencia técnica plena, en particular como solicitó el Consejo de Derechos Humanos en su resolución 54/29,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Acogiendo con beneplácito </span>la disposición favorable del Consejo Presidencial de Liderazgo a negociar con los huzíes bajo los auspicios del Enviado Especial del Secretario General para el Yemen con miras a lograr un acuerdo político definitivo y completo en el Yemen, y acogiendo también con beneplácito la posición adoptada por el Gobierno del Yemen de permitir la reanudación de los vuelos internacionales hacia y desde el aeropuerto de Saná y la libre entrada de buques con fines comerciales y humanitarios en todos los puertos yemeníes, incluidos los de Al-Hudayda y Salif,</p>
+      </container>
+      <container name="Acogiendo con aprecio" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Acogiendo con aprecio</span> los esfuerzos de las Naciones Unidas y sus asociados, que han permitido extraer con éxito y en condiciones de seguridad la carga del petrolero Safer, protegiendo con ello la vida marina del mar Rojo de una gran catástrofe medioambiental, y encomiando la generosidad de los Estados que han hecho donaciones para llevar a cabo esa operación esencial,</p>
+      </container>
+      <container name="Consciente" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Consciente</span> de la información facilitada por la Oficina de Coordinación de Asuntos Humanitarios, según la cual la emergencia humanitaria existente afecta al disfrute de derechos humanos fundamentales, incluidos derechos económicos y sociales, y de que las partes en el conflicto deben facilitar la distribución rápida, segura y sin trabas de ayuda humanitaria,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> del informe del Alto Comisionado de las Naciones Unidas para los Derechos Humanos sobre la asistencia técnica y el fomento de la capacidad en el Yemen<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="http://undocs.org/sp/A/HRC/57/74">A/HRC/57/74</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Hace notar </span>las observaciones formuladas durante el presente período de sesiones por el Gobierno del Yemen en relación con el informe del Alto Comisionado;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la cooperación entre el Gobierno del Yemen y la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos y otros órganos y mecanismos competentes de las Naciones Unidas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> del 12º informe de la Comisión Nacional de Investigación;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la labor realizada por el Equipo Conjunto de Evaluación de Incidentes y su cooperación con la Oficina del Alto Comisionado y su oficina en el Yemen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Observa con aprecio</span> la labor que viene realizando la Comisión Nacional de Investigación, a pesar de las dificultades a las que se ha enfrentado, y celebra los progresos logrados, como la realización de visitas periódicas sobre el terreno en todo el Yemen, la celebración de consultas con grupos de la sociedad civil y la mejora en la presentación de informes sobre diferentes tipos de violaciones y conculcaciones de los derechos humanos y violaciones del derecho internacional humanitario cometidas por todas las partes en conflicto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a todas las partes a que renueven la tregua y apliquen de inmediato todas sus disposiciones, pide que se levante el asedio al que tienen sometida a la ciudad de Taiz los huzíes, y exhorta a todas las partes a que apliquen de inmediato el Acuerdo de Estocolmo a fin de iniciar las negociaciones para dar una solución política global e integradora a la crisis actual en el Yemen y cumplir los compromisos anunciados el 23 de diciembre de 2023;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Expresa profunda preocupación</span> por las graves violaciones y conculcaciones del derecho internacional de los derechos humanos y por las violaciones del derecho internacional humanitario cometidas en el Yemen por todas las partes en el conflicto, incluidas las relacionadas con la violencia sexual y de género, el incesante reclutamiento de niños en contravención de los tratados internacionales, el secuestro de activistas políticos, las vulneraciones de derechos humanos cometidas contra periodistas y las muertes ocasionadas entre la población civil;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a los huzíes a que eliminen los obstáculos que impiden el acceso de la ayuda humanitaria y de socorro, que liberen con carácter inmediato e incondicional a todo el personal de las Naciones Unidas y los trabajadores humanitarios detenidos, así como al personal de las organizaciones no gubernamentales internacionales y nacionales y de las misiones diplomáticas, y que pongan fin a la violencia y la discriminación contra las mujeres y a la selección de objetivos por motivos de religión o creencias;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a todas las partes en el conflicto del Yemen a que acaten las obligaciones que les incumben en virtud del derecho internacional humanitario y de los derechos humanos, cesen de inmediato los ataques contra la población civil, incluidos los cometidos contra la distribución de suministros médicos y contra los trabajadores humanitarios, y faciliten el acceso rápido, seguro y sin trabas de la asistencia humanitaria a la población afectada en todo el país;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">Expresa profunda preocupación</span> por todos los ataques contra bienes de carácter civil, en contravención del derecho internacional humanitario, y recuerda la obligación que tienen todas las partes en el conflicto de tomar todas las precauciones que sean necesarias para evitar y, en cualquier caso, reducir al mínimo los daños a la población civil y a los bienes de carácter civil, como escuelas, mercados e instalaciones médicas, y la prohibición de atacar o destruir infraestructuras y provisiones que son indispensables para la supervivencia de la población civil, como las instalaciones de abastecimiento de agua, los suministros y los productos alimenticios, y condena firmemente el lanzamiento de mísiles balísticos y de otro tipo contra objetivos en territorio de países vecinos y que suponen una amenaza de primer orden para la paz y la estabilidad en la región y la seguridad del comercio internacional en las rutas de navegación del mar Rojo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> al Gobierno del Yemen a que adopte medidas para proteger a la población civil y a que tome las medidas pertinentes con miras a poner fin a la impunidad en todos los casos de violaciones y conculcaciones de los derechos humanos y violaciones del derecho internacional humanitario, a la violencia ejercida contra periodistas y a la detención de periodistas y activistas políticos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a todas las partes en el conflicto del Yemen que apliquen íntegramente la resolución 2216 (2015) del Consejo de Seguridad, de 14 de abril de 2015, lo que ayudará a mejorar la situación de los derechos humanos, y alienta a todas las partes en el conflicto a que alcancen un acuerdo general para ponerle fin, velando por la participación plena y efectiva de las mujeres en el proceso político y de establecimiento de la paz;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">Exige</span> a todas las partes en el conflicto que se esfuercen por alcanzar un alto el fuego general, prosigan las negociaciones entre yemeníes con miras a lograr de común acuerdo una solución política general y duradera del conflicto, y permitan el acceso de la ayuda humanitaria a todas las ciudades y pueblos del Yemen, insta a los huzíes a que atiendan las solicitudes del Enviado Especial del Secretario General para el Yemen de abrir los puntos de paso a la ciudad de Taiz, pongan fin al reclutamiento y la utilización de niños, y licencien a los que ya han sido reclutados, y exhorta a todas las partes en el conflicto a que cooperen con las Naciones Unidas para reintegrarlos en sus comunidades;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> los compromisos y obligaciones del Gobierno del Yemen de promover y proteger los derechos humanos de todas las personas que se encuentren en el territorio bajo su control y estén sujetas a su jurisdicción, y, a este respecto, recuerda que el Yemen es parte en la Convención Internacional sobre la Eliminación de Todas las Formas de Discriminación Racial, la Convención sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer, el Pacto Internacional de Derechos Civiles y Políticos, el Pacto Internacional de Derechos Económicos, Sociales y Culturales, la Convención contra la Tortura y Otros Tratos o Penas Crueles, Inhumanos o Degradantes, la Convención sobre los Derechos del Niño y los Protocolos Facultativos de esta relativos a la participación de niños en los conflictos armados y a la venta de niños, la prostitución infantil y la utilización de niños en la pornografía, así como en la Convención sobre los Derechos de las Personas con Discapacidad y la Convención sobre el Estatuto de los Refugiados y su Protocolo, y aguarda con interés que el Gobierno prosiga sus esfuerzos para promover y proteger los derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">Expresa profunda preocupación</span> por el deterioro de la situación humanitaria en el Yemen, expresa su agradecimiento a los Estados donantes y las organizaciones que trabajan para mejorar esa situación por su compromiso de prestar apoyo financiero al plan de respuesta humanitaria de las Naciones Unidas para el Yemen de 2024, exhorta a todos los Estados a que incrementen su apoyo financiero a las operaciones de socorro de las Naciones Unidas, e insta a los Estados a que cumplan sus promesas en relación con el llamamiento humanitario de las Naciones Unidas a este respecto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> la responsabilidad de todas las partes en el conflicto de facilitar la prestación inmediata, segura y sin trabas de asistencia humanitaria a todas las personas que la necesiten, de acuerdo con los principios del derecho internacional de los derechos humanos y el derecho internacional humanitario;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a todos los órganos del sistema de las Naciones Unidas, entre ellos la Oficina del Alto Comisionado, y a todos los Estados a que apoyen el proceso de transición en el Yemen, entre otros medios fomentando la movilización de recursos para hacer frente a las consecuencias de la violencia y a los problemas económicos y sociales que afronta el país, en coordinación con la comunidad internacional de donantes y de conformidad con las prioridades establecidas por las autoridades yemeníes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_189" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_189__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la asistencia técnica prestada por la Oficina del Alto Comisionado a la Comisión Nacional de Investigación y pide al Alto Comisionado que continúe prestando apoyo sustantivo al Gobierno del Yemen en forma de fomento de la capacidad y asistencia técnica, y todo el apoyo técnico y logístico necesario para que la Comisión Nacional de Investigación pueda llevar a cabo sus investigaciones al mismo nivel que otras comisiones de investigación y haga posible que siga investigando las denuncias de violaciones y conculcaciones cometidas por todas las partes en conflicto en el Yemen, de conformidad con las normas internacionales, y que presente, de conformidad con el Decreto Presidencial núm. 16, de 23 de agosto de 2023, su informe exhaustivo sobre las presuntas violaciones y conculcaciones de los derechos humanos cometidas en todas las regiones del país tan pronto como esté disponible, y alienta a todas las partes en el conflicto del Yemen a que faciliten el acceso total y transparente a la Comisión Nacional y cooperen con ella;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="SingleTxtG">
+        <num>20.</num>
+        <content eId="para_208__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Alto Comisionado que presente al Consejo de Derechos Humanos, en su 60º período de sesiones, un informe sobre la prestación de la asistencia técnica estipulada en la presente resolución;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_228" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_228__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que vele por que se proporcionen a la Oficina del Alto Comisionado todos los recursos necesarios para facilitar la asistencia técnica solicitada por el Consejo de Derechos Humanos en su resolución 54/29 y en la presente resolución.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="50ª" refersTo="#adoptionMeeting">50ª sesión</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">11 de octubre de 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
