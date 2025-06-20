@@ -1,0 +1,325 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/zho@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-32/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CAPACITY BUILDING" href="http://metadata.un.org/thesaurus/1000797" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS INSTITUTIONS" href="http://metadata.un.org/thesaurus/1002981" showAs="HUMAN RIGHTS INSTITUTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-02" outcome="draftResolution" as="A/HRC/57/L.18" by="Armenia, Australia, Austria, Brazil, Chile, Colombia, Costa Rica, Croatia, Ecuador, Guatemala, Honduras, Iceland, Indonesia, Italy, Luxembourg, Malaysia, Malta, Marshall Islands, Morocco, Norway, Paraguay, Peru, Philippines, Portugal, Qatar, Samoa, Singapore, Spain, Thailand, Türkiye and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 49th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/32</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">第五十七届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 九月</date>
+          <date date="2024-10-11" refersTo="#endDate">11 十月 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">议程项目10</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">技术援助和能力建设</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2024年10月11日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/32.</docNumber>
+        <docTitle refersTo="#resolutionTitle">加强人权领域的技术合作和能力建设</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve"> <span class="bold">遵循</span>《联合国宪章》的宗旨和原则，尤其是促成国际合作，不分种族、肤色、性别、语言、宗教、政治或其他见解、民族本源或社会出身、财产、出生或其他身份等任何区别，促进并鼓励尊重所有人的人权和基本自由，</p>
+      </container>
+      <container name="重申" eId="container_3">
+        <p xml:space="preserve"> <span class="bold">重申</span>《世界人权宣言》，并回顾所有相关人权条约，包括《经济社会文化权利国际公约》和《公民及政治权利国际公约》，</p>
+      </container>
+      <container name="认识到" eId="container_4">
+        <p xml:space="preserve"> <span class="bold">认识到</span>在技术合作和能力建设方面，加强国际合作对于切实促进、保护和落实人权至关重要，而促进、保护和落实人权应以合作和真正对话的原则为基础，着眼于增强各国尊重、保护和落实人权，防止侵犯人权行为和履行人权义务的能力，以造福所有人，</p>
+      </container>
+      <container name="铭记" eId="container_5">
+        <p xml:space="preserve"> <span class="bold">铭记</span>大会2006年3月15日第60/251号决议载明的人权理事会所负任务，即促进在与有关国家协商并征得其同意的情况下提供咨询服务、技术援助和能力建设，并铭记理事会2007年6月18日第5/1号和第5/2号决议以及2011年3月25日第16/21号决议中为理事会履行这一任务作出的各项规定，</p>
+      </container>
+      <container name="回顾" eId="container_6">
+        <p xml:space="preserve"> <span class="bold">回顾</span>人权理事会关于加强人权领域的技术合作和能力建设、关于国家人权机构、关于促进国际合作以支持国家执行、报告和后续行动机制以及关于促进和保护人权与落实《2030年可持续发展议程》的所有相关决议，</p>
+      </container>
+      <container name="又回顾" eId="container_7">
+        <p xml:space="preserve"> <span class="bold">又回顾</span>人权理事会2022年10月7日第51/31号决议，其中理事会鼓励各国建立有效、独立和多元的国家人权机构，或加强已有的这类机构，使它们能够切实履行《维也纳宣言和行动纲领》中列出的促进和保护所有人的人权和基本自由的任务，并遵循《关于促进和保护人权的国家机构的地位的原则》(《巴黎原则》)，</p>
+      </container>
+      <container name="确认" eId="container_8">
+        <p xml:space="preserve"> <span class="bold">确认</span>根据《维也纳宣言和行动纲领》，每个国家都有权选择最适合本国具体需要的国家机构框架，</p>
+      </container>
+      <container name="回顾" eId="container_9">
+        <p xml:space="preserve"> <span class="bold">回顾</span>人权理事会2022年10月7日第51/33号决议，其中理事会鼓励各国建立或加强国家执行、报告和后续行动机制，以进一步遵守人权义务和承诺，并分享利用这些机制在各级制定公共政策和计划方面的良好做法和经验，</p>
+      </container>
+      <container name="重申" eId="container_10">
+        <p xml:space="preserve"> <span class="bold">重申</span>大会2015年9月25日题为“变革我们的世界：2030年可持续发展议程”的第70/1号决议，回顾可持续发展目标，特别是可持续发展目标16――创建和平、包容的社会以促进可持续发展，让所有人都能诉诸司法，在各级建立有效、负责和包容的机构，</p>
+      </container>
+      <container name="注意到" eId="container_11">
+        <p xml:space="preserve"> <span class="bold">注意到</span>包括条约机构、人权理事会特别程序和普遍定期审议机制在内的国际人权机制依照各国尊重、保护和实现人权的义务和承诺，在促进落实《2030年议程》方面作出的贡献，以及技术合作和能力建设在这方面的作用，</p>
+      </container>
+      <container name="认识到" eId="container_12">
+        <p xml:space="preserve"> <span class="bold">认识到</span>必须加强国际社会的支持力度，在发展中国家开展切实有效、有针对性的能力建设活动，以支持各国落实各项可持续发展目标的国家计划，</p>
+      </container>
+      <container name="着重指出" eId="container_13">
+        <p xml:space="preserve"> <span class="bold">着重指出</span>，联合国系统相关组织，特别是联合国国家工作队，必须在各自任务范围内，将人权领域的技术合作和能力建设纳入其工作和方案，</p>
+      </container>
+      <container name="肯定" eId="container_14">
+        <p xml:space="preserve"> <span class="bold">肯定</span>联合国相关机构及国际和区域组织在各自任务范围内所开展活动的作用和影响，肯定国家利益攸关方，包括国家人权机构、国家执行、报告和后续行动机制及民间社会组织依据自身职责，在根据有关国家的需要和请求向各国提供技术支持和援助方面的贡献，肯定各国议会在职责范围内对履行本国的人权义务和自愿保证及承诺，包括对落实所接受的普遍定期审议建议的支持，</p>
+      </container>
+      <container name="重申" eId="container_15">
+        <p xml:space="preserve"> <span class="bold">重申</span>联合国人权事务高级专员及联合国人权事务高级专员办事处的一项职责是，应相关国家请求提供咨询服务和技术援助，以支持人权领域的行动和方案，并按照高专办的任务，协调整个联合国系统促进和保护人权的活动，</p>
+      </container>
+      <container name="表示赞赏" eId="container_16">
+        <p xml:space="preserve"> <span class="bold">表示赞赏</span>联合国人权领域技术合作自愿基金、参与普遍定期审议自愿基金、支助最不发达国家和小岛屿发展中国家参与人权理事会工作的自愿技术援助信托基金以及执行普遍定期审议财政和技术援助自愿基金在支持各国建设国家能力以促进切实履行本国人权义务和落实普遍定期审议期间接受的建议方面发挥的重要作用，</p>
+      </container>
+      <container name="注意到" eId="container_17">
+        <p xml:space="preserve"> <span class="bold">注意到</span>一些国家在履行本国人权义务和承诺时使用了联合国有关基金以支持人权领域的技术合作和能力建设，并着重指出，需要进一步提高这些基金的知名度，为这些基金的申请工作提供便利，并加强努力，增强其互补性，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_18">
+        <p xml:space="preserve"> <span class="bold">赞赏地注意到</span>联合国人权领域技术合作自愿基金董事会和执行普遍定期审议财政和技术援助自愿基金通过提交人权理事会的年度报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/ch/A/HRC/56/78">A/HRC/56/78</a>和<a href="http://undocs.org/ch/A/HRC/56/18">A/HRC/56/18</a>。</p></authorialNote> 所作的贡献，特别是其中关于技术合作和确定良好做法的内容，</p>
+      </container>
+      <container name="欢迎并鼓励" eId="container_19">
+        <p xml:space="preserve"> <span class="bold">欢迎并鼓励</span>各种新倡议和现有倡议，以求分享经验、教训和最佳做法，与有关国家协商并征得其同意，通过双边、区域、多边和国际合作，包括通过双边人权对话和南北合作、南南合作、三方合作以及公私伙伴关系，提供人权技术合作和能力建设支助，帮助各国履行本国的人权义务以及自愿保证和承诺；并着重指出，各国和所有相关利益攸关方需要在提供人权领域的技术合作和能力建设方面合作互补，</p>
+      </container>
+      <container name="肯定" eId="container_20">
+        <p xml:space="preserve"> <span class="bold">肯定</span>国家、区域和国际各级采取举措，建立数据库和工具，供各国用来以整体方法跟踪人权义务的执行、报告和后续行动的情况，</p>
+      </container>
+      <container name="强调指出" eId="container_21">
+        <p xml:space="preserve"> <span class="bold">强调指出</span>，需要提高对人权领域的技术合作和能力建设的重要性的认识，由此加快这一领域活动的执行工作，以期改善全世界的人权状况，并且需要保持建设性合作和非政治化的精神，</p>
+      </container>
+      <container name="回顾指出" eId="container_22">
+        <p xml:space="preserve"> <span class="bold">回顾指出</span>，《维也纳宣言和行动纲领》促请各国政府将国际人权文书中的标准纳入国家立法，并加强能在促进和保障人权方面发挥作用的国家结构、机构和社会组织，</p>
+      </container>
+      <container name="重申" eId="container_23">
+        <p xml:space="preserve"> <span class="bold">重申</span>《维也纳宣言和行动纲领》指出，国家机构在促进和保护人权方面发挥重要和建设性作用，特别是向主管当局提供咨询意见的作用，以及它们在纠正侵犯人权行为、传播人权信息、进行人权教育和与有关民间社会倡议建立伙伴关系方面的作用，</p>
+      </container>
+      <container name="考虑到" eId="container_24">
+        <p xml:space="preserve"> <span class="bold">考虑到</span>在区域、国家和地方各级采取扩大的、制度化的后续行动，例如建立或加强国家执行、报告和后续行动机制，将有利于履行人权义务和承诺，并且此类机制有助于以综合和参与性的方式向国际人权机制提交报告，</p>
+      </container>
+      <container name="认识到" eId="container_25">
+        <p xml:space="preserve"> <span class="bold">认识到</span>国家人权机构和国家执行、报告和后续行动机制作为主要国家行为体所发挥的不同、互补和相辅相成的作用，并强调每个机构都在各自的任务和职能框架内，在国家一级为尊重、保护和履行国家人权义务作出了独特的贡献，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_26" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"> 	<span class="bold">强调</span>议程项目10下举行的一般性辩论是一个重要平台，人权理事会成员国和观察员可在此公开和放心地交流对于促进人权领域更有效的技术合作和能力建设的愿景和看法，以及具体经验、挑战、进展、成就和有关所需援助的信息；并强调，这种技术合作应当始终是一个包容各方的进程，要有各国的所有利益攸关方，包括政府机构、国家人权机构、国家执行、报告和后续行动机制、私营部门、包括妇女组织在内的民间社会以及所有权利持有人的介入和参与；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> 	<span class="bold">重申</span>人权领域的技术合作和能力建设应继续在与有关国家协商并征得其同意的基础上进行并应争取在实地各级产生具体影响，应考虑到这些国家的请求、需要和优先事项以及国情，还应考虑到所有人权都是普遍、不可分割、相互依存和相互关联的；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 	<span class="bold">认识到</span>技术合作和能力建设对于支持建立和加强符合《巴黎原则》的国家人权机构以及国家执行、报告和后续行动机制、增进国家机构对人权义务的了解和能力以及使国家法律和政策符合国际人权标准至关重要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"> 	<span class="bold">特别指出</span>，需要加强国际、区域和双边合作与对话以支持促进和保护人权，以便产生可持续的成果；鼓励区域人权机构在促进和保护人权方面分享经验并交流良好做法，包括与增强所有妇女和女童权能相关的经验和做法，同时与包括国家人权机构、民间社会组织和权利持有人在内的相关各方进行接触；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> 	<span class="bold">重申</span>需要持续增加对联合国相关基金的自愿捐助，以支持人权领域的技术援助和能力建设；鼓励各国继续向这些基金并向联合国人权事务高级专员办事处的技术援助和能力建设方案提供捐助，以确保高级专员办事处有能力回应其年度呼吁中指明的援助请求；并鼓励各基金和高专办继续提高其活动的效率和透明度；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> 	<span class="bold">欢迎</span>高级专员办事处与有关国家协商并征得其同意，通过联合国驻地协调员以及联合国国家和区域代表提供技术援助和能力建设，特别是根据各国的国情，支持建立或加强符合《巴黎原则》的国家人权机构和国家执行、报告和后续行动机制，并鼓励它们继续这样做；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 	<span class="bold">鼓励</span>需要技术援助的国家考虑向高级专员办事处和联合国其他相关机构提出请求，以加强在促进和保障人权方面发挥作用的国家机构，履行本国的人权义务及自愿保证和承诺，包括在普遍定期审议期间接受的建议；大力鼓励高专办和联合国各机构积极回应这类请求，并以透明和及时的方式提供关于各国可获得的以及已获得的技术支持的信息；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve"> 	<span class="bold">鼓励</span>各国继续促进相关倡议，以求分享通过双边合作，包括双边人权对话、南北、南南和三方合作提供人权技术合作和能力建设支助方面的经验、教训和最佳做法，以帮助各国履行本国的人权义务以及自愿保证和承诺；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve"> 	<span class="bold">强调</span>必须加强高级专员办事处与联合国其他机构在技术合作和能力建设工作上的协调；鼓励高专办、联合国其他相关机构和有关国家定期就国家一级开展的技术援助和能力建设工作交流信息和最佳做法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve"> 	<span class="bold">鼓励</span>人权理事会特别程序在与各国的互动中，继续分享与在各自任务范围内提供尊重、保护和落实人权方面的技术援助和能力建设的最佳做法和可能性有关的信息和知识；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve"> 	<span class="bold">欢迎</span>人权理事会第五十六届会议根据理事会2023年10月12日第54/28号决议举行主题为“加强落实普遍定期审议建议方面的技术合作和能力建设”的小组讨论会，与会者在讨论中强调了技术合作和能力建设在支持各国落实普遍定期审议建议方面的重要性，确认了南南合作和三方合作的潜力，反思了取得的成就和面临的障碍，并强调需要提供充足的资金，以交付所需的技术援助和能力建设活动；<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		见<a href="http://undocs.org/ch/A/HRC/56/72">A/HRC/56/72</a>。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve"> 	<span class="bold">再次请</span>高级专员办事处通过增加专门能力，建立和维护一个落实普遍定期审议建议方面的技术合作和能力建设活动在线资料库――因联合国秘书处当前的流动性危机而推迟，在征得有关国家同意的情况下，收集各国以及联合国相关机构、基金和方案、国际和区域组织、区域人权机制、国家人权机构和民间社会组织自愿提交的资料，并从人权理事会第五十九届会议起，通过关于人权领域的技术合作和能力建设的年度报告向理事会通报每年收集资料的最新情况，呼吁在上述领域拥有良好做法的利益攸关方应有关国家要求并在征得其同意的情况下，作为一种同行支助向这些国家提供技术援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve"> 	<span class="bold">认识到</span>有必要在上述资料库和其他相关数据库(除其他外，包括国家执行、报告和后续行动机制的虚拟知识中心)之间建立协同效应，并认识到扩大上述资料库以纳入牵线搭桥功能具有潜在益处，可加强协调在落实已接受的普遍定期审议建议方面的技术合作和能力建设工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve"> 	<span class="bold">决定</span>根据人权理事会2011年9月29日第18/18号决议第3和第4段，将在理事会第五十九届会议议程项目10下举行的年度专题小组讨论会的主题为“技术合作和能力建设对于加强在促进和保障人权方面发挥作用的国家机构，特别是国家人权机构以及国家执行、报告和后续行动机制的作用”，并确保该活动对残疾人完全无障碍；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxtGC">
+        <num>15.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve"> 	<span class="bold">请</span>高级专员办事处编写一份报告，说明各国、高专办和包括国家人权机构在内的其他相关利益攸关方在技术合作和能力建设方面的作用，如何支持各国努力加强在促进和保障人权方面发挥作用的国家结构，特别是国家人权机构和国家执行、报告和后续行动机制，包括后两个实体的互补性，并将该报告提交人权理事会第五十九届会议，作为上述小组讨论会的基础；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxtGC">
+        <num>16.</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve"> 	<span class="bold">吁请</span>各国履行其人权义务，又吁请各国、国际人权机构和机制、相关国际组织、国家人权机构、国家执行、报告和后续行动机制以及民间社会利用小组讨论会上提出的想法和问题，在加强对促进和保障人权发挥补充作用的国家体制的过程中，提高技术合作和能力建设工作的效率、效力和政策一致性，并建立多利益攸关方伙伴关系，特别是在这方面考虑到《世界人权宣言》通过七十五周年和《维也纳宣言和行动纲领》通过三十周年的契机，并以此为《2030年可持续发展议程》作出贡献。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第49次" refersTo="#adoptionMeeting">第49次会议</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">2024年10月11日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
