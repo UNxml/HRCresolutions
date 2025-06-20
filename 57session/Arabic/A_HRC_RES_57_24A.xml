@@ -1,0 +1,331 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/"></FRBRuri>
+          <FRBRdate date="2024-10-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/ara@/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-10/57-24/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="EDUCATION" href="http://metadata.un.org/thesaurus/1001893" showAs="EDUCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RACIAL DISCRIMINATION" href="http://metadata.un.org/thesaurus/1005310" showAs="RACIAL DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="XENOPHOBIA" href="http://metadata.un.org/thesaurus/1007092" showAs="XENOPHOBIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS EDUCATION" href="http://metadata.un.org/thesaurus/1002978" showAs="HUMAN RIGHTS EDUCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT TO EDUCATION" href="http://metadata.un.org/thesaurus/1005558" showAs="RIGHT TO EDUCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CULTURAL PLURALISM" href="http://metadata.un.org/thesaurus/1001436" showAs="CULTURAL PLURALISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="9" showAs="Racism, racial discrimination, xenophobia and related forms of intolerance, follow-up to and implementation of the Durban Declaration and Programme of Action." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-07" outcome="draftResolution" as="A/HRC/57/L.25" by="Belgium, Brazil, Chile, Colombia, Costa Rica, Ecuador, Finland, Ireland, Luxembourg, Malawi, Marshall Islands, Monaco, Namibia, Peru, Portugal, San Marino, South Africa, Spain and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-11" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-11" outcome="adopted" as="Adopted without vote, 48th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/24</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-11" class="rightSmall" refersTo="#dateOfIssuance">11 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">الدورة السابعة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 أيلول</date>
+          <date date="2024-10-11" refersTo="#endDate">11 تشرين الأول 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="9" name="agenda item">البند 9 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 10 تشرين الأول/أكتوبر 2024</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/24</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">التعليم كأداة لمنع العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان</span>،</p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى الإعلان العالمي لحقوق الإنسان، والعهد الدولي الخاص بالحقوق المدنية والسياسية، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، والاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري، وإعلان وبرنامج عمل فيينا، وإعلان وبرنامج عمل ديربان، وغير ذلك من الصكوك الدولية ذات الصلة، وإذ يعيد تأكيد عالمية جميع حقوق الإنسان وعدم قابليتها للتجزئة وترابطها وتشابكها،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بأهمية إعلان وبرنامج عمل ديربان بوصفه علامة فارقة في إبراز الدور الأساسي للتعليم في الكفاح المشترك ضد العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/68/237">68/237</a> المؤرخ 23 كانون الأول/ديسمبر 2013، الذي أعلنت فيه الجمعية العامة العقد الدولي للمنحدرين من أصل أفريقي، الذي يبدأ في 1 كانون الثاني/ يناير 2015 وينتهي في 31 كانون الأول/ديسمبر 2024، تحت شعار "المنحدرون من أصل أفريقي: الاعتراف والعدالة والتنمية"، وقرارها <a href="https://undocs.org/ar/A/RES/69/16 ">69/16</a> المؤرخ 18 تشرين الثاني/نوفمبر 2014، الذي اعتمدت فيه برنامج أنشطة تنفيذ العقد الدولي للمنحدرين من أصل أفريقي، وقرارها <a href="https://undocs.org/ar/A/RES/78/323">78/323</a> المؤرخ 13 آب/ أغسطس 2024، الذي أعلنت فيه 25 تموز/يوليه يوماً دولياً للنساء والفتيات المنحدرات من أصل أفريقي،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير أيضاً</span> إلى جميع القرارات والمقررات السابقة الصادرة عن الجمعية العامة ولجنة حقوق الإنسان ومجلس حقوق الإنسان بشأن القضاء على العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب وبشأن الحق في التعليم،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعيد تأكيد</span> حق كل فرد في التعليم، وهو حق من حقوق الإنسان مكرس في جملة صكوك منها الإعلان العالمي لحقوق الإنسان، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، والاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري، واتفاقية حقوق الطفل، واتفاقية القضاء على جميع أشكال التمييز ضد المرأة، واتفاقية حقوق الأشخاص ذوي الإعاقة، واتفاقية مكافحة التمييز في مجال التعليم الصادرة عن منظمة الأمم المتحدة للتربية والعلم والثقافة، وإعلان الأمم المتحدة للتثقيف والتدريب في ميدان حقوق الإنسان، وغير ذلك من الصكوك الدولية ذات الصلة،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بالأهمية الحاسمة للتعليم الجيد المنصف والشامل للجميع، وإذ يشير إلى ضرورة أن تعزز نظم التعليم التنوع الثقافي بغية حماية الحقوق الثقافية وتعزيز التفاهم واحترام التنوع والتسامح،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ</span> أن لنظم التعليم والمؤسسات التعليمية دوراً ومسؤولية مهميْن في التصدي لآفة العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب وفي القضاء عليها،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بأن إعلان وبرنامج عمل ديربان يعترف بأن التعليم في جميع المستويات والأعمار، بما في ذلك داخل الأسرة، ولا سيما التثقيف في مجال حقوق الإنسان، أداة أساسية لتغيير المواقف وأنماط السلوك القائمة على العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب ولتعزيز التسامح واحترام التنوع في المجتمعات؛ ويؤكد أن التعليم عامل حاسم في تعزيز وإشاعة وحماية القيم الديمقراطية للعدالة والإنصاف التي تُعَدُّ أساسية لمنع ومكافحة انتشار العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بأن القضاء على العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب محرك رئيسي لتنفيذ خطة التنمية المستدامة لعام 2030،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم أيضاً</span> بأهمية حرية التعبير، بما في ذلك حرية التماس المعلومات وتلقيها ونقلها، وبالدور الأساسي للتعليم والسياسات الفعالة الأخرى في تعزيز التسامح واحترام الآخر وفي بناء مجتمعات تعددية وشاملة للجميع،</p>
+      </container>
+      <container name="وإذ يسلم كذلك" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم كذلك </span>بالدور المهم الذي تضطلع به منظمة الأمم المتحدة للتربية والعلم والثقافة فيما يتعلق بالتثقيف ضد العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب، ولا سيما برنامج دروب المُستعبَدين: المقاومة والحرية والتراث، الذي يُحتفل بذكراه السنوية الثلاثين في عام 2024،</p>
+      </container>
+      <container name="وإذ يشجع" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشجع</span> جميع الدول على أن تبدأ وتطور، بالتعاون مع الأمم المتحدة ومنظمة الأمم المتحدة للتربية والعلم والثقافة وغيرها من المنظمات الدولية ذات الصلة، برامج ثقافية وتعليمية لمجابهة العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب، من أجل ضمان احترام كرامة وقيمة كل البشر، وتعزيز التفاهم فيما بين جميع الثقافات والحضارات،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يرحب</span> بالجهود التي تبذلها مفوضية الأمم المتحدة السامية لحقوق الإنسان، وإذ يشير إلى التوصيات الواردة في تقارير الأمم المتحدة السابقة بشأن العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب، وإلى الجهود التي تبذلها جهات منها المنتدى الدائم المعني بالمنحدرين من أصل أفريقي، وفريق الخبراء البارزين المستقلين المعني بتنفيذ إعلان وبرنامج عمل ديربان، وفريق الخبراء العامل المعني بالمنحدرين من أصل أفريقي، وغير ذلك من الإجراءات الخاصة،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد</span> أن إعمال حق الجميع في التعليم، بمن فيهم الأفارقة والمنحدرون من أصل أفريقي، والآسيويون والمنحدرون من أصل آسيوي، والشعوب الأصلية، والمهاجرون، واللاجئون، والأشخاص المنتمون إلى أقليات قومية أو إثنية وأقليات دينية ولغوية، بمن فيها، على سبيل المثال لا الحصر، الروما والنساء والفتيات والأشخاص ذوو الإعاقة، يساهم في تعزيز الحقوق الاقتصادية والاجتماعية والثقافية والحق في التنمية، وفي القضاء على الفقر، وفي مكافحة العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بأن جميع الدول لديها القدرة على توسيع نطاق استثماراتها في التعليم الجيد المنصف والشامل للجميع، مما يساهم في وفائها بالتزاماتها المتعلقة بإعمال الحقوق الاقتصادية والاجتماعية والثقافية،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم أيضاً</span> بأن التكنولوجيات الرقمية الجديدة والناشئة بإمكانها تيسير الجهود الرامية إلى تسريع وتيرة التقدم البشري، وتعزيز وحماية حقوق الإنسان والحريات الأساسية، بما في ذلك الحقوق الاقتصادية والاجتماعية والثقافية، وسد جميع الفجوات الرقمية، مع الإقرار أيضاً بأن المخاطر المحتملة التي تطرحها البيئة الرقمية قد تنطوي على أشكال مختلفة من العنف والضرر،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على ضرورة زيادة الإرادة والالتزام السياسيين لاستخدام التعليم كأداة لمنع ومكافحة العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">يشدد أيضاً</span> على أهمية التنفيذ الكامل والفعال لفقرات إعلان وبرنامج عمل ديربان المتعلقة بدور التعليم في منع آفة العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب والقضاء عليها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> أن التعليم والتنمية والإخلاص في تنفيذ كل المعايير والالتزامات الدولية المتعلقة بحقوق الإنسان، بما في ذلك سن قوانين ووضع سياسات اجتماعية واقتصادية ومتعلقة بالشؤون السياسية، مسائل بالغة الأهمية لمكافحة العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">يعترف</span> بأن التعليم الجيد المنصف والشامل للجميع ومحو الأمية وإمكانية استفادة الجميع من التعليم الابتدائي والثانوي المجاني عوامل يمكن أن تساهم في تعزيز شمولية المجتمعات وفي تحقيق الإنصاف وإقامة علاقات مستقرة ومتجانسة وصداقات فيما بين الأمم والشعوب والجماعات والأفراد وفي إشاعة ثقافة السلم وتعزيز التفاهم والتضامن والعدالة الاجتماعية واحترام جميع حقوق الإنسان للناس كافة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على الدور الأساسي للتعليم، بما في ذلك التثقيف في مجال حقوق الإنسان والتعليم الذي يراعي التنوع الثقافي ويحترمه، ولا سيما بين الأطفال والشباب، في منع جميع أشكال التعصب والتمييز والقضاء عليها، ويرحب بالدور المحفز الذي يضطلع به المجتمع المدني في تعزيز التثقيف في مجال حقوق الإنسان والتوعية بالعنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGA">
+        <num>6-</num>
+        <list eId="para_34_list">
+          <intro eId="para_34_list_intro">
+            <p xml:space="preserve">	<span class="italic">يحث</span> الدول، بصفة خاصة، على ما يلي:</p>
+          </intro>
+          <point eId="para_34_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_34_list_point_أ_content">
+              <p xml:space="preserve">	أن تعتمد وتنفذ قوانين وسياسات وبرامج لحظر ومكافحة التمييز على أساس العرق أو اللون أو النسب أو الأصل القومي أو الإثني في جميع مستويات التعليم النظامي وغير النظامي؛</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_34_list_point_ب_content">
+              <p xml:space="preserve">	أن تتخذ جميع التدابير المناسبة لإزالة عوائق الحصول على التعليم؛</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_34_list_point_ج_content">
+              <p xml:space="preserve">	أن تكفل حصول جميع الأطفال من دون تمييز على التعليم المنصف الجيد النوعية؛</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_د">
+            <num>(د)</num>
+            <content eId="para_34_list_point_د_content">
+              <p xml:space="preserve">	أن تدعم الجهود الرامية إلى ضمان بيئة مدرسية آمنة وخالية من العنف والتحرش والتنمر، على شبكة الإنترنت وخارجها، بدوافع منها العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب؛</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_ه">
+            <num>(ه)</num>
+            <content eId="para_34_list_point_ه_content">
+              <p xml:space="preserve">	أن تعزز المساواة في الاستفادة في نظام التعليم من التكنولوجيات الرقمية الجديدة والناشئة، بما في ذلك الذكاء الاصطناعي، وغير ذلك من تكنولوجيا المعلومات والاتصالات؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">يحث أيضاً</span> الدول على إدراج بندي مكافحة التمييز ومكافحة العنصرية وتعزيزهما، حسب الاقتضاء، في برامج حقوق الإنسان في المناهج الدراسية، وعلى وضع وتحسين المواد التعليمية ذات الصلة، بما في ذلك كتب تدريس التاريخ وغيره، وعلى ضمان التدريب الفعال والحوافز المناسبة لجميع المدرسين من أجل تكوين مواقف وأنماط سلوك قائمة على مبادئ الاحترام المتبادل والمساواة وعدم التمييز؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول على زيادة الوعي بالتاريخ والتراث والثقافات والمساهمات الثقافية للأفارقة والمنحدرين من أصل أفريقي، والآسيويين والمنحدرين من أصل آسيوي، والشعوب الأصلية، والمهاجرين، واللاجئين، والمنتمين إلى أقليات قومية أو إثنية وأقليات دينية ولغوية، بمن في ذلك، على سبيل المثال لا الحصر، الروما والنساء والفتيات والأشخاص ذوو الإعاقة، وعلى تنفيذ برامج تعزز الوعي بالكرامة المتأصلة في الأفراد وبحقوقهم المتساوية وغير القابلة للتصرف وفهمها الشامل، وتكفل الاعتراف بها، وتعتمد منظوراً عرقياً وجنسانياً، وعلى ضمان أن تعكس الكتب المدرسية وغيرها من المواد التعليمية، بما فيها الكتيبات الإرشادية لهيئة التدريس، الحقائق التاريخية بدقة وبطريقة ميسرة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">يسلّم</span> بأن التكنولوجيات الرقمية الجديدة والناشئة يمكن أن تعزز أدوات التثقيف والتوعية لمكافحة العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب، داخل المدرسة وخارجها، والاحترام الشامل لحقوق الإنسان والتنوع الثقافي، مع لفت الانتباه إلى ضرورة التصدي، على نحو يتوافق مع التزامات الدول بموجب القانون الدولي لحقوق الإنسان، للتضليل ولنشر معلومات مضللة قد يكون هدفها التحريض على التمييز والعداء والعنف وإشاعة الكراهية والعنصرية وكراهية الأجانب والصور النمطية السلبية والوصم، وإلى ضرورة ضمان أن تكون البيانات المستخدمة في تطوير ونشر واستخدام هذه الأدوات دقيقة وذات صلة وشاملة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">يشدد </span>على ضرورة وفاء الدول الأطراف على نحو كامل بالتزاماتها بموجب الاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري بوصفها الاتفاقية الرئيسية في مجال مكافحة العنصرية، ولا سيما التزاماتها بموجبها فيما يتعلق بالقضاء على التمييز العنصري، وبالحق في التعليم والتدريب، والتزاماتها بالتعهد باتخاذ تدابير فورية وفعالة في مجالات التدريس والتربية والثقافة والإعلام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">يذكر</span> بأهمية التعاون الدولي في تعزيز التعليم كأداة لمنع العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب ولتبادل الممارسات الجيدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى مفوض الأمم المتحدة السامي لحقوق الإنسان أن يقدم إلى مجلس حقوق الإنسان في دورته الثالثة والستين تقريراً شاملاً متاحاً للأشخاص ذوي الإعاقة، بما في ذلك في شكل ميسر وبالصيغة السهلة القراءة، يتضمن تحليلاً للممارسات والتدابير التعليمية ذات الصلة لمنع العنصرية والتمييز العنصري وكراهية الأجانب وما يتصل بذلك من تعصب، مع إسهامات من جميع الجهات المعنية صاحبة المصلحة، بما فيها الدول، وآليات الأمم المتحدة، والآليات الإقليمية لحقوق الإنسان، ووكالات الأمم المتحدة وصناديقها وبرامجها، والمنظمات الإقليمية، والمؤسسات الوطنية لحقوق الإنسان، ومنظمات المجتمع المدني، والمؤسسات التعليمية.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48" refersTo="#adoptionMeeting">الجلسة 48</location>
+          <eol />
+          <docDate date="2024-10-10" refersTo="#adoptionDate">10 تشرين الأول/أكتوبر 2024</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتمد من دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
