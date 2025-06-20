@@ -1,0 +1,334 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/"></FRBRuri>
+          <FRBRdate date="2024-10-11" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/zho@/"></FRBRuri>
+          <FRBRdate date="2024-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2024-10-11/57-37/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="YEMEN" href="http://metadata.un.org/thesaurus/1007098" showAs="YEMEN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FINANCIAL ASSISTANCE" href="http://metadata.un.org/thesaurus/1002327" showAs="FINANCIAL ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="10" showAs="Technical assistance and capacity-building." dictionary="A/HRC/57/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-10-07" outcome="draftResolution" as="A/HRC/57/L.32" by="United Arab Emirates and State of Palestine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-10-14" outcome="recommendedForAdoption" by="" />
+        <step date="2024-10-14" outcome="adopted" as="Adopted without vote, 50th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/57/37</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2024</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="57" eId="coverPage_1__session_1">第五十七届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2024-09-09" refersTo="#startDate">9 九月</date>
+          <date date="2024-10-11" refersTo="#endDate">11 十月 2024</date>
+        </event>
+      </p>
+      <p>
+        <inline title="10" name="agenda item">议程项目10</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">技术援助和能力建设</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2024年10月11日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>57/37.</docNumber>
+        <docTitle refersTo="#resolutionTitle">向也门提供人权领域的技术援助和能力建设</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve"> <span class="bold">遵循</span>《联合国宪章》的宗旨和原则及《世界人权宣言》的规定，并回顾有关国际人权条约，</p>
+      </container>
+      <container name="确认" eId="container_3">
+        <p xml:space="preserve"> <span class="bold">确认</span>国家对促进和保护人权负有主要责任，</p>
+      </container>
+      <container name="重申" eId="container_4">
+        <p xml:space="preserve"> <span class="bold">重申</span>对也门主权、独立、统一和领土完整的坚定承诺，</p>
+      </container>
+      <container name="回顾" eId="container_5">
+        <p xml:space="preserve"> <span class="bold">回顾</span>安全理事会2011年10月21日第2014(2011)号决议、2012年6月12日第2051(2012)号决议和2014年2月26日第2140(2014)号决议，以及人权理事会2011年9月29日第18/19号决议、2012年3月23日第19/29号决议、2012年9月27日第21/22号决议、2013年9月27日第24/32号决议、2014年9月25日第27/19号决议、2015年10月2日第30/18号决议、2016年9月29日第33/16号决议、2017年9月29日第36/31号决议、2018年9月28日第39/23号决议、2019年9月27日第42/31号决议、2020年10月6日第45/26号决议、2021年10月11日第48/21号决议、2022年10月7日第51/39号决议和2023年10月12日第54/29号决议，</p>
+      </container>
+      <container name="强调" eId="container_6">
+        <p xml:space="preserve"> <span class="bold">强调</span>安全理事会2015年4月14日第2216(2015)号决议、2018年12月21日第2451(2018)号决议和2022年2月28日第2624(2022)号决议，</p>
+      </container>
+      <container name="欢迎" eId="container_7">
+        <p xml:space="preserve"> <span class="bold">欢迎</span>也门政府承诺维持人道主义休战，尽管胡塞武装拒绝延长休战协议，</p>
+      </container>
+      <container name="又欢迎" eId="container_8">
+        <p xml:space="preserve"> <span class="bold">又欢迎</span>双方的换囚进程，呼吁解除对塔伊兹市的围困，并为运送人道援助提供便利，</p>
+      </container>
+      <container name="重申" eId="container_9">
+        <p xml:space="preserve"> <span class="bold">重申</span>坚决支持为实现全面停火、结束也门冲突、恢复有意义和包容各方的政治对话以实现和平而作出的国际努力，包括秘书长也门问题特使的倡议、沙特阿拉伯的倡议、美利坚合众国的也门问题特使和该区域一些国家作出的努力，回顾冲突各方需要以灵活和建设性的方式、不附加先决条件地对这些努力作出反应，并立即全面执行安全理事会相关决议的所有规定，同时欢迎也门政府在这方面的积极参与，</p>
+      </container>
+      <container name="确认" eId="container_10">
+        <p xml:space="preserve"> <span class="bold">确认</span>促进、保护和落实人权是确保公正平等的司法制度和最终实现也门和解与稳定的关键因素，</p>
+      </container>
+      <container name="回顾" eId="container_11">
+        <p xml:space="preserve"> <span class="bold">回顾</span>也门各政党同意在海湾合作委员会的倡议及其执行机制的基础上完成政治过渡进程，强调须落实全国对话会议成果文件中提出的建议，包括完成新宪法的起草工作，</p>
+      </container>
+      <container name="赞赏地回顾" eId="container_12">
+        <p xml:space="preserve"> <span class="bold">赞赏地回顾</span>2023年8月23日第16号总统令，其中将国家调查委员会的任务延长两年，以调查2011年以来的所有侵犯人权行为，</p>
+      </container>
+      <container name="回顾" eId="container_13">
+        <p xml:space="preserve"> <span class="bold">回顾</span>也门政府和南方过渡委员会签署的《利雅得协议》，鼓励迅速全面执行该协议，以此作为迈向政治解决也门问题的重要一步，</p>
+      </container>
+      <container name="感到关切" eId="container_14">
+        <p xml:space="preserve"> <span class="bold">感到关切</span>的是，联合国秘书处经常预算的流动性状况限制了联合国人权事务高级专员办事处的经常预算资金，并直接影响到高级专员办事处全面提供技术援助的能力，包括按照人权理事会第54/29号决议的要求提供技术援助的能力，</p>
+      </container>
+      <container name="欢迎" eId="container_15">
+        <p xml:space="preserve"> <span class="bold">欢迎</span>总统领导委员会积极参与，在秘书长也门问题特使的主持下与胡塞武装进行谈判，以期为也门问题达成最终和全面的政治解决，又欢迎也门政府采取的立场，即允许萨那机场继续起降国际航班，允许商业和人道船只不受阻碍地进入也门所有港口，包括荷台达港和萨利夫港，</p>
+      </container>
+      <container name="赞赏地欢迎" eId="container_16">
+        <p xml:space="preserve"> <span class="bold">赞赏地欢迎</span>联合国及各合作伙伴作出努力，成功安全地卸载“安全号”油轮，从而保护了红海海洋生物免遭重大环境灾难，赞扬捐助国为这一重要行动慷慨捐助，</p>
+      </container>
+      <container name="意识到" eId="container_17">
+        <p xml:space="preserve"> <span class="bold">意识到</span>人道主义事务协调厅的报告显示，目前的人道紧急状况对享有包括社会和经济权利在内的基本人权产生了影响，冲突各方必须为迅速、安全、不受阻碍地送达人道援助提供便利，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> 	<span class="bold">注意到</span>联合国人权事务高级专员关于在也门开展的技术援助和能力建设的报告；<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="http://undocs.org/ch/A/HRC/57/74">A/HRC/57/74</a>。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="bold">注意到</span>也门政府在本届会议期间对高级专员的报告发表的评论；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> 	<span class="bold">欢迎</span>也门政府与联合国人权事务高级专员办事处及联合国其他相关机构和机制合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> 	<span class="bold">注意到</span>国家调查委员会第十二次报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="bold">欢迎</span>联合事件评估小组开展的工作和评估小组与高级专员办事处及其也门国家办事处的合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="bold">赞赏地注意到</span>国家调查委员会迄今为止在面临挑战的情况下开展的工作，欢迎国家调查委员会取得的进展，例如在也门各地定期进行实地访问，与民间社会团体举行协商，改进对冲突各方犯下的各类侵犯和践踏人权及违反国际人道法行为的报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> 	<span class="bold">吁请</span>各方延长休战并立即执行所有休战规定，呼吁胡塞武装解除对塔伊兹市的围困，吁请各方立即执行《斯德哥尔摩协定》，以便启动谈判，为也门当前的危机找到全面和包容各方的政治解决方案，并恪守2023年12月23日宣布的各项承诺；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve"> 	<span class="bold">深表关切</span>的是，冲突各方在也门犯下严重违反和践踏国际人权法和违反国际人道法的行为，包括实施性暴力和性别暴力、继续违反国际条约招募儿童兵、绑架政治活动人士、侵犯记者人权和杀害平民等行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve"> 	<span class="bold">促请</span>胡塞武装消除妨碍救济和人道援助准入的障碍，立即无条件释放所有被拘留的联合国人员和人道主义工作者、国际和国内非政府组织及外交使团工作人员，并停止对妇女的暴力和歧视以及基于宗教或信仰将某些人作为攻击目标的行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve"> 	<span class="bold">吁请</span>也门冲突各方遵守国际人权法和国际人道法规定的义务，立即停止对平民包括医药用品运送者和援助人员的攻击，并为全国各地受影响人群迅速、安全、不受阻碍地获得人道援助提供便利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve"> 	<span class="bold">深表关切</span>一切违反国际人道法攻击平民目标的行为，回顾冲突各方有义务采取一切必要的预防措施，以避免并无论如何尽量减少对平民以及学校、市场和医疗设施等民用设施的伤害，禁止攻击或毁坏平民生存所必不可少的基础设施和供给，包括供水设施、物资和食品，强烈谴责针对邻国领土发射弹道导弹和其他导弹，对地区和平稳定和红海航道国际贸易安全构成重大威胁；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve"> 	<span class="bold">敦促</span>也门政府采取措施保护平民，并采取适当措施，终止对所有侵犯和践踏人权及违反国际人道法、暴力侵害记者和拘留记者与政治活动人士的案件有罪不罚的现象；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve"> 	<span class="bold">请</span>也门冲突各方充分执行安全理事会2015年4月14日第2216(2015)号决议，这将有助于改善人权状况，鼓励冲突各方达成全面协议以结束冲突，同时确保妇女充分有效参与政治进程和建立和平的进程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve"> 	<span class="bold">要求</span>冲突各方努力实现全面停火，继续进行也门人内部谈判，以针对冲突达成双方同意的全面持久的政治解决方案，使人道援助能够进入也门所有城镇和村庄，敦促胡塞武装响应秘书长也门问题特使提出的开放前往塔伊兹市的通行点的请求，停止招募和使用儿童兵并释放已招募的儿童兵，吁请冲突各方与联合国合作，使这些儿童重新融入各自的社群；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="SingleTxtGC">
+        <num>15.</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve"> 	<span class="bold">重申</span>也门政府承诺且有义务确保尊重促进和保护其控制的以及受其管辖的领土上所有人的人权，就此回顾也门已加入以下公约：《消除一切形式种族歧视国际公约》、《消除对妇女一切形式歧视公约》、《公民及政治权利国际公约》、《经济社会文化权利国际公约》、《禁止酷刑和其他残忍、不人道或有辱人格的待遇或处罚公约》、《儿童权利公约》及其《关于儿童卷入武装冲突问题的任择议定书》和《关于买卖儿童、儿童卖淫和儿童色情制品问题的任择议定书》、《残疾人权利公约》、《关于难民地位的公约》及其议定书，期待也门政府继续努力促进和保护人权；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxtGC">
+        <num>16.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve"> 	<span class="bold">深表关切</span>也门的人道状况不断恶化，表示赞赏捐助国和捐助组织努力改善这一状况，并感谢它们承诺为2024年联合国也门人道主义应对计划提供资金支持，吁请所有国家增加对联合国救济行动的资金支持，敦促各国兑现对联合国有关人道主义呼吁的认捐；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="SingleTxtGC">
+        <num>17.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve"> 	<span class="bold">重申</span>冲突各方有责任按照国际人权法和国际人道法的原则，为立即、安全和不受阻碍地向所有需要援助的人运送人道援助提供便利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="SingleTxtGC">
+        <num>18.</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve"> 	<span class="bold">请</span>包括高级专员办事处在内的联合国系统所有机构和各国为也门的过渡进程提供援助，包括与国际捐助界协调配合，按照也门当局确定的优先事项，协助调集资源应对也门面临的暴力后果以及经济和社会挑战；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_189" class="SingleTxtGC">
+        <num>19.</num>
+        <content eId="para_189__content">
+          <p xml:space="preserve"> 	<span class="bold">欢迎</span>高级专员办事处向国家调查委员会提供的技术援助，请高级专员继续向也门政府提供实质性的能力建设和技术援助，向国家调查委员会提供与任何调查委员会水平相同的所有必要的技术和后勤支持，使国家调查委员会能够继续按照国际标准调查关于也门冲突各方侵犯和践踏人权的指称，并按照2023年8月23日第16号总统令，尽快提交关于也门各地据称侵犯和践踏人权事件的全面报告，鼓励也门冲突各方向国家调查委员会提供全面、透明的准入并与之合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="SingleTxtGC">
+        <num>20.</num>
+        <content eId="para_208__content">
+          <p xml:space="preserve"> 	<span class="bold">请</span>高级专员向人权理事会第六十届会议提交一份报告，说明本决议规定的技术援助的执行情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_228" class="SingleTxtGC">
+        <num>21.</num>
+        <content eId="para_228__content">
+          <p xml:space="preserve"> 	<span class="bold">请</span>秘书长确保向高级专员办事处提供一切必要资源，以便利人权理事会第54/29号决议和本决议所要求的技术援助。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第50次" refersTo="#adoptionMeeting">第50次会议</location>
+          <eol />
+          <docDate date="2024-10-11" refersTo="#adoptionDate">2024年10月11日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
