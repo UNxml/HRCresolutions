@@ -1,0 +1,225 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-10/"></FRBRuri>
+          <FRBRdate date="2025-04-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-10/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-10/fra@/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-10/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-10/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Right to Food" showAs="UN. Human Rights Council. Special Rapporteur on the Right to Food" dictionary="DHLAUTH"></keyword>
+        <keyword value="RIGHT TO FOOD" href="http://metadata.un.org/thesaurus/1005559" showAs="RIGHT TO FOOD" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" href="http://metadata.un.org/thesaurus/1001299" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-25" outcome="draftResolution" as="A/HRC/58/L.12" by="Algeria, Andorra, Armenia, Belarus, Belgium, Bolivia (Plurinational State of), Brazil, Burundi, Chile, Colombia, Croatia, Cuba, Cyprus, Democratic People’s Republic of Korea, Ecuador, Egypt, Eritrea, Estonia, Ethiopia, Finland, France, Gambia, Germany, Greece, Iceland, Iran (Islamic Republic of), Ireland, Italy, Kenya, Luxembourg, Malawi, Malaysia, Malta, Mexico, Monaco, Netherlands (Kingdom of the), Norway, Paraguay, Portugal, Samoa, South Africa, Spain, Sweden, Switzerland, Thailand, Tunisia, Venezuela (Bolivarian Republic of), Yemen, Zimbabwe and State of Palestine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-04" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-04" outcome="adopted" as="Adopted without vote, 56th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-04" class="rightSmall" refersTo="#dateOfIssuance">4 avril 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">Cinquante-huitième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 février</date>
+          <date date="2025-04-04" refersTo="#endDate">4 avril 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme,  civils, politiques, économiques, sociaux et culturels,  y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme le 3 avril 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Mandat de Rapporteur spécial sur le droit à l’alimentation</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> toutes les résolutions antérieures de l’Assemblée générale et ses propres résolutions sur le droit à l’alimentation, ainsi que toutes les résolutions de la Commission des droits de l’homme sur la question,</p>
+      </container>
+      <container name="Rappelant également" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> ses résolutions 5/1, sur la mise en place de ses institutions, et 5/2, sur le Code de conduite pour les titulaires de mandat au titre des procédures spéciales, du 18 juin 2007, et soulignant que tous les titulaires de mandat doivent s’acquitter de leurs fonctions conformément à ces résolutions et à leurs annexes,</p>
+      </container>
+      <container name="Rappelant en outre" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Rappelant en outre</span> toutes ses résolutions antérieures sur le mandat de Rapporteur spécial sur le droit à l’alimentation,</p>
+      </container>
+      <container name="Rappelant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> la Déclaration universelle des droits de l’homme, qui dispose que toute personne a droit à un niveau de vie suffisant pour assurer sa santé et son bien-être, y compris son alimentation, ainsi que tous les autres engagements pris et objectifs de développement convenus au niveau international dans le domaine, notamment les objectifs de développement durable,</p>
+      </container>
+      <container name="Constatant" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Constatant</span> que la crise liée à la maladie à coronavirus (COVID‑19) exacerbe l’insécurité alimentaire, notamment par ses répercussions dévastatrices sur les moyens de subsistance des populations, l’agriculture et les systèmes alimentaires, les chaînes de valeur, les prix des denrées alimentaires, la nutrition et la sécurité alimentaire,</p>
+      </container>
+      <container name="Constatant également" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Constatant également</span> que d’autres crises mondiales interdépendantes sont susceptibles d’accroître l’insécurité alimentaire dans le monde, notamment de provoquer des famines touchant des millions de personnes dans de nombreuses régions, et conscient du rôle important que jouent à cet égard l’Organisation des Nations Unies pour l’alimentation et l’agriculture et le Programme alimentaire mondial, entre autres organismes, fonds et programmes des Nations Unies compétents dans le domaine du développement,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note avec satisfaction</span> des travaux menés par le Rapporteur spécial sur le droit à l’alimentation sur les questions en lien avec son mandat, notamment son rapport sur le droit à l’alimentation, le financement et les plans d’action nationaux<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/fr/A/HRC/58/48">A/HRC/58/48</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide</span> de proroger le mandat de Rapporteur spécial sur le droit à l’alimentation pour une période de trois ans afin de permettre au titulaire du mandat de poursuivre ses travaux conformément à la mission qu’il lui a lui-même confiée dans sa résolution <a href="https://docs.un.org/fr/A/HRC/RES/6/2">6/2</a> du 27 septembre 2007 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie</span> le Rapporteur spécial, dans l’exercice de son mandat, de coopérer davantage avec le Groupe consultatif sur les systèmes alimentaires nouvellement créé au sein du Pôle de coordination des Nations Unies sur les systèmes alimentaires et, dans ce contexte, de fournir des conseils et des orientations aux États et à toutes les parties prenantes sur la manière de rendre la gouvernance des systèmes alimentaires conforme au droit international des droits de l’homme dans la perspective du deuxième bilan du Sommet des Nations Unies sur les systèmes alimentaires et au‑delà ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie</span> le Secrétaire général et le Haut-Commissaire des Nations Unies aux droits de l’homme de mettre à la disposition du Rapporteur spécial toutes les ressources humaines et financières nécessaires pour lui permettre de s’acquitter efficacement de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> à tous les gouvernements de coopérer avec le Rapporteur spécial et de l’aider dans sa tâche en lui fournissant toutes les informations qu’il sollicite, ainsi que d’envisager sérieusement de répondre favorablement à ses demandes de visite, afin de lui permettre de s’acquitter encore plus efficacement de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 	<span class="italic">Invite</span> les gouvernements, les organismes, fonds et programmes des Nations Unies compétents, les organes créés en vertu d’instruments internationaux, les acteurs de la société civile, y compris les organisations non gouvernementales, et le secteur privé à coopérer pleinement avec le Rapporteur spécial dans l’exercice de son mandat, notamment en lui faisant part de leurs observations et suggestions quant aux moyens d’assurer la réalisation du droit à l’alimentation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie</span> le Rapporteur spécial de lui soumettre chaque année, et de soumettre à l’Assemblée générale, conformément au programme de travail de chacun, un rapport sur l’exécution du mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide</span> de poursuivre l’examen de la question au titre du même point de l’ordre du jour, conformément à son programme de travail.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="56e" refersTo="#adoptionMeeting">56e séance</location>
+          <eol />
+          <docDate date="2025-04-03" refersTo="#adoptionDate">3 avril 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
