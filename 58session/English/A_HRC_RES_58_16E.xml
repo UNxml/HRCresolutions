@@ -1,0 +1,536 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/"></FRBRuri>
+          <FRBRdate date="2025-04-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/eng@/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Sustainable Development Goals" showAs="Sustainable Development Goals" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="OCEANS" href="http://metadata.un.org/thesaurus/1004576" showAs="OCEANS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MARINE ECOSYSTEMS" href="http://metadata.un.org/thesaurus/1003907" showAs="MARINE ECOSYSTEMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-28" outcome="draftResolution" as="A/HRC/58/L.26/Rev.1" by="Albania, Austria, Belgium, Bulgaria, Chile, Costa Rica, Croatia, Cyprus, Czechia, Democratic Republic of the Congo, Finland, France, Germany, Ireland, Italy, Luxembourg, Malawi, Maldives, Malta, Marshall Islands, Monaco, Mongolia, Montenegro, Morocco, North Macedonia, Portugal, Republic of Moldova, Romania, Slovakia, Slovenia, Spain and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-04" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-04" outcome="adopted" as="Adopted without vote, 57th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/16</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-04" class="rightSmall" refersTo="#dateOfIssuance">4 April 2025</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">Fifty-eighth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 February</date>
+          <date date="2025-04-04" refersTo="#endDate">4 April 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 3 April 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/16.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">The human right to a clean, healthy and sustainable environment: the ocean and human rights</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guided</span> by the purposes and principles of the Charter of the United Nations,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming</span> the Universal Declaration of Human Rights and the Vienna Declaration and Programme of Action, and recalling the Declaration of the United Nations Conference on the Human Environment, the Declaration on the Right to Development, the Rio Declaration on Environment and Development, the United Nations Framework Convention on Climate Change, the United Nations Convention on the Law of the Sea, the Convention on Biological Diversity, the United Nations Convention to Combat Desertification, relevant international human rights treaties and other relevant regional human rights instruments,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming also </span>that all human rights are universal, indivisible, interdependent and interrelated,</p>
+      </container>
+      <container name="Recalling" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>all its resolutions and decisions relating to human rights and the environment, the most recent of which are resolutions 45/17 of 6 October 2020, 45/30 of 7 October 2020, 46/7 of 23 March 2021, 52/23 of 4 April 2023, 54/10 of 11 October 2023, 55/2 of 3 April 2024 and 57/28 of 11 October 2024 and decision 56/117 of 11 July 2024, and relevant resolutions of the General Assembly,</p>
+      </container>
+      <container name="Welcoming" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">		Welcoming </span>Human Rights Council resolution 48/13 of 8 October 2021 and General Assembly resolution 76/300 of 28 July 2022, recognizing the human right to a clean, healthy and sustainable environment,</p>
+      </container>
+      <container name="Recognizing" eId="container_7">
+        <p xml:space="preserve">		<span class="italic">Recognizing</span> that the ocean is one single interconnected body of water that unites, sustains and connects and is essential for the survival and well-being of ecosystems, people and communities,</p>
+      </container>
+      <container name="Taking note" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Taking note </span>of General Assembly resolution 79/144 of 12 December 2024, in which the Assembly recalled that States had committed themselves to protect and restore the health, productivity and resilience of the ocean and marine ecosystems, to maintain their biodiversity, enabling their conservation and sustainable use for present and future generations, and to effectively apply an ecosystem approach and the precautionary approach in the management, in accordance with international law, of activities having an impact on the marine environment, to deliver on all three dimensions of sustainable development,</p>
+      </container>
+      <container name="Welcoming" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Welcoming</span> the adoption by the General Assembly of resolution 78/272 on 24 April 2024 on the Agreement under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas beyond National Jurisdiction,</p>
+      </container>
+      <container name="Affirming" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Affirming</span> that respect for and the protection and fulfilment of the human right to a clean, healthy and sustainable environment contribute to addressing ocean degradation, and at the same time recognizing that maintaining a healthy and clean ocean contributes to the protection of a range of human rights,</p>
+      </container>
+      <container name="Recognizing" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the critical importance of effective early warning systems for environmental risks and disasters in protecting the lives and livelihoods of vulnerable populations and supporting resilience to climate change impacts, and taking note with appreciation of the Secretary-General’s Early Warnings for All initiative aimed at ensuring universal access to early warning systems by 2027,</p>
+      </container>
+      <container name="Reaffirming" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> resolution 5/14 adopted by the United Nations Environment Assembly of the United Nations Environment Programme on 2 March 2022, in which the Assembly established an intergovernmental negotiating committee with a mandate to develop an international legally binding instrument on plastic pollution, including in the marine environment,</p>
+      </container>
+      <container name="Emphasizing" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Emphasizing</span> the importance of States taking decisive action to address plastic pollution throughout the full life cycle of plastic, including in the marine environment, and highlighting the specific and severe impacts of plastic pollution, climate change and biodiversity loss on the ocean, which jeopardize the realization of human rights, including the human right to a clean, healthy and sustainable environment, while underscoring the transboundary nature of plastic pollution and the need for enhanced global cooperation to effectively address this crisis,</p>
+      </container>
+      <container name="Reaffirming" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>General Assembly resolution 70/1 of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, in which the Assembly adopted a comprehensive, far-reaching and people-centred set of universal and transformative Sustainable Development Goals and targets, including Goal 14, which focuses on the conservation and sustainable use of the ocean, and Goal 6, on clean water and sanitation,</p>
+      </container>
+      <container name="Recognizing" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing</span> the guidance provided by the International Tribunal for the Law of the Sea in its advisory opinion in reply to the <span class="italic">Request for an advisory opinion submitted by the Commission of Small Island States on climate change and international law</span> rendered on 21 May 2024, on the obligation of States to protect the ocean from climate change drivers and impacts,</p>
+      </container>
+      <container name="Reaffirming" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>Human Rights Council resolution 40/11 of 21 March 2019, in which the Council recognized the positive, important and legitimate role played by human rights defenders in the promotion and protection of human rights, including the human right to a safe, clean, healthy and sustainable environment, and expressed its deep concern that human rights defenders working in environmental matters, referred to as environmental human rights defenders, are among the human rights defenders most exposed and at risk,</p>
+      </container>
+      <container name="Noting" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">		Noting </span>international instruments, such as the Convention on Access to Information, Public Participation in Decision-Making and Access to Justice in Environmental Matters of the Economic Commission for Europe and the Regional Agreement on Access to Information, Public Participation and Justice in Environmental Matters in Latin America and the Caribbean, </p>
+      </container>
+      <container name="Recalling" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>States’ obligations and commitments under multilateral environmental instruments and agreements and the outcome of the United Nations Conference on Sustainable Development, held in Rio de Janeiro, Brazil, in June 2012, and its outcome document entitled “The future we want”,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		General Assembly resolution 66/288, annex.</p></authorialNote> which reaffirmed the principles of the Rio Declaration on Environment and Development,</p>
+      </container>
+      <container name="Acknowledging" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> that the global nature of climate change requires the broadest possible cooperation among all countries and their participation in an effective and equitable international response, in line with the principles outlined in article 3 of the United Nations Framework Convention on Climate Change, and recalling article 2.2 of the Paris Agreement, which are essential for addressing climate change and environmental issues in a fair and just manner, in accordance with national circumstances,</p>
+      </container>
+      <container name="Noting with satisfaction" eId="container_20">
+        <p xml:space="preserve">		<span class="italic">Noting with satisfaction</span> that States have recognized that the ocean, seas and coastal areas form an integrated and essential component of the Earth’s ecosystem and are critical to ensure its sustainability, and that international law, as reflected in the United Nations Convention on the Law of the Sea and its implementing agreements, provides the legal framework for the conservation and sustainable use of the ocean and its resources, and stressed the importance of the conservation and sustainable use of the ocean and the seas and of their resources for sustainable development, including through their contributions to poverty eradication, sustained economic growth, food security and the creation of sustainable livelihoods and decent work, while at the same time protecting biodiversity and the marine environment and addressing the impacts of climate change,</p>
+      </container>
+      <container name="Reaffirming" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> that the protection and preservation of the ocean are crucial for the full enjoyment of human rights for all, as are the understanding of the importance of the ocean in matters of addressing pollution, mitigating climate change, strengthening biodiversity and ecosystems, and ensuring sustainable food security and renewable energy,</p>
+      </container>
+      <container name="Acknowledging" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging</span> the needs of the most vulnerable populations to natural disasters, such as those living in coastal States and small island developing States, as underscored at the Fourth International Conference on Small Island Developing States, held in Antigua and Barbuda from 27 to 30 May 2024, and the urgency of a human rights-based approach for ocean governance in addressing climate change,</p>
+      </container>
+      <container name="Reaffirming" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> that the promotion of the human right to a clean, healthy and sustainable environment requires the full implementation of multilateral environmental agreements under the principles of international environmental law,</p>
+      </container>
+      <container name="Recalling" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>the outcomes of the sixth session of the United Nations Environment Assembly, held in Nairobi from 26 February to 1 March 2024, and the need to act decisively and urgently to improve the health, productivity, sustainable use and resilience of the ocean and its ecosystems, and affirming the need to enhance the conservation and sustainable use of the ocean and its resources,</p>
+      </container>
+      <container name="Welcoming" eId="container_25">
+        <p xml:space="preserve">		<span class="italic">Welcoming</span> the outcomes of the twenty-ninth session of the Conference of the Parties to the United Nations Framework Convention on Climate Change and the sixth Conference of the Parties serving as the meeting of the Parties to the Paris Agreement, both held in Baku, from 11 to 22 November 2024, the sixteenth session of the Conference of the Parties to the Convention on Biological Diversity, held in Cali, Colombia, from 21 October to 1 November 2024, and the resumed session held in Rome from 25 to 27 February 2025, and its respective references to the human right to a clean, healthy and sustainable environment,</p>
+      </container>
+      <container name="Recalling" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>all previous reports of the Special Rapporteur on the human right to a clean, healthy and sustainable environment,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">			A/73/188, A/74/161, A/75/161, A/76/179, A/77/284, A/HRC/22/43 A/HRC/25/53, A/HRC/28/61, A/HRC/31/52, A/HRC/31/53, A/HRC/34/49, A/HRC/37/58, A/HRC/37/59, A/HRC/40/55, A/HRC/43/53, A/HRC/43/54, A/HRC/46/28, A/HRC/49/53, A/HRC/52/33 and A/HRC/52/44.</p></authorialNote></p>
+      </container>
+      <container name="Welcoming" eId="container_27">
+        <p xml:space="preserve">		<span class="italic">Welcoming</span> the latest report of the Special Rapporteur on the human right to a clean, healthy and sustainable environment,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	A/HRC/58/59.</p></authorialNote> in which the mandate holder recognized the links between the ocean and human rights, the importance of the ocean in regulating the Earth’s climate, supporting biodiversity, keeping essential ecosystems alive, ensuring sustainable food security and the need to advance adaptive, inclusive, science-driven and ecosystem-based management measures to reduce the vulnerability of the ocean to the harm caused by climate change, pollution, biodiversity loss and land degradation,</p>
+      </container>
+      <container name="Recognizing" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>that environmental degradation and loss of biodiversity often result from and reinforce existing patterns of discrimination, and that environmental harm can have disastrous and at times geographically dispersed consequences for the quality of life of Indigenous Peoples, peasants, local communities and others who rely directly on the products of forests, rivers, lakes, wetlands and the ocean for their food, fuel and medicine, particularly those living in developing countries, coastal States, small island developing States and least developed countries, resulting in further inequality and marginalization,</p>
+      </container>
+      <container name="Recognizing also" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing also </span>that, conversely, the impacts of climate change, the unsustainable management and use of natural resources, the pollution of air, land and water, the unsound management of chemicals and waste, the resulting loss of biodiversity and the decline in ecosystem services may interfere with the enjoyment of a safe, clean, healthy and sustainable environment, and that environmental damage can have negative implications, both direct and indirect, for the effective enjoyment of all human rights,</p>
+      </container>
+      <container name="Recognizing further" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing further </span>that, while the human rights implications of environmental damage are felt by individuals and communities around the world, the consequences are felt most acutely by those segments of the population that are already in vulnerable situations, such as people facing desertification, land degradation, sea level rise, loss of biodiversity and resources, plastic pollution, ocean acidification and degradation, loss of ocean ecosystems, and drought and water scarcity, as well as women and girls,</p>
+      </container>
+      <container name="Emphasizing" eId="container_31">
+        <p xml:space="preserve"> <span class="italic">Emphasizing</span> the importance of undertaking comprehensive environmental and human rights impact assessments prior to authorizing and implementing activities that might harm the ocean or coastal areas, or the rights holders connected to them,</p>
+      </container>
+      <container name="Recalling" eId="container_32">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> that all people on Earth depend directly or indirectly on the ocean and cryosphere, and that communities living in close connection with polar, mountain or coastal environments, particularly in developing countries, small island developing States and least developed countries, are exposed to the current and future hazards of ocean and cryosphere change, including sea level rise, ocean warming, acidification and deoxygenation, ice sheet and glacier mass loss, and permafrost degradation,</p>
+      </container>
+      <container name="Recognizing" eId="container_33">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>the benefits of seeking to mitigate and minimize the negative effects of pollution and other forms of environmental degradation and the importance of the environmentally sound management and disposal of chemicals and waste, including in situations of armed conflict and post-conflict contexts, and expressing its deep concern at the threats posed to the effective enjoyment of human rights, particularly to those of children, women and girls, youth, persons with disabilities, older persons, Indigenous Peoples, refugees, local communities, internally displaced persons, migrants and persons in vulnerable situations,</p>
+      </container>
+      <container name="Recognizing also" eId="container_34">
+        <p xml:space="preserve">		<span class="italic">Recognizing also</span> that plastic pollution poses risks to the effective enjoyment of human rights, including those of coastal fishing communities, remote and island communities, and marginalized urban populations, worsening poverty and threatening livelihoods,</p>
+      </container>
+      <container name="Acknowledging" eId="container_35">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> that the presence of microplastic pollution undermines the environmental conditions necessary for sustainable living and hampers progress towards achieving the Sustainable Development Goals, particularly Goal 14 on life below water and Goal 6 on clean water and sanitation,</p>
+      </container>
+      <container name="Recognizing" eId="container_36">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>that the exercise of human rights, including the freedom to seek, receive and impart information, to participate fully, equally, meaningfully and safely in the conduct of government and public affairs, to have access to justice and the right to an effective remedy, is vital to the respect, protection and promotion of the right to a clean, healthy and sustainable environment,</p>
+      </container>
+      <container name="Recalling" eId="container_37">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>the Guiding Principles on Business and Human Rights, which underscore the responsibility of all business enterprises to respect human rights, including the rights to life, liberty and security of environmental human rights defenders,</p>
+      </container>
+      <container name="Acknowledging" eId="container_38">
+        <p xml:space="preserve">		<span class="italic">Acknowledging</span> the responsibility of businesses to address and disclose their climate impacts transparently while respecting human rights standards, to evaluate and report emissions across their operations and to assess the sustainability of their land and marine activities, and to exercise human rights due diligence in business activities, in accordance with the Guiding Principles on Business and Human Rights and with the best available science and scientific information,</p>
+      </container>
+      <container name="Recognizing" eId="container_39">
+        <p xml:space="preserve">
+          <span class="italic">		Recognizing </span>the positive, important and legitimate role played by children and by child- and youth-led movements that defend human rights relating to a clean, healthy and sustainable environment, and welcoming the work of the Special Rapporteur on the human right to a clean, healthy and sustainable environment in engaging and consulting with children,</p>
+      </container>
+      <container name="Reaffirming" eId="container_40">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>that States have the obligation to respect, protect and promote human rights, including in all actions undertaken to address environmental challenges, and to take measures to protect the rights of all, as recognized in different international instruments and reflected in the framework principles on human rights and the environment,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">			A/HRC/37/59, annex.</p></authorialNote> and that additional measures for those who are particularly vulnerable to environmental harm should be taken,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> 	<span class="italic">Welcomes </span>the work undertaken by the Special Rapporteur on the human right to a clean, healthy and sustainable environment, including in the implementation of the mandate, the comprehensive, transparent and inclusive consultations conducted with relevant stakeholders, and her thematic reports;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">
+            <span class="italic">	Also welcomes </span>the work of the Office of the United Nations High Commissioner for Human Rights on the issue of human rights and the environment, including its collaboration with the Secretary-General, the United Nations Environment Programme and other key partners, and its engagement with multilateral environmental agreements, such as the United Nations Framework Convention on Climate Change, the United Nations Convention to Combat Desertification and the Convention on Biological Diversity;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Further welcomes </span>the work undertaken by the United Nations Environment Programme, the United Nations Development Programme, the United Nations International Children’s Emergency Fund and the United Nations Entity for Gender Equality and the Empowerment of Women in support of the mandate of the Special Rapporteur, and in helping to clarify the relationship between human rights and the environment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> States to engage constructively in the United Nations Ocean Conference, to be held in Nice, France in June 2025, and to consider the human right to a clean, healthy and sustainable environment in its proceedings and outcomes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="MercuryDocument">
+        <num>5.</num>
+        <list eId="para_51_list">
+          <intro eId="para_51_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Calls upon </span>States:</p>
+          </intro>
+          <point eId="para_51_list_point_a">
+            <num>(a)</num>
+            <content eId="para_51_list_point_a_content">
+              <p xml:space="preserve">	To respect, protect and fulfil human rights, including in all actions undertaken to address environmental challenges, including climate change, marine biodiversity loss, pollution and land degradation;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_b">
+            <num>(b)</num>
+            <content eId="para_51_list_point_b_content">
+              <p xml:space="preserve">	To adopt and implement strong laws ensuring, among other things, the rights to participation, to access to information and to justice, including to an effective remedy, in environmental matters;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_c">
+            <num>(c)</num>
+            <content eId="para_51_list_point_c_content">
+              <p xml:space="preserve">	To facilitate public awareness and the participation of civil society, women, children, youth, Indigenous Peoples, peasants, local communities, small-scale fisherfolk and coastal communities, older persons, persons with disabilities, migrants and others who depend directly on biodiversity and ecosystem services in the environmental decision-making process, including regulatory processes, by protecting all human rights, including the rights to freedom of expression and to freedom of peaceful assembly and association;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_d">
+            <num>(d)</num>
+            <content eId="para_51_list_point_d_content">
+              <p xml:space="preserve">	To implement fully their obligations to respect<span class="bold">, </span>protect and fulfil human rights without discrimination of any kind, including in the application of environmental laws and policies;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_e">
+            <num>(e)</num>
+            <content eId="para_51_list_point_e_content">
+              <p xml:space="preserve">	To promote a safe and enabling environment in which individuals, civil society organizations, including environmental human right defenders and those working on human rights and environmental and marine issues can operate free from threats, hindrance and insecurity;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_f">
+            <num>(f)</num>
+            <content eId="para_51_list_point_f_content">
+              <p xml:space="preserve">	To provide for effective remedies for human rights violations and abuses, including those relating to the enjoyment of the human right to a clean, healthy and sustainable environment, in accordance with their international obligations;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_g">
+            <num>(g)</num>
+            <content eId="para_51_list_point_g_content">
+              <p xml:space="preserve">	To establish, maintain and strengthen effective legal and institutional frameworks to regulate the activities of public and private actors in order to prevent, reduce and remedy harm to biodiversity and ecosystems, taking into account human rights obligations and commitments relating to the enjoyment of a clean, healthy and sustainable environment;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_h">
+            <num>(h)</num>
+            <content eId="para_51_list_point_h_content">
+              <p xml:space="preserve">	To implement, in all their activities, the precautionary principle or precautionary approach, as appropriate, for the effective protection of marine and coastal ecosystems;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_i">
+            <num>(i)</num>
+            <content eId="para_51_list_point_i_content">
+              <p xml:space="preserve">	To take into account human rights obligations and commitments relating to the enjoyment of a clean, healthy and sustainable environment in the implementation of and follow-up to the Sustainable Development Goals, including Goal 14, on life below water, and Goal 6, on clean water and sanitation, bearing in mind the integrated and multisectoral nature of the latter;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_j">
+            <num>(j)</num>
+            <content eId="para_51_list_point_j_content">
+              <p xml:space="preserve">	To respect and promote the knowledge of Indigenous Peoples, in accordance with their free, prior and informed consent, as well as the traditional knowledge of local communities and local knowledge systems in ocean governance;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_k">
+            <num>(k)</num>
+            <content eId="para_51_list_point_k_content">
+              <p xml:space="preserve">	To increase funding and support for, and collaboration with, grass-roots women’s organizations working on environmental and human rights issues, and for the implementation of gender action plans under multilateral environmental agreements;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_l">
+            <num>(l)</num>
+            <content eId="para_51_list_point_l_content">
+              <p xml:space="preserve"> 	To mobilize and allocate adequate, predictable and sustainable funding for technical assistance and capacity-building initiatives in supporting legal and policy development, institutional strengthening, knowledge-sharing and multi-stakeholder cooperation to effectively implement the right to a clean, healthy and sustainable environment;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_56" class="MercuryDocument">
+        <num>6.</num>
+        <list eId="para_56_list">
+          <intro eId="para_56_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Encourages </span>States:</p>
+          </intro>
+          <point eId="para_56_list_point_a">
+            <num>(a)</num>
+            <content eId="para_56_list_point_a_content">
+              <p xml:space="preserve">	To adopt ecosystem-based integrated, intersecting and holistic national and local policies and an effective legal framework that acknowledges the need to protect and restore the ocean for the enjoyment of the human right to a clean, healthy and sustainable environment;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_b">
+            <num>(b)</num>
+            <content eId="para_56_list_point_b_content">
+              <p xml:space="preserve">	To address compliance with human rights obligations relating to the enjoyment of the human right to a clean, healthy and sustainable environment in the framework of human rights mechanisms, including the universal periodic review, and the submission of State party reports to relevant United Nations human rights treaty bodies;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_c">
+            <num>(c)</num>
+            <content eId="para_56_list_point_c_content">
+              <p xml:space="preserve">	To build capacities for efforts to protect the environment in order to fulfil their human rights obligations and commitments, and to enhance cooperation with other States, the Office of the United Nations High Commissioner for Human Rights, the rest of the United Nations system and other relevant international and regional organizations, agencies, convention secretariats and programmes, and relevant non‑State stakeholders, including civil society, national human rights institutions and business, on the further development and implementation of the human right to a clean, healthy and sustainable environment, in accordance with their respective mandates;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_d">
+            <num>(d)</num>
+            <content eId="para_56_list_point_d_content">
+              <p xml:space="preserve">	To cooperate in formulating and developing rules, standards, recommended practices and procedures based on human rights and the best available scientific knowledge, to counter marine pollution, integrating the traditional knowledge of Indigenous Peoples, small-scale fisherfolk and local communities;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_e">
+            <num>(e)</num>
+            <content eId="para_56_list_point_e_content">
+              <p xml:space="preserve">	To cooperate with other States to advance the protection, conservation and remediation of the ocean and coastal areas, including through the implementation of international law and the incorporation of international human rights law obligations, standards and guidelines for ocean management;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_f">
+            <num>(f)</num>
+            <content eId="para_56_list_point_f_content">
+              <p xml:space="preserve">	To explore ways to incorporate information on human rights and the environment, including the marine environment, in school curricula, in order to teach current and future generations to act as agents of change, including by taking into account the traditional knowledge of Indigenous Peoples;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_g">
+            <num>(g)</num>
+            <content eId="para_56_list_point_g_content">
+              <p xml:space="preserve">	To seek to ensure that projects supported by environmental finance mechanisms respect all human rights;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_h">
+            <num>(h)</num>
+            <content eId="para_56_list_point_h_content">
+              <p xml:space="preserve">	To collect disaggregated data on the effects of environmental harm, including the loss of biodiversity and the decline of ecosystem services, on persons in vulnerable situations;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_i">
+            <num>(i)</num>
+            <content eId="para_56_list_point_i_content">
+              <p xml:space="preserve">	To promote and accelerate human rights-based environmental action that is gender-responsive and includes gender equality and the empowerment of women and girls, and takes into consideration the vulnerability of ecosystems and the needs of persons and communities in vulnerable situations;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_j">
+            <num>(j)</num>
+            <content eId="para_56_list_point_j_content">
+              <p xml:space="preserve">	To continue to share good practices in fulfilling human rights obligations relating to the human right to a clean, healthy and sustainable environment through the good practices database maintained by the Special Rapporteur;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_k">
+            <num>(k)</num>
+            <content eId="para_56_list_point_k_content">
+              <p xml:space="preserve">	To facilitate expert exchange of knowledge and ideas, building synergies between the protection of human rights and the protection of the environment, and to promote coherence among different policy areas, bearing in mind an integrated and multisectoral approach and considering that efforts to protect the environment must fully respect other human rights obligations, including those relating to gender equality;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_l">
+            <num>(l)</num>
+            <content eId="para_56_list_point_l_content">
+              <p xml:space="preserve">	To strengthen their efforts to protect biodiversity, including by updating and implementing their national biodiversity strategies and action plans, thereby contributing to the achievement of the Kunming-Montreal Global Biodiversity Framework under the Convention on Biological Diversity;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_m">
+            <num>(m)</num>
+            <content eId="para_56_list_point_m_content">
+              <p xml:space="preserve">	To build capacity within the judicial sector to understand the relationship between human rights and the environment;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_n">
+            <num>(n)</num>
+            <content eId="para_56_list_point_n_content">
+              <p xml:space="preserve">	To foster a responsible private business sector and to encourage corporate sustainability reporting while respecting the Guiding Principles on Business and Human Rights and environmental standards, in accordance with relevant international agreements;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_o">
+            <num>(o)</num>
+            <content eId="para_56_list_point_o_content">
+              <p xml:space="preserve">	To ratify the Agreement under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas beyond National Jurisdiction;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_62" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes </span>the important role played by individuals and civil society organizations, including human rights defenders and environmental human right defenders, in the promotion and protection of human rights as they relate to the enjoyment of the human right to a clean, healthy and sustainable environment, including biodiversity and ecosystems;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes </span>the important role of national human rights institutions to support and promote the enjoyment of the human right to a clean, healthy and sustainable environment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> relevant United Nations agencies, funds and programmes, other international organizations, treaty bodies, academia and civil society organizations to promote the implementation of the human right to a clean, healthy and sustainable environment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the need for enhanced cooperation among States, the United Nations Environment Programme, the United Nations Development Programme, the Food and Agriculture Organization of the United Nations, the Office of the High Commissioner, the World Health Organization, the International Organization for Migration, the International Labour Organization and other relevant international and regional organizations, agencies, conventions and programmes, in accordance with their respective mandates, including by regularly exchanging knowledge and ideas and building synergies for the respect, promotion and protection of the human right to a clean healthy and sustainable environment, bearing in mind an integrated and multisectoral approach;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>all States to conserve, protect and restore healthy ecosystems and biodiversity and to ensure their sustainable management and use by applying a human rights-based approach that emphasizes participation, inclusion, transparency and accountability in the management of natural resources;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain seized of the matter, in accordance with its annual programme of work.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="57th" refersTo="#adoptionMeeting">57th meeting</location>
+          <eol />
+          <docDate date="2025-04-03" refersTo="#adoptionDate">3 April 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
