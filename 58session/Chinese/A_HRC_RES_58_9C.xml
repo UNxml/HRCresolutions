@@ -1,0 +1,464 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-9/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-9/"></FRBRuri>
+          <FRBRdate date="2025-04-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-9/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-9/zho@/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-9/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-9/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC, SOCIAL AND CULTURAL RIGHTS" href="http://metadata.un.org/thesaurus/1001882" showAs="ECONOMIC, SOCIAL AND CULTURAL RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL SECURITY" href="http://metadata.un.org/thesaurus/1005985" showAs="SOCIAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT FINANCE" href="http://metadata.un.org/thesaurus/021000" showAs="DEVELOPMENT FINANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RESOURCES MOBILIZATION" href="http://metadata.un.org/thesaurus/1005517" showAs="RESOURCES MOBILIZATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL JUSTICE" href="http://metadata.un.org/thesaurus/1005970" showAs="SOCIAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-25" outcome="draftResolution" as="A/HRC/58/L.7" by="Albania, Armenia, Austria, Belgium, Bolivia (Plurinational State of), Bulgaria, Canada, Chile, Croatia, Cyprus, Ecuador, Estonia, Finland, France, Germany, Greece, Honduras, Iceland, Ireland, Latvia, Lithuania, Luxembourg, Malawi, Mexico, Montenegro, Netherlands (Kingdom of the), North Macedonia, Norway, Paraguay, Portugal, Slovakia, Slovenia, South Africa, Spain, Sweden, Thailand and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-04" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-04" outcome="adopted" as="Adopted without vote, 56th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/9</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-04" class="rightSmall" refersTo="#dateOfIssuance">4 April 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">第五十八届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 二月</date>
+          <date date="2025-04-04" refersTo="#endDate">4 四月 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、 经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2025年4月3日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/9.</docNumber>
+        <docTitle refersTo="#resolutionTitle">在所有国家实现经济、社会及文化权利问题</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会，</span>
+        </p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">遵循</span>《联合国宪章》的宗旨和原则，</p>
+      </container>
+      <container name="又遵循" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">又遵循</span>《世界人权宣言》、《经济社会文化权利国际公约》和所有其他相关人权文书，并遵循其中所载有关经济、社会及文化权利的各项原则，</p>
+      </container>
+      <container name="重申" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">重申</span>人人生而自由，在尊严和权利上一律平等，确认这些权利源于人的固有尊严，</p>
+      </container>
+      <container name="回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">回顾</span>如《维也纳宣言和行动纲领》等文件所述，所有人权是普遍、不可分割、相互关联、相互依存、相辅相成的，必须以公正和平等的方式，在同样的基础上，以同样的重视程度，对待所有人权；又回顾尊重、保护和实现某一类权利从来不应免除各国尊重、保护和实现其他权利的义务，</p>
+      </container>
+      <container name="重申" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">重申</span>人权理事会关于在所有国家实现经济、社会及文化权利问题的各项决议，最近一项为理事会2023年4月3日第52/11号决议，并重申人权委员会就同一主题通过的各项决议，</p>
+      </container>
+      <container name="回顾" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">回顾</span>可持续发展目标及其相互关联的各项具体目标，这些目标涵盖与经济、社会及文化权利有关的广泛问题，并承认促进、保护和实现人权与落实《2030年可持续发展议程》相互关联、相辅相成，</p>
+      </container>
+      <container name="认识到" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">认识到</span>《2030年议程》遵循了《宪章》的宗旨和原则，包括充分尊重国际法，依据了《世界人权宣言》、各项国际人权条约、《联合国千年宣言》和《2005年世界首脑会议成果文件》，并参考了《发展权利宣言》等其他文书，</p>
+      </container>
+      <container name="回顾" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会2015年7月27日关于《第三次发展筹资问题国际会议亚的斯亚贝巴行动议程》的第69/313号决议，该议程是《2030年议程》不可或缺的组成部分，为后者提供支持和补充，有助于将关于执行手段的具体目标与具体政策和行动结合起来，并再次做出了坚定的政治承诺，要本着全球伙伴关系和团结一致的精神应对挑战，为可持续发展筹措资金并在各级营造有利的环境，又回顾大会2023年12月22日第78/231号决议，其中大会决定于2025年召开第四次发展筹资问题国际会议，</p>
+      </container>
+      <container name="注意到" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">注意到</span>大会通过了载有《未来契约》及其附件的2024年9月22日第79/1号决议，并回顾除其他外题为“可持续发展和发展筹资”的第一章和题为“变革全球治理”的第五章所载的承诺，</p>
+      </container>
+      <container name="回顾" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会2016年9月19日通过的《关于难民和移民的纽约宣言》，该宣言之后通过了《难民问题全球契约》和《安全、有序和正常移民全球契约》，这两项契约涉及所有难民和移民的人权，无论其地位如何，而且承诺充分保护这些权利，包括经济、社会及文化权利，</p>
+      </container>
+      <container name="重申" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">重申</span>《经济社会文化权利国际公约》缔约国的义务和承诺，即最大限度地利用现有资源，单独并通过国际援助和合作，特别是经济和技术援助及合作，采取步骤，以期利用一切适当手段，特别是采取立法措施，逐步充分实现经济、社会及文化权利，</p>
+      </container>
+      <container name="注意到" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">注意到</span>经济、社会及文化权利委员会第3号一般性意见(1990年)，委员会在这项意见中指出，《经济社会文化权利国际公约》的每一个缔约国都承担着一项最低核心义务――确保每一项权利至少达到最低基本水平；它们还有义务不在保护经济、社会及文化权利方面采取倒退措施，</p>
+      </container>
+      <container name="又注意到" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">又注意到</span>国际劳工组织2012年《社会保护底线建议书》(第202号)，</p>
+      </container>
+      <container name="着重指出" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">着重指出</span>国际人权法和《维也纳宣言和行动纲领》申明的各项人权原则，特别是不歧视和平等、人的尊严、公平、普遍性、不可分割性、相互关联性、参与和问责等原则，并强调要以不歧视的方式实现《经济社会文化权利国际公约》宣示的各项权利，</p>
+      </container>
+      <container name="回顾" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">回顾</span>《经济社会文化权利国际公约》所载确保男女在《公约》规定的所有经济、社会及文化权利方面享有平等权利的义务；又回顾将性别平等和增强所有妇女和女童权能作为一项单独目标列入《2030年议程》，并将其纳入该议程的所有目标和具体目标及整个实施过程，</p>
+      </container>
+      <container name="认识到" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">认识到</span>确立国家界定的促进性别平等的社会保护最低标准是促进经济、社会及文化权利的享有的关键途径，社会保护最低标准作为一种基线，有可能通过提倡保障基本收入、体面工作、同工同酬以及普遍获得保健和基本服务来减轻贫困和不平等状况，</p>
+      </container>
+      <container name="又认识到" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>所有人权的普遍性和不可分割性、强有力和高效的公共政策、资源充足和充分运作的服务以及国家、区域和国际各级的合作对于实现所有经济、社会及文化权利，包括妇女和女童、老年人、残疾人、移民、难民、农民和其他农村地区劳动者以及土著人民的经济、社会及文化权利来说十分重要，</p>
+      </container>
+      <container name="关切地注意到" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">关切地注意到</span>，日益严重的经济和金融动荡进一步加剧了现有的不平等，加剧了贫穷、饥饿和营养不良，使来之不易的发展增益化为乌有，并降低了实现可持续发展目标的可能性，</p>
+      </container>
+      <container name="认识到" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">认识到</span>技术在增加机会和加剧不平等方面的潜在影响，并在这方面认识到消除数字鸿沟的重要性，强调需要促进包容性数字发展、技术获取、数字素养和数字公共基础设施，从而加快在落实可持续发展目标方面取得进展，这些目标涵盖与经济、社会及文化权利有关的广泛问题，</p>
+      </container>
+      <container name="重申" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">重申</span>按照各国在国际人权法之下承担的义务，包括在制定和执行促进实现人人享有人权的经济政策过程中，增强人民权能并确保平等和包容，是实现可持续发展的要素，并在这方面铭记经济、社会及文化权利的规范框架可为更有效、更包容地落实《2030年议程》提供指导，</p>
+      </container>
+      <container name="认识到" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">认识到</span>国家内部持续存在且日益加剧的不平等和公共服务投资不足对实现经济、社会及文化权利构成重大挑战，尤其影响到妇女和女童、青年和贫困者以及处境脆弱者，包括儿童、老年人和残疾人，并回顾国家在不歧视和促进平等方面的义务，以及国家不让任何人掉队和首先帮助落在最后面者的承诺，</p>
+      </container>
+      <container name="注意到" eId="container_23">
+        <p xml:space="preserve">	<span class="bold">注意到</span>基于人权的可持续发展方针的一个重要方面是增进人们对人权的了解，包括对经济、社会及文化权利的了解，从而使个人和利益攸关方能够以有意义、自由和积极的方式，包括通过行使公民权利和政治权利，参与影响其生活的决策进程，</p>
+      </container>
+      <container name="重申" eId="container_24">
+        <p xml:space="preserve">	<span class="bold">重申</span>实现经济、社会及文化权利对于消除包括极端贫困在内的一切形式和表现的贫困和不平等的重要性，同时考虑到《关于极端贫困与人权的指导原则》，并重申对所有人的基本服务，包括卫生、教育、适当住房和社会保护进行投资并确保其公平获得的重要性，并承认在改善生活和生计以及实现人人享有人权方面进展缓慢，</p>
+      </container>
+      <container name="表示深为关切" eId="container_25">
+        <p xml:space="preserve">	<span class="bold">表示深为关切</span>发展中国家面临的可持续发展目标资金缺口日益扩大，阻碍了涵盖与经济、社会及文化权利有关的广泛问题的可持续发展目标的实现，不平等现象日益扩大，</p>
+      </container>
+      <container name="关切地认识到" eId="container_26">
+        <p xml:space="preserve">	<span class="bold">关切地认识到</span>气候变化的不利影响，特别是对包括小岛屿发展中国家在内的易受气候影响国家的不利影响，这些影响损害了包括经济、社会及文化权利在内的各项人权的享有，并强调指出有必要根据《联合国气候变化框架公约》和《巴黎协定》增加气候资金，以支持适应和减缓措施并处理损失和损害，</p>
+      </container>
+      <container name="表示深为关切" eId="container_27">
+        <p xml:space="preserve">	<span class="bold">表示深为关切</span>出现了不可持续的债务负担和过高的偿债成本，可能会影响政府在公共服务和社会保护方面的支出，并认识到必须确保因公共债务和外债而产生的偿债承诺不会妨碍国家履行其尊重、保护和实现人权，包括经济、社会及文化权利的义务的能力，</p>
+      </container>
+      <container name="确认" eId="container_28">
+        <p xml:space="preserve">	<span class="bold">确认</span>国际金融架构的进一步改革是为可持续发展目标调动更多公共和私人资金的重要一步，特别是在发展中国家，有助于减少不平等现象，使各国能够优先调动和分配资源，以维护经济、社会及文化权利，</p>
+      </container>
+      <container name="又确认" eId="container_29">
+        <p xml:space="preserve">	<span class="bold">又确认</span>各国在促进全民健康覆盖、提供优质包容性教育和终身学习机会、人人获得体面工作和普遍获得社会保护时，必须履行经济、社会及文化权利方面的义务，促进有效和累进的税收和调动国家经济资源的财政政策，包括采取措施打击腐败、非法资金流动、逃税和避税，降低汇款交易费用，所有这些对消除贫穷、减少不平等和为可持续发展筹资至关重要，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>所有国家加强法律框架，通过适当政策和方案，为这些政策和方案的实施拨出足够资源，从而尊重、保护和实现所有经济、社会及文化权利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有国家执行人权理事会关于在所有国家实现经济、社会及文化权利问题的各项决议，最近一项为第52/11号决议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>最近有国家加入《经济社会文化权利国际公约》，并吁请所有尚未签署和批准或加入《公约》的国家考虑作为优先事项签署和批准或加入《公约》，并吁请缔约国考虑审查对《公约》的保留；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="bold">又欢迎</span>最近有国家加入《经济、社会、文化权利国际公约任择议定书》，并吁请所有尚未签署和批准或加入《任择议定书》的国家考虑签署和批准或加入《议定书》，并考虑根据《议定书》第十和第十一条作出声明；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>秘书长关于在所有国家实现经济、社会及文化权利问题的报告，其中特别侧重加强落实社会保障权方面的挑战和良好做法；<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/zh/A/HRC/58/37">A/HRC/58/37</a>.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>根据第52/11号决议在人权理事会第五十五届会议期间举行的关于实现社会保障权和提供优质公共服务方面的挑战和良好做法的小组讨论会；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>联合国人权事务高级专员关于实现社会保障权方面可行做法的实用情况说明，并鼓励联合国人权事务高级专员办事处继续并加强其在经济、社会及文化权利方面的工作，尤其是在社会保护领域的工作，协助各国不加歧视地实现社会保障权；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="bold">认识到</span>所有国家都有潜力扩大对包容性和公平的优质教育、身心健康、适当住房和社会保护的投资，这有助于履行其关于实现经济、社会和文化权利的义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>包括国际人权条约机构、人权理事会及其附属机构、特别程序及普遍定期审议在内的各项国际人权机制在推动各国根据其人权义务实施《2030年可持续发展议程》方面作出的贡献，鼓励各国在实施《2030年议程》以及监测其进展时，对人权机制提出的信息、意见和建议给予应有的考虑，并推动所有利益攸关方开展合作，设法将人权充分纳入上述进程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="bold">着重指出</span>就侵犯经济、社会及文化权利的行为，包括系统性侵犯行为诉诸司法并获得有效补救的重要性；在这方面赞赏地注意到各国在国内案件裁决机制方面以及为确保据称人权遭到侵犯者利用申诉程序而采取的措施，并呼吁各国加强努力，确保人们能够在国家、区域和国际各级获得司法和非司法补救；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>在国家一级为落实经济、社会及文化权利采取的步骤，包括颁布适当立法和由国家法院作出裁决，并在这方面着重指出，在确定赋予《经济社会文化权利国际公约》所载各项权利以国内法律效力的最佳方式时，有必要考虑可诉性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>国内法院可在经济、社会及文化权利的法律实施方面发挥作用，这有助于查明在实现这些权利方面的立法差距，并有助于评估《经济社会文化权利国际公约》缔约国在充分实现这些权利方面的遵约情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="bold">又确认</span>社会保护最低标准可按照各国的人权义务，促进人们享有经济、社会及文化权利，包括受教育权、社会保障权、工作权(包括公正和良好的工作条件权)、享有可达到的最高标准身心健康权、适当生活水准权(包括适足食物、衣服和适当住房权)以及享有安全饮用水和卫生设施的权利；在这方面，强调有必要采取一致行动，以便按照不歧视和平等、性别平等和包容残疾人、透明、参与和问责的原则，制定和/或进一步发展这种最低标准；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="bold">还确认</span>妇女和女童对可持续发展的重要贡献，重申性别平等、增强所有妇女和女童的权能以及妇女充分、平等和有意义地参与和领导经济，对于实现可持续发展，促进和平、公正和包容的社会，促进持久、包容和可持续的经济增长和生产力，在全世界消除一切形式的贫困以及确保所有人的福祉至关重要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxtGC">
+        <num>15.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>采用国际人权标准以及人权机构和机制的建议，找到歧视的根源，特别是多重和加重形式歧视的根源，采取消除歧视和不平等所需采取的措施；吁请各国找出法律、政策和做法中一贯存在的歧视现象，并处理会造成并延续几代人的不平等现象的根深蒂固的结构性障碍和不平等的权力关系；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_150" class="SingleTxtGC">
+        <num>16.</num>
+        <list eId="para_150_list">
+          <intro eId="para_150_list_intro">
+            <p xml:space="preserve">	<span class="bold">吁请</span>各国：</p>
+          </intro>
+          <point eId="para_150_list_point_a">
+            <num>(a)</num>
+            <content eId="para_150_list_point_a_content">
+              <p xml:space="preserve">	制定、进一步发展、使用和推广信息收集和衡量程序，包括补充和不限于国内生产总值和国家层面人权指标的可持续发展进展替代衡量方法，以支持决策进程，衡量在落实法律、政策和行动以尊重、保护和实现经济社会及文化权利，处理歧视和不平等问题方面取得的进展，同时注意这些程序应尊重人权，包括隐私权，并具有透明度、参与性，考虑到问责；</p>
+            </content>
+          </point>
+          <point eId="para_150_list_point_b">
+            <num>(b)</num>
+            <content eId="para_150_list_point_b_content">
+              <p xml:space="preserve">	按照《关于促进和保护人权的国家机构的地位的原则》(《巴黎原则》)加强国家人权机构的作用和能力，并加强平等机构的作用和能力，保护公民空间，推动加强经济、社会及文化权利的实现，并支持利益攸关方确定在国家和地方各级为实现可持续发展目标需要采取的适当措施；</p>
+            </content>
+          </point>
+          <point eId="para_150_list_point_c">
+            <num>(c)</num>
+            <content eId="para_150_list_point_c_content">
+              <p xml:space="preserve">	考虑建立和/或加强人权义务和建议的执行、报告和后续行动国家机制，认识到这些机制可促进执行、报告和后续行动进程，而且有潜力采取跨领域举措，加强经济、社会及文化权利的实现，跟踪和审查在实现可持续发展目标、履行国际社会和各国在联合国各次会议和首脑会议上所作承诺方面的进展；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxtGC">
+        <num>17.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="bold">肯定</span>经济、社会及文化权利委员会为协助《经济社会文化权利国际公约》缔约国履行义务而开展的工作，包括详细拟订一般性意见，审议定期报告，以及就《公约任择议定书》缔约国而言，审查个人来文；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="SingleTxtGC">
+        <num>18.</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve">	<span class="bold">又肯定</span>其他相关条约机构和特别程序在任务范围内为促进和保护经济、社会及文化权利而开展的工作，肯定普遍定期审议在这方面的重要作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_201" class="SingleTxtGC">
+        <num>19.</num>
+        <content eId="para_201__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>经济、社会及文化权利委员会与从事经济、社会及文化权利相关活动的其他人权条约机构、联合国机构、专门机构和方案以及人权理事会各项机制，以尊重各自不同任务并推进各自政策、方案和项目的方式，增进合作并加强协调；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="SingleTxtGC">
+        <num>20.</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve">	<span class="bold">承认并鼓励</span>区域组织、国家人权机构、国家执行、报告和后续行动机制、地方和地区政府、土著人民以及包括非政府组织在内的民间社会、学术和研究机构、工商企业和工会对促进和保护经济、社会及文化权利作出重要贡献，包括开展培训和宣传活动，并强调在决策中必须征求受影响者的意见并让其参与影响自身的决策；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_240" class="SingleTxtGC">
+        <num>21.</num>
+        <content eId="para_240__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国根据《工商企业与人权指导原则》，向工商企业提供有效指导，指导它们如何在整个经营过程中履行尊重人权包括尊重经济、社会及文化权利的责任，并设法防止或减轻因其商业关系而与其业务、产品或服务直接相关的不利人权影响，即使它们没有导致这些影响；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_261" class="SingleTxtGC">
+        <num>22.</num>
+        <content eId="para_261__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>执行有针对性的措施，以实现社会保护筹资目标，消除贫困，处理一切形式和表现的贫困，包括极端贫困和贫穷女性化现象，除其他外，实施减少不平等和考虑到可持续农业、粮食安全和营养层面以及食物权的农村发展战略，投资于公共服务、社会部门以及便于包括残疾人在内的所有人利用并能够应对冲击的设计良好、可持续和高效的社会保障制度，采取有效措施，使所有人享有社会保障权，包括提高社会保障的覆盖率；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_283" class="SingleTxtGC">
+        <num>23.</num>
+        <content eId="para_283__content">
+          <p xml:space="preserve">	<span class="bold">又鼓励</span>为包括年轻人在内的所有人创造体面工作和生计，特别是在发展中国家，同时促进非正规部门工人向正规部门过渡，消除照护经济中的不平等现象，同时考虑到妇女在无偿或低薪的照护和家务工作中的不平等比例，以及妇女在非正规部门过高的比例；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_306" class="SingleTxtGC">
+        <num>24.</num>
+        <content eId="para_306__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>必须从所有来源向发展中国家提供和调动可持续、负担得起、便于获得、透明、充足和可预测的发展资金和必要的执行手段，必须在全球、区域和国家各级创造更有利的环境，以进一步调动国内资源，这有助于实现经济、社会及文化权利，同时确认发展融资和气候融资在这方面的重要作用；强调履行官方发展援助承诺的重要性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_330" class="SingleTxtGC">
+        <num>25.</num>
+        <content eId="para_330__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>国际金融机构继续支持各国努力建立强有力的机构，确保能够在多重危机时期建立经济和社会复原力的善治，并在提供支持时考虑到社会支出的优先次序和扩大国家财政空间，即提高公共支出效率、改善债务管理、获得外部融资、调动国内资源和降低汇款费用，并考虑酌情使用多维脆弱性指数，同时协同参与国际援助与合作，所有这些都有助于实现经济、社会及文化权利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_355" class="SingleTxtGC">
+        <num>26.</num>
+        <content eId="para_355__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国加强多边应对措施，在有关国家和所有相关行为体的切实参与下，为不能持续承受债务的国家提供支持，将政府支出优先用于实现涵盖与经济、社会及文化权利有关的广泛问题的可持续发展目标，并酌情利用债务换可持续发展目标的做法，并制定补充和不限于国内生产总值的可持续发展进展衡量方法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_381" class="SingleTxtGC">
+        <num>27.</num>
+        <content eId="para_381__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国在促进包容和有效的国际税务合作时考虑到在经济、社会及文化权利方面的义务，因为这使各国能够有效调动国内资源，并继续建设性地参与制定联合国国际税务合作框架公约的进程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_408" class="SingleTxtGC">
+        <num>28.</num>
+        <content eId="para_408__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>联合国人权事务高级专员办事处主要通过技术合作开展的促进经济、社会及文化权利的活动，并赞赏地注意到其外地办事处的工作，向联合国机构提交的相关报告，内部专门知识的开发，包括人权指标相关知识的开发，以及关于相关议题的出版物、研究报告、培训和宣传活动，包括利用新的信息技术开展的这类活动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_436" class="SingleTxtGC">
+        <num>29.</num>
+        <content eId="para_436__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国确保在2025年第四次发展筹资问题国际会议和2025年第二次社会发展问题世界首脑会议上取得丰硕成果，以弥补可持续发展目标资金缺口和社会保护资金缺口，加快落实《2030年议程》和实现可持续发展目标，并推动实现经济、社会及文化权利，所有这些工作都是相互关联和相辅相成的；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_465" class="SingleTxtGC">
+        <num>30.</num>
+        <content eId="para_465__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>在第六十一届会议期间召开一次小组讨论会，由高级专员组织，对残疾人无障碍，并对各国、地方主管机构、相关条约机构和人权理事会特别程序、学术界、民间社会和其他相关利益攸关方开放，讨论调动公共资源为可持续发展提供资金的可行做法和措施，这些方法和措施应符合各国在经济、社会及文化权利方面义务并考虑到将于2025年举行的第四次发展筹资问题国际会议和第二次社会发展问题世界首脑会议的成果；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_495" class="SingleTxtGC">
+        <num>31.</num>
+        <content eId="para_495__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长在议程项目3下，以对残疾人无障碍的方式编写并向人权理事会第六十四届会议提交一份关于在所有国家实现经济、社会及文化权利问题的报告，特别侧重于以符合各国经济、社会及文化权利的方式调动公共资源为可持续发展提供资金，同时考虑到将在第六十一届会议上召开的小组讨论会的结果；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_526" class="SingleTxtGC">
+        <num>32.</num>
+        <content eId="para_526__content">
+          <p xml:space="preserve">	<span class="bold">请</span>人权理事会咨询委员会尽可能与高级专员办事处协商，以对残疾人无障碍的方式编写一份关于通过国内法院在法律层面实施经济、社会及文化权利而实现社会正义的研究报告，并向人权理事会第六十四届会议提交该研究报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_558" class="SingleTxtGC">
+        <num>33.</num>
+        <content eId="para_558__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续审议这一议题，并考虑为执行本决议采取进一步行动。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第56次" refersTo="#adoptionMeeting">第56次会议</location>
+          <eol />
+          <docDate date="2025-04-03" refersTo="#adoptionDate">2025年4月3日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
