@@ -1,0 +1,251 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/"></FRBRuri>
+          <FRBRdate date="2025-04-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/rus@/"></FRBRuri>
+          <FRBRdate date="2025-04-03" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Advisory Committee" showAs="UN. Human Rights Council. Advisory Committee" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNOLOGY" href="http://metadata.un.org/thesaurus/1006429" showAs="TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NERVOUS SYSTEM" href="http://metadata.un.org/thesaurus/1004376" showAs="NERVOUS SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-27" outcome="draftResolution" as="A/HRC/58/L.9" by="Albania, Andorra, Armenia, Austria, Belgium, Bulgaria, Chile, Costa Rica, Croatia, Cyprus, Czechia, Ecuador, France, Germany, Greece, Guatemala, Hungary, Italy, Luxembourg, Malta, Monaco, Montenegro, Paraguay, Portugal, Romania, Singapore, Slovenia, Spain, Switzerland, Ukraine and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-03" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-03" outcome="adopted" as="Adopted without vote, 55th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-03" class="rightSmall" refersTo="#dateOfIssuance">3 April 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">Пятьдесят восьмая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 февраля</date>
+          <date date="2025-04-04" refersTo="#endDate">4 апреля 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Пункт 3 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита всех прав человека,  гражданских, политических, экономических,  социальных и культурных прав,  включая право на развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 2 апреля 2025 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Нейротехнологии и права человека</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека,</span>
+        </p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">руководствуясь</span> целями и принципами Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span> Всеобщую декларацию прав человека, Международный пакт о гражданских и политических правах, Международный пакт об экономических, социальных и культурных правах, Венскую декларацию и Программу действий, Конвенцию о правах ребенка, Конвенцию о правах инвалидов и другие соответствующие международные и региональные договоры по правам человека,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюцию 51/3 Совета по правам человека о нейротехнологиях и правах человека от 6 октября 2022 года и все другие соответствующие резолюции Совета, включая резолюции 52/12 от 3 апреля 2023 года о психическом здоровье и правах человека, 53/29 от 14 июля 2023 года о новых и появляющихся цифровых технологиях и правах человека, 54/21 от 12 октября 2023 года о праве на неприкосновенность частной жизни в цифровой век, 56/7 от 10 июля 2024 года о свободе мнений и их свободном выражении и 57/29 от 11 октября 2024 года о поощрении, защите и осуществлении прав человека в Интернете,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span> важность поощрения и защиты права каждого человека участвовать в научном прогрессе и пользоваться его благами,</p>
+      </container>
+      <container name="признавая" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">признавая </span>определяющую роль всеобщего и полноценного подключения к сетям связи и приемлемого по цене доступа в деле раскрытия всего потенциала цифровых и новейших технологий для устранения всех цифровых разрывов и ускорения прогресса в достижении Целей в области устойчивого развития,</p>
+      </container>
+      <container name="памятуя" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">памятуя </span>о том, что новые и новейшие цифровые технологии могут стать важнейшими факторами развития, и подчеркивая необходимость устранения всех цифровых разрывов с целью обеспечения того, чтобы преимущества новых и новейших цифровых технологий были доступны для всех без какой-либо дискриминации,</p>
+      </container>
+      <container name="ссылаясь" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">ссылаясь </span>на то, что обязанность и основная ответственность за поощрение и защиту прав человека и основных свобод возложена на государство и что в Руководящих принципах предпринимательской деятельности в аспекте прав человека: осуществление рамок Организации Объединенных Наций, касающихся «защиты, соблюдения и средств правовой защиты», установлено, что государства обязаны защищать, а предприятия — уважать права человека, в том числе проявляя должную осмотрительность в вопросах прав человека, в частности, путем оценки фактического и потенциального воздействия на права человека, учета ее выводов и принятия мер на их основе, отслеживания ответных действий и распространения информации о том, каким образом устраняется воздействие,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание</span>, что нейротехнологии позволяют подключать мозг человека непосредственно к цифровым сетям с помощью устройств и процедур, которые могут использоваться, среди прочего, для получения доступа к нервной системе и сознанию человека, их мониторинга, регулирования и изменения, и что последствия и эффект этих действий еще не до конца понятны,</p>
+      </container>
+      <container name="признавая," eId="container_10">
+        <p xml:space="preserve">	<span class="italic">признавая,</span> что нейротехнологии могут быть перспективными для здоровья человека и инноваций, но, в то же время, что продолжение работы над некоторыми видами их применения может вызывать ряд этических, правовых и социальных вопросов и иметь последствия для человеческого достоинства и автономии, что делает необходимым обеспечение эффективного уважения, защиты и реализации прав человека в этом контексте,</p>
+      </container>
+      <container name="признавая также" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">признавая также</span>, что нейротехнологии могут открывать самые разные возможности, в том числе улучшать коммуникацию, помогать в получении образования и обучении, повышать доступность и мобильность, поощрять инклюзивность и уважение нейроразнообразия, улучшать психическое здоровье и благополучие, создавать новые возможности для обезболивания и стимулировать инновации в области интерфейса «мозг — компьютер»,</p>
+      </container>
+      <container name="с озабоченностью отмечая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">с озабоченностью отмечая</span>, что стремительное развитие нейротехнологий ставит под угрозу физическую и психическую целостность и защиту прав человека, в том числе право на равенство и недискриминацию, право на свободу мысли, право на частную жизнь, право на наивысший достижимый уровень физического и психического здоровья, запрет пыток и других жестоких, бесчеловечных или унижающих достоинство видов обращения и наказания, а также право на справедливое судебное разбирательство и основные процессуальные гарантии,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span>, что в докладе об этических аспектах нейротехнологий Международного комитета по биоэтике Организации Объединенных Наций по вопросам образования, науки и культуры указывается, что в условиях роста нейротехнологических возможностей изменения нервной системы, а в перспективе и сознания, в том числе инвазивным и первазивным способом, необходимо уделять внимание вопросам неприкосновенности человеческого тела, в частности мозга и сознания,</p>
+      </container>
+      <container name="памятуя" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">памятуя </span>о необходимости обеспечить доступ всех людей, включая тех, кто находится в уязвимом положении, к не нарушающим права человека, безопасным и надежным нейротехнологиям на недискриминационных и доступных с финансовой точки зрения условиях и обеспечить на практике эффективную защиту их человеческого достоинства и прав от негативного воздействия и злоупотреблений на этапах разработки и внедрения, а также предоставить доступ к нейротехнологиям людям, которые могут воспользоваться ими в медицинских и оздоровительных целях,</p>
+      </container>
+      <container name="подчеркивая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что для всех нейротехнологических вмешательств в организм человека всегда должно требоваться предварительное, осознанное, свободное, реальное, прозрачное, эффективное и явно выраженное согласие, которое может быть отозвано в любой момент, и что все люди, включая тех, кто находится в уязвимом положении, должны быть эффективно защищены от лечения и исследований, на которые они не могут дать согласие,</p>
+      </container>
+      <container name="отмечая" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что в своем докладе 2021 года под названием «Наша общая повестка дня»<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://docs.un.org/ru/A/75/982">A/75/982</a>.</p></authorialNote> Генеральный секретарь заявил о том, что следует подумать над обновлением или уточнением того, как мы применяем рамочные принципы и стандарты в области прав человека в отношении неотрегулированных вопросов и для предотвращения вреда в цифровом или технологическом пространстве, в том числе в области нейротехнологий,</p>
+      </container>
+      <container name="отмечая также" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">отмечая также</span>, что Специальный докладчик по вопросу о свободе религии или убеждений подчеркнул, что, хотя достижения в области нейротехнологий открывают огромные перспективы для лечения отдельных заболеваний, некоторые из видов их применения могут привести к модификации мыслей или манипулированию ими непосредственно в мозгу человека и тем самым негативно сказаться на праве на свободу мысли<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		См. <a href="https://docs.un.org/ru/A/76/380">A/76/380</a>. </p></authorialNote>,</p>
+      </container>
+      <container name="отмечая далее" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">отмечая далее</span>, что Специальный докладчик по вопросу о праве на неприкосновенность частной жизни подчеркнула необходимость эффективной защиты прав человека, в том числе права на неприкосновенность частной жизни, при разработке и использовании нейротехнологий, а также безопасной работы с нейроданными в процессе их обработки, делая особый акцент на принцип недискриминации<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		См. <a href="https://docs.un.org/ru/A/HRC/58/58">A/HRC/58/58</a>. </p></authorialNote>,</p>
+      </container>
+      <container name="отмечая" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что Генеральный секретарь указал на то, что потенциальное использование нейротехнологий при отправлении уголовного правосудия также вызывает озабоченность<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		См. <a href="https://docs.un.org/ru/A/79/296">A/79/296</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="отмечая также" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">отмечая также</span> работу Организации Объединенных Наций по вопросам образования, науки и культуры по формулированию рекомендации, касающейся этики нейротехнологий, и работу Детского фонда Организации Объединенных Наций по изучению последствий применения нейротехнологий для прав детей,</p>
+      </container>
+      <container name="учитывая" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">учитывая </span>важность применения существующей правозащитной базы для решения проблем и использования возможностей в сфере нейротехнологий, отмечая при этом, что адекватное регулирование этих технологий может отсутствовать, и признавая необходимость принятия эффективных мер для полного устранения их негативного воздействия на права человека,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> доклад Консультативного комитета Совета по правам человека «Воздействие, возможности и проблемы применения нейротехнологии в отношении поощрения и защиты всех прав человека», представленный Совету по правам человека на его пятьдесят седьмой сессии<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<a href="https://docs.un.org/ru/A/HRC/57/61">A/HRC/57/61</a>. </p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Консультативный комитет подготовить проект набора рекомендуемых руководящих принципов применения существующей правозащитной базы к концептуализации, проектированию, разработке, тестированию, использованию и внедрению нейротехнологий и представить его Совету на его шестьдесят четвертой сессии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">также просит</span> Консультативный комитет при разработке вышеупомянутых рекомендуемых руководящих принципов запросить мнения и материалы всех заинтересованных сторон и принять их во внимание, а также соответствующую работу, которая уже была проделана, в том числе Организацией Объединенных Наций по вопросам образования, науки и культуры;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>Верховному комиссару Организации Объединенных Наций по правам человека, договорным органам и специальным процедурам Совета по правам человека в рамках их соответствующих мандатов уделить должное внимание воздействию нейротехнологий на полное осуществление всех прав человека и основных свобод;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продолжать заниматься этим вопросом.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="55-е" refersTo="#adoptionMeeting">55‑е заседание</location>
+          <eol />
+          <docDate date="2025-04-02" refersTo="#adoptionDate">2 апреля 2025 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
