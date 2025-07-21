@@ -1,0 +1,310 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-25/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-25/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-25/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-25/eng@/"></FRBRuri>
+          <FRBRdate date="2025-04-07" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-25/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-25/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Independent International Commission of Inquiry on the Syrian Arab Republic" showAs="Independent International Commission of Inquiry on the Syrian Arab Republic" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POLITICAL CONDITIONS" href="http://metadata.un.org/thesaurus/1004971" showAs="POLITICAL CONDITIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSITIONAL JUSTICE" href="http://metadata.un.org/thesaurus/1006637" showAs="TRANSITIONAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SYRIAN ARAB REPUBLIC" href="http://metadata.un.org/thesaurus/1006348" showAs="SYRIAN ARAB REPUBLIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COMMISSIONS OF INQUIRY" href="http://metadata.un.org/thesaurus/1001107" showAs="COMMISSIONS OF INQUIRY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="4" showAs="Human rights situations that require the Council's attention." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-27" outcome="draftResolution" as="A/HRC/58/L.25" by="Albania, Australia, Belgium, Bulgaria, Canada, Costa Rica, Croatia, Czechia, Denmark, Finland, France, Georgia, Germany, Iceland, Ireland, Lithuania, Luxembourg, Monaco, Montenegro, Netherlands (Kingdom of the), North Macedonia, Norway, Poland, Portugal, Qatar, Slovakia, Slovenia, Spain, Türkiye, Ukraine and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-07" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-07" outcome="adopted" as="Adopted without vote, 59th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/25</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-07" class="rightSmall" refersTo="#dateOfIssuance">7 April 2025</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">Fifty-eighth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 February</date>
+          <date date="2025-04-04" refersTo="#endDate">4 April 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="4" name="agenda item">Agenda item 4</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Human rights situations that require the Council’s attention</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 4 April 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/25.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Situation of human rights in the Syrian Arab Republic</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guided </span>by the principles and purposes of the Charter of the United Nations,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Reaffirming </span>its previous resolutions on the Syrian Arab Republic from 2011 to December 2024,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Reaffirming also </span>its strong commitment to full respect for the sovereignty, independence, unity and territorial integrity of the Syrian Arab Republic,</p>
+      </container>
+      <container name="Welcoming" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Welcoming</span> the end of the former Syrian regime in December 2024, which had failed to meet its responsibility to protect the Syrian population and to respect, protect and fulfil the human rights of all persons within its jurisdiction, including persons in detention and their families, and to investigate allegations of war crimes as well as serious violations of international humanitarian law and international human rights law, and recalling the statements made by the Secretary-General and the United Nations High Commissioner for Human Rights that crimes against humanity and war crimes were likely to have been committed in the Syrian Arab Republic,</p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>the statements of the Secretary-General and the High Commissioner that, after 14 years of conflict, the development of a future Syrian Arab Republic, grounded in human rights, freedom and justice, must be Syrian-led and Syrian-owned, and that the political transition must be representative, inclusive and comprehensive and meet the legitimate aspirations and advance the fulfilment of the human rights of all Syrian people, in all their diversity,</p>
+      </container>
+      <container name="Welcoming" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Welcoming</span> in this regard the intervention of the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic during the present session of the Human Rights Council, in particular the sentiment that those governing the Syrian Arab Republic bear profound responsibility to ensure that the atrocities and violations committed by the former regime are never repeated, and that the Syrian people deserve a homeland where their rights are safeguarded, their voices are heard and their dignity is preserved,</p>
+      </container>
+      <container name="Emphasizing" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Emphasizing </span>the importance of a comprehensive approach to addressing the past through transitional justice, incorporating the full range of judicial and non‑judicial measures, in order to ensure accountability, serve justice, provide victims and families with access to remedy, promote healing and reconciliation, ensure confidence in the institutions of the State and promote the rule of law in accordance with international law, including international human rights law, with a view to preventing the recurrence of violations and abuses,</p>
+      </container>
+      <container name="Emphasizing also" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Emphasizing also</span> the importance of ensuring victims’ participation throughout all processes of investigation, truth-seeking, reconciliation and memorialization and in establishing guarantees of non‑recurrence, and recognizing that their participation is essential in achieving justice, accountability and sustainable peace, and that their full, meaningful and safe participation must be at the centre of all transitional justice efforts,</p>
+      </container>
+      <container name="Underscoring" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Underscoring</span> the roles of the Office of the United Nations High Commissioner for Human Rights, the International, Impartial and Independent Mechanism to Assist in the Investigation and Prosecution of Persons Responsible for the Most Serious Crimes under International Law Committed in the Syrian Arab Republic since March 2011, and the Independent International Commission of Inquiry on the Syrian Arab Republic, established by the Human Rights Council in its resolution S-17/1 of 23 August 2011, as well as that of the Independent Institution on Missing Persons in the Syrian Arab Republic,</p>
+      </container>
+      <container name="Acknowledging" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> the important role of Syrian and international civil society, human rights defenders, victims, survivors and their families in documenting violations and abuses in the Syrian Arab Republic throughout the conflict and post-conflict period, often at great personal risk, in pursuit of truth and accountability,</p>
+      </container>
+      <container name="Welcoming" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Welcoming </span>the visits and observations made since December 2024 by the High Commissioner, the International, Impartial and Independent Mechanism, the Independent Institution on Missing Persons in the Syrian Arab Republic, the Commission of Inquiry and the Prosecutor of the International Criminal Court, following the unprecedented granting of access by the Government of the Syrian Arab Republic, previously denied by the former regime, and noting that the mandates of these different mechanisms are distinct yet complementary to one another,</p>
+      </container>
+      <container name="Deploring" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Deploring </span>that, since 2011, the former Syrian regime had consistently used arbitrary detention, torture and other cruel, inhuman or degrading treatment, including sexual and gender-based violence and enforced disappearances, and other detention-related violations, to intimidate, punish and coerce perceived political opponents, dissenting civilians and their family members, in addition to summary executions, extrajudicial killings, the targeting of civilians and use of chemical weapons, as documented by the Commission of Inquiry<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		See also A/HRC/46/55 and the conference room paper of the Commission of Inquiry entitled “‘Web of agony’: arbitrary detention, torture and ill-treatment by former Government forces in the Syrian Arab Republic”, available on the web page of the Commission of Inquiry at <a href="https://www.ohchr.org/en/hr-bodies/hrc/iici-syria/documentation">https://www.ohchr.org/en/hr-bodies/hrc/iici-syria/documentation</a>.</p></authorialNote> and the Office of the High Commissioner,</p>
+      </container>
+      <container name="Reiterating its grave concern" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Reiterating its grave concern </span>at the findings of the Investigation and Identification Team of the Organization for the Prohibition of Chemical Weapons attributing responsibility for multiple chemical weapons attacks to the former Syrian regime, and expressing its strong conviction that all those responsible for the use of chemical weapons in the Syrian Arab Republic must be held accountable,</p>
+      </container>
+      <container name="Noting" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Noting </span>that, despite the welcome release by the Government of the Syrian Arab Republic of prisoners since December 2024, efforts to establish the fates and whereabouts of those who remain missing and the need to support victims, survivors and their families, including through psychosocial assistance, will continue for years to come, and that such efforts can be supported by the Independent Institution on Missing Persons in the Syrian Arab Republic,</p>
+      </container>
+      <container name="Underscoring" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Underscoring </span>the urgent need to preserve and secure all documentation, information and evidence related to violations and abuses of human rights, and violations of international humanitarian law, to ensure Syrian-led, Syrian-owned accountability, supported by the continuation of international efforts to this end,</p>
+      </container>
+      <container name="Noting with great concern" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Noting with great concern</span> alarming allegations of attacks that appear to constitute retaliation since December 2024, and alarming reports of killings, including of civilians, in the coastal region in March 2025, and the detrimental impact that such attacks have on peace and reconciliation,</p>
+      </container>
+      <container name="Acknowledging" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> the commitments of the Government of the Syrian Arab Republic to investigate the reported violations and abuses, including the newly established fact-finding committee to investigate the events in the west of the Syrian Arab Republic in March 2025, as well as the formation of a dedicated committee to maintain civil peace in the affected areas, noting that investigations should be independent, prompt, transparent and impartial,</p>
+      </container>
+      <container name="Supporting" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Supporting </span>efforts made by the Government of the Syrian Arab Republic that affirm the territorial integrity and unity of the Syrian Arab Republic, reject any form of division and ensure the rights of all Syrians to representation and participation in the political process and all State institutions on the basis of competence, regardless of their religious or ethnic background, and considering these endeavours important steps towards strengthening the political and civil rights of Syrians, enhancing security and stability and safeguarding the unity of the Syrian Arab Republic and its territorial integrity,</p>
+      </container>
+      <container name="Acknowledging" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Acknowledging </span>the statements of the Secretary-General and the Special Envoy of the Secretary-General for Syria, who noted incursions by Israel, in violation of the Disengagement of Forces Agreement of 1974, which risk further destabilizing an already fragile situation, heightening regional tensions and undermining efforts towards de-escalation and a sustainable political transition<span class="italic">, </span>and emphasizing in this regard the importance of ensuring the sovereignty and territorial integrity and unity of the Syrian Arab Republic, in accordance with international law, including the principles of the Charter and relevant Security Council resolutions,</p>
+      </container>
+      <container name="Supporting" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Supporting</span> the Government of the Syrian Arab Republic in its efforts, in line with international law, to ensure that terrorist groups cannot re-establish a haven in Syrian territory, in order to preserve the territorial integrity, unity and sovereignty of the Syrian Arab Republic and ensure peaceful coexistence,</p>
+      </container>
+      <container name="Recognizing" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the continued need for rapid, safe, unhindered and sustainable delivery of humanitarian aid to all people in need throughout the Syrian Arab Republic, recognizing also the need for sustainable interventions such as early recovery and reconstruction which contribute to the recovery of the country, and welcoming the exemptions from, exceptions to and suspension of a number of sanctions and restrictive measures applied to the Syrian Arab Republic since the fall of the former regime,</p>
+      </container>
+      <container name="Highlighting" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Highlighting</span> the need to work towards the lifting of certain sanctions relating to the Syrian Arab Republic, and to further the interests of the Syrian people, the recovery of the Syrian economy and the political transition, as part of a global effort to support peace and prosperity in the Syrian Arab Republic, as the transitional framework progresses and associated reforms are implemented,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> 	<span class="italic">Affirms</span> support for the Syrian people in their pursuit of a peaceful, representative and inclusive political process, in the spirit of the fundamental principles of Security Council resolution 2254 (2015) of 18 December 2015, and supports the efforts of the Special Envoy of the Secretary-General for Syria in aiding them in their endeavour;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">Welcomes </span>the formation of a government that includes a diverse array of Syrian society, and the commitment to build State institutions in advance of holding free and fair elections, and also welcomes in this regard the recommendations made at the National Dialogue Conference in February 2025, and strongly encourages the establishing and communicating of clear timelines and milestones to this end;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> 	<span class="italic">Also welcomes</span> the provisions of the Constitutional Declaration signed in March 2025 affirming that the State shall guarantee human rights and fundamental freedoms, notes with support the provisions made on freedom of expression, freedom of religion and women’s rights, and in this regard calls for their implementation and expresses its hope that the Constitutional Declaration will serve as a solid framework for a successful, orderly and inclusive transition and a peaceful future for the Syrian Arab Republic, ensuring human rights and fundamental freedoms for all Syrians, achieving justice and accountability, and upholding good governance and the rule of law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> the Government of the Syrian Arab Republic to ensure a sustainable path towards credible accountability for all crimes that does justice to the victims, survivors and their families, and contributes to reconciliation and a peaceful future for all Syrians, and recognizes in this regard the fact that the Constitutional Declaration includes a provision to establish a transitional justice commission, but also the multitude of challenges faced by the Government in its pursuit of a Syrian-led, Syrian-owned accountability and transitional justice owing to the scale of the former regime’s serious violations and their complex consequences;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon </span>the Government of the Syrian Arab Republic to ensure that allegations of all crimes that appear to constitute retaliation are investigated, and that perpetrators are held to account through transparent and appropriate judicial mechanisms which are compliant with human rights standards, and acknowledges in this regard the commitment made at the highest levels of the Syrian Arab Republic on 9 March 2025 to hold accountable all those involved in violations and abuses during the events of March 2025;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> 	<span class="italic">Supports </span>the Government of the Syrian Arab Republic in their efforts to ensure the preservation of documentation, information and evidence related to violations and abuses of human rights and violations of international humanitarian law, including mass burial sites, and encourages the Government of the Syrian Arab Republic to develop a comprehensive and sustainable system for maintaining such evidence;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve"> 	<span class="italic">Welcomes</span> the Secretary-General’s appointment of an Assistant Secretary-General of the Independent Institution on Missing Persons in the Syrian Arab Republic, and in this regard urges the Government of the Syrian Arab Republic to work with the said Independent Institution to assist Syrian-led efforts to clarify the fate and whereabouts of all missing persons in the Syrian Arab Republic, to provide adequate support to victims, survivors and the families of those missing, to ensure the full, equal, meaningful and safe participation and representation of victims, survivors and the families of missing persons in the Syrian Arab Republic in this endeavour and to coordinate support in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages </span>the Government of the Syrian Arab Republic to continue its positive engagement with the Office of the United Nations High Commissioner for Human Rights, the International, Impartial and Independent Mechanism to Assist in the Investigation and Prosecution of Persons Responsible for the Most Serious Crimes under International Law Committed in the Syrian Arab Republic since March 2011, the Independent Institution on Missing Persons in the Syrian Arab Republic, the Independent International Commission of Inquiry on the Syrian Arab Republic and other relevant special procedures, as well as with Syrian civil society, including victim associations and groups, and in this regard calls upon these organizations and mechanisms to coordinate their approach and activities to ensure effectiveness;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve"> 	<span class="italic">Expresses support </span>for civil society, human rights defenders, victims, survivors and their families and for their continued role in Syrian-led, Syrian-owned, inclusive and victim-centred transitional justice and accountability efforts, and in this regard stresses the need for the protection of civic space and free, impartial media and for the full, equal, meaningful and safe participation and leadership of women in the political transition;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve"> 	<span class="italic">Decides </span>to extend the mandate of the Independent International Commission of Inquiry on the Syrian Arab Republic for a period of one year;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests </span>the Office of the High Commissioner to strengthen the resources of the Commission of Inquiry in order for it to completely fulfil its mandate within the Syrian Arab Republic, in particular with regard to security and logistical support and victim protection expertise, welcomes the broad access granted by the Government of the Syrian Arab Republic to the Commission, and encourages the Government of the Syrian Arab Republic to grant the Commission necessary access throughout the Syrian Arab Republic and to cooperate closely with the Commission;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests </span>the Commission of Inquiry to present an oral update to the Human Rights Council at both its fifty-ninth and its sixtieth sessions, to be followed by an updated report during an interactive dialogue at the sixty-first session of the Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve"> 	<span class="italic">Reaffirms </span>its decision to transmit the report and oral updates of the Commission of Inquiry to relevant bodies of the United Nations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve"> 	<span class="italic">Decides</span> to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="59th" refersTo="#adoptionMeeting">59th meeting</location>
+          <eol />
+          <docDate date="2025-04-04" refersTo="#adoptionDate">4 April 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
