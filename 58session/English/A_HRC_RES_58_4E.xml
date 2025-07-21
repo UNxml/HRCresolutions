@@ -1,0 +1,401 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-4/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-4/"></FRBRuri>
+          <FRBRdate date="2025-04-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-4/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-4/eng@/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-4/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-4/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#un">
+        <step outcome="draftResolution" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/4</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-04" class="rightSmall" refersTo="#dateOfIssuance">4 April 2025</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">Fifty-eighth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 February</date>
+          <date date="2025-04-04" refersTo="#endDate">4 April 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 2 April 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/4.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Cultural rights and the protection of cultural heritage</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guided </span>by the purposes and principles of the Charter of the United Nations,</p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>the Universal Declaration of Human Rights, the Vienna Declaration and Programme of Action, the Declaration on the Right to Development and all relevant international human rights treaties, including the International Covenant on Economic, Social and Cultural Rights and the International Covenant on Civil and Political Rights, and reaffirming the human rights and fundamental freedoms enshrined therein,</p>
+      </container>
+      <container name="Recalling also" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Recalling also </span>General Assembly resolution 60/251 of 15 March 2006, by which the Assembly established the Human Rights Council and in which it stated that all human rights are universal, indivisible, interrelated, interdependent and mutually reinforcing, and must be treated in a fair and equal manner, on the same footing and with the same emphasis,</p>
+      </container>
+      <container name="Recalling further" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Recalling further </span>previous Human Rights Council resolutions on cultural rights and the protection of cultural heritage, inter alia, Council resolution 49/7 of 31 March 2022,</p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>General Assembly resolution 79/133 of 6 December 2024 on the return or restitution of cultural property to the countries of origin,</p>
+      </container>
+      <container name="Recalling also" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Recalling also</span> the adoption of General Assembly resolution 79/1 of 22 September 2024, entitled “The Pact for the Future”, in particular action 11 contained therein,</p>
+      </container>
+      <container name="Recalling further" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Recalling further </span>the Universal Declaration on Cultural Diversity of the United Nations Educational, Scientific and Cultural Organization adopted on 2 November 2001, promoting, among other things, intercultural dialogue as a tool for guaranteeing peace,</p>
+      </container>
+      <container name="Recalling" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>the declaration adopted at the World Conference of the United Nations Educational, Scientific and Cultural Organization on Cultural Policies and Sustainable Development (MONDIACULT 2022), which, among other things, called upon the Secretary-General to firmly anchor culture as a global public good, and which also contained a commitment to fostering an enabling environment conducive to the respect and exercise of all human rights, in particular cultural rights, and underlined both the opportunities and the risks that digital transformation brings to culture and heritage,</p>
+      </container>
+      <container name="Mindful" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Mindful </span>of the adoption by the General Conference of the United Nations Educational, Scientific and Cultural Organization on 17 October 2003 of the Charter on the Preservation of Digital Heritage,</p>
+      </container>
+      <container name="Recalling" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>the Geneva Declaration of Principles, of 2003, adopted during the World Summit on the Information Society, in particular principle 54 in which it is stated that the preservation of cultural heritage is a crucial component of identity and self-understanding of individuals that links a community to its past, and that the Information Society should harness and preserve cultural heritage for the future by all appropriate methods, including digitization,</p>
+      </container>
+      <container name="Convinced" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Convinced </span>that damage to the cultural heritage, both tangible and intangible, of any people constitutes damage to the cultural heritage of humanity as a whole,</p>
+      </container>
+      <container name="Recognizing" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Recognizing </span>that the duty of ensuring the identification, protection, conservation, presentation and transmission to future generations of cultural heritage belongs primarily to the State on whose territory it is situated,</p>
+      </container>
+      <container name="Acknowledging" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> that cultural heritage can be instrumentalized as a trigger for and a target in conflicts and crises and can be the subject of disinformation or information manipulation,</p>
+      </container>
+      <container name="Noting" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Noting </span>that the destruction of or damage to cultural heritage may have a detrimental and irreversible impact on the enjoyment of cultural rights, in particular the right of everyone to take part in cultural life, including the ability to access and enjoy cultural heritage,</p>
+      </container>
+      <container name="Reaffirming" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Reaffirming </span>that safeguarding the enjoyment of cultural rights may form a crucial part of the response to many current global challenges, among others the adverse effects of climate change and the scourge of terrorism,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Reaffirming also </span>that addressing the destruction of tangible and intangible cultural heritage needs to be holistic, encompassing all regions, contemplating both prevention and accountability, and focusing on acts by State and non‑State actors in both conflict and non‑ conflict situations, and terrorist acts,</p>
+      </container>
+      <container name="Recognizing" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Recognizing </span>that violation or abuse of the right of everyone to take part in cultural life, including the ability to access and enjoy cultural heritage, may threaten stability, social cohesion and cultural identity, and constitutes an aggravating factor in conflict and a major obstacle to dialogue, peace and reconciliation,</p>
+      </container>
+      <container name="Recognizing also" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Recognizing also </span>the fundamental role of education in ensuring access to and the enjoyment of cultural rights and cultural life, and recalling to this end the relevance of implementing target 4.7 of the Sustainable Development Goals and ensuring inclusive and equitable quality education and lifelong learning opportunities for all,</p>
+      </container>
+      <container name="Acknowledging" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Acknowledging </span>the importance of intercultural and intracultural dialogue and of the promotion of cultural diversity in strengthening social cohesion and sustainable development to achieve the 2030 Agenda for Sustainable Development, and the key role of women, Indigenous Peoples, people of African descent and persons belonging to national or ethnic, religious and linguistic minorities in maintaining, controlling, protecting, developing and preserving tangible and intangible cultural heritage,</p>
+      </container>
+      <container name="Acknowledging also" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Acknowledging also</span> the necessity to protect the cultural heritage of persons belonging to minorities from intentional destruction aimed at erasing evidence of their presence, as a key factor for the preservation of their identity,</p>
+      </container>
+      <container name="Strongly condemning" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Strongly condemning </span>all acts of unlawful destruction of cultural heritage, which are often committed during or in the aftermath of armed conflicts around the world, or as a result of terrorist attacks,</p>
+      </container>
+      <container name="Noting with deep concern" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Noting with deep concern </span>the organized looting, smuggling and theft of and illicit trafficking in cultural property that could undermine the full enjoyment of cultural rights and are contrary to international law and may, in some instances, generate funds for the financing of terrorism,</p>
+      </container>
+      <container name="Acknowledging" eId="container_24">
+        <p xml:space="preserve"> <span class="italic">Acknowledging </span>the importance of early restoration of the full enjoyment of cultural rights to individuals affected by conflict, and in particular to those who are displaced,</p>
+      </container>
+      <container name="Emphasizing" eId="container_25">
+        <p xml:space="preserve"> <span class="italic">Emphasizing </span>the important role that the Human Rights Council can play, in concert with all other relevant international actors, in global efforts to protect, restore and preserve cultural heritage with a view to promoting universal respect for cultural rights by all,</p>
+      </container>
+      <container name="Recognizing" eId="container_26">
+        <p xml:space="preserve"> <span class="italic">Recognizing </span>the important contribution that United Nations peacekeeping missions can make to the protection of cultural heritage and the safeguarding of the enjoyment of cultural rights, both during and in the aftermath of armed conflicts,</p>
+      </container>
+      <container name="Acknowledging" eId="container_27">
+        <p xml:space="preserve"> <span class="italic">Acknowledging </span>the important role of the United Nations Educational, Scientific and Cultural Organization, the United Nations Office on Drugs and Crime, the International Criminal Police Organization and the World Customs Organization in international efforts to combat and prevent damage or destruction, organized looting, smuggling and theft of and illicit trafficking in cultural property, and to restore damaged property,</p>
+      </container>
+      <container name="Welcoming" eId="container_28">
+        <p xml:space="preserve"> <span class="italic">Welcoming </span>all initiatives, whether by States, institutions or private persons, for the access and/or repatriation of ceremonial objects and human remains of Indigenous Peoples, and the voluntary return of cultural property that has been illicitly appropriated,</p>
+      </container>
+      <container name="Recognizing" eId="container_29">
+        <p xml:space="preserve"> <span class="italic">Recognizing </span>that technology, and in particular the Internet, may enhance cultural creation, dissemination and participation by enabling new forms of curating and sharing, and engaging with, cultural heritage, and recognizing also the growing importance of the digital environment in the diffusion of cultural and creative content, an approach followed by the Virtual Museum on Cultural Heritage, among others,</p>
+      </container>
+      <container name="Recognizing also" eId="container_30">
+        <p xml:space="preserve"> <span class="italic">Recognizing also</span> the need for specific strategies to preserve digital heritage and to ensure meaningful access, including by addressing all digital divides, which remain a significant barrier, particularly for persons in vulnerable situations who often lack access to digital resources and technologies and whose heritage may be excluded from digitalization efforts,</p>
+      </container>
+      <container name="Noting" eId="container_31">
+        <p xml:space="preserve"> <span class="italic">Noting </span>that digital technologies present significant opportunities to preserve, document and share cultural heritage, and offer innovative ways to celebrate cultural diversity and engage rights holders in heritage efforts,</p>
+      </container>
+      <container name="Noting also" eId="container_32">
+        <p xml:space="preserve"> <span class="italic">Noting also </span>that digital content frequently remains inaccessible to persons with disabilities, particularly to those with vision, hearing, motor or cognitive impairments, and that this inaccessibility extends to a great deal of digital heritage,</p>
+      </container>
+      <container name="Recalling" eId="container_33">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>the relevant principles of the Global Digital Compact, adopted by the General Assembly in its resolution 79/1, including the principles that cooperation will harness digital technologies to advance all human rights, and that this cooperation will promote digital accessibility for all and support linguistic and cultural diversity in the digital space,</p>
+      </container>
+      <container name="Taking note with appreciation" eId="container_34">
+        <p xml:space="preserve"> <span class="italic">Taking note with appreciation </span>of the report of the United Nations High Commissioner for Human Rights on the intersessional workshop on cultural rights and the protection of cultural heritage,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/HRC/58/35.</p></authorialNote> which contains a compilation of recommendations on the implementation of the human rights framework and the development of tools for the dissemination of a human rights-based approach to the protection, restoration and preservation of cultural heritage, by focusing on mainstreaming a human rights-based approach to cultural heritage, including tools, on cultural heritage in crisis and on supporting the work of cultural rights defenders working on cultural heritage protection,</p>
+      </container>
+      <container name="Welcoming" eId="container_35">
+        <p xml:space="preserve"> <span class="italic">Welcoming </span>the work of the Special Rapporteur in the field of cultural rights, and taking note of the mandate holder’s most recent report, entitled “Digitalization of cultural heritage: preserving cultural rights”,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		A/HRC/58/60.</p></authorialNote> in which she discusses the importance of adopting a cultural rights approach to the digitalization of cultural heritage in order to overcome weaknesses that have not been addressed,</p>
+      </container>
+      <container name="Reaffirming" eId="container_36">
+        <p xml:space="preserve"> <span class="italic">Reaffirming </span>the importance of the Declaration on the Right and Responsibility of Individuals, Groups and Organs of Society to Promote and Protect Universally Recognized Human Rights and Fundamental Freedoms and its implementation, highlighting in particular the important contribution made by cultural rights defenders involved in the protection of the cultural heritage of all humankind,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_37" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon </span>all States to respect, promote and protect the right of everyone to take part in cultural life, including the ability to access and enjoy cultural heritage in all its forms, including digital heritage;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve"> 	<span class="italic">Deplores</span> damage to the cultural heritage of countries in situations of crisis, conflict and post-conflict, in particular recent attacks on world cultural heritage sites, calls for an immediate end to such acts, encourages the use of digital tools, including satellite imagery, to monitor, safeguard, promote and reconstruct cultural heritage, and reminds States Parties to the Convention for the Protection of Cultural Property in the Event of Armed Conflict and to the two Protocols thereto of the provisions contained therein to safeguard and respect cultural property and to prohibit, prevent and, if necessary, put a stop to any form of theft, pillage or misappropriation of, and any acts of vandalism directed against, cultural property;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve"> 	<span class="italic">Urges </span>all parties to armed conflicts, whether international or non‑international, to refrain from any unlawful military use or targeting of cultural property, in full conformity with their obligations under international humanitarian law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages </span>States that have not yet become a party to relevant treaties that provide for the protection of tangible and intangible cultural heritage to consider doing so;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls for</span> enhanced international cooperation in preventing and combating the organized looting, smuggling and theft of and illicit trafficking in cultural objects and in restoring stolen, looted or trafficked cultural property to its country of origin, and invites States to take measures in this regard at the national level to make effective use to this end of relevant tools and databases developed under the auspices of the United Nations Educational, Scientific and Cultural Organization, the United Nations Office on Drugs and Crime, the International Criminal Police Organization and the World Customs Organization, within the scope of their respective mandates;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages </span>strengthened international cooperation on the return or restitution of cultural properties of spiritual, ancestral, historical and cultural value to countries of origin, including but not limited to objets d’art, monuments, museum pieces, manuscripts and documents, and strongly encourages relevant private entities to similarly engage, including through bilateral dialogue and with the assistance of multilateral mechanisms, as appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve"> 	<span class="italic">Also encourages </span>the strengthening of dialogue and cooperation between relevant international organizations and States affected by the organized looting, theft and smuggling of and illicit trafficking in cultural property, including through the provision of support and technical assistance aimed at enhancing their national capacities to restore, protect and preserve cultural heritage and property;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls for </span>the development of partnerships between competent national authorities and civil society, in particular grass-roots institutions, with the aim of creating a safe and enabling environment to enhance the protection of cultural rights and to promote the right of everyone to take part in cultural life, including the ability to access and enjoy cultural heritage in all its aspects;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve"> 	<span class="italic">Recalls </span>that, in General Assembly resolution 79/1, culture was recognized as an enabler of sustainable development, and encourages States to work on strengthening the incorporation of cultural diversity and aspects related to cultural rights in the implementation of their strategies for the 2030 Agenda for Sustainable Development, particularly the Sustainable Development Goal targets that explicitly relate to cultural rights that already exist;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls for </span>the identification of innovative ways and best practices, at the national, regional and international levels, for the prevention of violations and abuses of cultural rights, and for participatory and inclusive approaches to the prevention and mitigation of damage caused to cultural heritage, both tangible and intangible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve"> 	<span class="italic">Also calls for </span>the recognition of the protection of cultural heritage as an important component of humanitarian assistance, including in armed conflict and with regard also to displaced populations, and for enhanced cooperation between the Office of the United Nations High Commissioner for Human Rights, the mandate of the Special Rapporteur in the field of cultural rights, the United Nations Educational, Scientific and Cultural Organization and other relevant agencies and stakeholders, with a view to mainstreaming the protection of cultural heritage into humanitarian actions, security strategies and peacebuilding processes and in post-conflict reconciliation initiatives;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages </span>States to adopt a gender-sensitive and inclusive approach to the protection of cultural heritage and the safeguarding of cultural rights that is respectful of cultural diversity and includes consideration of the human rights issues of persons belonging to national or ethnic, religious and linguistic minorities, as set out in the Declaration on the Rights of Persons Belonging to National or Ethnic, Religious and Linguistic Minorities, and of Indigenous Peoples, as set out in the United Nations Declaration on the Rights of Indigenous Peoples;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve"> 	<span class="italic">Also encourages</span> States to promote and safeguard the diversity of cultural expressions, to foster intercultural and intracultural dialogue and to support traditional practices and creative productions of Indigenous Peoples, people of African descent and persons belonging to national or ethnic, religious and linguistic minorities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon </span>States to seek to enable the access and/or repatriation of ceremonial objects and human remains in their possession through fair, transparent and effective mechanisms developed in conjunction with the Indigenous Peoples concerned;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls for </span>the safety and security of cultural rights defenders involved in the protection of cultural heritage to be protected, including by investigating and, where appropriate, bringing to justice anyone alleged to have harmed them;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve"> 	<span class="italic">Invites </span>States to adopt effective strategies to prevent the destruction of cultural heritage by, inter alia, ensuring accountability, establishing and/or maintaining inventories documenting the cultural heritage within their jurisdiction, including through digital means, addressing specific challenges affecting documentary heritage, implementing educational programmes on the importance of cultural heritage and cultural rights, training military forces and humanitarian actors and other relevant stakeholders in all applicable rules concerning the protection of cultural heritage, both during and in the aftermath of armed conflict, and developing preparatory measures and risk preparedness plans during peacetime in order to ensure that there are procedures and processes in place to mitigate the destruction of cultural heritage;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_173" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_173__content">
+          <p xml:space="preserve"> 	<span class="italic">Also invites </span>States to address all digital divides in addressing digital heritage, including both digitized and born-digital materials, with a view to enabling full and meaningful access to and participation in cultural life and promoting meaningful consultation with heritage communities regarding the meaning they convey to their heritage;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_190" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_190__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages </span>States to address limitations of cultural rights, to take the measures necessary to prevent the destruction of historic monuments, works of art or places of worship that constitute the cultural or spiritual heritage of peoples, both in conflict and non‑conflict situations, and to promote respect for cultural diversity;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_208__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages </span>States, the international community, the United Nations and civil society to consider implementing the relevant recommendations contained in the reports of the High Commissioner on the intersessional workshop on cultural rights and the protection of cultural heritage,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/HRC/37/29, A/HRC/48/40 and A/HRC/58/35.</p></authorialNote> as well as those made by the Special Rapporteur in the field of cultural rights in her relevant reports presented to the Human Rights Council and to the General Assembly;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_227" class="SingleTxtG">
+        <num>20.</num>
+        <list eId="para_227_list">
+          <intro eId="para_227_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Requests</span> the High Commissioner, in consultation with the United Nations Educational, Scientific and Cultural Organization and the Special Rapporteur in the field of cultural rights:</p>
+          </intro>
+          <point eId="para_227_list_point_a">
+            <num>(a)</num>
+            <content eId="para_227_list_point_a_content">
+              <p xml:space="preserve"> 	To develop appropriate tools for the dissemination of an approach to digital heritage, including digitalization of cultural heritage, that promotes universal respect for cultural rights by all;</p>
+            </content>
+          </point>
+          <point eId="para_227_list_point_b">
+            <num>(b)</num>
+            <content eId="para_227_list_point_b_content">
+              <p xml:space="preserve"> 	To convene, before the sixty-fourth session of the Human Rights Council, a one-day workshop to review and promote the tools for the dissemination of good practices and possible methods of, as well as challenges encountered in, implementing an approach to digital heritage, including digitalization of cultural heritage, that promotes universal respect for cultural rights by all, and to make the workshop accessible to persons with disabilities;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_247" class="SingleTxtG">
+        <num>21.</num>
+        <content eId="para_247__content">
+          <p xml:space="preserve"> 	<span class="italic">Also requests</span> the High Commissioner to submit a report thereon to the Human Rights Council at its sixty-sixth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_268" class="SingleTxtG">
+        <num>22.</num>
+        <content eId="para_268__content">
+          <p xml:space="preserve">
+            <span class="italic">	Decides</span> to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="55th" refersTo="#adoptionMeeting">55th meeting</location>
+          <eol />
+          <docDate date="2025-04-02" refersTo="#adoptionDate">2 April 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
