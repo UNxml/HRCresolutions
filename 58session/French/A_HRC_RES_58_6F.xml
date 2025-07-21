@@ -1,0 +1,262 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/"></FRBRuri>
+          <FRBRdate date="2025-04-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/fra@/"></FRBRuri>
+          <FRBRdate date="2025-04-03" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Advisory Committee" showAs="UN. Human Rights Council. Advisory Committee" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNOLOGY" href="http://metadata.un.org/thesaurus/1006429" showAs="TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NERVOUS SYSTEM" href="http://metadata.un.org/thesaurus/1004376" showAs="NERVOUS SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-27" outcome="draftResolution" as="A/HRC/58/L.9" by="Albania, Andorra, Armenia, Austria, Belgium, Bulgaria, Chile, Costa Rica, Croatia, Cyprus, Czechia, Ecuador, France, Germany, Greece, Guatemala, Hungary, Italy, Luxembourg, Malta, Monaco, Montenegro, Paraguay, Portugal, Romania, Singapore, Slovenia, Spain, Switzerland, Ukraine and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-03" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-03" outcome="adopted" as="Adopted without vote, 55th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-03" class="rightSmall" refersTo="#dateOfIssuance">3 avril 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">Cinquante-huitième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 février</date>
+          <date date="2025-04-04" refersTo="#endDate">4 avril 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme,  civils, politiques, économiques, sociaux et culturels,  y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 2 avril 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Neurotechnologies et droits de l’homme</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guidé </span>par les buts et principes énoncés dans la Charte des Nations Unies,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant </span>la Déclaration universelle des droits de l’homme, le Pacte international relatif aux droits civils et politiques, le Pacte international relatif aux droits économiques, sociaux et culturels, la Déclaration et le Programme d’action de Vienne, la Convention relative aux droits de l’enfant et la Convention relative aux droits des personnes handicapées, ainsi que les autres instruments internationaux et régionaux pertinents relatifs aux droits de l’homme,</p>
+      </container>
+      <container name="Rappelant" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>sa résolution <a href="https://docs.un.org/fr/A/HRC/RES/51/3">51/3</a> du 6 octobre 2022 sur les neurotechnologies et les droits de l’homme et toutes ses autres résolutions pertinentes, notamment les résolutions <a href="https://docs.un.org/fr/A/HRC/RES/52/12">52/12</a> du 3 avril 2023 sur la santé mentale et les droits de l’homme, <a href="https://docs.un.org/fr/A/HRC/RES/53/29">53/29</a> du 14 juillet 2023 sur les nouvelles technologies numériques et les droits de l’homme, <a href="https://docs.un.org/fr/A/HRC/RES/54/21">54/21</a> du 12 octobre 2023 sur le droit à la vie privée à l’ère du numérique, <a href="https://docs.un.org/fr/A/HRC/RES/56/7">56/7</a> du 10 juillet 2024 sur la liberté d’opinion et d’expression et <a href="https://docs.un.org/fr/A/HRC/RES/57/29">57/29</a> du 11 octobre 2024 sur la promotion, la protection et l’exercice des droits de l’homme sur Internet,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant </span>qu’il importe de promouvoir et de protéger le droit de chacun de participer au progrès scientifique et aux bienfaits qui en résultent,</p>
+      </container>
+      <container name="Conscient" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Conscient</span> qu’une véritable connectivité universelle et un accès à Internet à un coût abordable sont indispensables pour libérer tout le potentiel des technologies numériques et émergentes en vue de réduire toutes les fractures numériques et d’avancer plus rapidement dans la réalisation des objectifs de développement durable,</p>
+      </container>
+      <container name="Ayant à l’esprit" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Ayant à l’esprit</span> que les technologies numériques nouvelles et émergentes peuvent être des catalyseurs essentiels du développement, et soulignant la nécessité de réduire toutes les fractures numériques afin de garantir que les avantages des technologies numériques nouvelles et émergentes sont accessibles à tous, sans discrimination d’aucune sorte,</p>
+      </container>
+      <container name="Rappelant" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>que les États ont l’obligation et la responsabilité première de promouvoir et de protéger les droits de l’homme et les libertés fondamentales et que, selon les Principes directeurs relatifs aux entreprises et aux droits de l’homme sur la mise en œuvre du cadre de référence « protéger, respecter et réparer » des Nations Unies, les États sont tenus de protéger les droits de l’homme, et les entreprises, y compris les entreprises technologiques, sont tenues de les respecter, notamment en faisant preuve de diligence raisonnable en matière de droits de l’homme, ce qui consiste, entre autres, à évaluer les effets réels et potentiels sur les droits de l’homme, à tenir compte des conclusions des évaluations et à prendre des mesures pour y donner suite, à suivre les effets de ces mesures et à communiquer sur ce qui est fait pour remédier aux effets néfastes en question,</p>
+      </container>
+      <container name="Ayant à l’esprit" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Ayant à l’esprit </span>que les neurotechnologies permettent de connecter directement le cerveau humain à des réseaux numériques au moyen de dispositifs et de procédures qui peuvent être utilisés, notamment, pour accéder au système neuronal et à l’esprit d’une personne et pour les surveiller, les moduler et les altérer, et qu’on ne comprend pas encore pleinement les effets et les conséquences que cela peut avoir,</p>
+      </container>
+      <container name="Conscient" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Conscient </span>que les neurotechnologies peuvent être prometteuses pour la santé humaine et l’innovation, mais que dans le même temps, le développement continu de certaines de leurs applications est susceptible de poser un certain nombre de questions éthiques, juridiques et sociétales et a des conséquences pour la dignité humaine et l’autonomie de la personne, raisons pour lesquelles il est nécessaire de garantir le respect, la protection et la réalisation des droits de l’homme dans ce contexte,</p>
+      </container>
+      <container name="Conscient également" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Conscient également</span> que les neurotechnologies pourraient ouvrir diverses perspectives, notamment en améliorant la communication, en favorisant l’enseignement et l’apprentissage, en permettant une plus grande accessibilité et plus de mobilité, en encourageant l’inclusion et le respect de la neurodiversité, en promouvant la santé mentale et le bien-être, en offrant de nouvelles possibilités de prise en charge de la douleur et en stimulant l’innovation en ce qui concerne l’interface cerveau-ordinateur,</p>
+      </container>
+      <container name="Notant avec inquiétude" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Notant avec inquiétude</span> que le développement rapide des neurotechnologies pose des défis en matière d’intégrité physique et mentale et de protection des droits de l’homme, notamment, mais pas exclusivement, le droit à l’égalité et à la non-discrimination, le droit à la liberté de pensée, le droit à la vie privée, le droit de jouir du meilleur état de santé physique et mentale possible, le droit de ne pas être soumis à la torture et à d’autres peines ou traitements cruels, inhumains ou dégradants et le droit à un procès équitable et aux garanties procédurales essentielles,</p>
+      </container>
+      <container name="Tenant compte du fait" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Tenant compte du fait </span>que, dans le rapport du Comité international de bioéthique de l’Organisation des Nations Unies pour l’éducation, la science et la culture concernant les aspects éthiques des neurotechnologies, il est indiqué qu’étant donné que les neurotechnologies offrent des possibilités croissantes de modifier le système neuronal, et potentiellement l’esprit, y compris de manière invasive et généralisée, il est nécessaire de prendre en considération l’intégrité du corps humain, en particulier du cerveau et de l’esprit,</p>
+      </container>
+      <container name="Ayant à l’esprit" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Ayant à l’esprit</span> qu’il est nécessaire de permettre à toutes les personnes, y compris celles en situation de vulnérabilité, d’avoir accès à des neurotechnologies sûres, fiables et respectueuses des droits de l’homme, sans discrimination et à un coût abordable, et de veiller à ce que la dignité humaine et les droits de chacun soient effectivement protégés contre les effets négatifs et les utilisations abusives des neurotechnologies pendant les phases de conception et de mise en application, tout en garantissant l’accès aux neurotechnologies des personnes qui peuvent en tirer des avantages en matière de santé et de soins médicaux,</p>
+      </container>
+      <container name="Soulignant" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Soulignant </span>que le consentement préalable, réel, libre et éclairé, donné clairement, effectivement et expressément et pouvant être révoqué à tout moment, devrait être un impératif pour toutes les interventions neurotechnologiques sur des êtres humains, et que toutes les personnes, y compris celles en situation de vulnérabilité, doivent être efficacement protégées contre les traitements et recherches médicaux auxquels elles ne sont pas en mesure de consentir,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <content eId="para_16__content">
+          <p xml:space="preserve"> <span class="italic">Faisant observer</span> que, dans son rapport de 2021 intitulé « Notre programme commun »<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/fr/A/75/982">A/75/982</a>. </p></authorialNote>, le Secrétaire général a déclaré qu’il faudrait envisager de modifier ou de préciser la façon dont les normes et cadres relatifs aux droits de l’homme s’appliquent aux grandes questions de demain et peuvent concourir à la prévention des abus dans l’espace numérique et le monde technologique, y compris dans le domaine des neurotechnologies,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxtG">
+        <content eId="para_17__content">
+          <p xml:space="preserve"> <span class="italic">Faisant également observer</span> que le Rapporteur spécial sur la liberté de religion ou de conviction a souligné que, si les progrès accomplis dans le domaine des neurotechnologies sont extrêmement prometteurs pour le traitement de certaines maladies, certaines applications des neurotechnologies pourraient conduire à la modification ou à la manipulation des pensées dans le cerveau, ce qui porterait atteinte au droit à la liberté de pensée<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Voir <a href="https://docs.un.org/fr/A/76/380">A/76/380</a>. </p></authorialNote>,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxtG">
+        <content eId="para_18__content">
+          <p xml:space="preserve"> <span class="italic">Faisant observer en outre</span> que la Rapporteuse spéciale sur le droit à la vie privée a souligné qu’il fallait protéger efficacement les droits de l’homme, y compris le droit à la vie privée, dans le cadre de la conception et de l’utilisation des neurotechnologies ainsi que du traitement et de la gestion sécurisée des neurodonnées, en accordant une attention particulière au principe de non-discrimination<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Voir <a href="https://docs.un.org/fr/A/HRC/58/58">A/HRC/58/58</a>. </p></authorialNote>,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <content eId="para_19__content">
+          <p xml:space="preserve"> <span class="italic">Faisant observer</span> que le Secrétaire général a signalé que l’utilisation potentielle des neurotechnologies dans l’administration de la justice pénale soulevait également des inquiétudes<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Voir <a href="https://docs.un.org/fr/A/79/296">A/79/296</a>.</p></authorialNote>,</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="Prenant note" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Prenant note</span> des travaux menés par l’Organisation des Nations Unies pour l’éducation, la science et la culture en vue d’élaborer une recommandation sur l’éthique des neurotechnologies, ainsi que des mesures prises par le Fonds des Nations Unies pour l’enfance afin d’étudier les incidences des neurotechnologies sur les droits de l’enfant,</p>
+      </container>
+      <container name="Estimant" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Estimant </span>qu’il importe d’appliquer le cadre existant relatif aux droits de l’homme pour relever les défis posés par les neurotechnologies et exploiter les possibilités offertes par elles, tout en sachant que ces technologies peuvent ne pas faire l’objet d’une réglementation adéquate, et conscient de la nécessité de prendre des mesures efficaces pour remédier pleinement aux effets néfastes de ces technologies sur les droits de l’homme,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> 	<span class="italic">Accueille avec satisfaction</span> le rapport sur les conséquences, les apports potentiels et les enjeux des neurotechnologies pour la promotion et la protection de tous les droits de l’homme que son Comité consultatif lui a soumis à sa cinquante-septième session<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<a href="https://docs.un.org/fr/A/HRC/57/61">A/HRC/57/61</a>. </p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie </span>le Comité consultatif d’élaborer un ensemble de lignes directrices recommandées concernant l’application du cadre existant relatif aux droits de l’homme pendant les phases de conception, d’élaboration, de développement, de mise à l’essai, d’utilisation et de déploiement des neurotechnologies, et de le lui présenter à sa soixante‑quatrième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie également</span> le Comité consultatif de solliciter les vues et les contributions de toutes les parties prenantes lorsqu’il élaborera les lignes directrices recommandées susmentionnées, de les prendre en considération et de prendre également en considération les travaux pertinents déjà menés, notamment par l’Organisation des Nations Unies pour l’éducation, la science et la culture ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="italic">Invite </span>le Haut-Commissaire des Nations Unies aux droits de l’homme, les organes conventionnels et les titulaires de mandat au titre des procédures spéciales à prendre dûment en considération, dans le cadre de leurs mandats respectifs, les conséquences des neurotechnologies sur la pleine jouissance de tous les droits de l’homme et de toutes les libertés fondamentales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide </span>de rester saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="55e" refersTo="#adoptionMeeting">55e séance</location>
+          <eol />
+          <docDate date="2025-04-02" refersTo="#adoptionDate">2 avril 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
