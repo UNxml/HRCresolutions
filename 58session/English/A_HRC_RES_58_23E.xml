@@ -1,0 +1,478 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/eng@/"></FRBRuri>
+          <FRBRdate date="2025-04-07" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS ACTIVISTS" href="http://metadata.un.org/thesaurus/1002976" showAs="HUMAN RIGHTS ACTIVISTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN" href="http://metadata.un.org/thesaurus/1007029" showAs="WOMEN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NEW TECHNOLOGIES" href="http://metadata.un.org/thesaurus/1004392" showAs="NEW TECHNOLOGIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL TECHNOLOGY" href="http://metadata.un.org/thesaurus/1001655" showAs="DIGITAL TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT TO SECURITY OF PERSON" href="http://metadata.un.org/thesaurus/1005567" showAs="RIGHT TO SECURITY OF PERSON" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INFORMATION POLICY" href="http://metadata.un.org/thesaurus/1003197" showAs="INFORMATION POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CORPORATE SOCIAL RESPONSIBILITY" href="http://metadata.un.org/thesaurus/1001316" showAs="CORPORATE SOCIAL RESPONSIBILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-28" outcome="draftResolution" as="A/HRC/58/L.27/Rev.1" by="Albania, Andorra, Armenia, Australia, Austria, Belgium, Bulgaria, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, France, Germany, Greece, Guatemala, Honduras, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malawi, Malta, Marshall Islands, Mexico, Monaco, Mongolia, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Peru, Poland, Portugal, Republic of Moldova, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Switzerland and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-07" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-07" outcome="adopted" as="Adopted without vote, 58th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/23</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-07" class="rightSmall" refersTo="#dateOfIssuance">7 April 2025</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">Fifty-eighth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 February</date>
+          <date date="2025-04-04" refersTo="#endDate">4 April 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 4 April 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/23.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Human rights defenders and new and emerging technologies: protecting human rights defenders, including women human rights defenders, in the digital age</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guided</span> by the purposes and principles of the Charter of the United Nations and the Universal Declaration of Human Rights, the International Covenants on Human Rights and other relevant instruments,</p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve">		<span class="italic">Recalling</span> General Assembly resolution 53/144 of 9 December 1998, by which the Assembly adopted by consensus the Declaration on the Right and Responsibility of Individuals, Groups and Organs of Society to Promote and Protect Universally Recognized Human Rights and Fundamental Freedoms, commonly referred to as the Declaration on Human Rights Defenders, and the continued validity and application of all its provisions, and reiterating the importance of the Declaration and its promotion and full and effective implementation,</p>
+      </container>
+      <container name="Recalling also" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Recalling also</span> all other previous resolutions on this subject, including Human Rights Council resolutions 22/6 of 21 March 2013, 31/32 of 24 March 2016, 34/5 of 23 March 2017, 40/11 of 21 March 2019 and 43/16 of 22 June 2020, 49/18 of 1 April 2022 and 52/4 of 3 April 2023, and General Assembly resolutions 68/181 of 18 December 2013, 70/161 of 17 December 2015, 72/247 of 24 December 2017, 74/146 of 18 December 2019, 76/174 of 16 December 2021 and 78/216 of 19 December 2023, </p>
+      </container>
+      <container name="Affirming" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Affirming</span> the Global Digital Compact adopted by the General Assembly in its resolution 79/1 of 22 September 2024, and the sections of the Compact on objectives, principles, commitments, actions, follow-up and review with regard to human rights,</p>
+      </container>
+      <container name="Reiterating" eId="container_6">
+        <p xml:space="preserve">		<span class="italic">Reiterating</span> that all human rights and fundamental freedoms are universal, indivisible, interdependent and interrelated and should be promoted and implemented in a fair and equitable manner, and emphasizing that the same rights that apply offline also apply online,</p>
+      </container>
+      <container name="Reaffirming" eId="container_7">
+        <p xml:space="preserve">		<span class="italic">Reaffirming</span> that States have the primary responsibility and are under the obligation to respect, protect and fulfil all human rights and fundamental freedoms of all persons, and welcoming the steps taken by many States to create a safe and enabling environment for human rights defenders, both online and offline,</p>
+      </container>
+      <container name="Recalling" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Recalling</span> that the Guiding Principles on Business and Human Rights set out a principled approach for all companies to prevent, mitigate and address human rights harms to people from business activities, and that, for technology companies, this includes that they should anticipate and address harms related to the use of their products and services, commonly referred to as the “end-use”,</p>
+      </container>
+      <container name="Underscoring" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Underscoring </span>that the legal framework within which human rights defenders work peacefully to promote and protect human rights and fundamental freedoms is that of national legislation consistent with the Charter and international human rights law,</p>
+      </container>
+      <container name="Reaffirming" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> the importance of the Declaration on Human Rights Defenders and its full and effective implementation, and that promoting respect, support and protection for the activities of human rights defenders, including women human rights defenders, is essential to the overall enjoyment of human rights, both online and offline,</p>
+      </container>
+      <container name="Stressing" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic"> Stressing</span> that, in the exercise of the rights and freedoms referred to in the Declaration, human rights defenders, acting individually and in association with others, shall be subject only to such limitations as are in accordance with applicable international obligations and are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society,</p>
+      </container>
+      <container name="Noting" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Noting</span> civil society initiatives to mark the twenty-fifth anniversary of the Declaration on Human Rights Defenders, in particular Declaration +25,</p>
+      </container>
+      <container name="Recognizing" eId="container_13">
+        <p xml:space="preserve">		<span class="italic">Recognizing</span> the important and legitimate role played by human rights defenders, including women human rights defenders, in the promotion and protection of human rights, both online and offline, and in advocating for equal access to new technologies and bridging digital divides, including gender and geographic digital divides, through technological solutions,</p>
+      </container>
+      <container name="Recognizing also" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Recognizing also</span> that new and emerging digital technologies can hold great potential for strengthening democratic institutions and the resilience of civil society, empowering civic engagement and enabling the work of human rights defenders, public participation and the open and free exchange of ideas, and for the exercise of all human rights, </p>
+      </container>
+      <container name="Recognizing further" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Recognizing further</span> that digital technologies could be used as a tool for spreading hate speech, harmful narratives and propaganda, including through misinformation and disinformation, which can constitute an incitement to discrimination, hostility or violence and have a negative impact on the realization of human rights,</p>
+      </container>
+      <container name="Emphasizing" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Emphasizing</span> the particular risks with regard to the safety of human rights defenders in the digital age, including their exposure to unlawful or arbitrary surveillance, unlawful or arbitrary interference with privacy, targeted interception of communications, hacking, including government-sponsored hacking, and all forms of online violence and harassment, intimidation, smear campaigns, threats and doxxing, which disproportionately target women human rights defenders, and measures that prevent or disrupt access to information and communication channels, including Internet shutdowns,</p>
+      </container>
+      <container name="Recognizing" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that online attacks often pave the way for physical human rights violations and abuses, including killings, beatings, enforced disappearances and arbitrary detention, which have a negative effect on the work of human rights defenders,</p>
+      </container>
+      <container name="Emphasizing" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Emphasizing </span>the importance of digital connectivity, including in remote and rural areas, in ensuring the continuation of critical services, particularly during protests, elections, situations of crisis, armed conflict or foreign occupation, and underlining the importance of access to a free, affordable, open, interoperable, reliable, stable, safe and secure Internet,</p>
+      </container>
+      <container name="Recognizing" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that universal connectivity means connectivity for all and everywhere, and that meaningful connectivity allows users to have a safe, accessible and productive online experience at an affordable cost, and recognizing also that universal and meaningful connectivity is essential for the enjoyment of human rights, including for human rights defenders to conduct their work effectively and safely, both online and offline,</p>
+      </container>
+      <container name="Strongly condemning" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Strongly condemning</span> the use of Internet shutdowns, including the blocking of access to communication platforms, to intentionally and arbitrarily prevent or disrupt access to or the dissemination of information online, which is inconsistent with international law, including international human rights law, and stressing the importance of a free, affordable, open, interoperable, reliable and secure Internet,</p>
+      </container>
+      <container name="Noting with deep concern" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Noting with deep concern</span> the use or transfer of technological tools developed by the private surveillance industry by private or public actors to undertake surveillance, hacking of devices and systems, including through the use of malware or spyware, interception and disruption of communications, and data collection, interfering with the professional and private lives of individuals, including human rights defenders, engaged in the promotion and protection of human rights and fundamental freedoms, when in violation or abuse of their human rights, including the right to privacy,</p>
+      </container>
+      <container name="Noting with deep concern also" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Noting with deep concern also </span>the negative impact that surveillance and/or interception of communications, including extraterritorial surveillance and/or interception of communications, as well as the collection of personal data, in particular when carried out on a mass scale, may have on the exercise and enjoyment of human rights, including of women and girls,</p>
+      </container>
+      <container name="Expressing its concern" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Expressing its concern</span> at the arbitrary and unlawful surveillance, both in physical and digital spaces, including online, of human rights defenders, including women human rights defenders, including through the use of closed-circuit television and aerial surveillance vehicles, as well as through the use of new and emerging digital tracking tools, such as biometric technologies, including facial and emotional recognition and international mobile subscriber identity-catchers (“stingrays”), in violation or abuse of their human rights, including the right to privacy,</p>
+      </container>
+      <container name="Expressing its grave concern" eId="container_24">
+        <p xml:space="preserve"> <span class="italic">Expressing its grave concern </span>about repressive activities conducted abroad by States outside their own jurisdiction to harm, silence and intimidate human rights defenders through digital, physical and other means, including through the misuse of spyware and other intrusive surveillance software,</p>
+      </container>
+      <container name="Recognizing" eId="container_25">
+        <p xml:space="preserve"> <span class="italic">Recognizing </span>that artificial intelligence systems, when used without appropriate human rights safeguards and including when used for identification, tracking, profiling, facial recognition, the generation of synthetic photorealistic images, behavioural prediction or the scoring of individuals, can entail serious risks for the protection and promotion of human rights and their enjoyment by human rights defenders,</p>
+      </container>
+      <container name="Noting with concern" eId="container_26">
+        <p xml:space="preserve"> <span class="italic">Noting with concern</span> reports indicating lower accuracy of biometric data identification, including facial recognition technologies that show racial, gender and disability identification biases and prejudices, including when non‑representative training data are used, and that the use of digital technologies can reproduce, reinforce and even exacerbate racial, gender and disability inequalities, and recognizing in this context the importance of effective remedies,</p>
+      </container>
+      <container name="Recalling" eId="container_27">
+        <p xml:space="preserve"> <span class="italic">Recalling </span> the efforts to support meaningful multi-stakeholder engagement, including the principles outlined in the 2030 Agenda for Sustainable Development and the Global Digital Compact, and welcoming those contained in the multi-stakeholder statement on strengthening Internet governance and digital policy processes adopted at the 10-year review conference of the Global Multistakeholder Meeting on the Future of Internet Governance, held in São Paulo, Brazil, on 29 and 30 April 2024,</p>
+      </container>
+      <container name="Alarmed" eId="container_28">
+        <p xml:space="preserve">		<span class="italic">Alarmed</span> at the killing, kidnapping, enforced disappearance, arbitrary detention, torture, harassment, intimidation, criminalization and judicial harassment of, and the smear campaigns, violence, including sexual and gender-based violence, and threats both online and offline used against, human rights defenders, including women, environmental and Indigenous or their family members, associates and legal representatives,</p>
+      </container>
+      <container name="Recognizing" eId="container_29">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the importance of combating all forms of violence against human rights defenders, including women human rights defenders, in the context of digital technologies, including sexual exploitation and abuse, the use of deepfakes, doxxing, harassment, stalking, bullying, non‑consensual sharing of personal sexually explicit content, threats and acts of sexual and gender-based violence, death threats, arbitrary or unlawful surveillance and tracking, trafficking in persons, extortion, censorship, illegal access to digital accounts, mobile telephones or other electronic devices, in line with international human rights law,</p>
+      </container>
+      <container name="Recognizing also" eId="container_30">
+        <p xml:space="preserve"> <span class="italic">Recognizing also</span> that human rights defenders have been the target of a growing number of digital attacks, paralyzing their means of communication, and that lack of accountability for online attacks is a protection gap,</p>
+      </container>
+      <container name="Acknowledging" eId="container_31">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> that, while the digital environment offers new opportunities for the realization of the rights of the child, it also poses risks of violation or abuse of those same rights,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_32">
+        <p xml:space="preserve"> <span class="italic">Deeply concerned</span> that unpunished threats, attacks and violence against human rights defenders, both online and offline, contribute to a persistent climate of impunity, which in turn contributes to the recurrence of these crimes,</p>
+      </container>
+      <container name="Gravely concerned" eId="container_33">
+        <p xml:space="preserve">		<span class="italic">Gravely concerned</span> that national security, counter-terrorism and cybercrime legislation and other measures, such as defamation and libel laws and laws regulating civil society organizations, are in some instances misused to target human rights defenders, or have hindered their work and endangered their safety, in contravention of international law, including human rights law,</p>
+      </container>
+      <container name="Mindful" eId="container_34">
+        <p xml:space="preserve">		<span class="italic">Mindful</span> that domestic law and administrative provisions and their application should not hinder but enable the work of human rights defenders, including by avoiding any criminalization, stigmatization, impediments, discrimination, obstructions or restrictions thereof contrary to the obligations and commitments of States under international law, including human rights law,</p>
+      </container>
+      <container name="Expressing serious concern" eId="container_35">
+        <p xml:space="preserve"> <span class="italic">Expressing serious concern</span> at the rise of strategic lawsuits against public participation, including those brought by business entities, to exercise pressure, intimidate or exhaust the resources and morale of human rights defenders and thereby impede them in the performance of their work, including on matters of public interest,</p>
+      </container>
+      <container name="Recognizing" eId="container_36">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that the protection of human rights defenders can be fully achieved only in the context of a holistic approach that includes the strengthening of democratic institutions, protecting the international legal order, safeguarding civic space, the fight against impunity, ending gender and economic inequality and social exclusion, bridging all digital divides, including the gender and geographic digital divides, including between and within countries, and securing equal access to the Internet,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_37" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> 	<span class="italic">Stresses</span> that the right of everyone, individually or in association with others, to promote and strive for the protection and realization of all human rights and fundamental freedoms, as enshrined in the Declaration on Human Rights Defenders, without retaliation or fear thereof, both online and offline, is essential in building and maintaining inclusive, peaceful and democratic societies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve"> 	<span class="italic">Also stresses</span> the positive, important and legitimate role and contribution of human rights defenders, including women human rights defenders, in promoting and protecting human rights, strengthening understanding, tolerance and peace, promoting equal access to new technologies and bridging digital divides, and urges States to create and support a safe, enabling, accessible and inclusive environment online and offline for their participation in all relevant activities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve"> 	<span class="italic">Strongly condemns</span> the violence against and the criminalization, intimidation, attacks, torture, enforced disappearance and killing of, and all other human rights violations or abuses online and offline against, human rights defenders, including women, environmental and Indigenous human rights defenders, by State and non‑State actors, stresses the need to combat impunity by ensuring that those responsible for violations and abuses against human rights defenders, or against their legal representatives, associates and family members, are promptly brought to justice through impartial and independent investigations, and underlines that ensuring accountability is a key element in preventing future violations and abuses of international human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve"> 	<span class="italic">Recognizes</span> that democracy and the rule of law are essential components for the protection of human rights defenders, and urges States to take measures to strengthen democratic institutions, safeguard civic space, uphold the rule of law and combat impunity;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> States to combat impunity by conducting prompt, impartial and independent investigations and pursuing accountability for all forms of violations, abuses and threats by State and non‑State actors against any human rights defender, or against their legal representatives, family members and associates, and by condemning publicly all forms of violence and discrimination, including multiple and intersecting forms of discrimination, and acts of intimidation or reprisal, and underlining that such practices can never be justified;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve"> 	<span class="italic">Notes with appreciation</span> the work of the Special Rapporteur on the situation of human rights defenders and takes note of her reports submitted to the Human Rights Council<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	A/HRC/58/53 and Adds.1 and 2.</p></authorialNote> and the General Assembly,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	A/79/123.</p></authorialNote> and strongly encourages all States to cooperate with and to assist the Special Rapporteur;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve"> 	<span class="italic">Condemns</span> all acts of intimidation and reprisal, both online and offline, by State and non‑State actors against individuals, groups and organs of society, including against human rights defenders and their legal representatives, associates and family members, who seek to cooperate, are cooperating or have cooperated with subregional, regional and international bodies, including the United Nations, its representatives and mechanisms in the field of human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve"> 	<span class="italic">Reaffirms</span> the right of everyone, individually and in association with others, to unhindered access to and communication with international bodies without fear of reprisal, in particular with the United Nations, its representatives and mechanisms in the field of human rights, including the Human Rights Council and its special procedures, the universal periodic review mechanism and the treaty bodies, as well as regional human rights mechanisms, and strongly calls upon all States to realize this right;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtG">
+        <num>9.</num>
+        <list eId="para_73_list">
+          <intro eId="para_73_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Calls upon</span> States:</p>
+          </intro>
+          <point eId="para_73_list_point_a">
+            <num>(a)</num>
+            <content eId="para_73_list_point_a_content">
+              <p xml:space="preserve"> 	To promote a safe and enabling environment for human rights defenders, including women human rights defenders, to conduct their work both online and offline, and to ensure that laws, policies and practices are in compliance with applicable obligations and commitments under international law, including international human rights law, so that they do not hinder or limit unduly the ability of human rights defenders to carry out their work or have access to resources;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_b">
+            <num>(b)</num>
+            <content eId="para_73_list_point_b_content">
+              <p xml:space="preserve"> 	To refrain from or cease the use or transfer of new and emerging technologies, including artificial intelligence applications and spyware, where they are impossible to operate in compliance with international human rights law or that pose undue risks to the enjoyment of human rights, unless and until the adequate safeguards to protect human rights and fundamental freedoms are in place;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_c">
+            <num>(c)</num>
+            <content eId="para_73_list_point_c_content">
+              <p xml:space="preserve"> 	To foster an accessible, inclusive, open, safe and secure digital space that respects, protects and promotes human rights, gender equality and the empowerment of women and girls, and to accelerate efforts to bridge digital divides, including the gender, geographic and other digital divides, between and within countries, and to foster universal, affordable and meaningful connectivity, particularly during protests, elections, situations of crisis, armed conflict or foreign occupation, the use of information and communications technology and the promotion of open and secure digital access and digital inclusion, including through digital, media and information literacy and digital security training, in order to promote the full enjoyment of human rights for all;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_d">
+            <num>(d)</num>
+            <content eId="para_73_list_point_d_content">
+              <p xml:space="preserve"> 	To encourage diverse and human rights-respecting technological solutions to advance connectivity, including by creating an enabling, inclusive and effective regulatory environment for small, non‑profit and community Internet operators;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_e">
+            <num>(e)</num>
+            <content eId="para_73_list_point_e_content">
+              <p xml:space="preserve"> 	To encourage the private sector to apply the Guiding Principles on Business and Human Rights;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_f">
+            <num>(f)</num>
+            <content eId="para_73_list_point_f_content">
+              <p xml:space="preserve"> 	To guarantee the right to freedom of expression, which includes the freedom to seek, receive and impart information, including by promoting transparency, proactively publishing data and integrating digital and media literacy into educational curricula;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_g">
+            <num>(g)</num>
+            <content eId="para_73_list_point_g_content">
+              <p xml:space="preserve"> 	To prioritize the development and implementation of national online child safety policies and standards, in compliance with international human rights law, including the Convention on the Rights of the Child;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_h">
+            <num>(h)</num>
+            <content eId="para_73_list_point_h_content">
+              <p xml:space="preserve"> 	To expand access to the Internet and secure communication tools, including by increasing funding for such digital security resources as encrypted communication applications and secure reporting channels;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_i">
+            <num>(i)</num>
+            <content eId="para_73_list_point_i_content">
+              <p xml:space="preserve"> 	To refrain from the criminalization, delegitimization or stigmatization of, or smear campaigns, hate speech and disinformation targeting, human rights defenders for documenting human rights violations and abuses, including for communicating with non‑State actors, for this purpose;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_j">
+            <num>(j)</num>
+            <content eId="para_73_list_point_j_content">
+              <p xml:space="preserve"> 	To refrain from Internet shutdowns, network restrictions or any other measures aiming to disrupt or prevent human rights defenders from having access to or disseminating information and communicating safely and securely, including through the use of blocking, throttling or filtering measures, or by interfering with the use of technologies, such as encryption or anonymity tools;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_k">
+            <num>(k)</num>
+            <content eId="para_73_list_point_k_content">
+              <p xml:space="preserve"> 	To promote measures and technical solutions for strong encryption and anonymity, such as pseudonymization, not to interfere with the use of such technical solutions, with any restrictions thereon complying with States’ obligations under international human rights law, and to enact laws and policies that protect the privacy of individuals’ digital communications;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_l">
+            <num>(l)</num>
+            <content eId="para_73_list_point_l_content">
+              <p xml:space="preserve"> 	To support efforts to enable human rights defenders to store and safeguard their information securely, without fear of unlawful surveillance or data breaches or arbitrary seizure of equipment including putting in place robust legal safeguards to prevent the misuse of digital tools to suppress dissent or target defenders and ensure that their rights online and offline are protected;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_m">
+            <num>(m)</num>
+            <content eId="para_73_list_point_m_content">
+              <p xml:space="preserve"> 	To refrain from and cease measures that violate human rights, including such practices as the targeted use of spyware against human rights defenders, as such actions may be incompatible with international human rights law, and to make available mechanisms to provide appropriate remedies for victims of surveillance-related violations of law, consistent with international human rights law;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_n">
+            <num>(n)</num>
+            <content eId="para_73_list_point_n_content">
+              <p xml:space="preserve"> 	To ensure that biometric identification and recognition technologies, including facial recognition technologies, are not used by public and private actors for mass surveillance, and are used only when consistent with international human rights law and the principles of legality, necessity and proportionality, and also to ensure access to remedies for human rights violations and abuses arising from biometric identification and recognition technologies; </p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_o">
+            <num>(o)</num>
+            <content eId="para_73_list_point_o_content">
+              <p xml:space="preserve"> 	To ensure that the criminalization and prosecution of terrorism, cybercrimes or national security offences, defamation and libel laws and other and other measures used to address threats in this regard are in accordance with their obligations under international human rights law, and to avoid the criminalization of human rights defenders or unduly hindering their work;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_p">
+            <num>(p)</num>
+            <content eId="para_73_list_point_p_content">
+              <p xml:space="preserve"> 	To adopt and implement laws and policies that discourage strategic lawsuits against public participation targeting journalists, media outlets and human rights defenders, including women human rights defenders, and to provide legal support to victims;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_q">
+            <num>(q)</num>
+            <content eId="para_73_list_point_q_content">
+              <p xml:space="preserve"> 	To take all steps necessary to prevent threats, attacks, discrimination, arbitrary arrests and detention or other forms of harassment, reprisals and acts of intimidation against civil society actors, including human rights defenders, to promptly, impartially and independently investigate any such alleged acts, to ensure access to justice and accountability and to end impunity where such violations and abuses have occurred;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_r">
+            <num>(r)</num>
+            <content eId="para_73_list_point_r_content">
+              <p xml:space="preserve"> 	To enhance the collection of disaggregated data on the situation of human rights defenders, also by benefiting from data collected by civil society, the media and national human rights institutions, including on threats, attacks or violence against human rights defenders, including women human rights defenders, and to do their utmost to make them available to the Office of the High Commissioner;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve"> 	<span class="italic">Continues to express its particular concern</span> about systemic and structural discrimination, economic disenfranchisement, violence and harassment disproportionately faced by women human rights defenders in diverse situations and conditions, including sexual and gender-based violence, as well as defamation, disinformation and smear campaigns, both online and offline, and reiterates its strong call upon States to take appropriate, robust and practical steps to protect women human rights defenders and to integrate a gender perspective into their efforts to create a safe and enabling environment for the defence of human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve"> 	<span class="italic">Condemns unequivocally</span> online attacks against women and girls, including sexual and gender-based violence and abuse of women and girls that occurs through or is amplified by technology, such as doxxing, deep-faking, cyberstalking and online harassment, and against women by the non‑consensual sharing of intimate images, whether real or simulated, in particular where women human rights defenders engaging in public debate are targeted for their expression, and calls for gender-responsive approaches that take into account these particular forms of online discrimination and harassment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> States to create and support an enabling environment for the full, equal and meaningful participation of women’s civil society organizations and women human rights defenders, both online and offline, including by bridging the gender, geographic and other digital divides;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve"> 	<span class="italic">Underscores</span> the responsibility of all business enterprises, particularly those in the tech industry or operating online both transnational and others, in accordance with the Guiding Principles on Business and Human Rights, to respect all human rights, including the rights to life, liberty and security of person of human rights defenders, and their exercise of the rights to freedom of expression, peaceful assembly and association, and participation in public affairs, which are essential for the promotion and protection of all human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> business enterprises, including communications service providers and social media companies, to work towards enabling solutions to secure and protect the confidentiality of digital communications and transactions, including measures for encryption, pseudonymization and anonymity, and to ensure the implementation of human-rights compliant safeguards, and to carry out human rights due diligence in accordance with the Guiding Principles on Business and Human Rights throughout the lifecycle and value chain of their services and products in order to identify, prevent and address potential risks to human rights defenders;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve"> <span class="italic">	Requests</span> the Office of the United Nations High Commissioner for Human Rights to convene three regional workshops, including through hybrid modalities, to assess the risks created by digital technologies to human rights defenders and best practices to respond to these concerns in different geographical areas, bearing in mind current and emerging business models and gender, geographic and other digital divides and sensitivities, with participation from civil society, human rights defenders and the private sector;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve"> <span class="italic">	Also requests</span> the Office of the High Commissioner to prepare a report containing a summary of those consultations, which could include recommendations for due diligence and improved responses to the risks created by digital technologies to human rights defenders, including those exposed to discrimination and those working in situations of armed conflict, and to present it to the Human Rights Council at its sixty-third session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_173" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_173__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="58th" refersTo="#adoptionMeeting">58th meeting</location>
+          <eol />
+          <docDate date="2025-04-04" refersTo="#adoptionDate">4 April 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
