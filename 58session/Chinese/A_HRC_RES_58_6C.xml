@@ -1,0 +1,249 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/"></FRBRuri>
+          <FRBRdate date="2025-04-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/zho@/"></FRBRuri>
+          <FRBRdate date="2025-04-03" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-02/58-6/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Advisory Committee" showAs="UN. Human Rights Council. Advisory Committee" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNOLOGY" href="http://metadata.un.org/thesaurus/1006429" showAs="TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NERVOUS SYSTEM" href="http://metadata.un.org/thesaurus/1004376" showAs="NERVOUS SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-27" outcome="draftResolution" as="A/HRC/58/L.9" by="Albania, Andorra, Armenia, Austria, Belgium, Bulgaria, Chile, Costa Rica, Croatia, Cyprus, Czechia, Ecuador, France, Germany, Greece, Guatemala, Hungary, Italy, Luxembourg, Malta, Monaco, Montenegro, Paraguay, Portugal, Romania, Singapore, Slovenia, Spain, Switzerland, Ukraine and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-03" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-03" outcome="adopted" as="Adopted without vote, 55th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-03" class="rightSmall" refersTo="#dateOfIssuance">3 April 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">第五十八届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 二月</date>
+          <date date="2025-04-04" refersTo="#endDate">4 四月 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、 经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2025年4月2日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">神经技术与人权</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会，</span>
+        </p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">遵循</span>《联合国宪章》的宗旨和原则，</p>
+      </container>
+      <container name="重申" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">重申</span>《世界人权宣言》、《公民及政治权利国际公约》、《经济社会文化权利国际公约》、《维也纳宣言和行动纲领》、《儿童权利公约》、《残疾人权利公约》以及其他相关国际和区域人权文书，</p>
+      </container>
+      <container name="回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">回顾</span>人权理事会2022年10月6日关于神经技术与人权的第51/3号决议以及理事会其他所有相关决议，包括2023年4月3日关于精神健康与人权的第52/12号决议、2023年7月14日关于新的和新兴数字技术与人权的第53/29号决议、2023年10月12日关于数字时代的隐私权的第54/21号决议、2024年7月10日关于意见和表达自由的第56/7号决议以及2024年10月11日关于在互联网上促进、保护和享有人权的第57/29号决议，</p>
+      </container>
+      <container name="重申" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">重申</span>务应促进和保护每个人分享科学进步及其惠益的权利，</p>
+      </container>
+      <container name="认识到" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">认识到</span>普遍、切实的连通和负担得起的接入在释放数字技术和新兴技术的全部潜力以弥合所有数字鸿沟和加快实现各项可持续发展目标方面的关键作用，</p>
+      </container>
+      <container name="意识到" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">意识到</span>新的数字技术和新兴数字技术能成为促进发展的关键助力，强调有必要弥合所有数字鸿沟，以确保人人均能不受任何歧视地享受新的数字技术和新兴数字技术带来的惠益，</p>
+      </container>
+      <container name="回顾" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">回顾</span>国家负有促进和保护人权和基本自由的义务和首要责任；《工商企业与人权指导原则：实施联合国“保护、尊重和补救”框架》规定，国家负有保护人权的义务，而包括技术公司在内的企业负有尊重人权的责任，包括通过评估实际和潜在的人权影响、整合评估结果和就评估结果采取行动、跟踪应对措施以及通报如何应对影响等方式恪尽人权职责，</p>
+      </container>
+      <container name="铭记" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">铭记</span>神经技术允许借助除其他外可用于访问、监控、调整和改变人的神经系统和心智的设备和程序将人脑直接与数字网络连接，其作用和影响还有待充分了解，</p>
+      </container>
+      <container name="认识到" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">认识到</span>神经技术可在人类健康和创新方面大有可为，但与此同时，继续发展神经技术的某些应用，可能会带来若干伦理、法律和社会问题，并对人的尊严和自主权产生影响，因而有必要在这方面确保切实有效地尊重、保护和实现人权，</p>
+      </container>
+      <container name="又认识到" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>神经技术有望创造多种机会，包括加强沟通、支持教育和学习、提高可及性和流动性、促进包容和拥抱神经多样性、促进精神健康和福祉、为管理疼痛提供新的可能性以及促进脑机接口方面的创新，</p>
+      </container>
+      <container name="关切地注意到" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">关切地注意到</span>神经技术的快速发展给身体的完整性和精神的完整性以及保护人权带来了挑战，包括但不限于平等和不受歧视的权利，思想自由的权利，隐私权，享有能达到的最高标准身心健康的权利，禁止酷刑和其他残忍、不人道或有辱人格的待遇或处罚，以及获得公正审判和基本程序保障的权利，</p>
+      </container>
+      <container name="考虑到" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">考虑到</span>联合国教育、科学及文化组织国际生物伦理委员会关于神经技术的伦理问题的报告指出，神经技术改变神经系统且有可能改变心智的潜力越来越大，包括以侵入性、普遍性的方式改变，因而有必要考虑人体的完整性，尤其是大脑和心智的完整性，</p>
+      </container>
+      <container name="意识到" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">意识到</span>有必要让包括弱势群体在内的所有人均能在无歧视、可负担的条件下获得符合人权且安全可靠的神经技术，并确保在实践当中切实有效地保护其人格尊严和权利免受开发和实施阶段的消极作用和滥用妄为影响，与此同时也确保能受益于神经技术者可出于健康和医疗目的利用神经技术，</p>
+      </container>
+      <container name="强调" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">强调</span>对人体采取的所有神经技术干预措施，均应始终要求获得事先在知情情况下自主表示的真实、透明、有效且明确的同意，且上述同意可随时撤销；必须确保切实有效地保护包括弱势群体在内的所有人免于接受他们无法表示同意的医学治疗和医学研究，</p>
+      </container>
+      <container name="注意到" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">注意到</span>秘书长在2021年题为“我们的共同议程”的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/zh/A/75/982">A/75/982</a>.</p></authorialNote> 中指出，应考虑更新或明确人权框架和标准的适用问题，以触及前沿问题，并防止数字或技术领域的危害，包括防止神经技术领域的危害，</p>
+      </container>
+      <container name="又注意到" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">又注意到</span>宗教或信仰自由特别报告员曾着重指出，虽然神经技术的进步为治疗某些疾病带来了巨大的希望，但其某些应用可能导致改变或操纵大脑里的想法，从而影响思想自由权，<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		见<a href="https://docs.un.org/zh/A/76/380">A/76/380</a>。</p></authorialNote></p>
+      </container>
+      <container name="还注意到" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">还注意到</span>隐私权特别报告员曾着重指出，在设计和使用神经技术以及处理和安全地管理神经数据时，有必要以不歧视原则为特别关注重点，切实有效地保护人权，包括隐私权在内，<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		见<a href="https://docs.un.org/zh/A/HRC/58/58">A/HRC/58/58</a>。</p></authorialNote></p>
+      </container>
+      <container name="注意到" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">注意到</span>秘书长曾指出，神经技术在刑事司法中的潜在应用也令人关切，<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		见<a href="https://docs.un.org/zh/A/79/296">A/79/296</a>。</p></authorialNote></p>
+      </container>
+      <container name="又注意到" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">又注意到</span>联合国教育、科学及文化组织就神经技术的伦理问题制定建议的工作，以及联合国儿童基金会就神经技术对儿童权利的影响开展调查的工作，</p>
+      </container>
+      <container name="考虑到" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">考虑到</span>运用现有人权框架应对神经技术带来的挑战和抓住神经技术带来的机遇的重要性，与此同时注意到上述技术可能缺乏适当的监管，并认识到有必要采取切实有效的措施充分解决其对人权的不利影响，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_22" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>提交人权理事会第五十七届会议的人权理事会咨询委员会关于神经技术在促进和保护所有人权方面的影响、机遇和挑战的报告<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<a href="https://docs.un.org/zh/A/HRC/57/61">A/HRC/57/61</a>.</p></authorialNote>；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="bold">请</span>咨询委员会就将现有人权框架适用于神经技术的构思、设计、开发、测试、使用以及部署起草一套建议性指南并提交理事会第六十四届会议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="bold">又请</span>咨询委员会在起草上述建议性指南时征求并考虑所有利益攸关方的意见和建议，并借鉴已经开展的相关工作，包括联合国教育、科学及文化组织已经开展的工作在内；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联合国人权事务高级专员、各条约机构以及人权理事会各项特别程序在各自的任务范围内，对神经技术对充分享受所有人权和基本自由的影响给予应有的考虑；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续处理此事。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第55次" refersTo="#adoptionMeeting">第55次会议</location>
+          <eol />
+          <docDate date="2025-04-02" refersTo="#adoptionDate">2025年4月2日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
