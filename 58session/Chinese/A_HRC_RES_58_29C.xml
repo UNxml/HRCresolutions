@@ -1,0 +1,380 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-29/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-29/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-29/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-29/zho@/"></FRBRuri>
+          <FRBRdate date="2025-04-07" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-29/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-29/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="RELIGIOUS INTOLERANCE" href="http://metadata.un.org/thesaurus/1005466" showAs="RELIGIOUS INTOLERANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISCRIMINATION" href="http://metadata.un.org/thesaurus/1001697" showAs="DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="VIOLENCE" href="http://metadata.un.org/thesaurus/1006882" showAs="VIOLENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RELIGIOUS FREEDOM" href="http://metadata.un.org/thesaurus/1005463" showAs="RELIGIOUS FREEDOM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GROUP HATRED" href="http://metadata.un.org/thesaurus/1002773" showAs="GROUP HATRED" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="9" showAs="Racism, racial discrimination, xenophobia and related forms of intolerance, follow-up to and implementation of the Durban Declaration and Programme of Action." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-24" outcome="draftResolution" as="A/HRC/58/L.18" by="Australia, Canada, Eritrea, Ethiopia, Germany, Iceland, Luxembourg, Netherlands (Kingdom of the), Pakistan, Paraguay and Spain" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-07" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-07" outcome="adopted" as="Adopted without vote, 59th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/29</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-07" class="rightSmall" refersTo="#dateOfIssuance">7 April 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">第五十八届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 二月</date>
+          <date date="2025-04-04" refersTo="#endDate">4 四月 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="9" name="agenda item">议程项目9</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">种族主义、种族歧视、仇外心理和相关不容忍行为： 《德班宣言和行动纲领》的后续行动和执行情况</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2025年4月4日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/29.</docNumber>
+        <docTitle refersTo="#resolutionTitle">打击基于宗教或信仰原因对他人的不容忍、负面成见、污名化和歧视以及煽动暴力和暴力侵害他人行为</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会，</span>
+        </p>
+      </formula>
+      <container name="重申" eId="container_2">
+        <p xml:space="preserve"> <span class="bold">重申</span>各国依照《联合国宪章》承诺增进和鼓励对所有人权及基本自由的普遍尊重和信守，而不分宗教、信仰或其他区别，</p>
+      </container>
+      <container name="又重申" eId="container_3">
+        <p xml:space="preserve"> <span class="bold">又重申</span>人权理事会2011年3月24日第16/18号、2012年3月23日第19/25号、2013年3月22日第22/31号、2014年3月28日第25/34号、2015年3月27日第28/29号、2016年3月24日第31/26号、2017年3月24日第34/32号、2018年3月23日第37/38号、2019年3月22日第40/25号、2020年6月22日第43/34号、2021年3月24日第46/27号、2022年4月1日第49/31号和2023年4月4日第52/38号决议，以及大会2011年12月19日第66/167号、2012年12月20日第67/178号、2013年12月18日第68/169号、2014年12月18日第69/174号、2015年12月17日第70/157号、2016年12月19日第71/195号、2017年12月19日第72/196号、2018年12月17日第73/164号、2019年12月18日第74/163号、2020年12月16日第75/187号、2021年12月16日第76/157号、2022年12月15日第77/225号、2023年12月19日第78/214号和2024年12月17日第79/180号决议，</p>
+      </container>
+      <container name="还重申" eId="container_4">
+        <p xml:space="preserve"> <span class="bold">还重申</span>各国有义务禁止基于宗教或信仰原因的歧视，并采取措施，保障平等有效的法律保护，</p>
+      </container>
+      <container name="重申" eId="container_5">
+        <p xml:space="preserve"> <span class="bold">重申</span>《公民及政治权利国际公约》规定，人人有权享有思想、良心和宗教或信仰自由，此项权利包括维持或皈依个人所选择的宗教或信仰的自由，以及单独或集体、公开或私下以礼拜、仪式、实践和教义表明其宗教或信仰的自由，</p>
+      </container>
+      <container name="又重申" eId="container_6">
+        <p xml:space="preserve"> <span class="bold">又重申</span>，行使意见和表达自由权以及充分尊重寻求、接收和传播信息的自由对加强民主、打击宗教不容忍可发挥积极作用，并重申，《公民及政治权利国际公约》第十九条规定，表达自由权的行使附有特别责任及义务，</p>
+      </container>
+      <container name="表示深为关切" eId="container_7">
+        <p xml:space="preserve"> <span class="bold">表示深为关切</span>鼓吹宗教仇恨从而违背宽容精神的行为，</p>
+      </container>
+      <container name="重申" eId="container_8">
+        <p xml:space="preserve"> <span class="bold">重申</span>不能也不应将任何形式和表现的恐怖主义同任何宗教、国籍、文化或族裔群体联系在一起，</p>
+      </container>
+      <container name="又重申" eId="container_9">
+        <p xml:space="preserve"> <span class="bold">又重申</span>决不能接受以暴力应对基于宗教或信仰原因的不容忍行为，</p>
+      </container>
+      <container name="还重申" eId="container_10">
+        <p xml:space="preserve"> <span class="bold">还重申</span>行使意见和表达自由权以及充分尊重寻求、接收和传播信息的自由对加强民主、打击宗教不容忍行为可发挥积极作用，</p>
+      </container>
+      <container name="重申" eId="container_11">
+        <p xml:space="preserve"> <span class="bold">重申</span>人权教育和培训对推动宽容、不歧视和平等的积极作用，</p>
+      </container>
+      <container name="深为关切" eId="container_12">
+        <p xml:space="preserve"> <span class="bold">深为关切</span>世界所有区域基于宗教或信仰原因对他人的不容忍、歧视和暴力侵害事件，</p>
+      </container>
+      <container name="谴责" eId="container_13">
+        <p xml:space="preserve"> <span class="bold">谴责</span>一切鼓吹基于宗教或信仰原因的歧视或暴力的行为，</p>
+      </container>
+      <container name="强烈谴责" eId="container_14">
+        <p xml:space="preserve"> <span class="bold">强烈谴责</span>一切基于宗教或信仰原因对他人实施暴力侵害以及攻击他人住所、工作场所、财产、学校、文化中心或礼拜场所的行为，</p>
+      </container>
+      <container name="感到关切的是" eId="container_15">
+        <p xml:space="preserve"> <span class="bold">感到关切的是</span>，有些行动故意利用紧张局势或是基于宗教或信仰原因而针对个人，</p>
+      </container>
+      <container name="深为关切地注意到" eId="container_16">
+        <p xml:space="preserve"> <span class="bold">深为关切地注意到</span>，全世界很多地方存在不容忍、歧视和暴力的情况，其中一些情况是出于对宗教少数群体人员的歧视，此外还存在对宗教信徒进行负面描绘以及基于宗教或信仰原因实行专门歧视某些人的措施的情况，</p>
+      </container>
+      <container name="表示关切的是" eId="container_17">
+        <p xml:space="preserve"> <span class="bold">表示关切的是</span>，基于宗教或信仰原因的不容忍现象不断增加，这可能导致不同国家人民之间以及一国之内人民之间的仇恨和暴力行为，由此可能在国家、区域和国际层面造成严重后果，为此强调，必须尊重宗教和文化多样性，在不同信仰和不同文化之间开展对话，以便营造个人、社会和国家间宽容、尊重的氛围，</p>
+      </container>
+      <container name="认识到" eId="container_18">
+        <p xml:space="preserve"> <span class="bold">认识到</span>所有宗教或信仰的信徒都为人类作出了宝贵贡献，不同宗教团体之间的对话可增进对全人类共同价值观的认识和了解，</p>
+      </container>
+      <container name="又认识到" eId="container_19">
+        <p xml:space="preserve"> <span class="bold">又认识到</span>，共同努力加强现行法律制度的实施以保护个人免遭歧视和仇恨罪行侵害、增加不同信仰和不同文化之间的交流以及推广人权教育是打击基于宗教或信仰原因对他人的不容忍、歧视和暴力行为的首要步骤，</p>
+      </container>
+      <container name="回顾" eId="container_20">
+        <p xml:space="preserve"> <span class="bold">回顾</span>大会2013年12月18日协商一致通过的关于构建一个反对暴力和暴力极端主义的世界的第68/127号决议，欢迎联合国教育、科学及文化组织在推动不同文化间对话方面发挥的带头作用，欢迎联合国不同文明联盟和安娜·林德欧洲－地中海文化间对话基金会开展的工作、阿卜杜拉·本·阿卜杜勒阿齐兹国王宗教间和文化间对话国际中心开展的工作，欢迎大会在约旦国王阿卜杜拉二世的提议下于2010年10月20日通过的关于世界不同信仰间和谐周的第65/5号决议，</p>
+      </container>
+      <container name="欢迎" eId="container_21">
+        <p xml:space="preserve"> <span class="bold">欢迎</span>为促进不同宗教、不同文化和不同信仰之间的和谐、打击基于宗教或信仰原因对他人的歧视而采取的所有相关国际、区域和国家举措，包括启动“打击基于宗教或信仰原因的不容忍、歧视和煽动仇恨和(或)暴力行为的伊斯坦布尔进程”，并回顾欧洲委员会部长理事会主席国阿尔巴尼亚在“多元而团结”主题下提出的倡议，以及联合国人权事务高级专员办事处提出的关于禁止构成煽动歧视、敌意或暴力的鼓吹民族、种族或宗教仇恨行为的倡议，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_22" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> 	<span class="bold">深表关切的是</span>，基于宗教或信仰原因对他人贬低丑化、负面定性和污名化的严重事件持续发生，极端主义组织和团体为制造和固化对某些宗教团体的负面成见而推行某些计划和目标，尤其是还得到一些国家政府的纵容；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 	<span class="bold">表示关切的是</span>，世界各地的宗教不容忍、歧视和相关暴力事件以及基于宗教或信仰原因对他人进行丑化的事件继续增加，为此，谴责一切构成煽动歧视、敌意或暴力的鼓吹针对他人的宗教仇恨的行为，促请各国根据国际人权法规定的义务，采取本决议规定的有效措施，处理和打击这类事件；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="bold">强烈谴责</span>一切构成煽动歧视、敌意或暴力的鼓吹宗教仇恨的行为，不论其采用印刷、音像、电子媒介还是其他任何手段；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="bold">欢迎</span>为促进不同宗教、不同文化和不同信仰之间的和谐、打击基于宗教或信仰原因对他人的歧视而采取的国际、区域和国家举措，尤其是在“打击基于宗教或信仰原因的不容忍、歧视和煽动仇恨和(或)暴力行为的伊斯坦布尔进程”的框架内，在华盛顿特区、伦敦、日内瓦、多哈、沙特阿拉伯吉达、新加坡和海牙举行并由巴基斯坦在线举办了一系列专家会议，讨论人权理事会第16/18号决议的执行情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"> 	<span class="bold">注意到</span>联合国人权事务高级专员办事处所作的努力，以及就相关的不同议题在奥地利、智利、肯尼亚和泰国举行的四次区域讲习班，并注意到在摩洛哥举行的最后一次讲习班及其成果文件――关于禁止构成煽动歧视、敌意或暴力的鼓吹民族、种族或宗教仇恨言论的《拉巴特行动计划》，以及其中所载的建议和结论；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> 	<span class="bold">认识到</span>地方、国家和国际层面的公开思想辩论以及不同信仰和不同文化之间的对话可以成为防止宗教不容忍行为的最佳保障之一，并且可以在加强民主和打击宗教仇恨方面发挥积极作用，深信继续就这些议题开展对话有助于克服现有的错误观念；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtGC">
+        <num>7.</num>
+        <list eId="para_43_list">
+          <intro eId="para_43_list_intro">
+            <p xml:space="preserve"> 	<span class="bold">注意到</span>伊斯兰会议组织秘书长在人权理事会第十五届会议上的发言，借鉴他向各国发出的呼吁，号召各国采取下列行动，在国内营造一种宗教宽容、和平和尊重的氛围：</p>
+          </intro>
+          <point eId="para_43_list_point_a">
+            <num>(a)</num>
+            <content eId="para_43_list_point_a_content">
+              <p xml:space="preserve"> 	鼓励创建协作网络以建立相互理解，推动对话并动员采取建设性行动，以实现共同政策目标，力求取得切实成果，例如在教育、卫生、预防冲突、就业、融合及媒体教育等领域实施服务项目；</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_b">
+            <num>(b)</num>
+            <content eId="para_43_list_point_b_content">
+              <p xml:space="preserve"> 	在政府中建立适当机制，以便除其他外，确定和处理不同宗教群体成员之间可能存在紧张关系的领域，并协助预防冲突和进行调解；</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_c">
+            <num>(c)</num>
+            <content eId="para_43_list_point_c_content">
+              <p xml:space="preserve"> 	鼓励为政府官员提供有效外联战略方面的培训；</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_d">
+            <num>(d)</num>
+            <content eId="para_43_list_point_d_content">
+              <p xml:space="preserve"> 	鼓励社群领导人做出努力，在社群内部讨论产生歧视的原因，并拟订消除这些原因的战略；</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_e">
+            <num>(e)</num>
+            <content eId="para_43_list_point_e_content">
+              <p xml:space="preserve"> 	声讨不容忍行为，包括构成煽动歧视、敌意或暴力的鼓吹宗教仇恨行为；</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_f">
+            <num>(f)</num>
+            <content eId="para_43_list_point_f_content">
+              <p xml:space="preserve"> 	采取措施将基于宗教或信仰原因煽动他人立即实施暴力的行为定为犯罪；</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_g">
+            <num>(g)</num>
+            <content eId="para_43_list_point_g_content">
+              <p xml:space="preserve"> 	理解有必要在地方、国家、区域和国际层面制定战略，协调行动，通过教育和宣传等活动制止对他人的诋毁和负面宗教成见，打击煽动宗教仇恨的行为；</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_h">
+            <num>(h)</num>
+            <content eId="para_43_list_point_h_content">
+              <p xml:space="preserve"> 	认识到在地方、国家和国际层面以开放、建设性和相互尊重的方式进行思想辩论以及开展不同信仰和不同文化之间的对话可在打击宗教仇恨、打击煽动和实施暴力的行为方面发挥积极作用；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxtGC">
+        <num>8.</num>
+        <list eId="para_50_list">
+          <intro eId="para_50_list_intro">
+            <p xml:space="preserve"> 	<span class="bold">促请</span>所有国家：</p>
+          </intro>
+          <point eId="para_50_list_point_a">
+            <num>(a)</num>
+            <content eId="para_50_list_point_a_content">
+              <p xml:space="preserve"> 	采取有效措施，确保政府官员在执行公务时不基于宗教或信仰原因对他人进行歧视；</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_b">
+            <num>(b)</num>
+            <content eId="para_50_list_point_b_content">
+              <p xml:space="preserve"> 	帮助所有宗教群体的成员提高能力，表明其宗教信仰并公开、平等地为社会做出贡献，以促进宗教自由和多元化；</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_c">
+            <num>(c)</num>
+            <content eId="para_50_list_point_c_content">
+              <p xml:space="preserve"> 	不分宗教信仰，鼓励在社会所有部门实现个人的代表性和有意义的参与；</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_d">
+            <num>(d)</num>
+            <content eId="para_50_list_point_d_content">
+              <p xml:space="preserve"> 	大力打击宗教定性的做法，即讯问、搜查及其他执法调查程序中以宗教为判定标准的有害做法；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve"> 	<span class="bold">鼓励</span>各国考虑在向高级专员办事处提交报告时提供最新资料，说明在这方面所作的努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve"> 	<span class="bold">吁请</span>各国采取措施和政策，加强对礼拜场所和宗教场所、墓地和圣迹的充分尊重和保护，并对易遭到破坏或损毁的地点采取措施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve"> 	<span class="bold">注意到</span>联合国人权事务高级专员根据人权理事会第52/38号决议提交的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/zh/A/HRC/55/74">A/HRC/55/74</a>.</p></authorialNote>，其中归纳了各国提供的材料，并注意到该报告根据这些材料得出的结论；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve"> 	<span class="bold">强调</span>有必要立即实施上文第7和第8段所述行动计划的各项内容，对各项内容给予同等重视和关注，以处理宗教不容忍问题；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve"> 	<span class="bold">请</span>高级专员根据各国提供的资料，编写并向人权理事会第六十一届会议提交一份载有详细结论的综合后续报告，说明各国为实施上文第7和第8段所述行动计划所作的努力和采取的措施，以及关于进一步改进该计划执行情况的可能后续措施的意见；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve"> 	<span class="bold">呼吁</span>国际社会加强努力推动全球对话，以尊重人权和宗教及信仰多样性为基础，在各个层面营造宽容与和平的氛围。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第59次" refersTo="#adoptionMeeting">第59次会议</location>
+          <eol />
+          <docDate date="2025-04-04" refersTo="#adoptionDate">2025年4月4日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
