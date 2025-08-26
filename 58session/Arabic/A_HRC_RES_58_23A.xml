@@ -1,0 +1,509 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/ara@/"></FRBRuri>
+          <FRBRdate date="2025-04-07" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS ACTIVISTS" href="http://metadata.un.org/thesaurus/1002976" showAs="HUMAN RIGHTS ACTIVISTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN" href="http://metadata.un.org/thesaurus/1007029" showAs="WOMEN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NEW TECHNOLOGIES" href="http://metadata.un.org/thesaurus/1004392" showAs="NEW TECHNOLOGIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL TECHNOLOGY" href="http://metadata.un.org/thesaurus/1001655" showAs="DIGITAL TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT TO SECURITY OF PERSON" href="http://metadata.un.org/thesaurus/1005567" showAs="RIGHT TO SECURITY OF PERSON" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INFORMATION POLICY" href="http://metadata.un.org/thesaurus/1003197" showAs="INFORMATION POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CORPORATE SOCIAL RESPONSIBILITY" href="http://metadata.un.org/thesaurus/1001316" showAs="CORPORATE SOCIAL RESPONSIBILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-28" outcome="draftResolution" as="A/HRC/58/L.27/Rev.1" by="Albania, Andorra, Armenia, Australia, Austria, Belgium, Bulgaria, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, France, Germany, Greece, Guatemala, Honduras, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malawi, Malta, Marshall Islands, Mexico, Monaco, Mongolia, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Peru, Poland, Portugal, Republic of Moldova, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Switzerland and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-07" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-07" outcome="adopted" as="Adopted without vote, 58th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/23</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-07" class="rightSmall" refersTo="#dateOfIssuance">7 April 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">الدورة الثامنة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 شباط</date>
+          <date date="2025-04-04" refersTo="#endDate">4 نيسان 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 4 نيسان/أبريل 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/23</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	المدافعون عن حقوق الإنسان والتكنولوجيات الجديدة والناشئة: حماية المدافعين عن حقوق الإنسان، بمن فيهم المدافعات عن حقوق الإنسان، في العصر الرقمي</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه وبالإعلان العالمي لحقوق الإنسان، والعهدين الدوليين الخاصين بحقوق الإنسان، والصكوك الأخرى ذات الصلة،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/53/144">53</a><a href="https://docs.un.org/ar/A/RES/53/144">/</a><a href="https://docs.un.org/ar/A/RES/53/144">144</a> المؤرخ 9 كانون الأول/ديسمبر 1998، الذي اعتمدت الجمعية بموجبه بتوافق الآراء الإعلان المتعلق بحق ومسؤولية الأفراد والجماعات وهيئات المجتمع في تعزيز وحماية حقوق الإنسان والحريات الأساسية المعترف بها عالمياً، المشار إليه عادة بالإعلان المتعلق بالمدافعين عن حقوق الإنسان، وإلى استمرار صلاحية جميع أحكامه وتطبيقها، وإذ يؤكد من جديد أهمية الإعلان وتعزيزه وتنفيذه تنفيذاً كاملاً وفعالاً،</p>
+      </container>
+      <container name="وإذ يشير أيضاً" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير أيضاً</span> إلى جميع القرارات السابقة الأخرى بشأن هذا الموضوع، بما في ذلك قرارات مجلس حقوق الإنسان <a href="https://docs.un.org/ar/A/HRC/RES/22/6">22</a><a href="https://docs.un.org/ar/A/HRC/RES/22/6">/</a><a href="https://docs.un.org/ar/A/HRC/RES/22/6">6</a> المؤرخ 21 آذار/مارس 2013، و<a href="https://docs.un.org/ar/A/HRC/RES/31/32">31</a><a href="https://docs.un.org/ar/A/HRC/RES/31/32">/</a><a href="https://docs.un.org/ar/A/HRC/RES/31/32">32</a> المؤرخ 24 آذار/مارس 2016، و<a href="https://docs.un.org/ar/A/HRC/RES/34/5">34</a><a href="https://docs.un.org/ar/A/HRC/RES/34/5">/</a><a href="https://docs.un.org/ar/A/HRC/RES/34/5">5</a> المؤرخ 23 آذار/مارس 2017، و<a href="https://docs.un.org/ar/A/HRC/RES/40/11">40</a><a href="https://docs.un.org/ar/A/HRC/RES/40/11">/</a><a href="https://docs.un.org/ar/A/HRC/RES/40/11">11</a> المؤرخ 21 آذار/مارس 2019، و<a href="https://docs.un.org/ar/A/HRC/RES/43/16">43</a><a href="https://docs.un.org/ar/A/HRC/RES/43/16">/</a><a href="https://docs.un.org/ar/A/HRC/RES/43/16">16</a> المؤرخ 22 حزيران/يونيه 2020، و<a href="https://docs.un.org/ar/A/HRC/RES/49/18">49</a><a href="https://docs.un.org/ar/A/HRC/RES/49/18">/</a><a href="https://docs.un.org/ar/A/HRC/RES/49/18">18</a> المؤرخ 1 نيسان/أبريل 2022، و<a href="https://docs.un.org/ar/A/HRC/RES/52/4">52</a><a href="https://docs.un.org/ar/A/HRC/RES/52/4">/</a><a href="https://docs.un.org/ar/A/HRC/RES/52/4">4</a> المؤرخ 3 نيسان/أبريل 2023، وقرارات الجمعية العامة <a href="https://docs.un.org/ar/A/RES/68/181">68</a><a href="https://docs.un.org/ar/A/RES/68/181">/</a><a href="https://docs.un.org/ar/A/RES/68/181">181</a> المؤرخ 18 كانون الأول/ديسمبر 2013، و<a href="https://docs.un.org/ar/A/RES/70/161">70</a><a href="https://docs.un.org/ar/A/RES/70/161">/</a><a href="https://docs.un.org/ar/A/RES/70/161">161</a> المؤرخ 17 كانون الأول/ديسمبر 2015، و<a href="https://docs.un.org/ar/A/RES/72/247">72</a><a href="https://docs.un.org/ar/A/RES/72/247">/</a><a href="https://docs.un.org/ar/A/RES/72/247">247</a> المؤرخ 24 كانون الأول/ديسمبر 2017، و<a href="https://docs.un.org/ar/A/RES/74/146">74</a><a href="https://docs.un.org/ar/A/RES/74/146">/</a><a href="https://docs.un.org/ar/A/RES/74/146">146</a> المؤرخ 18 كانون الأول/ديسمبر 2019، و<a href="https://docs.un.org/ar/A/RES/76/174">76/174</a> المؤرخ 16 كانون الأول/ديسمبر 2021، و<a href="https://docs.un.org/ar/A/RES/78/216">78</a><a href="https://docs.un.org/ar/A/RES/78/216">/</a><a href="https://docs.un.org/ar/A/RES/78/216">216</a> المؤرخ 19 كانون الأول/ديسمبر 2023،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد</span> التعاهدَ الرقمي العالمي، الذي اعتمدته الجمعية العامة في قرارها <a href="https://docs.un.org/ar/A/RES/79/1">79</a><a href="https://docs.un.org/ar/A/RES/79/1">/</a><a href="https://docs.un.org/ar/A/RES/79/1">1</a> المؤرخ 22 أيلول/سبتمبر 2024، وفروع التعاهد التي تتناول الأهداف والمبادئ والالتزامات والإجراءات والمتابعة والاستعراض من منظور حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن جميع حقوق الإنسان والحريات الأساسية عالمية وغير قابلة للتجزئة ومترابطة ومتشابكة وأنه ينبغي تعزيزها وتنفيذها بطريقة عادلة ومنصفة، وإذ يشدد على أن الحقوق نفسها التي تنطبق خارج الإنترنت تنطبق أيضاً في شبكة الإنترنت،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> ما يقع على الدول من مسؤولية رئيسية والتزام إزاء احترام جميع حقوق الإنسان والحريات الأساسية الواجبة لجميع الأشخاص وحمايتها وإعمالها، وإذ يرحب بالخطوات التي اتخذتها دول عديدة من أجل تهيئة بيئة آمنة ومواتية للمدافعين عن حقوق الإنسان، سواء في شبكة الإنترنت أو خارجها،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى أن المبادئ التوجيهية بشأن الأعمال التجارية وحقوق الإنسان تحدد نهجاً مبدئياً يقتضي من جميع الشركات أن تمنع حدوث الأضرار المرتبطة بحقوق الإنسان التي قد تمس بالأشخاص نتيجة للأنشطة التجارية وأن تخففها وتعالجها، وأن ذلك يشمل، في حالة شركات التكنولوجيا، أن تتوقع وتعالج الأضرار الناجمة عن استخدام منتجاتها وخدماتها، المشار إليه عادة باسم "الاستخدام النهائي"،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxtGA">
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">وإذ يشدّد</span> على أن الإطار القانوني الذي يعمل في ظله المدافعون عن حقوق الإنسان على نحو سلمي من أجل تعزيز حقوق الإنسان والحريات الأساسية وحمايتها يتمثل في التشريعات الوطنية المتسقة مع أحكام الميثاق والقانون الدولي لحقوق الإنسان،</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="وإذ يؤكد من جديد" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أهمية الإعلان المتعلق بالمدافعين عن حقوق الإنسان وتنفيذه الكامل والفعال، وأن تعزيز احترام أنشطة المدافعين عن حقوق الإنسان، بمن فيهم المدافعات عن حقوق الإنسان، ودعمها وحمايتها أمر ضروري لكفالة التمتع بحقوق الإنسان بوجه عام، سواء في شبكة الإنترنت أو خارجها؛</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد</span> أنه لدى ممارسة الحقوق والحريات المشار إليها في الإعلان، يجب ألا يخضع المدافعون عن حقوق الإنسان، سواء تصرفوا بمفردهم أو بالاشتراك مع غيرهم، إلا للقيود التي تتوافق مع الالتزامات الدولية الواجبة التطبيق والتي يحددها القانون لغرض واحد فقط هو كفالة الاعتراف الواجب بحقوق وحريات الآخرين والاحترام الواجب لها وتلبية المقتضيات العادلة التي يمليها الالتزام الأخلاقي والنظام العام والخير العام في مجتمع ديمقراطي،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ</span> مبادرات المجتمع المدني الرامية إلى إحياء الذكرى السنوية الخامسة والعشرين للإعلان المتعلق بالمدافعين عن حقوق الإنسان، لا سيما الإعلان +25،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxtGA">
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">وإذ يُسلم</span> بالدور المهم والمشروع الذي يؤديه المدافعون عن حقوق الإنسان، بمن فيهم المدافعات عن حقوق الإنسان، في تعزيز حقوق الإنسان وحمايتها، سواء في شبكة الإنترنت أو خارجها، وفي الدعوة إلى المساواة في الوصول إلى التكنولوجيات الجديدة وسد الفجوات الرقمية، بما في ذلك الفجوات الرقمية الجنسانية والجغرافية، من خلال الحلول التكنولوجية،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtGA">
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">وإذ يُسلم أيضاً</span> بأن التكنولوجيات الرقمية الجديدة والناشئة يمكن أن تنطوي على إمكانات كبيرة من حيث تعزيز المؤسسات الديمقراطية وقدرة المجتمع المدني على الصمود، وتعزيز المشاركة المدنية وتيسير عمل المدافعين عن حقوق الإنسان، وإتاحة المشاركة العامة والتبادل المنفتح والحر للأفكار، وممارسة جميع حقوق الإنسان، </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxtGA">
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">وإذ يُسلِّم كذلك</span> بأن التكنولوجيات الرقمية يمكن أن تُستخدم أداةً لنشر خطاب الكراهية والترويج للسرديات الضارة والدعاية المغرضة، بما في ذلك من خلال المعلومات المغلوطة والمضللة التي يمكن أن تشكل تحريضاً على التمييز أو العداء أو العنف، وأن تؤثر تأثيراً سلبياً على إعمال حقوق الإنسان،</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="وإذ يشدد" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على المخاطر التي تهدد بصفة خاصة سلامة المدافعين عن حقوق الإنسان في العصر الرقمي، بما في ذلك الترصد غير القانوني أو التعسفي، والتدخل غير القانوني أو التعسفي في الخصوصية، والاعتراض المستهدِف للاتصالات، والقرصنة الرقمية، بما في ذلك القرصنة الرقمية التي ترعاها جهات حكومية، وجميع أشكال العنف والمضايقة عبر الإنترنت، والتخويف، وحملات التشهير، والتهديد، والنشر الكيدي للمعلومات الشخصية، الذي يستهدف المدافعات عن حقوق الإنسان على نحو غير متناسب، وعلى التدابير التي من شأنها أن تمنع أو تعطّل الوصول إلى المعلومات وقنوات الاتصال، بما في ذلك إغلاق الإنترنت،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن التهجمات عبر الإنترنت غالباً ما تمهد الطريق للانتهاكات والتجاوزات الجسدية لحقوق الإنسان، بما في ذلك القتل، والضرب، والاختفاء القسري، والاحتجاز التعسفي، الأمر الذي يؤثر سلباً على عمل المدافعين عن حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على أهمية الربط الرقمي، بما في ذلك في المناطق النائية والريفية، في إتاحة استمرار الخدمات الحيوية، لا سيما في سياق الاحتجاجات أو الانتخابات أو أوضاع الأزمات أو النزاعات المسلحة أو الاحتلال الأجنبي، وإذ يؤكد أهمية الوصول إلى شبكة إنترنت مجانية وميسورة التكلفة ومفتوحة وقابلة للتشغيل البيني وموثوقة ومستقرة ومأمونة وآمنة،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن تعميم الربط يعني إتاحته للجميع في كل مكان، وبأن الربط المجدي يجب أن يتيح لمستخدمي شبكة الإنترنت تجربة مأمونة ومنتجة تكون في المتناول بتكلفة ميسورة، وإذ يسلم أيضاً بأن تعميم الربط المجدي أمر ضروري للتمتع بحقوق الإنسان، بما يشمل تمكين المدافعين عن حقوق الإنسان من الاضطلاع بعملهم بفعالية وأمان، سواء في شبكة الإنترنت أو خارجها،</p>
+      </container>
+      <container name="وإذ يدين بشدة" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">وإذ يدين بشدة</span> استخدام عمليات إغلاق الإنترنت، بما في ذلك حجب الوصول إلى منصات التواصل، من أجل منع أو تعطيل الحصول على المعلومات أو نشرها عبر شبكة الإنترنت، بصورة متعمدة وتعسفية، وهو ما يتعارض مع القانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان، وإذ يشدّد على أهمية وجود شبكة إنترنت حرة وميسورة التكلفة ومفتوحة وقابلة للتشغيل البيني وموثوقة وآمنة،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق بالغ" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ بقلق بالغ</span> أن أدوات تكنولوجية طورها قطاع أنظمة المراقبة الخاصة تُستخدم من جانب جهات فاعلة خاصة أو حكومية، أو تُسلَّم إليها، لأغراض المراقبة ولاختراق الأجهزة والنظم، بما في ذلك من خلال استعمال البرمجيات الخبيثة أو برمجيات التجسس، واعتراض الاتصالات وتعطيلها، وجمع البيانات، واقتحام الحياة المهنية والخاصة للأفراد، بمن فيهم المدافعون عن حقوق الإنسان الذين ينشطون في ميدان تعزيز حقوق الإنسان والحريات الأساسية وحمايتها، عندما يكون في ذلك انتهاك أو تجاوز لحقوق الإنسان الواجبة لهم، بما في ذلك الحق في الخصوصية،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">وإذ يساوره بالغ القلق</span> من التداعيات السلبية التي قد تمس بممارسة حقوق الإنسان والتمتع بها، بما في ذلك حقوق النساء والفتيات، نتيجة مراقبة الاتصالات و/أو اعتراضها، بما في ذلك خارج الإقليم الوطني، فضلاً عن جمع البيانات الشخصية، لا سيما عندما يُضطلع به على نطاق واسع،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه</span> من الترصد التعسفي وغير القانوني للمدافعين عن حقوق الإنسان، بمن فيهم المدافعات عن حقوق الإنسان، في الفضاءين المادي أو الرقمي، بما في ذلك في شبكة الإنترنت، من خلال استخدام الدوائر التلفزيونية المغلقة ومركبات المراقبة الجوية، فضلاً عن استخدام أدوات التعقب الرقمي الجديدة والناشئة، مثل التكنولوجيات البيومترية، بما في ذلك تكنولوجيات التعرف على الوجوه والانفعالات، وأجهزة التقاط أرقام التعريف العالمي لمشتركي الهاتف المحمول ("ستينغراي")، في انتهاك أو إساءة لحقوق الإنسان الواجبة لهم، بما في ذلك الحق في الخصوصية،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه الشديد" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه الشديد</span> إزاء الأنشطة القمعية التي تضطلع بها دول خارج نطاق ولايتها القضائية في الخارج لإلحاق الأذى بالمدافعين عن حقوق الإنسان وإسكاتهم وتخويفهم عن طريق وسائل رقمية ومادية وغيرها من الوسائل، بما في ذلك من خلال إساءة استخدام برمجيات التجسس وغيرها من برمجيات الترصد الاقتحامية،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_25" class="SingleTxtGA">
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">وإذ يُسلّم</span> بأن نظم الذكاء الاصطناعي يمكن أن تنطوي على مخاطر جسيمة فيما يتعلق بحماية وتعزيز حقوق الإنسان وكفالة تمتع المدافعين عن حقوق الإنسان بها وذلك عند استخدام تلك النظم دون ضمانات مناسبة من منظور حقوق الإنسان، بما في ذلك في تحديد الهوية أو التعقب أو التنميط أو التعرف على الوجوه أو توليد صور واقعية مصطنعة أو التنبؤ السلوكي أو تصنيف الأفراد،</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="وإذ يشير مع القلق" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير مع القلق</span> إلى التقارير التي تفيد بقصور دقة التعريف بالبيانات البيومترية، بما في ذلك في تكنولوجيات التعرف على الوجوه التي تنطوي على تحيّزات وتحاملات عرقية وجنسانية وتجاه الأشخاص ذوي الإعاقة، بما في ذلك عند استخدام بيانات تلقين آلي غير تمثيلية، وإلى أن من شأن استخدام التكنولوجيات الرقمية أن يُكرّر إنتاج أوجه عدم المساواة العرقية والجنسانية وعدم المساواة تجاه الأشخاص ذوي الإعاقة وأن يرسخها، بل ويزيد من تفاقمها، وإذ يسلم في هذا السياق بأهمية سبل الانتصاف الفعالة،</p>
+      </container>
+      <container name="وإذ يذكّر" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">وإذ يذكّر</span> بالجهود المبذولة من أجل دعم الحوار الهادف بين أصحاب المصلحة المتعددين، بما في ذلك المبادئ الواردة في خطة التنمية المستدامة لعام 2030 والتعاهد الرقمي العالمي، وإذ يرحب بالمبادئ الواردة في بيان أصحاب المصلحة المتعددين بشأن تعزيز حوكمة الإنترنت وعمليات السياسات الرقمية الذي اعتُمد في مؤتمر الاستعراض العشري للاجتماع العالمي لأصحاب المصلحة المتعددين بشأن مستقبل حوكمة الإنترنت، المعقود في ساو باولو بالبرازيل في 29 و30 نيسان/أبريل 2024،</p>
+      </container>
+      <container name="وإذ يثير جزعه" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">وإذ يثير جزعه</span> ما يتعرض له المدافعون عن حقوق الإنسان، بمن فيهم المدافعات عن حقوق الإنسان، والمدافعون عن البيئة والشعوب الأصلية أو أفراد أسرهم وشركاؤهم وممثلوهم القانونيون، من أعمال تشمل القتل، والاختطاف، والاختفاء القسري، والاحتجاز التعسفي، والتعذيب، والمضايقة، والتخويف، والتجريم، والمضايقة القضائية، وحملات التشهير، والعنف، بما في ذلك العنف الجنسي والجنساني، والتهديد عبر الإنترنت وخارجه،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأهمية مكافحة جميع أشكال العنف ضد المدافعين عن حقوق الإنسان، بمن فيهم المدافعات عن حقوق الإنسان، في سياق التكنولوجيات الرقمية، بما يشمل الاستغلال والاعتداء الجنسيين، واستخدام التزييف العميق، والنشر الكيدي للمعلومات الشخصية، والمضايقة، والمطاردة، والتسلط، وتقاسم المحتوى الجنسي الشخصي الصريح على نحو غير رضائي، والتهديد، وأعمال العنف الجنسي والجنساني، والتهديد بالقتل، والترصد والتعقب التعسفيان أو غير القانونيين، والاتجار بالأشخاص، والابتزاز، والرقابة، والدخول غير القانوني إلى الحسابات الرقمية والهواتف المحمولة أو الأجهزة الإلكترونية الأخرى، وفقاً للقانون الدولي لحقوق الإنسان،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="SingleTxtGA">
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">وإذ يُسلّم أيضاً</span> بأن المدافعين عن حقوق الإنسان يشكلون هدفاً لعدد متزايد من الهجمات الرقمية، مما يؤدي إلى شلّ وسائل الاتصال الخاصة بهم، وبأن انعدام المساءلة عن الهجمات عبر الإنترنت يمثل ثغرة في الحماية،</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="وإذ يقر" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">وإذ يقر</span> بأن البيئة الرقمية تتيح فرصاً جديدة لإعمال حقوق الطفل بيد أنها تطرح أيضاً، في الوقت نفسه، مخاطر ترتبط بحدوث انتهاك أو تجاوز لهذه الحقوق،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">وإذ يساوره بالغ القلق</span> من أن انعدام العقاب في حالات التهديد والاعتداء والعنف التي يتعرض لها المدافعون عن حقوق الإنسان، سواء في شبكة الإنترنت أو خارجها، يسهم في استمرار مناخ الإفلات من العقاب، الذي يؤدي بدوره إلى تكرار هذه الجرائم،</p>
+      </container>
+      <container name="وإذ يساوره قلق شديد" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">وإذ يساوره قلق شديد</span> إزاء بعض الحالات التي يُساء فيها استخدام التشريعات الوطنية المتعلقة بالأمن ومكافحة الإرهاب والجرائم الإلكترونية وغير ذلك من التدابير، مثل القوانين المتعلقة بالتشهير والقذف والقوانين المنظمة لعمل منظمات المجتمع المدني، من أجل استهداف المدافعين عن حقوق الإنسان أو عرقلة عملهم وتعريض سلامتهم للخطر، بما يتعارض مع القانون الدولي، بما في ذلك قانون حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يضع في اعتباره" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">وإذ يضع في اعتباره</span> أن القوانين والأحكام الإدارية المعتمدة محلياً وتطبيقها ينبغي ألا يعيقا عمل المدافعين عن حقوق الإنسان بل أن يتيحا الاضطلاع به، بسبل منها تفادي تجريم هذا العمل أو وصمه أو تعريضه لأي عوائق أو تمييز أو عراقيل أو قيود على نحو يُنافي واجبات الدول والتزاماتها بموجب القانون الدولي، بما في ذلك قانون حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه الشديد" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن قلقه الشديد</span> إزاء تزايد الدعاوى القضائية الاستراتيجية ضد المشاركة العامة، بما يشمل تلك التي تقيمها كيانات أعمال تجارية، من أجل ممارسة الضغط على المدافعين عن حقوق الإنسان أو تخويفهم أو استنزاف مواردهم والنيل من معنوياتهم، وبالتالي منعهم من أداء عملهم، بما في ذلك في المسائل المتعلقة بالمصلحة العامة،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بأن حماية المدافعين عن حقوق الإنسان لا يمكن أن تتحقق بالكامل إلا في سياق نهج كُــلّي يشمل تعزيز المؤسسات الديمقراطية، وحماية النظام القانوني الدولي، وصون الحيز المدني، ومكافحة الإفلات من العقاب، وإنهاء عدم المساواة بين الجنسين وعدم المساواة الاقتصادية والإقصاء الاجتماعي، وسد جميع الفجوات الرقمية، بما في ذلك الفجوات الرقمية الجنسانية والجغرافية، سواء بين البلدان أو داخلها، وكفالة المساواة في الوصول إلى الإنترنت،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_37" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">يشدد</span> على أن حق كل شخص - بمفرده أو بالاشتراك مع آخرين - في تعزيز جميع حقوق الإنسان والحريات الأساسية والسعي إلى حمايتها وإعمالها، وفقاً لما ينص عليه الإعلان المتعلق بالمدافعين عن حقوق الإنسان، دون تعرض للانتقام أو خوف من التعرض له، سواء في شبكة الإنترنت أو خارجها، أمر لا غنى عنه في بناء مجتمعات شاملة للجميع وسلمية وديمقراطية والحفاظ عليها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">يشدد أيضاً</span> على ما يضطلع به المدافعون عن حقوق الإنسان - بمن فيهم المدافعات عن حقوق الإنسان - من دور وإسهام إيجابيين ومهميْن ومشروعين في تعزيز وحماية حقوق الإنسان، وتوطيد التفاهم والتسامح والسلام، والنهوض بالمساواة في الوصول إلى التكنولوجيات الجديدة وسد الفجوات الرقمية، ويحث الدول على تهيئة ودعم بيئة مأمونة وتمكينية وميسرة وشاملة للجميع، سواء في شبكة الإنترنت أو خارجها، تتيح مشاركة المدافعين عن حقوق الإنسان في جميع الأنشطة ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">يدين بشدة</span> أعمال العنف، والتجريم، والتخويف، والاعتداء، والتعذيب، والاختفاء القسري، والقتل، وجميع الانتهاكات أو التجاوزات الأخرى لحقوق الإنسان التي يتعرض لها - في شبكة الإنترنت وخارجها - المدافعون عن حقوق الإنسان، بمن فيهم المدافعات عن حقوق النساء، والحقوق البيئية وحقوق الشعوب الأصلية، على أيدي جهات فاعلة حكومية وغير حكومية، ويشدد على ضرورة مكافحة الإفلات من العقاب من خلال ضمان تقديم المسؤولين عن الانتهاكات والتجاوزات التي تطال المدافعين عن حقوق الإنسان أو ممثليهم القانونيين وشركائهم وأفراد أسرهم إلى العدالة على وجه السرعة عن طريق تحقيقات نزيهة ومستقلة، ويؤكد أن كفالة المساءلة عنصر أساسي في منع حصول انتهاكات وتجاوزات لحقوق الإنسان المكفولة دولياً في المستقبل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">يسلم</span> بأن الديمقراطية وسيادة القانون عنصران أساسيان لحماية المدافعين عن حقوق الإنسان، ويحث الدول على اتخاذ تدابير لتعزيز المؤسسات الديمقراطية، وصون الحيز المدني، وإرساء سيادة القانون، ومكافحة الإفلات من العقاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> الدول إلى مكافحة الإفلات من العقاب عن طريق إجراء تحقيقات فورية ونزيهة ومستقلة وكفالة المساءلة عن جميع أشكال الانتهاكات والتجاوزات والتهديدات التي ترتكبها جهات فاعلة حكومية وغير حكومية ضد المدافعين عن حقوق الإنسان أو ممثليهم القانونيين وأفراد أسرهم وشركائهم، وعن طريق الإدانة العلنية لجميع أشكال العنف والتمييز، بما في ذلك أشكال التمييز المتعددة والمتقاطعة، وأعمال التخويف أو الانتقام، مع التشديد على أن هذه الممارسات لا يمكن تبريرها أبداً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">يلاحظ مع التقدير</span> عمل المقررة الخاصة المعنية بحالة المدافعين عن حقوق الإنسان، ويحيط علماً مع التقدير بتقاريرها المقدمة إلى مجلس حقوق الإنسان<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://docs.un.org/ar/A/HRC/58/53">A/HRC/58/53</a> و<a href="https://docs.un.org/ar/A/HRC/58/53/Add.1">Add.1</a> و<a href="https://docs.un.org/ar/A/HRC/58/53/Add.2">Add.2</a>.</p></authorialNote><sup>)</sup> والجمعية العامة<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	<a href="https://docs.un.org/ar/A/79/123">A/79/123</a>.</p></authorialNote><sup>)</sup>، ويشجع بقوة جميع الدول على التعاون مع المقررة الخاصة ومساعدتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">يدين</span> جميع أعمال التخويف والانتقام التي تنفذها، في شبكة الإنترنت وخارجها، جهات فاعلة حكومية وغير حكومية ضد الأفراد والجماعات وهيئات المجتمع، بما في ذلك ضد المدافعين عن حقوق الإنسان وممثليهم القانونيين وشركائهم وأفراد أسرهم، ممن يسعون إلى التعاون مع الهيئات دون الإقليمية والإقليمية والدولية - ومنها الأمم المتحدة وممثلوها وآلياتها - في ميدان حقوق الإنسان، أو ممن يتعاونون معها أو سبق أن تعاونوا معها في هذا الميدان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> حق كل شخص - بمفرده وبالاشتراك مع غيره - في الوصول دون عائق إلى الهيئات الدولية والاتصال بها دون خوف من الانتقام، لا سيما الأمم المتحدة وممثلوها وآلياتها العاملة في ميدان حقوق الإنسان، بما في ذلك مجلس حقوق الإنسان وإجراءاته الخاصة وآلية الاستعراض الدوري الشامل وهيئات المعاهدات، فضلاً عن الآليات الإقليمية المعنية بحقوق الإنسان، ويدعو بقوة جميع الدول إلى إعمال هذا الحق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtGA">
+        <num>9-</num>
+        <list eId="para_73_list">
+          <intro eId="para_73_list_intro">
+            <p xml:space="preserve">	<span class="italic">يدعو</span> جميع الدول إلى ما يلي:</p>
+          </intro>
+          <point eId="para_73_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_73_list_point_أ_content">
+              <p xml:space="preserve">	تعزيز بيئة مأمونة ومواتية للمدافعين عن حقوق الإنسان، بمن فيهم المدافعات عن حقوق الإنسان، لتمكينهم من الاضطلاع بعملهم في شبكة الإنترنت وخارجها، وكفالة امتثال القوانين والسياسات والممارسات للالتزامات والتعهدات المنطبقة بموجب القانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان، كي لا تعيق أو تحدّ دون مبرر من قدرة المدافعين عن حقوق الإنسان على الاضطلاع بعملهم أو الوصول إلى الموارد؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_73_list_point_ب_content">
+              <p xml:space="preserve">	الامتناع أو الكف عن استخدام أو نقل التكنولوجيات الجديدة والناشئة، بما في ذلك تطبيقات الذكاء الاصطناعي وبرمجيات التجسس، حيثما يستحيل تشغيلها بما يتوافق مع القانون الدولي لحقوق الإنسان أو حيثما تنطوي على مخاطر لا مبرر لها يمكن أن تمس بالتمتع بحقوق الإنسان، ما لم يتسن وضع الضمانات الكافية لحماية حقوق الإنسان والحريات الأساسية؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_73_list_point_ج_content">
+              <p xml:space="preserve">	تعزيزُ حيز رقمي يكون متاحاً وشاملاً للجميع ومفتوحاً ومأموناً وآمناً يقوم على احترام حقوق الإنسان والمساواة بين الجنسين وتمكين النساء والفتيات وعلى حماية هذه الأهداف وتوطيدها، وتسريعُ الجهود الرامية إلى سد الفجوات الرقمية، بما في ذلك الفجوات الرقمية الجنسانية والجغرافية وغيرها من الفجوات الرقمية بين البلدان وداخلها، وتعزيزُ تعميمِ الربط الميسور التكلفة والمجدي، لا سيما في سياق الاحتجاجات والانتخابات وأوضاع الأزمات والنزاعات المسلحة أو الاحتلال الأجنبي، واستخدامِ تكنولوجيا المعلومات والاتصالات، والوصول الرقمي المفتوح والآمن والإدماج الرقمي، بما في ذلك الدراية الرقمية والإعلامية والمعلوماتية، والتدريب على الأمن الرقمي، من أجل تعزيز تمتع الجميع تمتعاً كاملا بحقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_د">
+            <num>(د)</num>
+            <content eId="para_73_list_point_د_content">
+              <p xml:space="preserve">	تشجيع حلول تكنولوجية متنوعة تحترم حقوق الإنسان من أجل النهوض بالربط الشبكي، بما في ذلك من خلال تهيئة بيئة تنظيمية شاملة للجميع وفعالة ومواتية لمشغلي الإنترنت على نطاق صغير والمشغلين غير الساعين للربح والمشغلين العاملين على الصعيد المجتمعي؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ه">
+            <num>(ه)</num>
+            <content eId="para_73_list_point_ه_content">
+              <p xml:space="preserve">	تشجيع القطاع الخاص على تطبيق المبادئ التوجيهية بشأن الأعمال التجارية وحقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_و">
+            <num>(و)</num>
+            <content eId="para_73_list_point_و_content">
+              <p xml:space="preserve">	ضمان الحق في حرية التعبير، الذي يشمل حرية التماس المعلومات وتلقيها ونقلها، بما في ذلك من خلال تعزيز الشفافية، ونشر البيانات على نحو استباقي، ودمج اكتساب الدراية الرقمية والإعلامية في المناهج التعليمية؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_73_list_point_ز_content">
+              <p xml:space="preserve">	إعطاء الأولوية لوضع سياسات ومعايير وطنية بشأن ضمان سلامة الأطفال في شبكة الإنترنت وتنفيذها، بما يتوافق مع القانون الدولي لحقوق الإنسان، بما في ذلك اتفاقية حقوق الطفل؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_73_list_point_ح_content">
+              <p xml:space="preserve">	توسيع فرص الوصول إلى الإنترنت وأدوات الاتصال الآمنة، بسبل منها زيادة تمويل موارد الأمن الرقمي مثل تطبيقات الاتصال المشفر وقنوات الإبلاغ الآمنة؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_73_list_point_ط_content">
+              <p xml:space="preserve">	الامتناع عن تجريم المدافعين عن حقوق الإنسان أو نزع الشرعية عنهم أو وصمهم والكف عن استهدافهم بحملات التشهير وخطاب الكراهية والمعلومات المضللة بسبب توثيقهم لانتهاكات وتجاوزات حقوق الإنسان، بما في ذلك تواصلهم مع الجهات الفاعلة غير الحكومية لهذا الغرض؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ي">
+            <num>(ي)</num>
+            <content eId="para_73_list_point_ي_content">
+              <p xml:space="preserve">	الامتناع عن إغلاق شبكة الإنترنت أو فرض قيود عليها أو أي تدابير أخرى تهدف إلى تقويض أو منع سعي المدافعين عن حقوق الإنسان إلى الوصول إلى المعلومات أو نشرها والتواصل بصورة مأمونة وآمنة، بما في ذلك من خلال استخدام تدابير الحجب أو تضييق الصبيب أو الترشيح، أو من خلال التدخل في استخدام التكنولوجيات، مثل أدوات التشفير أو إخفاء الهوية؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ك">
+            <num>(ك)</num>
+            <content eId="para_73_list_point_ك_content">
+              <p xml:space="preserve">	تعزيز التدابير والحلول التقنية لتقوية التشفير وإخفاء الهوية، مثل التعريف المستعار، وعدم التدخل في استخدام هذه الحلول التقنية، مع كفالة امتثال أي قيود عليها لالتزامات الدول بموجب القانون الدولي لحقوق الإنسان، وسن قوانين وسياسات تحمي خصوصية الاتصالات الرقمية للأفراد؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ل">
+            <num>(ل)</num>
+            <content eId="para_73_list_point_ل_content">
+              <p xml:space="preserve">	دعم الجهود المبذولة لتمكين المدافعين عن حقوق الإنسان من حفظ معلوماتهم وحمايتها على نحو آمن، دون خوف من الترصد غير القانوني أو اختراق البيانات أو الاستيلاء التعسفي على المعدات، بما يشمل وضع ضمانات قانونية قوية لمنع إساءة استخدام الأدوات الرقمية لقمع المعارضة أو استهداف المدافعين، وكفالة حماية حقوقهم في شبكة الإنترنت وخارجها؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_م">
+            <num>(م)</num>
+            <content eId="para_73_list_point_م_content">
+              <p xml:space="preserve">	الامتناع والكف عن اتخاذ تدابير تنتهك حقوق الإنسان، بما يشمل الممارسات القائمة على استهداف المدافعين عن حقوق الإنسان ببرمجيات التجسس، التي قد تتعارض مع القانون الدولي لحقوق الإنسان، وإتاحة آليات لتوفير سبل الانتصاف المناسبة لضحايا انتهاكات القانون المرتكبة من خلال المراقبة، بما يتفق مع القانون الدولي لحقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ن">
+            <num>(ن)</num>
+            <content eId="para_73_list_point_ن_content">
+              <p xml:space="preserve">	ضمان ألا تستخدم الجهات الفاعلة العامة والخاصة التقنيات البيومترية الخاصة بتحديد الهوية والتعرف، بما في ذلك تكنولوجيات التعرف على الوجوه، في المراقبة الجماعية، وعدم استخدامها إلا عندما يكون ذلك متسقاً مع القانون الدولي لحقوق الإنسان ومبادئ الشرعية والضرورة والتناسب، وكذلك ضمان الوصول إلى سبل الانتصاف من انتهاكات حقوق الإنسان والتجاوزات الناشئة عن التقنيات البيومترية الخاصة بتحديد الهوية والتعرف؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_س">
+            <num>(س)</num>
+            <content eId="para_73_list_point_س_content">
+              <p xml:space="preserve">	كفالة أن تكون إجراءاتُ التجريم والملاحقة القانونية في قضايا الإرهاب والجرائم الإلكترونية أو جرائم الأمن القومي، وقوانينُ التشهير والقذف وغيرها من التدابير المستخدمة للتصدي للتهديدات في هذا الصدد، متوافقة مع التزامات الدول بموجب القانون الدولي لحقوق الإنسان، وتجنب تجريم المدافعين عن حقوق الإنسان أو إعاقة عملهم دون مبرر؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ع">
+            <num>(ع)</num>
+            <content eId="para_73_list_point_ع_content">
+              <p xml:space="preserve">	اعتماد وتنفيذ قوانين وسياسات تثبط الدعاوى القضائية الاستراتيجية ضد المشاركة العامة التي تستهدف الصحفيين ومنابر الإعلام والمدافعين عن حقوق الإنسان، بمن فيهم المدافعات عن حقوق الإنسان، وتقديم الدعم القانوني للضحايا؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ف">
+            <num>(ف)</num>
+            <content eId="para_73_list_point_ف_content">
+              <p xml:space="preserve">	اتخاذ جميع الخطوات اللازمة لمنع التهديدات والاعتداءات والتمييز والاعتقال والاحتجاز التعسفيين أو غير ذلك من أشكال المضايقة والأعمال الانتقامية وأعمال التخويف التي تستهدف الجهات الفاعلة في المجتمع المدني، بما في ذلك المدافعون عن حقوق الإنسان، والتحقيق الفوري والنزيه والمستقل في أي من هذه الأعمال المزعومة، وكفالة الوصول إلى العدالة والمساءلة وإنهاء الإفلات من العقاب في حال وقوع مثل هذه الانتهاكات والتجاوزات؛</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_ص">
+            <num>(ص)</num>
+            <content eId="para_73_list_point_ص_content">
+              <p xml:space="preserve">	تعزيز جمع البيانات المصنّفة عن حالة المدافعين عن حقوق الإنسان، بوسائل منها الاستفادة من البيانات التي يجمعها المجتمع المدني ووسائل الإعلام والمؤسسات الوطنية لحقوق الإنسان، بما في ذلك البيانات المتعلقة بالتهديدات أو الاعتداءات أو حالات العنف التي يتعرض لها المدافعون عن حقوق الإنسان، بمن فيهم المدافعات عن حقوق الإنسان، وبذل قصارى الجهد لإتاحتها للمفوضية السامية؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">يواصل الإعراب عن قلقه بوجه خاص</span> إزاء حالات التمييز المنهجي والهيكلي، والحرمان الاقتصادي، والعنف والمضايقات التي تواجهها المدافعات عن حقوق الإنسان على نحو غير متناسب في مختلف الأوضاع والظروف، بما في ذلك العنف الجنسي والجنساني، فضلاً عن استهدافهن بحملات التشهير والتضليل وتشويه السمعة، سواء في شبكة الإنترنت أو خارجها، ويكرر دعوته الملحة إلى أن تتخذ الدول خطوات مناسبة وقوية وعملية لحماية المدافعات عن حقوق الإنسان وإدماج المنظور الجنساني في جهودها الرامية إلى تهيئة بيئة مأمونة ومواتية للدفاع عن حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="italic">يُدين</span> إدانة قاطعة التهجمات التي تطال النساء والفتيات عبر الإنترنت، بما في ذلك حالات العنف الجنسي والجنساني والتجاوزات التي تتعرض لها النساء والفتيات عن طريق استخدام التكنولوجيا أو التي يتسع نطاقها من خلال التكنولوجيا، وذلك عبر جملة سبُل منها النشر الكيدي للمعلومات الشخصية، والتزييف العميق، والمطاردة السيبرانية، والمضايقة عبر الإنترنت، ومن خلال تقاسم الصور الحميمية سواء كانت حقيقية أو مختلَقة على نحو غير رضائي، لا سيما استهداف المدافعات عن حقوق الإنسان اللواتي يشاركن في النقاش العام بسبب تعبيرهن عن آرائهن، ويدعو إلى اتباع نُهج تراعي المنظور الجنساني وتأخذ في الاعتبار هذه الأشكال الخاصة من التمييز والمضايقة عبر الإنترنت؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> الدول إلى تهيئة ودعم بيئة مواتية تكفل لمنظمات المجتمع المدني النسائية والمدافعات عن حقوق الإنسان، في شبكة الإنترنت وخارجها، مشاركة كاملة ومجدية تقوم على المساواة، بما في ذلك من خلال سد الفجوات الجنسانية والجغرافية وغيرها من الفجوات الرقمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد</span> أن جميع مؤسسات الأعمال، لا سيما تلك العاملة في قطاع التكنولوجيا أو في مجال الإنترنت، سواء تعلق الأمر بمؤسسات عبر وطنية أو بغيرها، تتحمل بموجب المبادئ التوجيهية بشأن الأعمال التجارية وحقوق الإنسان المسؤولية عن احترام جميع حقوق الإنسان، بما في ذلك حق المدافعين عن حقوق الإنسان في الحياة والحرية والأمان على أنفسهم، وكفالة ممارستهم للحق في حرية التعبير والتجمع السلمي وتكوين الجمعيات والمشاركة في الشؤون العامة، وهي حقوق أساسية لتعزيز وحماية جميع حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> مؤسسات الأعمال، بما في ذلك مقدمو خدمات الاتصالات وشركات وسائل التواصل الاجتماعي، على العمل من أجل إيجاد حلول تمكينية لتأمين وحماية سرية الاتصالات والمعاملات الرقمية، بما يشمل تدابير التشفير، واستخدام التعريف المستعار وإخفاء الهوية، وكفالة تنفيذ ضمانات متوافقة مع حقوق الإنسان، وإيلاء العناية الواجبة لحقوق الإنسان وفقاً لمبادئ الأمم المتحدة التوجيهية المتعلقة بالأعمال التجارية وحقوق الإنسان وذلك على امتداد دورة خدماتها ومنتجاتها وسلسلة القيمة ذات الصلة من أجل تحديد المخاطر المحتملة التي يتعرض لها المدافعون عن حقوق الإنسان ومنعها ومعالجتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxtGA">
+        <num>15-</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى مفوضية الأمم المتحدة السامية لحقوق الإنسان أن تعقد ثلاث حلقات عمل إقليمية، بما في ذلك من خلال طرائق الحضور الشخصي والافتراضي، من أجل تقييم المخاطر التي يتعرض لها المدافعون عن حقوق الإنسان من خلال التكنولوجيات الرقمية وأفضل الممارسات للتصدي لهذه الشواغل في مختلف المناطق الجغرافية، مع مراعاة نماذج مؤسسات الأعمال الحالية والناشئة والفوارق الرقمية الجنسانية والجغرافية وغيرها من العوامل المؤثرة، بمشاركة المجتمع المدني، والمدافعين عن حقوق الإنسان، والقطاع الخاص؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxtGA">
+        <num>16-</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المفوضية السامية أن تعد تقريراً تُضمِّنه موجزاً لتلك المشاورات، تُدرج فيه توصيات بشأن الإجراءات اللازمة وسبل تعزيز التصدي لمخاطر التكنولوجيات الرقمية التي يتعرض لها المدافعون عن حقوق الإنسان، بمن فيهم أولئك المعرضون للتمييز والعاملون في حالات النزاع المسلح، على أن تقدمه إلى مجلس حقوق الإنسان في دورته الثالثة والستين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_173" class="SingleTxtGA">
+        <num>17-</num>
+        <content eId="para_173__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يبقي المسألة قيد نظره.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="58" refersTo="#adoptionMeeting">الجلسة 58</location>
+          <eol />
+          <docDate date="2025-04-04" refersTo="#adoptionDate">4 نيسان/أبريل 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد من دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
