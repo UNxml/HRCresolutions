@@ -1,0 +1,481 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/fra@/"></FRBRuri>
+          <FRBRdate date="2025-04-07" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS ACTIVISTS" href="http://metadata.un.org/thesaurus/1002976" showAs="HUMAN RIGHTS ACTIVISTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN" href="http://metadata.un.org/thesaurus/1007029" showAs="WOMEN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NEW TECHNOLOGIES" href="http://metadata.un.org/thesaurus/1004392" showAs="NEW TECHNOLOGIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL TECHNOLOGY" href="http://metadata.un.org/thesaurus/1001655" showAs="DIGITAL TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT TO SECURITY OF PERSON" href="http://metadata.un.org/thesaurus/1005567" showAs="RIGHT TO SECURITY OF PERSON" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INFORMATION POLICY" href="http://metadata.un.org/thesaurus/1003197" showAs="INFORMATION POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CORPORATE SOCIAL RESPONSIBILITY" href="http://metadata.un.org/thesaurus/1001316" showAs="CORPORATE SOCIAL RESPONSIBILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-28" outcome="draftResolution" as="A/HRC/58/L.27/Rev.1" by="Albania, Andorra, Armenia, Australia, Austria, Belgium, Bulgaria, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, France, Germany, Greece, Guatemala, Honduras, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malawi, Malta, Marshall Islands, Mexico, Monaco, Mongolia, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Peru, Poland, Portugal, Republic of Moldova, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Switzerland and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-07" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-07" outcome="adopted" as="Adopted without vote, 58th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/23</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-07" class="rightSmall" refersTo="#dateOfIssuance">7 avril 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">Cinquante-huitième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 février</date>
+          <date date="2025-04-04" refersTo="#endDate">4 avril 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme,  civils, politiques, économiques, sociaux et culturels,  y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme le 4 avril 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/23.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Défenseurs des droits humains et technologies nouvelles et émergentes : protéger les défenseurs et défenseuses des droits humains à l’ère du numérique</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme,</span>
+        </p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guidé</span> par les buts et principes énoncés dans la Charte des Nations Unies, la Déclaration universelle des droits de l’homme et les Pactes internationaux relatifs aux droits de l’homme et les autres instruments pertinents,</p>
+      </container>
+      <container name="Rappelant" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>la résolution <a href="https://docs.un.org/fr/A/RES/53/144">53/144</a> de l’Assemblée générale, du 9 décembre 1998, par laquelle l’Assemblée a adopté par consensus la Déclaration sur le droit et la responsabilité des individus, groupes et organes de la société de promouvoir et protéger les droits de l’homme et les libertés fondamentales universellement reconnus, communément appelée Déclaration sur les défenseurs des droits de l’homme, dont toutes les dispositions restent valides et applicables, et réaffirmant l’importance de ce texte, qu’il est essentiel de promouvoir et d’appliquer pleinement et entièrement,</p>
+      </container>
+      <container name="Rappelant également" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> toutes les résolutions antérieures sur la question, notamment ses résolutions <a href="https://docs.un.org/fr/A/HRC/RES/22/6">22/6</a> du 21 mars 2013, <a href="https://docs.un.org/fr/A/HRC/RES/31/32">31/32</a> du 24 mars 2016, <a href="https://docs.un.org/fr/A/HRC/RES/34/5">34/5</a> du 23 mars 2017, <a href="https://docs.un.org/fr/A/HRC/RES/40/11">40/11</a> du 21 mars 2019, <a href="https://docs.un.org/fr/A/HRC/RES/43/16">43/16</a> du 22 juin 2020, <a href="https://docs.un.org/fr/A/HRC/RES/49/18">49/18</a> du 1<sup>er</sup> avril 2022 et <a href="https://docs.un.org/fr/A/HRC/RES/52/4">52/4</a> du 3 avril 2023, ainsi que les résolutions de l’Assemblée générale <a href="https://docs.un.org/fr/A/RES/68/181">68/181</a> du 18 décembre 2013, <a href="https://docs.un.org/fr/A/RES/70/161">70/161</a> du 17 décembre 2015, <a href="https://docs.un.org/fr/A/RES/72/247">72/247</a> du 24 décembre 2017, <a href="https://docs.un.org/fr/A/RES/74/146">74/146</a> du 18 décembre 2019, <a href="https://docs.un.org/fr/A/RES/76/174">76/174</a> du 16 décembre 2021 et <a href="https://docs.un.org/fr/A/RES/78/216">78/216</a> du 19 décembre 2023,</p>
+      </container>
+      <container name="Affirmant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Affirmant </span>le Pacte numérique mondial, qui a été adopté par l’Assemblée générale dans sa résolution <a href="https://docs.un.org/fr/A/RES/79/1">79/1</a> du 22 septembre 2024, en particulier les sections du Pacte relatives aux objectifs, aux principes, aux engagements et actions et au suivi et à l’examen en ce qui concerne les droits humains,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant </span>que tous les droits humains et toutes les libertés fondamentales sont universels, indivisibles, interdépendants et indissociables, et qu’il faut les promouvoir et les rendre effectifs en toute équité, et soulignant que les droits qui s’appliquent hors ligne s’appliquent également en ligne,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant </span>que les États ont l’obligation et la responsabilité, au premier chef, de respecter, de protéger et de réaliser tous les droits humains et toutes les libertés fondamentales de toutes les personnes, et saluant les mesures que nombre d’entre eux ont prises en vue de créer un environnement sûr et favorable pour les défenseurs des droits humains, en ligne comme hors ligne,</p>
+      </container>
+      <container name="Rappelant" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>que les Principes directeurs relatifs aux entreprises et aux droits de l’homme définissent l’approche de principe que toutes les entreprises doivent suivre en vue de prévenir, de réduire et de traiter les atteintes aux droits humains imputables à leurs activités, et que les entreprises technologiques devraient, à ce titre, prévoir et traiter les préjudices découlant de ce qu’il est communément convenu d’appeler l’« utilisation finale » de leurs produits et services,</p>
+      </container>
+      <container name="Soulignant" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Soulignant </span>que le cadre juridique dans lequel s’inscrivent les activités des défenseurs des droits humains qui œuvrent par des moyens pacifiques à promouvoir et à défendre ces droits et les libertés fondamentales est celui d’une législation nationale conforme à la Charte et au droit international des droits humains,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> l’importance de la Déclaration sur les défenseurs des droits de l’homme et de son application pleine et effective, et rappelant qu’il est essentiel de promouvoir le respect, le soutien et la protection des activités des défenseurs et défenseuses des droits humains pour garantir l’exercice universel des droits humains, en ligne comme hors ligne,</p>
+      </container>
+      <container name="Soulignant" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> que, dans l’exercice des droits et libertés visés dans la Déclaration, les défenseurs des droits humains, agissant individuellement ou en association avec d’autres, ne sont soumis qu’aux limitations fixées conformément aux obligations internationales existantes et établies par la loi exclusivement en vue d’assurer la reconnaissance et le respect des droits et libertés d’autrui et afin de satisfaire aux justes exigences de la morale, de l’ordre public et du bien-être général dans une société démocratique,</p>
+      </container>
+      <container name="Prenant note" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Prenant note</span> des initiatives prises par la société civile pour célébrer le vingt‑cinquième anniversaire de la Déclaration sur les défenseurs des droits de l’homme, en particulier la Déclaration +25,</p>
+      </container>
+      <container name="Considérant" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Considérant </span>que les défenseurs et défenseuses des droits humains jouent un rôle important et légitime pour ce qui est de promouvoir et protéger les droits humains, en ligne comme hors ligne, et défendre l’égalité d’accès aux nouvelles technologies et la réduction des fractures numériques, y compris celles entre les femmes et les hommes et celles entre les zones géographiques, au moyen de solutions technologiques,</p>
+      </container>
+      <container name="Considérant également" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Considérant également </span>que les technologies numériques nouvelles et émergentes offrent de réelles possibilités s’agissant de renforcer les institutions démocratiques et la résilience de la société civile, de favoriser l’engagement civique et de faciliter le travail des défenseurs des droits humains, la participation du public et l’échange ouvert et libre d’idées, ainsi que de garantir l’exercice de tous les droits humains, </p>
+      </container>
+      <container name="Considérant en outre" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Considérant en outre </span>que les technologies numériques pourraient être utilisées pour diffuser des discours de haine, des propos délétères et de la propagande malveillante, notamment dans le cadre de campagnes de mésinformation et de désinformation, qui peuvent constituer une incitation à la discrimination, à l’hostilité ou à la violence et nuire à la réalisation des droits humains,</p>
+      </container>
+      <container name="Soulignant" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Soulignant </span>les risques particuliers auxquels sont exposés les défenseurs des droits humains à l’ère du numérique, au nombre desquels la surveillance illégale ou arbitraire, l’ingérence illégale ou arbitraire dans la vie privée, l’interception ciblée des communications, le piratage, y compris le piratage commandité par les pouvoirs publics, toutes les formes de cyberviolence, de cyberharcèlement, de cyberintimidation, de campagnes de dénigrement en ligne, de menaces en ligne et de divulgation malveillante d’informations personnelles, qui visent de manière disproportionnée les défenseuses des droits humains, ainsi que les mesures qui empêchent ou perturbent l’accès aux canaux d’information et de communication, y compris les coupures générales de l’accès à Internet,</p>
+      </container>
+      <container name="Considérant" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Considérant </span>que les attaques en ligne sont souvent un prélude aux violations des droits humains et aux atteintes à ces droits dans le monde physique, notamment aux meurtres, aux passages à tabac, aux disparitions forcées et aux détentions arbitraires, qui nuisent aux activités des défenseurs des droits humains,</p>
+      </container>
+      <container name="Soulignant" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> l’importance de la connectivité numérique, y compris dans les régions rurales et reculées, pour ce qui est d’assurer la continuité des services essentiels, en particulier en période de manifestations et d’élections et dans les situations de crise, de conflit armé ou d’occupation étrangère, et insistant sur l’importance de l’accès à un Internet libre, abordable, ouvert, interopérable, fiable, stable, sûr et sécurisé,</p>
+      </container>
+      <container name="Considérant" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Considérant </span>que la connectivité universelle signifie la connectivité pour tous et en tous lieux, et que la connectivité utile permet aux utilisateurs d’avoir une expérience en ligne sûre, accessible et productive à un coût abordable, et considérant également que la connectivité universelle et utile est essentielle pour l’exercice des droits humains, y compris pour que les défenseurs des droits humains puissent efficacement mener leurs activités en toute sécurité, en ligne comme hors ligne,</p>
+      </container>
+      <container name="Condamnant fermement" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Condamnant fermement</span> le recours à des coupures générales de l’accès à Internet, y compris le blocage de l’accès aux plateformes de communication, visant à empêcher ou à perturber de façon délibérée et arbitraire l’accès à l’information ou la diffusion d’informations en ligne, ce qui est incompatible avec le droit international, notamment avec le droit international des droits humains, et soulignant l’importance d’un Internet libre, abordable, ouvert, interopérable, fiable et sûr,</p>
+      </container>
+      <container name="Notant avec une profonde préoccupation" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Notant avec une profonde préoccupation </span>que des outils technologiques créés par le secteur de la surveillance privée sont transférés à des acteurs privés ou publics ou que ceux‑ci les utilisent pour exercer des activités de surveillance, pirater des dispositifs et des systèmes, notamment au moyen de logiciels malveillants et de logiciels espions, intercepter et perturber des communications et recueillir des données, ce qui constitue une immixtion dans la vie professionnelle et privée de particuliers, notamment de défenseurs des droits humains, qui œuvrent à la promotion et à la défense des droits humains et des libertés fondamentales lorsqu’il en résulte une violation des droits humains de ces personnes, y compris de leur droit à la vie privée, ou une atteinte à ces droits, </p>
+      </container>
+      <container name="Notant également avec une profonde préoccupation" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Notant également avec une profonde préoccupation </span>que la surveillance ou l’interception des communications, y compris en dehors du territoire national, ainsi que la collecte de données personnelles, en particulier lorsqu’elle est effectuée à grande échelle, peuvent avoir une incidence néfaste sur l’exercice des droits humains, notamment des femmes et des filles,</p>
+      </container>
+      <container name="Se déclarant préoccupé" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Se déclarant préoccupé</span> par la surveillance arbitraire et illégale exercée tant dans les espaces physiques que numériques, notamment en ligne, à l’égard des défenseurs et des défenseuses des droits humains, notamment au moyen de caméras de vidéosurveillance et de véhicules de surveillance aérienne, ainsi que d’outils de traçage numérique nouveaux et émergents, tels que les technologies biométriques, dont la reconnaissance faciale et émotionnelle, et les intercepteurs d’identité internationale d’abonnement mobile (appelés « stingrays »), laquelle surveillance constitue une violation des droits humains de ces personnes, y compris de leur droit à la vie privée, ou une atteinte à ces droits,</p>
+      </container>
+      <container name="Se déclarant gravement préoccupé" eId="container_24">
+        <p xml:space="preserve"> <span class="italic">Se déclarant gravement préoccupé</span> par les activités de répression que des États mènent à l’étranger, en dehors de leur juridiction, afin de nuire aux défenseurs des droits humains, de les réduire au silence et de les intimider, en utilisant des moyens numériques, physiques et autres, y compris des logiciels espions et d’autres logiciels de surveillance intrusive,</p>
+      </container>
+      <container name="Considérant" eId="container_25">
+        <p xml:space="preserve"> <span class="italic">Considérant </span>que les systèmes d’intelligence artificielle, lorsqu’ils sont utilisés sans garanties appropriées en matière de droits humains et notamment à des fins d’identification, de localisation, de profilage, de reconnaissance faciale, de production d’images de synthèse photoréalistes, de prédiction des comportements ou de notation des personnes, peuvent présenter des risques graves pour la protection et la promotion des droits humains et leur exercice par les défenseurs des droits humains,</p>
+      </container>
+      <container name="Prenant note avec inquiétude" eId="container_26">
+        <p xml:space="preserve"> <span class="italic">Prenant note avec inquiétude</span> des informations selon lesquelles l’identification fondée sur les données biométriques est moins précise, notamment lorsqu’elle s’appuie sur des technologies de reconnaissance faciale qui sont entachées de préjugés relatifs à la race, au genre et au handicap, notamment lorsque des données d’apprentissage non représentatives sont utilisées, relevant que l’utilisation des technologies numériques peut reproduire, renforcer et même exacerber les inégalités liées à la race, au genre et au handicap, et considérant, dans ce contexte, que l’existence de recours utiles est importante,</p>
+      </container>
+      <container name="Rappelant" eId="container_27">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>les efforts visant à soutenir un véritable dialogue multipartite, y compris les principes énoncés dans le Programme de développement durable à l’horizon 2030 et le Pacte numérique mondial, et saluant ceux contenus dans la déclaration multipartite sur le renforcement de la gouvernance d’Internet et des politiques numériques adoptée par la conférence d’examen décennal de la Réunion mondiale multipartite sur le futur de la gouvernance d’Internet, qui s’est tenue à São Paulo (Brésil) les 29 et 30 avril 2024,</p>
+      </container>
+      <container name="Alarmé" eId="container_28">
+        <p xml:space="preserve"> <span class="italic">Alarmé </span>par les meurtres, les enlèvements, les disparitions forcées, les détentions arbitraires, les actes de torture, le harcèlement, l’intimidation, la criminalisation et le harcèlement judiciaire, ainsi que par les campagnes de dénigrement, les violences, y compris les violences sexuelles et fondées sur le genre, et les menaces en ligne comme hors ligne dont sont victimes les défenseurs et défenseuses des droits humains, notamment les défenseurs et défenseuses des droits humains liés à l’environnement et les défenseurs et défenseuses autochtones des droits humains, ou les membres de leur famille, les personnes qui leur sont associées et leurs représentants légaux,</p>
+      </container>
+      <container name="Considérant" eId="container_29">
+        <p xml:space="preserve"> <span class="italic">Considérant </span>qu’il importe de lutter contre toutes les formes de violence dont les défenseurs et défenseuses des droits humains sont victimes à l’ère des technologies numériques, parmi lesquelles l’exploitation sexuelle et les abus sexuels, le recours à l’hypertrucage (<span class="italic">deepfake</span>), la divulgation malveillante d’informations personnelles, le harcèlement, le harcèlement obsessionnel, l’intimidation, le partage non consenti de contenus personnels sexuellement explicites, les menaces et les actes de violence sexuelle et fondée sur le genre, les menaces de mort, la surveillance et le traçage arbitraires ou illégaux, la traite des personnes, l’extorsion, la censure et l’accès illégal aux comptes numériques, aux téléphones mobiles ou aux autres appareils électroniques, conformément au droit international des droits humains,</p>
+      </container>
+      <container name="Considérant également" eId="container_30">
+        <p xml:space="preserve"> <span class="italic">Considérant également</span> que les défenseurs des droits humains sont la cible d’attaques numériques toujours plus nombreuses, qui paralysent leurs moyens de communication, et que le non-établissement des responsabilités pour les attaques en ligne constitue une lacune en matière de protection,</p>
+      </container>
+      <container name="Conscient" eId="container_31">
+        <p xml:space="preserve"> <span class="italic">Conscient</span> que, s’il offre de nouvelles possibilités pour la réalisation des droits de l’enfant, l’environnement numérique comporte aussi des risques de violations de ces droits ou d’atteinte à ces droits,</p>
+      </container>
+      <container name="Profondément préoccupé" eId="container_32">
+        <p xml:space="preserve"> <span class="italic">Profondément préoccupé</span> par l’impunité qui entoure les menaces, les attaques et les violences dirigées contre des défenseurs des droits humains, en ligne comme hors ligne, dont la persistance contribue à un climat favorable à la répétition de tels actes,</p>
+      </container>
+      <container name="Vivement préoccupé" eId="container_33">
+        <p xml:space="preserve"> <span class="italic">Vivement préoccupé</span> par le fait que les lois et autres mesures relatives à la sécurité nationale, à la lutte antiterroriste et à la cybercriminalité, notamment les lois sanctionnant la diffamation et la calomnie et celles régissant les organisations de la société civile, sont dans certains cas utilisées de manière abusive pour s’en prendre aux défenseurs des droits humains ou ont entravé leur action et compromis leur sécurité, en violation du droit international, notamment du droit des droits humains,</p>
+      </container>
+      <container name="Conscient" eId="container_34">
+        <p xml:space="preserve"> <span class="italic">Conscient </span>que les dispositions législatives et administratives adoptées à l’échelon national et leur application devraient, non pas entraver, mais faciliter l’action des défenseurs des droits humains et, notamment, éviter que leurs activités soient criminalisées ou fassent l’objet d’une stigmatisation, d’entraves, d’une discrimination, d’obstructions ou de restrictions en violation des obligations et engagements des États au regard du droit international, y compris du droit des droits humains,</p>
+      </container>
+      <container name="Se déclarant vivement préoccupé" eId="container_35">
+        <p xml:space="preserve"> <span class="italic">Se déclarant vivement préoccupé</span> par la multiplication des procès-bâillons intentés, notamment par des entreprises, pour faire pression sur des défenseurs des droits humains, les intimider, tarir leurs ressources et les épuiser moralement afin de les empêcher de mener à bien leur travail, notamment sur des questions d’intérêt public,</p>
+      </container>
+      <container name="Considérant" eId="container_36">
+        <p xml:space="preserve"> <span class="italic">Considérant </span>que la protection des défenseurs des droits humains ne peut être pleinement assurée que par l’adoption d’une approche globale impliquant de renforcer les institutions démocratiques, de protéger l’ordre juridique international, de préserver l’espace civique, de lutter contre l’impunité, de mettre un terme aux inégalités de genre, aux inégalités économiques et à l’exclusion sociale, de réduire toutes les fractures numériques, y compris celles entre les femmes et les hommes et celles entre les zones géographiques, notamment entre les pays et à l’intérieur de ceux-ci, et de garantir l’égalité d’accès à Internet,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_37" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne </span>que le droit de chacun, individuellement ou en association avec d’autres, de promouvoir la protection et la réalisation de tous les droits humains et de toutes les libertés fondamentales, qui est énoncé dans la Déclaration sur les défenseurs des droits de l’homme, sans craindre ni risquer de représailles, en ligne comme hors ligne, est essentiel à l’édification et au maintien de sociétés inclusives, pacifiques et démocratiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne </span>la contribution et le rôle positifs, importants et légitimes des défenseurs des droits humains dans la promotion et la protection de ces droits, le renforcement de la compréhension, de la tolérance et de la paix, la promotion de l’égalité d’accès aux nouvelles technologies et la réduction des fractures numériques, et exhorte les États à créer et à maintenir un environnement sûr, favorable, accessible et inclusif, en ligne et hors ligne, qui permette à ces personnes de participer à toutes les activités pertinentes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve"> 	<span class="italic">Condamne fermement</span> les violences, la criminalisation, les actes d’intimidation, les attaques, les actes de torture, les disparitions forcées et les meurtres dont sont victimes les défenseurs et défenseuses des droits humains, notamment les défenseurs et défenseuses des droits humains liés à l’environnement et les défenseurs et défenseuses autochtones des droits humains, ainsi que toutes les autres violations des droits humains de ces défenseurs ou atteintes à ces droits commis en ligne et hors ligne par des acteurs étatiques ou non étatiques, insiste sur la nécessité de lutter contre l’impunité en veillant à ce que les responsables de violations et d’atteintes à l’égard des défenseurs des droits humains ou de leurs représentants légaux, des personnes qui leur sont associées et des membres de leur famille soient promptement traduits en justice à l’issue d’enquêtes impartiales et indépendantes, et souligne qu’il est essentiel de veiller à ce que les responsabilités soient établies afin que de telles violations du droit international des droits humains et atteintes à celui‑ci ne se reproduisent pas ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve"> 	<span class="italic">Considère </span>que la démocratie et l’état de droit sont des composantes essentielles de la protection des défenseurs des droits humains et exhorte les États à prendre des mesures pour renforcer les institutions démocratiques, préserver l’espace civique, faire respecter l’état de droit et combattre l’impunité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande </span>aux États de lutter contre l’impunité en menant des enquêtes rapides, impartiales et indépendantes, en faisant en sorte que les acteurs étatiques ou non étatiques auteurs de toute forme de violation, de violence ou de menace à l’égard des défenseurs des droits humains quels qu’ils soient ou de leurs représentants légaux, des membres de leur famille et des personnes qui leur sont associées soient amenés à rendre des comptes, ainsi qu’en condamnant publiquement toutes les formes de violence et de discrimination, y compris les formes multiples et croisées de discrimination, et tous les actes d’intimidation et de représailles, et en soulignant que de telles pratiques ne peuvent en aucun cas être justifiées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note avec intérêt</span> des travaux de la Rapporteuse spéciale sur la situation des défenseurs et défenseuses des droits humains et prend note des rapports qu’elle lui a présentés<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/fr/A/HRC/58/53">A/HRC/58/53</a> et <a href="https://docs.un.org/fr/A/HRC/58/53/Add.1">Add.1</a> et <a href="https://docs.un.org/fr/A/HRC/58/53/Add.2">2</a>.</p></authorialNote>, ainsi qu’à l’Assemblée générale<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://docs.un.org/fr/A/79/123">A/79/123</a>.</p></authorialNote>, et engage vivement tous les États à coopérer avec la Rapporteuse spéciale et à l’aider dans sa tâche ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve"> 	<span class="italic">Condamne </span>tous les actes d’intimidation et de représailles commis par des acteurs étatiques ou non étatiques, en ligne comme hors ligne, contre des individus, des groupes et des organes de la société, notamment les défenseurs des droits humains et leurs représentants légaux, les personnes qui leur sont associées et les membres de leur famille, qui cherchent à coopérer, coopèrent ou ont coopéré avec des organes sous-régionaux, régionaux et internationaux, notamment l’Organisation des Nations Unies, ses représentants et ses mécanismes qui œuvrent dans le domaine des droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve"> 	<span class="italic">Réaffirme</span> le droit de chacun, individuellement ou en association avec d’autres, d’accéder sans entrave et sans crainte de représailles aux organismes internationaux, en particulier à l’Organisation des Nations Unies, à ses représentants et à ses mécanismes qui œuvrent dans le domaine des droits humains, y compris au Conseil des droits de l’homme, aux titulaires de mandat au titre des procédures spéciales, au mécanisme d’Examen périodique universel et aux organes conventionnels, ainsi qu’aux mécanismes régionaux de défense des droits humains, et à communiquer avec eux, et demande instamment à tous les États de donner effet à ce droit ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtG">
+        <num>9.</num>
+        <list eId="para_73_list">
+          <intro eId="para_73_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Demande </span>aux États :</p>
+          </intro>
+          <point eId="para_73_list_point_a">
+            <num>a)</num>
+            <content eId="para_73_list_point_a_content">
+              <p xml:space="preserve">  D’œuvrer à la création d’un environnement sûr et favorable permettant aux défenseurs et défenseuses des droits humains de mener leurs activités en ligne comme hors ligne, ainsi que de veiller à ce que les lois, les politiques et les pratiques soient conformes aux obligations et aux engagements applicables au regard du droit international, y compris le droit international des droits humains, afin qu’elles n’entravent pas ou ne limitent pas indûment la capacité des défenseurs des droits humains de mener leurs activités et d’avoir accès aux ressources ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_b">
+            <num>b)</num>
+            <content eId="para_73_list_point_b_content">
+              <p xml:space="preserve">  De renoncer ou de mettre un terme à l’utilisation ou au transfert des technologies nouvelles ou émergentes, notamment des applications d’intelligence artificielle et des logiciels espions, dont il est impossible de se servir dans le respect du droit international des droits humains ou qui présentent des risques excessifs pour l’exercice des droits humains, jusqu’à ce que les garanties voulues pour protéger les droits humains et les libertés fondamentales soient mises en place ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_c">
+            <num>c)</num>
+            <content eId="para_73_list_point_c_content">
+              <p xml:space="preserve">  De favoriser l’avènement d’un espace numérique accessible, inclusif, ouvert, sûr et sécurisé qui respecte, protège et promeut les droits humains, l’égalité des genres et l’autonomisation des femmes et des filles, et d’accélérer les efforts visant à réduire les fractures numériques, y compris celles entre les femmes et les hommes, celles entre les zones géographiques, notamment entre les pays et à l’intérieur de ceux-ci, et celles d’autre nature, et à favoriser une connectivité universelle, abordable et utile, en particulier en période de manifestations et d’élections et dans les situations de crise, de conflit armé ou d’occupation étrangère, l’utilisation des technologies de l’information et des communications ainsi que la promotion d’un accès ouvert et sécurisé au numérique et de l’inclusion numérique, notamment par l’éducation au numérique, aux médias et à l’information et la formation à la sécurité numérique, en vue de promouvoir le plein exercice des droits humains pour tous ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_d">
+            <num>d)</num>
+            <content eId="para_73_list_point_d_content">
+              <p xml:space="preserve">  De préconiser des solutions technologiques diversifiées et respectueuses des droits humains pour faire progresser la connectivité, notamment en créant un cadre réglementaire favorable, inclusif et efficace pour les opérateurs Internet de petite taille, à but non lucratif et communautaires ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_e">
+            <num>e)</num>
+            <content eId="para_73_list_point_e_content">
+              <p xml:space="preserve">  D’engager le secteur privé à appliquer les Principes directeurs relatifs aux entreprises et aux droits de l’homme ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_f">
+            <num>f)</num>
+            <content eId="para_73_list_point_f_content">
+              <p xml:space="preserve">  De garantir le droit à la liberté d’expression, qui comprend la liberté de rechercher, recevoir et donner des informations, notamment en favorisant la transparence, en publiant des données de manière proactive et en inscrivant l’éducation au numérique et aux médias dans les programmes d’enseignement ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_g">
+            <num>g)</num>
+            <content eId="para_73_list_point_g_content">
+              <p xml:space="preserve">  De s’employer en priorité à élaborer et à appliquer des politiques et des normes nationales visant à assurer la sécurité des enfants en ligne, conformément au droit international des droits humains, notamment à la Convention relative aux droits de l’enfant ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_h">
+            <num>h)</num>
+            <content eId="para_73_list_point_h_content">
+              <p xml:space="preserve">  D’améliorer l’accès à Internet et à des outils de communication sécurisés, notamment en augmentant les financements destinés à des solutions de sécurité numérique, telles que des applications de communication chiffrées et des mécanismes de signalement sécurisés ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_i">
+            <num>i)</num>
+            <content eId="para_73_list_point_i_content">
+              <p xml:space="preserve">  De s’abstenir de toute criminalisation, délégitimation, stigmatisation, campagne de dénigrement, de tout discours de haine et de toute désinformation visant les défenseurs des droits humains recueillant des informations sur des violations des droits humains et des atteintes à ces droits, y compris en communiquant avec des acteurs non étatiques, notamment des groupes armés, à cette fin ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_j">
+            <num>j)</num>
+            <content eId="para_73_list_point_j_content">
+              <p xml:space="preserve">  De s’abstenir d’imposer des coupures générales de l’accès à Internet, des restrictions d’accès au réseau ou toute autre mesure visant à empêcher les défenseurs des droits humains d’avoir accès à l’information et de la diffuser et de communiquer en toute sécurité, notamment de s’abstenir de recourir à des mesures de blocage d’Internet, de limitation de la bande passante ou de filtrage des contenus ou d’entraver l’utilisation de technologies telles que les outils de chiffrement et d’anonymisation ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_k">
+            <num>k)</num>
+            <content eId="para_73_list_point_k_content">
+              <p xml:space="preserve">  De promouvoir l’utilisation de mesures et de solutions techniques de chiffrement et d’anonymisation, comme la pseudonymisation, de ne pas entraver l’utilisation de pareilles solutions, de n’imposer d’autres restrictions que celles qui sont conformes aux obligations mises à leur charge par le droit international des droits humains et d’adopter des lois et des politiques qui protègent la confidentialité des communications numériques des particuliers ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_l">
+            <num>l)</num>
+            <content eId="para_73_list_point_l_content">
+              <p xml:space="preserve">  De favoriser les mesures visant à permettre aux défenseurs des droits humains de stocker et de protéger leurs informations en toute sécurité, sans craindre de surveillance illégale, de fuite de données ou de saisie arbitraire de matériel, notamment d’établir des garanties juridiques solides pour empêcher que les outils numériques soient utilisés de manière abusive pour réprimer l’opposition ou s’en prendre à des défenseurs, et de veiller à ce que les droits des défenseurs soient protégés en ligne comme hors ligne ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_m">
+            <num>m)</num>
+            <content eId="para_73_list_point_m_content">
+              <p xml:space="preserve">  De s’abstenir d’appliquer des mesures qui violent les droits humains, y compris des pratiques telles que l’utilisation ciblée de logiciels espions contre les défenseurs des droits humains, et de mettre un terme à de telles mesures, qui peuvent être incompatibles avec le droit international des droits humains, et d’instaurer des mécanismes permettant d’offrir des recours utiles aux victimes de violations de la loi liées à des activités de surveillance, conformément au droit international des droits humains ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_n">
+            <num>n)</num>
+            <content eId="para_73_list_point_n_content">
+              <p xml:space="preserve">  De veiller à ce que les technologies d’identification et de reconnaissance biométriques, y compris les technologies de reconnaissance faciale, ne soient pas utilisées par les acteurs publics ou privés à des fins de surveillance de masse et ne soient utilisées que lorsque cela est compatible avec le droit international des droits de l’homme et les principes de légalité, de nécessité et de proportionnalité, ainsi que de veiller à ce que les victimes de violations des droits de l’homme ou d’atteintes à ces droits découlant du recours à des technologies d’identification et de reconnaissance biométriques aient accès à des voies de recours ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_o">
+            <num>o)</num>
+            <content eId="para_73_list_point_o_content">
+              <p xml:space="preserve">  De veiller à ce que la criminalisation des actes terroristes, des actes cybercriminels et des atteintes à la sécurité nationale, les poursuites engagées pour ces infractions, les lois sanctionnant la diffamation et la calomnie et les autres mesures prises pour faire face aux menaces dans ces domaines soient conformes aux obligations mises à leur charge par le droit international des droits humains, et d’éviter de criminaliser les défenseurs des droits humains ou d’entraver indûment leurs activités ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_p">
+            <num>p)</num>
+            <content eId="para_73_list_point_p_content">
+              <p xml:space="preserve">  D’adopter et d’appliquer des lois et des politiques qui découragent les procès‑bâillons contre les journalistes, les médias et les défenseurs et défenseuses des droits humains, et d’apporter une assistance juridique aux victimes ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_q">
+            <num>q)</num>
+            <content eId="para_73_list_point_q_content">
+              <p xml:space="preserve">  De prendre toutes les mesures nécessaires pour prévenir les menaces, les attaques, les actes de discrimination, les arrestations et détentions arbitraires et les autres formes de harcèlement, de représailles et d’intimidation visant des acteurs de la société civile, y compris les défenseurs des droits humains, pour mener sans tarder des enquêtes impartiales et indépendantes lorsqu’il y a des raisons de penser que de tels actes ont été commis, pour garantir l’accès à la justice et l’établissement des responsabilités, et pour mettre fin à l’impunité des violations et atteintes de ce type ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_r">
+            <num>r)</num>
+            <content eId="para_73_list_point_r_content">
+              <p xml:space="preserve">  D’améliorer la collecte de données ventilées sur la situation des défenseurs des droits humains, y compris en tirant parti des données recueillies par la société civile, les médias et les institutions nationales des droits humains, notamment sur les menaces, les attaques ou les violences dont sont victimes les défenseurs et défenseuses des droits humains, et faire tout ce qui est en leur pouvoir pour mettre ces données à la disposition du Haut‑Commissariat ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve"> 	<span class="italic">Se déclare à nouveau particulièrement préoccupé</span> par la discrimination, la marginalisation économique, la violence et le harcèlement systémiques et structurels subis de manière disproportionnée par les défenseuses des droits humains dans différentes situations et différents contextes, y compris la violence sexuelle et fondée sur le genre, ainsi que la diffamation, la désinformation et les campagnes de dénigrement, aussi bien en ligne que hors ligne, et demande de nouveau avec insistance aux États de prendre les mesures énergiques et concrètes qui s’imposent pour protéger les défenseuses des droits humains et de tenir compte des questions de genre dans l’action qu’ils mènent pour instaurer un climat de sécurité et des conditions propices à la défense des droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve"> 	<span class="italic">Condamne sans équivoque</span> les attaques commises en ligne contre les femmes et les filles, notamment la violence sexuelle et les abus sexuels et fondés sur le genre qui se produisent par l’entremise de la technologie ou sont amplifiés par elle, au nombre desquelles figurent la divulgation malveillante d’informations personnelles, le recours au <span class="italic">deepfake</span>, la traque et le harcèlement en ligne, et celles commises contre les femmes au moyen du partage non consenti d’images intimes, que le contenu de celles‑ci soit réel ou simulé, en particulier lorsque des défenseuses des droits humains qui participent au débat public sont prises pour cible parce qu’elles s’expriment, et demande que soient mises en place des approches tenant compte des questions de genre qui soient adaptées à ces formes particulières de discrimination et de harcèlement en ligne ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande </span>aux États de créer et de maintenir un environnement favorable à la participation pleine, égale et effective des organisations de femmes de la société civile et des défenseuses des droits humains, en ligne comme hors ligne, notamment en réduisant les fractures numériques entre les femmes et les hommes, celles entre les zones géographiques et celles d’autre nature ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne </span>que toutes les entreprises, en particulier celles du secteur technologique ou exerçant leurs activités en ligne, qu’elles soient transnationales ou non, ont la responsabilité, conformément aux Principes directeurs relatifs aux entreprises et aux droits de l’homme, de respecter tous les droits humains, notamment les droits à la vie, à la liberté et à la sécurité de la personne des défenseurs des droits humains, et de permettre à ces derniers d’exercer leur droit à la liberté d’expression, leur droit de réunion pacifique et d’association et leur droit de participer aux affaires publiques, lesquels sont essentiels pour la promotion et la protection de tous les droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage </span>les entreprises, notamment les fournisseurs de services de communication et les entreprises de réseaux sociaux, à favoriser la mise en place de solutions techniques permettant de garantir et de préserver la confidentialité des communications et des transactions numériques, notamment des techniques de chiffrement, de pseudonymisation et d’anonymisation, à veiller à ce que des garanties conformes aux droits humains soient mises en place et à exercer une diligence raisonnable en matière de droits humains, conformément aux Principes directeurs relatifs aux entreprises et aux droits de l’homme, tout au long du cycle de vie et de la chaîne de valeur de leurs services et produits, pour recenser, prévenir et éliminer les risques qui pourraient peser sur les défenseurs des droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie </span>le Haut-Commissariat des Nations Unies aux droits de l’homme d’organiser trois ateliers régionaux, y compris selon des modalités hybrides, afin que l’on y évalue les risques que les technologies numériques font peser sur les défenseurs des droits humains et les meilleures pratiques pour répondre à ces préoccupations dans différentes régions, en tenant compte des modèles d’activités actuels et émergents, des fractures numériques entre les femmes et les hommes, de celles entre les zones géographiques et de celles d’autre nature ainsi que des différentes sensibilités, et en faisant participer la société civile, les défenseurs des droits humains et le secteur privé ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie également</span> le Haut-Commissariat d’établir un rapport contenant un résumé de ces consultations, qui pourrait comprendre des recommandations sur l’exercice de la diligence raisonnable et l’amélioration des mesures permettant d’atténuer les risques que les technologies numériques font peser sur les défenseurs des droits humains, y compris ceux qui sont victimes de discrimination et qui interviennent dans des situations de conflit armé, et de le lui présenter à sa soixante-troisième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_173" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_173__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide </span>de rester saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="58e" refersTo="#adoptionMeeting">58e séance</location>
+          <eol />
+          <docDate date="2025-04-04" refersTo="#adoptionDate">4 avril 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
