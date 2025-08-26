@@ -1,0 +1,325 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/spa@/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/spa@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANDMINES" href="http://metadata.un.org/thesaurus/1003608" showAs="LANDMINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINE CLEARANCE" href="http://metadata.un.org/thesaurus/1004158" showAs="MINE CLEARANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WAR VICTIMS" href="http://metadata.un.org/thesaurus/1006926" showAs="WAR VICTIMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC, SOCIAL AND CULTURAL RIGHTS" href="http://metadata.un.org/thesaurus/1001882" showAs="ECONOMIC, SOCIAL AND CULTURAL RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-24" outcome="draftResolution" as="A/HRC/58/L.21" by="Albania, Algeria, Azerbaijan, Colombia, Croatia, Cyprus, France, Guatemala, Luxembourg, Malawi, Monaco, Montenegro, Mozambique, Peru, Portugal, Samoa, South Africa, Spain, United Kingdom of Great Britain and Northern Ireland and Vanuatu" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-04" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-04" outcome="adopted" as="Adopted without vote, 58th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="spanish" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/22</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-04" class="rightSmall" refersTo="#dateOfIssuance">4 de abril de 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">58º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 febrero</date>
+          <date date="2025-04-04" refersTo="#endDate">4 abril 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Tema 3 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promoción y protección de todos los derechos humanos,  civiles, políticos, económicos, sociales y culturales,  incluido el derecho al desarrollo</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos  el 4 de abril de 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/22.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	El impacto de las minas antipersonal en el pleno disfrute  de todos los derechos humanos</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Guiado" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Guiado </span>por los propósitos y principios de la Carta de las Naciones Unidas y por la Declaración Universal de Derechos Humanos,</p>
+      </container>
+      <container name="Recordando" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>el Pacto Internacional de Derechos Civiles y Políticos, el Pacto Internacional de Derechos Económicos, Sociales y Culturales y otros instrumentos pertinentes del derecho internacional de los derechos humanos, entre ellos la Convención sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer, la Convención sobre los Derechos del Niño y la Convención sobre los Derechos de las Personas con Discapacidad, así como la Declaración y el Programa de Acción de Viena,</p>
+      </container>
+      <container name="Reafirmando" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando </span>que todo individuo tiene derecho a la vida y a la libertad y a la seguridad de su persona, así como a un orden social e internacional en el que los derechos y libertades proclamados en la Declaración Universal de Derechos Humanos puedan hacerse plenamente efectivos,</p>
+      </container>
+      <container name="Recordando" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>los Convenios de Ginebra de 12 de agosto de 1949 y sus Protocolos Adicionales de 8 de junio de 1977, así como otros instrumentos pertinentes del derecho internacional humanitario, entre ellos la Convención sobre la Prohibición de las Minas Antipersonal y la Convención sobre Ciertas Armas Convencionales,</p>
+      </container>
+      <container name="Reconociendo" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que la paz y la seguridad, el desarrollo y los derechos humanos son los pilares del sistema de las Naciones Unidas y sirven de fundamento a la seguridad y el bienestar colectivos, y que la paz y la seguridad, el desarrollo y los derechos humanos están interrelacionados y se refuerzan mutuamente,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Poniendo de relieve </span>que todos los derechos humanos son universales, indivisibles, interdependientes y están relacionados entre sí,</p>
+      </container>
+      <container name="Reconociendo" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que el derecho internacional de los derechos humanos y el derecho internacional humanitario son complementarios y se refuerzan mutuamente, y reafirmando que debe hacerse todo lo posible, de conformidad con el derecho internacional, para poner fin a las violaciones y abusos de derechos humanos y asegurar el cese de todas las violaciones del derecho internacional humanitario, así como para asegurar el pleno respeto de estos marcos jurídicos internacionales, según proceda,</p>
+      </container>
+      <container name="Reiterando" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Reiterando </span>que deben adoptarse medidas eficaces para garantizar y vigilar la realización de los derechos humanos respecto de los civiles y las poblaciones civiles en los contextos de conflicto armado, incluidas las situaciones de ocupación extranjera, así como en las situaciones posteriores a conflictos, y que debe proporcionarse protección eficaz contra las violaciones de los derechos humanos, de conformidad con el derecho internacional de los derechos humanos y el derecho internacional humanitario, según proceda,</p>
+      </container>
+      <container name="Teniendo presente" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Teniendo presente </span>la Agenda 2030 para el Desarrollo Sostenible, en particular el Objetivo de Desarrollo Sostenible 16, sobre la promoción de sociedades pacíficas e inclusivas, y reconociendo que la promoción y protección de los derechos humanos y la implementación de la Agenda 2030 están interrelacionadas y se refuerzan mutuamente,</p>
+      </container>
+      <container name="Tomando nota" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Tomando nota </span>de la aprobación por la Asamblea General del Pacto para el Futuro<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Resolución 79/1 de la Asamblea General.</p></authorialNote>, en el que los Jefes y Jefas de Estado y de Gobierno se comprometieron a redoblar sus esfuerzos por cumplir sus respectivas obligaciones en virtud de los instrumentos internacionales pertinentes para prohibir o restringir las armas convencionales debido a su impacto humanitario y tomar medidas para promover todos los aspectos pertinentes de las actividades relativas a las minas,</p>
+      </container>
+      <container name="Expresando preocupación" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Expresando preocupación </span>por que las minas antipersonal, incluidas las que quedan como restos de conflictos, siguen constituyendo una grave amenaza para el pleno disfrute de todos los derechos humanos, incluidos los derechos a la vida, a la libertad de circulación, a la salud, a la educación, al trabajo y a una alimentación adecuada, así como el derecho al desarrollo, y afectan a los civiles, a las poblaciones civiles y al personal que participa en tareas de asistencia humanitaria y en operaciones de mantenimiento de la paz, obstaculizando los programas de rehabilitación y reconstrucción, impidiendo el acceso humanitario e inhibiendo el retorno voluntario y seguro de los refugiados y los desplazados internos,</p>
+      </container>
+      <container name="Observando" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Observando </span>la importancia de la recopilación, el uso y el análisis de datos, incluidos los registros sobre los incidentes con daños personales, que sirven de base para establecer las prioridades de las actividades de acción contra las minas, como la educación sobre el riesgo, el desminado y la asistencia a las víctimas, contribuyendo positivamente a la promoción y protección de todos los derechos humanos,</p>
+      </container>
+      <container name="Reafirmando" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando </span>la decisión de poner fin al sufrimiento y las muertes causados por las minas antipersonal, que matan o mutilan a miles de personas cada año y que obstruyen el desarrollo económico y causan daños a los ecosistemas, como la pérdida de biodiversidad, la degradación del suelo y la contaminación del agua, afectando negativamente a la consecución de un medio ambiente limpio, saludable y sostenible,</p>
+      </container>
+      <container name="Profundamente preocupado" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Profundamente preocupado </span>por el impacto humanitario del oneroso legado de las minas antipersonal, y expresando preocupación por el creciente número de daños personales en diferentes regiones del mundo,</p>
+      </container>
+      <container name="Observando con profunda preocupación" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Observando con profunda preocupación </span>que en varios conflictos en todo el mundo siguen empleándose minas antipersonal, en ocasiones de carácter improvisado, incluso por parte de terroristas y grupos armados no estatales, causando sufrimiento humano y obstruyendo el desarrollo después de los conflictos,</p>
+      </container>
+      <container name="Expresando especial preocupación" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Expresando especial preocupación </span>por los impactos indiscriminados y desproporcionados de las minas antipersonal, y poniendo de relieve que las Altas Partes Contratantes de los Convenios de Ginebra de 1949 se comprometieron a respetar y hacer respetar esos Convenios en todas las circunstancias, y consideran que todos los derechos humanos requieren protección por igual y que las protecciones brindadas por el derecho de los derechos humanos siguen vigentes en las situaciones de conflicto armado, teniendo en cuenta la aplicación del derecho internacional humanitario,</p>
+      </container>
+      <container name="Reconociendo" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>el grave impacto de las minas antipersonal en el disfrute de los derechos civiles, políticos, económicos, sociales y culturales de las personas, especialmente los supervivientes de explosiones de minas antipersonal, sobre todo en los países en desarrollo, que a menudo enfrentan importantes obstáculos en el acceso a la atención médica esencial, los servicios de rehabilitación, la remediación ambiental y las oportunidades de reintegración social y económica, así como para las comunidades afectadas, ya que la contaminación por minas impide el uso de grandes extensiones de tierra, comprometiendo la producción agrícola y la seguridad alimentaria y destruyendo los medios de subsistencia,</p>
+      </container>
+      <container name="Destacando" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Destacando </span>que las mujeres y las niñas experimentan un impacto diferenciado como víctimas directas e indirectas de las minas antipersonal debido a formas múltiples y agravadas de discriminación, y preocupado por que, debido a los estereotipos de género y a normas sociales negativas, a menudo deben asumir el papel de cuidadoras de los supervivientes y proporcionar apoyo económico a sus familias, en particular cuando el principal proveedor resulta herido o muerto, exacerbando las desigualdades estructurales existentes,</p>
+      </container>
+      <container name="Reconociendo" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>las profundas lesiones físicas, incluidas las discapacidades resultantes, y el trauma psicológico que experimentan los supervivientes de las explosiones de minas, así como la necesidad de prestar una asistencia integral a las víctimas y de promover su inclusión plena e igualitaria en la sociedad, teniendo en cuenta las vulnerabilidades y necesidades diferenciadas de las víctimas y los supervivientes,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Poniendo de relieve </span>que los derechos y necesidades de los supervivientes, sus familias y comunidades deben vertebrar las actividades destinadas a proporcionar un apoyo integral y centrado en las víctimas,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Acogiendo con beneplácito </span>las actividades de los Estados, las organizaciones internacionales, la sociedad civil y otras partes interesadas para hacer frente a las consecuencias humanitarias de las minas antipersonal, entre otras cosas mediante la aplicación de la Convención sobre la Prohibición de las Minas Antipersonal, la Convención sobre Ciertas Armas Convencionales y otros acuerdos internacionales, según proceda,</p>
+      </container>
+      <container name="Reconociendo" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>la naturaleza humanitaria de la acción contra las minas y los importantes retos financieros, técnicos y logísticos, entre otros, que pueden enfrentar muchos Estados, especialmente aquellos con recursos limitados, para ejecutar programas integrales de acción contra las minas, incluidos los de desminado, asistencia a las víctimas y educación sobre el riesgo,</p>
+      </container>
+      <container name="Destacando" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Destacando </span>la importancia de la cooperación internacional y del intercambio de conocimientos e información, recursos y mejores prácticas pertinentes de acción contra las minas en materia de desminado, educación sobre el riesgo, asistencia a las víctimas y promoción de la adhesión universal a los instrumentos jurídicos internacionales aplicables relacionados con las minas antipersonal y de su aplicación también universal,</p>
+      </container>
+      <container name="Reconociendo" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>la necesidad de integrar la asistencia a los supervivientes, sus familias y comunidades en las políticas, planes y marcos jurídicos nacionales relacionados con la salud, la discapacidad, la protección social, la educación, el empleo y el desarrollo,</p>
+      </container>
+      <container name="Reconociendo" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>la importancia de las perspectivas de género, edad e inclusión de la discapacidad, así como de la plena implicación y la igualdad de oportunidades para la participación de mujeres y hombres, incluidas las personas con discapacidad, los jóvenes, las personas mayores y las organizaciones que los representan, en los programas de acción contra las minas,</p>
+      </container>
+      <container name="Observando" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">	Observando </span>las actividades nacionales, regionales y subregionales, incluida la labor del Centro Regional de Acción contra las Minas de la Asociación de Naciones de Asia Sudoriental y la elaboración en curso, por la Unión Africana, de un nuevo marco estratégico de acción contra las minas, así como otras estrategias regionales pertinentes de acción contra las minas,</p>
+      </container>
+      <container name="Observando también" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">	Observando también</span>, además del papel primordial de los Estados Miembros, la participación de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos en la labor del Grupo Interinstitucional de Coordinación de Actividades relativas a las Minas, velando por que los derechos humanos se integren en las actividades relativas a las minas en todo el sistema de las Naciones Unidas, y la Estrategia de las Naciones Unidas para la Inclusión de la Discapacidad puesta en marcha por el Secretario General el 11 de junio de 2019,</p>
+      </container>
+      <container name="Reafirmando" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando </span>la visión de las Naciones Unidas de un mundo libre de la amenaza de las minas antipersonal y las municiones explosivas, en el que las personas y las comunidades vivan en un entorno seguro y propicio para el desarrollo y en el que se integre plenamente en la sociedad a los supervivientes de las minas,</p>
+      </container>
+      <container name="Recordando" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>el Día Internacional de Información sobre el Peligro de las Minas y de Asistencia para las Actividades relativas a las Minas, que se celebra cada año el 4 de abril y es una oportunidad para crear conciencia sobre la amenaza de las minas antipersonal y su impacto en los derechos humanos,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_31" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a todos los Estados a que refuercen y fomenten su adhesión a las obligaciones que les incumben en virtud del derecho internacional de los derechos humanos y del derecho internacional humanitario, e insta a los Estados partes en los tratados internacionales pertinentes, entre ellos la Convención sobre la Prohibición de las Minas Antipersonal y la Convención sobre Ciertas Armas Convencionales, a que cumplan plenamente sus obligaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a todos los Estados, y a otras partes interesadas, según proceda, a que cooperen eficazmente para hacer frente al impacto de las minas antipersonal en la protección y promoción de todos los derechos humanos, entre otras cosas agilizando las actividades de desminado y brindando a las víctimas una asistencia inclusiva, no discriminatoria e integral;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados a que realicen esfuerzos coordinados y multisectoriales para velar por que las necesidades de los supervivientes de explosiones de minas antipersonal, en particular los niños, sus familias y comunidades, se aborden de manera efectiva y por que se promuevan y protejan sus derechos humanos mediante marcos normativos y jurídicos nacionales relativos a la discapacidad, la salud, incluida la salud mental y el apoyo psicosocial, la educación, el empleo, el desarrollo y la reducción de la pobreza, en particular con las disposiciones aplicables de la Convención sobre los Derechos de las Personas con Discapacidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados, las organizaciones internacionales, la sociedad civil y otras partes interesadas a que colaboren estrechamente e intercambien conocimientos, información pertinente, recursos y mejores prácticas de desminado y apoyo a las víctimas, prestando especial atención a que los supervivientes reciban la atención médica, los servicios de rehabilitación y las oportunidades de reintegración social necesarios, y se los incluya en la sociedad de manera plena e igualitaria;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve </span>la importancia de la educación y la creación de conciencia sobre los peligros de las minas antipersonal, en particular en las zonas afectadas por minas, y pide que se integre la educación sobre el riesgo de las minas en los programas educativos y de divulgación a la comunidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Invita </span>a todos los Estados a que redoblen sus esfuerzos para poner fin al sufrimiento y las muertes causados por las minas antipersonal, incluso considerando seriamente la posibilidad de adherirse a la Convención sobre la Prohibición de las Minas Antipersonal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Alto Comisionado de las Naciones Unidas para los Derechos Humanos que prepare un informe, en consulta con los Estados, las organizaciones internacionales, la sociedad civil y otras partes interesadas pertinentes para lograr un análisis exhaustivo e inclusivo, sobre el impacto de las minas antipersonal en el disfrute de todos los derechos humanos, con especial hincapié en los derechos económicos, sociales y culturales, y que presente el informe al Consejo de Derechos Humanos en su 62º período de sesiones, tras lo cual se celebrará un diálogo interactivo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>seguir ocupándose de la cuestión.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="58ª" refersTo="#adoptionMeeting">58ª sesión</location>
+          <eol />
+          <docDate date="2025-04-04" refersTo="#adoptionDate">4 de abril de 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
