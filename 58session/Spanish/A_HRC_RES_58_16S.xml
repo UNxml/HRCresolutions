@@ -1,0 +1,530 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/"></FRBRuri>
+          <FRBRdate date="2025-04-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/spa@/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/spa@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Sustainable Development Goals" showAs="Sustainable Development Goals" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="OCEANS" href="http://metadata.un.org/thesaurus/1004576" showAs="OCEANS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MARINE ECOSYSTEMS" href="http://metadata.un.org/thesaurus/1003907" showAs="MARINE ECOSYSTEMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-28" outcome="draftResolution" as="A/HRC/58/L.26/Rev.1" by="Albania, Austria, Belgium, Bulgaria, Chile, Costa Rica, Croatia, Cyprus, Czechia, Democratic Republic of the Congo, Finland, France, Germany, Ireland, Italy, Luxembourg, Malawi, Maldives, Malta, Marshall Islands, Monaco, Mongolia, Montenegro, Morocco, North Macedonia, Portugal, Republic of Moldova, Romania, Slovakia, Slovenia, Spain and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-04" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-04" outcome="adopted" as="Adopted without vote, 57th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="spanish" href="/akn/ontology/concept/un/language/spanish" showAs="Spanish"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/16</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-04" class="rightSmall" refersTo="#dateOfIssuance">4 de abril de 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Consejo de Derechos Humanos</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">58º período de sesiones</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 febrero</date>
+          <date date="2025-04-04" refersTo="#endDate">4 abril 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Tema 3 de la agenda</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promoción y protección de todos los derechos humanos,  civiles, políticos, económicos, sociales y culturales,  incluido el derecho al desarrollo</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo de Derechos Humanos el 3 de abril de 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/16.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	El derecho humano a un medio ambiente limpio, saludable y sostenible: el océano y los derechos humanos</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Derechos Humanos</span>,</p>
+      </formula>
+      <container name="Guiado" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Guiado</span> por los propósitos y principios de la Carta de las Naciones Unidas,</p>
+      </container>
+      <container name="Reafirmando" eId="container_3">
+        <p xml:space="preserve">		<span class="italic">Reafirmando</span> la Declaración Universal de Derechos Humanos y la Declaración y el Programa de Acción de Viena, y recordando la Declaración de la Conferencia de las Naciones Unidas sobre el Medio Humano, la Declaración sobre el Derecho al Desarrollo, la Declaración de Río sobre el Medio Ambiente y el Desarrollo, la Convención Marco de las Naciones Unidas sobre el Cambio Climático, la Convención de las Naciones Unidas sobre el Derecho del Mar, el Convenio sobre la Diversidad Biológica y la Convención de las Naciones Unidas de Lucha contra la Desertificación, así como los tratados internacionales de derechos humanos y otros instrumentos regionales de derechos humanos pertinentes,</p>
+      </container>
+      <container name="Reafirmando" eId="container_4">
+        <p xml:space="preserve">		<span class="italic">Reafirmando</span> también que todos los derechos humanos son universales, indivisibles e interdependientes y están relacionados entre sí,</p>
+      </container>
+      <container name="Recordando" eId="container_5">
+        <p xml:space="preserve">		<span class="italic">Recordando</span> todas sus resoluciones y decisiones relativas a los derechos humanos y el medio ambiente, las más recientes de las cuales son las resoluciones 45/17, de 6 de octubre de 2020, 45/30, de 7 de octubre de 2020, 46/7, de 23 de marzo de 2021, 52/23, de 4 de abril de 2023, 54/10, de 11 de octubre de 2023, 55/2, de 3 de abril de 2024, y 57/28, de 11 de octubre de 2024, así como la decisión 56/117, de 11 de julio de 2024, y las resoluciones pertinentes de la Asamblea General,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_6">
+        <p xml:space="preserve">		<span class="italic">Acogiendo con beneplácito</span> la resolución 48/13 del Consejo de Derechos Humanos, de 8 de octubre de 2021, y la resolución 76/300 de la Asamblea General, de 28 de julio de 2022, que reconocen el derecho humano a un medio ambiente limpio, saludable y sostenible,</p>
+      </container>
+      <container name="Reconociendo" eId="container_7">
+        <p xml:space="preserve">		<span class="italic">Reconociendo</span> que el océano es una única masa de agua interconectada que une, sostiene y conecta ecosistemas, personas y comunidades, y que es esencial para su supervivencia y bienestar,</p>
+      </container>
+      <container name="Tomando nota" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Tomando nota</span> de la resolución 79/144 de la Asamblea General, de 12 de diciembre de 2024, en la que la Asamblea recordó que los Estados se habían comprometido a proteger y restablecer la salud, la productividad y la resiliencia del océano y los ecosistemas marinos, mantener su diversidad biológica, promover su conservación y el uso sostenible para las generaciones presentes y futuras, y aplicar efectivamente un enfoque ecosistémico y el criterio de precaución en la gestión, de conformidad con el derecho internacional, de las actividades que tengan efectos en el medio marino, para obtener resultados en las tres dimensiones del desarrollo sostenible,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Acogiendo con beneplácito</span> la resolución 78/272 de la Asamblea General, de 24 de abril de 2024, relativa al Acuerdo en el marco de la Convención de las Naciones Unidas sobre el Derecho del Mar relativo a la Conservación y el Uso Sostenible de la Diversidad Biológica Marina de las Zonas Situadas Fuera de la Jurisdicción Nacional,</p>
+      </container>
+      <container name="Afirmando" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Afirmando</span> que el respeto, la protección y la efectividad del derecho humano a un medio ambiente limpio, saludable y sostenible contribuyen a hacer frente a la degradación del océano, y reconociendo al mismo tiempo que mantener el océano saludable y limpio sirve a la protección de toda una serie de derechos humanos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> la importancia decisiva de disponer de sistemas eficaces de alerta temprana de riesgos y desastres ambientales para proteger las vidas y los medios de subsistencia de las poblaciones vulnerables y favorecer la resiliencia frente a los efectos del cambio climático, y tomando nota con aprecio de la iniciativa del Secretario General Alertas Tempranas para Todos, destinada a asegurar el acceso universal a los sistemas de alerta temprana para 2027,</p>
+      </container>
+      <container name="Reafirmando" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando</span> la resolución 5/14 aprobada por la Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente el 2 de marzo de 2022, en la que la Asamblea estableció un comité intergubernamental de negociación con el mandato de elaborar un instrumento internacional jurídicamente vinculante sobre la contaminación por plásticos, también en el medio marino,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Poniendo de relieve</span> la importancia de que los Estados adopten medidas decisivas para hacer frente a la contaminación por plásticos en todo el ciclo de vida de estos, también en el medio marino, y resaltando los efectos específicos y graves de la contaminación por plásticos, el cambio climático y la pérdida de biodiversidad en el océano, que ponen en peligro la efectividad de los derechos humanos, en particular el derecho humano a un medio ambiente limpio, saludable y sostenible, recalcando al mismo tiempo el carácter transfronterizo de la contaminación por plásticos y la necesidad de una mayor cooperación mundial para hacer frente eficazmente a esta crisis,</p>
+      </container>
+      <container name="Reafirmando" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> la resolución 70/1 de la Asamblea General, de 25 de septiembre de 2015, titulada “Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible”, en la que la Asamblea aprobó un amplio conjunto de Objetivos de Desarrollo Sostenible y metas universales y transformativos, de gran alcance y centrados en las personas, entre ellos el Objetivo 14, relativo a la conservación y el uso sostenible del océano, y el Objetivo 6, relativo al agua limpia y el saneamiento,</p>
+      </container>
+      <container name="Reconociendo" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> la orientación proporcionada por el Tribunal Internacional del Derecho del Mar en su opinión consultiva en respuesta a la solicitud de opinión consultiva presentada por la Comisión de Pequeños Estados Insulares sobre el Cambio Climático y el Derecho Internacional, emitida el 21 de mayo de 2024, sobre la obligación de los Estados de proteger el océano de los factores indirectos del cambio climático y de sus efectos,</p>
+      </container>
+      <container name="Reafirmando" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> la resolución 40/11 del Consejo de Derechos Humanos, de 21 de marzo de 2019, en la que el Consejo reconocía que los defensores de los derechos humanos hacían una contribución positiva, importante y legítima a la promoción y protección de los derechos humanos, incluido el derecho humano a un medio ambiente sin riesgos, limpio, saludable y sostenible, y expresaba su profunda preocupación porque los defensores de los derechos humanos que se ocupaban de cuestiones relativas al medio ambiente, conocidos como defensores de los derechos humanos relacionados con el medio ambiente, figuraban entre los que estaban más expuestos y corrían mayores riesgos,</p>
+      </container>
+      <container name="Haciendo notar" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Haciendo notar</span> instrumentos internacionales como la Convención sobre el Acceso a la Información, la Participación del Público en la Toma de Decisiones y el Acceso a la Justicia en Asuntos Ambientales de la Comisión Económica para Europa y el Acuerdo Regional sobre el Acceso a la Información, la Participación Pública y el Acceso a la Justicia en Asuntos Ambientales en América Latina y el Caribe, </p>
+      </container>
+      <container name="Recordando" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>las obligaciones y los compromisos contraídos por los Estados en virtud de los instrumentos y acuerdos multilaterales relativos al medio ambiente y los resultados de la Conferencia de las Naciones Unidas sobre el Desarrollo Sostenible, celebrada en Río de Janeiro (Brasil) en junio de 2012, y su documento final, titulado “El futuro que queremos”<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Resolución 66/288 de la Asamblea General, anexo.</p></authorialNote>, en el que se reafirmaron los principios de la Declaración de Río sobre el Medio Ambiente y el Desarrollo,</p>
+      </container>
+      <container name="Reconociendo" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> que la naturaleza mundial del cambio climático requiere la cooperación más amplia posible de todos los países y su participación en una respuesta internacional efectiva y equitativa, en consonancia con los principios esbozados en el artículo 3 de la Convención Marco de las Naciones Unidas sobre el Cambio Climático, y recordando el artículo 2, párrafo 2, del Acuerdo de París, que son esenciales para hacer frente al cambio climático y los problemas relacionados con el medio ambiente de manera justa y equitativa, de conformidad con las circunstancias nacionales,</p>
+      </container>
+      <container name="Observando con satisfacción" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Observando con satisfacción</span> que los Estados han reconocido que el océano, los mares y las zonas costeras constituyen un componente integrado y esencial del ecosistema terrestre y son fundamentales para garantizar su sostenibilidad, y que el derecho internacional, reflejado en la Convención de las Naciones Unidas sobre el Derecho del Mar y sus acuerdos de aplicación, constituye el marco jurídico de la conservación y el uso sostenible del océano y sus recursos, y que destacaron la importancia de la conservación y el uso sostenible del océano y los mares y sus recursos para el desarrollo sostenible, en particular debido a su contribución a la erradicación de la pobreza, el crecimiento económico sostenido, la seguridad alimentaria, la creación de medios de subsistencia sostenibles y trabajo decente, así como de la protección de la diversidad biológica y el medio marino y las medidas para hacer frente a los efectos del cambio climático,</p>
+      </container>
+      <container name="Reafirmando" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando</span> que proteger y preservar el océano es crucial para el pleno disfrute de los derechos humanos para todos, como también lo es entender la importancia del océano en cuestiones relacionadas con la lucha contra la contaminación, la mitigación del cambio climático, el fortalecimiento de la biodiversidad y los ecosistemas, y el logro de la sostenibilidad en materia de seguridad alimentaria y energía renovable,</p>
+      </container>
+      <container name="Reconociendo" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> las necesidades de las poblaciones más vulnerables ante los desastres naturales, como las que viven en los Estados costeros y en los pequeños Estados insulares en desarrollo, como se subrayó en la Cuarta Conferencia Internacional sobre los Pequeños Estados Insulares en Desarrollo, celebrada en Antigua y Barbuda del 27 al 30 de mayo de 2024, y la urgencia de adoptar un enfoque basado en los derechos humanos en la gobernanza oceánica para hacer frente al cambio climático,</p>
+      </container>
+      <container name="Reafirmando" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando</span> que la promoción del derecho humano a un medio ambiente limpio, saludable y sostenible requiere la plena aplicación de acuerdos multilaterales relativos al medio ambiente con arreglo a los principios del derecho ambiental internacional,</p>
+      </container>
+      <container name="Recordando" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> los resultados del sexto período de sesiones de la Asamblea de las Naciones Unidas sobre el Medio Ambiente, celebrado en Nairobi del 26 de febrero al 1 de marzo de 2024, y la necesidad de actuar de manera decisiva y urgente para mejorar la salud, la productividad, la utilización sostenible y la resiliencia del océano y sus ecosistemas, y afirmando la necesidad de mejorar la conservación y el uso sostenible del océano y sus recursos,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito</span> los resultados del 29º período de sesiones de la Conferencia de las Partes en la Convención Marco de las Naciones Unidas sobre el Cambio Climático y del 6º período de sesiones de la Conferencia de las Partes en calidad de reunión de las Partes en el Acuerdo de París, celebrados ambos en Bakú, del 11 al 22 de noviembre de 2024, el 16º período de sesiones de la Conferencia de las Partes en el Convenio sobre la Diversidad Biológica, celebrado en Cali (Colombia) del 21 de octubre al 1 de noviembre de 2024, y la continuación del período de sesiones que se celebró en Roma del 25 al 27 de febrero de 2025 y sus respectivas referencias al derecho humano a un medio ambiente limpio, saludable y sostenible,</p>
+      </container>
+      <container name="Recordando" eId="container_26">
+        <p xml:space="preserve">		<span class="italic">Recordando</span> todos los informes anteriores de la Relatoría Especial sobre el derecho humano a un medio ambiente limpio, saludable y sostenible<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">			<a href="https://docs.un.org/es/A/73/188">A/73/188</a>, <a href="https://docs.un.org/es/A/74/161">A/74/161</a>, <a href="https://docs.un.org/es/A/75/161">A/75/161</a>, <a href="https://docs.un.org/es/A/76/179">A/76/179</a>, <a href="https://docs.un.org/es/A/77/284">A/77/284</a>, <a href="https://docs.un.org/es/A/HRC/22/43">A/HRC/22/43</a> <a href="https://docs.un.org/es/A/HRC/25/53">A/HRC/25/53</a>, <a href="https://docs.un.org/es/A/HRC/28/61">A/HRC/28/61</a>, <a href="https://docs.un.org/es/A/HRC/31/52">A/HRC/31/52</a>, <a href="https://docs.un.org/es/A/HRC/31/53">A/HRC/31/53</a>, <a href="https://docs.un.org/es/A/HRC/34/49">A/HRC/34/49</a>, <a href="https://docs.un.org/es/A/HRC/37/58">A/HRC/37/58</a>, <a href="https://docs.un.org/es/A/HRC/37/59">A/HRC/37/59</a>, <a href="https://docs.un.org/es/A/HRC/40/55">A/HRC/40/55</a>, <a href="https://docs.un.org/es/A/HRC/43/53">A/HRC/43/53</a>, <a href="https://docs.un.org/es/A/HRC/43/54">A/HRC/43/54</a>, <a href="https://docs.un.org/es/A/HRC/46/28">A/HRC/46/28</a>, <a href="https://docs.un.org/es/A/HRC/49/53">A/HRC/49/53</a>, <a href="https://docs.un.org/es/A/HRC/52/33">A/HRC/52/33</a> y <a href="https://docs.un.org/es/A/HRC/52/44">A/HRC/52/44</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito</span> el último informe de la Relatoría Especial sobre el derecho humano a un medio ambiente limpio, saludable y sostenible<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	<a href="https://docs.un.org/es/A/HRC/58/59">A/HRC/58/59</a>.</p></authorialNote>, en el que la titular del mandato reconoce los vínculos entre el océano y los derechos humanos, la importancia del océano para regular el clima de la Tierra, favorecer la biodiversidad, mantener vivos los ecosistemas esenciales y velar por la seguridad alimentaria sostenible, y la necesidad de avanzar en medidas de gestión adaptativas, integradoras y basadas en la ciencia y en los ecosistemas para reducir la vulnerabilidad del océano a los daños causados por el cambio climático, la contaminación, la pérdida de biodiversidad y la degradación de las tierras,</p>
+      </container>
+      <container name="Reconociendo" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> que la degradación ambiental y la pérdida de biodiversidad son a menudo resultado de pautas de discriminación existentes y contribuyen a reforzarlas, y que los daños ambientales pueden tener consecuencias desastrosas y a veces geográficamente dispersas para la calidad de vida de los Pueblos Indígenas, los campesinos, las comunidades locales y otras personas que dependen directamente de los productos de los bosques, los ríos, los lagos, los humedales y el océano para su alimentación, combustible y medicinas, particularmente los que viven en países en desarrollo, Estados costeros, pequeños Estados insulares en desarrollo y países menos adelantados, lo que da lugar a una mayor desigualdad y marginación,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también</span> que, por otro lado, los efectos del cambio climático, la ordenación y el uso no sostenibles de los recursos naturales, la contaminación del aire, las tierras y el agua, la gestión irracional de las sustancias químicas y los desechos, la pérdida resultante de biodiversidad y la disminución de los servicios proporcionados por los ecosistemas pueden interferir en el disfrute de un medio ambiente sin riesgos, limpio, saludable y sostenible, y que los daños ambientales pueden tener repercusiones negativas, tanto directas como indirectas, en el disfrute efectivo de todos los derechos humanos,</p>
+      </container>
+      <container name="Reconociendo además" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Reconociendo además</span> que, si bien las repercusiones en los derechos humanos de los daños ocasionados al medio ambiente afectan a personas y comunidades de todo el mundo, las consecuencias se dejan sentir con más fuerza en los sectores de la población que ya se encuentran en situaciones de vulnerabilidad, como las personas que se enfrentan a la desertificación, la degradación de las tierras, la elevación del nivel del mar, la pérdida de biodiversidad y de recursos, la contaminación por plásticos, la acidificación y degradación del océano, la pérdida de ecosistemas oceánicos, y la sequía y la escasez de agua, así como las mujeres y las niñas,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_31">
+        <p xml:space="preserve">
+          <span class="italic">	Poniendo de relieve</span> la importancia de realizar evaluaciones exhaustivas del impacto en el medio ambiente y en los derechos humanos antes de autorizar y ejecutar actividades que puedan perjudicar al océano o a las zonas costeras, o a los titulares de derechos relacionados con ellos,</p>
+      </container>
+      <container name="Recordando" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> que todos los habitantes de la Tierra dependen directa o indirectamente del océano y de la criosfera, y que las comunidades que viven en estrecha relación con entornos polares, montañosos o costeros, particularmente en países en desarrollo, pequeños Estados insulares en desarrollo y países menos adelantados, están especialmente expuestas a los peligros actuales y futuros de los cambios en los océanos y en la criosfera, como la elevación del nivel del mar, el calentamiento de los océanos, la acidificación y la desoxigenación, la pérdida de masa del manto de hielo y de los glaciares y la degradación del permafrost,</p>
+      </container>
+      <container name="Reconociendo" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> los beneficios de tratar de mitigar y reducir al mínimo los efectos negativos de la contaminación y otras formas de degradación ambiental y la importancia de la gestión y eliminación ambientalmente racionales de las sustancias químicas y los desechos, también en situaciones de conflicto armado y en contextos posteriores a los conflictos, y expresando su profunda preocupación ante las amenazas que se ciernen sobre el disfrute efectivo de los derechos humanos, y en particular los de los niños, las mujeres y las niñas, los jóvenes, las personas con discapacidad, las personas de edad, los Pueblos Indígenas, los refugiados, las comunidades locales, los desplazados internos, los migrantes y las personas en situaciones de vulnerabilidad,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también</span> que la contaminación por plásticos plantea riesgos para el disfrute efectivo de los derechos humanos, incluidos los de las comunidades pesqueras costeras, las comunidades remotas e insulares y las poblaciones urbanas marginadas, empeorando la pobreza y amenazando los medios de subsistencia,</p>
+      </container>
+      <container name="Reconociendo" eId="container_35">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> que la presencia de contaminación por microplásticos socava las condiciones ambientales necesarias para una vida sostenible y obstaculiza el avance hacia la consecución de los Objetivos de Desarrollo Sostenible, en particular el Objetivo 14, relativo a la vida submarina, y el Objetivo 6, relativo al agua limpia y el saneamiento,</p>
+      </container>
+      <container name="Reconociendo" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> que el ejercicio de los derechos humanos, entre ellos la libertad de recabar, recibir y facilitar información, de participar de forma plena, igualitaria, significativa y segura en la dirección de los asuntos gubernamentales y públicos, y de acceder a la justicia, así como el derecho a un recurso efectivo, es fundamental para el respeto, la protección y la promoción del derecho a un medio ambiente limpio, saludable, y sostenible,</p>
+      </container>
+      <container name="Recordando" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> los Principios Rectores sobre las Empresas y los Derechos Humanos, que subrayan la responsabilidad de todas las empresas de respetar los derechos humanos, incluidos los derechos a la vida, la libertad y la seguridad de los defensores de los derechos humanos ambientales,</p>
+      </container>
+      <container name="Reconociendo" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> la responsabilidad que tienen las empresas de corregir y dar a conocer sus impactos climáticos de forma transparente, respetando al mismo tiempo las normas de derechos humanos, así como de evaluar y notificar las emisiones en todas sus operaciones y evaluar la sostenibilidad de sus actividades terrestres y marinas, además de ejercer la diligencia debida en materia de derechos humanos en las actividades empresariales, de conformidad con los Principios Rectores sobre las Empresas y los Derechos Humanos y con arreglo a la mejor ciencia y los mejores conocimientos científicos disponibles,</p>
+      </container>
+      <container name="Reconociendo" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> la contribución positiva, importante y legítima de los niños y los movimientos dirigidos por niños y jóvenes que defienden los derechos humanos relacionados con un medio ambiente limpio, saludable y sostenible, y acogiendo con beneplácito la labor de la Relatoría Especial sobre el derecho humano a un medio ambiente limpio, saludable y sostenible en lo que respecta a la participación de los niños y la celebración de consultas con ellos,</p>
+      </container>
+      <container name="Reafirmando" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> que los Estados tienen la obligación de respetar, proteger y promover los derechos humanos, entre otras cosas en todas las actividades destinadas a hacer frente a los problemas ambientales, y de adoptar medidas para proteger los derechos de todas las personas reconocidos en diversos instrumentos internacionales y recogidos en los principios marco sobre los derechos humanos y el medio ambiente, y que se deberían adoptar medidas adicionales con respecto a las personas particularmente vulnerables a los daños ambientales<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">			<a href="https://docs.un.org/es/A/HRC/37/59">A/HRC/37/59</a>, anexo.</p></authorialNote>,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la labor realizada por la Relatoría Especial sobre el derecho humano a un medio ambiente limpio, saludable y sostenible, en particular en el desempeño del mandato, las consultas amplias, transparentes e inclusivas celebradas con los actores pertinentes y los informes temáticos de la titular del mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito también</span> la labor de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos en materia de derechos humanos y medio ambiente, incluida su colaboración con el Secretario General, el Programa de las Naciones Unidas para el Medio Ambiente y otros asociados clave, así como su compromiso con los acuerdos multilaterales sobre el medio ambiente, como la Convención Marco de las Naciones Unidas sobre el Cambio Climático, la Convención de las Naciones Unidas de Lucha contra la Desertificación y el Convenio sobre la Diversidad Biológica;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito además</span> el trabajo realizado por el Programa de las Naciones Unidas para el Medio Ambiente, el Programa de las Naciones Unidas para el Desarrollo, el Fondo Internacional de Emergencia de las Naciones Unidas para la Infancia y la Entidad de las Naciones Unidas para la Igualdad de Género y el Empoderamiento de las Mujeres en apoyo del mandato de la Relatoría Especial y para contribuir a aclarar la relación entre los derechos humanos y el medio ambiente;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los Estados a que participen de manera constructiva en la Conferencia de las Naciones Unidas sobre el Océano, que se celebrará en Niza (Francia) en junio de 2025, y a que tengan en cuenta el derecho humano a un medio ambiente limpio, saludable y sostenible en los procedimientos y resultados de esta;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtG">
+        <num>5.</num>
+        <list eId="para_51_list">
+          <intro eId="para_51_list_intro">
+            <p xml:space="preserve">	<span class="italic">Exhorta</span> a los Estados a que:</p>
+          </intro>
+          <point eId="para_51_list_point_a">
+            <num>a)</num>
+            <content eId="para_51_list_point_a_content">
+              <p xml:space="preserve">	Respeten, protejan y hagan efectivos los derechos humanos, también en todas las medidas adoptadas para hacer frente a los problemas ambientales, como el cambio climático, la pérdida de biodiversidad marina, la contaminación y la degradación de las tierras;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_b">
+            <num>b)</num>
+            <content eId="para_51_list_point_b_content">
+              <p xml:space="preserve">	Aprueben y apliquen leyes sólidas que garanticen, entre otras cosas, los derechos a la participación, al acceso a la información y a la justicia, incluido el derecho a un recurso efectivo, en asuntos ambientales;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_c">
+            <num>c)</num>
+            <content eId="para_51_list_point_c_content">
+              <p xml:space="preserve">	Faciliten la concienciación pública y la participación de la sociedad civil, las mujeres, los niños, los jóvenes, los Pueblos Indígenas, los campesinos, las comunidades locales, los pescadores a pequeña escala y las comunidades costeras, las personas de edad, las personas con discapacidad, los migrantes y otras personas que dependen directamente de la biodiversidad y de los servicios proporcionados por los ecosistemas en el proceso de toma de decisiones relativas al medio ambiente, también en los procesos normativos, protegiendo todos los derechos humanos, incluidos los derechos a la libertad de expresión y a la libertad de reunión y de asociación pacíficas;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_d">
+            <num>d)</num>
+            <content eId="para_51_list_point_d_content">
+              <p xml:space="preserve">	Cumplan plenamente sus obligaciones de respetar, proteger y hacer efectivos los derechos humanos sin discriminación alguna, también en la aplicación de las leyes y políticas ambientales;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_e">
+            <num>e)</num>
+            <content eId="para_51_list_point_e_content">
+              <p xml:space="preserve">	Promuevan un entorno seguro y propicio en el que las personas, las organizaciones de la sociedad civil, incluidos los defensores de los derechos humanos ambientales, y quienes trabajan en la esfera de los derechos humanos y en cuestiones ambientales y marinas puedan desempeñar su labor sin amenazas, trabas o inseguridad;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_f">
+            <num>f)</num>
+            <content eId="para_51_list_point_f_content">
+              <p xml:space="preserve">	Proporcionen recursos efectivos contra los abusos y violaciones de los derechos humanos, incluidos los relacionados con el disfrute del derecho humano a un medio ambiente limpio, saludable y sostenible, de conformidad con sus obligaciones internacionales;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_g">
+            <num>g)</num>
+            <content eId="para_51_list_point_g_content">
+              <p xml:space="preserve">	Establezcan, mantengan y refuercen marcos jurídicos e institucionales eficaces para regular las actividades de los agentes públicos y privados a fin de prevenir, reducir y remediar los daños a la biodiversidad y los ecosistemas, teniendo en cuenta las obligaciones y compromisos de derechos humanos relativos al disfrute de un medio ambiente limpio, saludable y sostenible;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_h">
+            <num>h)</num>
+            <content eId="para_51_list_point_h_content">
+              <p xml:space="preserve">	Apliquen, en todas sus actividades, el principio de precaución o el criterio de precaución, según proceda, para la protección eficaz de los ecosistemas marinos y costeros;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_i">
+            <num>i)</num>
+            <content eId="para_51_list_point_i_content">
+              <p xml:space="preserve">	Tengan en cuenta las obligaciones y los compromisos de derechos humanos relacionados con disfrute de medio ambiente limpio, saludable y sostenible en la aplicación y el seguimiento de los Objetivos de Desarrollo Sostenible, en particular el Objetivo 14, relativo a la vida submarina, y el Objetivo 6, relativo al agua limpia y el saneamiento, tomando en consideración su carácter integrado y multisectorial;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_j">
+            <num>j)</num>
+            <content eId="para_51_list_point_j_content">
+              <p xml:space="preserve">	Respeten y promuevan los conocimientos de los Pueblos Indígenas, de conformidad con el consentimiento libre, previo e informado de estos, así como los conocimientos tradicionales de las comunidades locales y los sistemas de conocimientos locales en la gobernanza oceánica;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_k">
+            <num>k)</num>
+            <content eId="para_51_list_point_k_content">
+              <p xml:space="preserve">	Aumenten la financiación y el apoyo a las organizaciones comunitarias de mujeres que se dedican a cuestiones relacionadas con el medio ambiente y los derechos humanos, así como la colaboración con ellas, y a la aplicación de planes de acción sobre género previstos en los acuerdos multilaterales sobre el medio ambiente;</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_l">
+            <num>l)</num>
+            <content eId="para_51_list_point_l_content">
+              <p xml:space="preserve">	Movilicen y asignen una financiación adecuada, previsible y sostenible para iniciativas de asistencia técnica y fomento de la capacidad a fin de favorecer el desarrollo legal y normativo, el fortalecimiento institucional, el intercambio de conocimientos y la cooperación entre múltiples interesados para aplicar de manera efectiva el derecho a un medio ambiente limpio, saludable y sostenible;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxtG">
+        <num>6.</num>
+        <list eId="para_56_list">
+          <intro eId="para_56_list_intro">
+            <p xml:space="preserve">	<span class="italic">Alienta</span> a los Estados a que:</p>
+          </intro>
+          <point eId="para_56_list_point_a">
+            <num>a)</num>
+            <content eId="para_56_list_point_a_content">
+              <p xml:space="preserve">	Adopten políticas nacionales y locales basadas en los ecosistemas, integradas, intersectoriales y holísticas y un marco jurídico eficaz que reconozca la necesidad de proteger y restaurar el océano para el disfrute del derecho humano a un medio ambiente limpio, saludable y sostenible;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_b">
+            <num>b)</num>
+            <content eId="para_56_list_point_b_content">
+              <p xml:space="preserve">	Aborden el cumplimiento de las obligaciones de derechos humanos relacionadas con el disfrute del derecho humano a un medio ambiente limpio, saludable y sostenible en el marco de los mecanismos de derechos humanos, como el examen periódico universal, y la presentación de informes de los Estados partes a los órganos competentes de las Naciones Unidas creados en virtud de tratados de derechos humanos;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_c">
+            <num>c)</num>
+            <content eId="para_56_list_point_c_content">
+              <p xml:space="preserve">	Creen capacidades para las actividades de protección del medio ambiente a fin de cumplir sus obligaciones y compromisos en materia de derechos humanos, e intensifiquen la cooperación con otros Estados, la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, el resto del sistema de las Naciones Unidas y otras organizaciones internacionales y regionales, organismos, programas y secretarías de convenios y convenciones y partes interesadas no estatales pertinentes, incluidas la sociedad civil, las instituciones nacionales de derechos humanos y las empresas, para seguir desarrollando y haciendo efectivo el derecho humano a un medio ambiente limpio, saludable y sostenible, de conformidad con sus respectivos mandatos;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_d">
+            <num>d)</num>
+            <content eId="para_56_list_point_d_content">
+              <p xml:space="preserve">	Cooperen en la formulación y el desarrollo de reglas, normas, prácticas recomendadas y procedimientos basados en los derechos humanos y en los mejores conocimientos científicos disponibles, para luchar contra la contaminación marina, integrando los conocimientos tradicionales de los Pueblos Indígenas, los pescadores artesanales y las comunidades locales;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_e">
+            <num>e)</num>
+            <content eId="para_56_list_point_e_content">
+              <p xml:space="preserve">	Cooperen con otros Estados para avanzar en la protección, conservación y recuperación del océano y las zonas costeras, entre otras cosas, mediante la aplicación del derecho internacional y la incorporación de las obligaciones, normas y directrices del derecho internacional de los derechos humanos para la gestión del océano;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_f">
+            <num>f)</num>
+            <content eId="para_56_list_point_f_content">
+              <p xml:space="preserve">	Exploren formas de incorporar información relativa a los derechos humanos y el medio ambiente, incluido el medio marino, en los planes de estudios, a fin de enseñar a las generaciones actuales y futuras a actuar como agentes de cambio, teniendo en cuenta también los conocimientos tradicionales de los Pueblos Indígenas;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_g">
+            <num>g)</num>
+            <content eId="para_56_list_point_g_content">
+              <p xml:space="preserve">	Procuren que los proyectos respaldados por mecanismos de financiación ambiental respeten todos los derechos humanos;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_h">
+            <num>h)</num>
+            <content eId="para_56_list_point_h_content">
+              <p xml:space="preserve">	Recopilen datos desglosados sobre los efectos de los daños ambientales, incluida la pérdida de biodiversidad y el declive de los servicios proporcionados por los ecosistemas, en las personas en situaciones de vulnerabilidad;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_i">
+            <num>i)</num>
+            <content eId="para_56_list_point_i_content">
+              <p xml:space="preserve">	Promuevan y aceleren la adopción de medidas ambientales basadas en los derechos humanos que respondan a las cuestiones de género e incluyan la igualdad de género y el empoderamiento de las mujeres y las niñas y que tomen en consideración la vulnerabilidad de los ecosistemas y las necesidades de las personas y las comunidades en situaciones de vulnerabilidad;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_j">
+            <num>j)</num>
+            <content eId="para_56_list_point_j_content">
+              <p xml:space="preserve">	Sigan compartiendo buenas prácticas en el cumplimiento de las obligaciones de derechos humanos relacionadas con el derecho humano a un medio ambiente limpio, saludable y sostenible a través de la base de datos de buenas prácticas que mantiene la Relatoría Especial;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_k">
+            <num>k)</num>
+            <content eId="para_56_list_point_k_content">
+              <p xml:space="preserve">	Faciliten el intercambio de conocimientos e ideas entre expertos, creando sinergias entre la protección de los derechos humanos y la protección del medio ambiente, y promuevan la coherencia entre los distintos ámbitos de políticas, teniendo en cuenta un enfoque integrado y multisectorial y considerando que en las actividades encaminadas a proteger el medio ambiente se han de respetar plenamente otras obligaciones en materia de derechos humanos, incluidas las relacionadas con la igualdad de género;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_l">
+            <num>l)</num>
+            <content eId="para_56_list_point_l_content">
+              <p xml:space="preserve">	Redoblen sus esfuerzos para proteger la biodiversidad, entre otras cosas mediante la actualización y aplicación de sus estrategias y planes de acción nacionales en materia de biodiversidad, contribuyendo así a la efectividad del Marco Mundial Kunming‑Montreal de la Diversidad Biológica en virtud del Convenio sobre la Diversidad Biológica;  </p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_m">
+            <num>m)</num>
+            <content eId="para_56_list_point_m_content">
+              <p xml:space="preserve">	Fomenten la capacidad del sector judicial para que entienda la relación entre los derechos humanos y el medio ambiente;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_n">
+            <num>n)</num>
+            <content eId="para_56_list_point_n_content">
+              <p xml:space="preserve">	Fomenten un sector empresarial privado responsable y alienten la elaboración de informes de sostenibilidad empresarial respetando los Principios Rectores sobre las Empresas y los Derechos Humanos y las normas ambientales, de conformidad con los acuerdos internacionales pertinentes;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_o">
+            <num>o)</num>
+            <content eId="para_56_list_point_o_content">
+              <p xml:space="preserve">	Ratifiquen el Acuerdo en el marco de la Convención de las Naciones Unidas sobre el Derecho del Mar relativo a la Conservación y el Uso Sostenible de la Diversidad Biológica Marina de las Zonas Situadas Fuera de la Jurisdicción Nacional;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> el importante papel que desempeñan las personas y las organizaciones de la sociedad civil, incluidos los defensores de los derechos humanos y los defensores de los derechos humanos ambientales, en la promoción y protección de los derechos humanos en lo que se refiere al disfrute del derecho humano a un medio ambiente limpio, saludable y sostenible, incluida la biodiversidad y los ecosistemas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce también</span> el importante papel de las instituciones nacionales de derechos humanos para apoyar y promover el disfrute del derecho humano a un medio ambiente limpio, saludable y sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los organismos, fondos y programas pertinentes de las Naciones Unidas, a otras organizaciones internacionales, a los órganos creados en virtud de tratados, al mundo académico y a las organizaciones de la sociedad civil a que promuevan la aplicación del derecho humano a un medio ambiente limpio, saludable y sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="italic">Destaca</span> la necesidad de estrechar la cooperación entre los Estados, el Programa de las Naciones Unidas para el Medio Ambiente, el Programa de las Naciones Unidas para el Desarrollo, la Organización de las Naciones Unidas para la Alimentación y la Agricultura, la Oficina del Alto Comisionado, la Organización Mundial de la Salud, la Organización Internacional para las Migraciones, la Organización Internacional del Trabajo y otras organizaciones, organismos, convenciones, convenios y programas internacionales y regionales pertinentes, de conformidad con sus respectivos mandatos, en particular mediante el intercambio periódico de conocimientos e ideas y la creación de sinergias para el respeto, la promoción y la protección del derecho humano a un medio ambiente limpio, saludable y sostenible, teniendo en cuenta un enfoque integrado y multisectorial;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a todos los Estados a que conserven, protejan y restauren los ecosistemas saludables y la biodiversidad y garanticen su gestión y uso sostenibles aplicando un enfoque basado en los derechos humanos que haga hincapié en la participación, la inclusión, la transparencia y la rendición de cuentas en la gestión de los recursos naturales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> seguir ocupándose de la cuestión, de conformidad con su programa de trabajo anual.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="57ª" refersTo="#adoptionMeeting">57ª sesión</location>
+          <eol />
+          <docDate date="2025-04-03" refersTo="#adoptionDate">3 de abril de 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Aprobada sin votación.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
