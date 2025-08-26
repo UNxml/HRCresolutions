@@ -1,0 +1,332 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/ara@/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANDMINES" href="http://metadata.un.org/thesaurus/1003608" showAs="LANDMINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINE CLEARANCE" href="http://metadata.un.org/thesaurus/1004158" showAs="MINE CLEARANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WAR VICTIMS" href="http://metadata.un.org/thesaurus/1006926" showAs="WAR VICTIMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC, SOCIAL AND CULTURAL RIGHTS" href="http://metadata.un.org/thesaurus/1001882" showAs="ECONOMIC, SOCIAL AND CULTURAL RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-24" outcome="draftResolution" as="A/HRC/58/L.21" by="Albania, Algeria, Azerbaijan, Colombia, Croatia, Cyprus, France, Guatemala, Luxembourg, Malawi, Monaco, Montenegro, Mozambique, Peru, Portugal, Samoa, South Africa, Spain, United Kingdom of Great Britain and Northern Ireland and Vanuatu" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-04" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-04" outcome="adopted" as="Adopted without vote, 58th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/22</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-04" class="rightSmall" refersTo="#dateOfIssuance">4 April 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">الدورة الثامنة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 شباط</date>
+          <date date="2025-04-04" refersTo="#endDate">4 نيسان 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 4 نيسان/أبريل 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/22</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	أثر الألغام المضادة للأفراد على التمتع الكامل بجميع حقوق الإنسان</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه وبالإعلان العالمي لحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير </span>إلى العهد الدولي الخاص بالحقوق المدنية والسياسية، والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، وإلى غيرهما من صكوك القانون الدولي لحقوق الإنسان ذات الصلة بما فيها اتفاقية القضاء على جميع أشكال التمييز ضد المرأة، واتفاقية حقوق الطفل، واتفاقية حقوق الأشخاص ذوي الإعاقة، وكذلك إعلان وبرنامج عمل فيينا،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> أن لكل فرد الحق في الحياة والحرية والأمان على شخصه، وأن من حقه التمتع بنظام اجتماعي ودولي يتيح الإعمال الكامل للحقوق والحريات المنصوص عليها في الإعلان العالمي لحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير </span>إلى اتفاقيات جنيف المؤرخة 12 آب/أغسطس 1949 والبروتوكولين الإضافيين الملحقين بها والمؤرخين 8 حزيران/يونيه 1977، وغيرها من صكوك القانون الدولي الإنساني ذات الصلة، بما في ذلك اتفاقية حظر الألغام المضادة للأفراد والاتفاقية المتعلقة بأسلحة تقليدية معينة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_6" class="SingleTxtGA">
+        <content eId="para_6__content">
+          <p xml:space="preserve">
+            <span class="italic">	وإذ يُسلِّم</span> بأن السلام والأمن والتنمية وحقوق الإنسان هي دعائم منظومة الأمم المتحدة والأسس التي يقوم عليها الأمن والرفاه الجماعيين، وإذ يعترف بأن السلام والأمن والتنمية وحقوق الإنسان هي أمور مترابطة يعزز بعضها بعضاً،</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="وإذ يشدد على" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشدد على</span> أن جميع حقوق الإنسان عالمية وغير قابلة للتجزئة ومترابطة ومتشابكة،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بأن القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني متكاملان ويعزز كل منهما الآخر، وإذ يؤكد من جديد أنه ينبغي بذل جميع الجهود، وفقاً للقانون الدولي، لإنهاء انتهاكات وتجاوزات حقوق الإنسان وضمان وقف جميع انتهاكات القانون الدولي الإنساني، وضمان الاحترام الكامل لهذه الأطر القانونية الدولية، حسب انطباقها،</p>
+      </container>
+      <container name="وإذ يكرر التأكيد" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يكرر التأكيد</span> على أنه ينبغي اتخاذ تدابير فعالة لضمان ورصد إعمال حقوق الإنسان فيما يتعلق بالمدنيين والسكان المدنيين في سياقات النزاع المسلح، بما في ذلك حالات الاحتلال الأجنبي، وكذلك في حالات ما بعد النزاع، وأنه ينبغي توفير الحماية الفعالة من انتهاكات حقوق الإنسان، وفقاً للقانون الدولي لحقوق الإنسان والقانون الدولي الإنساني، حسب انطباقهما،</p>
+      </container>
+      <container name="وإذ يضع في اعتباره" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يضع في اعتباره</span> خطة التنمية المستدامة لعام 2030، لا سيما الهدف 16 من أهداف التنمية المستدامة الذي يشجّع على إقامة مجتمعات مسالمة لا يُهمَّش فيها أحد، وإذ يسلّم بأن تعزيز حقوق الإنسان وحمايتها وتنفيذ خطة عام 2030 مترابطان ويعزز كل منهما الآخر،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً</span> باعتماد الجمعية العامة لميثاق المستقبل<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/79/1">79/1</a>.</p></authorialNote><sup>)</sup> الذي التزم فيه رؤساء الدول والحكومات بمضاعفة الجهود التي يبذلونها لتنفيذ التزاماتهم بموجب الصكوك الدولية ذات الصلة لحظر الأسلحة التقليدية أو تقييدها بسبب تأثيرها الإنساني، واتخاذ خطوات لتعزيز جميع الجوانب ذات الصلة من الإجراءات المتعلقة بالألغام،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعرب عن قلقه</span> من أن الألغام المضادة للأفراد، بما في ذلك مخلفات النزاع، لا تزال تشكل تهديداً خطيراً للتمتع الكامل بجميع حقوق الإنسان، بما فيها الحق في الحياة، وحرية التنقل، والصحة، والتعليم، والعمل والغذاء الكافي، وكذلك الحق في التنمية، وتؤثر على المدنيين والسكان المدنيين والأفراد المشاركين في جهود المساعدة الإنسانية وعمليات حفظ السلام، وتعرقل برامج إعادة التأهيل والتعمير، وتعيق وصول المساعدة الإنسانية وتحول دون العودة الطوعية والآمنة للاجئين والنازحين داخلياً،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ</span> أهمية جمع البيانات واستخدامها وتحليلها، بما في ذلك المعلومات المتعلقة بتسجيل الإصابات التي يُسترشد بها في تحديد أولويات أنشطة الإجراءات المتعلقة بالألغام، مثل التوعية بالمخاطر وإزالة الألغام ومساعدة الضحايا، مما يسهم إسهاماً إيجابياً في تعزيز وحماية جميع حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> العزم على إنهاء المعاناة والإصابات التي تسببها الألغام المضادة للأفراد، التي تقتل أو تشوه آلاف الأشخاص كل عام وتعيق التنمية المستدامة، وتسبب ضرراً للنظم الإيكولوجية، بما في ذلك فقدان التنوع البيولوجي وتدهور التربة وتلوث المياه، مع ما يترتب على ذلك من أثر سلبي على تحقيق بيئة نظيفة وصحية ومستدامة،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يساوره بالغ القلق</span> إزاء الأثر الإنساني المترتب على الإرث المرهق للألغام المضادة للأفراد، وإذ يعرب عن قلقه إزاء تزايد عدد الإصابات المرتبطة بها في مناطق مختلفة من العالم، </p>
+      </container>
+      <container name="وإذ يلاحظ مع بالغ القلق" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ مع بالغ القلق</span> أن الألغام المضادة للأفراد، بما في ذلك الألغام التي بطبيعتها يدوية الصنع، لا تزال تستخدم في العديد من النزاعات في شتى أنحاء العالم، بما في ذلك من قبل الإرهابيين والجماعات المسلحة من غير الدول، مما يتسبب في معاناة إنسانية ويعيق التنمية بعد انتهاء النزاع،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه بوجه خاص" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعرب عن قلقه بوجه خاص</span> إزاء الأثر العشوائي وغير المتناسب للألغام المضادة للأفراد، وإذ يؤكد أن الأطراف المتعاقدة السامية في اتفاقيات جنيف لعام 1949 تعهدت بأن تحترم هذه الاتفاقيات وتضمن احترامها في جميع الظروف، وتعتبر أن جميع حقوق الإنسان تتطلب الحماية على قدم المساواة وأن الحماية التي يوفرها قانون حقوق الإنسان تستمر في حالات النزاع المسلح، مع مراعاة تطبيق القانون الدولي الإنساني،</p>
+      </container>
+      <container name="وإذ يعترف" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعترف</span> بالأثر الشديد للألغام المضادة للأفراد على التمتع بالحقوق المدنية والسياسية والاقتصادية والاجتماعية والثقافية للأفراد، ولا سيما منهم الناجون من انفجارات الألغام المضادة للأفراد، وخاصة في البلدان النامية، الذين غالباً ما يواجهون عوائق كبيرة في الحصول على الرعاية الطبية الأساسية وخدمات إعادة التأهيل والمعالجة البيئية وفرص إعادة الإدماج الاجتماعي والاقتصادي، وكذلك بالنسبة للمجتمعات المحلية المتضررة، حيث يمنع التلوث بالألغام الأرضية استخدام مساحات واسعة من الأراضي، مما يضر بالإنتاج الزراعي والأمن الغذائي ويدمر سبل العيش،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشدد </span>على أن النساء والفتيات يعانين من أثر متباين بصفتهن ضحايا مباشرين وضحايا غير مباشرين للألغام المضادة للأفراد بسبب أشكال متعددة ومتفاقمة من التمييز، وإذ يساوره القلق من أنه بسبب القوالب النمطية الجنسانية والمعايير الاجتماعية السلبية، يُتوقع منهن في كثير من الأحيان أن يضطلعن بدور تقديم الرعاية للناجين وتوفير الدعم المالي لأسرهن، ولا سيما عندما يصاب المعيل الرئيسي أو يقتل، مما يؤدي إلى تفاقم أوجه عدم المساواة الهيكلية القائمة،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يقر</span> بالإصابات البدنية العميقة، بما في ذلك الإعاقات الناتجة عنها، والصدمات النفسية التي يعاني منها الناجون من انفجارات الألغام، وإذ يعترف بالحاجة إلى تقديم المساعدة الشاملة للضحايا وتعزيز إدماجهم الكامل والمتساوي في المجتمع، مع مراعاة تباين أوجه ضعف الضحايا والناجين واحتياجاتهم،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد </span>على أن حقوق واحتياجات الناجين وأسرهم ومجتمعاتهم المحلية ينبغي أن تشكل صُلب الجهود الرامية إلى توفير الدعم الشامل والمركّز على الضحايا،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يرحب</span> بالجهود التي تبذلها الدول والمنظمات الدولية والمجتمع المدني والجهات الأخرى ذات المصلحة من أجل التصدي للعواقب الإنسانية للألغام المضادة للأفراد، بما في ذلك من خلال تنفيذ اتفاقية حظر الألغام المضادة للأفراد والاتفاقية المتعلقة بأسلحة تقليدية معينة والاتفاقات الدولية الأخرى، حسب انطباقها،</p>
+      </container>
+      <container name="وإذ يعترف" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعترف</span> بالطابع الإنساني للإجراءات المتعلقة بالألغام والتحديات المالية والتقنية واللوجستية الكبيرة، التي قد تواجهها، في جملة أمور، دول كثيرة، ولا سيما الدول ذات الموارد المحدودة، في تنفيذ برامج شاملة للإجراءات المتعلقة بالألغام، بما في ذلك إزالة الألغام ومساعدة الضحايا والتوعية بالمخاطر،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشدد </span>على أهمية التعاون الدولي وتبادل المعارف والمعلومات والموارد وأفضل الممارسات ذات الصلة في مجال الإجراءات المتعلقة بالألغام، بما في ذلك إزالة الألغام، والتوعية بمخاطرها، ومساعدة الضحايا، والدعوة إلى الانضمام العالمي إلى الصكوك القانونية الدولية السارية المتعلقة بالألغام المضادة للأفراد وإلى تنفيذها،</p>
+      </container>
+      <container name="وإذ يعترف" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يعترف</span> بالحاجة إلى إدماج مساعدة الناجين وأسرهم ومجتمعاتهم المحلية في السياسات والخطط والأطر القانونية الوطنية الأوسع نطاقاً والمتعلقة بالصحة والإعاقة والحماية الاجتماعية والتعليم والتشغيل والتنمية،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يقر</span> بأهمية المنظورات الجنسانية الملائمة للعمر والشاملة للإعاقة وأهمية الإشراك الكامل وتكافؤ الفرص في مشاركة كل من النساء والرجال، بمن فيهم الأشخاص ذوو الإعاقة والشباب وكبار السن والمنظمات التي تمثلهم، في برامج الإجراءات المتعلقة بالألغام،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ</span> الجهود الوطنية والإقليمية ودون الإقليمية، بما في ذلك عمل مركـز رابطة أمم جنوب شرق آسيا الإقليمي لمكافحة الألغام والأعمال التي يقوم بها الاتحاد الأفريقي حالياً لوضع إطار استراتيجي جديد للإجراءات المتعلقة بالألغام، وكذلك الاستراتيجيات الإقليمية الأخرى ذات الصلة بالإجراءات المتعلقة بالألغام،</p>
+      </container>
+      <container name="وإذ يلاحظ أيضاً" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يلاحظ أيضاً</span>، بالإضافة إلى الدور الرئيسي للدول الأعضاء، جهود مفوضية الأمم المتحدة السامية لحقوق الإنسان في عمل الفريق المشترك بين الوكالات المعني بتنسيق الإجراءات المتعلقة بالألغام، من أجل ضمان الاسترشاد بحقوق الإنسان في الإجراءات المتعلقة بالألغام عبر منظومة الأمم المتحدة، واستراتيجية الأمم المتحدة لإدماج منظور الإعاقة التي أعلن عنها الأمين العام في 11 حزيران/يونيه 2019،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> رؤية الأمم المتحدة لعالم خالٍ من خطر الألغام المضادة للأفراد والذخائر المتفجرة، حيث يعيش الأفراد والمجتمعات المحلية في بيئة آمنة مواتية للتنمية ويندمج الناجون من الألغام اندماجاً كاملاً في مجتمعاتهم،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير </span>إلى اليوم الدولي للتوعية بخطر الألغام والمساعدة في الإجراءات المتعلقة بالألغام، الذي يُحتفل به كل عام في 4 نيسان/أبريل، والذي يعد فرصة للتوعية بخطر الألغام المضادة للأفراد وأثرها على حقوق الإنسان،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_31" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">يحث</span> جميع الدول على تقوية وتعزيز تعهدها بالتزاماتها بموجب القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني، ويحث الدول الأطراف في المعاهدات الدولية ذات الصلة، بما فيها اتفاقية حظر الألغام المضادة للأفراد والاتفاقية المتعلقة بأسلحة تقليدية معينة، على تنفيذ التزاماتها بالكامل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> جميع الدول، وغيرها من أصحاب المصلحة ذوي الصلة، حسب الاقتضاء، إلى التعاون بفعالية للتصدي لأثر الألغام المضادة للأفراد على حماية وتعزيز جميع حقوق الإنسان بوسائل منها تسريع جهود إزالة الألغام وضمان مساعدة الضحايا مساعدة جامعة وغير تمييزية وشاملة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول على بذل جهود منسقة ومتعددة القطاعات لضمان المعالجة الفعالة لاحتياجات الناجين من انفجارات الألغام المضادة للأفراد، ولا سيما الأطفال وأسرهم ومجتمعاتهم المحلية، وتعزيز حقوق الإنسان الواجبة لهم وحمايتها من خلال السياسات الوطنية والأطر القانونية المتعلقة بالإعاقة والصحة، بما في ذلك الصحة العقلية والدعم النفسي الاجتماعي، والتعليم، والتشغيل، والتنمية، والحد من الفقر، ولا سيما عن طريق الأحكام المنطبقة من اتفاقية حقوق الأشخاص ذوي الإعاقة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> الدول والمنظمات الدولية والمجتمع المدني وأصحاب المصلحة الآخرين على التعاون الوثيق في تبادل المعارف والمعلومات ذات الصلة والموارد وأفضل الممارسات في مجال إزالة الألغام ودعم الضحايا، مع التركيز على ضمان حصول الناجين على ما يلزم من رعاية طبية وخدماتٍ لإعادة التأهيل وفرصٍ لإعادة الإدماج الاجتماعي وإدماجهم الكامل والمتساوي في المجتمع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد</span> على أهمية التثقيف والتوعية بمخاطر الألغام المضادة للأفراد، ولا سيما في المناطق المتضررة من الألغام، ويدعو إلى إدماج التوعية بمخاطر الألغام في برامج التثقيف والتوعية المجتمعية الأوسع نطاقاً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> جميع الدول إلى تعزيز جهودها الرامية إلى إنهاء المعاناة والإصابات التي تسببها الألغام المضادة للأفراد، بما في ذلك النظر بجدية في الانضمام إلى اتفاقية حظر الألغام المضادة للأفراد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى مفوض الأمم المتحدة السامي لحقوق الإنسان أن يعد تقريراً، بالتشاور مع الدول والمنظمات الدولية والمجتمع المدني والجهات الأخرى ذات الصلة من ذوي المصلحة لضمان إجراء تحليل شامل وجامع، بشأن أثر الألغام المضادة للأفراد على التمتع بجميع حقوق الإنسان، مع التركيز بصفة خاصة على الحقوق الاقتصادية والاجتماعية والثقافية، وأن يقدم التقرير إلى مجلس حقوق الإنسان في دورته الثانية والستين، على أن يعقبه حوار تفاعلي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يبقي المسألة قيد نظره.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="58" refersTo="#adoptionMeeting">الجلسة 58</location>
+          <eol />
+          <docDate date="2025-04-04" refersTo="#adoptionDate">4 نيسان/أبريل 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد من دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
