@@ -1,0 +1,216 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-14/"></FRBRuri>
+          <FRBRdate date="2025-04-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-14/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-14/fra@/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-14/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-14/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Promotion and Protection of Human Rights and Fundamental Freedoms while Countering Terrorism" showAs="UN. Human Rights Council. Special Rapporteur on the Promotion and Protection of Human Rights and Fundamental Freedoms while Countering Terrorism" dictionary="DHLAUTH"></keyword>
+        <keyword value="COUNTER-TERRORISM" href="http://metadata.un.org/thesaurus/1001346" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-25" outcome="draftResolution" as="A/HRC/58/L.29" by="Albania, Armenia, Austria, Belgium, Chile, Costa Rica, Croatia, Cyprus, Czechia, Ecuador, Estonia, Finland, Georgia, Germany, Greece, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Mexico, Monaco, Montenegro, Netherlands (Kingdom of the), North Macedonia, Norway, Paraguay, Peru, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Switzerland, Ukraine and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-04" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-04" outcome="adopted" as="Adopted without vote, 56th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-04" class="rightSmall" refersTo="#dateOfIssuance">4 avril 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">Cinquante-huitième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 février</date>
+          <date date="2025-04-04" refersTo="#endDate">4 avril 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme,  civils, politiques, économiques, sociaux et culturels,  y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme le 3 avril 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/14.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Mandat de Rapporteur spécial sur la promotion et la protection des droits de l’homme et des libertés fondamentales  dans la lutte antiterroriste</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme,</span>
+        </p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guidé </span>par les buts et principes énoncés dans la Charte des Nations Unies, la Déclaration universelle des droits de l’homme, le Pacte international relatif aux droits économiques, sociaux et culturels, le Pacte international relatif aux droits civils et politiques et d’autres instruments internationaux pertinents relatifs aux droits de l’homme,</p>
+      </container>
+      <container name="Ayant à l’esprit" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Ayant à l’esprit</span> les résolutions de l’Assemblée générale <a href="https://docs.un.org/fr/A/RES/60/251">60/251</a> du 15 mars 2006, <a href="https://docs.un.org/fr/A/RES/62/219">62/219</a> du 22 décembre 2007 et <a href="https://docs.un.org/fr/A/RES/65/281">65/281</a> du 17 juin 2011,</p>
+      </container>
+      <container name="Rappelant" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>ses résolutions 5/1 et <a href="https://docs.un.org/fr/A/RES/5/2">5/2</a>, du 18 juin 2007, concernant respectivement la mise en place de ses institutions et le Code de conduite pour les titulaires de mandat au titre de ses procédures spéciales, et soulignant que les titulaires de mandat doivent s’acquitter des obligations qui leur incombent conformément à ces résolutions et à leurs annexes,</p>
+      </container>
+      <container name="Notant avec une profonde préoccupation" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Notant avec une profonde préoccupation</span> que des violations des droits de l’homme et des libertés fondamentales sont commises dans le contexte de la lutte contre le terrorisme et que le terrorisme a des effets sur la jouissance des droits de l’homme et des libertés fondamentales, notamment pour les victimes,</p>
+      </container>
+      <container name="Rappelant" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>les résolutions de la Commission des droits de l’homme 2004/87 du 21 avril 2004 et 2005/80 du 21 avril 2005, les résolutions de l’Assemblée générale <a href="https://docs.un.org/fr/A/RES/59/191">59/191</a> du 20 décembre 2004, <a href="https://docs.un.org/fr/A/RES/60/158">60/158</a> du 16 décembre 2005 et <a href="https://docs.un.org/fr/A/RES/61/171">61/171</a> du 19 décembre 2006, ainsi que ses propres résolutions <a href="https://docs.un.org/fr/A/RES/6/28">6/28</a> du 14 décembre 2007, <a href="https://docs.un.org/fr/A/RES/15/15">15/15</a> du 24 septembre 2010, <a href="https://docs.un.org/fr/A/RES/22/8">22/8</a> du 21 mars 2013, <a href="https://docs.un.org/fr/A/RES/31/3">31/3</a> du 20 avril 2016, <a href="https://docs.un.org/fr/A/RES/40/16">40/16</a> du 22 mars 2019 et <a href="https://docs.un.org/fr/A/RES/49/10">49/10</a> du 31 mars 2022, relatives au mandat de Rapporteur spécial sur la promotion et la protection des droits de l’homme et des libertés fondamentales dans la lutte antiterroriste,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_7" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide</span> de reconduire le mandat de Rapporteur spécial sur la promotion et la protection des droits de l’homme et des libertés fondamentales dans la lutte antiterroriste pour une période de trois ans, dans les conditions qu’il avait prévues dans sa résolution <a href="https://docs.un.org/fr/A/HRC/RES/49/10">49/10</a> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourage</span> le Rapporteur spécial à continuer de prendre part au Pacte mondial des Nations Unies de coordination contre le terrorisme, conformément à son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve"> 	<span class="italic">Salue </span>le travail accompli par le Rapporteur spécial pour ce qui est de promouvoir les droits de l’homme et les libertés fondamentales des victimes du terrorisme, et encourage le Rapporteur spécial à continuer d’examiner cette question, en consultation avec les gouvernements, les personnes concernées, leur famille, leurs représentants et les organisations de la société civile ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande </span>à tous les gouvernements de coopérer pleinement avec le Rapporteur spécial afin de l’aider à s’acquitter des fonctions et tâches qui lui ont été confiées, notamment en répondant rapidement à ses appels urgents et en lui communiquant les éléments d’information qu’il demande ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage </span>tous les gouvernements à envisager sérieusement d’accueillir favorablement les demandes de visite du Rapporteur spécial ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie </span>le Secrétaire général et le Haut-Commissaire des Nations Unies aux droits de l’homme de fournir au ou à la titulaire du mandat toutes les ressources humaines, techniques et financières nécessaires, notamment de mettre à sa disposition des effectifs suffisants et prévisibles, afin qu’il ou elle puisse s’acquitter efficacement de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide </span>de poursuivre l’examen de cette question conformément à son programme de travail annuel.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="56e" refersTo="#adoptionMeeting">56e séance</location>
+          <eol />
+          <docDate date="2025-04-03" refersTo="#adoptionDate">3 avril 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
