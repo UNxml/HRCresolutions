@@ -1,0 +1,532 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/"></FRBRuri>
+          <FRBRdate date="2025-04-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/ara@/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-03/58-16/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Sustainable Development Goals" showAs="Sustainable Development Goals" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="OCEANS" href="http://metadata.un.org/thesaurus/1004576" showAs="OCEANS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MARINE ECOSYSTEMS" href="http://metadata.un.org/thesaurus/1003907" showAs="MARINE ECOSYSTEMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-28" outcome="draftResolution" as="A/HRC/58/L.26/Rev.1" by="Albania, Austria, Belgium, Bulgaria, Chile, Costa Rica, Croatia, Cyprus, Czechia, Democratic Republic of the Congo, Finland, France, Germany, Ireland, Italy, Luxembourg, Malawi, Maldives, Malta, Marshall Islands, Monaco, Mongolia, Montenegro, Morocco, North Macedonia, Portugal, Republic of Moldova, Romania, Slovakia, Slovenia, Spain and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-04" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-04" outcome="adopted" as="Adopted without vote, 57th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/16</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-04" class="rightSmall" refersTo="#dateOfIssuance">4 April 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">الدورة الثامنة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 شباط</date>
+          <date date="2025-04-04" refersTo="#endDate">4 نيسان 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">البند 3 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز وحماية جميع حقوق الإنسان، المدنية والسياسية والاقتصادية والاجتماعية والثقافية، بما في ذلك الحق في التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 3 نيسان/أبريل 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/16</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	حق الإنسان في بيئة نظيفة وصحية ومستدامة: المحيط وحقوق الإنسان</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يسترشد </span>بمقاصد ميثاق الأمم المتحدة ومبادئه،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> الإعلان العالمي لحقوق الإنسان، وإعلان وبرنامج عمل فيينا، وإذ يشير إلى إعلان مؤتمر الأمم المتحدة المعني بالبيئة البشرية، وإعلان الحق في التنمية، وإعلان ريو بشأن البيئة والتنمية، واتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ، واتفاقية الأمم المتحدة لقانون البحار، واتفاقية التنوع البيولوجي، واتفاقية الأمم المتحدة لمكافحة التصحر، ومعاهدات حقوق الإنسان الدولية ذات الصلة، وغير ذلك من صكوك حقوق الإنسان الإقليمية ذات الصلة،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد أيضاً" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد أيضاً</span> أن جميع حقوق الإنسان عالمية ومترابطة ومتشابكة وغير قابلة للتجزئة،</p>
+      </container>
+      <container name="إذ يشير" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">إذ يشير</span> إلى جميع قراراته ومقرراته المتعلقة بحقوق الإنسان والبيئة، وآخرها القرارات <a href="https://docs.un.org/ar/A/HRC/RES/45/17">45/17</a> المؤرخ 6 تشرين الأول/أكتوبر 2020، و<a href="https://docs.un.org/ar/A/HRC/RES/45/30">45/30</a> المؤرخ 7 تشرين الأول/أكتوبر 2020، و<a href="https://docs.un.org/ar/A/HRC/RES/46/7">46/7</a> المؤرخ 23 آذار/مارس 2021، و<a href="https://docs.un.org/ar/A/HRC/RES/52/23">52/23</a> المؤرخ 4 نيسان/أبريل 2023، و<a href="https://docs.un.org/ar/A/HRC/RES/54/10">54/10</a> المؤرخ 11 تشرين الأول/ أكتوبر 2023، و<a href="https://docs.un.org/ar/A/HRC/RES/55/2">55/2</a> المؤرخ 3 نيسان/أبريل 2024، و<a href="https://docs.un.org/ar/A/HRC/RES/57/28">57/28</a> المؤرخ 11 تشرين الأول/أكتوبر 2024، والمقرر <a href="https://docs.un.org/ar/A/HRC/DEC/56/117">56/117</a> المؤرخ 11 تموز/يوليه 2024، وقرارات الجمعية العامة ذات الصلة،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> بقرار مجلس حقوق الإنسان <a href="https://docs.un.org/ar/A/HRC/RES/48/13">48/13</a> المؤرخ 8 تشرين الأول/أكتوبر 2021 وقرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/76/300">76/300</a> المؤرخ 28 تموز/يوليه 2022، اللذين يعترفان بحق الإنسان في بيئة نظيفة وصحية ومستدامة،</p>
+      </container>
+      <container name="وإذ يدرك" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يدرك</span> أن المحيط جسم مائي واحد مترابط يوحد ويغذي ويربط النظم الإيكولوجية والناس والمجتمعات وأنه ضروري لبقائهم ورفاههم،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يحيط علماً</span> بقرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/79/144">79/144</a> المؤرخ 12 كانون الأول/ديسمبر 2024، الذي أشارت فيه الجمعية إلى أن الدول التزمت بحماية النظم الإيكولوجية للمحيط والبحار وإصلاحها من حيث صحتها وإنتاجيتها وقدرتها على الصمود والحفاظ على تنوعها البيولوجي، بما يتيح حفظها للأجيال الحالية والمقبلة واستخدامها على نحو مستدام، وتطبيق نهج مراع للنظم الإيكولوجية والنهج التحوطي في إدارة الأنشطة التي تؤثر في البيئة البحرية، على نحو فعال، وفقاً للقانون الدولي، من أجل تحقيق التنمية المستدامة بأبعادها الثلاثة كلها،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يرحب </span>باعتماد الجمعية العامة القرار <a href="https://docs.un.org/ar/A/RES/78/272">78/272</a> المؤرخ 24 نيسان/أبريل 2024 بشأن الاتفاق المبرم في إطار اتفاقية الأمم المتحدة لقانون البحار والمتعلق بحفظ التنوع البيولوجي البحري في المناطق الواقعة خارج حدود الولاية الوطنية واستخدامه على نحو مستدام،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد</span> أن احترام حق الإنسان في بيئة نظيفة وصحية ومستدامة وحمايته والوفاء به يسهم في معالجة تدهور المحيط، وإذ يسلم في الوقت نفسه بأن الحفاظ على صحة المحيط ونظافته يسهم في حماية مجموعة من حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يسلم</span> بالأهمية الحاسمة لنظم الإنذار المبكر الفعالة بالمخاطر والكوارث البيئية في حماية حياة الفئات السكانية الضعيفة وسبل عيشها ودعم قدرتها على الصمود في مواجهة آثار تغير المناخ، وإذ يحيط علماً مع التقدير بمبادرة ‘نظم الإنذار المبكر للجميع‘ التي أطلقها الأمين العام والهادفة إلى ضمان استفادة الجميع من نظم الإنذار المبكر بحلول عام 2027،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> القرار 5/14 الذي اعتمدته جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة في 2 آذار/مارس 2022، الذي أنشأت فيه الجمعية لجنة تفاوض حكومية دولية تكلَّف بوضع صك دولي ملزم قانوناً بشأن التلوث بالمواد البلاستيكية، بما في ذلك في البيئة البحرية،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشدد</span> على أهمية اتخاذ الدول إجراءات حاسمة للتصدي للتلوث بالمواد البلاستيكية طوال دورة الحياة الكاملة للمواد البلاستيكية، بما في ذلك في البيئة البحرية، وإذ يسلط الضوء على الآثار المحددة والخطيرة للتلوث بالمواد البلاستيكية وتغير المناخ وفقدان التنوع البيولوجي على المحيط، مما يهدد إعمال حقوق الإنسان، بما في ذلك حق الإنسان في بيئة نظيفة وصحية ومستدامة، وإذ يؤكد في الوقت نفسه على الطابع العابر للحدود للتلوث بالمواد البلاستيكية وضرورة تعزيز التعاون العالمي للتصدي لهذه الأزمة بفعالية، </p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/70/1">70/1</a> المؤرخ 25 أيلول/سبتمبر 2015، المعنون "تحويل عالمنا: خطة التنمية المستدامة لعام 2030"، الذي اعتمدت فيه الجمعية العامة مجموعة شاملة وبعيدة المدى ومتمحورة حول الإنسان من أهداف وغايات التنمية المستدامة العالمية والتحويلية، بما في ذلك الهدف 14 الذي يركز على حفظ المحيط واستخدامه على نحو مستدام، والهدف 6 المتعلق بالمياه النظيفة والصرف الصحي، </p>
+      </container>
+      <container name="وإذ يسلم" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بالتوجيهات التي قدمتها المحكمة الدولية لقانون البحار في فتواها الصادرة في 21 أيار/مايو 2024 بشأن التزام الدول بحماية المحيط من عوامل تغير المناخ وآثاره، رداً على <span class="italic">طلب الاستفتاء المقدم من لجنة الدول الجزرية الصغيرة بشأن تغير المناخ والقانون الدولي</span>،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد </span>قراره <a href="https://docs.un.org/ar/A/HRC/RES/40/11">40/11</a> المؤرخ 21 آذار/مارس 2019، الذي سلم فيه بالدور الإيجابي والهام والمشروع الذي يؤديه المدافعون عن حقوق الإنسان في تعزيز حقوق الإنسان وحمايتها، بما في ذلك حق الإنسان في التمتع ببيئة آمنة ونظيفة وصحية ومستدامة، وأعرب فيه عن قلقه البالغ لكون مَن يتصدون من المدافعين عن حقوق الإنسان للقضايا البيئية، المشار إليهم بالمدافعين عن حقوق الإنسان البيئية، هم من أكثر المدافعين عن حقوق الإنسان تعرضاً للمخاطر،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يحيط علماً</span> بالصكوك الدولية مثل اتفاقية اللجنة الاقتصادية لأوروبا الخاصة بإتاحة فرص الحصول على المعلومات عن البيئة ومشاركة الجمهور في اتخاذ القرارات بشأنها والاحتكام إلى القضاء في المسائل المتعلقة بها، والاتفاق الإقليمي بشأن الوصول إلى المعلومات والمشاركة العامة والعدالة في المسائل البيئية في أمريكا اللاتينية ومنطقة البحر الكاريبي، </p>
+      </container>
+      <container name="وإذ يشير" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى التزامات الدول وتعهداتها في إطار الصكوك والاتفاقات البيئية المتعددة الأطراف، ونتائج مؤتمر الأمم المتحدة للتنمية المستدامة، المعقود في ريو دي جانيرو، البرازيل، في حزيران/ يونيه 2012، ووثيقته الختامية المعنونة "المستقبل الذي نصبو إليه"<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/66/288">66/288</a>، المرفق.</p></authorialNote><sup>)</sup>، التي أعادت تأكيد مبادئ إعلان ريو بشأن البيئة والتنمية،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يقر</span> بأن الطابع العالمي لتغير المناخ يتطلب أوسع تعاون ممكن بين جميع البلدان ومشاركتها في استجابة دولية فعالة ومنصفة، بما يتماشى مع المبادئ المبينة في المادة 3 من اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ، وإذ يشير إلى المادة 2-2 من اتفاق باريس، التي تعد مادة أساسية لمعالجة تغير المناخ والقضايا البيئية بطريقة عادلة ومنصفة، وفقاً للظروف الوطنية،</p>
+      </container>
+      <container name="وإذ يلاحظ بارتياح" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ بارتياح</span> أن الدول سلّمت بأن المحيط والبحار والمناطق الساحلية تشكل عنصراً متكاملاً وأساسياً في النظام الإيكولوجي للأرض ولها أهمية بالغة لضمان استدامته، وأن القانون الدولي، كما يتجسد في اتفاقية الأمم المتحدة لقانون البحار واتفاقاتها التنفيذية، يوفر الإطار القانوني لحفظ المحيط وموارده واستخدامها على نحو مستدام، وأكدت أهمية حفظ المحيط والبحار ومواردها واستخدامها على نحو مستدام تحقيقاً للتنمية المستدامة، بسبل منها الإسهام في القضاء على الفقر، وكفالة النمو الاقتصادي المطرد، والأمن الغذائي، وتهيئة سبل العيش المستدامة والعمل اللائق، وفي الوقت نفسه حماية التنوع البيولوجي والبيئة البحرية ومعالجة آثار تغير المناخ،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> أن حماية المحيط والحفاظ عليه أمر حاسم من أجل تمتع الجميع بحقوق الإنسان تمتعاً كاملاً، شأنه شأن فهم أهمية المحيط في مسائل التصدي للتلوث، والتخفيف من آثار تغير المناخ، وتعزيز التنوع البيولوجي والنظم الإيكولوجية، وضمان الأمن الغذائي المستدام ومصادر الطاقة المتجددة،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">وإذ يقر</span> باحتياجات السكان الأكثر عرضة للكوارث الطبيعية، مثل الذين يعيشون في الدول الساحلية والدول الجزرية الصغيرة النامية، على النحو الذي جرى تأكيده في المؤتمر الدولي الرابع المعني بالدول الجزرية الصغيرة النامية، الذي عُقد في أنتيغوا وبربودا في الفترة من 27 إلى 30 أيار/مايو 2024، وبالحاجة الملحة إلى اتباع نهج قائم على حقوق الإنسان لإدارة المحيط في التصدي لتغير المناخ،</p>
+      </container>
+      <container name="إذ يؤكد من جديد" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يؤكد من جديد</span> أن تعزيز حق الإنسان في بيئة نظيفة وصحية ومستدامة يتطلب التنفيذ الكامل للاتفاقات البيئية المتعددة الأطراف بموجب مبادئ القانون البيئي الدولي،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى نتائج الدورة السادسة لجمعية الأمم المتحدة للبيئة التي عُقدت في نيروبي في الفترة من 26 شباط/فبراير إلى 1 آذار/مارس 2024، وإلى ضرورة العمل بصورة حازمة وعاجلة لتحسين صحة المحيط ونظمه الإيكولوجية وإنتاجيتها واستخدامها على نحو مستدام وقدرتها على الصمود، وإذ يؤكد ضرورة تعزيز حفظ المحيط وموارده واستخدامها على نحو مستدام،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> بنتائج الدورة التاسعة والعشرين لمؤتمر الأطراف في اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ ومؤتمر الأطراف السادس العامل بوصفه اجتماع الأطراف في اتفاق باريس، المعقودين في باكو، في الفترة من 11 إلى 22 تشرين الثاني/نوفمبر 2024، والدورة السادسة عشرة لمؤتمر الأطراف في اتفاقية التنوع البيولوجي، المعقودة في كالي، كولومبيا، في الفترة من 21 تشرين الأول/أكتوبر إلى 1 تشرين الثاني/نوفمبر 2024، والدورة المستأنفة المعقودة في روما في الفترة من 25 إلى 27 شباط/ فبراير 2025، وما ورد في كل منها من إشارات إلى حق الإنسان في بيئة نظيفة وصحية ومستدامة،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى جميع التقارير السابقة للمقرر الخاص المعني بحق الإنسان في بيئة نظيفة وصحية ومستدامة<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()	<a href="https://docs.un.org/ar/A/73/188">A/73/188</a> و<a href="https://docs.un.org/ar/A/74/161">A/74/161</a> و<a href="https://docs.un.org/ar/A/75/161">A/75/161</a> و<a href="https://docs.un.org/ar/A/76/179">A/76/179</a> و<a href="https://docs.un.org/ar/A/77/284">A/77/284</a> و<a href="https://docs.un.org/ar/A/HRC/22/43">A/HRC/22/43</a> و<a href="https://docs.un.org/ar/A/HRC/25/53">A/HRC/25/53</a> و<a href="https://docs.un.org/ar/A/HRC/28/61">A/HRC/28/61</a> و<a href="https://docs.un.org/ar/A/HRC/31/52">A/HRC/31/52</a> و<a href="https://docs.un.org/ar/A/HRC/31/53">A/HRC/31/53</a> و<a href="https://docs.un.org/ar/A/HRC/34/49">A/HRC/34/49</a> و<a href="https://docs.un.org/ar/A/HRC/37/58">A/HRC/37/58</a> و<a href="https://docs.un.org/ar/A/HRC/37/59">A/HRC/37/59</a> و<a href="https://docs.un.org/ar/A/HRC/40/55">A/HRC/40/55</a> و<a href="https://docs.un.org/ar/A/HRC/43/53">A/HRC/43/53</a> و<a href="https://docs.un.org/ar/A/HRC/43/54">A/HRC/43/54</a> و<a href="https://docs.un.org/ar/A/HRC/46/28">A/HRC/46/28</a> و<a href="https://docs.un.org/ar/A/HRC/49/53">A/HRC/49/53</a> و<a href="https://docs.un.org/ar/A/HRC/52/33">A/HRC/52/33</a> و<a href="https://docs.un.org/ar/A/HRC/52/44">A/HRC/52/44</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> بالتقرير الأخير للمقرر الخاص المعني بحق الإنسان في بيئة نظيفة وصحية ومستدامة<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">()	<a href="https://docs.un.org/ar/A/HRC/58/59">A/HRC/58/59</a>.</p></authorialNote><sup>)</sup>، الذي سلّم فيه المكلف بالولاية بالروابط بين المحيط وحقوق الإنسان، وبأهمية المحيط في تنظيم مناخ الأرض، ودعم التنوع البيولوجي، والحفاظ على حياة النظم الإيكولوجية الأساسية، وضمان الأمن الغذائي المستدام، والحاجة إلى النهوض بتدابير الإدارة التكيفية والشاملة والقائمة على العلم والنظم الإيكولوجية للحد من تعرض المحيط للأضرار الناجمة عن تغير المناخ والتلوث وفقدان التنوع البيولوجي وتدهور الأراضي،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم </span>بأن التدهور البيئي وفقدان التنوع البيولوجي كثيراً ما ينجم عن أنماط التمييز القائمة ويعززها، وأن الضرر البيئي يمكن أن تكون له عواقب كارثية، وأحياناً مشتتة جغرافياً على نوعية حياة الشعوب الأصلية والفلاحين والمجتمعات المحلية وغيرهم ممن يعتمدون بصورة مباشرة على منتجات الغابات والأنهار والبحيرات والأراضي الرطبة والمحيط في الحصول على غذائهم ووقودهم ودوائهم، ولا سيما الذين يعيشون في البلدان النامية، والدول الساحلية والدول الجزرية الصغيرة النامية وأقل البلدان نمواً، مما يؤدي إلى مزيد من عدم المساواة والتهميش،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً</span> بأن آثار تغير المناخ، وإدارة الموارد الطبيعية واستخدامها على نحو غير مستدام، وتلوث الهواء والتربة والماء، والإدارة غير السليمة للمواد الكيميائية والنفايات وما ينتج عنها من فقدان التنوع البيولوجي، وتراجع الخدمات التي توفرها النُظم الإيكولوجية هي، في المقابل، أمور من شأنها أن تؤثر في التمتع ببيئة آمنة ونظيفة وصحية ومستدامة، وأن الأضرار البيئية يمكن أن تفضي إلى آثار سلبية، مباشرة وغير مباشرة، على التمتع الفعلي بجميع حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يسلم كذلك" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم كذلك</span> بأن آثار الأضرار البيئية على حقوق الإنسان يشعر بها الأفراد والمجتمعات في جميع أنحاء العالم، لكن عواقبها أشد على شرائح السكان التي تعيش أصلاً في أوضاع هشة، كالأشخاص الذين يواجهون التصحر وتدهور الأراضي وارتفاع مستوى سطح البحر وفقدان التنوع البيولوجي والموارد والتلوث بالمواد البلاستيكية وتحمّض المحيط وتدهوره وفقدان النظم الإيكولوجية للمحيط والجفاف وندرة المياه، وكذلك على النساء والفتيات،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_31">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشدد</span> على أهمية إجراء تقييمات شاملة للآثار على البيئة وحقوق الإنسان قبل الإذن بالأنشطة التي قد تضر بالمحيط أو المناطق الساحلية أو أصحاب الحقوق المتصلة بها وتنفيذها،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى أن جميع سكان الأرض يعتمدون بصورة مباشرة أو غير مباشرة على المحيط والغلاف الجليدي، وأن المجتمعات التي تعيش في ظل ارتباط وثيق بالبيئات القطبية أو الجبلية أو الساحلية، ولا سيما في البلدان النامية والدول الجزرية الصغيرة النامية وأقل البلدان نمواً، معرضة للأخطار الحالية والمقبلة لتغير المحيط والغلاف الجليدي، بما في ذلك ارتفاع مستوى سطح البحر، واحترار المحيط وتحمضه وزوال الأكسجين منه، وفقدان كتلة الصفائح الجليدية والأنهار الجليدية، وتدهور التربة الصقيعية،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم </span>بفوائد السعي إلى التخفيف من الآثار السلبية للتلوث وغيره من أشكال التدهور البيئي والتقليل منها إلى أدنى حد، وبأهمية الإدارة السليمة بيئياً للمواد الكيميائية والنفايات والتخلص منها بطرق سليمة بيئياً، بما في ذلك في حالات النزاع المسلح وسياقات ما بعد النزاع، وإذ يعرب عن بالغ قلقه إزاء الأخطار التي تهدد التمتع الفعلي بحقوق الإنسان، ولا سيما حقوق الأطفال والنساء والفتيات والشباب والأشخاص ذوي الإعاقة وكبار السن والشعوب الأصلية واللاجئين والمجتمعات المحلية والنازحين داخلياً والمهاجرين والأشخاص الذين يعيشون في أوضاع هشة،</p>
+      </container>
+      <container name="وإذ يسلم أيضاً" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم أيضاً </span>بأن التلوث بالمواد البلاستيكية يطرح مخاطر تهدد التمتع الفعلي بحقوق الإنسان، بما في ذلك حقوق مجتمعات الصيد الساحلية والمجتمعات النائية والجزرية وسكان المناطق الحضرية المهمشة، مما يؤدي إلى تفاقم الفقر وتهديد سبل العيش،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_35">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يقر </span>بأن وجود مواد بلاستيكية دقيقة يقوض الظروف البيئية اللازمة للحياة المستدامة ويعوق المضي قدماً نحو تحقيق أهداف التنمية المستدامة، لا سيما الهدف 14 المتعلق بالحياة تحت الماء، والهدف 6 المتعلق بالمياه النظيفة والصرف الصحي،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم </span>بأن ممارسة حقوق الإنسان، بما في ذلك حرية التماس المعلومات وتلقيها ونقلها، والمشاركة الكاملة والمتساوية والهادفة والآمنة في شؤون الحكم والشؤون العامة، وإمكانية اللجوء إلى العدالة، والحق في سبيل انتصاف فعال، هي أمر حيوي لاحترام الحق في بيئة نظيفة وصحية ومستدامة وحمايته وتعزيزه،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى المبادئ التوجيهية المتعلقة بالأعمال التجارية وحقوق الإنسان التي تؤكد مسؤولية جميع مؤسسات الأعمال عن احترام حقوق الإنسان، بما في ذلك حق المدافعين عن حقوق الإنسان البيئية في الحياة والحرية والأمن،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">وإذ يقر</span> بمسؤولية مؤسسات الأعمال عن معالجة آثار أنشطتها على المناخ والإفصاح عنها بشفافية مع احترام معايير حقوق الإنسان، وتقييم الانبعاثات والإبلاغ عنها في جميع عملياتها وتقييم استدامة أنشطتها البرية والبحرية، وممارسة العناية الواجبة في مجال حقوق الإنسان في أنشطة الأعمال، وفقاً للمبادئ التوجيهية المتعلقة بالأعمال التجارية وحقوق الإنسان ومع أفضل المعارف والمعلومات العلمية المتاحة،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> بالدور الإيجابي والهام والمشروع الذي يؤديه الأطفال والحركات التي يقودها الأطفال والشباب والتي تدافع عن حقوق الإنسان المتصلة بتهيئة بيئة نظيفة وصحية ومستدامة، وإذ يرحب بما تقوم به المقررة الخاصة المعنية بحق الإنسان في بيئة نظيفة وصحية ومستدامة من عمل لإشراك الأطفال والتشاور معهم،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> أن الدول مُلزمة باحترام حقوق الإنسان وحمايتها وتعزيزها، بما في ذلك في جميع الإجراءات المتخذة للتصدي للتحديات البيئية، وباتخاذ تدابير لحماية حقوق الجميع، على النحو المعترف به في صكوك دولية مختلفة والوارد في المبادئ الإطارية بشأن حقوق الإنسان والبيئة<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">()	<a href="https://docs.un.org/ar/A/HRC/37/59">A/HRC/37/59</a>، المرفق.</p></authorialNote><sup>)</sup>، وأنه ينبغي اتخاذ تدابير إضافية لصالح الفئات الأشد تعرضاً للأضرار البيئية،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_41" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">يرحب </span>بالعمل الذي اضطلعت به المقررة الخاصة المعنية بحق الإنسان في بيئة آمنة ونظيفة وصحية ومستدامة، بما في ذلك في تنفيذ الولاية، والمشاورات الشاملة والشفافة والجامعة التي أجرتها مع أصحاب المصلحة المعنيين، وتقاريرها المواضيعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">يرحب أيضاً</span> بالعمل الذي تضطلع به مفوضية الأمم المتحدة السامية لحقوق الإنسان في مسألة حقوق الإنسان والبيئة، بما في ذلك تعاونها مع الأمين العام وبرنامج الأمم المتحدة للبيئة وغيرهما من الشركاء الرئيسيين، ومشاركتها في اتفاقات بيئية متعددة الأطراف، مثل اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ واتفاقية الأمم المتحدة لمكافحة التصحر واتفاقية التنوع البيولوجي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">يرحب كذلك</span> بالعمل الذي اضطلع به برنامج الأمم المتحدة للبيئة وبرنامج الأمم المتحدة الإنمائي ومنظمة الأمم المتحدة لرعاية الطفولة وهيئة الأمم المتحدة للمساواة بين الجنسين وتمكين المرأة، لدعم ولاية المقررة الخاصة، وللمساعدة على توضيح العلاقة بين حقوق الإنسان والبيئة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">يشجع </span>الدول على المشاركة البناءة في مؤتمر الأمم المتحدة المعني بالمحيطات، الذي سيُعقد في نيس، فرنسا في حزيران/يونيه 2025، وعلى مراعاة حق الإنسان في بيئة نظيفة وصحية ومستدامة في مداولاته ونتائجه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtGA">
+        <num>5-</num>
+        <list eId="para_51_list">
+          <intro eId="para_51_list_intro">
+            <p xml:space="preserve">	<span class="italic">يدعو </span>الدول إلى ما يلي:</p>
+          </intro>
+          <point eId="para_51_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_51_list_point_أ_content">
+              <p xml:space="preserve">	احترام حقوق الإنسان وحمايتها وإعمالها، بما في ذلك في جميع الإجراءات المتخذة للتصدي للتحديات البيئية، بما في ذلك تغير المناخ وفقدان التنوع البيولوجي البحري والتلوث وتدهور الأراضي؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_51_list_point_ب_content">
+              <p xml:space="preserve">	اعتماد وتنفيذ قوانين قوية تكفل جملة أمور منها الحق في المشاركة، والحق في الوصول إلى المعلومات والعدالة، بما في ذلك الحق في سبيل انتصاف فعال، في القضايا البيئية؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_51_list_point_ج_content">
+              <p xml:space="preserve">	تيسير توعية الجمهور ومشاركة المجتمع المدني والنساء والأطفال والشباب والشعوب الأصلية والفلاحين والمجتمعات المحلية وصغار الصيادين والمجتمعات الساحلية وكبار السن والأشخاص ذوي الإعاقة والمهاجرين وغيرهم ممن يعتمدون بصورة مباشرة على التنوع البيولوجي والخدمات التي توفرها النظم الإيكولوجية في عملية صنع القرارات البيئية، بما في ذلك العمليات التنظيمية، من خلال حماية جميع حقوق الإنسان، بما فيها الحق في حرية التعبير والحق في حرية التجمع السلمي وتكوين الجمعيات؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_د">
+            <num>(د)</num>
+            <content eId="para_51_list_point_د_content">
+              <p xml:space="preserve">	التنفيذ الكامل لالتزاماتها باحترام حقوق الإنسان وحمايتها وإعمالها دون تمييز من أي نوع، بما في ذلك عند تطبيق القوانين والسياسات البيئية؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_ه">
+            <num>(ه)</num>
+            <content eId="para_51_list_point_ه_content">
+              <p xml:space="preserve">	تهيئة بيئة آمنة وتمكينية حيث يمكن للأفراد ومنظمات المجتمع المدني، بما في ذلك المدافعون عن حقوق الإنسان البيئية والعاملون في مجال حقوق الإنسان والقضايا البيئية والبحرية أن يعملوا دون تهديدات أو عوائق أو انعدام الأمن؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_و">
+            <num>(و)</num>
+            <content eId="para_51_list_point_و_content">
+              <p xml:space="preserve">	توفير سبل انتصاف فعالة من انتهاكات وتجاوزات حقوق الإنسان، بما فيها تلك المتعلقة بالتمتع بحق الإنسان في بيئة نظيفة وصحية ومستدامة، وفقاً لالتزاماتها الدولية؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_51_list_point_ز_content">
+              <p xml:space="preserve">	إنشاء أطر قانونية ومؤسسية فعالة لتنظيم أنشطة الجهات الفاعلة العامة والخاصة والحفاظ على هذه الأطر وتعزيزها من أجل منع الضرر الذي يلحق بالتنوع البيولوجي والنظم الإيكولوجية والحد منه ومعالجته، مع مراعاة الالتزامات والتعهدات المرتبطة بحقوق الإنسان فيما يتعلق بالتمتع ببيئة نظيفة وصحية ومستدامة؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_51_list_point_ح_content">
+              <p xml:space="preserve">	تطبيق المبدأ التحوطي أو النهج التحوطي في جميع أنشطتها، حسب الاقتضاء، من أجل حماية النظم الإيكولوجية البحرية والساحلية حماية فعالة؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_51_list_point_ط_content">
+              <p xml:space="preserve">	مراعاة الالتزامات والتعهدات المرتبطة بحقوق الإنسان فيما يتعلق بالتمتع ببيئة نظيفة وصحية ومستدامة عند تنفيذ أهداف التنمية المستدامة ومتابعتها، بما في ذلك الهدف 14 المتعلق بالحياة تحت الماء، والهدف 6 المتعلق بالمياه النظيفة والصرف الصحي، واضعةً في اعتبارها طبيعة هذه الأهداف المتكاملة والمتعددة القطاعات؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_ي">
+            <num>(ي)</num>
+            <content eId="para_51_list_point_ي_content">
+              <p xml:space="preserve">	احترام معارف الشعوب الأصلية وتعزيزها، وفقاً لموافقتها الحرة والمسبقة والمستنيرة، وكذلك المعارف التقليدية للمجتمعات المحلية ونظم المعارف المحلية في إدارة المحيط؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_ك">
+            <num>(ك)</num>
+            <content eId="para_51_list_point_ك_content">
+              <p xml:space="preserve">	زيادة التمويل والدعم من أجل المنظمات النسائية الشعبية العاملة في مجال قضايا البيئة وحقوق الإنسان والتعاون معها، ومن أجل تنفيذ خطط العمل الجنسانية في إطار الاتفاقات البيئية المتعددة الأطراف؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_ل">
+            <num>(ل)</num>
+            <content eId="para_51_list_point_ل_content">
+              <p xml:space="preserve">	تعبئة تمويل كافٍ ومستدام ويمكن التنبؤ به وتخصيصه لمبادرات المساعدة التقنية وبناء القدرات في دعم وضع القوانين والسياسات، وتعزيز المؤسسات، وتبادل المعارف والتعاون بين أصحاب المصلحة المتعددين تحقيقاً للإعمال الفعال للحق في بيئة نظيفة وصحية ومستدامة؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxtGA">
+        <num>6-</num>
+        <list eId="para_56_list">
+          <intro eId="para_56_list_intro">
+            <p xml:space="preserve">	<span class="italic">يشجع </span>الدول على ما يلي:</p>
+          </intro>
+          <point eId="para_56_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_56_list_point_أ_content">
+              <p xml:space="preserve">	اعتماد سياسات وطنية ومحلية قائمة على النظم الإيكولوجية ومتكاملة ومترابطة وشاملة وإطار قانوني فعال يعترف بضرورة حماية المحيط وإصلاحه من أجل التمتع بحق الإنسان في بيئة نظيفة وصحية ومستدامة؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_56_list_point_ب_content">
+              <p xml:space="preserve">	معالجة مسألة الامتثال للالتزامات المرتبطة بحقوق الإنسان فيما يتعلق بالتمتع بحق الإنسان في بيئة نظيفة وصحية ومستدامة في إطار آليات حقوق الإنسان، بما في ذلك الاستعراض الدوري الشامل، وتقديم تقارير الدول الأطراف إلى هيئات الأمم المتحدة ذات الصلة المنشأة بموجب معاهدات حقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_56_list_point_ج_content">
+              <p xml:space="preserve">	بناء القدرات اللازمة للجهود الرامية إلى حماية البيئة من أجل الوفاء بالتزاماتها وتعهداتها في مجال حقوق الإنسان، وتعزيز التعاون مع الدول الأخرى، ومفوضية الأمم المتحدة السامية لحقوق الإنسان، وبقية منظومة الأمم المتحدة، وغيرها من المنظمات والوكالات وأمانات الاتفاقيات والبرامج الدولية والإقليمية ذات الصلة، والجهات المعنية من غير الدول، بما في ذلك المجتمع المدني والمؤسسات الوطنية لحقوق الإنسان وقطاع الأعمال، بشأن مواصلة تطوير وإعمال حق الإنسان في بيئة نظيفة وصحية ومستدامة، وفقاً لولاية كل منها؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_د">
+            <num>(د)</num>
+            <content eId="para_56_list_point_د_content">
+              <p xml:space="preserve">	التعاون في صوغ وتطوير قواعد ومعايير وممارسات موصى بها وإجراءات قائمة على حقوق الإنسان وأفضل المعارف العلمية المتاحة، لمواجهة التلوث البحري، بإدماج المعارف التقليدية للشعوب الأصلية وصغار الصيادين والمجتمعات المحلية؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_ه">
+            <num>(ه)</num>
+            <content eId="para_56_list_point_ه_content">
+              <p xml:space="preserve">	التعاون مع الدول الأخرى لتعزيز حماية المحيط والمناطق الساحلية وحفظها وإصلاحها، بسبل من بينها تنفيذ القانون الدولي وإدماج التزامات القانون الدولي لحقوق الإنسان والمعايير والمبادئ التوجيهية لإدارة المحيط؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_و">
+            <num>(و)</num>
+            <content eId="para_56_list_point_و_content">
+              <p xml:space="preserve">	بحث سبل إدراج المعلومات المتعلقة بحقوق الإنسان والبيئة، بما في ذلك البيئة البحرية، في المناهج الدراسية من أجل تعليم الأجيال الحالية والمقبلة أن تكون عناصر للتغيير، بسبل منها مراعاة المعارف التقليدية للشعوب الأصلية؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_56_list_point_ز_content">
+              <p xml:space="preserve">	السعي إلى ضمان أن تحترم المشاريع التي تدعمها آليات التمويل البيئي جميع حقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_56_list_point_ح_content">
+              <p xml:space="preserve">	جمع بيانات مفصلة عن آثار الضرر البيئي، بما في ذلك فقدان التنوع البيولوجي وتدهور الخدمات التي توفرها النُظم الإيكولوجية، على الأشخاص الذين يعيشون في أوضاع هشة؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_56_list_point_ط_content">
+              <p xml:space="preserve">	تعزيز وتسريع العمل البيئي القائم على حقوق الإنسان الذي يراعي المنظور الجنساني ويشمل المساواة بين الجنسين وتمكين النساء والفتيات ويراعي ضعف النظم الإيكولوجية واحتياجات الأشخاص والمجتمعات الذين يعيشون في أوضاع هشة؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_ي">
+            <num>(ي)</num>
+            <content eId="para_56_list_point_ي_content">
+              <p xml:space="preserve">	مواصلة تبادل الممارسات الجيدة في مجال الوفاء بالتزامات حقوق الإنسان المتعلقة بحق الإنسان في بيئة نظيفة وصحية ومستدامة عن طريق قاعدة بيانات الممارسات الجيدة التي تتعهدها المقررة الخاصة؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_ك">
+            <num>(ك)</num>
+            <content eId="para_56_list_point_ك_content">
+              <p xml:space="preserve">	تيسير تبادل المعارف والأفكار بين الخبراء، وبناء أوجه التآزر بين سبل حماية حقوق الإنسان وحماية البيئة، وتعزيز الاتساق بين مجالات مختلفة من السياسة العامة، واضعةً في اعتبارها اتباع نهج متكامل ومتعدد القطاعات، ومراعيةً ضرورة أن تحترم الجهود الرامية إلى حماية البيئة احتراماً تاماً الالتزامات الأخرى المتعلقة بحقوق الإنسان، بما فيها الالتزامات المتعلقة بالمساواة بين الجنسين؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_ل">
+            <num>(ل)</num>
+            <content eId="para_56_list_point_ل_content">
+              <p xml:space="preserve">	تعزيز جهودها الرامية إلى حماية التنوع البيولوجي، بسبل منها تحديث وتنفيذ استراتيجياتها وخطط عملها الوطنية للتنوع البيولوجي، ومن ثم المساهمة في تحقيق إطار كونمينغ - مونتريال العالمي للتنوع البيولوجي في إطار اتفاقية التنوع البيولوجي؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_م">
+            <num>(م)</num>
+            <content eId="para_56_list_point_م_content">
+              <p xml:space="preserve">	بناء القدرات داخل القطاع القضائي لفهم العلاقة بين حقوق الإنسان والبيئة؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_ن">
+            <num>(ن)</num>
+            <content eId="para_56_list_point_ن_content">
+              <p xml:space="preserve">	تدعيم قطاع أعمال خاص مسؤول وتشجيع الشركات على الإبلاغ عن استدامة أنشطتها مع احترام المبادئ التوجيهية المتعلقة بالأعمال التجارية وحقوق الإنسان والمعايير البيئية، وفقاً للاتفاقات الدولية ذات الصلة؛</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_س">
+            <num>(س)</num>
+            <content eId="para_56_list_point_س_content">
+              <p xml:space="preserve">	التصديق على الاتفاق المبرم في إطار اتفاقية الأمم المتحدة لقانون البحار والمتعلق بحفظ التنوع البيولوجي البحري في المناطق الواقعة خارج حدود الولاية الوطنية واستخدامه على نحو مستدام؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">يسلم </span>بالدور الهام الذي يؤديه الأفراد ومنظمات المجتمع المدني، بمن فيهم المدافعون عن حقوق الإنسان والمدافعون عن حقوق الإنسان البيئية، في تعزيز حقوق الإنسان وحمايتها من حيث صلتها بالتمتع بحق الإنسان في بيئة نظيفة وصحية ومستدامة، بما في ذلك التنوع البيولوجي والنُظم الإيكولوجية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">يسلم أيضاً</span> بالدور الهام الذي تؤديه المؤسسات الوطنية لحقوق الإنسان في دعم وتعزيز التمتع بحق الإنسان في بيئة نظيفة وصحية ومستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="italic">يشجع </span>وكالات الأمم المتحدة وصناديقها وبرامجها ذات الصلة، والمنظمات الدولية الأخرى، وهيئات المعاهدات، والأوساط الأكاديمية، ومنظمات المجتمع المدني على تعزيز إعمال حق الإنسان في بيئة نظيفة وصحية ومستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="italic">يشدد </span>على ضرورة تعزيز التعاون بين الدول، وبرنامج الأمم المتحدة للبيئة، وبرنامج الأمم المتحدة الإنمائي، ومنظمة الأغذية والزراعة للأمم المتحدة، والمفوضية السامية لحقوق الإنسان، ومنظمة الصحة العالمية، والمنظمة الدولية للهجرة، ومنظمة العمل الدولية، وغيرها من المنظمات والوكالات والاتفاقيات والبرامج الدولية والإقليمية ذات الصلة، وفقاً لولاية كل منها، وذلك بسبل منها التبادل المنتظم للمعارف والأفكار وبناء أوجه التآزر من أجل احترام حق الإنسان في بيئة نظيفة وصحية ومستدامة وتعزيزه وحمايته، مع مراعاة اتباع نهج متكامل ومتعدد القطاعات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">يدعو </span>جميع الدول إلى حفظ النظم الإيكولوجية السليمة والتنوع البيولوجي وحمايتها وإصلاحها، وكفالة إدارتها واستخدامها على نحو مستدام عن طريق تطبيق نهج قائم على حقوق الإنسان يشدد على المشاركة والإدماج والشفافية والمساءلة في إدارة الموارد الطبيعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	<span class="italic">يقرر </span>أن يبقي المسألة قيد نظره، وفقاً لبرنامج عمله السنوي.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="57" refersTo="#adoptionMeeting">الجلسة 57</location>
+          <eol />
+          <docDate date="2025-04-03" refersTo="#adoptionDate">3 نيسان/أبريل 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد من دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
