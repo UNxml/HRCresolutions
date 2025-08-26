@@ -1,0 +1,487 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/zho@/"></FRBRuri>
+          <FRBRdate date="2025-04-07" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-23/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS ACTIVISTS" href="http://metadata.un.org/thesaurus/1002976" showAs="HUMAN RIGHTS ACTIVISTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN" href="http://metadata.un.org/thesaurus/1007029" showAs="WOMEN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NEW TECHNOLOGIES" href="http://metadata.un.org/thesaurus/1004392" showAs="NEW TECHNOLOGIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL TECHNOLOGY" href="http://metadata.un.org/thesaurus/1001655" showAs="DIGITAL TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHT TO SECURITY OF PERSON" href="http://metadata.un.org/thesaurus/1005567" showAs="RIGHT TO SECURITY OF PERSON" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INFORMATION POLICY" href="http://metadata.un.org/thesaurus/1003197" showAs="INFORMATION POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CORPORATE SOCIAL RESPONSIBILITY" href="http://metadata.un.org/thesaurus/1001316" showAs="CORPORATE SOCIAL RESPONSIBILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-28" outcome="draftResolution" as="A/HRC/58/L.27/Rev.1" by="Albania, Andorra, Armenia, Australia, Austria, Belgium, Bulgaria, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, France, Germany, Greece, Guatemala, Honduras, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malawi, Malta, Marshall Islands, Mexico, Monaco, Mongolia, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Peru, Poland, Portugal, Republic of Moldova, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, Switzerland and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-07" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-07" outcome="adopted" as="Adopted without vote, 58th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/23</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-07" class="rightSmall" refersTo="#dateOfIssuance">7 April 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">第五十八届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 二月</date>
+          <date date="2025-04-04" refersTo="#endDate">4 四月 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2025年4月4日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/23.</docNumber>
+        <docTitle refersTo="#resolutionTitle">人权维护者与新技术和新兴技术：在数字时代保护人权维护者，包括妇女人权维护者</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">遵循</span>《联合国宪章》的宗旨和原则、《世界人权宣言》、国际人权两公约和其他有关文书，</p>
+      </container>
+      <container name="回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会1998年12月9日第53/144号决议，其中大会协商一致通过了《个人、群体和社会机构在促进和保护普遍公认的人权和基本自由方面的权利和义务宣言》，通常称为《人权维护者宣言》，回顾《宣言》各项条款持续有效和适用，并重申《宣言》十分重要，必须得到宣传和充分有效的执行，</p>
+      </container>
+      <container name="又回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>以往关于这一主题的所有其他决议，包括人权理事会2013年3月21日第22/6号、2016年3月24日第31/32号、2017年3月23日第34/5号、2019年3月21日第40/11号、2020年6月22日第43/16号、2022年4月1日第49/18号和2023年4月3日第52/4号决议，以及大会2013年12月18日第68/181号、2015年12月17日第70/161号、2017年12月24日第72/247号、2019年12月18日第74/146号、2021年12月16日第76/174号决议和2023年12月19日第78/216号决议，</p>
+      </container>
+      <container name="申明" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">申明</span>大会在2024年9月22日第79/1号决议中通过的《全球数字契约》，以及该契约关于人权方面的目标、原则、承诺和行动以及后续行动和审查的部分，</p>
+      </container>
+      <container name="重申" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">重申</span>一切人权和基本自由都是普遍、不可分割、相互依存、相互关联的，应以公正、公平方式加以促进和落实，强调线下适用的权利也同样适用于线上，</p>
+      </container>
+      <container name="重申" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">重申</span>各国对尊重、保护和实现所有人的人权和基本自由负有首要责任和义务，并欢迎许多国家采取步骤，为人权维护者创造安全和有利的线上和线下环境，</p>
+      </container>
+      <container name="回顾" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">回顾</span>《工商企业与人权指导原则》针对所有企业制定了防止、减轻和处理商业活动对人权造成的损害的原则性方针，对于技术公司而言，这包括应预见和处理与其产品和服务的使用(通常称为“最终用途”)相关的损害，</p>
+      </container>
+      <container name="特别指出" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">特别指出</span>国家法律框架只要符合《宪章》和国际人权法，就是人权维护者安然工作、致力于促进和保护人权和基本自由的法律框架，</p>
+      </container>
+      <container name="重申" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">重申</span>《人权维护者宣言》及其充分有效执行的重要性，并重申促进尊重、支持和保护人权维护者(包括妇女人权维护者)的活动，对于在线上和线下全面享有人权至关重要，</p>
+      </container>
+      <container name="强调指出" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">强调指出</span>，人权维护者在单独和与他人一起行使《宣言》所述权利和自由时受到的约束应仅限于符合适用的国际义务且法律认定完全出于确保适当承认和尊重他人权利和自由、满足民主社会道德、公共秩序和普遍福祉等正当要求之目的而实施的限制，</p>
+      </container>
+      <container name="注意到" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">注意到</span>民间社会纪念《人权维护者宣言》发表二十五周年的活动，特别是“宣言+25”，</p>
+      </container>
+      <container name="认识到" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">认识到</span>人权维护者，包括妇女人权维护者，在线上和线下促进和保护人权方面，以及在倡导平等获取新技术和通过技术解决方案弥合数字鸿沟，包括性别和地域数字鸿沟方面，发挥着重要且合法的作用，</p>
+      </container>
+      <container name="又认识到" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>新的和新兴数字技术能够拥有巨大潜力，可加强民主机构和增强民间社会的韧性，加强公民参与的能力，促进人权维护者的工作、公众参与和自由开放的思想交流，并促进行使所有人权，</p>
+      </container>
+      <container name="又认识到" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>数字技术也可能通过散布错误信息和虚假信息等方式，成为传播仇恨言论、有害叙事和宣传的工具，这些行为可能构成煽动歧视、敌意或暴力，对实现人权产生负面影响，</p>
+      </container>
+      <container name="强调" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">强调</span>在数字时代，人权维护者的安全面临特殊风险，包括面临非法或任意监视、非法或任意干涉隐私、有针对性的通信拦截、黑客攻击，包括政府支持的黑客攻击，各种形式的线上暴力和骚扰、恐吓、抹黑行动、威胁和人肉搜索(这些行为尤其针对妇女人权维护者)，以及阻止或干扰获取信息和通信渠道的措施，包括关闭互联网，</p>
+      </container>
+      <container name="认识到" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">认识到</span>线上攻击往往为线下侵犯和践踏人权，包括杀害、殴打、强迫失踪和任意拘留铺平道路，对人权维护者的工作造成负面影响，</p>
+      </container>
+      <container name="强调" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">强调</span>数字连通性，包括偏远和农村地区的数字连通性对于确保关键服务的持续提供至关重要，特别是在抗议、选举、危机局势、武装冲突或外国占领期间，并着重指出自由、可负担、开放、可互操作、可靠、稳定、安全、可靠的互联网接入至关重要，</p>
+      </container>
+      <container name="认识到" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">认识到</span>普遍连通性意味着所有人在任何地方都享有连通性，有意义的连通性是指用户能够以可负担的成本获得安全、方便和高效的在线体验，又认识到普遍和有意义的连通性对于享有人权，包括对于人权维护者在线上和线下有效、安全地开展工作至关重要，</p>
+      </container>
+      <container name="强烈谴责" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">强烈谴责</span>使用断网手段，包括阻止访问通信平台，蓄意和任意阻止或干扰在网上获取或传播信息，这种做法不符合国际法，包括国际人权法，并强调自由、可负担、开放、可互操作、可靠和安全的互联网至关重要，</p>
+      </container>
+      <container name="深为关切地注意到" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">深为关切地注意到</span>，私营或公共行为体使用或转让私人监控行业开发的技术工具进行监控，使用恶意软件或间谍软件等方式侵入设备和系统，拦截和中断通信，收集数据，这些行为干扰了那些致力于促进和保护人权和基本自由的个人，包括人权维护者的工作和私人生活，有时侵犯或践踏了他们的人权，包括隐私权，</p>
+      </container>
+      <container name="又深为关切地注意到" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">又深为关切地注意到</span>，监控和(或)拦截通信，包括域外监控和(或)拦截通信，以及收集个人数据，尤其是在大规模实施的情况下，可能会对行使和享有人权，包括妇女和女童的人权产生负面影响，</p>
+      </container>
+      <container name="表示关切" eId="container_23">
+        <p xml:space="preserve">	<span class="bold">表示关切</span>对人权维护者，包括妇女人权维护者在实体和数字空间，包括线上进行的任意和非法监视，包括使用闭路电视和空中监视工具，以及使用新的和新兴数字追踪工具，如生物识别技术，包括面部和情绪识别及国际移动用户身份捕捉器(“黄貂鱼”)，这些行为侵犯或践踏了他们的人权，包括隐私权，</p>
+      </container>
+      <container name="表示严重关切" eId="container_24">
+        <p xml:space="preserve">	<span class="bold">表示严重关切</span>的是，一些国家在其管辖范围之外通过数字、实物和其他手段，包括通过滥用间谍软件和其他侵入性监控软件，在国外开展镇压活动，伤害、压制和恐吓人权维护者，</p>
+      </container>
+      <container name="认识到" eId="container_25">
+        <p xml:space="preserve">	<span class="bold">认识到</span>在不具备适当人权保障措施的情况下使用人工智能系统，包括用于身份识别、追踪、特征分析、面部识别、生成写实的合成图像、行为预测或个人评分时，可能会给保护和促进人权以及人权维护者享有人权带来严重风险，</p>
+      </container>
+      <container name="关切地注意到" eId="container_26">
+        <p xml:space="preserve">	<span class="bold">关切地注意到</span>有报告显示生物数据识别技术，包括面部识别技术准确性较低，显示出种族、性别和残疾识别方面的偏差和偏见，包括在使用非代表性训练数据时，注意到使用数字技术可能复制、强化甚至加剧种族、性别和残疾方面的不平等，并认识到为此采取有效补救措施的重要性，</p>
+      </container>
+      <container name="回顾" eId="container_27">
+        <p xml:space="preserve">	<span class="bold">回顾</span>为支持有意义的多利益攸关方参与所作的努力，包括《2030年可持续发展议程》和《全球数字契约》所载原则，欢迎2024年4月29日和30日在巴西圣保罗举行的关于互联网治理未来的全球多利益攸关方会议十年审查会议通过的关于加强互联网治理和数字政策进程的多利益攸关方声明所载原则，</p>
+      </container>
+      <container name="感到震惊" eId="container_28">
+        <p xml:space="preserve">	<span class="bold">感到震惊</span>的是，人权维护者(包括妇女人权维护者、环境人权维护者和土著人权维护者)或其家人、同事和法律代表遭受杀害、绑架、强迫失踪、任意拘留、酷刑、骚扰、恐吓、定罪、司法骚扰、抹黑行动、暴力(包括性暴力和性别暴力)，以及线上和线下的威胁，</p>
+      </container>
+      <container name="认识到" eId="container_29">
+        <p xml:space="preserve">	<span class="bold">认识到</span>必须根据国际人权法打击数字技术背景下对人权维护者，包括妇女人权维护者一切形式的暴力，包括性剥削和性虐待、使用深度伪造技术、人肉搜索、骚扰、跟踪、欺凌、未经同意分享个人露骨性内容、性暴力和性别暴力威胁和行为、死亡威胁、任意或非法监视和追踪、贩运人口、敲诈勒索、审查、非法进入数字账户、移动电话和其他电子设备，</p>
+      </container>
+      <container name="又认识到" eId="container_30">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>人权维护者已成为越来越多数字攻击的目标，致使他们的通信手段瘫痪，对线上攻击缺乏问责是保护方面的一个漏洞，</p>
+      </container>
+      <container name="承认" eId="container_31">
+        <p xml:space="preserve">	<span class="bold">承认</span>数字环境虽然为实现儿童权利提供了新的机会，但也带来了使同样的权利受到侵犯或践踏的风险，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_32" class="SingleTxtGC">
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="bold">深感关切</span>的是，对人权维护者的线上和线下威胁、攻击和暴力行为不受惩罚，助长了持续的有罪不罚氛围，从而又助长这些罪行一再发生，</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="严重关切" eId="container_33">
+        <p xml:space="preserve">	<span class="bold">严重关切</span>有关国家安全、反恐和网络犯罪的立法及其他措施，如诽谤法和规范民间社会组织的法律，在某些情况下被滥用于针对人权维护者，或妨碍他们的工作并危及他们的安全，这违反国际法，包括人权法，</p>
+      </container>
+      <container name="意识到" eId="container_34">
+        <p xml:space="preserve">	<span class="bold">意识到</span>国内法律和行政规定及其适用不应妨碍而应促进人权维护者的工作，包括应避免违背国家的国际法(包括人权法)义务和承诺对其施加任何罪名和污名，并避免妨碍、歧视、阻碍或限制其工作，</p>
+      </container>
+      <container name="表示严重关切" eId="container_35">
+        <p xml:space="preserve">	<span class="bold">表示严重关切</span>反公众参与策略性诉讼有所增加，包括商业实体提起的此类诉讼增加，目的是对人权维护者施加压力、进行恐吓或耗尽其资源和士气，从而阻碍他们开展工作，包括就涉及公共利益的事项开展工作，</p>
+      </container>
+      <container name="认识到" eId="container_36">
+        <p xml:space="preserve">	<span class="bold">认识到</span>只有采取整体办法，包括加强民主体制、保护国际法律秩序、捍卫公民空间、打击有罪不罚现象、消除性别和经济不平等及社会排斥、弥合所有数字鸿沟，包括国家之间和国家内部的性别和地域数字鸿沟，以及确保平等使用互联网，才能充分保护人权维护者，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_37" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>人人有权单独或与他人一起促进、争取保护和实现《人权维护者宣言》所载的所有人权和基本自由，而不遭到线上和线下的报复也无需为此担心，这对于创建和保持包容、和平与民主社会至关重要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="bold">又强调</span>人权维护者，包括妇女人权维护者，在促进和保护人权，加强理解、容忍与和平、促进平等获取新技术、弥合数字鸿沟方面发挥的积极、重要且合法的作用和做出的贡献，并敦促各国创建和支持一个安全、有利、无障碍和包容的线上和线下环境，以便让他们参与所有相关活动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="bold">强烈谴责</span>国家和非国家行为体对人权维护者，包括妇女人权维护者、环境人权维护者和土著人权维护者，实施暴力、定罪、恐吓、攻击、酷刑、强迫失踪、杀害以及所有其他线上和线下侵犯或践踏人权行为，强调指出需要打击有罪不罚现象，确保通过公正和独立的调查，迅速将那些对人权维护者或其法律代表、同事和家人实施侵犯和侵害行为的责任人绳之以法，并强调确保追究责任是防止今后侵犯和践踏国际人权的一个关键因素；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>民主和法治是保护人权维护者的基本要素，敦促各国采取措施，加强民主体制，保障公民空间，维护法治和打击有罪不罚现象；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国打击有罪不罚现象，就国家和非国家行为体针对任何人权维护者或其法律代表、家人和同事的一切形式侵犯、侵害和威胁开展迅速、公正和独立的调查并追究责任，公开谴责一切形式暴力和歧视，包括多重和交叉形式的歧视，以及恐吓或报复行为，强调此类做法绝无辩解理由；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>人权维护者处境特别报告员的工作，注意到她向人权理事会<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/HRC/58/53以及Adds.1和2。</p></authorialNote> 和大会<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		A/79/123.</p></authorialNote> 提交的报告，并大力鼓励所有国家与特别报告员合作并向其提供协助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="bold">谴责</span>国家和非国家行为体针对那些寻求与次区域、区域和国际机构，包括与联合国及其人权领域的代表和机制合作，现在或曾经与它们合作的个人、群体和社会机构，包括针对人权维护者及其法律代表、同事和家人实施的线上和线下的一切恐吓和报复行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>人人有权单独或与他人一起不受阻碍地接触国际机构并与之沟通而不必担心遭到报复，特别是接触联合国及其人权领域的代表和机制，包括人权理事会及其特别程序、普遍定期审议机制和条约机构以及区域人权机制并与之沟通，并强烈呼吁所有国家实现这项权利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxtGC">
+        <num>9.</num>
+        <list eId="para_73_list">
+          <intro eId="para_73_list_intro">
+            <p xml:space="preserve">	<span class="bold">吁请</span>各国：</p>
+          </intro>
+          <point eId="para_73_list_point_a">
+            <num>(a)</num>
+            <content eId="para_73_list_point_a_content">
+              <p xml:space="preserve">	促进为人权维护者，包括妇女人权维护者在线上和线下开展工作创造一个安全和有利的环境，并确保法律、政策和做法符合包括国际人权法在内的国际法所规定的适用义务和承诺，从而不会不当阻碍或限制人权维护者开展工作或获取资源的能力；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_b">
+            <num>(b)</num>
+            <content eId="para_73_list_point_b_content">
+              <p xml:space="preserve">	避免或停止使用或转让不可能按照国际人权法运行或对享有人权构成不当风险的新技术和新兴技术，包括人工智能应用程序和间谍软件，除非且直至保护人权和基本自由的充分保障措施到位；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_c">
+            <num>(c)</num>
+            <content eId="para_73_list_point_c_content">
+              <p xml:space="preserve">	促进建立一个尊重、保护和促进人权、性别平等并增强妇女和女童权能的可及、包容、开放、安全、可靠的数字空间，加快努力弥合国家之间和国家内部的数字鸿沟，包括性别、地域和其他数字鸿沟，并促进普遍、可负担和有意义的连接性(特别是在抗议、选举、危机局势、武装冲突或外国占领期间)，促进信息和通信技术的使用以及开放、安全的数字接入和数字包容(包括通过数字、媒体和信息扫盲以及数字安全培训)，以促进所有人充分享有人权；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_d">
+            <num>(d)</num>
+            <content eId="para_73_list_point_d_content">
+              <p xml:space="preserve">	鼓励采用多样化和尊重人权的技术解决方案，以促进连通性，包括为小型、非营利和社区互联网运营商创造有利、包容和有效的监管环境；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_e">
+            <num>(e)</num>
+            <content eId="para_73_list_point_e_content">
+              <p xml:space="preserve">	鼓励私营部门适用《工商企业与人权指导原则》；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_f">
+            <num>(f)</num>
+            <content eId="para_73_list_point_f_content">
+              <p xml:space="preserve">	保障表达自由权，包括寻求、接收和传递信息的自由，为此应提高透明度，主动公布数据并将数字和媒体素养纳入教育课程；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_g">
+            <num>(g)</num>
+            <content eId="para_73_list_point_g_content">
+              <p xml:space="preserve">	根据国际人权法，包括《儿童权利公约》，优先制定和实施国家儿童网络安全政策和标准；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_h">
+            <num>(h)</num>
+            <content eId="para_73_list_point_h_content">
+              <p xml:space="preserve">	普及网络覆盖，推广安全通信工具，包括增加对加密通信应用程序和安全报告渠道等数字安全资源的供资；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_i">
+            <num>(i)</num>
+            <content eId="para_73_list_point_i_content">
+              <p xml:space="preserve">	避免因人权维护者记录侵犯和践踏人权行为，包括为此目的与非国家行为体沟通，而对其定罪，剥夺其合法性，发动污名化或抹黑行动，发表仇恨言论和进行虚假信息攻击；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_j">
+            <num>(j)</num>
+            <content eId="para_73_list_point_j_content">
+              <p xml:space="preserve">	避免关闭互联网、实行网络限制或采取任何其他措施以干扰或阻止人权维护者获取或传播信息以及安全可靠地进行通信，包括使用屏蔽、节流或过滤措施，或干扰加密和匿名工具等技术的使用；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_k">
+            <num>(k)</num>
+            <content eId="para_73_list_point_k_content">
+              <p xml:space="preserve">	推广强加密和匿名化的措施及技术解决方案，如假名化，不干涉此类技术解决方案的使用，施加的任何限制均应符合各国根据国际人权法承担的义务，并颁布保护个人数字通信隐私的法律和政策；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_l">
+            <num>(l)</num>
+            <content eId="para_73_list_point_l_content">
+              <p xml:space="preserve">	支持能够帮助人权维护者安全存储和保护信息而不必担心非法监视、数据泄露或设备被任意扣押的努力，包括制定强有力的法律保障，以防止数字工具被滥用于压制异见或攻击人权维护者，并确保其线上和线下的权利得到保护；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_m">
+            <num>(m)</num>
+            <content eId="para_73_list_point_m_content">
+              <p xml:space="preserve">	避免并停止侵犯人权的措施，包括针对人权维护者使用间谍软件等做法，因为这种行为可能违反国际人权法，同时根据国际人权法建立机制，为监控相关违法行为的受害者提供适当补救；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_n">
+            <num>(n)</num>
+            <content eId="para_73_list_point_n_content">
+              <p xml:space="preserve">	确保生物识别和确认技术，包括面部识别技术，不被公共和私人行为体用于大规模监控，仅在符合国际人权法及合法性、必要性和相称性原则的情况下使用，并确保对生物识别和确认技术引起的侵犯和践踏人权行为提供获得补救的渠道；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_o">
+            <num>(o)</num>
+            <content eId="para_73_list_point_o_content">
+              <p xml:space="preserve">	确保对恐怖主义、网络犯罪或危害国家安全罪行的定罪和起诉、诽谤法以及用于应对这方面威胁的其他措施符合国际人权法规定的义务，以避免对人权维护者定罪或不当阻碍他们的工作；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_p">
+            <num>(p)</num>
+            <content eId="para_73_list_point_p_content">
+              <p xml:space="preserve">	通过并实施法律和政策，阻止针对记者、媒体机构和人权维护者(包括妇女人权维护者)的反公众参与策略性诉讼，并向受害者提供法律支持；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_q">
+            <num>(q)</num>
+            <content eId="para_73_list_point_q_content">
+              <p xml:space="preserve">	采取一切必要措施，防止对包括人权维护者在内的民间社会行为体的威胁、攻击、歧视、任意逮捕和拘留或其他形式的骚扰、报复和恐吓行为，迅速、公正、独立地调查任何此类指称的行为，确保提供司法渠道和追究责任，并结束对这类侵犯和践踏人权行为有罪不罚的现象；</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_r">
+            <num>(r)</num>
+            <content eId="para_73_list_point_r_content">
+              <p xml:space="preserve">	加强收集关于人权维护者状况的分类数据，同时利用民间社会、媒体和国家人权机构收集的数据，包括关于威胁、攻击或暴力侵害人权维护者(包括妇女人权维护者)的数据，并尽最大努力向高级专员办事处提供这些数据；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="bold">继续表示特别关切</span>妇女人权维护者在各种情况和条件下过多地面临系统性和结构性的歧视、剥夺经济权利、暴力和骚扰，包括性暴力和性别暴力，以及线上和线下的诽谤、虚假信息攻击和抹黑行动，再次强烈促请各国采取适当、有力和切实的步骤，保护妇女人权维护者并在努力为维护人权营造安全和有利环境时纳入性别平等视角；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="bold">明确谴责</span>在网上攻击妇女和女童的行径，包括利用技术实施或因使用技术而加剧的性暴力、性别暴力和侵害妇女和女童的行为，例如人肉搜索、深度伪造、网络跟踪和网上骚扰，以及通过未经同意分享真实或模拟的私密图像在网上攻击妇女的行径，尤其是参与公共辩论的妇女人权维护者因表达意见而成为攻击目标的情况，呼吁考虑到这些网上歧视和骚扰的特定形式，采取顾及性别平等的对策；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>各国创造并支持一个有利环境，促进妇女民间社会组织和妇女人权维护者在线上和线下充分、平等和有意义的参与，包括为此弥合性别、地域及其他数字鸿沟；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="bold">特别指出</span>，按照《工商企业与人权指导原则》，所有企业――特别是科技行业或线上经营的企业，不论是否跨国企业――均有责任尊重所有人权，包括尊重人权维护者的生命权、人身自由和安全权，尊重他们行使表达自由、和平集会和结社自由权以及参与公共事务的权利，这些对于促进和保护所有人权至关重要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>包括通信服务提供商和社交媒体公司在内的工商企业努力采取保障和保护数字通信和交易保密性的解决方案，包括采取加密、假名化和匿名化等措施，确保实施符合人权标准的保障机制，并按照《工商企业与人权指导原则》，在其服务和产品的整个生命周期及价值链中实施人权尽责，以识别、防范和应对人权维护者面临的潜在风险；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxtGC">
+        <num>15.</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联合国人权事务高级专员办事处举办三次区域研讨会(含混合模式)，邀请民间社会、人权维护者和私营部门参加，以评估数字技术给人权维护者带来的风险和不同地区应对这些问题的最佳做法，同时考虑到现有和新兴商业模式以及性别、地域和其他数字鸿沟和敏感性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxtGC">
+        <num>16.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	<span class="bold">又请</span>高级专员办事处编写一份载有磋商纪要的报告，可包括关于尽责和如何更好地应对数字技术给人权维护者(包括遭受歧视和在武装冲突局势中工作的人权维护者)带来的风险的建议，并向人权理事会第六十三届会议提交该报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_173" class="SingleTxtGC">
+        <num>17.</num>
+        <content eId="para_173__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续处理此事。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第58次" refersTo="#adoptionMeeting">第58次会议</location>
+          <eol />
+          <docDate date="2025-04-04" refersTo="#adoptionDate">2025年4月4日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
