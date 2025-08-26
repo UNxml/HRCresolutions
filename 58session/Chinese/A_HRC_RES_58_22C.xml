@@ -1,0 +1,301 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/zho@/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-22/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANDMINES" href="http://metadata.un.org/thesaurus/1003608" showAs="LANDMINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINE CLEARANCE" href="http://metadata.un.org/thesaurus/1004158" showAs="MINE CLEARANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WAR VICTIMS" href="http://metadata.un.org/thesaurus/1006926" showAs="WAR VICTIMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC, SOCIAL AND CULTURAL RIGHTS" href="http://metadata.un.org/thesaurus/1001882" showAs="ECONOMIC, SOCIAL AND CULTURAL RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-24" outcome="draftResolution" as="A/HRC/58/L.21" by="Albania, Algeria, Azerbaijan, Colombia, Croatia, Cyprus, France, Guatemala, Luxembourg, Malawi, Monaco, Montenegro, Mozambique, Peru, Portugal, Samoa, South Africa, Spain, United Kingdom of Great Britain and Northern Ireland and Vanuatu" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-04" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-04" outcome="adopted" as="Adopted without vote, 58th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/22</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-04" class="rightSmall" refersTo="#dateOfIssuance">4 April 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">第五十八届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 二月</date>
+          <date date="2025-04-04" refersTo="#endDate">4 四月 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">议程项目3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">促进和保护所有人权――公民权利、政治权利、 经济、社会及文化权利，包括发展权</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2025年4月4日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/22.</docNumber>
+        <docTitle refersTo="#resolutionTitle">杀伤人员地雷对充分享受所有人权的影响</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会，</span>
+        </p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">遵循</span>《联合国宪章》的宗旨和原则以及《世界人权宣言》，</p>
+      </container>
+      <container name="回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">回顾</span>《公民及政治权利国际公约》、《经济社会文化权利国际公约》和其他相关国际人权法文书，包括《消除对妇女一切形式歧视公约》、《儿童权利公约》和《残疾人权利公约》，以及《维也纳宣言和行动纲领》，</p>
+      </container>
+      <container name="重申" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">重申</span>人人有权享有生命、自由和人身安全，有资格享有一种能充分实现《世界人权宣言》所载权利和自由的社会和国际秩序，</p>
+      </container>
+      <container name="回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">回顾</span>1949年8月12日日内瓦四公约及其1977年6月8日附加议定书，以及其他相关国际人道法文书，包括《禁止杀伤人员地雷公约》和《特定常规武器公约》，</p>
+      </container>
+      <container name="承认" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">承认</span>和平与安全、发展、人权是联合国系统的支柱，也是集体安全和福祉的基础，并认识到和平与安全、发展、人权相互关联，相辅相成，</p>
+      </container>
+      <container name="强调" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">强调</span>所有人权都是普遍、不可分割、相互依存和相互关联的，</p>
+      </container>
+      <container name="承认" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">承认</span>国际人权法和国际人道法互为补充、相辅相成，重申应根据国际法，竭尽全力制止侵犯和践踏人权行为，确保停止一切违反国际人道法的行为，并确保充分遵守这些适用的国际法律框架，</p>
+      </container>
+      <container name="重申" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">重申</span>应根据适用的国际人权法和国际人道法，在武装冲突情况下，包括在外国占领情况下，以及在冲突后情况下，就平民和平民群体采取有效措施，保障和监测其人权的实现，并提供有效保护，防止侵犯人权行为，</p>
+      </container>
+      <container name="铭记" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">铭记</span>《2030年可持续发展议程》，尤其是可持续发展目标16――“创建和平、包容的社会”，承认促进和保护人权与执行《2030年议程》相互关联且相辅相成，</p>
+      </container>
+      <container name="注意到" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">注意到</span>大会通过了《未来契约》，<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		大会第79/1号决议。</p></authorialNote> 国家元首和政府首脑在该契约中承诺加倍努力，履行相关国际文书规定的各自义务，鉴于常规武器的人道主义影响对其加以禁止或限制，并采取步骤促进地雷行动的所有相关方面，</p>
+      </container>
+      <container name="表示关切的是" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">表示关切的是</span>，杀伤人员地雷，包括作为冲突遗留物的杀伤人员地雷，继续对充分享有所有人权，包括生命权、行动自由权、健康权、受教育权、工作权和适足食物权以及发展权构成严重威胁，并影响平民、平民群体、参与人道主义援助和维和行动的人员，阻碍恢复和重建方案，阻碍人道主义准入，阻碍难民和境内流离失所者自愿和安全回返，</p>
+      </container>
+      <container name="注意到" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">注意到</span>收集、使用和分析数据的重要性，其中包括伤亡记录信息，这些信息有助于确定地雷行动，如风险教育、排雷和受害者援助的优先次序，从而为促进和保护所有人权作出积极贡献，</p>
+      </container>
+      <container name="重申" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">重申</span>决心结束杀伤人员地雷所造成的痛苦和伤亡，杀伤人员地雷每年导致成千上万人伤亡，阻碍可持续发展，对生态系统造成损害，包括生物多样性丧失、土壤退化和水污染，不利于实现清洁、健康和可持续的环境，</p>
+      </container>
+      <container name="深为关切" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">深为关切</span>杀伤人员地雷的严重遗留问题产生的人道主义影响，并对世界不同地区相关伤亡人数不断增加表示关切，</p>
+      </container>
+      <container name="深为关切地注意到" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">深为关切地注意到</span>，杀伤人员地雷，包括简易地雷，继续在世界各地的一些冲突中被使用，包括被恐怖分子和非国家武装团体所使用，给人类带来苦难并阻碍冲突后的发展，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_17" class="SingleTxtGC">
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="bold">表示特别关切</span>杀伤人员地雷带来的无差别和不成比例的影响，强调1949年日内瓦四公约缔约国承诺在一切情况下遵守这些公约并确保这些公约得到遵守，认为所有人权都需要得到同等保护，且人权法提供的保护在武装冲突局势中继续适用，同时考虑到国际人道法的适用，</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="认识到" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">认识到</span>杀伤人员地雷对个人，特别是杀伤人员地雷爆炸幸存者享有公民、政治、经济、社会和文化权利造成严重影响，尤其是在发展中国家，幸存者在获得基本医疗保健、康复服务、环境补救以及重新融入社会和经济生活的机会方面往往面临重大障碍，受影响社区也深受其害，因为地雷污染导致大片土地无法使用，不仅损害农业生产和粮食安全，还摧毁了生计，</p>
+      </container>
+      <container name="强调" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">强调</span>由于多重和加重形式的歧视，妇女和女童作为杀伤人员地雷的直接和间接受害者，受到与男性不同的影响，表示关切的是，由于性别成见和不良社会规范，妇女和女童往往要承担起照顾幸存者和为家庭提供经济支持的角色，特别是在家庭主要经济支柱受伤或身亡的情况下，这加剧了现有的结构性不平等，</p>
+      </container>
+      <container name="承认" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">承认</span>地雷爆炸幸存者遭受了严重的身体伤害，包括由此导致的残疾和心理创伤，认识到需要向受害者提供全面援助，促进他们充分和平等地融入社会，同时考虑到受害者和幸存者的不同脆弱性和需求，</p>
+      </container>
+      <container name="强调" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">强调</span>全面且以受害者为中心的支持工作应当以幸存者及其家人和社区的权利和需要为核心，</p>
+      </container>
+      <container name="欢迎" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>各国、国际组织、民间社会和其他利益攸关方努力应对杀伤人员地雷的人道主义后果，包括执行《禁止杀伤人员地雷公约》、《特定常规武器公约》和其他适用的国际协定，</p>
+      </container>
+      <container name="承认" eId="container_23">
+        <p xml:space="preserve">	<span class="bold">承认</span>地雷行动具有人道主义性质，且许多国家，特别是资源有限的国家，在实施包括排雷、受害者援助和风险教育在内的全面地雷行动方案时，可能面临财政、技术和后勤等方面的重大挑战，</p>
+      </container>
+      <container name="强调" eId="container_24">
+        <p xml:space="preserve">	<span class="bold">强调</span>在地雷行动中，包括在排雷、风险教育、受害者援助以及倡导普遍遵守和执行与杀伤人员地雷有关的适用国际法律文书方面，开展国际合作并分享知识和相关信息、资源和最佳做法至关重要，</p>
+      </container>
+      <container name="认识到" eId="container_25">
+        <p xml:space="preserve">	<span class="bold">认识到</span>需要将对幸存者及其家人和社区的援助纳入与卫生、残疾、社会保护、教育、就业和发展有关的更广泛的国家政策、计划和法律框架，</p>
+      </container>
+      <container name="承认" eId="container_26">
+        <p xml:space="preserve">	<span class="bold">承认</span>必须从性别、适龄和包容残疾人的角度出发，让女性和男性，包括残疾人、青年、老年人及其代表组织都能充分参与地雷行动方案并赋予他们平等的参与机会，</p>
+      </container>
+      <container name="注意到" eId="container_27">
+        <p xml:space="preserve">	<span class="bold">注意到</span>国家、区域和次区域层面的努力，包括东南亚国家联盟区域排雷行动中心的工作，非洲联盟正在制定的新的地雷行动战略框架，以及其他相关的区域地雷行动战略，</p>
+      </container>
+      <container name="又注意到" eId="container_28">
+        <p xml:space="preserve">	<span class="bold">又注意到</span>除了会员国发挥主要作用外，联合国人权事务高级专员办事处也在机构间地雷行动协调小组的工作中努力确保将人权贯穿于整个联合国系统的地雷行动中，并注意到秘书长2019年6月11日启动的联合国残疾包容战略，</p>
+      </container>
+      <container name="重申" eId="container_29">
+        <p xml:space="preserve">	<span class="bold">重申</span>联合国的愿景――一个没有杀伤人员地雷和爆炸物威胁的世界，在这样一个世界上，个人和社区生活在有利于发展的安全环境中，地雷幸存者充分融入社会，</p>
+      </container>
+      <container name="回顾" eId="container_30">
+        <p xml:space="preserve">	<span class="bold">回顾</span>每年4月4日是国际提高地雷意识和协助地雷行动日，这是一个提高对杀伤人员地雷威胁及其对人权影响的认识的机会，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_31" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>所有国家加强和增进对国际人权法和国际人道法规定的义务的承诺，并敦促相关国际条约的缔约国，包括《禁止杀伤人员地雷公约》和《特定常规武器公约》的缔约国充分履行其义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>所有国家并酌情吁请其他相关利益攸关方开展有效合作，通过加快排雷工作和确保包容、非歧视和全面的受害者援助等方式，应对杀伤人员地雷对保护和促进所有人权的影响；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国作出协调一致的多部门努力，通过涉及残疾、卫生(包括精神卫生和社会心理支持)、教育、就业、发展和减贫的国家政策和法律框架，特别是《残疾人权利公约》的适用条款，确保杀伤人员地雷爆炸的幸存者，特别是儿童及其家人和社区的需求得到有效应对，其人权得到促进和保护；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国、国际组织、民间社会和其他利益攸关方密切合作，分享排雷和受害者支助方面的知识、相关信息、资源和最佳做法，重点确保幸存者获得必要的医疗保健、康复服务和重新融入社会的机会，并充分和平等地融入社会；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>关于杀伤人员地雷危险性的教育和宣传至关重要，特别是在受地雷影响的地区，呼吁将地雷风险教育纳入更广泛的教育和社区宣传方案；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="bold">请</span>所有国家加强努力，包括认真考虑加入《禁止杀伤人员地雷公约》，以终止杀伤人员地雷造成的痛苦和伤亡；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联合国人权事务高级专员与各国、国际组织、民间社会和其他相关利益攸关方协商，以确保进行全面和具有包容性的分析，并据此编写一份关于杀伤人员地雷对享受所有人权的影响的报告，特别侧重对经济、社会和文化权利的影响，提交人权理事会第六十二届会议，随后进行互动对话；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续处理此事。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第58次" refersTo="#adoptionMeeting">第58次会议</location>
+          <eol />
+          <docDate date="2025-04-04" refersTo="#adoptionDate">2025年4月4日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
