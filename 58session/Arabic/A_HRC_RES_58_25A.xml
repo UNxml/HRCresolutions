@@ -1,0 +1,326 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-25/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-25/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-25/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-25/ara@/"></FRBRuri>
+          <FRBRdate date="2025-04-07" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-25/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-25/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Independent International Commission of Inquiry on the Syrian Arab Republic" showAs="Independent International Commission of Inquiry on the Syrian Arab Republic" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POLITICAL CONDITIONS" href="http://metadata.un.org/thesaurus/1004971" showAs="POLITICAL CONDITIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSITIONAL JUSTICE" href="http://metadata.un.org/thesaurus/1006637" showAs="TRANSITIONAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SYRIAN ARAB REPUBLIC" href="http://metadata.un.org/thesaurus/1006348" showAs="SYRIAN ARAB REPUBLIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COMMISSIONS OF INQUIRY" href="http://metadata.un.org/thesaurus/1001107" showAs="COMMISSIONS OF INQUIRY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="4" showAs="Human rights situations that require the Council's attention." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-27" outcome="draftResolution" as="A/HRC/58/L.25" by="Albania, Australia, Belgium, Bulgaria, Canada, Costa Rica, Croatia, Czechia, Denmark, Finland, France, Georgia, Germany, Iceland, Ireland, Lithuania, Luxembourg, Monaco, Montenegro, Netherlands (Kingdom of the), North Macedonia, Norway, Poland, Portugal, Qatar, Slovakia, Slovenia, Spain, Türkiye, Ukraine and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-07" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-07" outcome="adopted" as="Adopted without vote, 59th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/25</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-07" class="rightSmall" refersTo="#dateOfIssuance">7 April 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">الدورة الثامنة والخمسون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 شباط</date>
+          <date date="2025-04-04" refersTo="#endDate">4 نيسان 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="4" name="agenda item">البند 4 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">حالات حقوق الإنسان التي تتطلب اهتمام المجلس بها</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 4 نيسان/أبريل 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/25</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	حالة حقوق الإنسان في الجمهورية العربية السورية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان</span>،</p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">إذ يسترشد</span> بمبادئ ميثاق الأمم المتحدة ومقاصده،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد</span> قراراته السابقة المتعلقة بالجمهورية العربية السورية الصادرة من عام 2011 إلى كانون الأول/ديسمبر 2024،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد أيضاً" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد من جديد أيضاً</span> التزامه القوي بالاحترام الكامل لسيادة الجمهورية العربية السورية واستقلالها ووحدتها وسلامتها الإقليمية،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> بنهاية النظام السوري السابق في كانون الأول/ديسمبر 2024، الذي لم يفِ بمسؤوليته عن حماية الشعب السوري واحترام وحماية وإعمال حقوق الإنسان الواجبة لجميع الأشخاص المشمولين بولايته، بمن فيهم الأشخاص المحتجزون وأسرهم، والتحقيق في الادعاءات المتعلقة بجرائم الحرب وكذلك الانتهاكات الجسيمة للقانون الدولي الإنساني والقانون الدولي لحقوق الإنسان، وإذ يشير إلى البيانات التي أدلى بها الأمين العام ومفوض الأمم المتحدة السامي لحقوق الإنسان التي مفادها أنه من المرجح أن تكون جرائم ضد الإنسانية وجرائم حرب قد ارتُكبت في الجمهورية العربية السورية،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">وإذ يشير</span> إلى ما جاء في بيانات الأمين العام والمفوض السامي من أنه بعد 14 عاماً من النزاع، يجب أن تكون عملية إقامة الجمهورية العربية السورية المقبلة، التي ترتكز على حقوق الإنسان والحرية والعدالة، عملية يقودها ويملك زمامها السوريون، وأن يكون الانتقال السياسي تمثيلياً وجامعاً وشاملاً، يلبي التطلعات المشروعة لجميع أفراد الشعب السوري بكل أطيافه ويعزز إعمال حقوق الإنسان الواجبة لهم،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> في هذا الصدد بمداخلة وزير الخارجية والمغتربين في الجمهورية العربية السورية خلال الدورة الحالية لمجلس حقوق الإنسان، ولا سيما ما أوحت به من أن الذين تولوا الحكم في الجمهورية العربية السورية يتحملون مسؤولية عميقة لضمان ألا تتكرر أبداً الفظائع والانتهاكات التي ارتكبها النظام السابق وأن الشعب السوري يستحق وطناً تكون فيه حقوقه مصونة وأصواته مسموعة وكرامته محفوظة،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد</span> على أهمية اتباع نهج شامل للتعامل مع الماضي عن طريق العدالة الانتقالية، على نحو يتضمن مجموعة كاملة من التدابير القضائية وغير القضائية، من أجل ضمان المساءلة، وتحقيق العدالة، وتوفير سبل الانتصاف للضحايا والأسر، وتعزيز التعافي والمصالحة، وضمان الثقة في مؤسسات الدولة، وتعزيز سيادة القانون وفقاً للقانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان، بهدف منع تكرار الانتهاكات والتجاوزات،</p>
+      </container>
+      <container name="وإذ يشدد أيضاً" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">وإذ يشدد أيضاً</span> على أهمية ضمان مشاركة الضحايا في جميع مراحل عمليات التحقيق والتماس الحقيقة والمصالحة وتخليد الذكرى وفي وضع ضمانات عدم التكرار، وإذ يدرك أن مشاركتهم ضرورية لتحقيق العدالة والمساءلة والسلام المستدام، وأن مشاركتهم الكاملة والهادفة والآمنة يجب أن تكون في صميم جميع جهود العدالة الانتقالية،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد</span> دور كل من مفوضية الأمم المتحدة السامية لحقوق الإنسان، والآلية الدولية المحايدة المستقلة للمساعدة في التحقيق والملاحقة القضائية للأشخاص المسؤولين عن الجرائم الأشد خطورة وفق تصنيف القانون الدولي المرتكبة في الجمهورية العربية السورية منذ آذار/مارس 2011، ولجنة التحقيق الدولية المستقلة المعنية بالجمهورية العربية السورية، التي أنشأها مجلس حقوق الإنسان في قراره دإ-17/1 المؤرخ 23 آب/أغسطس 2011، وكذلك دور المؤسسة المستقلة المعنية بالأشخاص المفقودين في الجمهورية العربية السورية،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">وإذ يقر</span> بما يؤديه المجتمع المدني السوري والدولي والمدافعون عن حقوق الإنسان والضحايا والناجون وأسرهم من دور مهم في توثيق الانتهاكات والتجاوزات في الجمهورية العربية السورية طوال فترة النزاع وما بعد النزاع، معرضين أنفسهم لمخاطر كبيرة في غالب الأحيان، من أجل استجلاء الحقيقة وتحقيق المساءلة،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">وإذ يرحب</span> بالزيارات التي أجراها والملاحظات التي أبداها كل من المفوض السامي والآلية الدولية المحايدة والمستقلة والمؤسسة المستقلة المعنية بالأشخاص المفقودين في الجمهورية العربية السورية ولجنة التحقيق والمدعي العام للمحكمة الجنائية الدولية منذ كانون الأول/ديسمبر 2024، بعد أن أجازت حكومة الجمهورية العربية السورية الوصول على نحو غير مسبوق، وهو ما كان النظام السابق يمنعه، وإذ يلاحظ أن ولايات هذه الآليات المختلفة متميزة ولكن متكاملة،</p>
+      </container>
+      <container name="وإذ يعرب عن أسفه" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">وإذ يعرب عن أسفه</span> لأن النظام السوري السابق دأب منذ عام 2011 على استخدام الاحتجاز التعسفي والتعذيب وغيره من ضروب المعاملة القاسية أو اللاإنسانية أو المهينة، بما في ذلك العنف الجنسي والجنساني والاختفاء القسري، وغير ذلك من الانتهاكات المتعلقة بالاحتجاز، من أجل ترهيب من يُعتقد أنهم معارضون سياسيون ومنشقون مدنيون وأفراد أسرهم ومعاقبتهم وإكراههم، بالإضافة إلى عمليات الإعدام بإجراءات موجزة والقتل خارج نطاق القضاء واستهداف المدنيين واستخدام الأسلحة الكيميائية، على النحو الذي وثقته لجنة التحقيق<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	انظر أيضاً <a href="https://docs.un.org/ar/A/HRC/46/55">A/HRC/46/55</a> وورقة غرفة اجتماعات لجنة التحقيق المعنونة: ”‘Web of agony’: arbitrary detention, torture and ill-treatment by former Government forces in the Syrian Arab Republic“، والمتاحة في الصفحة الإلكترونية للجنة التحقيق: <a href="https://www.ohchr.org/en/hr-bodies/hrc/iici-syria/documentation">https://www.ohchr.org/en/hr-bodies/hrc/iici-syria/documentation</a>.</p></authorialNote><sup>)</sup> والمفوضية السامية،</p>
+      </container>
+      <container name="وإذ يكرر الإعراب عن قلقه البالغ" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">وإذ يكرر الإعراب عن قلقه البالغ</span> إزاء النتائج التي توصل إليها فريق التحقيق وتحديد الهوية التابع لمنظمة حظر الأسلحة الكيميائية التي تنسب المسؤولية عن هجمات متعددة بالأسلحة الكيميائية إلى النظام السوري السابق، وإذ يعرب عن اقتناعه الراسخ بوجوب محاسبة جميع المسؤولين عن استخدام الأسلحة الكيميائية في الجمهورية العربية السورية،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ</span> أنه على الرغم من إفراج حكومة الجمهورية العربية السورية المرحب به عن السجناء منذ كانون الأول/ديسمبر 2024، ستستمر لسنوات عدة الجهود المبذولة لتحديد مصير الذين ما زالوا في عداد المفقودين وأماكن وجودهم وضرورة دعم الضحايا والناجين وأسرهم، بسبل منها تقديم المساعدة النفسية والاجتماعية، وأن هذه الجهود يمكن أن تدعمها المؤسسة المستقلة المعنية بالمفقودين في الجمهورية العربية السورية،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">وإذ يؤكد</span> الضرورة الملحة لحفظ وتأمين جميع الوثائق والمعلومات والأدلة المتعلقة بانتهاكات وتجاوزات حقوق الإنسان، وانتهاكات القانون الدولي الإنساني، لضمان جهود المساءلة التي يقودها ويملك زمامها السوريون، مدعومة باستمرار الجهود الدولية لتحقيق هذه الغاية،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق بالغ" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">وإذ يلاحظ بقلق بالغ</span> الادعاءات المثيرة للجزع عن الهجمات التي وقعت منذ كانون الأول/ ديسمبر 2024 والتي تشكل فيما يبدو أعمالاً انتقامية، والتقارير المثيرة للجزع عن أعمال القتل التي وقعت في المنطقة الساحلية في آذار/مارس 2025، بما في ذلك قتل المدنيين، وما تخلفه هذه الهجمات من تأثير ضار على السلام والمصالحة،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">وإذ يقر</span> بالتزامات حكومة الجمهورية العربية السورية بالتحقيق في الانتهاكات والتجاوزات المبلغ عنها، بما في ذلك لجنة تقصي الحقائق المشكلة حديثاً للتحقيق في الأحداث التي وقعت في غرب الجمهورية العربية السورية في آذار/مارس 2025، وكذلك تشكيل لجنة مخصصة للحفاظ على السلم الأهلي في المناطق المتضررة، مشيراً إلى ضرورة أن تكون التحقيقات مستقلة وسريعة وشفافة ونزيهة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxtGA">
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">وإذ يدعم</span> الجهود التي تبذلها حكومة الجمهورية العربية السورية تأكيداً لوحدة الجمهورية العربية السورية وسلامتها الإقليمية، ورفض أي شكل من أشكال التقسيم، وضمان حقوق جميع السوريين في التمثيل والمشاركة في العملية السياسية وفي جميع مؤسسات الدولة على أساس الكفاءة، بغض النظر عن خلفيتهم الدينية أو الإثنية، واعتبار هذه المساعي خطوات هامة نحو تعزيز الحقوق السياسية والمدنية للسوريين، وتوطيد الأمن والاستقرار، والحفاظ على وحدة الجمهورية العربية السورية وسلامتها الإقليمية،</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="وإذ يقر" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يقر</span> ببيانات الأمين العام والمبعوث الخاص للأمين العام إلى سوريا التي أشارا فيها إلى التوغلات الإسرائيلية، التي تشكل انتهاكاً لاتفاق فض الاشتباك بين القوات الإسرائيلية والقوات السورية لعام 1974، والتي تهدد بزيادة زعزعة استقرار الوضع الهش أصلاً، وزيادة حدة التوتر الإقليمي وتقويض الجهود الرامية إلى وقف التصعيد وتحقيق انتقال سياسي مستدام، وإذ يشدد في هذا الصدد على أهمية ضمان سيادة الجمهورية العربية السورية وسلامتها الإقليمية ووحدتها، وفقاً للقانون الدولي، بما في ذلك مبادئ الميثاق وقرارات مجلس الأمن ذات الصلة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_21" class="SingleTxtGA">
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">وإذ يدعم</span> حكومة الجمهورية العربية السورية فيما تبذله من جهود تتماشى مع القانون الدولي، لضمان عدم تمكن الجماعات الإرهابية من إعادة إنشاء ملاذ لها في الأراضي السورية، من أجل الحفاظ على السلامة الإقليمية للجمهورية العربية السورية ووحدتها وسيادتها، وضمان التعايش السلمي،</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="وإذ يسلم" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلم</span> باستمرار الحاجة إلى إيصال المساعدات الإنسانية على نحو سريع وآمن ومستدام ودون عوائق إلى كل مَن يحتاج إليها في جميع أنحاء الجمهورية العربية السورية، وإذ يسلم أيضاً بالحاجة إلى جهود مستدامة مثل التعافي المبكر وإعادة الإعمار التي تسهم في إنعاش البلد، وإذ يرحب بالإعفاءات والاستثناءات من عدد من العقوبات والتدابير التقييدية المطبقة على الجمهورية العربية السورية منذ سقوط النظام السابق وتعليقها،</p>
+      </container>
+      <container name="وإذ يسلط الضوء" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">وإذ يسلط الضوء</span> على ضرورة العمل من أجل رفع بعض العقوبات المتعلقة بالجمهورية العربية السورية، وتعزيز مصالح الشعب السوري وتعافي الاقتصاد السوري والانتقال السياسي، كجزء من جهد عالمي لدعم السلام والازدهار في الجمهورية العربية السورية، مع تقدم الإطار الانتقالي وتنفيذ الإصلاحات المرتبطة به،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد</span> دعمه للشعب السوري في سعيه إلى اتباع عملية سياسية سلمية وتمثيلية وجامعة، انطلاقاً من روح المبادئ الأساسية لقرار مجلس الأمن <a href="https://docs.un.org/ar/S/RES/2254(2015)">2254(2015)</a> المؤرخ 18 كانون الأول/ديسمبر 2015، ودعمه لجهود المبعوث الخاص للأمين العام إلى سورية في مساعدته الشعب السوري في مسعاه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بتشكيل حكومة تضم مختلف أطياف المجتمع السوري، والالتزام ببناء مؤسسات الدولة تمهيداً لإجراء انتخابات حرة ونزيهة، ويرحب أيضاً في هذا الصدد بالتوصيات التي قُدمت في مؤتمر الحوار الوطني في شباط/فبراير 2025، ويشجع بقوة على وضع جداول زمنية ونقاط مرحلية واضحة لتحقيق هذه الغاية والإبلاغ عنها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">يرحب أيضاً</span> بأحكام الإعلان الدستوري الموقع في آذار/مارس 2025 التي تؤكد أن الدولة تكفل حقوق الإنسان والحريات الأساسية، ويحيط علماً بالأحكام التي تنص على حرية التعبير وحرية الدين وحقوق المرأة ويؤيدها ويدعو إلى تنفيذها، ويعرب عن أمله في أن يكون الإعلان الدستوري بمثابة إطار متين لعملية انتقالية ناجحة ومنظمة وجامعة ومستقبل سلمي للجمهورية العربية السورية، بما يضمن حقوق الإنسان والحريات الأساسية لجميع السوريين، وتحقيق العدالة والمساءلة، ودعم الحكم الرشيد وسيادة القانون؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> حكومة الجمهورية العربية السورية على ضمان مسار مستدام نحو مساءلة ذات مصداقية عن جميع الجرائم، تنصف الضحايا والناجين وأسرهم، وتسهم في تحقيق المصالحة ومستقبل سلمي لجميع السوريين، ويسلم في هذا الصدد بأن الإعلان الدستوري يتضمن نصاً يقضي بإنشاء هيئة للعدالة الانتقالية، لكنه يسلم أيضاً بالتحديات العديدة التي تواجهها الحكومة في سعيها إلى تحقيق المساءلة والعدالة الانتقالية، وهي عملية يقودها ويملك زمامها السوريون، وذلك بسبب حجم الانتهاكات الجسيمة التي ارتكبها النظام السابق وعواقبها المعقدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">يدعو</span> حكومة الجمهورية العربية السورية إلى ضمان التحقيق في الادعاءات المتعلقة بجميع الجرائم التي تشكل فيما يبدو أعمالاً انتقامية، ومحاسبة الجناة من خلال آليات قضائية شفافة ومناسبة تتوافق مع معايير حقوق الإنسان، ويقر في هذا الصدد بالالتزام الذي قُطع على أعلى المستويات في الجمهورية العربية السورية في 9 آذار/مارس 2025 بمحاسبة جميع المتورطين في الانتهاكات والتجاوزات التي وقعت خلال أحداث آذار/مارس 2025؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">يدعم</span> حكومة الجمهورية العربية السورية في جهودها الرامية إلى ضمان الحفاظ على الوثائق والمعلومات والأدلة المتعلقة بانتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني، بما في ذلك المقابر الجماعية، ويشجع حكومة الجمهورية العربية السورية على وضع نظام شامل ومستدام لصون هذه الأدلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">يرحب</span> بقيام الأمين العام بتعيين أمين عام مساعد للمؤسسة المستقلة المعنية بالأشخاص المفقودين في الجمهورية العربية السورية، ويحث في هذا الصدد حكومة الجمهورية العربية السورية على العمل مع المؤسسة المستقلة المذكورة للمساعدة في الجهود التي يقودها السوريون بهدف توضيح مصير جميع المفقودين في الجمهورية العربية السورية وأماكن وجودهم وتقديم الدعم الكافي للضحايا والناجين وأسر المفقودين، وضمان مشاركة الضحايا والناجين وأسر المفقودين في الجمهورية العربية السورية وتمثيلهم في هذا المسعى على نحو كامل ومتكافئ وهادف وآمن، وتنسيق الدعم في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">يشجع</span> حكومة الجمهورية العربية السورية على مواصلة تعاملها الإيجابي مع مفوضية الأمم المتحدة السامية لحقوق الإنسان، والآلية الدولية المحايدة والمستقلة للمساعدة في التحقيق والملاحقة القضائية للأشخاص المسؤولين عن الجرائم الأشد خطورة وفق تصنيف القانون الدولي المرتكبة في الجمهورية العربية السورية منذ آذار/مارس 2011، والمؤسسة المستقلة المعنية بالأشخاص المفقودين في الجمهورية العربية السورية، ولجنة التحقيق الدولية المستقلة المعنية بالجمهورية العربية السورية وغيرها من الإجراءات الخاصة ذات الصلة، وكذلك مع المجتمع المدني السوري، بما في ذلك روابط وجمعيات الضحايا، ويدعو في هذا الصدد هذه المنظمات والآليات إلى تنسيق نهجها وأنشطتها لضمان الفعالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">يعرب</span> عن دعمه للمجتمع المدني والمدافعين عن حقوق الإنسان والضحايا والناجين وأسرهم ولدورهم المستمر في جهود العدالة الانتقالية والمساءلة التي يقودها ويملك زمامها السوريون والتي تحتضن الجميع وتركز على الضحايا، ويؤكد في هذا الصدد ضرورة حماية الحيز المدني وحرية الإعلام ونزاهته ومشاركة المرأة وقيادتها في عملية الانتقال السياسي على نحو كامل ومتكافئ وهادف وآمن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> تمديد ولاية لجنة التحقيق الدولية المستقلة المعنية بالجمهورية العربية السورية مدة سنة واحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى المفوضية السامية تعزيز موارد لجنة التحقيق حتى يتسنى لها الاضطلاع بولايتها على نحو كامل داخل الجمهورية العربية السورية، ولا سيما فيما يتعلق بالدعم الأمني واللوجستي والخبرة في مجال حماية الضحايا، ويرحب بسماح حكومة الجمهورية العربية السورية للجنة بالوصول على نطاق واسع، ويشجع حكومة الجمهورية العربية السورية على منح اللجنة إمكانية الوصول اللازم إلى جميع أنحاء الجمهورية العربية السورية وعلى التعاون الوثيق مع اللجنة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="italic">يطلب</span> إلى لجنة التحقيق أن تقدم إلى مجلس حقوق الإنسان تحديثاً شفوياً في دورتيه التاسعة والخمسين والستين، على أن يعقبه تقديم تقرير محدّث أثناء جلسة تحاور في الدورة الحادية والستين للمجلس؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="italic">يؤكد من جديد</span> قراره إحالة تقرير لجنة التحقيق وتحديثاتها الشفوية إلى هيئات الأمم المتحدة ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">يقرر</span> أن يبقي المسألة قيد نظره.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="59" refersTo="#adoptionMeeting">الجلسة 59</location>
+          <eol />
+          <docDate date="2025-04-04" refersTo="#adoptionDate">4 نيسان/أبريل 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتُمد من دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
