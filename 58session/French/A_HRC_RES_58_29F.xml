@@ -1,0 +1,378 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-29/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-29/"></FRBRuri>
+          <FRBRdate date="2025-04-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-29/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-29/fra@/"></FRBRuri>
+          <FRBRdate date="2025-04-07" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-29/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-04-04/58-29/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="RELIGIOUS INTOLERANCE" href="http://metadata.un.org/thesaurus/1005466" showAs="RELIGIOUS INTOLERANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISCRIMINATION" href="http://metadata.un.org/thesaurus/1001697" showAs="DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="VIOLENCE" href="http://metadata.un.org/thesaurus/1006882" showAs="VIOLENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RELIGIOUS FREEDOM" href="http://metadata.un.org/thesaurus/1005463" showAs="RELIGIOUS FREEDOM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GROUP HATRED" href="http://metadata.un.org/thesaurus/1002773" showAs="GROUP HATRED" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ANTI-DISCRIMINATION MEASURES" href="http://metadata.un.org/thesaurus/1000318" showAs="ANTI-DISCRIMINATION MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="9" showAs="Racism, racial discrimination, xenophobia and related forms of intolerance, follow-up to and implementation of the Durban Declaration and Programme of Action." dictionary="A/HRC/58/1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-24" outcome="draftResolution" as="A/HRC/58/L.18" by="Australia, Canada, Eritrea, Ethiopia, Germany, Iceland, Luxembourg, Netherlands (Kingdom of the), Pakistan, Paraguay and Spain" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-04-07" outcome="recommendedForAdoption" by="" />
+        <step date="2025-04-07" outcome="adopted" as="Adopted without vote, 59th meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/58/29</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-04-07" class="rightSmall" refersTo="#dateOfIssuance">7 avril 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="58" eId="coverPage_1__session_1">Cinquante-huitième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-02-24" refersTo="#startDate">24 février</date>
+          <date date="2025-04-04" refersTo="#endDate">4 avril 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="9" name="agenda item">Point 9 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 4 avril 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>58/29.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Lutte contre l’intolérance, les stéréotypes négatifs, la stigmatisation,  la discrimination, l’incitation à la violence et la violence visant certaines personnes en raison de leur religion ou de leurs convictions</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Réaffirmant" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> l’engagement que tous les États ont pris, dans la Charte des Nations Unies, de favoriser et d’encourager le respect universel et effectif des droits humains et des libertés fondamentales pour tous, sans distinction notamment de religion ou de conviction,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant également </span>ses résolutions <a href="https://docs.un.org/fr/A/HRC/RES/16/18">16</a><a href="https://docs.un.org/fr/A/HRC/RES/16/18">/</a><a href="https://docs.un.org/fr/A/HRC/RES/16/18">18</a> du 24 mars 2011, <a href="https://docs.un.org/fr/A/HRC/RES/19/25">19/25</a> du 23 mars 2012, <a href="https://docs.un.org/fr/A/HRC/RES/22/31">22/31</a> du 22 mars 2013, <a href="https://docs.un.org/fr/A/HRC/RES/25/34">25/34</a> du 28 mars 2014, <a href="https://docs.un.org/fr/A/HRC/RES/28/29">28/29</a> du 27 mars 2015, <a href="https://docs.un.org/fr/A/HRC/RES/31/26">31/26</a> du 24 mars 2016, <a href="https://docs.un.org/fr/A/HRC/RES/34/32">34/32</a> du 24 mars 2017, <a href="https://docs.un.org/fr/A/HRC/RES/37/38">37/38</a> du 23 mars 2018, <a href="https://docs.un.org/fr/A/HRC/RES/40/25">40/25</a> du 22 mars 2019, <a href="https://docs.un.org/fr/A/HRC/RES/43/34">43/34</a> du 22 juin 2020, <a href="https://docs.un.org/fr/A/HRC/RES/46/27">46/27</a> du 24 mars 2021, <a href="https://docs.un.org/fr/A/HRC/RES/49/31">49/31</a> du 1<sup>er</sup> avril 2022 et <a href="https://docs.un.org/fr/A/HRC/RES/52/38">52/38</a> du 4 avril 2023, ainsi que les résolutions de l’Assemblée générale <a href="https://docs.un.org/fr/A/RES/66/167">66/167</a> du 19 décembre 2011, <a href="https://docs.un.org/fr/A/RES/67/178">67/178</a> du 20 décembre 2012, <a href="https://docs.un.org/fr/A/RES/68/169">68/169</a> du 18 décembre 2013, <a href="https://docs.un.org/fr/A/RES/69/174">69/174</a> du 18 décembre 2014, <a href="https://docs.un.org/fr/A/RES/70/157">70/157</a> du 17 décembre 2015, <a href="https://docs.un.org/fr/A/RES/71/195">71/195</a> du 19 décembre 2016, <a href="https://docs.un.org/fr/A/RES/72/196">72/196</a> du 19 décembre 2017, <a href="https://docs.un.org/fr/A/RES/73/164">73/164</a> du 17 décembre 2018, <a href="https://docs.un.org/fr/A/RES/74/163">74/163</a> du 18 décembre 2019, <a href="https://docs.un.org/fr/A/RES/75/187">75/187</a> du 16 décembre 2020, <a href="https://docs.un.org/fr/A/RES/76/157">76/157</a> du 16 décembre 2021, <a href="https://docs.un.org/fr/A/RES/77/225">77/225</a> du 15 décembre 2022, <a href="https://docs.un.org/fr/A/RES/78/214">78/214</a> du 19 décembre 2023 et <a href="https://docs.un.org/fr/A/RES/79/180">79/180</a> du 17 décembre 2024,</p>
+      </container>
+      <container name="Réaffirmant en outre" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant en outre </span>l’obligation qu’ont les États d’interdire la discrimination fondée sur la religion ou les convictions et de mettre en place des mesures propres à garantir une protection égale et effective de la loi,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant </span>que le Pacte international relatif aux droits civils et politiques dispose notamment que toute personne a droit à la liberté de pensée, de conscience et de religion ou de convictions, et que ce droit implique la liberté d’avoir ou d’adopter une religion ou des convictions de son choix, ainsi que la liberté de manifester sa religion ou ses convictions, individuellement ou en commun, tant en public qu’en privé, par le culte et l’accomplissement des rites, les pratiques et l’enseignement,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant également</span> que l’exercice du droit à la liberté d’opinion et d’expression et le plein respect de la liberté de rechercher, de recevoir et de répandre des informations peuvent jouer un rôle positif dans le renforcement de la démocratie et la lutte contre l’intolérance religieuse, et que l’exercice du droit à la liberté d’expression emporte des devoirs spéciaux et des responsabilités spéciales, conformément à l’article 19 du Pacte international relatif aux droits civils et politiques,</p>
+      </container>
+      <container name="Exprimant sa vive préoccupation" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Exprimant sa vive préoccupation</span> face aux actes qui incitent à la haine religieuse et menacent ainsi l’esprit de tolérance,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant </span>que le terrorisme, sous toutes ses formes et dans toutes ses manifestations, ne peut ni ne doit être associé à une religion, une nationalité, une civilisation ou un groupe ethnique quels qu’ils soient,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant également</span> que la violence n’est jamais une réaction acceptable face aux actes d’intolérance fondés sur la religion ou les convictions,</p>
+      </container>
+      <container name="Réaffirmant en outre" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant en outre </span>que l’exercice du droit à la liberté d’opinion et d’expression et le plein respect de la liberté de rechercher, de recevoir et de répandre des informations peuvent contribuer au renforcement de la démocratie et à la lutte contre l’intolérance religieuse,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> que l’éducation et la formation dans le domaine des droits de l’homme contribuent à promouvoir la tolérance, la non-discrimination et l’égalité,</p>
+      </container>
+      <container name="Vivement préoccupé" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Vivement préoccupé </span>par les manifestations d’intolérance et de discrimination et les violences fondées sur la religion ou les convictions qui se produisent partout dans le monde,</p>
+      </container>
+      <container name="Déplorant" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Déplorant </span>toute apologie de la discrimination ou de la violence fondées sur la religion ou les convictions,</p>
+      </container>
+      <container name="Déplorant vivement" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Déplorant vivement </span>tous les actes de violence visant des personnes en raison de leur religion ou de leurs convictions, ainsi que ceux dirigés contre leur domicile, leurs entreprises, leurs biens, leurs écoles, leurs centres culturels ou leurs lieux de culte,</p>
+      </container>
+      <container name="Préoccupé" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Préoccupé</span> par les mesures qui traduisent une volonté délibérée d’exploiter les tensions ou visent des personnes en raison de leur religion ou de leurs convictions,</p>
+      </container>
+      <container name="Prenant note avec une vive préoccupation" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Prenant note avec une vive préoccupation </span>des manifestations d’intolérance et de discrimination et des actes de violence qui se produisent dans de nombreuses régions du monde, parmi lesquels des actes motivés par la discrimination à l’égard de membres des minorités religieuses, qui viennent s’ajouter à l’image négative dont pâtissent les croyants et aux mesures discriminatoires appliquées contre certaines personnes en raison de leur religion ou de leurs convictions,</p>
+      </container>
+      <container name="Se déclarant préoccupé" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Se déclarant préoccupé</span> par la multiplication des manifestations d’intolérance fondée sur la religion ou les convictions, qui peuvent alimenter la haine et la violence entre personnes de différentes nations ou au sein d’une même nation et avoir de graves conséquences aux niveaux national, régional et international, et soulignant à ce sujet l’importance que revêtent le respect de la diversité religieuse et culturelle ainsi que le dialogue interconfessionnel et interculturel visant à cultiver un esprit de tolérance et de respect entre les personnes, les sociétés et les nations,</p>
+      </container>
+      <container name="Conscient" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Conscient </span>de la contribution précieuse que les personnes de toutes religions et convictions apportent à l’humanité et estimant que le dialogue entre groupes religieux peut aider à mieux faire connaître et comprendre les valeurs communes au genre humain,</p>
+      </container>
+      <container name="Conscient également" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Conscient également </span>du fait que, dans la lutte contre les manifestations d’intolérance et de discrimination et les violences fondées sur la religion ou les convictions, il importe en premier lieu d’œuvrer ensemble à l’amélioration de l’application des régimes juridiques qui protègent les personnes contre la discrimination et les crimes de haine, de multiplier les mesures visant à promouvoir le dialogue interconfessionnel et interculturel et de renforcer l’éducation en matière de droits de l’homme,</p>
+      </container>
+      <container name="Rappelant" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>la résolution <a href="https://docs.un.org/fr/A/RES/68/127">68/127</a>, intitulée « Un monde contre la violence et l’extrémisme violent », que l’Assemblée générale a adoptée par consensus le 18 décembre 2013, et saluant le rôle moteur joué par l’Organisation des Nations Unies pour l’éducation, la science et la culture dans la promotion du dialogue interculturel, l’action de l’Alliance des civilisations de l’Organisation des Nations Unies et de la Fondation euroméditerranéenne Anna Lindh pour la promotion du dialogue entre les cultures, et les travaux du Centre international Roi Abdullah Bin Abdulaziz pour le dialogue interreligieux et interculturel, et se félicitant de la résolution <a href="https://docs.un.org/fr/A/RES/65/5">65/5</a> de l’Assemblée générale, du 20 octobre 2010, relative à la Semaine mondiale de l’harmonie interconfessionnelle proposée par le Roi Abdallah II de Jordanie,</p>
+      </container>
+      <container name="Accueillant avec satisfaction" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Accueillant avec satisfaction</span> à cet égard toutes les mesures internationales, régionales et nationales visant à promouvoir l’entente interreligieuse, interculturelle et interconfessionnelle et à lutter contre la discrimination fondée sur la religion ou les convictions, notamment le Processus d’Istanbul relatif à la lutte contre l’intolérance, la discrimination et l’incitation à la haine ou à la violence fondées sur la religion ou la conviction, et rappelant l’initiative de la présidence albanaise du Comité des Ministres du Conseil de l’Europe intitulée « Unis dans la diversité » et celle du Haut-Commissariat des Nations Unies aux droits de l’homme qui vise à interdire l’apologie de la haine nationale, raciale ou religieuse en ce qu’elle constitue une incitation à la discrimination, à l’hostilité et à la violence,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_22" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> 	<span class="italic">Se déclare vivement préoccupé </span>par la persistance de graves stéréotypes malveillants, du profilage négatif et de la stigmatisation dont certaines personnes sont l’objet en raison de leur religion ou de leurs convictions, et par les programmes et projets d’organisations et groupes extrémistes visant à créer ou à perpétuer des stéréotypes négatifs concernant certains groupes religieux, en particulier lorsqu’ils sont tolérés par les autorités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 	<span class="italic">Constate avec préoccupation </span>que, dans le monde entier, le nombre de manifestations d’intolérance religieuse et de discrimination et la violence qui y est associée continuent d’augmenter et que les stéréotypes négatifs visant certaines personnes en raison de leur religion ou de leurs convictions continuent de se répandre, condamne dans ce contexte toute apologie de la haine religieuse qui constitue une incitation à la discrimination, à l’hostilité ou à la violence, et exhorte les États à prendre des mesures efficaces pour faire face à ces manifestations et les réprimer, comme le prévoit la présente résolution et dans le droit fil des obligations mises à leur charge par le droit international des droits de l’homme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">Condamne résolument</span> tout appel à la haine religieuse qui constitue une incitation à la discrimination, à l’hostilité ou à la violence, qu’il soit exprimé dans la presse écrite, dans les médias audiovisuels ou électroniques ou par tout autre moyen ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="italic">Salue </span>les initiatives internationales, régionales et nationales visant à promouvoir l’entente interreligieuse, interculturelle et interconfessionnelle et à lutter contre la discrimination fondée sur la religion ou les convictions, en particulier les réunions d’experts organisées à Washington, Londres, Genève, Doha, Djeddah (Arabie saoudite), Singapour et La Haye, et celles organisées en ligne par le Pakistan, dans le cadre du Processus d’Istanbul relatif à la lutte contre l’intolérance, la discrimination et l’incitation à la haine ou à la violence fondées sur la religion ou la conviction, pour examiner la mise en application de sa résolution <a href="https://docs.un.org/fr/A/HRC/RES/16/18">16/18</a> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note </span>des mesures prises par le Haut-Commissariat des Nations Unies aux droits de l’homme et des quatre ateliers régionaux qui se sont tenus en Autriche, au Chili, au Kenya et en Thaïlande sur des thèmes distincts mais connexes, ainsi que du dernier atelier organisé au Maroc et du document final qui en est issu, le Plan d’action de Rabat sur l’interdiction de l’appel à la haine nationale, raciale ou religieuse qui constitue une incitation à la discrimination, à l’hostilité ou à la violence, y compris les recommandations et conclusions qui y figurent ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> 	<span class="italic">Considère </span>que le débat public et ouvert et le dialogue interconfessionnel et interculturel aux niveaux local, national et international peuvent compter parmi les meilleures défenses contre l’intolérance religieuse et contribuer au renforcement de la démocratie et à la lutte contre la haine religieuse, et est convaincu que la poursuite du dialogue sur ces questions peut contribuer à dissiper les idées fausses ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxtG">
+        <num>7.</num>
+        <list eId="para_43_list">
+          <intro eId="para_43_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Prend note</span> de la déclaration que le Secrétaire général de l’Organisation de la Conférence islamique a faite à sa quinzième session et s’appuie sur l’appel qu’il a lancé aux États afin que ceux-ci prennent les mesures ci‑après propres à favoriser un climat de tolérance religieuse, de paix et de respect sur leur territoire :</p>
+          </intro>
+          <point eId="para_43_list_point_a">
+            <num>a)</num>
+            <content eId="para_43_list_point_a_content">
+              <p xml:space="preserve">  Encourager la création de réseaux collaboratifs visant à favoriser la compréhension mutuelle, à faciliter le dialogue et à susciter une action constructive tendant vers des objectifs communs et l’obtention de résultats concrets, par exemple sous la forme d’un appui à des projets dans les domaines de l’éducation, de la santé, de la prévention des conflits, de l’emploi, de l’intégration et de l’éducation aux médias ;</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_b">
+            <num>b)</num>
+            <content eId="para_43_list_point_b_content">
+              <p xml:space="preserve">  Doter les autorités d’un mécanisme chargé, notamment, de repérer les tensions potentielles entre membres de différentes communautés religieuses et de les contenir, et favoriser la prévention des conflits et la médiation ;</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_c">
+            <num>c)</num>
+            <content eId="para_43_list_point_c_content">
+              <p xml:space="preserve">  Encourager la formation des agents de l’État à des stratégies efficaces de communication ;</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_d">
+            <num>d)</num>
+            <content eId="para_43_list_point_d_content">
+              <p xml:space="preserve">  Encourager les efforts déployés par les dirigeants pour examiner avec les membres de leurs communautés les causes de la discrimination et élaborer des stratégies propres à y remédier ;</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_e">
+            <num>e)</num>
+            <content eId="para_43_list_point_e_content">
+              <p xml:space="preserve">  Dénoncer l’intolérance, y compris l’appel à la haine religieuse qui constitue une incitation à la discrimination, à l’hostilité ou à la violence ;</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_f">
+            <num>f)</num>
+            <content eId="para_43_list_point_f_content">
+              <p xml:space="preserve">  Prendre des mesures pour incriminer l’incitation à la violence imminente fondée sur la religion ou les convictions ;</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_g">
+            <num>g)</num>
+            <content eId="para_43_list_point_g_content">
+              <p xml:space="preserve">  Comprendre qu’il faut lutter contre le dénigrement et les stéréotypes négatifs fondés sur la religion et contre l’incitation à la haine religieuse en adoptant des stratégies coordonnées aux niveaux local, national, régional et international, et notamment en prenant des mesures d’information et de sensibilisation ;</p>
+            </content>
+          </point>
+          <point eId="para_43_list_point_h">
+            <num>h)</num>
+            <content eId="para_43_list_point_h_content">
+              <p xml:space="preserve">  Prendre conscience que le débat ouvert, constructif et respectueux et le dialogue interconfessionnel et interculturel aux niveaux local, national et international peuvent jouer un rôle positif dans la lutte contre la haine religieuse, l’incitation à la haine et la violence ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxtG">
+        <num>8.</num>
+        <list eId="para_50_list">
+          <intro eId="para_50_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Demande</span> à tous les États :</p>
+          </intro>
+          <point eId="para_50_list_point_a">
+            <num>a)</num>
+            <content eId="para_50_list_point_a_content">
+              <p xml:space="preserve">  De prendre des mesures efficaces pour que, dans l’exercice de leurs fonctions, les agents de la fonction publique ne se livrent à aucune forme de discrimination fondée sur la religion ou la conviction ;</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_b">
+            <num>b)</num>
+            <content eId="para_50_list_point_b_content">
+              <p xml:space="preserve">  D’encourager la liberté religieuse et le pluralisme religieux en donnant aux membres de toutes les communautés religieuses la possibilité de manifester leur religion et de contribuer ouvertement à la société, dans des conditions d’égalité ;</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_c">
+            <num>c)</num>
+            <content eId="para_50_list_point_c_content">
+              <p xml:space="preserve">  De favoriser la représentation et la véritable participation de toutes les personnes, quelle que soit leur religion, dans tous les secteurs de la société ;</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_d">
+            <num>d)</num>
+            <content eId="para_50_list_point_d_content">
+              <p xml:space="preserve">  De lutter énergiquement contre le profilage religieux, qui consiste en l’utilisation discriminatoire de la religion par les forces de l’ordre pour justifier des interrogatoires, des fouilles et d’autres mesures d’enquête ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage </span>les États à envisager de communiquer des renseignements à jour sur les activités qu’ils mènent à ce sujet dans les rapports qu’ils soumettent périodiquement au Haut-Commissariat des Nations Unies aux droits de l’homme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande </span>aux États d’adopter des mesures et des politiques visant à promouvoir le plein respect et la protection des lieux de culte, des sites religieux, des cimetières et des sanctuaires et de prendre les mesures qui s’imposent en cas de risque de vandalisme ou de destruction ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend note </span>du rapport que le Haut-Commissaire des Nations Unies aux droits de l’homme a soumis en application de sa résolution <a href="https://docs.un.org/fr/A/HRC/RES/52/38">52/38</a>, dans lequel les réponses des États sont résumées<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/fr/A/HRC/55/74">A/HRC/55/74</a>.</p></authorialNote>, ainsi que des conclusions formulées sur la base de ces réponses ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne</span> que pour lutter contre l’intolérance religieuse, il est urgent de mettre en application tous les volets du plan d’action exposé aux paragraphes 7 et 8, en leur accordant la même attention et la même importance ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie </span>le Haut-Commissaire d’établir et de lui soumettre, à sa soixante et unième session, un rapport complet contenant des conclusions détaillées fondées sur les informations fournies par les États au sujet des efforts que ceux-ci déploient et des mesures qu’ils prennent pour exécuter le plan d’action exposé aux paragraphes 7 et 8, ainsi que des avis concernant les mesures de suivi qui permettraient d’améliorer encore l’exécution de ce plan ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande </span>à la communauté internationale de redoubler d’efforts pour susciter un dialogue mondial visant à promouvoir à tous les niveaux une culture de la tolérance et de la paix fondée sur le respect des droits de l’homme et de la diversité des religions et des convictions.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="59e" refersTo="#adoptionMeeting">59e séance</location>
+          <eol />
+          <docDate date="2025-04-04" refersTo="#adoptionDate">4 avril 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
