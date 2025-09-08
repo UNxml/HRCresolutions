@@ -1,0 +1,351 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-6/"></FRBRuri>
+          <FRBRdate date="2025-07-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-6/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-6/eng@/"></FRBRuri>
+          <FRBRdate date="2025-07-16" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-6/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-6/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-09-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Sustainable Development Goals. Goal 16" showAs="Sustainable Development Goals. Goal 16" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CORRUPTION" href="http://metadata.un.org/thesaurus/1001328" showAs="CORRUPTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" href="http://metadata.un.org/thesaurus/1003325" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/59/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-06-30" outcome="draftResolution" as="A/HRC/59/L.6" by="Albania, Argentina, Armenia, Australia, Austria, Belgium, Brazil, Bulgaria, Costa Rica, Croatia, Cyprus, Denmark, Ecuador, Ethiopia, Finland, France, Greece, Guatemala, Hungary, Indonesia, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Mexico, Montenegro, Morocco, North Macedonia, Paraguay, Poland, Portugal, Romania, Slovakia, Slovenia, Sweden, Ukraine and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-07-16" outcome="recommendedForAdoption" by="" />
+        <step date="2025-07-16" outcome="adopted" as="Adopted without vote, 31st meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/59/6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-07-16" class="rightSmall" refersTo="#dateOfIssuance">16 July 2025</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="59" eId="coverPage_1__session_1">Fifty-ninth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-06-16" refersTo="#startDate">16 June</date>
+          <date date="2025-07-08" refersTo="#endDate">8 July 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 7 July 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>59/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">The negative impact of corruption on the enjoyment of human rights</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guided</span> by the Charter of the United Nations,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> the Universal Declaration of Human Rights, the International Covenants on Human Rights and other relevant international human rights instruments,</p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Recalling</span> all relevant resolutions of the Commission on Human Rights and the Human Rights Council,</p>
+      </container>
+      <container name="Recalling also" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Recalling also</span> that the United Nations Convention against Corruption, which has 140 signatories and 191 parties, of which 186 are States Members of the United Nations, has been the most comprehensive and universal instrument on corruption, the purposes of which are outlined in its article 1,</p>
+      </container>
+      <container name="Reaffirming" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> that States have the primary responsibility for the promotion and protection of human rights,</p>
+      </container>
+      <container name="Noting with interest" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Noting with interest</span> the outcomes of the sessions of the Conference of the States Parties to the United Nations Convention against Corruption, and stressing the need for States Parties to the Convention to ensure the effective implementation of the decisions and resolutions adopted by the Conference,</p>
+      </container>
+      <container name="Welcoming" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Welcoming</span> the upcoming eleventh session of the Conference of the States Parties to the Convention, to be held in Qatar in December 2025,</p>
+      </container>
+      <container name="Welcoming also" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Welcoming also</span> the outcome document of the Fourth International Conference on Financing for Development, held in Seville, Spain, from 30 June to 3 July 2025, which reaffirms the commitment to prevent and combat corruption and calls upon the international community to support anti‑corruption capacity-building efforts and to promote the exchange of best practices,</p>
+      </container>
+      <container name="Taking note" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Taking note</span> of the report of the Office of the United Nations High Commissioner for Human Rights on the intersessional expert seminar on the promotion and protection of economic, social and cultural rights in anti‑corruption efforts in the context of recovery from the coronavirus disease (COVID‑19) pandemic,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		A/HRC/58/42. </p></authorialNote></p>
+      </container>
+      <container name="Acknowledging" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> that the poor and those in marginalized and vulnerable situations are at particular risk of suffering from the adverse impact of corruption on the enjoyment of human rights,</p>
+      </container>
+      <container name="Recognizing" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that the promotion and protection of human rights and the prevention of and fight against corruption are mutually reinforcing, and that improvements in the promotion and protection of human rights at the domestic level have a central role to play in the prevention of and fight against corruption at all levels,</p>
+      </container>
+      <container name="Recognizing also" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Recognizing also</span> that good governance, democracy and the rule of law, and the promotion and protection of human rights and fundamental freedoms, including the right to seek, receive and impart information, the right to take part in the conduct of public affairs and the right to a fair trial before a competent, independent and impartial court, established by law, are essential in domestic efforts to prevent and fight against corruption,</p>
+      </container>
+      <container name="Highlighting" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Highlighting</span> the often transnational character of corruption and the consequential need for international cooperation and technical assistance to prevent and combat corruption in all its forms and to recover assets of illicit origin derived from acts of corruption, as set forth in the Convention against Corruption,</p>
+      </container>
+      <container name="Recognizing" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the importance of creating a safe and enabling environment, in law and in practice, for civil society, academia, whistle-blowers, witnesses, anti‑corruption activists, journalists, prosecutors, lawyers and judges, and of protecting these individuals from any threats arising from their activities in preventing and fighting corruption,</p>
+      </container>
+      <container name="Recognizing also" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Recognizing also</span> that an independent, free, diverse and pluralistic media landscape plays an important role in ensuring accountability, transparency and scrutiny, which includes reporting on, investigating and exposing corruption and increasing public awareness of the link between corruption and human rights violations,</p>
+      </container>
+      <container name="Underlining" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Underlining</span> the importance of an independent and impartial judiciary, an independent legal profession, objective and impartial prosecution and the integrity of the judicial system to prevent and fight corruption and to address its negative impact on human rights, in line with the rule of law and the right to a fair trial, to access to justice and to an effective remedy, without discrimination of any kind,</p>
+      </container>
+      <container name="Emphasizing" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Emphasizing</span> that human rights education, awareness-raising campaigns, technology and other measures are important enablers for the prevention of and the fight against corruption,</p>
+      </container>
+      <container name="Acknowledging" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> that the State should protect against any adverse human rights impact arising from acts of corruption involving State and non‑State actors, including the private sector, through effective regulatory and independent investigative mechanisms, with a view to holding perpetrators to account, recovering assets derived from acts of corruption and providing redress to victims, in accordance with the provisions of the Convention against Corruption, including chapter V thereof,</p>
+      </container>
+      <container name="Recalling" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Recalling</span> the obligation of States Parties to the Convention against Corruption to develop, implement or maintain effective, coordinated anti‑corruption policies in accordance with article 5 of the Convention, and inviting all States to address the prevention and effect of corruption in the development of relevant national plans of action, including plans on business and human rights,</p>
+      </container>
+      <container name="Highlighting" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Highlighting</span> that States should, in accordance with their respective legal systems, endeavour to establish and promote effective practices and tools aimed at the prevention of corruption and its impact on the enjoyment of human rights, and to periodically evaluate relevant legal instruments and administrative measures with a view to determining their adequacy to prevent and fight corruption, including by ensuring transparency, access to public information, accountability, non‑discrimination and meaningful participation in the conduct of public affairs,</p>
+      </container>
+      <container name="Observing" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Observing</span> that corruption frequently results in discriminatory access to public services and goods, and renders those in vulnerable situations more prone to adversely suffering from the negative social and environmental impact of economic activities,</p>
+      </container>
+      <container name="Recognizing" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that corruption is even more damaging in times of crisis, has the potential to seriously undermine good governance around the world, erodes public trust in government and constitutes an obstacle to work to achieve the Sustainable Development Goals, while stressing the importance of indicators, as appropriate, for measuring the negative impact of corruption on the enjoyment of human rights,</p>
+      </container>
+      <container name="Acknowledging" eId="container_24">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> that the diversion of critical resources due to corruption poses an even greater threat to the ability of States to protect the right of everyone to the enjoyment of the highest attainable standard of physical and mental health and the right to life,</p>
+      </container>
+      <container name="Highlighting" eId="container_25">
+        <p xml:space="preserve"> <span class="italic">Highlighting</span> that national human rights institutions could play an important role in raising awareness and promoting educational and training activities regarding the impact of corruption on human rights through their complaint procedures, investigations and analysis,</p>
+      </container>
+      <container name="Recognizing" eId="container_26">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the opportunities provided by open data and digital technologies to strengthen the transparency, accountability, efficiency and effectiveness of public administration and international cooperation and to prevent, detect and investigate corruption,</p>
+      </container>
+      <container name="Underlining" eId="container_27">
+        <p xml:space="preserve"> <span class="italic">Underlining</span> the importance of Human Rights Council mechanisms, such as the universal periodic review, and the treaty bodies in raising awareness and strengthening the commitment to tackle the negative impact of corruption on the enjoyment of human rights,</p>
+      </container>
+      <container name="Underlining also" eId="container_28">
+        <p xml:space="preserve"> <span class="italic">Underlining also</span> the importance of mainstreaming anti‑corruption efforts into national development strategies and processes in order to address corruption and to achieve the Sustainable Development Goals,</p>
+      </container>
+      <container name="Welcoming" eId="container_29">
+        <p xml:space="preserve"> <span class="italic">Welcoming</span> the engagement of States Parties to the Convention against Corruption through appropriate measures, such as the development of national plans of action to strengthen the implementation of the Convention at the domestic level and participation in the Mechanism for the Review of Implementation of the United Nations Convention against Corruption, aimed at identifying gaps and assisting States Parties in meeting the objectives of the Convention through an inclusive and transparent process,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">Urges</span> States that have not yet ratified or acceded to the United Nations Convention against Corruption to consider doing so, calls upon States Parties to the Convention to effectively implement it and to participate in the Mechanism for the Review of Implementation of the United Nations Convention against Corruption, and encourages States Parties to publish their country reports prepared under the Mechanism;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve"> 	<span class="italic">Recognizes</span> the negative impact of widespread corruption on the enjoyment of human rights, including by reducing the resources available for all sectors, thereby hampering the realization of all human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="italic">Welcomes</span> the commitments made by all States in Sustainable Development Goal 16 and its target 16.5 on substantially reducing corruption and bribery in all their forms;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> 	<span class="italic">Recalls</span> the political declaration entitled “Our common commitment to effectively addressing challenges and implementing measures to prevent and combat corruption and strengthen international cooperation”, adopted by the General Assembly on 2 June 2021 at its special session on challenges and measures to prevent and combat corruption and strengthen international cooperation;<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	General Assembly resolution S-32/1, annex.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve"> 	<span class="italic">Underlines</span> the necessity to step up cooperation and coordination among different stakeholders, including the private sector, civil society and academia at the national, regional and international levels, to prevent and fight corruption in all its forms and across all sectors as a means of contributing positively to the promotion and protection of human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve"> 	<span class="italic">Stresses</span> that preventive measures are one of the most effective means of countering corruption and of avoiding its negative impact on the enjoyment of human rights, calls for the strengthening of preventive measures at all levels and institutions, and underlines that one key aspect of preventive measures is to address the needs of those in vulnerable situations who may be the first victims of corruption, with disproportionate implications for their lives and livelihoods;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve"> 	<span class="italic">Urges</span> States to create and maintain, in law and in practice, while addressing the negative impact of corruption on the enjoyment of human rights, a safe and enabling environment in which civil society, media workers, media outlets, journalists and academia can operate free from hindrance and insecurity and enjoy their freedom to seek, receive and impart information;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve"> 	<span class="italic">Recognizes</span> that the negative impact of corruption on human rights and sustainable development can be addressed through anti‑corruption education, notes with appreciation the capacity-building activities and specialized curricula developed by the United Nations Office on Drugs and Crime and relevant institutions, such as the International Anti-Corruption Academy, and encourages the latter, as well as other international and regional anti‑corruption organizations, to strengthen their cooperation with the Office and other relevant United Nations entities to enhance the effectiveness of anti‑corruption education, including by addressing, in cooperation with the Office, the negative impact of corruption on human rights in their education and training modules, facilitating anti‑corruption research, implementing teaching and learning programmes and increasing public awareness of the causes, practices and risks associated with corruption;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> States and international organizations to promote, facilitate and support timely, sustainable, adequate and effective technical assistance to strengthen national capacities to prevent and fight corruption, upon request, and recognizes that multilateral and bilateral technical assistance is more effective when aligned with national anti‑corruption strategies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> national anti‑corruption authorities and national human rights institutions, where they exist, to cooperate through the exchange of information, where appropriate, and the development of joint strategies and plans of action to prevent and fight corruption and its negative impact on the enjoyment of human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve"> 	<span class="italic">Invites</span> the Office of the United Nations High Commissioner for Human Rights and the United Nations Office on Drugs and Crime, as the secretariat of the Conference of the States Parties to the Convention, to continue to exchange views, explore opportunities for closer cooperation and keep each other abreast of ongoing activities to deepen the understanding of the nexus between corruption and human rights, as appropriate and within their respective mandates, under the aegis of the United Nations Office on Drugs and Crime;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> the mechanisms of the Human Rights Council to consider and address, within their existing mandates, the issue of the negative impact of corruption on the enjoyment of human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve"> 	<span class="italic">Stresses</span> the importance of policy coherence among the intergovernmental processes in Geneva, Vienna and New York on the issue of corruption and its impact on the enjoyment of human rights, and recalls that the United Nations Office on Drugs and Crime remains the leading body with respect to the coordination of Convention against Corruption issues within the United Nations system;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> the Advisory Committee of the Human Rights Council to prepare a comprehensive study in which it develops concrete guidelines on implementing existing procedural and substantive human rights obligations of States in the context of preventing and combating corruption, and to present the study to the Council at its sixty-fourth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> that the above-mentioned study be developed in close cooperation and coordination with the Office of the High Commissioner with a view to building on its existing work, supporting technical assistance and capacity-building efforts and providing a strong foundation for policy development, information-sharing and awareness-raising at the national, regional and international levels;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_150" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_150__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> the Advisory Committee to seek input from States, the United Nations Office on Drugs and Crime and a broad, diverse range of stakeholders, including relevant international organizations and intergovernmental bodies, human rights mechanisms, local authorities, national human rights institutions, civil society organizations, the private sector and academic institutions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> the Office of the High Commissioner to share the study with the United Nations Office on Drugs and Crime;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve"> 	<span class="italic">Decides</span> to remain seized of this issue.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="31st" refersTo="#adoptionMeeting">31st meeting</location>
+          <eol />
+          <docDate date="2025-07-07" refersTo="#adoptionDate">7 July 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
