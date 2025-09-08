@@ -1,0 +1,295 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-13/"></FRBRuri>
+          <FRBRdate date="2025-07-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-13/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-13/eng@/"></FRBRuri>
+          <FRBRdate date="2025-07-17" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-13/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-13/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-09-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="ARMS TRANSFERS" href="http://metadata.un.org/thesaurus/1000394" showAs="ARMS TRANSFERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/59/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-02" outcome="draftResolution" as="A/HRC/59/L.16" by="Armenia, Australia, Austria, Belgium, Canada, Chile, Colombia, Croatia, Cyprus, Czechia, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Liechtenstein, Lithuania, Luxembourg, Marshall Islands, Mexico, Montenegro, Netherlands (Kingdom of the), New Zealand, Norway, Portugal, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Ukraine and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-07-17" outcome="recommendedForAdoption" by="" />
+        <step date="2025-07-17" outcome="adopted" as="Adopted without vote, 32nd meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/59/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-07-17" class="rightSmall" refersTo="#dateOfIssuance">17 July 2025</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="59" eId="coverPage_1__session_1">Fifty-ninth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-06-16" refersTo="#startDate">16 June</date>
+          <date date="2025-07-08" refersTo="#endDate">8 July 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 7 July 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>59/13.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Impact of arms transfers on human rights</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve">		<span class="italic">Guided </span>by the Charter of the United Nations and the Universal Declaration of Human Rights,</p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>the obligations of States to respect, promote and protect the human rights of all individuals within their jurisdictions,</p>
+      </container>
+      <container name="Recalling also" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also</span> the inherent right to the individual or collective self-defence of States, as recognized in Article 51 of the Charter,</p>
+      </container>
+      <container name="Reaffirming" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming</span> that everyone has the right to life, liberty and security of person and is entitled to a social and international order in which the rights and freedoms set forth in the Universal Declaration of Human Rights can be fully realized,</p>
+      </container>
+      <container name="Acknowledging" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging</span> that peace and security, development and human rights are the pillars of the United Nations system and the foundation for collective security, and recognizing that peace and security, development and human rights are interlinked and mutually reinforcing,</p>
+      </container>
+      <container name="Recalling" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>the International Covenant on Economic, Social and Cultural Rights, the International Covenant on Civil and Political Rights, the Convention on the Prevention and Punishment of the Crime of Genocide, the Geneva Conventions of 12 August 1949, the Protocols Additional thereto of 8 June 1977, the Convention on the Rights of the Child, the Convention on the Elimination of All Forms of Discrimination against Women, the International Convention on the Suppression and Punishment of the Crime of Apartheid, other relevant international human rights law and international humanitarian law instruments and the Vienna Declaration and Programme of Action,</p>
+      </container>
+      <container name="Recalling also" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also </span>Human Rights Council resolutions 24/35 of 27 September 2013, 32/12 of 1 July 2016, 38/10 of 5 July 2018, 41/20 of 12 July 2019, 45/13 of 6 October 2020, 47/17 of 13 July 2021, 50/12 of 7 July 2022 and 53/15 of 13 July 2023,</p>
+      </container>
+      <container name="Acknowledging" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Acknowledging </span>that international human rights law and international humanitarian law are complementary and mutually reinforcing,</p>
+      </container>
+      <container name="Acknowledging also" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">		Acknowledging also</span> that millions of people around the world are affected by varied serious human rights violations and abuses resulting from or facilitated by the diversion of arms and unregulated or illicit arms transfers, and that these have a multiplier effect on human rights abuses and violations, including all rights pertaining to life, liberty and security of person, education, the enjoyment of the highest attainable standard of physical and mental health, and a clean, healthy and sustainable environment, among other civil, political, economic, social and cultural rights,</p>
+      </container>
+      <container name="Acknowledging further" eId="container_11">
+        <p xml:space="preserve">		<span class="italic">Acknowledging further </span>that ownership and use of arms are closely linked to specific dynamics of control, power, domination and strength, which also contribute to perpetuating gender-based violence, and that addressing gendered root causes of violence is essential,</p>
+      </container>
+      <container name="Recognizing with concern" eId="container_12">
+        <p xml:space="preserve">		<span class="italic">Recognizing with concern</span> that the diversion of arms and unregulated or illicit arms transfers have negative humanitarian, development and socioeconomic consequences, exacerbate armed conflicts and violence and have a negative impact on the enjoyment of human rights, including through the commission and facilitation of sexual and gender-based violence, particularly against women and girls, serious violations and abuses of the rights of children and youth, including the recruitment and use of child soldiers, and other types of violations and abuses of international law, including human rights law, and violations of international humanitarian law,</p>
+      </container>
+      <container name="Recalling" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> States’ obligations and commitments under international human rights law and international humanitarian law, as well as other principles and provisions relating to international human rights law and international humanitarian law and to the promotion of responsible action by States, including exercising due diligence, as contained in the Arms Trade Treaty and in the United Nations Programme of Action to Prevent, Combat and Eradicate the Illicit Trade in Small Arms and Light Weapons in All Its Aspects and other relevant instruments,</p>
+      </container>
+      <container name="Recalling also" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also</span> that States bear the primary responsibility under international law to respect, protect and fulfil all human rights and fundamental freedoms, and that such responsibility entails taking all appropriate measures, which may include enacting and enforcing relevant national legislation and implementing related policies and practices, including administrative practice and risk assessments on arms transfers, and encouraging business enterprises involved in arms transfers and their employees to be aware of the requirements under international human rights law and international humanitarian law and other applicable laws,</p>
+      </container>
+      <container name="Emphasizing" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">		Emphasizing </span>the need for international cooperation, technical assistance and capacity-building, including technology transfers, on mutually agreed terms, to support States in strengthening national and regional frameworks for arms control, border management, tracing and reporting,</p>
+      </container>
+      <container name="Taking note" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">		Taking note </span>of the report of the Secretary-General on the protection of civilians in armed conflict,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		S/2024/385.</p></authorialNote> in particular the recommendation contained therein that States, United Nations actors, international and civil society organizations should further develop and improve understanding of the patterns and types of civilian harm in contemporary conflicts, including how it affects different groups, such as older persons and persons with disabilities, as the basis for identifying effective legal, policy and operational responses to civilian harm,</p>
+      </container>
+      <container name="Stressing" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">		Stressing </span>the importance of preventing, mitigating and addressing the negative human rights impacts of the diversion of arms and unregulated or illicit arms transfers, including by adopting a human rights approach to arms transfer governance that takes into account, inter alia, the importance of meaningful public participation, the freedom to seek, receive and impart information, accountability, the rule of law, equality and non‑discrimination, with a view to promoting transparency and combating corruption,</p>
+      </container>
+      <container name="Recalling" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> the Guiding Principles on Business and Human Rights, as endorsed by the Human Rights Council in its resolution 17/4 of 16 June 2011, and that all business enterprises have the responsibility to respect human rights and should, inter alia, carry out human rights due diligence, appropriate to their size and circumstances, to identify, prevent, mitigate and account for how they address their impact on human rights, and that those business enterprises whose operations or operating contexts pose risks of human rights impacts should report formally on how they address them,</p>
+      </container>
+      <container name="Bearing in mind" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">		Bearing in mind</span> the adoption by the General Assembly of the 2030 Agenda for Sustainable Development,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		General Assembly resolution 70/1.</p></authorialNote> including target 16.4 of the Sustainable Development Goals, on significantly reducing illicit financial and arms flows by 2030, target 16.7, on ensuring responsive, inclusive, participatory and representative decision-making at all levels, target 16.6, on developing effective, accountable and transparent institutions at all levels, and target 16.3, on promoting the rule of law at the national and international levels and ensuring equal access to justice for all,</p>
+      </container>
+      <container name="Reaffirming" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming</span> that States have a duty to protect individuals, within their jurisdiction, from harm caused by third parties, including other States and business enterprises, in the context of arms transfers, including diversion of arms and unregulated or illicit arms transfers, through legal, institutional and practical measures to effectively govern arms transfers and activities related thereto, exercising due diligence, in accordance with international law, including human rights law and international humanitarian law and situations of foreign occupation,</p>
+      </container>
+      <container name="Acknowledging" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Acknowledging </span>that the private sector, including all business enterprises within the arms sector, should respect international human rights law and international humanitarian law, including by implementing a due diligence process, assessing actual and potential human rights impacts, integrating and acting upon the findings, tracking responses and communicating how impacts are addressed,</p>
+      </container>
+      <container name="Taking note with appreciation" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">		Taking note with appreciation </span>of the reports of the Office of the United Nations High Commissioner for Human Rights,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		A/HRC/56/42 and A/HRC/58/41.</p></authorialNote></p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the need to ensure the prevention and cessation of all violations of international law, including violations and abuses of international human rights law and all violations of international humanitarian law that may result from arms transfers, in particular the diversion of arms and unregulated or illicit arms transfers, and to ensure the full respect of obligations under applicable international legal frameworks;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> <span class="italic"> 	Expresses its deep concern</span> at the fact that the diversion of arms and unregulated or illicit arms transfers continue to contribute to seriously undermining the human rights of individuals, especially women, children, youth, particularly those recruited as child soldiers, older persons, persons with disabilities and persons in vulnerable, marginalized, conflict or crime-related situations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Notes with concern</span> that the diversion of arms and unregulated or illicit arms transfers have a severely negative impact on the full enjoyment of all human rights of all people, in particular women, children, youth, and persons in vulnerable situations, and that lack of transparency and access to information on arms transfers may exacerbate that negative impact and may increase the risk of corruption involving both the public and the private sectors;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all States to refrain from transferring arms when they assess, in accordance with applicable domestic laws, regulations and procedures, international obligations and other commitments, including exercising due diligence, that there is a clear risk that such arms might be used to commit or facilitate serious violations or abuses of international human rights law or serious violations of international humanitarian law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">
+            <span class="italic">	Calls upon </span>States to implement, as appropriate, the recommendations contained in the aforementioned reports of the Office of the United Nations High Commissioner for Human Rights, and to establish a comprehensive approach for safeguarding human rights from the negative impact of the uncontrolled proliferation of arms;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon</span> States to consider adopting appropriate measures to enable the tracing of arms in their production, sale and transfer, including by requiring human rights due diligence, in order to avoid risks of diversion of arms, unregulated or illicit arms transfers or illicit arms trafficking;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Office of the High Commissioner to prepare, in consultation with States, United Nations agencies and other relevant stakeholders, a study on the role of States and the private sector in preventing, addressing and mitigating the negative human rights impact of arms transfers, particularly in relation to identifying practical measures and good practices adopted, and steps taken, by States to prevent unlawful arms transfers by third parties, including the regulation of the arms sector, exercise of control over transit and trans-shipment of arms, and the investigation, prosecution and punishment of conduct related to arms exports prohibited by international law, and to present the study to the Human Rights Council at its sixty-sixth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Also requests </span>the Office of the High Commissioner to organize a full-day intersessional workshop, in virtual format only, to inform the preparation of the aforementioned study, to be held before the sixty-fourth session of the Human Rights Council and open to the participation of States, relevant treaty bodies and mandate holders, members of academia, civil society and other relevant stakeholders;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> all relevant special procedures, commissions of inquiry and other relevant mechanisms of the Human Rights Council and human rights treaty bodies to bear the present resolution in mind within the framework of their respective mandates;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain seized of this issue.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="32nd" refersTo="#adoptionMeeting">32nd meeting</location>
+          <eol />
+          <docDate date="2025-07-07" refersTo="#adoptionDate">7 July 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
