@@ -1,0 +1,321 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-08/59-19/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-08/59-19/"></FRBRuri>
+          <FRBRdate date="2025-07-08" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-08/59-19/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-08/59-19/eng@/"></FRBRuri>
+          <FRBRdate date="2025-07-16" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-08/59-19/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-08/59-19/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-09-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="DEVELOPMENT" href="http://metadata.un.org/thesaurus/020400" showAs="DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POVERTY MITIGATION" href="http://metadata.un.org/thesaurus/1005065" showAs="POVERTY MITIGATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL FINANCIAL INSTITUTIONS" href="http://metadata.un.org/thesaurus/1003307" showAs="INTERNATIONAL FINANCIAL INSTITUTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/59/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-06-30" outcome="draftResolution" as="A/HRC/59/L.12" by="Belarus, Burundi, Cameroon, China, Cuba, Egypt, Eritrea, Ethiopia, Pakistan and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-07-16" outcome="recommendedForAdoption" by="" />
+        <step date="2025-07-16" outcome="adopted" as="Adopted without vote, 33rd meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/59/19</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-07-16" class="rightSmall" refersTo="#dateOfIssuance">16 July 2025</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="59" eId="coverPage_1__session_1">Fifty-ninth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-06-16" refersTo="#startDate">16 June</date>
+          <date date="2025-07-08" refersTo="#endDate">8 July 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 8 July 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>59/19.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">The contribution of development to the enjoyment of all human 	rights</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guided</span> by the purposes and principles of the Charter of the United Nations,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>the Universal Declaration of Human Rights and all relevant human rights treaties, including the International Covenant on Economic, Social and Cultural Rights and the International Covenant on Civil and Political Rights,</p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling </span>the Vienna Declaration and Programme of Action,</p>
+      </container>
+      <container name="Recalling also" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also</span> the 2005 World Summit Outcome, the Declaration on the Right to Development, the political declaration adopted at the high-level political forum on sustainable development in 2023, the 2030 Agenda for Sustainable Development, and the adoption of Pact for the Future<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	General Assembly resolution 79/1.</p></authorialNote> and the Declaration on Future Generations and the Global Digital Compact annexed thereto,</p>
+      </container>
+      <container name="Noting" eId="container_6">
+        <p xml:space="preserve">		<span class="italic">Noting</span> that 2025 marks the eightieth anniversary of the United Nations and the thirtieth anniversary of the Beijing Declaration and Platform for Action,</p>
+      </container>
+      <container name="Noting also" eId="container_7">
+        <p xml:space="preserve">		<span class="italic">Noting also </span>Human Rights Council resolutions 35/21 of 22 June 2017, 41/19 of 12 July 2019, 43/19 of 22 June 2020, 47/11 of 12 July 2021, 52/14 of 3 April 2023 and 53/28 of 14 July 2023, and recalling General Assembly resolution 78/231 of 22 December 2023, in which the Assembly decided to convene, in 2025, a fourth international conference on financing for development,</p>
+      </container>
+      <container name="Reaffirming" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> the significant contribution of development to the enjoyment of all human rights by all, and recognizing that development must be consistent with States` obligations under international human rights law,</p>
+      </container>
+      <container name="Recognizing" eId="container_9">
+        <p xml:space="preserve">		<span class="italic">Recognizing </span>that development is a process by which all human rights and fundamental freedoms can be fully realized, aiming to constantly improve the well-being of the entire population and of all individuals on the basis of their active, free and meaningful participation in development and in the fair distribution of benefits resulting therefrom,</p>
+      </container>
+      <container name="Reaffirming" eId="container_10">
+        <p xml:space="preserve">		<span class="italic">Reaffirming </span>that human rights are universal, indivisible, interdependent and interrelated, and that all human rights must be treated in a fair and equal manner, on the same footing and with the same emphasis,</p>
+      </container>
+      <container name="Emphasizing" eId="container_11">
+        <p xml:space="preserve">		<span class="italic">Emphasizing </span>the important role of inclusive and sustainable development in promoting and protecting human rights, and stressing the importance of international cooperation for development and the promotion and protection of all human rights in ensuring that no one is left behind,</p>
+      </container>
+      <container name="Reaffirming" eId="container_12">
+        <p xml:space="preserve">		<span class="italic">Reaffirming </span>that each State should strive to fulfil the aspirations for a better life for all, including the enjoyment of all human rights by all,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming also </span>that, while the significance of national and regional particularities and various historical, cultural and religious backgrounds must be borne in mind, it is the duty of States, regardless of their political, economic and cultural systems, to promote and protect all human rights and fundamental freedoms without discrimination,</p>
+      </container>
+      <container name="Recalling" eId="container_14">
+        <p xml:space="preserve">		<span class="italic">Recalling </span>the adoption of the 2030 Agenda, which contains a comprehensive, far-reaching and people-centred set of universal and transformative Sustainable Development Goals and targets, and reaffirming that the 2030 Agenda is of unprecedented scope and significance, accepted by all countries, taking into account different national realities, capacities and levels of development and respecting national policies and priorities; its goals and targets are universal, integrated and indivisible and balance the three dimensions of sustainable development,</p>
+      </container>
+      <container name="Welcoming" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">		Welcoming </span>the convening of the Summit of the Future at which the General Assembly adopted the Pact for the Future, which reaffirms the commitment of States to act in accordance with international law, including the Charter and its purposes and principles, and recognizing that the multilateral system and its institution, with the United Nations at the centre, must be strengthened at this time of profound global transformation,</p>
+      </container>
+      <container name="Emphasizing" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">		Emphasizing</span> the pressing need to pursue deeper reforms of the international financial architecture to strengthen the voice and representation of developing countries and the pressing need to accelerate the implementation of the 2030 Agenda, eradicate poverty, leave no one behind and advance the realization of human rights,</p>
+      </container>
+      <container name="Reaffirming" eId="container_17">
+        <p xml:space="preserve">		<span class="italic">Reaffirming </span>the importance for international financial institutions to provide States with economic policy advice that is aligned with States’ obligations under international human rights law, including economic, social and cultural rights, and take into account the contribution of social spending to the realization of inclusive and sustainable development and reducing inequality,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_18">
+        <p xml:space="preserve">		<span class="italic">Reaffirming also </span>that the immediate alleviation and eventual eradication of extreme poverty must remain a high priority for the international community, and that joint efforts towards the achievement of this goal should be strengthened,</p>
+      </container>
+      <container name="Affirming" eId="container_19">
+        <p xml:space="preserve">		<span class="italic">Affirming </span>the commitments to end poverty and hunger, in all their forms and dimensions, and noting that a clean, healthy and sustainable environment is important for the enjoyment of human rights and for sustainable development in all its dimensions, and that the well-being of humanity depends on nature,</p>
+      </container>
+      <container name="Recalling" eId="container_20">
+        <p xml:space="preserve">		<span class="italic">Recalling</span> that States are strongly urged to refrain from promulgating and applying any unilateral economic measures not in accordance with international law and the Charter that impede the full achievement of economic and social development, particularly in developing countries,</p>
+      </container>
+      <container name="Concerned" eId="container_21">
+        <p xml:space="preserve">		<span class="italic">Concerned</span> about the rise in protectionist measures and the adoption of inward-looking economic policies that may heighten the vulnerabilities of developing countries, </p>
+      </container>
+      <container name="Emphasizing" eId="container_22">
+        <p xml:space="preserve">		<span class="italic">Emphasizing</span> the importance of promoting an open world economy and generating greater positive effects of globalization, and calling for the widest possible international cooperation to overcome challenges in the field of human rights, and to realize high-quality development, with respect for human rights and fundamental freedoms,</p>
+      </container>
+      <container name="Welcoming" eId="container_23">
+        <p xml:space="preserve">		<span class="italic">Welcoming</span> international, regional and national development initiatives that facilitate the implementation of the 2030 Agenda by revitalizing the Global Partnership for Sustainable Development, thereby contributing to the enjoyment of human rights,</p>
+      </container>
+      <container name="Affirming" eId="container_24">
+        <p xml:space="preserve">		<span class="italic">Affirming </span>that international cooperation for sustainable development has an essential role in shaping our shared future and realizing the 2030 Agenda, particularly in assisting developing and the least developed countries, by providing technical cooperation and capacity-building upon their request in promoting inclusive and sustainable development and eliminating obstacles to development, and emphasizing the importance of continued efforts to promote international development cooperation based on unity, solidarity, multilateral cooperation and the principle of leaving no one behind,</p>
+      </container>
+      <container name="Noting" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">		Noting</span> the concept of a human rights economy proposed by the Office of the United Nations High Commissioner for Human Rights as a tool of an approach based on full respect for human rights to reduce inequalities and realize the 2030 Agenda, which seeks to redress root causes and the structural barriers to equality, justice and sustainability, placing emphasis on inclusive participation and social dialogue, including the delivery of better results for people and the planet, grounded in economic, civil, political, social and cultural rights,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_26" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms </span>the significant contribution of development to the enjoyment of all human rights by all, and also that the three pillars of the United Nations – peace and security, development and human rights – are equally important, interlinked and mutually reinforcing;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>all States to promote inclusive and sustainable development, to enable better enjoyment of human rights, to achieve gender equality and to promote equality of opportunity for development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon </span>all States to realize inclusive and sustainable development, including the comprehensive, far-reaching and people-centred set of universal and transformative goals and targets of the 2030 Agenda for Sustainable Development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>all States to spare no effort to promote inclusive and sustainable development while respecting, protecting, promoting and fulfilling fundamental freedoms and human rights, including the right to development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes </span>the importance for the entire population of each State to benefit from inclusive and sustainable development, and calls upon States to ensure that efforts to implement the 2030 Agenda for all, by reaching all its Goals and targets, are strengthened and accelerated in this decade of action for building more sustainable, peaceful, just, equitable, inclusive and resilient societies where no one is left behind;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms </span>the commitment of all States to ending poverty in all its forms and dimensions, including by eradicating extreme poverty, and emphasizes that eradicating poverty, including extreme poverty, is an indispensable requirement for sustainable development and an overarching objective of the 2030 Agenda and the Pact for the Future;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes and appreciates </span>the efforts made by States, international organizations and other stakeholders to eradicate poverty, as well as the remarkable progress made in this field, which is of significant importance for the enjoyment of human rights, and calls for enhanced international cooperation and exchanges regarding poverty eradication;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>States and the United Nations system, including its funds and programmes and specialized agencies, in accordance with their mandates, to continue to mobilize resources to carry out development cooperation and to assist States, particularly developing and the least developed countries, upon their request, in promoting inclusive and sustainable development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>States, relevant United Nations bodies and other stakeholders to take the 2030 Agenda into account when delivering technical assistance and capacity-building, as requested by the countries concerned, in the field of human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">Invites </span>relevant United Nations human rights mechanisms and procedures to continue to take into account the role of development in promoting and protecting human rights when fulfilling their mandates, and to incorporate a development perspective into their work;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Office of the United Nations High Commissioner for Human Rights to reinforce its work and initiatives on fighting poverty and addressing inequalities in the context of the implementation of the 2030 Agenda, which contributes to the enjoyment of all human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Office of the High Commissioner to prepare a comprehensive report on the impact of conditionalities by international financial institutions on human rights, including economic, social and cultural rights, in which it considers challenges, best practices and actionable solutions, and to submit the report to the Human Rights Council at its sixty-fourth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Also requests </span>the Office of the High Commissioner, when preparing the above-mentioned report, to seek input from experts from diverse geographic regions, including from States, relevant intergovernmental organizations, United Nations agencies, funds and programmes, relevant special procedures, the Human Rights Council Advisory Committee, the treaty bodies, national human rights institutions, academia and civil society representatives;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="33rd" refersTo="#adoptionMeeting">33rd meeting</location>
+          <eol />
+          <docDate date="2025-07-08" refersTo="#adoptionDate">8 July 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
