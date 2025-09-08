@@ -1,0 +1,238 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-14/"></FRBRuri>
+          <FRBRdate date="2025-07-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-14/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-14/eng@/"></FRBRuri>
+          <FRBRdate date="2025-07-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-14/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-14/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-09-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Working Group on Discrimination against Women and Girls" showAs="UN. Human Rights Council. Working Group on Discrimination against Women and Girls" dictionary="DHLAUTH"></keyword>
+        <keyword value="GENDER DISCRIMINATION" href="http://metadata.un.org/thesaurus/1002611" showAs="GENDER DISCRIMINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GENDER EQUALITY" href="http://metadata.un.org/thesaurus/1002612" showAs="GENDER EQUALITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN'S RIGHTS" href="http://metadata.un.org/thesaurus/1007035" showAs="WOMEN'S RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WORKING GROUPS" href="http://metadata.un.org/thesaurus/1007079" showAs="WORKING GROUPS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/59/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-03" outcome="draftResolution" as="A/HRC/59/L.18/Rev.1" by="Albania, Andorra, Armenia, Australia, Austria, Belgium, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, France, Georgia, Germany, Greece, Guatemala, Honduras, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Mexico, Monaco, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-07-08" outcome="recommendedForAdoption" by="" />
+        <step date="2025-07-08" outcome="adopted" as="Adopted without vote, 32nd meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="english" href="/akn/ontology/concept/un/language/english" showAs="English"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/59/14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-07-08" class="rightSmall" refersTo="#dateOfIssuance">8 July 2025</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Human Rights Council</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="59" eId="coverPage_1__session_1">Fifty-ninth session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-06-16" refersTo="#startDate">16 June</date>
+          <date date="2025-07-08" refersTo="#endDate">8 July 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Agenda item 3</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Human Rights Council  on 7 July 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>59/14.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Mandate of the Working Group on discrimination against women and girls</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Human Rights Council</span>,</p>
+      </formula>
+      <container name="Guided" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">		Guided </span>by the purposes and principles of the Charter of the United Nations,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming </span>the obligation of all States to respect, protect and fulfil all human rights and fundamental freedoms and to eliminate all forms of discrimination, including discrimination against women and girls,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">		Reaffirming also</span> the Universal Declaration of Human Rights, the Convention on the Elimination of All Forms of Discrimination against Women, the Convention on the Rights of the Child, the International Convention on the Elimination of All Forms of Racial Discrimination, the Convention on the Rights of Persons with Disabilities, the International Covenant on Civil and Political Rights, the International Covenant on Economic, Social and Cultural Rights and all other relevant human rights treaties and instruments,</p>
+      </container>
+      <container name="Recalling" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling</span> that gender equality and the condemnation of discrimination and violence against women and girls have been recognized in the Vienna Declaration and Programme of Action, the Programme of Action of the International Conference on Population and Development and the Beijing Declaration and Platform for Action, and the outcome documents of their review conferences, the Durban Declaration and Programme of Action and the outcome document of the Durban Review Conference,</p>
+      </container>
+      <container name="Recalling also" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling also </span>all relevant resolutions of the Human Rights Council, the Commission on Human Rights, the General Assembly and the Security Council, and relevant resolutions and agreed conclusions of the Commission on the Status of Women and the Commission on Population and Development that consider the issue of discrimination against women and girls,</p>
+      </container>
+      <container name="Recalling further" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">		Recalling further</span> the inclusion of both gender equality and the empowerment of all women and girls as a stand-alone goal of the 2030 Agenda for Sustainable Development, and that the systematic mainstreaming of a gender perspective in the implementation of the 2030 Agenda is crucial,</p>
+      </container>
+      <container name="Expressing deep concern" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">		Expressing deep concern </span>at the continued prevalence of discrimination, including multiple and intersecting forms of discrimination, against women and girls in all its different forms and manifestations worldwide, and recognizing that girls are often at greater risk of being exposed to and experiencing discrimination, including that which occurs through or is amplified by the use of digital technologies,</p>
+      </container>
+      <container name="Re-emphasizing" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">		Re-emphasizing </span>that discrimination against women and girls constitutes a human rights violation or abuse and undermines the human rights principles of equality and non‑discrimination, and that States should ensure substantive equality and non‑discrimination, including by taking into account and addressing the multidimensional nature of inequality, pre‑existing gender inequalities and their root causes,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the work undertaken by the Working Group on discrimination against women and girls,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">			See A/HRC/59/45.</p></authorialNote> and takes note of its recommendations to States with regard to their international obligations to support substantive equality by adopting appropriate measures, including temporary special measures, necessary to prevent, redress and eliminate patriarchal and gender stereotypes that cause or perpetuate discrimination in all spheres of life;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend the mandate of the Working Group on discrimination against women and girls for a period of three years, on the same terms provided for by the Human Rights Council in its resolution 15/23 of 1 October 2010 and subsequent resolutions in which the Council extended the mandate,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Human Rights Council resolutions 23/7, 32/4, 41/6 and 50/18.</p></authorialNote> and requests the Working Group to continue to consider, and to mainstream across all its work, age and disability perspectives in the fulfilment of its mandate, and to examine the specific forms of discrimination that girls face;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Working Group, within its mandate, to continue to facilitate the meaningful participation of women and girls from all geographic regions in its work, and to continue to develop practical, accessible and evidence-based advice for States aimed at, inter alia, the effective implementation of its recommendations to achieve substantive equality;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">
+            <span class="italic">	Calls upon</span> all States to cooperate with and assist the Working Group in its task, to supply all necessary available information requested by it and to give serious consideration to responding favourably to its requests to visit their country to enable it to fulfil its mandate effectively;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> relevant United Nations agencies, funds and programmes, in particular the United Nations Entity for Gender Equality and the Empowerment of Women, the treaty bodies, the special procedures of the Human Rights Council, within their respective mandates, and civil society actors, including women’s and girls’ rights organizations, as well as Indigenous Peoples and the private sector, to cooperate fully with the Working Group in the fulfilment of its mandate, and requests the Working Group to continue to engage with the Commission on the Status of Women, including by participating in its work and formally reporting to it;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Requests </span>the Secretary-General and the United Nations High Commissioner for Human Rights to provide the Working Group with all the assistance necessary to fulfil its mandate effectively, and in particular by placing adequate human, financial and material resources at the Working Group’s disposal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its request to the Secretary-General to ensure that the reports of the Working Group are brought to the attention of the Commission on the Status of Women and the General Assembly through a note by the Secretariat, and requests the Working Group to continue to present an oral report annually to the Commission and to the Assembly, in proximity with the reports of the Special Rapporteur on violence against women, its causes and consequences and of the Committee on the Elimination of Discrimination against Women;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to continue its consideration of the issue of the elimination of all forms of discrimination against women and girls as a matter of high priority, in conformity with its programme of work, at its sixty-second session.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="32nd" refersTo="#adoptionMeeting">32nd meeting</location>
+          <eol />
+          <docDate date="2025-07-07" refersTo="#adoptionDate">7 July 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adopted without a vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
