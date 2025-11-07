@@ -1,0 +1,495 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-12/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-12/"></FRBRuri>
+          <FRBRdate date="2025-07-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-12/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-12/fra@/"></FRBRuri>
+          <FRBRdate date="2025-07-21" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-12/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-07-07/59-12/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-09-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Human Rights of Internally Displaced Persons" showAs="UN. Human Rights Council. Special Rapporteur on the Human Rights of Internally Displaced Persons" dictionary="DHLAUTH"></keyword>
+        <keyword value="Guiding Principles on Internal Displacement (1998)" showAs="Guiding Principles on Internal Displacement (1998)" dictionary="DHLAUTH"></keyword>
+        <keyword value="DISPLACED PERSONS" href="http://metadata.un.org/thesaurus/1001706" showAs="DISPLACED PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIAL RAPPORTEURS" href="http://metadata.un.org/thesaurus/1006125" showAs="SPECIAL RAPPORTEURS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" href="http://metadata.un.org/thesaurus/1002984" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS POLICY" href="http://metadata.un.org/thesaurus/1002983" showAs="HUMAN RIGHTS POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="3" showAs="Promotion and protection of all human rights, civil, political, economic, social and cultural rights, including the right to development." dictionary="A/HRC/59/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-02" outcome="draftResolution" as="A/HRC/59/L.15" by="Albania, Austria, Azerbaijan, Belgium, Bulgaria, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Estonia, France, Georgia, Germany, Greece, Honduras, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Mexico, Monaco, Montenegro, North Macedonia, Paraguay, Portugal, Romania, Samoa, Slovakia, Slovenia, Spain, Sweden, Switzerland, Uganda, Ukraine and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-07-21" outcome="recommendedForAdoption" by="" />
+        <step date="2025-07-21" outcome="adopted" as="Adopted without vote, 32nd meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/59/12</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-07-21" class="rightSmall" refersTo="#dateOfIssuance">21 juillet 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="59" eId="coverPage_1__session_1">Cinquante-neuvième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-06-16" refersTo="#startDate">16 juin</date>
+          <date date="2025-07-08" refersTo="#endDate">8 juillet 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="3" name="agenda item">Point 3 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection de tous les droits de l’homme,  civils, politiques, économiques, sociaux et culturels,  y compris le droit au développement</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 7 juillet 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>59/12.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Mandat de rapporteur spécial sur les droits humains des personnes déplacées dans leur propre pays</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> toutes les résolutions sur les personnes déplacées dans leur propre pays que l’Assemblée générale, la Commission des droits de l’homme et lui-même ont adoptées, notamment la résolution <a href="https://docs.un.org/fr/A/RES/78/205">78/205</a> de l’Assemblée, du 22 décembre 2023, et sa propre résolution <a href="https://docs.un.org/fr/A/HRC/RES/50/6">50/6</a>, du 7 juillet 2022,</p>
+      </container>
+      <container name="Rappelant également" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Rappelant également </span>la résolution <a href="https://docs.un.org/fr/A/RES/46/182">46/182</a> de l’Assemblée générale, du 19 décembre 1991, sur le renforcement de la coordination de l’aide humanitaire d’urgence de l’Organisation des Nations Unies, et les Principes directeurs énoncés dans l’annexe à cette résolution,</p>
+      </container>
+      <container name="Considérant" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> que la protection des personnes déplacées a été renforcée, car des normes en la matière ont été établies, réaffirmées et regroupées, en particulier dans les Principes directeurs relatifs au déplacement de personnes à l’intérieur de leur propre pays<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/fr/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>, annexe.</p></authorialNote>,</p>
+      </container>
+      <container name="Rappelant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>ses résolutions <a href="https://docs.un.org/fr/A/HRC/RES/5/1">5/1</a>, sur la mise en place de ses institutions, et <a href="https://docs.un.org/fr/A/HRC/RES/5/2">5/2</a>, sur le Code de conduite pour les titulaires de mandat au titre des procédures spéciales, toutes deux datées du 18 juin 2007, et soulignant que les titulaires de mandat doivent remplir leurs fonctions conformément à ces résolutions et à leurs annexes,</p>
+      </container>
+      <container name="Profondément troublé" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Profondément troublé</span> par le nombre alarmant de personnes qui sont déplacées dans le monde, notamment en raison des violations des droits de l’homme et des atteintes à ces droits, des violations du droit international humanitaire, des conflits armés, des situations d’occupation, de la menace que constituent les mines terrestres, les restes explosifs de guerre et les engins explosifs improvisés, des persécutions, de la violence, de la criminalité organisée et du terrorisme, ainsi que des catastrophes et des effets néfastes des changements climatiques, de l’appauvrissement de la biodiversité, de la pollution et de la désertification et, de plus en plus, de la conjonction de ces facteurs, et qui ne bénéficient ni d’une aide ni d’une protection suffisantes et ne se voient offrir aucune solution durable, et conscient des graves difficultés qui en résultent pour les personnes touchées, y compris les communautés d’accueil, les États et la communauté internationale,</p>
+      </container>
+      <container name="Conscient" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Conscient</span> que les violations du droit international humanitaire peuvent provoquer des déplacements, et rappelant que ces déplacements pourraient être restreints si toutes les parties à des conflits armés respectaient le droit international humanitaire et le droit international des droits de l’homme applicable, en particulier les principes fondamentaux de distinction, de proportionnalité et de précaution ainsi que l’interdiction des déplacements forcés de civils, sauf dans les cas où la sécurité de la population civile ou des impératifs militaires l’exigent,</p>
+      </container>
+      <container name="Conscient également" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Conscient également</span> que les catastrophes naturelles, qui sont plus fréquentes et de plus grande ampleur, et les changements climatiques, qui sont des facteurs de risque de catastrophe, et leurs effets néfastes, qui concourent à la dégradation de l’environnement et à la survenance de phénomènes météorologiques extrêmes, font déjà partie des causes des déplacements internes et accentuent les pressions qui s’exercent sur les personnes déplacées et sur les communautés d’accueil, et prenant note des risques auxquels les personnes déplacées peuvent être exposées lorsque leurs communautés d’accueil sont touchées par des catastrophes,</p>
+      </container>
+      <container name="Ayant à l’esprit" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Ayant à l’esprit </span>que les déplacements internes, notamment les situations prolongées de déplacement, soulèvent des questions relatives aux droits de l’homme, à l’action humanitaire, au développement, à la consolidation de la paix et à la justice transitionnelle, que les femmes, les enfants, les personnes âgées, les personnes handicapées, les personnes appartenant à des minorités et les peuples autochtones sont souvent plus vulnérables, et qu’il est de la responsabilité des États et de la communauté internationale de les protéger et de les assister encore mieux, notamment en respectant et en préservant les droits humains et les libertés fondamentales de toutes les personnes déplacées, de manière à trouver des solutions durables,</p>
+      </container>
+      <container name="Constatant avec une vive préoccupation" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Constatant avec une vive préoccupation </span>que, du fait des inégalités de genre, les femmes et les filles ne sont pas totalement maîtresses des décisions qui régissent leur vie et n’ont pas pleinement accès aux ressources, notamment aux denrées alimentaires, à l’eau, aux intrants agricoles, à la terre, au crédit, à l’énergie, à la technologie, à la justice, à l’éducation, aux services de santé, à un logement convenable, à la protection sociale et à l’emploi, si bien qu’en cas de catastrophe, elles sont plus exposées aux risques et plus susceptibles de perdre leurs moyens de subsistance, et relevant qu’en l’absence de mesures propres à éliminer les obstacles structurels qui empêchent les femmes et les filles d’exercer leurs droits, les inégalités de genre vont se creuser, la violence sexuelle et fondée sur le genre s’amplifier et la discrimination croisée s’aggraver dans les situations de crise,</p>
+      </container>
+      <container name="Prenant note" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Prenant note</span> de la nécessité que les différents organismes des Nations Unies tiennent compte de la question des droits humains des personnes déplacées de façon plus systématique, afin que les problèmes rencontrés par ces personnes soient traités plus efficacement, notamment en accordant toute l’attention voulue à l’appel à l’action en faveur des droits humains lancé par le Secrétaire général et en accueillant avec satisfaction les recommandations faites à ce sujet par le Rapporteur spécial/la Rapporteuse spéciale sur les droits humains des personnes déplacées dans leur propre pays,</p>
+      </container>
+      <container name="Soulignant" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> que c’est aux États qu’il incombe au premier chef de fournir protection et assistance aux personnes déplacées relevant de leur juridiction, et ce, sans discrimination, par exemple en aidant à trouver des solutions durables, et de prévenir les déplacements arbitraires conformément au droit international, y compris au droit international des droits de l’homme applicable, ce qui suppose notamment de prévenir les déplacements forcés contraires au droit international humanitaire et de s’attaquer aux causes profondes des déplacements en prenant des mesures fondées sur des données probantes et en coopérant de façon appropriée avec la communauté internationale,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve"> 	<span class="italic">Remercie</span> la Rapporteuse spéciale sur les droits humains des personnes déplacées dans leur propre pays des activités qu’elle a menées jusqu’à la présente date, du rôle de catalyseur qu’elle a joué pour mieux sensibiliser l’opinion au sort des personnes déplacées et des efforts qu’elle continue de déployer pour que les besoins particuliers des personnes déplacées soient satisfaits, sur le plan du développement et dans d’autres domaines, y compris par une prise en considération systématique de leurs droits humains par toutes les entités compétentes des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> 	<span class="italic">Accueille avec satisfaction</span> le rapport de la Rapporteuse spéciale sur les droits humains des personnes déplacées dans leur propre pays qui lui a été soumis à la présente session<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://docs.un.org/fr/A/HRC/59/46">A/HRC/59/46</a>.</p></authorialNote> ainsi que les conclusions et recommandations qu’il contient, et considère qu’il importe d’innover dans la manière de lutter contre la criminalité organisée, qui peut être une cause de déplacements internes et un facteur contributif des violations des droits des personnes déplacées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> 	<span class="italic">Conscient </span>qu’il importe au plus haut point que les personnes déplacées, en tant que citoyens et titulaires de droits, participent à la prise des décisions qui les concernent, y compris aux processus électoraux, et que les obstacles à leur participation à la vie politique soient levés pour qu’elles puissent jouir pleinement de leurs droits et obtenir des solutions durables ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="italic">Rappelle</span> la volonté exprimée au Sommet mondial sur l’action humanitaire, qui s’est tenu à Istanbul (Türkiye) en mai 2016, de considérer la question des déplacements internes selon une nouvelle approche, qui permette de répondre aux besoins humanitaires immédiats et aux besoins de développement à plus long terme grâce à des décisions collectives concernant les personnes déplacées et les communautés d’accueil, et rappelle le Programme d’action du Secrétaire général sur les déplacements internes, adopté en 2022, et la stratégie relative aux déplacements internes à l’échelle du système des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 	<span class="italic">Rappelle également</span> le Nouveau Programme pour les villes, adopté en 2016 à la Conférence des Nations Unies sur le logement et le développement urbain durable, et constate que les déplacements internes sont un phénomène de plus en plus urbain, qui nécessite des mesures adaptées au contexte, notamment en lien avec l’aménagement du territoire, les services publics et l’infrastructure inclusive, et qu’à cet égard, il importe de tenir compte des besoins particuliers et des facteurs de vulnérabilité des personnes déplacées dans des zones urbaines, de veiller à leur intégration sur place et de soutenir les communautés d’accueil et les administrations locales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="italic">Remercie</span> les gouvernements, les organisations intergouvernementales et les organisations non gouvernementales qui ont apporté protection et assistance aux personnes déplacées à l’intérieur de leur propre pays, en particulier en facilitant la recherche de solutions durables et en tenant compte des personnes déplacées dans leurs plans de développement nationaux et locaux, et qui ont soutenu et facilité le travail de la Rapporteuse spéciale, et souligne le rôle essentiel que jouent les acteurs locaux et nationaux, notamment les organisations non gouvernementales et les organisations de proximité, par leur réactivité face aux situations de crise et par la protection et l’assistance qu’elles accordent aux groupes les plus lésés au niveau local ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">Est conscient </span>que les institutions nationales des droits de l’homme jouent un rôle important, à chaque phase des déplacements, en faisant en sorte que toutes les questions touchant les droits humains soient examinées comme il convient ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> 	<span class="italic">Se déclare profondément préoccupé</span> par les problèmes persistants que rencontrent les nombreuses personnes déplacées dans le monde, en particulier le risque d’extrême pauvreté et d’exclusion socioéconomique, l’accès limité à l’aide humanitaire et aux mesures et à l’aide en faveur d’un développement à long terme, le risque plus élevé d’être victimes de violations du droit international, notamment du droit des droits de l’homme et du droit international humanitaire, le risque plus élevé, en particulier pour les femmes et les filles, d’être victimes de violence sexuelle et fondée sur le genre, et les difficultés résultant de la situation particulière des personnes déplacées, telles que le manque de protection, de nourriture, de logement, d’accès à la justice, d’accès aux services de santé et de soutien psychosocial et d’accès à l’éducation, ainsi que la dislocation des liens familiaux et la perte de documents essentiels, qui peuvent conduire à des violations des droits de l’homme, et les problèmes liés à la réinsertion, y compris les obstacles à l’exercice des droits au logement, à la terre et à la propriété ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve"> 	<span class="italic">Se déclare préoccupé</span> par le problème des déplacements prolongés et considère qu’il faut tenir compte des droits et des besoins des personnes déplacées, en particulier des femmes et des filles, dans les stratégies nationales et locales de développement rural et urbain, associer les personnes déplacées à l’élaboration et à la mise en œuvre de ces stratégies, et mettre en place des solutions durables telles que le retour volontaire, et la réinsertion, l’intégration sur place et la réinstallation ailleurs dans le pays, dans des conditions dignes et sûres ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve"> 	<span class="italic">Se déclare particulièrement préoccupé </span>par toutes les menaces, violations des droits de l’homme et atteintes à ces droits et violations du droit international humanitaire qui sont le lot de nombreuses personnes déplacées, notamment des femmes et des enfants, qui sont particulièrement vulnérables ou expressément visés, s’agissant en particulier de la violence sexuelle et fondée sur le genre et de l’exploitation et des atteintes sexuelles, de la traite des personnes, de l’enrôlement forcé et des enlèvements, engage le Rapporteur spécial/la Rapporteuse spéciale à continuer de s’employer à promouvoir des mesures visant à répondre aux besoins de protection et d’assistance propres aux personnes déplacées, et demande aux États, agissant en coopération avec des organismes internationaux et d’autres parties prenantes, de fournir protection et assistance aux personnes déplacées qui sont victimes des violations et atteintes susmentionnées ainsi qu’aux autres groupes de personnes déplacées ayant des besoins particuliers, tels que les personnes nécessitant des soins de santé mentale et un soutien psychosocial, les personnes âgées et les personnes handicapées, compte tenu de toutes les résolutions pertinentes de l’Assemblée générale et du Conseil de sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve"> 	<span class="italic">Se déclare préoccupé</span> par les déplacements internes causés par des catastrophes soudaines ou à évolution lente, qui ont un impact disproportionné sur les pays en développement qui sont très exposés aux risques naturels, présentent des zones densément peuplées dans lesquelles les infrastructures ne sont pas résilientes et ont des capacités limitées de réduction des risques de catastrophe ; lequel impact est accentué par les effets néfastes des changements climatiques, l’appauvrissement de la biodiversité, la pollution, la désertification, la pauvreté et d’autres facteurs qui continueront probablement d’accroître les déplacements, de compromettre le développement et d’entraver l’exercice des droits de l’homme en causant des catastrophes plus fréquentes et plus graves ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve"> 	<span class="italic">Estime</span> qu’il faudrait adopter une approche de réduction des risques de catastrophe, d’alerte rapide, de planification des interventions d’urgence en cas de catastrophe, de gestion des catastrophes, d’adaptation, d’atténuation et de relèvement qui soit fondée sur les droits de l’homme et tienne compte des questions de genre, afin de prévenir, de faire diminuer et de maîtriser les déplacements dus à des catastrophes, de mieux protéger les personnes touchées et de mieux répondre à leurs besoins, et de trouver des solutions durables, et rappelle les dispositions pertinentes du Cadre de Sendai pour la réduction des risques de catastrophe (2015-2030)<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/69/283">69/283</a> de l’Assemblée générale, annexe II.</p></authorialNote>, de la Convention-cadre des Nations Unies sur les changements climatiques et de l’Accord de Paris<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<a href="https://docs.un.org/fr/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, décision 1/CP.21, annexe.</p></authorialNote>, notamment les recommandations de l’Équipe spéciale chargée de la question des déplacements de population du Mécanisme international de Varsovie relatif aux pertes et préjudices liés aux incidences des changements climatiques<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Voir <a href="https://unfccc.int/documents/193360">https://unfccc.int/documents/193360</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve"> 	<span class="italic">Rappelle </span>que le Programme de développement durable à l’horizon 2030 vise à répondre aux besoins des plus pauvres et des plus vulnérables, y compris des personnes déplacées dans leur propre pays, et que le fait de ne pas répondre aux besoins des personnes déplacées peut saper les efforts que fournissent les pays pour atteindre leurs objectifs généraux de développement, et relève à cet égard qu’il est essentiel d’intégrer la gestion des risques au processus de développement durable afin de réduire les risques de déplacement, de trouver des solutions durables et de faire en sorte que personne ne soit laissé de côté, conformément au Programme 2030 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> à toutes les parties à un conflit armé de respecter les obligations mises à leur charge par le droit international humanitaire et par le droit international des droits de l’homme, selon le cas, afin de prévenir les déplacements forcés et de promouvoir la protection des civils, notamment en leur garantissant des voies de passage sûres, et de veiller à ce que les organismes des Nations Unies et les organisations humanitaires compétents puissent venir en aide, sans entrave et en toute sécurité, aux personnes déplacées, notamment à celles qui se trouvent dans des zones de conflit, et demande aux gouvernements de prendre des mesures afin de respecter, de protéger et de réaliser les droits humains de toutes les personnes déplacées, notamment leur liberté de circuler librement et de choisir leur résidence à l’intérieur d’un État, sans discrimination aucune, conformément à leurs obligations au regard du droit international ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxtG">
+        <num>15.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage vivement</span> les États et toutes les parties à un conflit armé à prendre des mesures propres à prévenir et à combattre les actes de violence, les attaques et les menaces visant des membres du personnel médical et du personnel humanitaire dont l’activité est d’ordre exclusivement médical, leurs moyens de transport et leur matériel, ou des hôpitaux et autres installations médicales dans le contexte de conflits armés, notamment en élaborant des cadres juridiques nationaux qui garantissent le respect des obligations mises à leur charge par le droit international ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxtG">
+        <num>16.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve"> 	<span class="italic">Condamne fermement </span>les actes de violence sexuelle et fondée sur le genre qui continuent d’être commis sur des personnes déplacées de tous âges, surtout des femmes et des filles, mais aussi des hommes et des garçons, et exhorte les autorités et la communauté internationale à œuvrer ensemble pour l’efficacité de la prévention et des interventions, la sécurité, la protection des droits de l’homme, l’accès à la justice et l’assistance aux victimes, et à s’attaquer aux causes profondes de la violence sexuelle et fondée sur le genre et à lutter contre l’impunité en général ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="SingleTxtG">
+        <num>17.</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve"> 	<span class="italic">Réaffirme </span>que les Principes directeurs relatifs au déplacement de personnes à l’intérieur de leur propre pays sont un dispositif international important de protection des personnes déplacées, engage les États Membres et les organismes humanitaires, ainsi que les donateurs et les autres fournisseurs d’aide au développement, à continuer de s’employer ensemble à répondre de façon plus prévisible aux besoins des personnes déplacées, y compris au besoin d’une aide au développement à long terme qui permette la mise en place de solutions durables et, à cet égard, demande à la communauté internationale d’aider les États qui le lui demandent à renforcer leurs capacités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxtG">
+        <num>18.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve"> 	<span class="italic">Accueille avec satisfaction</span> le rapport du Groupe de haut niveau du Secrétaire général chargé de la question des déplacements internes et le Programme d’action du Secrétaire général sur les déplacements internes, sait qu’il est crucial de redoubler d’efforts pour lutter contre les causes profondes des déplacements internes, prévenir ces déplacements, protéger et mieux aider les personnes déplacées, et trouver des solutions durables, et engage le Secrétaire général à participer à ces efforts en collaboration avec les États, le système des Nations Unies, notamment le Rapporteur spécial/la Rapporteuse spéciale, et les autres acteurs concernés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_184" class="SingleTxtG">
+        <num>19.</num>
+        <content eId="para_184__content">
+          <p xml:space="preserve"> 	<span class="italic">Prend acte </span>des efforts catalytiques, limités dans le temps, que le Conseiller spécial pour les solutions à apporter aux déplacements internes a déployés pour coordonner et accélérer les travaux sur les solutions aux déplacements internes, et engage les États, le système des Nations Unies, les coordonnateurs résidents, les coordonnateurs de l’action humanitaire, les institutions financières internationales, le secteur privé et les autres acteurs concernés à poursuivre ces efforts en collaboration avec le Rapporteur spécial/la Rapporteuse spéciale ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_203" class="SingleTxtG">
+        <num>20.</num>
+        <list eId="para_203_list">
+          <intro eId="para_203_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Demande</span> aux États :</p>
+          </intro>
+          <point eId="para_203_list_point_a">
+            <num>a)</num>
+            <content eId="para_203_list_point_a_content">
+              <p xml:space="preserve">  D’apporter des solutions durables, en se conformant au Cadre conceptuel sur les solutions durables pour les personnes déplacées à l’intérieur de leur propre pays et en facilitant l’application du Programme d’action du Secrétaire général sur les déplacements internes, et encourage le renforcement de la coopération internationale, notamment par l’apport de ressources et de compétences techniques qui aident les pays touchés, en particulier les pays en développement, dans leurs politiques et activités concernant la prévention, l’aide, la protection, la réadaptation, les solutions durables, y compris la réduction des risques de catastrophe, l’atténuation des changements climatiques et l’adaptation à ces changements, et l’aide au développement en faveur des personnes déplacées et des communautés d’accueil ;</p>
+            </content>
+          </point>
+          <point eId="para_203_list_point_b">
+            <num>b)</num>
+            <content eId="para_203_list_point_b_content">
+              <p xml:space="preserve">  De tenir compte des risques de conflit lorsqu’ils s’emploient à prévenir, à analyser et à régler le problème des déplacements internes, en s’assurant que leurs politiques et programmes contribuent à la cohésion sociale et ne créent pas de tensions intercommunautaires ou intracommunautaires, ou n’accentuent pas celles existantes, et en encourageant des projets inclusifs, auxquels l’ensemble de la société est associé, qui visent à renforcer les capacités et à tirer parti des connaissances des personnes déplacées et des communautés locales dans le but de prévenir et de résoudre les conflits, de gérer les catastrophes et d’atténuer leurs effets aux niveaux local, national et régional ;</p>
+            </content>
+          </point>
+          <point eId="para_203_list_point_c">
+            <num>c)</num>
+            <content eId="para_203_list_point_c_content">
+              <p xml:space="preserve">  De tenir compte du Programme 2030 dans leurs politiques et dispositifs de développement nationaux et, selon qu’il convient, de faire figurer la question des déplacements internes dans leurs stratégies de développement et de communiquer des informations à ce sujet dans leurs rapports sur les objectifs de développement durable concernés ;</p>
+            </content>
+          </point>
+          <point eId="para_203_list_point_d">
+            <num>d)</num>
+            <content eId="para_203_list_point_d_content">
+              <p xml:space="preserve">  De prévenir les déplacements arbitraires conformément au droit international, notamment en encourageant le respect du droit international des droits de l’homme et du droit international humanitaire, en empêchant les déplacements forcés, qui sont contraires au droit international humanitaire, et en mettant la législation nationale en conformité avec les obligations internationales pertinentes, notamment celles qui ont trait à l’interdiction des déplacements arbitraires et à l’incrimination des actes de déplacement arbitraire ;</p>
+            </content>
+          </point>
+          <point eId="para_203_list_point_e">
+            <num>e)</num>
+            <content eId="para_203_list_point_e_content">
+              <p xml:space="preserve">  De continuer d’élaborer et d’appliquer des lois et des politiques nationales qui tendent à la réalisation des droits humains des personnes déplacées et traitent de toutes les phases des déplacements de manière inclusive et non discriminatoire, notamment en adoptant une stratégie faisant intervenir l’ensemble de la société et l’ensemble des pouvoirs publics, en désignant au sein de l’État un coordonnateur national chargé des questions relatives aux déplacements internes et en allouant des ressources budgétaires suffisantes, et engage la communauté internationale, les organismes des Nations Unies compétents et les acteurs régionaux et nationaux à fournir un appui financier et technique aux pays qui en font la demande et à coopérer avec eux dans ce domaine ;</p>
+            </content>
+          </point>
+          <point eId="para_203_list_point_f">
+            <num>f)</num>
+            <content eId="para_203_list_point_f_content">
+              <p xml:space="preserve">  De considérer les personnes touchées comme des titulaires de droits qui doivent jouer un rôle central dans l’adoption, la planification et l’application des décisions relatives aux déplacements internes et, en conséquence, de faciliter et de garantir la participation et la consultation pleines et effectives des personnes déplacées, y compris des femmes, des enfants et des personnes vulnérables, à tous les niveaux du processus décisionnel et au cours de l’exécution, du suivi et de l’évaluation des activités qui ont un effet direct sur leur vie, chaque fois que les déplacements internes soulèvent des questions qui touchent la promotion et la protection des droits de l’homme, la prévention des violations des droits de l’homme et des atteintes à ces droits, l’inclusion dans les activités et les plans de développement locaux et nationaux, et l’élaboration et la mise en œuvre de mesures et de solutions durables, notamment en favorisant le retour librement consenti des personnes déplacées, leur intégration sur place ou leur installation ailleurs dans le pays, dans des conditions dignes, sûres et viables, ainsi que les processus de paix, la consolidation de la paix, la justice transitionnelle et la reconstruction après les conflits ;</p>
+            </content>
+          </point>
+          <point eId="para_203_list_point_g">
+            <num>g)</num>
+            <content eId="para_203_list_point_g_content">
+              <p xml:space="preserve">  D’accorder une attention spéciale à la situation et aux besoins particuliers des femmes et des filles déplacées et de prendre des mesures pour lutter efficacement contre les formes et les structures préexistantes de discrimination et d’inégalités fondées sur le genre, tels que le manque d’accès à l’éducation et à l’information, le manque d’accès à l’aide juridictionnelle, la discrimination visant les femmes et les filles, en droit et en pratique, dans l’accès au logement, à la terre et à la propriété, la discrimination que les lois sur la nationalité font subir aux femmes en ne les autorisant pas à transmettre leur nationalité à leurs enfants au même titre que les hommes, le manque d’accès à des moyens de subsistance, à un revenu, à un travail décent et à une égale rémunération, le manque d’accès à la protection sociale et à des services de santé disponibles, accessibles, acceptables et de bonne qualité, y compris dans les domaines de la santé sexuelle et procréative, les pratiques préjudiciables, y compris les mariages d’enfants, les mariages précoces et les mariages forcés et les mutilations génitales féminines, et les obstacles socioéconomiques et les problèmes de sécurité qui peuvent empêcher les femmes et les filles d’exercer leur droit de participer pleinement, effectivement et utilement aux décisions qui les concernent ;</p>
+            </content>
+          </point>
+          <point eId="para_203_list_point_h">
+            <num>h)</num>
+            <content eId="para_203_list_point_h_content">
+              <p xml:space="preserve">  De prendre en considération les besoins particuliers des personnes handicapées et des personnes âgées dans le cadre de la promotion et de la protection des droits humains des personnes déplacées, en veillant notamment à ce que les personnes handicapées et les personnes âgées bénéficient en temps opportun, dans des conditions d’égalité et d’inclusion et compte tenu de leur sexe et de leur âge, d’un accès approprié à des services d’assistance et de protection, à des informations accessibles et à des services de réadaptation, y compris des services de santé, des services de santé sexuelle et procréative, des services de soutien psychosocial et des programmes éducatifs, tout en respectant et en favorisant leur autonomie individuelle et leur indépendance ;</p>
+            </content>
+          </point>
+          <point eId="para_203_list_point_i">
+            <num>i)</num>
+            <content eId="para_203_list_point_i_content">
+              <p xml:space="preserve">  D’aider les personnes déplacées à l’intérieur de leur propre pays à récupérer, dans la mesure du possible, les logements, les terres et les biens qu’elles ont laissés derrière elles ou dont elles ont été dépossédées pendant leur déplacement, ou à obtenir une indemnisation appropriée ou une autre forme de réparation lorsque la récupération de ces logements, terres ou biens n’est pas possible ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_223" class="SingleTxtG">
+        <num>21.</num>
+        <list eId="para_223_list">
+          <intro eId="para_223_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Décide</span> de proroger pour une période de trois ans le mandat de rapporteur spécial sur les droits humains des personnes déplacées dans leur propre pays, le ou la titulaire devant :</p>
+          </intro>
+          <point eId="para_223_list_point_a">
+            <num>a)</num>
+            <content eId="para_223_list_point_a_content">
+              <p xml:space="preserve">  S’occuper du problème complexe des déplacements internes, notamment en faisant en sorte que les droits humains des personnes déplacées soient pris en considération de façon systématique par toutes les entités compétentes des Nations Unies ;</p>
+            </content>
+          </point>
+          <point eId="para_223_list_point_b">
+            <num>b)</num>
+            <content eId="para_223_list_point_b_content">
+              <p xml:space="preserve">  S’employer à renforcer l’action internationale menée en réaction au problème complexe des déplacements internes, dont les causes sont souvent diverses et interdépendantes et incluent les conflits armés, les situations d’occupation, les violations du droit international humanitaire, la violence généralisée, la criminalité organisée, les violations des droits de l’homme, les effets néfastes des changements climatiques et les catastrophes, et, par des activités de sensibilisation et des interventions coordonnées au niveau international, renforcer la protection et le respect des droits humains des personnes déplacées, tout en poursuivant et en améliorant le dialogue avec les États, les organisations intergouvernementales, les organisations régionales, les organisations non gouvernementales et les autres acteurs concernés, de façon inclusive ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_244" class="SingleTxtG">
+        <num>22.</num>
+        <list eId="para_244_list">
+          <intro eId="para_244_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Prie</span> le ou la titulaire du mandat de rapporteur spécial sur les droits humains des personnes déplacées dans leur propre pays, agissant dans l’exercice de son mandat et dans le cadre d’un dialogue constant avec les États, les organisations intergouvernementales, les organisations régionales, les organisations non gouvernementales, les institutions nationales des droits de l’homme, les personnes déplacées et les autres acteurs concernés :</p>
+          </intro>
+          <point eId="para_244_list_point_a">
+            <num>a)</num>
+            <content eId="para_244_list_point_a_content">
+              <p xml:space="preserve">  De continuer d’analyser, selon une approche participative, les causes profondes et les facteurs déterminants des déplacements internes, les besoins des personnes déplacées, la situation de ces personnes sur le plan des droits de l’homme, les mesures de prévention, y compris celles qui concernent la protection des personnes exposées au risque de déplacement et l’assistance à leur apporter, et les moyens d’améliorer la protection, ainsi que l’aide et les solutions durables offertes aux personnes déplacées, compte tenu des particularités de chaque situation et des informations pertinentes, en particulier des statistiques et des données ventilées en fonction de l’âge, du sexe, de la diversité et du lieu, et de communiquer des renseignements fiables à ce sujet dans les rapports qu’il ou elle lui soumet ;</p>
+            </content>
+          </point>
+          <point eId="para_244_list_point_b">
+            <num>b)</num>
+            <content eId="para_244_list_point_b_content">
+              <p xml:space="preserve">  De continuer de s’employer à promouvoir des stratégies et des initiatives d’appui globales et inclusives qui mettent l’accent sur la prévention des déplacements, l’amélioration de la protection et de l’assistance, les solutions durables et la prise en considération des personnes déplacées dans les stratégies de réduction des risques de catastrophe et les plans et budgets nationaux d’adaptation et de développement, ainsi que dans les processus de paix, les accords de paix et les processus de réinsertion et de réadaptation, selon le cas, étant entendu qu’à cet égard, les États sont responsables au premier chef des personnes relevant de leur juridiction ;</p>
+            </content>
+          </point>
+          <point eId="para_244_list_point_c">
+            <num>c)</num>
+            <content eId="para_244_list_point_c_content">
+              <p xml:space="preserve">  De continuer d’utiliser les Principes directeurs relatifs au déplacement de personnes à l’intérieur de leur propre pays dans le dialogue qu’il ou elle tient avec les gouvernements, les États sortant d’un conflit ou se trouvant dans d’autres situations, les organisations intergouvernementales, les organisations régionales, les organisations non gouvernementales et les autres acteurs concernés, et de poursuivre ses efforts visant à favoriser la diffusion, la promotion et l’application des Principes directeurs et à soutenir les activités qui contribuent au renforcement des capacités et à l’utilisation des Principes directeurs ainsi qu’à l’élaboration et à l’application de cadres juridiques et stratégiques régionaux ;</p>
+            </content>
+          </point>
+          <point eId="para_244_list_point_d">
+            <num>d)</num>
+            <content eId="para_244_list_point_d_content">
+              <p xml:space="preserve">  De tenir compte des questions de genre dans toutes les activités relevant de son mandat et d’accorder une attention spéciale aux droits humains des femmes déplacées et d’autres groupes ayant des besoins particuliers, comme les enfants, en particulier les filles, surtout s’ils sont non accompagnés ou séparés de leur famille, les personnes âgées, les personnes handicapées et les personnes nécessitant des soins de santé mentale et un soutien psychosocial, ainsi qu’à leurs besoins spécifiques en matière d’assistance, de protection et de développement ;</p>
+            </content>
+          </point>
+          <point eId="para_244_list_point_e">
+            <num>e)</num>
+            <content eId="para_244_list_point_e_content">
+              <p xml:space="preserve">  De continuer de prêter attention au rôle de la communauté internationale pour ce qui est d’aider les États touchés qui en font la demande à répondre aux besoins de protection et d’assistance des personnes déplacées, notamment à mettre en œuvre des stratégies nationales, et de mettre l’accent, dans les activités qu’il ou elle mène pour défendre cette cause, sur la mobilisation de ressources suffisantes pour répondre aux besoins des pays touchés et, en particulier, de poursuivre la coopération avec les donateurs et autres fournisseurs d’aide au développement, notamment les organismes des Nations Unies et les autres acteurs concernés, tels que les institutions financières internationales, afin de renforcer encore l’aide internationale en faveur de la prévention, de la protection et de solutions durables ;</p>
+            </content>
+          </point>
+          <point eId="para_244_list_point_f">
+            <num>f)</num>
+            <content eId="para_244_list_point_f_content">
+              <p xml:space="preserve">  De renforcer encore, dans le cadre de la réforme du système des Nations Unies pour le développement, la coopération qu’il ou elle a engagée avec les organismes des Nations Unies, y compris avec les mécanismes de suivi établis à la fin du mandat du Conseiller spécial pour les solutions à apporter à la question des déplacements internes, tels que les structures de coordination et d’appui au niveau mondial créées par le Secrétaire général, l’approche des déplacements internes à l’échelle du système des Nations Unies<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		CEB/2024/6/Add.1.</p></authorialNote> et les coordonnateurs résidents et les équipes de pays, dans le cadre de la Commission de consolidation de la paix, et avec d’autres organisations internationales et régionales, en particulier sa participation aux travaux du Comité permanent interorganisations et de ses organes subsidiaires ainsi que du Comité directeur mixte chargé de promouvoir la coopération entre les secteurs de l’humanitaire et du développement ;</p>
+            </content>
+          </point>
+          <point eId="para_244_list_point_g">
+            <num>g)</num>
+            <content eId="para_244_list_point_g_content">
+              <p xml:space="preserve">  De continuer d’utiliser et de promouvoir, dans le cadre de ses activités, le Cadre conceptuel sur les solutions durables pour les personnes déplacées à l’intérieur de leur propre pays, qui a été adopté par le Comité permanent interorganisations, et les autres outils qui ont été élaborés sous la direction du ou de la titulaire du mandat dans le but d’aider les États, les partenaires humanitaires et les partenaires de développement à appliquer le Cadre conceptuel suivant un processus consistant en une analyse approfondie, une hiérarchisation des priorités et l’adoption de mesures ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_266" class="SingleTxtG">
+        <num>23.</num>
+        <content eId="para_266__content">
+          <p xml:space="preserve"> 	<span class="italic">Accueille avec satisfaction</span> les projets que des organisations régionales, comme l’Union africaine, l’Organisation des États américains, l’Organisation pour la sécurité et la coopération en Europe et le Conseil de l’Europe, et des organisations infrarégionales entreprennent afin de répondre aux besoins des personnes déplacées en matière d’aide, de protection et de développement et de trouver des solutions durables pour ces personnes, et engage ces organisations à intensifier leurs activités et à renforcer leur coopération avec le Rapporteur spécial/la Rapporteuse spéciale ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_289" class="SingleTxtG">
+        <num>24.</num>
+        <content eId="para_289__content">
+          <p xml:space="preserve"> 	<span class="italic">Accueille avec une profonde satisfaction</span> l’adoption, l’entrée en vigueur et le processus de ratification de la Convention de l’Union africaine sur la protection et l’assistance aux personnes déplacées en Afrique, qui représente une avancée notable dans le renforcement du cadre normatif national et régional pour la protection des personnes déplacées en Afrique et l’assistance à ces personnes, et engage les autres mécanismes régionaux à envisager d’élaborer des cadres normatifs régionaux comparables pour la protection des personnes déplacées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_313" class="SingleTxtG">
+        <num>25.</num>
+        <content eId="para_313__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage vivement</span> tous les gouvernements, en particulier dans les pays concernés par des déplacements internes, à faciliter les activités de l’Organisation des Nations Unies et des autres acteurs compétents qui visent à répondre aux besoins des personnes déplacées en matière de protection, d’assistance et de développement, et à répondre favorablement et rapidement aux demandes de visite et d’information du Rapporteur spécial ou de la Rapporteuse spéciale, souligne qu’il importe que celui‑ci ou celle-ci bénéficie d’un accès sans entrave, conformément à son mandat, et exhorte les gouvernements et les organismes compétents des Nations Unies, y compris au niveau des pays, de donner suite avec efficacité, selon que de besoin, aux recommandations du ou de la titulaire du mandat et de rendre disponibles des informations sur les mesures prises à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_338" class="SingleTxtG">
+        <num>26.</num>
+        <content eId="para_338__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte </span>les gouvernements, les membres du Comité permanent interorganisations, les coordonnateurs résidents, les coordonnateurs de l’action humanitaire et les équipes de pays à fournir en temps voulu des données pertinentes, fiables, ventilées et interopérables sur les situations de déplacement interne, notamment sur les caractéristiques des personnes déplacées et des communautés d’accueil, afin d’améliorer les politiques, les programmes et les mesures préventives concernant les déplacements internes, d’asseoir une action efficace et fondée sur les droits et de contribuer à la mise en place de solutions durables et, à cet égard, de travailler avec le Groupe d’experts en statistiques sur les réfugiés, les déplacés et les apatrides de la Commission de statistique, de communiquer des données à l’Observatoire des situations de déplacement interne pour la réalisation d’estimations et d’analyses mondiales, de solliciter l’appui et les conseils du Service commun de profilage des personnes déplacées (Joint Internal Displacement Profiling Service), en fonction des besoins, afin que des données choisies d’un commun accord et pouvant justifier une action concrète soient plus largement disponibles, et de fournir des ressources financières, selon qu’il conviendra, à ces fins ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_364" class="SingleTxtG">
+        <num>27.</num>
+        <content eId="para_364__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage </span>les entités des Nations Unies, y compris les institutions spécialisées, et les mécanismes établis à la fin du mandat du Conseiller spécial pour les solutions à apporter à la question des déplacements internes, les organisations intergouvernementales régionales, les titulaires de mandat, les institutions et experts indépendants intéressés et les organisations non gouvernementales à établir et à maintenir une coopération et un dialogue réguliers avec le Rapporteur spécial ou la Rapporteuse spéciale dans l’exercice de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_391" class="SingleTxtG">
+        <num>28.</num>
+        <content eId="para_391__content">
+          <p xml:space="preserve"> 	<span class="italic">Engage </span>tous les organismes compétents des Nations Unies ainsi que les organisations humanitaires, les organisations de défense des droits de l’homme et les organisations de développement à renforcer leur collaboration et leur coordination, notamment par l’intermédiaire des mécanismes de suivi établis à la fin du mandat du Conseiller spécial pour les solutions aux déplacements internes, du Comité permanent interorganisations et des équipes de pays des Nations Unies dans les pays concernés par des déplacements internes, et à la faveur des grandes réformes telles que la réforme humanitaire menée par le Coordonnateur des secours d’urgence (la « nouvelle donne humanitaire ») et la réforme de l’Organisation des Nations Unies menée par le Secrétaire général (Initiative ONU80), afin de fournir toute l’assistance et tout le soutien possibles au Rapporteur spécial ou à la Rapporteuse spéciale, et demande que celui‑ci ou celle-ci continue de participer aux travaux du Comité permanent interinstitutions et de ses organes subsidiaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_419" class="SingleTxtG">
+        <num>29.</num>
+        <content eId="para_419__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie </span>le Secrétaire général et le Haut-Commissariat des Nations Unies aux droits de l’homme de fournir au Rapporteur spécial/à la Rapporteuse spéciale toute l’assistance et le personnel dont il ou elle a besoin pour s’acquitter efficacement de son mandat, et de veiller à ce qu’il ou elle coopère étroitement avec le Coordonnateur/la Coordonnatrice des secours d’urgence, avec l’appui constant du Bureau de la coordination des affaires humanitaires, du Haut-Commissariat des Nations Unies pour les réfugiés et de tous les autres bureaux et organismes des Nations Unies compétents ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_448" class="SingleTxtG">
+        <num>30.</num>
+        <content eId="para_448__content">
+          <p xml:space="preserve"> 	<span class="italic">Prie</span> le Rapporteur spécial/la Rapporteuse spéciale de continuer à lui présenter, et à présenter à l’Assemblée générale, des rapports annuels sur l’exécution de son mandat, y compris sur les effets des mesures prises au niveau interinstitutionnel, et d’y faire des propositions et des recommandations concernant l’exercice, par les personnes déplacées, de leurs droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_478" class="SingleTxtG">
+        <num>31.</num>
+        <content eId="para_478__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide</span> de poursuivre l’examen de la question des droits humains des personnes déplacées conformément à son programme de travail.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="32e" refersTo="#adoptionMeeting">32e séance</location>
+          <eol />
+          <docDate date="2025-07-07" refersTo="#adoptionDate">7 juillet 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
