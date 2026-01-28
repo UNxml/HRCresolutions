@@ -1,0 +1,277 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/"></FRBRuri>
+          <FRBRdate date="2025-10-06" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/rus@/"></FRBRuri>
+          <FRBRdate date="2025-10-06" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/rus@.xml"></FRBRuri>
+          <FRBRdate date="2026-01-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office of the High Commissioner for Human Rights" showAs="UN. Office of the High Commissioner for Human Rights" dictionary="DHLAUTH"></keyword>
+        <keyword value="RECONCILIATION" href="http://metadata.un.org/thesaurus/1005391" showAs="RECONCILIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SRI LANKA" href="http://metadata.un.org/thesaurus/1006151" showAs="SRI LANKA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="2" showAs="Annual report of the United Nations High Commissioner for Human Rights and reports of the Office of the High Commissioner and the Secretary-General" dictionary="A/HRC/60/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-10-01" outcome="draftResolution" as="A/HRC/60/L.1/Rev.1" by="Albania, Austria, Canada, Costa Rica, Croatia, Estonia, Germany, Iceland, Ireland, Italy, Latvia, Liechtenstein, Luxembourg, Malawi, Malta, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Portugal, Romania, Slovakia, Slovenia, Spain, Switzerland and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-10-06" outcome="recommendedForAdoption" by="" />
+        <step date="2025-10-06" outcome="adopted" as="Adopted without vote, 41st meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="russian" href="/akn/ontology/concept/un/language/russian" showAs="Russian"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/60/1</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-10-06" class="rightSmall" refersTo="#dateOfIssuance">6 October 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Совет по правам человека</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="60" eId="coverPage_1__session_1">Шестидесятая сессия</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-09-08" refersTo="#startDate">8 сентября</date>
+          <date date="2025-10-08" refersTo="#endDate">8 октября 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="2" name="agenda item">Пункт 2 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Ежегодный доклад Верховного комиссара  Организации Объединенных Наций   по правам человека и доклады Управления  Верховного комиссара и Генерального секретаря</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Советом по правам человека 6 октября 2025 года</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>60/1.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Содействие примирению, привлечению к ответственности и правам человека в Шри‑Ланке</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет по правам человека</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">руководствуясь</span> целями и принципами Устава Организации Объединенных Наций, Всеобщей декларации прав человека и соответствующими международными договорами по правам человека,</p>
+      </container>
+      <container name="ссылаясь" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на предыдущие резолюции Совета по правам человека о содействии примирению, привлечению к ответственности и правам человека в Шри‑Ланке, последней из которых является резолюция <a href="https://docs.un.org/ru/A/HRC/RES/57/1">57/1</a> от 9 октября 2024 года,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span> свою приверженность суверенитету, независимости, единству и территориальной целостности Шри‑Ланки,</p>
+      </container>
+      <container name="вновь подтверждая также" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая также</span>, что каждое государство несет главную ответственность за уважение прав человека и обеспечение полного осуществления всех прав человека и основных свобод всем его населением,</p>
+      </container>
+      <container name="приветствуя" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">приветствуя </span>проведение свободных и прозрачных демократических президентских, парламентских и местных выборов в сентябре 2024 года, ноябре 2024 года и, соответственно, в мае 2025 года, </p>
+      </container>
+      <container name="призывая" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">призывая </span>правительство Шри‑Ланки выполнить его обязательства по передаче отдельных государственных полномочий, что является неотъемлемой частью примирения и всестороннего осуществления прав человека всем ее населением, а также рекомендуя правительству уважать местное самоуправление, в том числе путем проведения выборов в провинциальные советы, и обеспечивать, чтобы все провинциальные советы, включая северные и восточные провинциальные советы, могли действенным образом работать в соответствии с тринадцатой поправкой к Конституции Шри‑Ланки,</p>
+      </container>
+      <container name="приветствуя" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">приветствуя </span>усилия, которые правительство Шри‑Ланки прилагает для преодоления последствий тяжелого экономического кризиса, и подчеркивая важность устранения способствовавших этому кризису основных управленческих факторов и коренных причин, включая коррупцию, отсутствие подотчетности в сфере государственного управления и безнаказанность за нарушения и ущемления прав человека,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span>, что все люди в Шри‑Ланке имеют право на всестороннее пользование своими правами человека без какого бы то ни было различия, как то в отношении религии, убеждений или этнического происхождения, и важность мира для пользования правами человека,</p>
+      </container>
+      <container name="подчеркивая" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span> необходимость поощрения и защиты прав женщин и детей, в том числе путем укрепления инициатив по борьбе с гендерным насилием,</p>
+      </container>
+      <container name="особо отмечая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span> важность привлечения к ответственности за все нарушения и ущемления прав человека, совершенные в Шри‑Ланке всеми сторонами, в том числе за ущемления прав, совершенные «Тиграми освобождения Тамил-Илама»,</p>
+      </container>
+      <container name="напоминая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> об ответственности государств за выполнение их соответствующих обязательств согласно праву прав человека и международному гуманитарному праву, включая, где это применимо, судебное преследование лиц, виновных в злостных нарушениях права прав человека или серьезных нарушениях международного гуманитарного права,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> устную обновленную информацию, представленную Верховным комиссаром Организации Объединенных Наций по правам человека Совету по правам человека на его пятьдесят восьмой сессии, и доклад Управления Верховного комиссара Организации Объединенных Наций по правам человека, представленный Совету на его нынешней сессии<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	A/HRC/60/21.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">приветствует также </span>посещение Шри‑Ланки, осуществленное Верховным комиссаром Организации Объединенных Наций по правам человека в июне 2025 года по приглашению и при содействии правительства Шри‑Ланки, и взаимодействие правительства с Управлением Верховного комиссара и специальными процедурами Совета по правам человека, рекомендует продолжать такое взаимодействие и диалог и призывает правительство активно рассмотреть рекомендации, вынесенные Управлением и специальными процедурами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>меры, принятые правительством Шри‑Ланки для привлечения к ответственности за коррупцию и экономическую бесхозяйственность, которые имели серьезные пагубные последствия для осуществления прав человека в  Шри‑Ланке, и призывает к дальнейшим действиям в этой связи, включая расследования и, в соответствующих случаях, судебное преследование за коррупционные деяния, в том числе когда они совершены действующими и бывшими должностными лицами государства;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">приветствует </span>признание правительством Шри‑Ланки огромных страданий, перенесенных Шри‑Ланкой в результате этнических конфликтов, его приверженность тому, чтобы не допустить возврата к расколовшей общество расистской политике, признание им общей боли и горя людей во всех общинах, а также его приверженность обеспечению демократии, восстановлению верховенства права и созданию общества, свободного от дискриминации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">приветствует также </span>обязательство правительства Шри‑Ланки отменить Закон о предупреждении терроризма и формирование комитета для рассмотрения вопроса о его отмене, выражая при этом обеспокоенность в связи с сообщениями о продолжающихся производиться на основании этого закона задержаниях и о непропорционально большой доле задержанных на его основании лиц из тамильской и мусульманской общин, и настоятельно призывает правительство ввести мораторий на применение этого закона, ускорить его отмену и обеспечить полное соответствие любого законодательного акта о борьбе с терроризмом обязательствам государства, вытекающим из международного права, включая международное право прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">приветствует далее </span>обязательство правительства Шри‑Ланки внести изменения в Закон о безопасности в Интернете и формирование комитета для разработки таких изменений в закон, признавая при этом озабоченность в связи с тем, что в данном законе не предусмотрен судебный надзор и дается широкое определение правонарушений и полномочий по правоприменению, а также призывает правительство ускорить внесение изменений, чтобы обеспечить полное соответствие этого закона международным обязательствам государства по защите права на свободу мнений и их выражения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что многие случаи насильственных исчезновений в Шри‑Ланке остаются нераскрытыми и что это причиняет длительные страдания семьям исчезнувших людей, а также важность независимой и эффективной работы Бюро по делам пропавших без вести лиц;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> 	<span class="italic">констатирует</span> выявление многочисленных мест массового захоронения в Шри‑Ланке, подчеркивает необходимость обеспечения текущей работы соответствующими ресурсами, а также настоятельно призывает правительство  Шри‑Ланки в инициативном порядке обращаться за международной поддержкой с целью изыскания достаточных финансовых, людских и технических ресурсов для проведения эксгумаций в соответствии с международными стандартами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">приветствует </span>приверженность правительства Шри‑Ланки новому курсу по ряду давних вопросов, констатирует возобновление расследований по некоторым случаям нарушений прав человека и по взрывам в Пасхальное воскресенье и настоятельно призывает правительство ускорить расследования и судебное преследование в соответствии с международными стандартами в области прав человека, обратиться за международной технической помощью с целью укрепления потенциала и обеспечить полное участие жертв, пострадавших и их представителей, а также защиту жертв и свидетелей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением констатирует</span> приверженность правительства Шри‑Ланки созданию независимого органа государственного обвинения и настоятельно призывает обеспечить полную независимость, эффективность и надежность этого органа;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>правительство Шри‑Ланки обеспечивать оперативное, тщательное и беспристрастное расследование и, в соответствующих случаях, судебное преследование по факту всех предполагаемых преступлений, касающихся нарушений прав человека, а также серьезных нарушений международного гуманитарного права, в том числе в рамках давно рассматриваемых резонансных дел, при полном участии жертв и их представителей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает </span>правительство Шри‑Ланки создать такие условия, в которых представители гражданского общества, правозащитники, журналисты, жертвы, пострадавшие и члены их семей, особенно женщины, не будут подвергаться преследованиям и репрессиям ни в какой форме;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span> важность освобождения еще не освобожденных земель, которые продолжают занимать и использовать в хозяйственных целях военные и другие государственные субъекты, и разрешения земельных споров, в которых затрагиваются археологические, религиозные и природоохранные аспекты, прозрачным образом, с проведением консультаций, беспристрастно и без дискриминации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продлить мандат Управления Верховного комиссара и продолжить всю работу, о которой его просил Совет по правам человека в своей резолюции <a href="https://docs.un.org/ru/A/HRC/RES/51/1">51/1</a> от 6 октября 2022 года, и просит Управление представить Совету обновленную информацию в письменной форме на его шестьдесят третьей сессии и всеобъемлющий доклад о прогрессе в области примирения, привлечения к ответственности и прав человека в Шри‑Ланке на его шестьдесят шестой сессии с обсуждением в рамках интерактивного диалога.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="41-е" refersTo="#adoptionMeeting">41‑е заседание</location>
+          <eol />
+          <docDate date="2025-10-06" refersTo="#adoptionDate">6 октября 2025 года</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Принята без голосования.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
