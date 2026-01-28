@@ -1,0 +1,303 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/"></FRBRuri>
+          <FRBRdate date="2025-10-06" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/ara@/"></FRBRuri>
+          <FRBRdate date="2025-10-06" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/ara@.xml"></FRBRuri>
+          <FRBRdate date="2026-01-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office of the High Commissioner for Human Rights" showAs="UN. Office of the High Commissioner for Human Rights" dictionary="DHLAUTH"></keyword>
+        <keyword value="RECONCILIATION" href="http://metadata.un.org/thesaurus/1005391" showAs="RECONCILIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SRI LANKA" href="http://metadata.un.org/thesaurus/1006151" showAs="SRI LANKA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="2" showAs="Annual report of the United Nations High Commissioner for Human Rights and reports of the Office of the High Commissioner and the Secretary-General" dictionary="A/HRC/60/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-10-01" outcome="draftResolution" as="A/HRC/60/L.1/Rev.1" by="Albania, Austria, Canada, Costa Rica, Croatia, Estonia, Germany, Iceland, Ireland, Italy, Latvia, Liechtenstein, Luxembourg, Malawi, Malta, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Portugal, Romania, Slovakia, Slovenia, Spain, Switzerland and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-10-06" outcome="recommendedForAdoption" by="" />
+        <step date="2025-10-06" outcome="adopted" as="Adopted without vote, 41st meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="arabic" href="/akn/ontology/concept/un/language/arabic" showAs="Arabic"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/60/1</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-10-06" class="rightSmall" refersTo="#dateOfIssuance">6 October 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">مجلس حقوق الإنسان</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="60" eId="coverPage_1__session_1">الدورة الستون</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-09-08" refersTo="#startDate">8 أيلول</date>
+          <date date="2025-10-08" refersTo="#endDate">8 تشرين الأول 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="2" name="agenda item">البند 2 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">التقرير السنوي لمفوض الأمم المتحدة السامي لحقوق الإنسان وتقارير المفوضية السامية والأمين العام</inline>
+      </p>
+      <p>
+        <docTitle>قرار اعتمده مجلس حقوق الإنسان في 6 تشرين الأول/أكتوبر 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>60/1</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	تعزيز المصالحة والمساءلة وحقوق الإنسان في سري لانكا</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن مجلس حقوق الإنسان،</span>
+        </p>
+      </formula>
+      <container name="إذ يسترشد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	إذ يسترشد</span> بمبادئ ومقاصد ميثاق الأمم المتحدة، والإعلان العالمي لحقوق الإنسان، ومعاهدات حقوق الإنسان الدولية ذات الصلة،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى قرارات مجلس حقوق الإنسان السابقة بشأن تعزيز المصالحة والمساءلة وحقوق الإنسان في سري لانكا، وآخرها القرار <a href="https://docs.un.org/ar/A/HRC/RES/57/1">57/1</a> المؤرخ 9 تشرين الأول/أكتوبر 2024،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> التزامه بسيادة سري لانكا واستقلالها ووحدتها وسلامة إقليمها،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد أيضاً" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد أيضاً</span> أن المسؤولية الرئيسية لكل دولة هي احترام حقوق الإنسان وضمان تمتع جميع سكانها تمتعاً كاملاً بجميع حقوق الإنسان والحريات الأساسية،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يرحب</span> بإجراء انتخابات رئاسية وبرلمانية ومحلية ديمقراطية حرة وشفافة في أيلول/سبتمبر 2024، وتشرين الثاني/نوفمبر 2024 وأيار/مايو 2025 على التوالي،</p>
+      </container>
+      <container name="وإذ يهيب" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يهيب</span> بحكومة سري لانكا أن تفي بالتزاماتها بشأن تفويض السلطة السياسية، وهو أمر لا غنى عنه لتحقيق المصالحة وتمتع جميع أفراد سكانها بحقوق الإنسان تمتعاً كاملاً، وإذ يشجع الحكومة على احترام الحكم المحلي، بما في ذلك من خلال إجراء انتخابات للمجالس الإقليمية، وضمان أن تكون جميع المجالس الإقليمية، بما فيها المجلسان الإقليميان الشمالي والشرقي، قادرة على العمل بفعالية، وفقاً للتعديل الثالث عشر لدستور سري لانكا،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يرحب</span> بالجهود المتواصلة التي تبذلها حكومة سري لانكا لمعالجة آثار الأزمة الاقتصادية الحادة، وإذ يؤكد أهمية معالجة عوامل الحوكمة الأساسية والأسباب الجذرية التي أسهمت في تلك الأزمة، بما في ذلك الفساد وانعدام المساءلة في الحوكمة والإفلات من العقاب على انتهاكات حقوق الإنسان والتجاوزات التي ارتكبت،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد من جديد</span> أن لجميع الأفراد في سري لانكا الحق في التمتع الكامل بحقوق الإنسان الخاصة بهم من دون تمييز من أي نوع مثل الدين أو المعتقد أو الأصل الإثني، وأهمية السلام للتمتع بحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يؤكد</span> على ضرورة تعزيز وحماية حقوق المرأة والطفل، بما في ذلك تعزيز المبادرات الرامية إلى مكافحة العنف الجنساني،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشدد</span> على أهمية المساءلة عن جميع انتهاكات وتجاوزات حقوق الإنسان المرتكبة في سري لانكا من قبل جميع الأطراف، بما في ذلك الانتهاكات التي ارتكبها نمور تحرير تاميل إيلام،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	وإذ يشير</span> إلى مسؤولية الدول عن الامتثال لالتزاماتها ذات الصلة بموجب قانون حقوق الإنسان والقانون الدولي الإنساني، بما في ذلك، عند الاقتضاء، مقاضاة المسؤولين عن الانتهاكات الجسيمة لقانون حقوق الإنسان أو الانتهاكات الخطيرة للقانون الدولي الإنساني،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxtGA">
+        <num>1-</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">
+            <span class="italic">	يرحب</span> بالتحديث الشفوي الذي قدمه مفوض الأمم المتحدة السامي لحقوق الإنسان إلى مجلس حقوق الإنسان في دورته الثامنة والخمسين، وبتقرير مفوضية الأمم المتحدة السامية لحقوق الإنسان إلى المجلس في دورته الحالية<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()	<a href="https://docs.un.org/ar/A/HRC/60/21">A/HRC/60/21</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtGA">
+        <num>2-</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">
+            <span class="italic">	يرحب أيضاً</span> بالزيارة التي قام بها مفوض الأمم المتحدة السامي لحقوق الإنسان إلى سري لانكا في حزيران/يونيه 2025 بدعوة وتيسير من حكومة سري لانكا، وبتعاون الحكومة مع المفوضية السامية والإجراءات الخاصة لمجلس حقوق الإنسان، ويشجع على مواصلة هذا التعاون والحوار، ويهيب بالحكومة إلى النظر فعلياً في التوصيات التي تقدمها المفوضية والإجراءات الخاصة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtGA">
+        <num>3-</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">
+            <span class="italic">	يسلّم</span> بالتدابير التي اتخذتها حكومة سري لانكا من أجل المساءلة عن الفساد وسوء الإدارة الاقتصادية، مما كان له أثر ضار كبير على التمتع بحقوق الإنسان في سري لانكا، ويشجع على اتخاذ مزيد من الإجراءات في هذا الصدد، بما في ذلك إجراء تحقيقات في الفساد، بما في ذلك عندما يرتكبه موظفون عموميون حاليون وسابقون، ومقاضاة مرتكبيه عند الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtGA">
+        <num>4-</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">
+            <span class="italic">	يرحب</span> باعتراف حكومة سري لانكا بالمعاناة الشديدة التي تحملتها سري لانكا بسبب النزاعات الإثنية وبالتزامها بعدم السماح بعودة السياسات العنصرية المثيرة للانقسام، وباعترافها بالألم والحزن المشترك للأفراد في جميع المجتمعات وبالتزامها بضمان الديمقراطية واستعادة سيادة القانون وإقامة مجتمع خالٍ من التمييز؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtGA">
+        <num>5-</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">
+            <span class="italic">	يرحب أيضاً</span> بالتزام حكومة سري لانكا بإلغاء قانون منع الإرهاب وتعيين لجنة لدراسة إلغائه، ويعرب في الوقت نفسه عن قلقه إزاء تقارير تفيد بأن الاعتقالات بموجب هذا القانون مستمرة، وأنها تمس بشكل غير متناسب الأفراد من طائفتي التاميل والمسلمين، ويحث الحكومة على تطبيق وقف اختياري لاستخدام هذا القانون، والتعجيل بإلغائه وضمان أن يتوافق أي تشريع بشأن مكافحة الإرهاب توافقاً تاماً مع التزامات الدولة الناشئة عن القانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGA">
+        <num>6-</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">
+            <span class="italic">	يرحب كذلك</span> بالتزام حكومة سري لانكا بتعديل قانون السلامة على الإنترنت وتعيين لجنة لصياغة تعديلات على هذا القانون، مع الإقرار بالشواغل المتعلقة بغياب الرقابة القضائية في القانون والتعريف الواسع للجرائم وسلطات الإنفاذ، ويشجع الحكومة على التعجيل بتعديله لضمان امتثاله التام الالتزامات الدولية للدولة بحماية الحق في حرية الرأي والتعبير؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGA">
+        <num>7-</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">
+            <span class="italic">	يدرك</span> أن العديد من حالات الاختفاء القسري لا تزال من دون حل في سري لانكا، وأن هذا الأمر سبب معاناة طويلة لأسر المفقودين، ويقدر أهمية الأداء المستقل والفعال للمكتب المعني بالمفقودين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtGA">
+        <num>8-</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">
+            <span class="italic">	يقرّ</span> بتحديد مواقع المقابر الجماعية المتعددة في سري لانكا، ويشدد على ضرورة توفير الموارد الكافية للعمل الجاري، ويحث حكومة سري لانكا على التماس الدعم الدولي بشكل استباقي لضمان توفير الموارد المالية والبشرية والتقنية الكافية لإجراء عمليات استخراج الجثث وفقاً للمعايير الدولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtGA">
+        <num>9-</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">
+            <span class="italic">	يرحب</span> بالتزام حكومة سري لانكا بالاتجاه المتجدد بشأن عدة قضايا طال أمدها، ويقر بإعادة فتح التحقيقات في بعض القضايا لانتهاكات حقوق الإنسان وتفجيرات أحد الفصح، ويحث الحكومة على تسريع التحقيقات والملاحقات القضائية امتثالاً للمعايير الدولية لحقوق الإنسان، وعلى التماس المساعدة التقنية الدولية لتعزيز القدرات، وضمان المشاركة الكاملة للضحايا والناجين وممثليهم، فضلاً عن حماية الضحايا والشهود؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtGA">
+        <num>10-</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">
+            <span class="italic">	ينوه مع التقدير</span> بالتزام حكومة سري لانكا بإنشاء هيئة ادعاء عام مستقلة، ويحث على أن تكون هذه الهيئة مستقلة وفعالة وقوية تماماً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtGA">
+        <num>11-</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">
+            <span class="italic">	يهيب</span> بحكومة سري لانكا إلى ضمان إجراء تحقيقات فورية وشاملة ونزيهة في جميع الجرائم المزعومة المتعلقة بانتهاكات حقوق الإنسان والانتهاكات الجسيمة للقانون الدولي الإنساني، بما في ذلك الحالات الرمزية التي طال أمدها، ومقاضاة مرتكبيها إذا اقتضى الأمر، بمشاركة كاملة من الضحايا وممثليهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtGA">
+        <num>12-</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">
+            <span class="italic">	يحث</span> حكومة سري لانكا على تهيئة بيئة مواتية يكون فيها ممثلو المجتمع المدني والمدافعون عن حقوق الإنسان والصحفيون، والضحايا، والناجون وأسرهم، ولا سيما النساء، بمنأى عن جميع أشكال المضايقة والانتقام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtGA">
+        <num>13-</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">
+            <span class="italic">	يشدد</span> على أهمية الإفراج عن الأراضي المتبقية التي لا تزال محجوزة ومستخدمة اقتصادياً من قبل الجيش والجهات الفاعلة الأخرى التابعة للدولة، وعلى أهمية حل النزاعات على الأراضي التي تنطوي على قضايا أثرية ودينية وقضايا الحفاظ على الآثار بطرق شفافة وتشاورية ونزيهة وغير تمييزية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxtGA">
+        <num>14-</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">
+            <span class="italic">	يقرر</span> تمديد ولاية المفوضية السامية وجميع الأعمال التي طلبها منها مجلس حقوق الإنسان في قراره <a href="https://docs.un.org/ar/A/HRC/RES/51/1">51/1</a> المؤرخ 6 تشرين الأول/أكتوبر 2022، ويطلب إلى المفوضية أن تقدم تقريراً كتابياً محدَّثاً في دورته الثالثة والستين، وتقريراً شاملاً عن التقدم المحرز في مجال المصالحة والمساءلة وحقوق الإنسان في سري لانكا في دورته السادسة والستين، من أجل مناقشته في إطار جلسة تحاور.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="41" refersTo="#adoptionMeeting">الجلسة 41</location>
+          <eol />
+          <docDate date="2025-10-06" refersTo="#adoptionDate">6 تشرين الأول/أكتوبر 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[اعتمد من دون تصويت.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
