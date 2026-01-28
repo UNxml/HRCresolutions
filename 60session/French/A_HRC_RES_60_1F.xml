@@ -1,0 +1,277 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/"></FRBRuri>
+          <FRBRdate date="2025-10-06" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/fra@/"></FRBRuri>
+          <FRBRdate date="2025-10-06" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/fra@.xml"></FRBRuri>
+          <FRBRdate date="2026-01-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office of the High Commissioner for Human Rights" showAs="UN. Office of the High Commissioner for Human Rights" dictionary="DHLAUTH"></keyword>
+        <keyword value="RECONCILIATION" href="http://metadata.un.org/thesaurus/1005391" showAs="RECONCILIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SRI LANKA" href="http://metadata.un.org/thesaurus/1006151" showAs="SRI LANKA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="2" showAs="Annual report of the United Nations High Commissioner for Human Rights and reports of the Office of the High Commissioner and the Secretary-General" dictionary="A/HRC/60/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-10-01" outcome="draftResolution" as="A/HRC/60/L.1/Rev.1" by="Albania, Austria, Canada, Costa Rica, Croatia, Estonia, Germany, Iceland, Ireland, Italy, Latvia, Liechtenstein, Luxembourg, Malawi, Malta, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Portugal, Romania, Slovakia, Slovenia, Spain, Switzerland and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-10-06" outcome="recommendedForAdoption" by="" />
+        <step date="2025-10-06" outcome="adopted" as="Adopted without vote, 41st meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="french" href="/akn/ontology/concept/un/language/french" showAs="French"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/60/1</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-10-06" class="rightSmall" refersTo="#dateOfIssuance">6 octobre 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">Conseil des droits de l'homme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="60" eId="coverPage_1__session_1">Soixantième session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-09-08" refersTo="#startDate">8 septembre</date>
+          <date date="2025-10-08" refersTo="#endDate">8 octobre 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="2" name="agenda item">Point 2 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Rapport annuel du Haut-Commissaire des Nations Unies aux droits de l’homme et rapports du Haut-Commissariat et du Secrétaire général</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil des droits de l’homme  le 6 octobre 2025</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>60/1.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Favoriser la réconciliation et l’établissement des responsabilités  et promouvoir les droits de l’homme à Sri Lanka</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil des droits de l’homme</span>,</p>
+      </formula>
+      <container name="Guidé" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Guidé</span> par les buts et principes énoncés dans la Charte des Nations Unies, la Déclaration universelle des droits de l’homme et les instruments internationaux relatifs aux droits de l’homme pertinents,</p>
+      </container>
+      <container name="Rappelant" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> ses résolutions antérieures relatives aux moyens de favoriser la réconciliation et l’établissement des responsabilités et de promouvoir les droits de l’homme à Sri Lanka, la plus récente étant la résolution <a href="https://docs.un.org/fr/A/HRC/RES/57/1">57/1</a>, du 9 octobre 2024,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant </span>qu’il est attaché à la souveraineté, à l’indépendance, à l’unité et à l’intégrité territoriale de Sri Lanka,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant également </span>que c’est à chaque État qu’il incombe au premier chef de respecter les droits de l’homme et de faire en sorte que sa population tout entière jouisse pleinement de tous les droits de l’homme et de toutes les libertés fondamentales,</p>
+      </container>
+      <container name="Se félicitant" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Se félicitant </span>de la tenue, respectivement en septembre 2024, en novembre 2024 et en mai 2025, d’élections présidentielles, législatives et locales démocratiques, libres et transparentes,</p>
+      </container>
+      <container name="Demandant" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Demandant </span>au Gouvernement sri-lankais de respecter les engagements qu’il a pris en matière de transfert du pouvoir politique, qui sont indispensables à la réconciliation et au plein exercice des droits de l’homme par la population dans son ensemble, et engageant le Gouvernement à respecter la gouvernance locale, notamment par la tenue d’élections aux conseils provinciaux, et à faire en sorte que tous les conseils provinciaux, y compris ceux du Nord et de l’Est puissent fonctionner efficacement, conformément au treizième amendement de la Constitution de Sri Lanka,</p>
+      </container>
+      <container name="Se félicitant" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Se félicitant </span>des efforts que le Gouvernement sri-lankais déploie actuellement pour remédier aux effets de la grave crise économique que subit le pays, et soulignant qu’il importe de s’attaquer aux facteurs de gouvernance sous-jacents et aux causes profondes qui ont contribué à cette crise, notamment la corruption, l’absence de reddition de compte de la part des gouvernants et l’impunité pour les violations des droits de l’homme et les atteintes à ces droits,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant </span>que toutes les personnes qui vivent à Sri Lanka ont le droit de jouir pleinement de leurs droits humains sans distinction aucune, notamment de religion, de croyance ou d’origine ethnique, et qu’il importe de vivre dans la paix pour pouvoir exercer ces droits,</p>
+      </container>
+      <container name="Insistant sur" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Insistant sur </span>la nécessité de promouvoir et de protéger les droits des femmes et des enfants, notamment en renforçant les initiatives de lutte contre la violence fondée sur le genre,</p>
+      </container>
+      <container name="Soulignant" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Soulignant </span>qu’il importe d’établir les responsabilités pour toutes les violations des droits de l’homme et toutes les atteintes à ces droits commises à Sri Lanka par toutes les parties, y compris les atteintes imputables aux Tigres de libération de l’Eelam tamoul,</p>
+      </container>
+      <container name="Rappelant" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>qu’il incombe aux États de s’acquitter des obligations que leur imposent le droit des droits de l’homme et le droit international humanitaire, y compris, lorsqu’il y a lieu, de l’obligation de poursuivre les personnes responsables de violations flagrantes du droit des droits de l’homme ou de violations graves du droit international humanitaire,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxtG">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve"> 	<span class="italic">Accueille avec satisfaction </span>le compte rendu oral que le Haut-Commissaire des Nations Unies aux droits de l’homme lui a fait à sa cinquante-huitième session et le rapport que le Haut-Commissariat lui a présenté à sa session en cours<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/fr/A/HRC/60/21">A/HRC/60/21</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtG">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite</span> que le Haut-Commissaire se soit rendu à Sri Lanka en juin 2025 à l’invitation et avec l’appui du Gouvernement sri-lankais et que celui‑ci ait coopéré avec le Haut‑Commissariat et des titulaires de mandat au titre des procédures spéciales, préconise de poursuivre cette collaboration et ce dialogue, et demande au Gouvernement d’examiner attentivement les recommandations formulées par le Haut-Commissariat et les titulaires de mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtG">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> 	<span class="italic">Constate</span> que le Gouvernement sri-lankais a pris des mesures pour que les auteurs de faits de corruption et les responsables de la mauvaise gestion économique du pays − deux phénomènes qui ont eu des effets néfastes considérables sur l’exercice des droits de l’homme à Sri Lanka − rendent des comptes, et préconise de poursuivre les initiatives prises à cet égard, notamment l’ouverture d’enquêtes et, lorsque cela se justifie, l’engagement de poursuites pour corruption, y compris lorsqu’elle serait le fait d’anciens agents publics ou d’agents toujours en fonction ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtG">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite</span> que le Gouvernement sri-lankais ait reconnu les immenses souffrances causées par les conflits ethniques, se soit engagé à prévenir une résurgence des politiques racistes clivantes, ait admis que la douleur et le chagrin étaient partagés par les membres de toutes les communautés et se soit engagé à garantir la démocratie, à rétablir l’état de droit et à créer une société exempte de toute discrimination ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtG">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite également</span> que le Gouvernement sri-lankais se soit engagé à abroger la loi sur la prévention du terrorisme et qu’un comité chargé de l’examen de l’abrogation ait été désigné, prend note avec préoccupation des informations selon lesquelles des personnes continuent d’être placées en détention sur le fondement de cette loi, celles issues des communautés tamoule et musulmane étant touchées de manière disproportionnée, et exhorte le Gouvernement à décréter un moratoire sur l’application de cette loi, à accélérer son abrogation et à veiller à ce que toutes les dispositions légales relatives à la lutte contre le terrorisme soient pleinement conformes aux obligations que le droit international, notamment le droit international des droits de l’homme, lui impose ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtG">
+        <num>6.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite en outre </span>que le Gouvernement sri-lankais se soit engagé à modifier la loi sur la sécurité en ligne et qu’une commission de révision ait été désignée, est conscient des préoccupations relatives au fait que la loi ne prévoit pas de contrôle judiciaire et retient des définitions larges pour certaines infractions et certains pouvoirs d’exécution, et engage le Gouvernement à accélérer la modification de la loi afin de garantir qu’elle est pleinement conforme aux obligations internationales de l’État en matière de protection du droit à la liberté d’opinion et d’expression ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtG">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">Constate</span> que de nombreux cas de disparitions forcées restent non résolus à Sri Lanka, ce qui cause des souffrances prolongées aux familles des disparus, et qu’il importe que le Bureau des personnes disparues puisse fonctionner indépendamment et effectivement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtG">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> 	<span class="italic">Note</span> que plusieurs charniers ont été découverts sur le territoire national, souligne qu’il faut que les travaux en cours soient adéquatement financés et exhorte le Gouvernement sri-lankais à chercher à s’assurer, auprès d’acteurs internationaux, des ressources financières, humaines et techniques suffisantes pour mener les exhumations conformément aux normes internationales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtG">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve"> 	<span class="italic">Se félicite</span> que le Gouvernement sri-lankais se soit engagé à reconsidérer plusieurs problèmes de longue date, note que les autorités ont rouvert des enquêtes concernant certaines affaires de violations des droits de l’homme ainsi que les attentats à la bombe du dimanche de Pâques, et exhorte le Gouvernement à accélérer les enquêtes et les poursuites dans le respect des normes internationales relatives aux droits de l’homme, à solliciter une assistance technique internationale aux fins du renforcement des capacités et à garantir la pleine participation des victimes, des survivants et de leurs représentants, ainsi que la protection des victimes et des témoins ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtG">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve"> 	<span class="italic">Note avec satisfaction</span> que le Gouvernement sri-lankais s’est engagé à mettre en place un organe indépendant chargé des poursuites et l’exhorte à faire en sorte que cet organe soit pleinement indépendant, efficace et solide ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtG">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve"> 	<span class="italic">Demande</span> au Gouvernement sri-lankais de veiller à ce que toutes les allégations de violations des droits de l’homme et de violations graves du droit international humanitaire fassent rapidement l’objet d’une enquête approfondie et impartiale et, si nécessaire, donnent lieu à des poursuites judiciaires, y compris dans les affaires anciennes et emblématiques, avec la pleine participation des victimes et de leurs représentants ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtG">
+        <num>12.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve"> 	<span class="italic">Exhorte </span>le Gouvernement sri-lankais à créer un environnement propice dans lequel les représentants de la société civile, les défenseurs des droits de l’homme, les journalistes, les victimes, les survivants et les membres de leur famille, en particulier les femmes, ne subissent aucune forme de harcèlement ou de représailles ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtG">
+        <num>13.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve"> 	<span class="italic">Souligne </span>qu’il importe de remettre à disposition les dernières terres encore détenues et utilisées à des fins économiques par l’armée et d’autres acteurs de l’État, et de régler les différends fonciers portant sur des questions archéologiques et religieuses et sur des questions de conservation de manière transparente, impartiale et non discriminatoire et en menant des consultations ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxtG">
+        <num>14.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide</span> de proroger le mandat du Haut-Commissariat et toutes les tâches qu’il lui a confiées dans sa résolution <a href="https://docs.un.org/fr/A/HRC/RES/51/1">51/1</a>, du 6 octobre 2022, et prie le Haut-Commissariat de lui soumettre un compte rendu écrit à sa soixante-troisième session et un rapport complet sur les progrès réalisés en matière de réconciliation, d’établissement des responsabilités et de promotion des droits de l’homme à Sri Lanka à sa soixante-sixième session, rapport qui sera examiné dans le cadre d’un dialogue.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="41e" refersTo="#adoptionMeeting">41e séance</location>
+          <eol />
+          <docDate date="2025-10-06" refersTo="#adoptionDate">6 octobre 2025</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[Adoptée sans vote.]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
