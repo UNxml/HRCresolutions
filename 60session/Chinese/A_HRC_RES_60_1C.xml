@@ -1,0 +1,283 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/"></FRBRuri>
+          <FRBRdate date="2025-10-06" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/zho@/"></FRBRuri>
+          <FRBRdate date="2025-10-06" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-hrc/2025-10-06/60-1/zho@.xml"></FRBRuri>
+          <FRBRdate date="2026-01-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office of the High Commissioner for Human Rights" showAs="UN. Office of the High Commissioner for Human Rights" dictionary="DHLAUTH"></keyword>
+        <keyword value="RECONCILIATION" href="http://metadata.un.org/thesaurus/1005391" showAs="RECONCILIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ACCOUNTABILITY" href="http://metadata.un.org/thesaurus/1000028" showAs="ACCOUNTABILITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SRI LANKA" href="http://metadata.un.org/thesaurus/1006151" showAs="SRI LANKA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="2" showAs="Annual report of the United Nations High Commissioner for Human Rights and reports of the Office of the High Commissioner and the Secretary-General" dictionary="A/HRC/60/1/Rev.1"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-10-01" outcome="draftResolution" as="A/HRC/60/L.1/Rev.1" by="Albania, Austria, Canada, Costa Rica, Croatia, Estonia, Germany, Iceland, Ireland, Italy, Latvia, Liechtenstein, Luxembourg, Malawi, Malta, Montenegro, Netherlands (Kingdom of the), New Zealand, North Macedonia, Norway, Portugal, Romania, Slovakia, Slovenia, Spain, Switzerland and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-10-06" outcome="recommendedForAdoption" by="" />
+        <step date="2025-10-06" outcome="adopted" as="Adopted without vote, 41st meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="subsidiaryBody" href="/akn/role/concept/un/subsidiaryBody" showAs="Subsidiary body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="hrc" href="/akn/ontology/organization/un/generalAssembly/humanRightsCouncil" showAs="Human Rights Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+        <TLCTerm eId="chinese" href="/akn/ontology/concept/un/language/chinese" showAs="Chinese"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/HRC/RES/60/1</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-10-06" class="rightSmall" refersTo="#dateOfIssuance">6 October 2025</docDate>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#subsidiaryBody">人权理事会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#humanRightsCouncil" value="60" eId="coverPage_1__session_1">第六十届会议</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <date date="2025-09-08" refersTo="#startDate">8 九月</date>
+          <date date="2025-10-08" refersTo="#endDate">8 十月 2025</date>
+        </event>
+      </p>
+      <p>
+        <inline title="2" name="agenda item">议程项目2</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">联合国人权事务高级专员的年度报告以及 高级专员办事处的报告和秘书长的报告</inline>
+      </p>
+      <p>
+        <docTitle>人权理事会2025年10月6日通过的决议</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>60/1.</docNumber>
+        <docTitle refersTo="#resolutionTitle">促进斯里兰卡国内的和解、问责与人权</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">人权理事会</span>，</p>
+      </formula>
+      <container name="遵循" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">遵循</span>《联合国宪章》的宗旨和原则、《世界人权宣言》和相关国际人权条约，</p>
+      </container>
+      <container name="回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">回顾</span>人权理事会以往关于促进斯里兰卡国内的和解、问责与人权的各项决议，最近的一项是2024年10月9日第57/1号决议，</p>
+      </container>
+      <container name="重申" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">重申</span>理事会对斯里兰卡的主权、独立、统一和领土完整的承诺，</p>
+      </container>
+      <container name="又重申" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">又重申</span>尊重人权并确保全体人民充分享受所有人权和基本自由是各国的首要责任，</p>
+      </container>
+      <container name="欢迎" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>总统选举、议会选举和地方选举分别于2024年9月、2024年11月和2025年5月以自由、透明、民主的方式举行，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_7" class="SingleTxtGC">
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>斯里兰卡政府履行关于政治权力下放的承诺，这是实现和解和全体人民充分享有人权的必要因素，鼓励政府尊重地方治理，包括举行省议会选举，并确保所有省议会，包括北部省议会和东部省议会，能够根据斯里兰卡《宪法》第十三修正案有效运作，</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="欢迎" eId="container_8">
+        <p xml:space="preserve">
+          <span class="bold">	欢迎</span>斯里兰卡政府正在努力应对严重经济危机的影响，并强调，必须解决造成经济危机的治理因素并消除危机根源，包括腐败、治理中缺乏问责以及侵犯和践踏人权行为不受惩罚，</p>
+      </container>
+      <container name="重申" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">重申</span>斯里兰卡的所有人都有权充分享有人权，不因宗教、信仰或族裔血统等因素而有任何区分，并重申和平对于享有人权的重要性，</p>
+      </container>
+      <container name="强调" eId="container_10">
+        <p xml:space="preserve">
+          <span class="bold">	强调</span>需要促进和保护妇女和儿童的权利，包括为此加强相关举措，打击性别暴力，</p>
+      </container>
+      <container name="强调" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">强调</span>必须对斯里兰卡境内各方实施的所有侵犯和践踏人权行为，包括对泰米尔伊拉姆猛虎解放组织实施的侵害行为进行问责，</p>
+      </container>
+      <container name="回顾" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">回顾</span>各国有责任遵守人权法和国际人道法下的相关义务，包括在适用情况下起诉公然违反人权法和严重违反国际人道法行为的责任人，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxtGC">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>联合国人权事务高级专员向人权理事会第五十八届会议口头介绍最新情况，并欢迎联合国人权事务高级专员办事处提交理事会本届会议的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/zh/A/HRC/60/21">A/HRC/60/21</a>.</p></authorialNote>；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxtGC">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="bold">又欢迎</span>联合国人权事务高级专员应斯里兰卡政府邀请并在该国政府的协助下于2025年6月访问斯里兰卡，欢迎该国政府与高级专员办事处及人权理事会特别程序进行接触，鼓励继续进行此类接触和对话，促请该国政府积极考虑高级专员办事处和特别程序提出的建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxtGC">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>斯里兰卡政府就腐败和经济管理不善采取了问责措施，腐败和经济管理不善严重有损斯里兰卡国内人权的享有，鼓励在这方面进一步采取行动，包括调查腐败行为，包括现任和前任公职人员实施的腐败行为，并在有正当理由时进行起诉；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxtGC">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>斯里兰卡政府承认族裔冲突给斯里兰卡带来巨大苦难并承诺不允许再度出现造成分裂的种族主义政治，欢迎该国政府认识到所有社区中的个人共同经历了痛苦和悲伤并承诺保障民主、恢复法治以及创建无歧视社会；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxtGC">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="bold">又欢迎</span>斯里兰卡政府承诺废除《防止恐怖主义行为法》，并任命了一个委员会负责审查废除该法的相关情况，同时表示关切的是，有报告称，仍在依据这项法律实施拘留，这严重影响了泰米尔和穆斯林社区的个人，敦促政府暂停使用该法，加快将之废除，并确保任何有关打击恐怖主义的立法完全符合该国根据国际法(包括国际人权法)承担的义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxtGC">
+        <num>6.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="bold">还欢迎</span>斯里兰卡政府承诺修订《网络安全法》并任命一个委员会负责拟定该法的修正案，同时表示感到关切的是，该法中缺少关于司法监督的规定，对犯罪和执行权的定义宽泛，鼓励政府加快修订该法，以确保其完全符合国家在保护意见和表达自由权方面的国际义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxtGC">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>斯里兰卡有许多强迫失踪案件仍未解决，这给失踪者家属造成了长期痛苦，确认失踪人员办公室必须独立有效地运作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxtGC">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="bold">表示肯定的是</span>，斯里兰卡的多处万人坑已被确认，强调需要为正在进行的工作提供充足资源，敦促斯里兰卡政府积极寻求国际支持，以确保有足够的资金、人力和技术资源，根据国际标准发掘遗骸；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxtGC">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>斯里兰卡政府承诺重新开始处理几个长期存在的问题，表示肯定的是，一些侵犯人权案件和复活节周日爆炸案被重启调查，并敦促政府按照国际人权标准加快调查和起诉，寻求国际技术援助以加强能力，确保受害者、幸存者及其代表的充分参与以及对受害者和证人的保护；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxtGC">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地知悉</span>斯里兰卡政府致力于建立一个独立的检察机构，并敦促，该机构应完全独立、有效和有力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxtGC">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>斯里兰卡政府确保对所有被指称的侵犯人权和严重违反国际人道法的犯罪行为(包括长期未解决的重大案件)进行及时、彻底和公正的调查，在有正当理由时进行起诉，并让受害者及其代表充分参与其中；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxtGC">
+        <num>12.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>斯里兰卡政府创造有利环境，让民间社会代表、人权维护者、记者、受害者、幸存者及其家人(特别是妇女)，免受一切形式的骚扰和报复；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxtGC">
+        <num>13.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>必须腾退其余仍被军队和其他国家行为体控制和用于经济目的的土地，并以透明、协商、公正和非歧视的方式解决涉及考古、宗教和保护问题的土地争端；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxtGC">
+        <num>14.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>延长2022年10月6日第51/1号决议授权高级专员办事处的任务及要求开展的所有工作，并请高级专员办事处向理事会第六十三届会议书面介绍最新情况，向理事会第六十六届会议提交一份关于斯里兰卡国内和解、问责与人权方面进展情况的全面报告，供在互动对话中讨论。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第41次" refersTo="#adoptionMeeting">第41次会议</location>
+          <eol />
+          <docDate date="2025-10-06" refersTo="#adoptionDate">2025年10月6日</docDate>
+        </event>
+      </p>
+      <p>
+        <vote by="#humanRightsCouncil" as="#author">
+          <outcome refersTo="#adoptedWithoutVote">[未经表决获得通过。]</outcome>
+        </vote>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
